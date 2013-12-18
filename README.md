@@ -1,1 +1,1 @@
-Russian RAPIRA language pack for SuiteCRM
+Russian RAPIRA language files for SuiteCRM
