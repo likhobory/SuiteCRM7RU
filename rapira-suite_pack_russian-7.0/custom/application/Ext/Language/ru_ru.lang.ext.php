@@ -46,6 +46,7 @@ $app_strings['LBL_RESCHEDULE_ERROR2'] = 'Укажите причину, по к�
 $app_strings['LBL_RESCHEDULE_PANEL'] = 'Отложенные звонки';
 $app_strings['LBL_RESCHEDULE_HISTORY'] = 'История дозвона';
 $app_strings['LBL_RESCHEDULE_COUNT'] = 'Попыток дозвона';
+$app_strings['LBL_RESCHEDULE'] = 'Отложить звонок';
 
 
 

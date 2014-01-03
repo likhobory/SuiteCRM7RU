@@ -67,7 +67,7 @@ $mod_strings = array (
 'LBL_LIST_PROSPECT_ROLE' => 'Роль' ,
 'LBL_LIST_FIRST_NAME' => 'Имя' ,
 'LBL_ASSIGNED_TO_NAME' => 'Ответственный(ая)' ,
-'LBL_ASSIGNED_TO_ID' => 'Ответственный(ая)-ID:',
+'LBL_ASSIGNED_TO_ID' => 'Ответственный(ая):',
 //DON'T CONVERT THESE THEY ARE MAPPINGS
 'db_last_name' => 'LBL_LIST_LAST_NAME',
 'db_first_name' => 'LBL_LIST_FIRST_NAME',

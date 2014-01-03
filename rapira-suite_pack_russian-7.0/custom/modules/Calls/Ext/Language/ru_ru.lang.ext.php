@@ -3,6 +3,7 @@
 
 
 $mod_strings = array (
+    'LBL_RESCHEDULE' => 'Отложить звонок',
     'LBL_RESCHEDULE_COUNT' => 'Попыток дозвона',
     'LBL_RESCHEDULE_DATE' => 'Дата',
     'LBL_RESCHEDULE_REASON' => 'Причина',
