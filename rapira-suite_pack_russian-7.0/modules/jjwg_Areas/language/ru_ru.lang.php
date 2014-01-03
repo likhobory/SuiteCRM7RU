@@ -7,7 +7,7 @@
   *
   ***********************************************************************likhobory*/
   
-$mod_strings['LBL_ASSIGNED_TO_ID'] = 'Ответственный(ая)-ID';
+$mod_strings['LBL_ASSIGNED_TO_ID'] = 'Ответственный(ая)';
 $mod_strings['LBL_ASSIGNED_TO_NAME'] = 'Ответственный(ая)';
 $mod_strings['LBL_ID'] = 'ID';
 $mod_strings['LBL_DATE_ENTERED'] = 'Создано';
