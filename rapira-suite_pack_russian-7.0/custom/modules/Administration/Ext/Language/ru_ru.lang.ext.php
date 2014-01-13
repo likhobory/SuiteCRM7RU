@@ -11,9 +11,7 @@ $mod_strings['LBL_CONFIG_QUICKCRM'] = "Definition of visible modules and fields"
 $mod_strings['LBL_UPDATE_MSG'] = '<strong>Приложение настроено для работы через мобильные устройства.</strong><br/> Мобильная версия доступна по ссылке:';
 $mod_strings['LBL_ERR_DIR_MSG'] = 'Некоторые файлы не могут быть созданы. Проверьте права доступа для: ';   
 
-
-
-
+ 
     
 $mod_strings['LBL_RESCHEDULE_REBUILD'] = 'Восстановить отложенные звонки';
 $mod_strings['LBL_RESCHEDULE_REBUILD_DESC'] = 'Восстановление модуля отложенных звонков';

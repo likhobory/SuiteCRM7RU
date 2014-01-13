@@ -88,9 +88,12 @@ $mod_strings = array (
 'LBL_PASSWORD_SENT'                => 'Обновление пароля',
 'LBL_CANNOT_SEND_PASSWORD'         => 'Ошибка отправки пароля',
 'ERR_EMAIL_NOT_SENT_ADMIN'=> 'Система не в состоянии выполнить ваш запрос. Пожалуйста, проверьте:',
-'ERR_SMTP_URL_SMTP_PORT'=> 'Адрес и порт SMTP-сервера',
-'ERR_SMTP_USERNAME_SMTP_PASSWORD'=> 'Имя пользователя и пароль (SMTP)',
-'ERR_RECIPIENT_EMAIL'=> 'E-mail получателя',
+'ERR_SMTP_URL_SMTP_PORT'=> 'Адрес и порт SMTP-сервера
+',
+'ERR_SMTP_USERNAME_SMTP_PASSWORD'=> 'Имя пользователя и пароль (SMTP)
+',
+'ERR_RECIPIENT_EMAIL'=> 'E-mail получателя
+',
 'ERR_SERVER_STATUS'=> 'Состояние вашего сервера',
 'ERR_SERVER_SMTP_EMPTY'=> 'Система не в состоянии отправить письмо пользователю.  Проверьте параметры сервера исходящей почты в <a href="index.php?module=EmailMan&action=config">Настройках E-mail</a>.',
 
@@ -581,5 +584,24 @@ $mod_strings = array (
 'LBL_SHOWOPTIONS' => 'Показать параметры',
 
 ); // END STRINGS DEFS
+
+$mod_strings = array_merge($mod_strings,
+    array(
+        'LBL_SUITE_SUPERCHARGED' => "Supercharged by SuiteCRM",
+        'LBL_SUITE_POWERED_BY' => "Powered By SugarCRM",
+        'LBL_SUITE_TOP' => "Наверх",
+        'LBL_SUITE_PRINT' => "Печать",
+        'LBL_SUITE_DESC1' => 'SuiteCRM has been written and assembled by SalesAgility, one of the worlds most knowledgeable SugarCRM consultancies.',
+        'LBL_SUITE_DESC2' => 'SuiteCRM is intended to deliver on the promise of SugarCRM - a freely available open source CRM project that combines great functionality, with community and commitment.',
+        'LBL_SUITE_DESC3' => 'There will be no licenced software as part of the project managed by SalesAgility. All the code is free. All the code is available for free download. There is no hidden agenda to charge for access to the code. It is and always will be free and open source. There will be no paid-for versions.',
+        'LBL_QUICK_ACCOUNT' => 'Создать контрагента',
+        'LBL_QUICK_CONTACT' => 'Создать контакт',
+        'LBL_QUICK_OPPORTUNITY' => 'Создать сделку',
+        'LBL_QUICK_LEAD' => 'Создать предварит. контакт',
+        'LBL_QUICK_DOCUMENT' => 'Создать документ',
+        'LBL_QUICK_CALL' => 'Назначить звонок',
+        'LBL_QUICK_TASK' => 'Создать задачу',
+    )
+);
 
 ?>

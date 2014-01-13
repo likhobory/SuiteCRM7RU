@@ -1297,7 +1297,7 @@ $mod_strings['LBL_SUPPORT_FROM_ADDRESS'] = 'В качестве адреса о�
 $mod_strings['LBL_SUPPORT_FROM_NAME'] = 'В качестве имени отправителя указывать';
 $mod_strings['LBL_CREATE_EMAIL_TEMPLATE']  = 'Создать';
 $mod_strings['LBL_EDIT_EMAIL_TEMPLATE']  = 'Изменить';
-
+$mod_strings['LBL_AOP_SINGLE_USER']  = 'Указанный пользователь';
 
 $mod_strings['LBL_SALESAGILITY_ADMIN'] = 'OpenAdmin';
 $mod_strings['LBL_AOS_ADMIN_CONTRACT_SETTINGS'] = 'Параметры договоров';
@@ -1310,6 +1310,11 @@ $mod_strings['LBL_AOS_ADMIN_INITIAL_QUOTE_NUMBER'] = 'Начинать нуме�
 $mod_strings['LBL_AOS_ADMIN_LINE_ITEM_SETTINGS'] = 'Настройка позиций в бланках';
 $mod_strings['LBL_AOS_ADMIN_ENABLE_LINE_ITEM_GROUPS'] = 'Возможность группировки позиций';
 $mod_strings['LBL_AOS_ADMIN_ENABLE_LINE_ITEM_TOTAL_TAX'] = 'Включать НДС в сумму<br>(для каждой позиции)';
+$mod_strings['LBL_AOS_SETTINGS'] = 'Настройка модулей продаж';
+$mod_strings['LBL_AOS_PRODUCTS'] = 'AOS Products';
+$mod_strings['LBL_AOS_EDIT'] = 'edit';
+$mod_strings['LBL_AOS_DAYS'] = 'дней';
+$mod_strings['LBL_CHANGE_SETTINGS'] = 'Настройка параметров договоров, счетов, предложений';
 
 
 ?>

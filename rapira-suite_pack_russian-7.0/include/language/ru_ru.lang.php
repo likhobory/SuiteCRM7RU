@@ -2397,6 +2397,7 @@ $app_strings = array (
 	'LBL_BILLING_STREET'=> 'Улица:',
 	'LBL_SHIPPING_STREET'=> 'Улица:',
 	
+	'LBL_PROSPECTS'=>'Адресаты',
     'LBL_PRODUCT_BUNDLES'=>'Набор товаров' ,
     'LBL_PRODUCT_BUNDLES'=>'Набор товаров' ,
     'LBL_PRODUCTS'=>'Продукция' ,
@@ -3841,7 +3842,10 @@ $app_list_strings ['emailTemplates_type_list_no_workflow'] = array (
 //Suite***************	
 
 
-
+$app_strings['LBL_SUITE_SUPERCHARGED']= 'Supercharged by SuiteCRM';
+$app_strings['LBL_SUITE_POWERED_BY']= 'Powered By SugarCRM';
+$app_strings['LBL_SUITE_TOP']= 'Наверх';
+$app_strings['LBL_SUITE_PRINT']= 'Печать';
 
  
 /**
@@ -4301,14 +4305,13 @@ $app_list_strings['fp_event_status_dom']['No Response'] = 'Ответ не по�
 
 $app_strings['LBL_STATUS_EVENT'] = 'Статус приглашения';
 $app_strings['LBL_ACCEPT_STATUS'] = 'Статус приглашения';
+$app_strings['LBL_LISTVIEW_OPTION_CURRENT'] = 'Текущая страница';
+$app_strings['LBL_LISTVIEW_OPTION_ENTIRE'] = 'Все записи';
+$app_strings['LBL_LISTVIEW_NONE'] = 'Отменить выбор';
 
 
 
 
-
-$app_list_strings["moduleList"]["SecurityGroups"] = 'Группы пользователей';
-$app_strings['LBL_LOGIN_AS'] = "Login as ";
-$app_strings['LBL_LOGOUT_AS'] = "Logout as ";
 
 
  
@@ -4585,5 +4588,16 @@ $app_list_strings['case_status_dom'] =
       'Closed_Rejected' => 'Отклонённое',
       'Closed_Duplicate' => 'Продублированное',
   );
+  
+  $app_list_strings['aop_distribution_method'] =
+    array (
+        'singleUser' => 'Указанный пользователь',
+        'roundRobin' => 'В цикле',
+        'leastBusy' => 'Наименее занятой',
+    ); 
+	
+$app_list_strings["moduleList"]["SecurityGroups"] = 'Группы пользователей';
+$app_strings['LBL_LOGIN_AS'] = "Login as ";
+$app_strings['LBL_LOGOUT_AS'] = "Logout as ";
 
 ?>
