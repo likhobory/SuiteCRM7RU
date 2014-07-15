@@ -15,7 +15,7 @@ Russian RAPIRA language pack for SuiteCRM
 
 Окно ввода логина/пароля также может быть русифицировано. Для этого в панели администрирования в подразделе Региональные настройки указываем языковой файл по умолчанию (Admin->Locale Settings->Default Language).
 
-[langpack]: https://github.com/likhobory/SuiteCRM7RU/blob/master/rapira-suite_pack_russian-7.1.1.zip?raw=true
+[langpack]: https://github.com/likhobory/SuiteCRM7RU/blob/ver.7.1.2/rapira-suite_pack_russian-7.1.2.zip?raw=true
 [man]: http://www.sugarcrm.com.ua/viewtopic.php?f=4&t=373&p=1340#p1340
 [suitecrm]: https://github.com/salesagility/SuiteCRM
 [forum]: http://www.sugarcrm.com.ua/viewtopic.php?f=4&t=1465&sid=8bd490538356fc3c054477ae9c1c692a
