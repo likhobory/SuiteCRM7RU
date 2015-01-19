@@ -56,21 +56,21 @@ $mod_strings = array (
 'LBL_TIME_START' => 'Время начала:' ,
 'LBL_TIME_FINISH' => 'Время окончания:',
 'LBL_DURATION' => 'Продолжительность:',
-'LBL_DURATION_UNIT' => 'Продолжительность:',
+'LBL_DURATION_UNIT' => 'Единица измерения:',
 'LBL_ACTUAL_DURATION' => 'Фактическая продолжительность:',
 'LBL_PARENT_ID' => 'Проект:' ,
 'LBL_PARENT_TASK_ID' => 'ID родительской задачи:',
 'LBL_PERCENT_COMPLETE' => 'Прогресс (%):' ,
 'LBL_PRIORITY' => 'Приоритет:' ,
 'LBL_DESCRIPTION' => 'Описание:' ,
-'LBL_ORDER_NUMBER' => 'Порядок:' ,
+'LBL_ORDER_NUMBER' => 'Порядковый номер в проекте:' ,
 'LBL_TASK_NUMBER' => 'Номер задачи:' ,
 'LBL_TASK_ID' => 'ID задачи:',
 'LBL_DEPENDS_ON_ID' => 'Зависит от:' ,
 'LBL_MILESTONE_FLAG' => 'Контрольная точка:' ,
 'LBL_ESTIMATED_EFFORT' => 'Оценка усилий (час.):' ,
 'LBL_ACTUAL_EFFORT' => 'Реальные усилия (час.):' ,
-'LBL_UTILIZATION' => 'Использование (%):' ,
+'LBL_UTILIZATION' => 'Расход ресурсов (%):' ,
 'LBL_DELETED' => 'Удалено:' ,
 
 'LBL_LIST_ORDER_NUMBER' => 'Заказ' ,
@@ -91,12 +91,12 @@ $mod_strings = array (
 
 'LNK_NEW_PROJECT'=> 'Создать проект' ,
 'LNK_PROJECT_LIST'=> 'Проекты' ,
-'LNK_NEW_PROJECT_TASK'=> 'Создать задачу проекта' ,
+'LNK_NEW_PROJECT_TASK'=> 'Создать проектную задачу' ,
 'LNK_PROJECT_TASK_LIST'=> 'Проектные задачи' ,
 
 'LBL_LIST_MY_PROJECT_TASKS' => 'Мои открытые проектные задачи' ,
 'LBL_DEFAULT_SUBPANEL_TITLE' => 'Проектные задачи' ,
-'LBL_NEW_FORM_TITLE' => 'Новая задача проекта' ,
+'LBL_NEW_FORM_TITLE' => 'Новая проектная задача' ,
 
 'LBL_ACTIVITIES_TITLE'=> 'Мероприятия' ,
 'LBL_HISTORY_TITLE'=> 'История' ,
@@ -108,5 +108,20 @@ $mod_strings = array (
 'LBL_PARENT_NAME' => 'Название проекта',
 'LBL_LIST_PROJECT_NAME' => 'Проекты',
 'LBL_EDITLAYOUT' => 'Изменить макет' /*for 508 compliance fix*/,
+
+
 );
+
+//$mod_strings['LBL_LIST_ASSIGNED_USER_ID'] = 'Resource';
+$mod_strings['LBL_DESCRIPTION'] = 'Описание';
+$mod_strings['LBL_SUBTASK'] = 'Подзадача';
+$mod_strings['LBL_LAG'] = 'Задержка';
+$mod_strings['LBL_DAYS'] = 'Дней';
+$mod_strings['LBL_HOURS'] = 'Часов';
+$mod_strings['LBL_PREDECESSORS'] = 'Предшественник';
+$mod_strings['LBL_PARENT_TASK_ID'] = 'Предшествующая задача(ID)';
+$mod_strings['LBL_LIST_PERCENT_COMPLETE'] = 'Процент выполнения';
+$mod_strings['LBL_PERCENT_COMPLETE'] = 'Процент выполнения';
+$mod_strings['LBL_RELATIONSHIP_TYPE'] = 'Тип связи';
+
 ?>

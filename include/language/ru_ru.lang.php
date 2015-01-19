@@ -444,6 +444,8 @@ $app_list_strings = array (
   array (
     '' => '' ,
     // Added by RAPIRA -->
+	'Skype' => 'Skype' ,
+	'Viber' => 'Viber' ,
 	'Mail.ru-Agent' => 'Mail.ru Agent' ,
 	'ICQ' => 'ICQ' ,
 	'Miranda' => 'Miranda' ,
@@ -481,7 +483,9 @@ $app_list_strings = array (
     'project_status_dom' => array (
         'Draft' => 'Черновик',
         'In Review' => 'На рассмотрении',
-        'Published' => 'Опубликован',
+        'Underway' => 'Реализуется',
+        'On_Hold' => 'Приостановлен',
+        'Completed' => 'Завершён',
     ),
     'project_status_default' => 'Черновик',
 
@@ -1845,7 +1849,7 @@ $app_strings = array (
     'LBL_EMAIL_ERROR_TRASH_FOLDER'            	=> 'Необходимо указать Trash-папку.',
     'LBL_EMAIL_ERROR_VIEW_RAW_SOURCE'               => 'Информация недоступна',
     'LBL_EMAIL_ERROR_NO_OUTBOUND'           => 'Не указан сервер исходящей почты.',
-    'LBL_EMAIL_FOLDERS'                     => SugarThemeRegistry::current()->getImage('icon_email_folder', 'align=absmiddle border=0', null, null, ".gif", '').'Папки',
+    'LBL_EMAIL_FOLDERS'                     => SugarThemeRegistry::current()->getImage('icon_email_folder', 'align=absmiddle border=0', null, null, ".gif", '').' Папки',
     'LBL_EMAIL_FOLDERS_SHORT'               => SugarThemeRegistry::current()->getImage('icon_email_folder', 'align=absmiddle border=0', null, null, ".gif", ''),
 
 	'LBL_EMAIL_FOLDERS_ACTIONS'			=> 'Переместить в',
@@ -1979,8 +1983,8 @@ $app_strings = array (
  	'LBL_EMAIL_SAVE_DRAFT'				=> 'Сохранить черновик',
 
 	'LBL_EMAIL_SEARCHING'				=> 'ПОИСК',
-	'LBL_EMAIL_SEARCH'                      => SugarThemeRegistry::current()->getImage('Поиск', 'align=absmiddle border=0', null, null, ".gif", ''),
-    'LBL_EMAIL_SEARCH_SHORT'                => SugarThemeRegistry::current()->getImage('Поиск', 'align=absmiddle border=0', null, null, ".gif", ''),
+	'LBL_EMAIL_SEARCH'                      => SugarThemeRegistry::current()->getImage('Search', 'align=absmiddle border=0', null, null, ".gif", '').' Поиск',
+    'LBL_EMAIL_SEARCH_SHORT'                => SugarThemeRegistry::current()->getImage('Search', 'align=absmiddle border=0', null, null, ".gif", ''),
 
 	'LBL_EMAIL_SEARCH_ADVANCED'			=> 'Расширенный поиск',
 	'LBL_EMAIL_SEARCH_DATE_FROM'			=> 'Дата С',
@@ -2609,7 +2613,7 @@ $app_strings = array (
     'ERROR_LICENSE_FULLY_EXPIRED'=> "Your Company's Subscription to the SugarCRM Product has expired and needs to be renewed. Only admins may login when a Subscription has expired. If you have any questions, please contact your administrator.", ///
     'ERROR_LICENSE_EXPIRED'=> 'Ваша лицензия SugarCRM нуждается в обновлении. Только администраторы могут войти в систему.'  ,
     'ERROR_LICENSE_VALIDATION'=> 'Ваша лицензия SugarCRM нуждается в подтверждении. Только администраторы могут войти в систему',
-    'WARN_BROWSER_VERSION_WARNING' => "<b>Предупреждение:</b> Данная версия браузера не поддерживается.<p></p>Рекомендуются следующие версии браузеров:<p></p><ul><li>Internet Explorer 11 (режим совместимости не поддерживается)<li>Firefox 24.0<li>Safari 5.1<li>Chrome 29</ul>",
+    'WARN_BROWSER_VERSION_WARNING' => "<b>Предупреждение:</b> Данная версия браузера не поддерживается.<p></p>Рекомендуются следующие версии браузеров:<p></p><ul><li>Internet Explorer 11 (режим совместимости не поддерживается)<li>Firefox 32.0<li>Safari 5.1<li>Chrome 37</ul>",
     'WARN_BROWSER_IE_COMPATIBILITY_MODE_WARNING' => "<b>Предупреждение:</b> Браузер открыт в режиме совместимости с IE, данный режим не поддерживается.",
 	'WARN_LICENSE_SEATS'=>  "Warning: The number of active users is already the maximum number of licenses allowed.", ///
 	'WARN_LICENSE_SEATS_MAXED'=>  "Warning: The number of active users exceeds the maximum number of licenses allowed.", ///   
@@ -3951,6 +3955,17 @@ $app_list_strings['aor_function_list']['MAX'] = 'МАКСИМУМ';
 $app_list_strings['aor_function_list']['SUM'] = 'СУММА';
 $app_list_strings['aor_function_list']['AVG'] = 'СРЕДНЕЕ';
 
+$app_list_strings['aor_total_options'][''] = '';
+$app_list_strings['aor_total_options']['COUNT'] = 'КОЛИЧЕСТВО';
+$app_list_strings['aor_total_options']['SUM'] = 'СУММА';
+$app_list_strings['aor_total_options']['AVG'] = 'СРЕДНЕЕ';
+
+$app_list_strings['aor_chart_types']['bar'] = 'Линейчатая диаграмма';
+$app_list_strings['aor_chart_types']['line'] = 'График';
+$app_list_strings['aor_chart_types']['pie'] = 'Круговая диаграмма';
+$app_list_strings['aor_chart_types']['radar'] = 'Лепестковая диаграмма';
+$app_list_strings['aor_chart_types']['polar'] = 'Полярная диаграмма';
+
 
 $app_strings['LBL_MAP'] = 'Показать на карте';
 $app_strings['LBL_MAPS'] = 'Карты';
@@ -4238,6 +4253,80 @@ $app_list_strings['marker_image_list']['days_ven'] = 'Ven(Пт)';
 $app_list_strings['marker_image_list']['days_vie'] = 'Vie(Пт)';
 $app_list_strings['marker_image_list']['wifi'] = 'Wi-Fi';
 
+/*********************************************************************************
+ * SugarCRM Community Edition is a customer relationship management program developed by
+ * SugarCRM, Inc. Copyright (C) 2004-2013 SugarCRM Inc.
+ * 
+ * This program is free software; you can redistribute it and/or modify it under
+ * the terms of the GNU Affero General Public License version 3 as published by the
+ * Free Software Foundation with the addition of the following permission added
+ * to Section 15 as permitted in Section 7(a): FOR ANY PART OF THE COVERED WORK
+ * IN WHICH THE COPYRIGHT IS OWNED BY SUGARCRM, SUGARCRM DISCLAIMS THE WARRANTY
+ * OF NON INFRINGEMENT OF THIRD PARTY RIGHTS.
+ * 
+ * This program is distributed in the hope that it will be useful, but WITHOUT
+ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ * FOR A PARTICULAR PURPOSE.  See the GNU Affero General Public License for more
+ * details.
+ * 
+ * You should have received a copy of the GNU Affero General Public License along with
+ * this program; if not, see http://www.gnu.org/licenses or write to the Free
+ * Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
+ * 02110-1301 USA.
+ * 
+ * You can contact SugarCRM, Inc. headquarters at 10050 North Wolfe Road,
+ * SW2-130, Cupertino, CA 95014, USA. or at email address contact@sugarcrm.com.
+ * 
+ * The interactive user interfaces in modified source and object code versions
+ * of this program must display Appropriate Legal Notices, as required under
+ * Section 5 of the GNU Affero General Public License version 3.
+ * 
+ * In accordance with Section 7(b) of the GNU Affero General Public License version 3,
+ * these Appropriate Legal Notices must retain the display of the "Powered by
+ * SugarCRM" logo. If the display of the logo is not reasonably feasible for
+ * technical reasons, the Appropriate Legal Notices must display the words
+ * "Powered by SugarCRM".
+ ********************************************************************************/
+
+
+$app_list_strings['moduleList']['AM_ProjectTemplates'] = 'Шаблоны проектов';
+$app_list_strings['moduleList']['AM_TaskTemplates'] = 'Шаблоны проектных задач';
+$app_list_strings['project_status_dom']['Draft'] = 'Черновик';
+$app_list_strings['project_status_dom']['In Review'] = 'На рассмотрении';
+$app_list_strings['project_status_dom']['Published'] = 'Опубликован';
+$app_list_strings['project_priority_options']['High'] = 'Высокий';
+$app_list_strings['project_priority_options']['Medium'] = 'Средний';
+$app_list_strings['project_priority_options']['Low'] = 'Низкий';
+$app_list_strings['project_task_status_options']['Not Started'] = 'Не начата';
+$app_list_strings['project_task_status_options']['In Progress'] = 'В процессе';
+$app_list_strings['project_task_status_options']['Completed'] = 'Завершена';
+$app_list_strings['project_task_status_options']['Pending Input'] = 'Ожидание решения';
+$app_list_strings['project_task_status_options']['Deferred'] = 'Отложена';
+$app_list_strings['project_task_priority_options']['High'] = 'Высокий';
+$app_list_strings['project_task_priority_options']['Medium'] = 'Средний';
+$app_list_strings['project_task_priority_options']['Low'] = 'Низкий';
+$app_list_strings['relationship_type_list']['FS'] = 'Окончание-Начало';
+$app_list_strings['relationship_type_list']['SS'] = 'Начало-Окончание';
+$app_list_strings['project_task_utilization_options']['0'] = 'нет';
+$app_list_strings['project_task_utilization_options']['25'] = '25';
+$app_list_strings['project_task_utilization_options']['50'] = '50';
+$app_list_strings['project_task_utilization_options']['75'] = '75';
+$app_list_strings['project_task_utilization_options']['100'] = '100';
+$app_list_strings['moduleList']['AM_ProjectHolidays'] = 'Выходные дни';
+$app_list_strings['holiday_resource_dom']['Contacts'] = 'Контакты';
+$app_list_strings['holiday_resource_dom']['Users'] = 'Пользователи';
+
+$app_list_strings['project_status_dom'] = array (
+    'Draft' => 'Черновик',
+    'In Review' => 'На рассмотрении',
+    'Underway' => 'Реализуется',
+    'On_Hold' => 'Приостановлен',
+    'Completed' => 'Завершён',
+);
+
+$app_strings['LBL_GANTT_BUTTON_LABEL'] = 'Диаграмма Ганта';
+$app_strings['LBL_GANTT_BUTTON_TITLE'] = 'Диаграмма Ганта';
+$app_strings['LBL_CREATE_PROJECT'] = 'Создать проект';
 
 /*********************************************************************************
  * SugarCRM Community Edition is a customer relationship management program developed by
@@ -4613,7 +4702,7 @@ $app_list_strings['moduleList']['AOP_AOP_Case_Events'] = 'События обр�
 $app_list_strings['moduleList']['AOP_AOP_Case_Updates'] = 'Обновления обращения';
 $app_list_strings['moduleList']['AOP_Case_Events'] = 'События обращения';
 $app_list_strings['moduleList']['AOP_Case_Updates'] = 'Обновления обращения';
-$app_strings['LBL_AOP_EMAIL_REPLY_DELIMITER'] = '========== Please reply above this line ==========';
+$app_strings['LBL_AOP_EMAIL_REPLY_DELIMITER'] = '========== Пожалуйста, пишите ответ выше этой линии ==========';
 
 $app_list_strings['case_state_dom'] =
   array (

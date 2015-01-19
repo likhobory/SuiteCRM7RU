@@ -117,7 +117,7 @@ $mod_strings = array (
 'LNK_NEW_MEETING'=> 'Назначить встречу' ,
 'LNK_IMPORT_MEETINGS' => 'Импорт встреч',
 
-'NTC_REMOVE_INVITEE' => 'Вы уверены, что хотите удалить это приглашение из данной встречи?' ,
+'NTC_REMOVE_INVITEE' => 'Вы действительно хотите удалить это приглашение из данной встречи?' ,
 'LBL_CREATED_USER' => 'Создано',
 'LBL_MODIFIED_USER' => 'Изменено',
 'NOTICE_DURATION_TIME' => 'Продолжительность встречи должна быть больше 0 минут',
@@ -128,7 +128,7 @@ $mod_strings = array (
 'LBL_ACCEPT_STATUS' => 'Статус приглашения', ///
 'LBL_ACCEPT_LINK' => 'Accept Link', ///
 // You are not invited to the meeting messages
-'LBL_EXTNOT_HEADER' => 'Ошибка: Вы не приглашены на встречу',
+'LBL_EXTNOT_HEADER' => 'Ошибка: вы не приглашены на встречу',
 'LBL_EXTNOT_MAIN' => 'Вы не можете присоединиться к данной встрече, поскольку вы не приглашены на неё.',
 'LBL_EXTNOT_RECORD_LINK' => 'Просмотр информации о встрече',
 'LBL_EXTNOT_GO_BACK' => 'Вернуться к предыдущей записи',

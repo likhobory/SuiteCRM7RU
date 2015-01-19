@@ -76,5 +76,15 @@ $mod_strings = array (
   
   'LBL_SERVICE_MODULE_NAME' => 'Услуги',
   'LBL_LIST_NUM' => '№',
+  
+  'LBL_PARENT_ID' => 'ID родителя',
+  'LBL_GROUP_NAME' => 'Группа',
+  'LBL_PRODUCT_COST_PRICE_USDOLLAR' => 'Себестоимость (основная валюта)',
+  'LBL_PRODUCT_LIST_PRICE_USDOLLAR' => 'Цена по прайсу (основная валюта)',
+  'LBL_PRODUCT_UNIT_PRICE_USDOLLAR' => 'Цена за единицу (основная валюта)',
+  'LBL_PRODUCT_TOTAL_PRICE_USDOLLAR' => 'СУММА (основная валюта)',
+  'LBL_PRODUCT_DISCOUNT_USDOLLAR' => 'Скидка (основная валюта)',
+  'LBL_PRODUCT_DISCOUNT_AMOUNT_USDOLLAR' => 'Объём скидки (основная валюта)',
+  'LBL_VAT_AMT_USDOLLAR' => 'НДС (основная валюта)',
 );
 ?>

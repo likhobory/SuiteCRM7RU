@@ -43,5 +43,12 @@ $mod_strings = array (
   'LBL_SUBTOTAL_TAX_AMOUNT' => 'Итого учётом скидки и НДС',
   'LBL_GROUP_TOTAL' => 'ИТОГО С НДС',
   'LBL_LIST_NUM' => '№',
+  
+  'LBL_SUBTOTAL_AMOUNT_USDOLLAR' => 'Итого со скидкой (основная валюта)',
+  'LBL_DISCOUNT_AMOUNT_USDOLLAR' => 'Скидка (основная валюта)',
+  'LBL_TAX_AMOUNT_USDOLLAR' => 'Всего НДС (основная валюта)',
+  'LBL_TOTAL_AMT_USDOLLAR' => 'Итого без скидки (основная валюта)',
+  'LBL_GROUP_TOTAL_USDOLLAR' => 'ИТОГО С НДС (основная валюта)',
+  'LBL_SUBTOTAL_TAX_AMOUNT_USDOLLAR' => 'Итого учётом скидки и НДС (основная валюта)',
 );
 ?>

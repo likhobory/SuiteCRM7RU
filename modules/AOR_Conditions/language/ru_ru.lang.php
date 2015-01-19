@@ -57,7 +57,7 @@ $mod_strings = array (
   'LBL_SEARCH_FORM_TITLE' => 'Поиск условий',
   'LBL_HISTORY_SUBPANEL_TITLE' => 'История',
   'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Мероприятия',
-  'LBL_AOR_CONDITIONS_SUBPANEL_TITLE' => 'Условия',
+  ////'LBL_AOR_CONDITIONS_SUBPANEL_TITLE' => 'Условия',
   'LBL_NEW_FORM_TITLE' => 'Новые условия',
   'LBL_MODULE_PATH' => 'Модуль',
   'LBL_FIELD' => 'Поле',
@@ -67,4 +67,5 @@ $mod_strings = array (
   'LBL_ORDER' => 'Сортировка',
   'LBL_CONDITION_OPERATOR' => 'Оператор сравнения',
   'LBL_AOR_REPORT_ID' => 'ID Отчёта',
+  'LBL_PARAMETER' => 'Изменяемое условие',///'Параметр',////
 );

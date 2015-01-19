@@ -80,3 +80,14 @@ $app_list_strings['aor_function_list']['MIN'] = 'МИНИМУМ';
 $app_list_strings['aor_function_list']['MAX'] = 'МАКСИМУМ';
 $app_list_strings['aor_function_list']['SUM'] = 'СУММА';
 $app_list_strings['aor_function_list']['AVG'] = 'СРЕДНЕЕ';
+
+$app_list_strings['aor_total_options'][''] = '';
+$app_list_strings['aor_total_options']['COUNT'] = 'КОЛИЧЕСТВО';
+$app_list_strings['aor_total_options']['SUM'] = 'СУММА';
+$app_list_strings['aor_total_options']['AVG'] = 'СРЕДНЕЕ';
+
+$app_list_strings['aor_chart_types']['bar'] = 'Линейчатая диаграмма';
+$app_list_strings['aor_chart_types']['line'] = 'График';
+$app_list_strings['aor_chart_types']['pie'] = 'Круговая диаграмма';
+$app_list_strings['aor_chart_types']['radar'] = 'Лепестковая диаграмма';
+$app_list_strings['aor_chart_types']['polar'] = 'Полярная диаграмма';

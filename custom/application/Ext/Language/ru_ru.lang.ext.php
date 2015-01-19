@@ -583,7 +583,7 @@ $app_list_strings['moduleList']['AOP_AOP_Case_Events'] = 'События обр�
 $app_list_strings['moduleList']['AOP_AOP_Case_Updates'] = 'Обновления обращения';
 $app_list_strings['moduleList']['AOP_Case_Events'] = 'События обращения';
 $app_list_strings['moduleList']['AOP_Case_Updates'] = 'Обновления обращения';
-$app_strings['LBL_AOP_EMAIL_REPLY_DELIMITER'] = '========== Please reply above this line ==========';
+$app_strings['LBL_AOP_EMAIL_REPLY_DELIMITER'] = '========== Пожалуйста, пишите ответ выше этой линии ==========';
 
 $app_list_strings['case_state_dom'] =
   array (
@@ -740,6 +740,80 @@ $app_strings['LBL_GENERATE_LETTER'] = 'Создать письмо (PDF)';
 $app_strings['LBL_SELECT_TEMPLATE'] = 'Пожалуйста, выберите шаблон';
 $app_strings['LBL_NO_TEMPLATE'] = 'ОШИБКА\nШаблоны не обнаружены.\nОткройте модуль PDF-шаблонов и создайте необходимый шаблон.';
 
+/*********************************************************************************
+ * SugarCRM Community Edition is a customer relationship management program developed by
+ * SugarCRM, Inc. Copyright (C) 2004-2013 SugarCRM Inc.
+ * 
+ * This program is free software; you can redistribute it and/or modify it under
+ * the terms of the GNU Affero General Public License version 3 as published by the
+ * Free Software Foundation with the addition of the following permission added
+ * to Section 15 as permitted in Section 7(a): FOR ANY PART OF THE COVERED WORK
+ * IN WHICH THE COPYRIGHT IS OWNED BY SUGARCRM, SUGARCRM DISCLAIMS THE WARRANTY
+ * OF NON INFRINGEMENT OF THIRD PARTY RIGHTS.
+ * 
+ * This program is distributed in the hope that it will be useful, but WITHOUT
+ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ * FOR A PARTICULAR PURPOSE.  See the GNU Affero General Public License for more
+ * details.
+ * 
+ * You should have received a copy of the GNU Affero General Public License along with
+ * this program; if not, see http://www.gnu.org/licenses or write to the Free
+ * Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
+ * 02110-1301 USA.
+ * 
+ * You can contact SugarCRM, Inc. headquarters at 10050 North Wolfe Road,
+ * SW2-130, Cupertino, CA 95014, USA. or at email address contact@sugarcrm.com.
+ * 
+ * The interactive user interfaces in modified source and object code versions
+ * of this program must display Appropriate Legal Notices, as required under
+ * Section 5 of the GNU Affero General Public License version 3.
+ * 
+ * In accordance with Section 7(b) of the GNU Affero General Public License version 3,
+ * these Appropriate Legal Notices must retain the display of the "Powered by
+ * SugarCRM" logo. If the display of the logo is not reasonably feasible for
+ * technical reasons, the Appropriate Legal Notices must display the words
+ * "Powered by SugarCRM".
+ ********************************************************************************/
+
+
+$app_list_strings['moduleList']['AM_ProjectTemplates'] = 'Шаблоны проектов';
+$app_list_strings['moduleList']['AM_TaskTemplates'] = 'Шаблоны проектных задач';
+$app_list_strings['project_status_dom']['Draft'] = 'Черновик';
+$app_list_strings['project_status_dom']['In Review'] = 'На рассмотрении';
+$app_list_strings['project_status_dom']['Published'] = 'Опубликован';
+$app_list_strings['project_priority_options']['High'] = 'Высокий';
+$app_list_strings['project_priority_options']['Medium'] = 'Средний';
+$app_list_strings['project_priority_options']['Low'] = 'Низкий';
+$app_list_strings['project_task_status_options']['Not Started'] = 'Не начата';
+$app_list_strings['project_task_status_options']['In Progress'] = 'В процессе';
+$app_list_strings['project_task_status_options']['Completed'] = 'Завершена';
+$app_list_strings['project_task_status_options']['Pending Input'] = 'Ожидание решения';
+$app_list_strings['project_task_status_options']['Deferred'] = 'Отложена';
+$app_list_strings['project_task_priority_options']['High'] = 'Высокий';
+$app_list_strings['project_task_priority_options']['Medium'] = 'Средний';
+$app_list_strings['project_task_priority_options']['Low'] = 'Низкий';
+$app_list_strings['relationship_type_list']['FS'] = 'Окончание-Начало';
+$app_list_strings['relationship_type_list']['SS'] = 'Начало-Окончание';
+$app_list_strings['project_task_utilization_options']['0'] = 'нет';
+$app_list_strings['project_task_utilization_options']['25'] = '25';
+$app_list_strings['project_task_utilization_options']['50'] = '50';
+$app_list_strings['project_task_utilization_options']['75'] = '75';
+$app_list_strings['project_task_utilization_options']['100'] = '100';
+$app_list_strings['moduleList']['AM_ProjectHolidays'] = 'Выходные дни';
+$app_list_strings['holiday_resource_dom']['Contacts'] = 'Контакты';
+$app_list_strings['holiday_resource_dom']['Users'] = 'Пользователи';
+
+$app_list_strings['project_status_dom'] = array (
+    'Draft' => 'Черновик',
+    'In Review' => 'На рассмотрении',
+    'Underway' => 'Реализуется',
+    'On_Hold' => 'Приостановлен',
+    'Completed' => 'Завершён',
+);
+
+$app_strings['LBL_GANTT_BUTTON_LABEL'] = 'Диаграмма Ганта';
+$app_strings['LBL_GANTT_BUTTON_TITLE'] = 'Диаграмма Ганта';
+$app_strings['LBL_CREATE_PROJECT'] = 'Создать проект';
 
 /*********************************************************************************
  * SugarCRM Community Edition is a customer relationship management program developed by

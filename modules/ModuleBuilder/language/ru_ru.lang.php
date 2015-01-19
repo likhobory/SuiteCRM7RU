@@ -421,7 +421,7 @@ You can re-order the modules by dragging their rows in the table.<br/><br/>
 'LBL_DROPDOWN_ITEM_NAME' => 'Название',
 'LBL_DROPDOWN_ITEM_LABEL' => 'Видимое значение',
 'LBL_SYNC_TO_DETAILVIEW' => 'Копировать в Форму просмотра',
-'LBL_SYNC_TO_DETAILVIEW_HELP' => 'Выберите эту опцию для синхронизации текущего макета с соответствующим макетом Формы просмотра. <br>После нажатия на кнопки "Сохранить" или "Сохранить и установить" все поля текущего макета <br>(включая расположение полей) будут автоматически синхронизированы с соответствующим макетом Формы просмотра. <br>При включении данной опции соответствующий макет Формы просмотра будет недоступен для редактирования.',
+'LBL_SYNC_TO_DETAILVIEW_HELP' => 'Выберите эту опцию для синхронизации текущего макета с соответствующим макетом Формы просмотра. <br>После нажатия на кнопки "Сохранить" или "Сохранить и установить" все поля текущего макета (а также расположение полей) будут автоматически синхронизированы с соответствующим макетом Формы просмотра. <br>При включении данной опции соответствующий макет Формы просмотра будет недоступен для редактирования.',
 'LBL_SYNC_TO_DETAILVIEW_NOTICE' => 'Данный макет Формы просмотра находится в режиме автоматической синхронизации с соответствующим макетом Формы редактирования. <br>Содержимое данного макета полностью повторяет содержимое макета соответствующей Формы редактирования. <br> Изменения, внесённые в данный макет, не могут быть сохранены и установлены. Для внесения необходимых изменений откройте соответствующий макет Формы редактирования или отключите в том же макете опцию "Копировать в Форму просмотра".',
 'LBL_COPY_FROM_EDITVIEW' => 'Скопировать из Формы редактирования',
 'LBL_DROPDOWN_BLANK_WARNING' => 'Необходимо заполнить и название и видимое значение элемента списка. Если вы хотите добавить пустое значание - нажмите на кнопку "Добавить", оставив оба поля пустыми.',
@@ -657,7 +657,7 @@ You can re-order the modules by dragging their rows in the table.<br/><br/>
 'LBL_CONFIRM_LOWER_LENGTH' => 'Данные могут быть урезаны и это действие не может быть отменено. Вы действительно хотите продолжить?',
 
 //POPUP HELP
-'LBL_POPHELP_FIELD_DATA_TYPE'=>'Выберите соответствующий тип данных, основываясь на типе данных, которые будут вводиться в поле.',
+'LBL_POPHELP_FIELD_DATA_TYPE'=>'Выберите соответствующий тип данных, основываясь на данных, которые будут вводиться в поле.',
 'LBL_POPHELP_SEARCHABLE'=>'Select the boost level for this field. <br />Fields with a higher boost level will be given greater weight when the search is performed. <br />When a search is performed, matching records containing fields with a greater weight will be appear higher in the search results.<br /> If you change the boost level for a field from one level to another, perform a system index to apply the change. <br/> Be sure to select to delete the existing data at the time that the system index is performed.', ///
 'LBL_POPHELP_IMPORTABLE'=> '<b>Да</b>: Поле будет задействовано при операции импортирования.<br><b>Нет</b>: Поле НЕ будет задействовано при операции импортирования.<br><b>Обязательное</b>: При выполнении импортирования значение поля НЕ может быть пустым.',
 'LBL_POPHELP_IMAGE_WIDTH'=> 'Enter a number for Width, as measured in pixels.<br> The uploaded image will be scaled to this Width.', ///

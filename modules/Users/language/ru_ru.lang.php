@@ -385,7 +385,7 @@ $mod_strings = array (
 'LBL_AFFECTED'                      => 'записей обработано',
 
 'LBL_USER_NAME_FOR_ROLE'            => 'Пользователи/Роли',
-'LBL_SESSION_EXPIRED'               => 'Вы автоматически вышли из системы, поскольку время вашей сессии истекло.',
+'LBL_SESSION_EXPIRED'               => 'Ваш сеанс закончился, необходимо заново войти в систему.',
 
 // INBOUND EMAIL STRINGS
 'LBL_APPLY_OPTIMUMS'=> 'Применить оптимальные настройки' ,
@@ -509,7 +509,6 @@ $mod_strings = array (
 <table cellpadding=0 cellspacing=0>
 <tr><td><!--not_in_theme!-->Visit www.suitecrm.com <img src=include/images/sugarcrm_login.png style="margin-right: 5px;"></td><td><a href="http://www.suitecrm.com/" target="_blank"><b>Suite CRM</b></a></td></tr>
 <tr><td colspan=2><hr style="margin: 5px 0px;"></td></tr>
-<tr><td><img src=include/images/forums.png style="margin-right: 5px;"></td><td><a href="http://www.sugarcrm.com.ua/viewforum.php?f=5" target="_blank"><b>Русскоязычная документация</b></a><br>Русскоязычный форум, посвящённый SugarCRM.</td></tr>
 </table>',
 
 'LBL_WIZARD_FINISH1' => 'С чего начнём?',
@@ -523,7 +522,7 @@ $mod_strings = array (
 'LBL_WIZARD_FINISH9' => 'Настройка внешнего вида системы',
 'LBL_WIZARD_FINISH10' => 'Настройка макетов страниц, полей, меток и комбобоксов при помощи Студии',
 'LBL_WIZARD_FINISH11' => 'Поддержка',
-'LBL_WIZARD_FINISH12' => 'Доступ к англоязычному форуму. Вы также можете обсудить данный проект на <a href="http://www.sugarcrm.com.ua" target="_blank"><b>Русскоязычном форуме</b></a>.',
+'LBL_WIZARD_FINISH12' => 'Доступ к англоязычному форуму.',
 'LBL_WIZARD_FINISH14' => 'Просмотр документации ',
 'LBL_WIZARD_FINISH15' => 'Англоязычное руководство пользователя и примечания к текущему релизу',
 'LBL_WIZARD_FINISH16' => 'Просмотр базы знаний',

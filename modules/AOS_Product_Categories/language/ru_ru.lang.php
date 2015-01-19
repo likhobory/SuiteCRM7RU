@@ -64,4 +64,5 @@ $mod_strings = array (
   'LBL_SUB_CATEGORIES' => "Подкатегории",
   'LBL_PRODUCT_CATEGORIES' => "Родительская категория",
   'LBL_PRODUCT_CATEGORYS_NAME' => "Родительская категория",
+  'LBL_PARENT_CATEGORY_ID' =>  "Родительская категория (ID)",
 );

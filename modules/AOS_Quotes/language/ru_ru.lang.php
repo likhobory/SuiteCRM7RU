@@ -195,9 +195,18 @@ $mod_strings = array (
   'LBL_GROUP_NAME' => 'Группа',
   'LBL_GROUP_TOTAL' => 'ИТОГО С НДС',
 
-    'LBL_SHIPPING_TAX' => 'НДС доставки (%)',
-    'LBL_SHIPPING_TAX_AMT' => 'НДС доставки',
-    'LBL_IMPORT_LINE_ITEMS' => 'Импорт позиций',
-	'LBL_CREATE_OPPORTUNITY' => 'Создать Сделку',
+  'LBL_SHIPPING_TAX' => 'НДС доставки (%)',
+  'LBL_SHIPPING_TAX_AMT' => 'НДС доставки',
+  'LBL_IMPORT_LINE_ITEMS' => 'Импорт позиций',
+  'LBL_CREATE_OPPORTUNITY' => 'Создать Сделку',
+  
+  'LBL_SUBTOTAL_AMOUNT_USDOLLAR' => 'Итого со скидкой (основная валюта)',
+  'LBL_DISCOUNT_AMOUNT_USDOLLAR' => 'Скидка (основная валюта)',
+  'LBL_TAX_AMOUNT_USDOLLAR' => 'Всего НДС (основная валюта)',
+  'LBL_SHIPPING_AMOUNT_USDOLLAR' => 'Доставка (основная валюта)',
+  'LBL_TOTAL_AMT_USDOLLAR' => 'Итого без скидки (основная валюта)',
+  'LBL_SHIPPING_TAX_USDOLLAR' => 'НДС доставки (основная валюта)',
+  'LBL_SHIPPING_TAX_AMT_USDOLLAR' => 'НДС доставки (основная валюта)',
+  'LBL_GRAND_TOTAL_USDOLLAR' => 'ВСЕГО К ОПЛАТЕ (основная валюта)',
 );
 ?>

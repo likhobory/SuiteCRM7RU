@@ -71,4 +71,5 @@ $mod_strings = array (
     'LBL_GROUP' => 'Группировка',
     'LBL_GROUP_ORDER' => 'Порядок группировки',
     'LBL_AUDIT_TABLE' => 'Таблица аудита',
+    'LBL_TOTAL' => 'Итоговая строка',
 );

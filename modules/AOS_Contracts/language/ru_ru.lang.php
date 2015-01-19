@@ -105,5 +105,22 @@ $mod_strings = array (
   'LBL_SHIPPING_TAX_AMT' => 'НДС доставки',
   'LBL_ADD_PRODUCT_LINE' => 'Добавить товар',
   'LBL_ADD_SERVICE_LINE' => 'Добавить услугу ',
+  
+  'LBL_PRINT_AS_PDF' => 'Сохранить в PDF',
+  'LBL_EMAIL_PDF' => 'Отправить по почте в виде PDF',
+  'LBL_PDF_NAME' => 'Договор',
+  'LBL_EMAIL_NAME' => 'Договор:', 
+  'LBL_NO_TEMPLATE' => 'ОШИБКА\nОткройте Форму редактирования предложения и выберите один из шаблонов.\nЕсли необходимый шаблон предложения отсутствует - откройте модуль PDF-шаблонов и создайте необходимый шаблон.',
+  
+  'LBL_SUBTOTAL_AMOUNT_USDOLLAR' => 'Итого со скидкой (основная валюта)',
+  'LBL_DISCOUNT_AMOUNT_USDOLLAR' => 'Скидка (основная валюта)',
+  'LBL_TAX_AMOUNT_USDOLLAR' => 'Всего НДС (основная валюта)',
+  'LBL_SHIPPING_AMOUNT_USDOLLAR' => 'Доставка (основная валюта)',
+  'LBL_TOTAL_AMT_USDOLLAR' => 'Итого без скидки (основная валюта)',
+  'LBL_SHIPPING_TAX_USDOLLAR' => 'НДС доставки (основная валюта)',
+  'LBL_SHIPPING_TAX_AMT_USDOLLAR' => 'НДС доставки (основная валюта)',
+  'LBL_GRAND_TOTAL_USDOLLAR' => 'ВСЕГО К ОПЛАТЕ (основная валюта)',
+
+
 );
 ?>

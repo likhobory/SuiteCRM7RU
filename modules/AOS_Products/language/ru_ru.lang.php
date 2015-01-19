@@ -68,5 +68,10 @@ $mod_strings = array (
   'LBL_PRODUCT_IMAGE' => 'Фото товара',
   'LBL_IMAGE_UPLOAD_FAIL' => 'ОШИБКА:  размер загружаемого файла превышает максимально допустимое значение, равное ',
   'LBL_AOS_PRODUCT_CATEGORYS_NAME' => 'Категория товара',
+  
+  'LBL_AOS_PRODUCT_CATEGORY' => 'Категория товара (ID)',
+  'LBL_COST_USDOLLAR' => 'Себестоимость (основная валюта)',
+  'LBL_PRICE_USDOLLAR' => 'Цена по прайсу (основная валюта)',
+  'LBL_FILE_URL' => 'URL файла',
 );
 ?>
