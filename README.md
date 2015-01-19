@@ -18,3 +18,4 @@ Russian RAPIRA language pack for SuiteCRM
 [suitecrm]: https://github.com/salesagility/SuiteCRM
 [forum]: https://suitecrm.com/forum/international-language-support/59
 [sugar]: https://ru.wikipedia.org/wiki/SugarCRM
+
