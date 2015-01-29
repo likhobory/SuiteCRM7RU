@@ -83,7 +83,7 @@ $mod_strings = array (
   'LBL_DASHLET_SAVE' => 'Сохранить',
   'LBL_DASHLET_CHARTS' => 'Диаграммы',
   'LBL_DASHLET_ONLY_CHARTS' => 'Отображать только диаграммы',
-  'LBL_AOR_SCHEDULED_REPORTS_AOR_REPORTS_FROM_AOR_SCHEDULED_REPORTS_TITLE' => 'Запланированные отчёты',
+  'LBL_AOR_SCHEDULED_REPORTS_AOR_REPORTS_FROM_AOR_SCHEDULED_REPORTS_TITLE' => 'Отчёты по расписанию',
   'LBL_UPDATE_PARAMETERS' => 'Обновить',
   'LBL_PARAMETERS' => 'Условия',
 );

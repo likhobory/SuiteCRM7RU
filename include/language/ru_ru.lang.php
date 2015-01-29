@@ -3965,6 +3965,23 @@ $app_list_strings['aor_chart_types']['line'] = 'График';
 $app_list_strings['aor_chart_types']['pie'] = 'Круговая диаграмма';
 $app_list_strings['aor_chart_types']['radar'] = 'Лепестковая диаграмма';
 $app_list_strings['aor_chart_types']['polar'] = 'Полярная диаграмма';
+$app_list_strings['aor_scheduled_report_schedule_types']['monthly'] = 'Ежемесячно';
+$app_list_strings['aor_scheduled_report_schedule_types']['weekly'] = 'Еженедельно';
+$app_list_strings['aor_scheduled_report_schedule_types']['daily'] = 'Ежедневно';
+$app_list_strings['aor_scheduled_reports_status_dom']['active'] = 'Активен';
+$app_list_strings['aor_scheduled_reports_status_dom']['inactive'] = 'Не активен';
+$app_strings['LBL_CRON_ON_THE_MONTHDAY'] = '';
+$app_strings['LBL_CRON_ON_THE_WEEKDAY'] = '';
+$app_strings['LBL_CRON_AT'] = 'в';
+$app_strings['LBL_CRON_RAW'] = 'Crontab-нотация';
+$app_strings['LBL_CRON_MIN'] = 'Мин.';
+$app_strings['LBL_CRON_HOUR'] = 'Час';
+$app_strings['LBL_CRON_DAY'] = 'День';
+$app_strings['LBL_CRON_MONTH'] = 'Месяц';
+$app_strings['LBL_CRON_DOW'] = 'День недели';
+$app_strings['LBL_CRON_DAILY'] = 'Ежедневно';
+$app_strings['LBL_CRON_WEEKLY'] = 'Еженедельно';
+$app_strings['LBL_CRON_MONTHLY'] = 'Ежемесячно';
 
 
 $app_strings['LBL_MAP'] = 'Показать на карте';
