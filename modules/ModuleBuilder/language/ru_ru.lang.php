@@ -701,6 +701,7 @@ You can re-order the modules by dragging their rows in the table.<br/><br/>
 'iframe' => 'IFrame',
 'datetimecombo' => 'Datetime',
 'decimal'=> 'Decimal',
+'image' => 'Image',
 ),
 'labelTypes' => array(
 "" => "Frequently used labels",

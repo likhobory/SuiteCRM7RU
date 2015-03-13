@@ -1644,8 +1644,8 @@ $app_strings = array (
     'LBL_PRINT' => "Печать",
     'LBL_HELP' => "Справка",
     'LBL_ID_FF_SELECT' => "Обзор",
-    'DEFAULT'                              => 'Стандартный',   
-    'LBL_SORT'                                      => 'Сортировка',
+    'DEFAULT'                              => 'Основная информация',   
+    'LBL_SORT'                              => 'Сортировка',
 	'LBL_OUTBOUND_EMAIL_ADD_SERVER'			=> 'Добавить сервер...',
     'LBL_EMAIL_SMTP_SSL_OR_TLS'				=> 'Включить SMTP over SSL/TLS',
     'LBL_NO_ACTION'                         => 'Действие не определено.',
@@ -2367,6 +2367,7 @@ $app_strings = array (
     'LBL_OPPORTUNITY'=>'Сделка' ,
     'LBL_OR' => 'ИЛИ' ,
     'LBL_LOWER_OR' => 'или',
+	'LBL_PANEL_OVERVIEW' => 'Основная информация',
 	'LBL_PANEL_ASSIGNMENT' => 'Разное',
     'LBL_PANEL_ADVANCED' => 'Дополнительная информация',
     'LBL_PARENT_TYPE' => 'Родительский тип',
@@ -4333,6 +4334,9 @@ $app_list_strings['moduleList']['AM_ProjectHolidays'] = 'Выходные дни
 $app_list_strings['holiday_resource_dom']['Contacts'] = 'Контакты';
 $app_list_strings['holiday_resource_dom']['Users'] = 'Пользователи';
 
++$app_list_strings['duration_unit_dom']['Days'] = 'дней';
++$app_list_strings['duration_unit_dom']['Hours'] = 'часов';
+
 $app_list_strings['project_status_dom'] = array (
     'Draft' => 'Черновик',
     'In Review' => 'На рассмотрении',
@@ -4743,6 +4747,14 @@ $app_list_strings['case_status_dom'] =
         'Single' => 'Указанный пользователь',
         'Account' => 'Учётная запись пользователя',
     );  
+	
+  $app_list_strings['dom_email_distribution_for_auto_create']=array (
+    'AOPDefault' => 'Стандартный',
+    'singleUser' => 'Указанный пользователь',
+    'roundRobin' => 'В цикле',
+    'leastBusy' => 'Наименее занятой',
+    'random' => 'Случайный',
+);
 	
 $app_list_strings["moduleList"]["SecurityGroups"] = 'Группы пользователей';
 $app_strings['LBL_LOGIN_AS'] = "Login as ";

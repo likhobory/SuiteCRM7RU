@@ -64,7 +64,7 @@ $mod_strings = array (
   'LBL_BILLING_ADDRESS_STREET_3' =>'Адрес получателя - улица 3' ,
   'LBL_BILLING_ADDRESS_STREET_4' =>'Адрес получателя - улица 4' ,
   'LBL_BILLING_ADDRESS_STREET' => 'расчётный адрес - улица:' ,
-  'LBL_BILLING_ADDRESS' => 'расчётный адрес:',
+  'LBL_BILLING_ADDRESS' => 'Расчётный адрес:',
   'LBL_ACCOUNT_INFORMATION' => ' ',
   'LBL_CITY' => 'Город:',
   'LBL_CONTACTS_SUBPANEL_TITLE' => 'Контакты',
@@ -212,5 +212,6 @@ $mod_strings = array (
     'LBL_SHIPPING_TAX_USDOLLAR' => 'НДС доставки (основная валюта)',
     'LBL_SHIPPING_TAX_AMT_USDOLLAR' => 'НДС доставки (основная валюта)',
     'LBL_GRAND_TOTAL_USDOLLAR' => 'ВСЕГО К ОПЛАТЕ (основная валюта)',
+	'LBL_INVOICE_TO' => 'Получатель'
 );
 ?>

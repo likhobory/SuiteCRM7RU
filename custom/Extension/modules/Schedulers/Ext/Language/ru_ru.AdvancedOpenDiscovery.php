@@ -1,3 +1,3 @@
 <?php
-$mod_strings['LBL_AODOPTIMISEINDEX'] = 'Оптимизация индекса полнотекстового поиска'; ///
-$mod_strings['LBL_AODINDEXUNINDEXED'] = 'Неиндексированные документы'; ///
+$mod_strings['LBL_AODOPTIMISEINDEX'] = 'Оптимизировать индекс полнотекстового поиска'; 
+$mod_strings['LBL_AODINDEXUNINDEXED'] = 'Индексировать неиндексированные документы'; 

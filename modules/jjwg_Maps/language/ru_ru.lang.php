@@ -45,7 +45,7 @@ $mod_strings['LBL_UNIT_TYPE'] = 'Единицы измерения рассто�
 
 $mod_strings['LBL_MAP_ACTION'] = 'Map It';
 $mod_strings['LBL_MAP_DISPLAY'] = 'Отобразить карту';
-$mod_strings['LBL_MAP_LEGEND'] = 'Обозначение центральной точки:';
+$mod_strings['LBL_MAP_LEGEND'] = 'Условные обозначения:';
 $mod_strings['LBL_MAP_USERS'] = 'Пользователи:';
 $mod_strings['LBL_MAP_USER_GROUPS'] = 'Другие обозначения:';
 $mod_strings['LBL_MAP_ASSIGNED_TO'] = 'Ответственный(ая):';

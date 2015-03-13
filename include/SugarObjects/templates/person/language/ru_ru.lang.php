@@ -58,7 +58,7 @@ $mod_strings = array(
 'LBL_ALT_ADDRESS_STATE'=> 'Другой адрес - область:' ,
 'LBL_ALT_ADDRESS_POSTALCODE'=> 'Другой адрес - индекс:' ,
 'LBL_ALT_ADDRESS_COUNTRY'=> 'Другой адрес - страна:' ,
-'LBL_COUNTRY'=> 'Страна:' ,
+
 'LBL_STREET'=> 'Другой адрес',
 'LBL_PRIMARY_STREET'=>'Адрес',
 'LBL_ALT_STREET'=>'Другой адрес',
@@ -69,7 +69,7 @@ $mod_strings = array(
 'LBL_COUNTRY'=> 'Страна:' ,
 'LBL_CONTACT_INFORMATION'=> 'Контактная информация' ,
 'LBL_ADDRESS_INFORMATION'=> 'Адресная информация' ,
-'LBL_CONTACT_INFORMATION'=> 'Контактная информация' ,
+
 'LBL_ASSIGNED_TO_NAME'=> 'Пользователь: ' ,
 'LBL_OTHER_EMAIL_ADDRESS' => 'Дополнительный E-mail:',
 'LBL_ASSISTANT'=> 'Помощник:' ,
@@ -78,6 +78,7 @@ $mod_strings = array(
 'LNK_IMPORT_VCARD' => 'Создать из vCard',
 'LBL_ANY_EMAIL' => 'Любой E-mail',
 'LBL_EMAIL_NON_PRIMARY' => 'Доп. E-mail',
+'LBL_PHOTO' => 'Фото',
 
 'LBL_EDIT_BUTTON' => 'Править',
 'LBL_REMOVE' => 'Удалить',

@@ -606,7 +606,15 @@ $app_list_strings['case_status_dom'] =
     array (
         'Single' => 'Указанный пользователь',
         'Account' => 'Учётная запись пользователя',
-    );   
+    );  
+
+	$app_list_strings['dom_email_distribution_for_auto_create']=array (
+    'AOPDefault' => 'Стандартный',
+    'singleUser' => 'Указанный пользователь',
+    'roundRobin' => 'В цикле',
+    'leastBusy' => 'Наименее занятой',
+    'random' => 'Случайный',
+);	
   
 $app_list_strings["moduleList"]["SecurityGroups"] = 'Группы пользователей';
 $app_strings['LBL_LOGIN_AS'] = "Login as ";

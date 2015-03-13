@@ -108,7 +108,7 @@ $mod_strings = array (
 'LBL_PARENT_NAME' => 'Название проекта',
 'LBL_LIST_PROJECT_NAME' => 'Проекты',
 'LBL_EDITLAYOUT' => 'Изменить макет' /*for 508 compliance fix*/,
-
+'LBL_PANEL_TIMELINE' => 'Ресурсы',
 
 );
 
@@ -116,8 +116,8 @@ $mod_strings = array (
 $mod_strings['LBL_DESCRIPTION'] = 'Описание';
 $mod_strings['LBL_SUBTASK'] = 'Подзадача';
 $mod_strings['LBL_LAG'] = 'Задержка';
-$mod_strings['LBL_DAYS'] = 'Дней';
-$mod_strings['LBL_HOURS'] = 'Часов';
+$mod_strings['LBL_DAYS'] = 'дней';
+$mod_strings['LBL_HOURS'] = 'часов';
 $mod_strings['LBL_PREDECESSORS'] = 'Предшественник';
 $mod_strings['LBL_PARENT_TASK_ID'] = 'Предшествующая задача(ID)';
 $mod_strings['LBL_LIST_PERCENT_COMPLETE'] = 'Процент выполнения';

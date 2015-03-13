@@ -96,6 +96,7 @@ $mod_strings = array (
   'LBL_ERROR_MSG_3' => 'Отправка более чем 10 приглашений не удалась. Убедитесь, что у всех приглашаемых контактов указаны корректные E-mail. (детали содержатся в файле sugarcrm.log).',
   'LBL_ERROR_MSG_4' => ' приглашений не удалось отправить. Убедитесь, что у всех приглашаемых контактов указаны корректные E-mail. (детали содержатся в файле sugarcrm.log).',
   'LBL_ERROR_MSG_5' => 'Неверный шаблон E-mail',
+  'LBL_EMAIL_INVITE' => 'Приглашение',
 );
 //LBL_ERROR_MSG_4 Begins with a number(controller.php line 581) for example 10 emails have failed to send. 
 
