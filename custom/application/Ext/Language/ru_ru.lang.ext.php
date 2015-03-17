@@ -449,7 +449,7 @@ $app_list_strings['aow_status_list']['Inactive'] = 'Не активен';
 $app_list_strings['aow_operator_list']['Equal_To'] = '=';
 $app_list_strings['aow_operator_list']['Not_Equal_To'] = '!=';
 $app_list_strings['aow_operator_list']['Greater_Than'] = '>';
-$app_list_strings['aow_operator_list']['Less_Than'] = '>';
+$app_list_strings['aow_operator_list']['Less_Than'] = '<';
 $app_list_strings['aow_operator_list']['Greater_Than_or_Equal_To'] = '>=';
 $app_list_strings['aow_operator_list']['Less_Than_or_Equal_To'] = '<=';
 
