@@ -34,12 +34,12 @@ $app_list_strings['moduleList']['AOR_Conditions'] = 'Условия отчёта
 $app_list_strings['moduleList']['AOR_Charts'] = 'Диаграммы отчёта';
 $app_list_strings['moduleList']['AOR_Fields'] = 'Поля отчёта';
 $app_list_strings['moduleList']['AOR_Scheduled_Reports'] = 'Отчёты по расписанию';
-$app_list_strings['aor_operator_list']['Equal_To'] = '=';
-$app_list_strings['aor_operator_list']['Not_Equal_To'] = '!=';
-$app_list_strings['aor_operator_list']['Greater_Than'] = '>';
-$app_list_strings['aor_operator_list']['Less_Than'] = '<';
-$app_list_strings['aor_operator_list']['Greater_Than_or_Equal_To'] = '>=';
-$app_list_strings['aor_operator_list']['Less_Than_or_Equal_To'] = '<=';
+$app_list_strings['aor_operator_list']['Equal_To'] = 'Равно';
+$app_list_strings['aor_operator_list']['Not_Equal_To'] = 'НЕ равно';
+$app_list_strings['aor_operator_list']['Greater_Than'] = 'Больше';
+$app_list_strings['aor_operator_list']['Less_Than'] = 'Меньше';
+$app_list_strings['aor_operator_list']['Greater_Than_or_Equal_To'] = 'Больше или равно';
+$app_list_strings['aor_operator_list']['Less_Than_or_Equal_To'] = 'Меньше или равно';
 
 $app_list_strings['aor_sql_operator_list']['Equal_To'] = '=';
 $app_list_strings['aor_sql_operator_list']['Not_Equal_To'] = '!=';
@@ -96,6 +96,12 @@ $app_list_strings['aor_scheduled_report_schedule_types']['weekly'] = 'Ежене
 $app_list_strings['aor_scheduled_report_schedule_types']['daily'] = 'Ежедневно';
 $app_list_strings['aor_scheduled_reports_status_dom']['active'] = 'Активен';
 $app_list_strings['aor_scheduled_reports_status_dom']['inactive'] = 'Не активен';
+$app_list_strings['aor_email_type_list']['Email Address'] = 'E-mail';
+$app_list_strings['aor_email_type_list']['Specify User'] = 'Пользователь';
+$app_list_strings['aor_email_type_list']['Users'] = 'Пользователи';
+$app_list_strings['aor_assign_options']['all'] = 'ВСЕ пользователи'; ///
+$app_list_strings['aor_assign_options']['role'] = 'ВСЕ пользователи из Роли'; ///
+$app_list_strings['aor_assign_options']['security_group'] = 'ВСЕ пользователи из Группы'; ///
 $app_strings['LBL_CRON_ON_THE_MONTHDAY'] = '';
 $app_strings['LBL_CRON_ON_THE_WEEKDAY'] = '';
 $app_strings['LBL_CRON_AT'] = 'в';

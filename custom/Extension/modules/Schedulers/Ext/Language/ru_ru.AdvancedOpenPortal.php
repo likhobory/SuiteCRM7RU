@@ -27,4 +27,4 @@
   * Description : Defines the Russian language pack for the base application.
   *********************************************************************************/
  // Replaced by RAPIRA <--
-$mod_strings['LBL_POLLMONITOREDINBOXESAOP'] = 'Портал - проверять почтовые ящики для входящей почты';?>
+$mod_strings['LBL_POLLMONITOREDINBOXESCUSTOMAOP'] = 'Портал - проверять почтовые ящики для входящей почты';?>

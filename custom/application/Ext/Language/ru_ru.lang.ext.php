@@ -373,12 +373,13 @@ $app_list_strings['moduleList']['AOR_Reports'] = 'Отчёты';
 $app_list_strings['moduleList']['AOR_Conditions'] = 'Условия отчёта';
 $app_list_strings['moduleList']['AOR_Charts'] = 'Диаграммы отчёта';
 $app_list_strings['moduleList']['AOR_Fields'] = 'Поля отчёта';
-$app_list_strings['aor_operator_list']['Equal_To'] = '=';
-$app_list_strings['aor_operator_list']['Not_Equal_To'] = '!=';
-$app_list_strings['aor_operator_list']['Greater_Than'] = '>';
-$app_list_strings['aor_operator_list']['Less_Than'] = '<';
-$app_list_strings['aor_operator_list']['Greater_Than_or_Equal_To'] = '>=';
-$app_list_strings['aor_operator_list']['Less_Than_or_Equal_To'] = '<=';
+$app_list_strings['moduleList']['AOR_Scheduled_Reports'] = 'Отчёты по расписанию';
+$app_list_strings['aor_operator_list']['Equal_To'] = 'Равно';
+$app_list_strings['aor_operator_list']['Not_Equal_To'] = 'НЕ равно';
+$app_list_strings['aor_operator_list']['Greater_Than'] = 'Больше';
+$app_list_strings['aor_operator_list']['Less_Than'] = 'Меньше';
+$app_list_strings['aor_operator_list']['Greater_Than_or_Equal_To'] = 'Больше или равно';
+$app_list_strings['aor_operator_list']['Less_Than_or_Equal_To'] = 'Меньше или равно';
 $app_list_strings['aor_sql_operator_list']['Equal_To'] = '=';
 $app_list_strings['aor_sql_operator_list']['Not_Equal_To'] = '!=';
 $app_list_strings['aor_sql_operator_list']['Greater_Than'] = '>';
@@ -413,6 +414,39 @@ $app_list_strings['aor_function_list']['MAX'] = 'МАКСИМУМ';
 $app_list_strings['aor_function_list']['SUM'] = 'СУММА';
 $app_list_strings['aor_function_list']['AVG'] = 'СРЕДНЕЕ';
 
+$app_list_strings['aor_total_options'][''] = '';
+$app_list_strings['aor_total_options']['COUNT'] = 'КОЛИЧЕСТВО';
+$app_list_strings['aor_total_options']['SUM'] = 'СУММА';
+$app_list_strings['aor_total_options']['AVG'] = 'СРЕДНЕЕ';
+
+$app_list_strings['aor_chart_types']['bar'] = 'Линейчатая диаграмма';
+$app_list_strings['aor_chart_types']['line'] = 'График';
+$app_list_strings['aor_chart_types']['pie'] = 'Круговая диаграмма';
+$app_list_strings['aor_chart_types']['radar'] = 'Лепестковая диаграмма';
+$app_list_strings['aor_chart_types']['polar'] = 'Полярная диаграмма';
+$app_list_strings['aor_scheduled_report_schedule_types']['monthly'] = 'Ежемесячно';
+$app_list_strings['aor_scheduled_report_schedule_types']['weekly'] = 'Еженедельно';
+$app_list_strings['aor_scheduled_report_schedule_types']['daily'] = 'Ежедневно';
+$app_list_strings['aor_scheduled_reports_status_dom']['active'] = 'Активен';
+$app_list_strings['aor_scheduled_reports_status_dom']['inactive'] = 'Не активен';
+$app_list_strings['aor_email_type_list']['Email Address'] = 'E-mail';
+$app_list_strings['aor_email_type_list']['Specify User'] = 'Пользователь';
+$app_list_strings['aor_email_type_list']['Users'] = 'Пользователи';
+$app_list_strings['aor_assign_options']['all'] = 'ВСЕ пользователи'; ///
+$app_list_strings['aor_assign_options']['role'] = 'ВСЕ пользователи из Роли'; ///
+$app_list_strings['aor_assign_options']['security_group'] = 'ВСЕ пользователи из Группы'; ///
+$app_strings['LBL_CRON_ON_THE_MONTHDAY'] = '';
+$app_strings['LBL_CRON_ON_THE_WEEKDAY'] = '';
+$app_strings['LBL_CRON_AT'] = 'в';
+$app_strings['LBL_CRON_RAW'] = 'Crontab-нотация';
+$app_strings['LBL_CRON_MIN'] = 'Мин.';
+$app_strings['LBL_CRON_HOUR'] = 'Час';
+$app_strings['LBL_CRON_DAY'] = 'День';
+$app_strings['LBL_CRON_MONTH'] = 'Месяц';
+$app_strings['LBL_CRON_DOW'] = 'День недели';
+$app_strings['LBL_CRON_DAILY'] = 'Ежедневно';
+$app_strings['LBL_CRON_WEEKLY'] = 'Еженедельно';
+$app_strings['LBL_CRON_MONTHLY'] = 'Ежемесячно';
 
 /**
  * Advanced OpenWorkflow, Automating SugarCRM.
@@ -446,12 +480,12 @@ $app_list_strings['moduleList']['AOW_Actions'] = 'Действия';
 $app_list_strings['aow_status_list']['Active'] = 'Активен';
 $app_list_strings['aow_status_list']['Inactive'] = 'Не активен';
 
-$app_list_strings['aow_operator_list']['Equal_To'] = '=';
-$app_list_strings['aow_operator_list']['Not_Equal_To'] = '!=';
-$app_list_strings['aow_operator_list']['Greater_Than'] = '>';
-$app_list_strings['aow_operator_list']['Less_Than'] = '<';
-$app_list_strings['aow_operator_list']['Greater_Than_or_Equal_To'] = '>=';
-$app_list_strings['aow_operator_list']['Less_Than_or_Equal_To'] = '<=';
+$app_list_strings['aow_operator_list']['Equal_To'] = 'Равно';
+$app_list_strings['aow_operator_list']['Not_Equal_To'] = 'НЕ равно';
+$app_list_strings['aow_operator_list']['Greater_Than'] = 'Больше';
+$app_list_strings['aow_operator_list']['Less_Than'] = 'Меньше';
+$app_list_strings['aow_operator_list']['Greater_Than_or_Equal_To'] = 'Больше или равно';
+$app_list_strings['aow_operator_list']['Less_Than_or_Equal_To'] = 'Меньше или равно';
 
 $app_list_strings['aow_sql_operator_list']['Equal_To'] = '=';
 $app_list_strings['aow_sql_operator_list']['Not_Equal_To'] = '!=';
@@ -502,8 +536,8 @@ $app_list_strings['aow_date_operator']['plus'] = '+';
 $app_list_strings['aow_date_operator']['minus'] = '-';
 
 $app_list_strings['aow_assign_options']['all'] = 'ВСЕ пользователи';
-$app_list_strings['aow_assign_options']['role'] = 'ВСЕ пользователи роли';
-$app_list_strings['aow_assign_options']['security_group'] = 'ВСЕ пользователи из Группы';
+$app_list_strings['aow_assign_options']['role'] = 'ВСЕ пользователи Роли';
+$app_list_strings['aow_assign_options']['security_group'] = 'ВСЕ пользователи Группы';
 
 $app_list_strings['aow_email_type_list']['Email Address'] = 'Вручную';
 $app_list_strings['aow_email_type_list']['Record Email'] = 'Отобранной записи';
@@ -513,6 +547,10 @@ $app_list_strings['aow_email_type_list']['Users'] = 'Пользователей'
 $app_list_strings['aow_email_to_list']['to'] = 'Кому';
 $app_list_strings['aow_email_to_list']['cc'] = 'Копия';
 $app_list_strings['aow_email_to_list']['bcc'] = 'Скрытая копия';
+
+$app_list_strings['aow_run_on_list']['All_Records'] = 'Всех записей';
+$app_list_strings['aow_run_on_list']['New_Records'] = 'Создаваемых записей';
+$app_list_strings['aow_run_on_list']['Modified_Records'] = 'Изменяемых записей';
 
 /**
 * @package SuiteCRM
@@ -544,6 +582,18 @@ $app_strings['LBL_QUICK_DOCUMENT'] = 'Создать документ';
 $app_strings['LBL_QUICK_CALL'] = 'Назначить звонок';
 $app_strings['LBL_QUICK_TASK'] = 'Создать задачу';
 $app_strings['LBL_COLLECTION_TYPE'] = 'Модуль';
+
+$app_strings['LBL_ADD_TAB'] = 'Добавить страницу';
+$app_strings['LBL_SUITE_DASHBOARD'] = 'Suite - основная страница';
+$app_strings['LBL_ENTER_DASHBOARD_NAME'] = 'Название страницы:';
+$app_strings['LBL_NUMBER_OF_COLUMNS'] = 'Количество колонок на странице:';
+$app_strings['LBL_DELETE_DASHBOARD1'] = 'Вы действительно хотите удалить страницу';
+$app_strings['LBL_DELETE_DASHBOARD2'] = '?';
+$app_strings['LBL_ADD_DASHBOARD_PAGE'] = 'Добавление новой страницы на закладку ГЛАВНАЯ';
+$app_strings['LBL_DELETE_DASHBOARD_PAGE'] = 'Удаление текущей страницы с закладки ГЛАВНАЯ';
+$app_strings['LBL_RENAME_DASHBOARD_PAGE'] = 'Переименование страницы';
+
+$app_strings['LBL_DISCOVER_SUITECRM'] = 'Discover SuiteCRM';
 
 $app_list_strings['collection_temp_list'] = array ( 'Tasks' => 'Задачи', 'Meetings' => 'Встречи', 'Calls' => 'Звонки', 'Notes' => 'Заметки', 'Emails' => 'E-mail' );
 
@@ -619,6 +669,7 @@ $app_list_strings['case_status_dom'] =
 $app_list_strings["moduleList"]["SecurityGroups"] = 'Группы пользователей';
 $app_strings['LBL_LOGIN_AS'] = "Login as ";
 $app_strings['LBL_LOGOUT_AS'] = "Logout as ";
+$app_strings['LBL_SECURITYGROUP'] = 'Группы пользователей';
   
   /**
  * Products, Quotations & Invoices modules.
@@ -729,9 +780,11 @@ $app_list_strings['product_type_dom']['Service'] = 'Услуга';
 
 $app_list_strings['product_quote_parent_type_dom']['AOS_Quotes'] = 'Предложения';
 $app_list_strings['product_quote_parent_type_dom']['AOS_Invoices'] = 'Счета';
+$app_list_strings['product_quote_parent_type_dom']['AOS_Contracts'] = 'Договоры';
 
 $app_list_strings['pdf_template_type_dom']['AOS_Quotes'] = 'Предложений';
 $app_list_strings['pdf_template_type_dom']['AOS_Invoices'] = 'Счетов';
+$app_list_strings['pdf_template_type_dom']['AOS_Contracts'] = 'Договоров';
 $app_list_strings['pdf_template_type_dom']['Accounts'] = 'Контрагентов';
 $app_list_strings['pdf_template_type_dom']['Contacts'] = 'Контактов';
 $app_list_strings['pdf_template_type_dom']['Leads'] = 'Предварит. контактов';
@@ -782,7 +835,8 @@ $app_strings['LBL_NO_TEMPLATE'] = 'ОШИБКА\nШаблоны не обнар�
  * technical reasons, the Appropriate Legal Notices must display the words
  * "Powered by SugarCRM".
  ********************************************************************************/
-
+$app_list_strings['moduleList']['AOD_IndexEvent'] = 'Индексирование';
+$app_list_strings['moduleList']['AOD_Index'] = 'Индекс';
 
 $app_list_strings['moduleList']['AM_ProjectTemplates'] = 'Шаблоны проектов';
 $app_list_strings['moduleList']['AM_TaskTemplates'] = 'Шаблоны проектных задач';

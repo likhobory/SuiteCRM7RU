@@ -1301,8 +1301,8 @@ $mod_strings['LBL_AOS_ADMIN_LINE_ITEM_SETTINGS'] = 'Настройка пози�
 $mod_strings['LBL_AOS_ADMIN_ENABLE_LINE_ITEM_GROUPS'] = 'Возможность группировки позиций';
 $mod_strings['LBL_AOS_ADMIN_ENABLE_LINE_ITEM_TOTAL_TAX'] = 'Включать НДС в сумму<br>(для каждой позиции)';
 $mod_strings['LBL_AOS_SETTINGS'] = 'Настройка модулей продаж';
-$mod_strings['LBL_AOS_PRODUCTS'] = 'AOS Products';
-$mod_strings['LBL_AOS_EDIT'] = 'edit';
+$mod_strings['LBL_AOS_PRODUCTS'] = 'AOS Products'; ///
+$mod_strings['LBL_AOS_EDIT'] = 'edit'; ///
 $mod_strings['LBL_AOS_DAYS'] = 'дней';
 $mod_strings['LBL_CHANGE_SETTINGS'] = 'Настройка параметров договоров, счетов, предложений';
 

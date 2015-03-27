@@ -47,4 +47,6 @@ $app_strings['LBL_ADD_DASHBOARD_PAGE'] = 'Добавление новой стр
 $app_strings['LBL_DELETE_DASHBOARD_PAGE'] = 'Удаление текущей страницы с закладки ГЛАВНАЯ';
 $app_strings['LBL_RENAME_DASHBOARD_PAGE'] = 'Переименование страницы';
 
+$app_strings['LBL_DISCOVER_SUITECRM'] = 'Discover SuiteCRM';
+
 $app_list_strings['collection_temp_list'] = array ( 'Tasks' => 'Задачи', 'Meetings' => 'Встречи', 'Calls' => 'Звонки', 'Notes' => 'Заметки', 'Emails' => 'E-mail' );

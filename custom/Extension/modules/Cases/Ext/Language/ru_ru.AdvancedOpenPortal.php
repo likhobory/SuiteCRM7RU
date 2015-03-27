@@ -29,3 +29,12 @@
  // Replaced by RAPIRA <--
  
 $mod_strings['LBL_AOP_CASE_EVENTS'] = 'События обращения';
+$mod_strings['LBL_CASE_ATTACHMENTS_DISPLAY'] = 'Вложения:';
+$mod_strings['LBL_ADD_CASE_FILE'] = 'Добавить файл';
+$mod_strings['LBL_REMOVE_CASE_FILE'] = 'Удалить файл';
+$mod_strings['LBL_SELECT_CASE_DOCUMENT'] = 'Выбрать документ';
+$mod_strings['LBL_CLEAR_CASE_DOCUMENT'] = 'Удалить документ';
+$mod_strings['LBL_SELECT_INTERNAL_CASE_DOCUMENT'] = 'Документ SuiteCRM';
+$mod_strings['LBL_SELECT_EXTERNAL_CASE_DOCUMENT'] = 'Внешний файл';
+$mod_strings['LBL_CONTACT_CREATED_BY_NAME'] = 'Создано';
+$mod_strings['LBL_CASE_UPDATE_FORM'] = 'Добавить вложение';

@@ -36,12 +36,12 @@ $app_list_strings['moduleList']['AOW_Actions'] = 'Действия';
 $app_list_strings['aow_status_list']['Active'] = 'Активен';
 $app_list_strings['aow_status_list']['Inactive'] = 'Не активен';
 
-$app_list_strings['aow_operator_list']['Equal_To'] = '=';
-$app_list_strings['aow_operator_list']['Not_Equal_To'] = '!=';
-$app_list_strings['aow_operator_list']['Greater_Than'] = '>';
-$app_list_strings['aow_operator_list']['Less_Than'] = '<';
-$app_list_strings['aow_operator_list']['Greater_Than_or_Equal_To'] = '>=';
-$app_list_strings['aow_operator_list']['Less_Than_or_Equal_To'] = '<=';
+$app_list_strings['aow_operator_list']['Equal_To'] = 'Равно';
+$app_list_strings['aow_operator_list']['Not_Equal_To'] = 'НЕ равно';
+$app_list_strings['aow_operator_list']['Greater_Than'] = 'Больше';
+$app_list_strings['aow_operator_list']['Less_Than'] = 'Меньше';
+$app_list_strings['aow_operator_list']['Greater_Than_or_Equal_To'] = 'Больше или равно';
+$app_list_strings['aow_operator_list']['Less_Than_or_Equal_To'] = 'Меньше или равно';
 
 $app_list_strings['aow_sql_operator_list']['Equal_To'] = '=';
 $app_list_strings['aow_sql_operator_list']['Not_Equal_To'] = '!=';
@@ -92,8 +92,8 @@ $app_list_strings['aow_date_operator']['plus'] = '+';
 $app_list_strings['aow_date_operator']['minus'] = '-';
 
 $app_list_strings['aow_assign_options']['all'] = 'ВСЕ пользователи';
-$app_list_strings['aow_assign_options']['role'] = 'ВСЕ пользователи роли';
-$app_list_strings['aow_assign_options']['security_group'] = 'ВСЕ пользователи из Группы';
+$app_list_strings['aow_assign_options']['role'] = 'ВСЕ пользователи Роли';
+$app_list_strings['aow_assign_options']['security_group'] = 'ВСЕ пользователи Группы';
 
 $app_list_strings['aow_email_type_list']['Email Address'] = 'Вручную';
 $app_list_strings['aow_email_type_list']['Record Email'] = 'Отобранной записи';
