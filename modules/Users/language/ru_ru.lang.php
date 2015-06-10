@@ -30,12 +30,10 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
  // Replaced by RAPIRA <--
  
 $mod_strings = array (
-'LBL_DELETE_USER_CONFIRM'           => 'When the User record is deleted, the corresponding Employee record will also be deleted. After the user is deleted, any workflow definitions and reports involving the user might need to be updated.<br/><br/>'.
-'Deleting a User record cannot be undone.',
 'LBL_DELETE_GROUP_CONFIRM'          => 'Вы действительно хотите удалить данного группового пользователя? Нажмите на кнопку <b>ОК</b> для удаления  пользователя из системы<br/>После удаления у вас будет возможность переназначить ответственных для записей, принадлежащих удалённому групповому пользователю.',
 'LBL_DELETE_PORTAL_CONFIRM'         => 'Are you sure you want to delete this Portal API User? Click OK to delete the User record.', ///
-'LBL_DELETE_USER_CONFIRM'           => 'When the User record is deleted, the corresponding Employee record will also be deleted.<br/><br/>'.
-'Click OK to delete the User record.',
+'LBL_DELETE_USER_CONFIRM'           => 'При удалении данных Пользователя будет удалена и соответствующая запись из списка Сотрудников.<br/><br/>'.
+'Нажмите кнопку "OK" для удаления данных Пользователя.',
 
 'LNK_IMPORT_USERS'                 => 'Импорт пользователей',
 'ERR_DELETE_RECORD'=> 'Перед удалением профиля должен быть указан номер записи.' ,
@@ -473,11 +471,8 @@ $mod_strings = array (
 'LBL_MAIL_SMTPSERVER' => 'SMTP-сервер:' ,
 'LBL_SMTP_SERVER_HELP' => 'Сервер SMTP может быть использован для отправки исходящей электронной почты. Для использования данного сервера в настройках учётной записи укажите соответствующего пользователя и пароль.',
 'LBL_MISSING_DEFAULT_OUTBOUND_SMTP_SETTINGS' => 'Администратор системы ещё не настроил стандартный сервер исходящей почты. Тестовое письмо не может быть отправлено.',
-'LBL_MAIL_SMTPAUTH_REQ'=> 'Использовать SMTP-аутентификацию?',
-'LBL_MAIL_SMTPPASS'=> 'SMTP-пароль:' ,
-'LBL_MAIL_SMTPPORT'=> 'SMTP-порт:' ,
-'LBL_MAIL_SMTPSERVER'=> 'SMTP-сервер:' ,
-'LBL_MAIL_SMTPUSER'=> 'SMTP-пользователь:' ,
+
+
 'LBL_MAIL_SMTPTYPE'                => 'Тип SMTP-сервера:',
 'LBL_MAIL_SMTP_SETTINGS'           => 'Настройка SMTP-сервера',
 'LBL_CHOOSE_EMAIL_PROVIDER'        => 'Выберите почтовую службу:',

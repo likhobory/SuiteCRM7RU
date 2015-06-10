@@ -244,7 +244,7 @@ $mod_strings = array (
 'LBL_PHONE_WORK' => 'Тел. (раб.)',
 'LBL_PHONE_OTHER' => 'Другой тел.',
 'LBL_PHONE_FAX' => 'Факс',
-'LBL_CAMPAIGN_ID' => 'ID маркет. кампании',
+
 'LBL_EXPORT_ASSIGNED_USER_NAME' => 'Ответственный(ая)',
 'LBL_EXPORT_ASSIGNED_USER_ID' => 'Ответственный(ая)-ID',
 'LBL_EXPORT_MODIFIED_USER_ID' => 'Изменено(ID)',

@@ -100,7 +100,7 @@ $mod_strings = array (
 'LBL_CHARTS' => 'Диаграммы',
 'LBL_TOOLS' => 'Разное',
 'LBL_WEB' => 'Веб',
-'LBL_SEARCH_RESULTS' => 'Результат поиска',
+
 
 // Dashlet Categories
 'dashlet_categories_dom' => array(
@@ -139,7 +139,7 @@ $mod_strings = array (
 'LBL_HOME_PAGE_3_NAME' => 'Support', ///
 'LBL_HOME_PAGE_6_NAME' => 'Marketing',
 'LBL_HOME_PAGE_4_NAME' => 'Tracker', ///
-'LBL_CLOSE_SITEMAP' => 'Закрыть',
+
 
 'LBL_SEARCH' => 'Найти',
 'LBL_CLEAR' => 'Очистить',

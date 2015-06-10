@@ -661,7 +661,7 @@ If your system environment prohibits your system from communicating to the licen
 'LBL_REBUILD_WORKFLOW_CACHE' => 'Rebuilding Workflow Cache...<BR>', ///
 'LBL_REBUILD_WORKFLOW_COMPILING' => 'Compiling Plugins... <BR>', ///
 'LBL_REBUILD' => 'Восстановление' ,
-'LBL_REBUILD'=> 'Восстановление' ,
+
 'LBL_REGEX_HELP_TITLE'=> 'Описание регулярного выражения',
 'LBL_REGEX_HELP_TEXT'=> 'Здесь вы можете создавать собственные правила ввода пароля путём указания  соответствующего регулярного выражения. <b>Обратите внимание:</b> пароль должен НЕ СООТВЕТСТВОВАТЬ указанным в регулярном выражении условиям; условия, указанные в этом поле, не должны конфликтовать с остальными условиями.',
 'LBL_REGEX_DESC_HELP_TEXT'=> 'Здесь вы можете указать краткое описание регулярного выражения. Данное описание будет отображаться при редактировании настроек пользователя в разделе <b>Изменение пароля</b>.',
@@ -913,7 +913,7 @@ If your system environment prohibits your system from communicating to the licen
 'NTC_OC_RESERVED' => 'Reserved',
 'REMOVE_QUESTION'           => 'Вы действительно хотите удалить выбранные пакеты?',
 'WARN_POSSIBLE_JS_OVERWRITE'=> 'Осторожно, это приведёт к перезаписи всех изменений, которые вы могли сделать в файлах javascript. Продолжить?',
-'WARN_INSTALLER_LOCKED'=> 'Предупреждение: Для сохранения ваших данных инсталлятор должен быть заблокирован путём установки переменной installer_locked в значение "true" в файле config.php.' ,
+'WARN_INSTALLER_LOCKED'=> 'Предупреждение: Для сохранения ваших данных инсталлятор должен быть заблокирован. В файле config.php установите переменную  installer_locked в значение "true".' ,
 'WARN_LICENSE_EXPIRED'=> 'Сообщение: До истечения срока действия вашей лицензии осталось дней: ' ,
 'WARN_LICENSE_EXPIRED2' => " Пожалуйста, перейдите к <a href='index.php?action=LicenseSettings&module=Administration'>'\"License Management\"</a>  в панели администратора.",
 'WARN_LICENSE_SEATS'=> "Warning: User licenses exceeded by ", ///
@@ -981,8 +981,8 @@ If your system environment prohibits your system from communicating to the licen
 'LBL_QR_CBOX_CLEARPDFFONT'=> 'Clear PDF Font Cache File', ///
 'LBL_QR_CLEARPDFFONT'=> 'Clearing PDF Font Cache File...done', ///
 'LBL_QR_CLEAR_EXT_API'=> 'Очистка кэша внешнего API...готово',
-'LBL_TRACKER_SETTINGS' => 'Трекер',
-'LBL_TRACKER_SETTINGS_DESC' => 'Включить/Отключить трекинг',
+
+
 'LBL_REPAIR_SEED_USERS_TITLE'=> 'Включить/Отключить демо-пользователей',
 'LBL_REPAIR_SEED_USERS_ACTIVATE'=> 'Включить',
 'LBL_REPAIR_SEED_USERS_DECACTIVATE'=> 'Отключить',
@@ -1115,7 +1115,7 @@ If your system environment prohibits your system from communicating to the licen
 // OAuth
 'LBL_OAUTH_TITLE' => "Ключи OAuth",
 'LBL_OAUTH' => "Управление ключами OAuth",
-'LBL_SAML_LOGIN_URL_DESC' => 'Укажите Login URL',
+
 
 // SNIP / Sugar Ease / Email Archiving
 'LBL_SNIP_TITLE' => 'Email Archiving', ///
@@ -1260,7 +1260,7 @@ $mod_strings['LBL_SECURITYGROUPS_SUGAROUTFITTERS'] = "Grab the latest version of
   * Description : Defines the Russian language pack for the base application.
   *********************************************************************************/
  // Replaced by RAPIRA <--
-$mod_strings['LBL_SALESAGILITY_ADMIN'] = 'OpenAdmin';
+
 $mod_strings['LBL_AOP_ADMIN_MANAGE_AOP'] = 'Настройки портала';
 $mod_strings['LBL_AOP_JOOMLA_SETTINGS'] = 'Настройка портала';
 $mod_strings['LBL_AOP_JOOMLA_URL'] = 'Joomla URL';
@@ -1289,7 +1289,7 @@ $mod_strings['LBL_SINGLE_USER']  = 'Указанный пользователь'
 $mod_strings['LBL_AOP_SETTINGS'] = 'Настройка портала';
 $mod_strings['LBL_AOP_DESC'] = 'Настройка параметров портала';
 
-$mod_strings['LBL_SALESAGILITY_ADMIN'] = 'OpenAdmin';
+
 $mod_strings['LBL_AOS_ADMIN_CONTRACT_SETTINGS'] = 'Параметры договоров';
 $mod_strings['LBL_AOS_ADMIN_CONTRACT_RENEWAL_REMINDER'] = 'Период действия договора';
 $mod_strings['LBL_AOS_ADMIN_MANAGE_AOS'] = 'Параметры модулей продаж';
@@ -1339,7 +1339,7 @@ $mod_strings['LBL_COLOUR_ADMIN_ICON'] = 'Цвет иконок в заголов
 
 $mod_strings['LBL_COLOUR_ADMIN_TABS'] = 'Настройка закладок модулей';
 
-$mod_strings['LBL_SALESAGILITY_ADMIN'] = 'OpenAdmin';
+
 $mod_strings['LBL_AOD_ADMIN_MANAGE_AOD'] = 'Настройка полнотекстового поиска';
 $mod_strings['LBL_AOD_ENABLE'] = 'Включить полнотекстовый поиск';
 $mod_strings['LBL_AOD_SETTINGS'] = 'Настройка полнотекстового поиска';

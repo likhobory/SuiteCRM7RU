@@ -60,7 +60,7 @@ $mod_strings = array (
 'LBL_ACTUAL_DURATION' => 'Фактическая продолжительность:',
 'LBL_PARENT_ID' => 'Проект:' ,
 'LBL_PARENT_TASK_ID' => 'ID родительской задачи:',
-'LBL_PERCENT_COMPLETE' => 'Прогресс (%):' ,
+'LBL_PERCENT_COMPLETE' => 'Процент выполнения:' ,
 'LBL_PRIORITY' => 'Приоритет:' ,
 'LBL_DESCRIPTION' => 'Описание:' ,
 'LBL_ORDER_NUMBER' => 'Порядковый номер в проекте:' ,
@@ -112,16 +112,11 @@ $mod_strings = array (
 
 );
 
-//$mod_strings['LBL_LIST_ASSIGNED_USER_ID'] = 'Resource';
-$mod_strings['LBL_DESCRIPTION'] = 'Описание';
 $mod_strings['LBL_SUBTASK'] = 'Подзадача';
 $mod_strings['LBL_LAG'] = 'Задержка';
 $mod_strings['LBL_DAYS'] = 'дней';
 $mod_strings['LBL_HOURS'] = 'часов';
-$mod_strings['LBL_PREDECESSORS'] = 'Предшественник';
-$mod_strings['LBL_PARENT_TASK_ID'] = 'Предшествующая задача(ID)';
-$mod_strings['LBL_LIST_PERCENT_COMPLETE'] = 'Процент выполнения';
-$mod_strings['LBL_PERCENT_COMPLETE'] = 'Процент выполнения';
+
 $mod_strings['LBL_RELATIONSHIP_TYPE'] = 'Тип связи';
 
 ?>

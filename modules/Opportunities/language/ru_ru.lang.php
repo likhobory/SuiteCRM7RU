@@ -113,7 +113,7 @@ $mod_strings = array (
 'LBL_PROJECTS_SUBPANEL_TITLE' => 'Проекты' ,
 'LBL_ASSIGNED_TO_NAME' => 'Ответственный(ая): ' ,
 'LBL_LIST_ASSIGNED_TO_NAME' => 'Ответственный(ая)',
-'LBL_LIST_SALES_STAGE' => 'Стадия продаж' ,
+
 'LBL_MY_CLOSED_OPPORTUNITIES' => 'Мои закрытые сделки',
 'LBL_TOTAL_OPPORTUNITIES' => 'Всего',
 'LBL_CLOSED_WON_OPPORTUNITIES' => 'Успешно закрытые сделки',

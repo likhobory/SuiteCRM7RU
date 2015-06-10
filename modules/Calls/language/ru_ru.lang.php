@@ -80,7 +80,7 @@ $mod_strings = array (
 'LBL_LAST_NAME' => 'Фамилия' ,
 'LBL_EMAIL' => 'E-mail' ,
 'LBL_PHONE' => 'Тел.' ,
-'LBL_REMINDER' => 'Напоминания:' ,
+
 'LBL_REMINDER_POPUP' => 'Во всплывающем окне',
 'LBL_REMINDER_EMAIL' => 'E-mail',
 'LBL_REMINDER_EMAIL_ALL_INVITEES' => 'Отправить E-mail приглашённым',
@@ -144,7 +144,7 @@ $mod_strings = array (
 'LBL_REPEAT_PARENT_ID' => 'ID родителя',
 'LBL_RECURRING_SOURCE' => 'Источник повтора',
 'LBL_SYNCED_RECURRING_MSG' => 'Данный звонок был создан в другой программе и синхронизирован с Suite. Для изменения данной записи откройте первоначальную программу, внесите в соответствующий звонок необходимые изменения и вновь синхронизируйте его с Suite.',
-'LBL_RELATED_TO' => 'Относится к:',
+
 
 );
 

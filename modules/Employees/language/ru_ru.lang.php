@@ -77,7 +77,7 @@ $mod_strings = array (
 'LBL_ANY_ADDRESS' => 'Любой адрес:',
 'LBL_ANY_PHONE' => 'Любой тел.:' ,
 'LBL_ANY_EMAIL' => 'Любой E-mail:' ,
-'LBL_ADDRESS' => 'Адрес:' ,
+
 'LBL_CITY' => 'Город:' ,
 'LBL_STATE' => 'Область:' ,
 'LBL_POSTAL_CODE' => 'Индекс:' ,
@@ -85,13 +85,13 @@ $mod_strings = array (
 'LBL_NAME' => 'ФИО:' ,
 'LBL_MOBILE_PHONE' => 'Тел. (моб.):' ,
 'LBL_OTHER' => 'Другое:' ,
-'LBL_FAX' => 'Факс:' ,
+
 'LBL_EMAIL' => 'E-mail:' ,
 'LBL_EMAIL_LINK_TYPE'=> 'Почтовый клиент',
 'LBL_EMAIL_LINK_TYPE_HELP'=> '<b>Почтовый клиент Suite</b> - отправка электронных писем при помощи встроенного в Suite почтового клиента.<br><b>Внешний почтовый клиент</b> - любой другой почтовый клиент, например Microsoft Outlook.',
 'LBL_HOME_PHONE' => 'Тел. (дом.):' ,
 'LBL_WORK_PHONE' => 'Тел. (раб.):',
-'LBL_ADDRESS_INFORMATION' => 'Адресная информация' ,
+
 'LBL_EMPLOYEE_STATUS' => 'Статус сотрудника:' ,
 'LBL_PRIMARY_ADDRESS' => 'Основной адрес:' ,
 'LBL_SAVED_SEARCH' => 'Параметры макета',

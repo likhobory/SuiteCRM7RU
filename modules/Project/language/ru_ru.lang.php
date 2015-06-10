@@ -40,13 +40,13 @@ $mod_strings = array (
 'LBL_DATE_ENTERED' => 'Дата создания:' ,
 'LBL_DATE_MODIFIED' => 'Дата изменения:' ,
 'LBL_ASSIGNED_USER_ID' => 'Ответственный(ая): ' ,
-//'LBL_ASSIGNED_USER_NAME' => 'Ответственный(ая):',
+
 'LBL_MODIFIED_USER_ID' => 'Изменено(ID):' ,
 'LBL_CREATED_BY' => 'Кем создано:' ,
 'LBL_TEAM_ID' => 'Team:',
 'LBL_NAME' => 'Проект:' ,
 'LBL_PDF_PROJECT_NAME' => 'Название проекта:',
-//'LBL_DESCRIPTION' => 'Описание:' ,
+
 'LBL_DELETED' => 'Удалено:' ,
 'LBL_DATE' => 'Дата:',
 'LBL_DATE_START' => 'Дата начала:',
@@ -61,7 +61,7 @@ $mod_strings = array (
 
 'LBL_LIST_NAME' => 'Название' ,
 'LBL_LIST_DAYS' => 'дней',
-'LBL_LIST_ASSIGNED_USER_ID' => 'Ответственный(ая)' ,
+'LBL_LIST_ASSIGNED_USER_ID' => 'Менеджер проекта' ,
 'LBL_LIST_TOTAL_ESTIMATED_EFFORT' => 'Предварительная оценка общих усилий (час.)' ,
 'LBL_LIST_TOTAL_ACTUAL_EFFORT' => 'Реальные общие усилия (час.)' ,
 'LBL_LIST_UPCOMING_TASKS' => 'Ближайшие задачи (1 неделя)',
@@ -104,13 +104,13 @@ $mod_strings = array (
 
 
 'LBL_TASK_ID' => 'ID',
-//'LBL_TASK_NAME' => 'Название задачи',
+
 'LBL_DURATION' => 'Продолжительность',
 'LBL_ACTUAL_DURATION' => 'Фактическая продолжительность',
 'LBL_START' => 'Начало',
 'LBL_FINISH' => 'Окончание',
-'LBL_PREDECESSORS' => 'Предшественники',
-//'LBL_PERCENT_COMPLETE' => '% выполнения',
+
+
 'LBL_MORE'  => 'Больше...',
 
 'LBL_PERCENT_BUSY' => '% занято',
@@ -132,15 +132,15 @@ $mod_strings = array (
 'LBL_PROJECT_INFORMATION' => 'Основная информация',
 'LBL_EDITLAYOUT' => 'Изменить макет' /*for 508 compliance fix*/,
 'LBL_INSERTROWS' => 'Добавить строки' /*for 508 compliance fix*/,
-'LBL_PROJECT_INFORMATION' => 'Основная информация',
 
 
 
-  'LBL_PROJECT_TASKS_SUBPANEL_TITLE' => 'Проектные задачи',
+
+
   'LBL_VIEW_GANTT_TITLE' => 'Диаграмма Ганта',
   'LBL_VIEW_GANTT_DURATION' => 'Продолжительность',
   'LBL_ASSIGNED_USER_NAME' => 'Менеджер проекта',
-  //'LBL_ASSIGNED_USER_ID' => 'Участник',
+
   'LBL_TASK_TITLE' => 'Редактировать',
   'LBL_PREDECESSOR_TITLE' => 'Редактировать',
   ///'LBL_START_DATE_TITLE' => 'Select Start Date',
@@ -164,12 +164,12 @@ $mod_strings = array (
   'LBL_RESOURCE_CHART_END' => 'Дата окончания:',
   'LBL_RESOURCES' => 'Выбор участников:',
   'LBL_RELATIONSHIP_TYPE' => 'Тип связи',
-  'LBL_TASK_NAME' => 'Название',
+  'LBL_TASK_NAME' => 'Проектная задача',
   'LBL_PREDECESSORS' => 'Предшественник',
   'LBL_ASSIGNED_TO' => 'Менеджер проекта',
   'LBL_AM_PROJECTTEMPLATES_PROJECT_1_FROM_AM_PROJECTTEMPLATES_TITLE' => 'Шаблон проекта',
-  //'LBL_STATUS' => 'Статус',
-  //'LBL_LIST_ASSIGNED_USER_ID' => 'Project Manager',
+
+
   'LBL_AM_PROJECTHOLIDAYS_PROJECT_FROM_AM_PROJECTHOLIDAYS_TITLE' => 'Выходные дни',
   'LBL_TOOLTIP_PROJECT_NAME' => 'Проект',
   'LBL_TOOLTIP_TASK_NAME' => 'Задача',

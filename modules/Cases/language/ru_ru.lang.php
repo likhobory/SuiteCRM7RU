@@ -74,7 +74,7 @@ $mod_strings = array (
 'LBL_LIST_PRIORITY'=> 'Приоритет' ,
 'LBL_LIST_STATUS'=> 'Статус' ,
 'LBL_LIST_SUBJECT'=> 'Тема' ,
-'LBL_LIST_ASSIGNED_TO_NAME'   => 'Ответственный(ая)',
+
 
 
 'LNK_CASE_LIST'=> 'Обращения' ,

@@ -59,7 +59,7 @@ $mod_strings = array (
   'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Мероприятия',
   'LBL_AOD_INDEX_SUBPANEL_TITLE' => 'Индекс',
   'LBL_NEW_FORM_TITLE' => 'Новый индекс',
-  'LBL_LAST_OPTIMISED' => 'Недавно оптимизированные',
+
   'LBL_LOCATION' => 'Расположение',
   'LBL_SEARCH_DOCUMENTS' => 'Поиск документов',
   'LBL_SEARCH_BUTTON' => 'Поиск',

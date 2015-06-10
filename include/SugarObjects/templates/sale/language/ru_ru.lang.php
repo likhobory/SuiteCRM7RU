@@ -116,7 +116,7 @@ $mod_strings = array (
 'LBL_MODIFIED_ID' => 'Изменено(ID)',
 'LBL_MODIFIED_NAME'=> 'Изменено',
 'LBL_SALE_INFORMATION'=> 'Информация о сделке',
-'LBL_CURRENCY_ID'=> 'ID валюты',
+
 'LBL_CURRENCY_NAME'=> 'Название валюты',
 'LBL_CURRENCY_SYMBOL'=> 'Символ валюты',
 'LBL_EDIT_BUTTON' => 'Править',

@@ -100,7 +100,7 @@ $mod_strings = array (
 //document list view.
 'LBL_LIST_FORM_TITLE' => 'Список документов' ,
 'LBL_LIST_DOCUMENT' => 'Документ' ,
-'LBL_LIST_CATEGORY' => 'Категория' ,
+
 'LBL_LIST_SUBCATEGORY' => 'Подкатегория' ,
 'LBL_LIST_REVISION' => 'Версия' ,
 'LBL_LIST_LAST_REV_CREATOR' => 'Опубликовано' ,
@@ -143,7 +143,7 @@ $mod_strings = array (
 'LBL_TREE_TITLE' => 'Документы' ,
 //sub-panel vardefs.
 'LBL_LIST_DOCUMENT_NAME'=> 'Название' ,
-'LBL_CONTRACT_NAME'=> 'Название договора:' ,
+
 'LBL_LIST_IS_TEMPLATE'=> 'Шаблон? :' ,
 'LBL_LIST_TEMPLATE_TYPE'=> 'Тип документа' ,
 'LBL_LIST_SELECTED_REVISION'=> 'Выбранная версия' ,

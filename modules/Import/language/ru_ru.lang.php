@@ -89,10 +89,10 @@ $mod_strings = array (
     'LBL_ERROR_INVALID_TIME' => 'Неверное значение времени',
     'LBL_ERROR_INVALID_INT' => 'Неверное целое значение',
     'LBL_ERROR_INVALID_NUM' => 'Неверный номер',
-    'LBL_ERROR_INVALID_TIME' => 'Неверное значение времени',
+
     'LBL_ERROR_INVALID_EMAIL'=>'Неверный E-mail',
-    'LBL_ERROR_INVALID_BOOL'=>'Неверное значение (должно быть 1 или 0)',
-    'LBL_ERROR_INVALID_DATE'=>'Неверное значение даты',
+
+
     'LBL_ERROR_INVALID_USER'=>'Неверное имя пользователя или ID',
     'LBL_ERROR_INVALID_TEAM' => 'Invalid team name or ID',
     'LBL_ERROR_INVALID_ACCOUNT' => 'Неверная учётная запись или ID',
@@ -115,7 +115,7 @@ $mod_strings = array (
 'LBL_MODULE_NAME' => 'Импорт' ,
 'LBL_TRY_AGAIN' => 'Попробовать ещё раз' ,
  'LBL_START_OVER' => 'Начать сначала',
-'LBL_ERROR' => 'Ошибка:' ,
+
 'LBL_IMPORT_ERROR_MAX_REC_LIMIT_REACHED' => 'Импортируемый файл содержит {0} строк, что превышает оптимальное значение, равное {1}. Превышение данного значения может замедлить процесс импорта. Нажмите на кнопку "ОК" для продолжения импорта или на кнопку "Отмена" для возможности изменения и повторной загрузки импортируемого файла.',
 'ERR_IMPORT_SYSTEM_ADMININSTRATOR'  => 'Вы не можете импортировать пользователя, имеющего права системного администратора',
 'ERR_MULTIPLE' => 'Несколько полей имеют одни и те же имена.' ,
@@ -298,7 +298,7 @@ $mod_strings = array (
     'LBL_OPTION_ENCLOSURE_OTHER' => 'Другое:',
 	'LBL_IMPORT_COMPLETE' => 'Отмена',
     'LBL_IMPORT_COMPLETED' => 'Импорт завершён',
-    'LBL_IMPORT_ERROR' => 'Ошибки импорта:',
+
     'LBL_IMPORT_RECORDS' => 'Импорт записей с',
     'LBL_IMPORT_RECORDS_OF' => 'из',
     'LBL_IMPORT_RECORDS_TO' => 'по',
@@ -308,7 +308,7 @@ $mod_strings = array (
     'LBL_NUMBER_GROUPING_SEP' => 'Символ разделителя разрядов:',
     'LBL_DECIMAL_SEP' => 'Символ десятичного разделителя:',
     'LBL_LOCALE_DEFAULT_NAME_FORMAT' => 'Формат имени по умолчанию',
-    'LBL_LOCALE_EXAMPLE_NAME_FORMAT' => 'Пример',
+
     'LBL_LOCALE_NAME_FORMAT_DESC' => '<i>"s" Приветствие, "f" Имя, "l" Фамилия</i>',
     'LBL_CHARSET' => 'Кодировка:',
 	'LBL_MY_SAVED_HELP' => 'Вы можете использовать ранее сохранённые схемы импорта, содержащие параметры импорта, параметры сопоставления полей, а также настройки поиска дубликатов.<br><br>Нажмите на кнопку <b>Удалить</b> для удаления схемы (схема станет недоступной для всех пользователей).',

@@ -56,12 +56,12 @@ $mod_strings = array (
   'LBL_SEARCH_FORM_TITLE' => 'Поиск процесса',
   'LBL_HISTORY_SUBPANEL_TITLE' => 'История',
   'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Мероприятия',
-  'LBL_AOW_WORKFLOW_SUBPANEL_TITLE' => 'Процесс',
+
   'LBL_NEW_FORM_TITLE' => 'Новый процесс',
   'LBL_FLOW_MODULE' => 'Контролируемый модуль',
   'LBL_STATUS' => 'Статус',
   'LBL_FLOW_RUN_ON' => 'Запускать для',
-  'LNK_IMPORT_AOW_WORKFLOW' => 'Импорт процесса',
+
   'LBL_AOW_WORKFLOW_SUBPANEL_TITLE' => 'Процессы',
   'LBL_CONDITION_LINES' => 'Условия выполнения процесса',
   'LBL_ADD_CONDITION' => 'Добавить условие',

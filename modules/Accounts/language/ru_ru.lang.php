@@ -168,7 +168,7 @@ $mod_strings = array (
 'LBL_COPY' => 'Копировать' /*for 508 compliance fix*/,
 //For export labels
 'LBL_ACCOUNT_TYPE' => 'Тип',
-'LBL_CAMPAIGN_ID' => 'Маркет. кампания(ID)',
+
 'LBL_PARENT_ID' => 'ID родителя',
 'LBL_PHONE_ALTERNATE' => 'Другой тел.',
 'LBL_EXPORT_ASSIGNED_USER_NAME' => 'Ответственный(ая)',

@@ -57,7 +57,7 @@ $mod_strings['LBL_COLOUR_ADMIN_BTNHOVER'] = 'Цвет кнопки при нав
 $mod_strings['LBL_COLOUR_ADMIN_BTNLNK'] = 'Цвет надписи кнопки: ';
 $mod_strings['LBL_COLOUR_ADMIN_BTNLNKHOVER'] = 'Цвет надписи кнопки при наведении курсора: ';
 $mod_strings['LBL_COLOUR_ADMIN_DASHHEAD'] = 'Цвет заголовка дашлета: ';
-$mod_strings['LBL_COLOUR_ADMIN_DASHHEAD'] = 'Цвет заголовка дашлета: ';
+
 $mod_strings['LBL_COLOUR_ADMIN_ICON'] = 'Цвет иконок в заголовке дашлета: ';
 
 $mod_strings['LBL_COLOUR_ADMIN_TABS'] = 'Настройка закладок модулей';

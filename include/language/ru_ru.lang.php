@@ -15,8 +15,8 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
  * this program; if not, see http://www.gnu.org/licenses or write to the Free
  * Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
  * 02110-1301 USA.
-
      // Replaced by RAPIRA -->
+
  ********************************************************************************/
   /*********************************************************************************
   *
@@ -54,7 +54,6 @@ $app_list_strings = array (
 
     'Activities' => 'Мероприятия' ,
     'Bugs' => 'Ошибки' ,
-	'KBDocuments' => 'KBDocument', ///
     'Feeds' => 'RSS-ленты' ,
     'iFrames'=>'Мои сайты' ,
     'TimePeriods'=>'Периоды времени' ,
@@ -95,7 +94,7 @@ $app_list_strings = array (
     'FAQ' => 'FAQ',
     'Newsletters' => 'Бюллетени',
     'SugarFeed'=>'Лента событий',
-	   'KBDocuments' => 'База знаний', ///
+	'KBDocuments' => 'База знаний', ///
 	'SugarFavorites'=>'Избранное', ///
 	'OAuthKeys' => 'Клиентские ключи OAuth',
     'OAuthTokens' => 'OAuth-маркёры',
@@ -117,6 +116,7 @@ $app_list_strings = array (
     'Leads' => 'Предварит. контакт' ,
     'Activities' => 'Мероприятие' ,
     'Bugs' => 'Ошибка' ,
+	'KBDocuments' => 'База знаний',
     'Feeds' => 'RSS-ленты' ,
     'iFrames'=>'Мой портал' ,
     'TimePeriods'=>'Периоды времени' ,
@@ -499,7 +499,7 @@ $app_list_strings = array (
         'Medium' => 'Средний' ,
         'Low' => 'Низкий'    ,
     ),
-    'project_priority_default' => 'Средний',
+    'project_priority_default' => 'Medium',
 
   //Note:  do not translate record_type_default_key
 //       it is the key for the default record_type_module value
@@ -652,7 +652,7 @@ $app_list_strings = array (
     '' => '' ,
     'Accounts' => 'Контрагенты' ,
     'Activities' => 'Мероприятия' ,
-    'Bug Tracker' => 'Ошибки' ,
+    'Bugs' => 'Ошибки' ,
     'Calendar' => 'Календарь' ,
     'Calls' => 'Звонки' ,
     'Campaigns' => 'Маркетинг' ,
@@ -1636,7 +1636,7 @@ $app_strings = array (
     'LBL_MODULE_FILTER' => 'Filter By', ///
     'LBL_CONNECTORS_POPUPS'=>'Подключения',
     'LBL_CLOSEINLINE'=>'Закрыть',
-    'LBL_MOREDETAIL'=>'Подробности',
+
     'LBL_EDITINLINE'=>'Править',
     'LBL_VIEWINLINE'=>'Просмотр',
     'LBL_INFOINLINE'=>'Детали',
@@ -2076,7 +2076,6 @@ $app_strings = array (
         'LBL_EMAIL_TEXT_NEXT'                           => 'Следующая страница',
         'LBL_EMAIL_TEXT_LAST'                           => 'Последняя страница',
         'LBL_EMAIL_TEXT_REFRESH'                        => 'Обновить',
-	'LBL_EMAIL_TO'					=> 'Кому',
 	'LBL_EMAIL_TOGGLE_LIST'		        	=> 'Переключить',    ///
 	'LBL_EMAIL_VIEW'				=> 'Просмотр',
 	'LBL_EMAIL_VIEWS'				=> 'Вид',
@@ -2388,11 +2387,10 @@ $app_strings = array (
 	
 	'LBL_PROSPECTS'=>'Адресаты',
     'LBL_PRODUCT_BUNDLES'=>'Набор товаров' ,
-    'LBL_PRODUCT_BUNDLES'=>'Набор товаров' ,
     'LBL_PRODUCTS'=>'Продукция' ,
     'LBL_PROJECT_TASKS'=>'Проектные задачи' ,
     'LBL_PROJECTS'=>'Проекты' ,
-    'LBL_PROJECTS'=>'Проекты' ,
+
     'LBL_QUOTE_TO_OPPORTUNITY_KEY' => 'O' ,
     'LBL_QUOTE_TO_OPPORTUNITY_LABEL' => 'Создать сделку из ссылки' ,
     'LBL_QUOTE_TO_OPPORTUNITY_TITLE' => 'Создать сделку из ссылки' ,
@@ -2525,7 +2523,7 @@ $app_strings = array (
 
 
     'LBL_SYNC' => 'Синхронизация' ,
-    'LBL_SYNC' => 'Синхронизация' ,
+
     'LBL_TABGROUP_ALL' => 'Все',
     'LBL_TABGROUP_ACTIVITIES' => 'Мероприятия',
     'LBL_TABGROUP_COLLABORATION' => 'Совместная работа',
@@ -2698,7 +2696,7 @@ $app_strings = array (
     'LBL_ADD_ALL_LEAD_FIELDS' => 'Добавить все поля',
     'LBL_REMOVE_ALL_LEAD_FIELDS' => 'Удалить все поля',
     'LBL_ONLY_IMAGE_ATTACHMENT' => 'Возможно добавить только графическое вложение',
-    'LBL_REMOVE' => 'Удалить' ,
+    
     'LBL_TRAINING' => 'Поддержка',
     'ERR_DATABASE_CONN_DROPPED'=>'Ошибка при выполнении запроса. Вероятно, соединение с базой данных было утеряно. Пожалуйста, обновите текущую страницу. Возможно, потребуется перезагрузить ваш веб-сервер.',
     'ERR_MSSQL_DB_CONTEXT' =>'Состояние БД изменилось:',
@@ -2745,7 +2743,7 @@ $app_strings = array (
 	'LBL_ADD_DASHLETS' => 'Добавить дашлет',
 	'LBL_CLOSE_DASHLETS' => 'закрыть',
 	'LBL_OPTIONS' => 'Параметры',
-	'LBL_NUMBER_OF_COLUMNS' => 'Выберите количество колонок',
+	'LBL_NUMBER_OF_COLUMNS' => 'Количество колонок на странице:',
 	'LBL_1_COLUMN' => '1 колонка',
 	'LBL_2_COLUMN' => '2 колонки',
 	'LBL_3_COLUMN' => '3 колонки',
@@ -2821,7 +2819,7 @@ $app_strings = array (
     'LBL_PORTAL_WELCOME_TITLE' => 'Welcome to Sugar Portal 5.1.0',
     'LBL_PORTAL_WELCOME_INFO' => 'Sugar Portal is a framework which provides real-time view of cases, bugs & newsletters etc to customers. This is an external facing interface to Sugar that can be deployed within any website.  Stay tuned for more customer self service features like Project Management and Forums in our future releases.',
     'LBL_LIST' => 'List',
-    'LBL_CREATE_CASE' => 'Создать обращение',
+
     'LBL_CREATE_BUG' => 'Create Bug',
     'LBL_NO_RECORDS_FOUND' => '- 0 Records Found -',
     
@@ -2874,13 +2872,11 @@ $app_strings = array (
 	'ERROR_MISSING_COLLECTION_SELECTION' => 'Empty required field',
     'LBL_COLLECTION_EXACT' => 'Exact',
 	
-	 // fastcgi checks
-    'LBL_FASTCGI_LOGGING'      => 'Для оптимального использования IIS / FastCGI SAPI, установите параметр fastcgi.logging в файле php.ini равным 0.',
+
   //MB -Fixed Bug #32812 -Max
     'LBL_ASSIGNED_TO_NAME' => 'Ответственный(ая)',
     'LBL_DESCRIPTION' => 'Описание',
 	
-	'LBL_NONE' => '--не выбрано--' ,
 	'LBL_YESTERDAY'=> 'вчера',
 	'LBL_TODAY'=>'сегодня',
 	'LBL_TOMORROW'=>'завтра',
@@ -3048,13 +3044,6 @@ $app_list_strings['moduleList']['EmailAddresses'] = 'Email Address';
 
 
 
-$app_list_strings['project_priority_default'] = 'Medium';
-$app_list_strings['project_priority_options'] = array (
-    'High' => 'Высокий' ,
-    'Medium' => 'Средний' ,
-    'Low' => 'Низкий'    ,
-);
-
 
   $app_list_strings['kbdocument_status_dom'] =    array (
     'Draft' => 'Черновик',
@@ -3084,7 +3073,7 @@ $app_list_strings['project_priority_options'] = array (
         'name' => 'Указать название',
     );
 
-  $app_list_strings['moduleList']['KBDocuments'] = 'Knowledge Base';
+
   $app_strings['LBL_CREATE_KB_DOCUMENT'] = 'Create Article';
   $app_list_strings['kbdocument_viewing_frequency_dom'] =
   array(
@@ -3175,7 +3164,7 @@ $app_list_strings['project_priority_options'] = array (
 'UPPER VOLTA' => 'ВЕРХНЯЯ ВОЛЬТА',
 'BRITISH VIRGIN ISLANDS' => 'ВИРГИНСКИЕ ОСТРОВА - ВЕЛИКОБРИТАНИЯ',
 'US VIRGIN ISLANDS' => 'ВИРГИНСКИЕ ОСТРОВА-США',
-'AMERICAN SAMOA' => 'ВОСТОЧНОЕ САМОА',
+
 'VIETNAM' => 'ВЬЕТНАМ',
 'GABON' => 'ГАБОН',
 'HAITI' => 'ГАИТИ',
@@ -4315,41 +4304,16 @@ $app_list_strings['marker_image_list']['wifi'] = 'Wi-Fi';
 
 $app_list_strings['moduleList']['AM_ProjectTemplates'] = 'Шаблоны проектов';
 $app_list_strings['moduleList']['AM_TaskTemplates'] = 'Шаблоны проектных задач';
-$app_list_strings['project_status_dom']['Draft'] = 'Черновик';
-$app_list_strings['project_status_dom']['In Review'] = 'На рассмотрении';
 $app_list_strings['project_status_dom']['Published'] = 'Опубликован';
-$app_list_strings['project_priority_options']['High'] = 'Высокий';
-$app_list_strings['project_priority_options']['Medium'] = 'Средний';
-$app_list_strings['project_priority_options']['Low'] = 'Низкий';
-$app_list_strings['project_task_status_options']['Not Started'] = 'Не начата';
-$app_list_strings['project_task_status_options']['In Progress'] = 'В процессе';
-$app_list_strings['project_task_status_options']['Completed'] = 'Завершена';
-$app_list_strings['project_task_status_options']['Pending Input'] = 'Ожидание решения';
-$app_list_strings['project_task_status_options']['Deferred'] = 'Отложена';
-$app_list_strings['project_task_priority_options']['High'] = 'Высокий';
-$app_list_strings['project_task_priority_options']['Medium'] = 'Средний';
-$app_list_strings['project_task_priority_options']['Low'] = 'Низкий';
 $app_list_strings['relationship_type_list']['FS'] = 'Окончание-Начало';
 $app_list_strings['relationship_type_list']['SS'] = 'Начало-Окончание';
-$app_list_strings['project_task_utilization_options']['0'] = 'нет';
-$app_list_strings['project_task_utilization_options']['25'] = '25';
-$app_list_strings['project_task_utilization_options']['50'] = '50';
-$app_list_strings['project_task_utilization_options']['75'] = '75';
-$app_list_strings['project_task_utilization_options']['100'] = '100';
 $app_list_strings['moduleList']['AM_ProjectHolidays'] = 'Выходные дни';
 $app_list_strings['holiday_resource_dom']['Contacts'] = 'Контакты';
 $app_list_strings['holiday_resource_dom']['Users'] = 'Пользователи';
 
-+$app_list_strings['duration_unit_dom']['Days'] = 'дней';
-+$app_list_strings['duration_unit_dom']['Hours'] = 'часов';
+$app_list_strings['duration_unit_dom']['Days'] = 'дней';
+$app_list_strings['duration_unit_dom']['Hours'] = 'часов';
 
-$app_list_strings['project_status_dom'] = array (
-    'Draft' => 'Черновик',
-    'In Review' => 'На рассмотрении',
-    'Underway' => 'Реализуется',
-    'On_Hold' => 'Приостановлен',
-    'Completed' => 'Завершён',
-);
 
 $app_strings['LBL_GANTT_BUTTON_LABEL'] = 'Диаграмма Ганта';
 $app_strings['LBL_GANTT_BUTTON_TITLE'] = 'Диаграмма Ганта';
@@ -4405,13 +4369,6 @@ $app_list_strings['fp_event_status_dom']['No Response'] = 'Ответ не по�
 
 $app_strings['LBL_STATUS_EVENT'] = 'Статус приглашения';
 $app_strings['LBL_ACCEPT_STATUS'] = 'Статус приглашения';
-$app_strings['LBL_LISTVIEW_OPTION_CURRENT'] = 'Текущая страница';
-$app_strings['LBL_LISTVIEW_OPTION_ENTIRE'] = 'Все записи';
-$app_strings['LBL_LISTVIEW_NONE'] = 'Отменить выбор';
-
-
-
-
 
 
  
@@ -4517,7 +4474,6 @@ $app_list_strings['product_code_dom']['YYYY'] = 'YYYY';
 
 $app_list_strings['product_category_dom']['Laptops'] = 'Ноутбуки';
 $app_list_strings['product_category_dom']['Desktops'] = 'Системные блоки';
-$app_list_strings['product_category_dom'][''] = '';
 
 $app_list_strings['product_type_dom']['Good'] = 'Товар';
 $app_list_strings['product_type_dom']['Service'] = 'Услуга';
@@ -4599,7 +4555,7 @@ $app_list_strings['aow_process_status_list']['Failed'] = 'Ошибка выпо�
 
 $app_list_strings['aow_condition_operator_list']['And'] = 'И';
 $app_list_strings['aow_condition_operator_list']['OR'] = 'ИЛИ';
-$app_list_strings['aow_condition_operator_list']['OR'] = 'ИЛИ';
+
 
 $app_list_strings['aow_condition_type_list']['Value'] = 'Значение';
 $app_list_strings['aow_condition_type_list']['Field'] = 'Поле';
@@ -4637,11 +4593,11 @@ $app_list_strings['aow_assign_options']['all'] = 'ВСЕ пользовател�
 $app_list_strings['aow_assign_options']['role'] = 'ВСЕ пользователи Роли';
 $app_list_strings['aow_assign_options']['security_group'] = 'ВСЕ пользователи Группы';
 
-$app_list_strings['aow_email_type_list']['Email Address'] = 'Вручную';
+$app_list_strings['aow_email_type_list']['Email Address'] = 'Указать вручную';
 $app_list_strings['aow_email_type_list']['Record Email'] = 'Отобранной записи';
 $app_list_strings['aow_email_type_list']['Related Field'] = 'Связанного модуля';
-$app_list_strings['aow_email_type_list']['Specify User'] = 'Пользователя';
-$app_list_strings['aow_email_type_list']['Users'] = 'Пользователей';
+$app_list_strings['aow_email_type_list']['Specify User'] = 'Выбрать пользователя';
+$app_list_strings['aow_email_type_list']['Users'] = 'Выбрать пользователей';
 $app_list_strings['aow_email_to_list']['to'] = 'Кому';
 $app_list_strings['aow_email_to_list']['cc'] = 'Копия';
 $app_list_strings['aow_email_to_list']['bcc'] = 'Скрытая копия';
@@ -4684,7 +4640,6 @@ $app_strings['LBL_COLLECTION_TYPE'] = 'Модуль';
 $app_strings['LBL_ADD_TAB'] = 'Добавить страницу';
 $app_strings['LBL_SUITE_DASHBOARD'] = 'Suite - основная страница';
 $app_strings['LBL_ENTER_DASHBOARD_NAME'] = 'Название страницы:';
-$app_strings['LBL_NUMBER_OF_COLUMNS'] = 'Количество колонок на странице:';
 $app_strings['LBL_DELETE_DASHBOARD1'] = 'Вы действительно хотите удалить страницу';
 $app_strings['LBL_DELETE_DASHBOARD2'] = '?';
 $app_strings['LBL_ADD_DASHBOARD_PAGE'] = 'Добавление новой страницы на закладку ГЛАВНАЯ';
@@ -4738,16 +4693,7 @@ $app_list_strings['case_state_dom'] =
       'Closed' => 'Закрыто',
   );
 $app_list_strings['case_state_default_key'] = 'Open';
-$app_list_strings['case_status_default_key'] = 'Open_New';
-$app_list_strings['case_status_dom'] =
-  array (
-      'Open_New' => 'Новое',
-      'Open_Assigned' => 'Назначенное',
-      'Closed_Closed' => 'Закрытое',
-      'Open_Pending Input' => 'Ожидание решения',
-      'Closed_Rejected' => 'Отклонённое',
-      'Closed_Duplicate' => 'Продублированное',
-  );
+
   
   $app_list_strings['contact_portal_user_type_dom'] =
     array (
@@ -4758,8 +4704,6 @@ $app_list_strings['case_status_dom'] =
   $app_list_strings['dom_email_distribution_for_auto_create']=array (
     'AOPDefault' => 'Стандартный',
     'singleUser' => 'Указанный пользователь',
-    'roundRobin' => 'В цикле',
-    'leastBusy' => 'Наименее занятой',
     'random' => 'Случайный',
 );
 	

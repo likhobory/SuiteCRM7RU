@@ -93,7 +93,7 @@ $mod_strings = array (
 'LBL_TASK_INFORMATION' => 'Основная информация',
 'LBL_HISTORY_SUBPANEL_TITLE' => 'Заметки',
 'LBL_EDITLAYOUT' => 'Изменить макет' /*for 508 compliance fix*/,
-'LBL_TASK_INFORMATION' => 'Основная информация',
+
 //For export labels
 'LBL_DATE_DUE' => 'Дата выполнения',
 'LBL_EXPORT_ASSIGNED_USER_NAME' => 'Ответственный(ая)',

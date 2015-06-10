@@ -57,7 +57,7 @@ $app_list_strings['aow_process_status_list']['Failed'] = 'Ошибка выпо�
 
 $app_list_strings['aow_condition_operator_list']['And'] = 'И';
 $app_list_strings['aow_condition_operator_list']['OR'] = 'ИЛИ';
-$app_list_strings['aow_condition_operator_list']['OR'] = 'ИЛИ';
+
 
 $app_list_strings['aow_condition_type_list']['Value'] = 'Значение';
 $app_list_strings['aow_condition_type_list']['Field'] = 'Поле';
@@ -95,11 +95,11 @@ $app_list_strings['aow_assign_options']['all'] = 'ВСЕ пользовател�
 $app_list_strings['aow_assign_options']['role'] = 'ВСЕ пользователи Роли';
 $app_list_strings['aow_assign_options']['security_group'] = 'ВСЕ пользователи Группы';
 
-$app_list_strings['aow_email_type_list']['Email Address'] = 'Вручную';
+$app_list_strings['aow_email_type_list']['Email Address'] = 'Указать вручную';
 $app_list_strings['aow_email_type_list']['Record Email'] = 'Отобранной записи';
 $app_list_strings['aow_email_type_list']['Related Field'] = 'Связанного модуля';
-$app_list_strings['aow_email_type_list']['Specify User'] = 'Пользователя';
-$app_list_strings['aow_email_type_list']['Users'] = 'Пользователей';
+$app_list_strings['aow_email_type_list']['Specify User'] = 'Выбрать пользователя';
+$app_list_strings['aow_email_type_list']['Users'] = 'Выбрать пользователей';
 $app_list_strings['aow_email_to_list']['to'] = 'Кому';
 $app_list_strings['aow_email_to_list']['cc'] = 'Копия';
 $app_list_strings['aow_email_to_list']['bcc'] = 'Скрытая копия';

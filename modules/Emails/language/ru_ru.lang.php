@@ -343,10 +343,10 @@ $mod_strings = array (
 'LBL_SMTP_SERVER_HELP' => 'Сервер SMTP может быть использован для отправки исходящей электронной почты. Для использования данного сервера в настройках учётной записи укажите соответствующего пользователя и пароль.',
 'LBL_MISSING_DEFAULT_OUTBOUND_SMTP_SETTINGS' => 'Администратор системы ещё не настроил стандартный сервер исходящей почты. Тестовое письмо не может быть отправлено.',
 'LBL_MAIL_SMTPAUTH_REQ'=> 'Использовать SMTP-аутентификацию?',
-'LBL_MAIL_SMTPPASS'=> 'SMTP-пароль:' ,
+
 'LBL_MAIL_SMTPPORT'=> 'SMTP-порт:' ,
-'LBL_MAIL_SMTPSERVER'=> 'SMTP-сервер:' ,
-'LBL_MAIL_SMTPUSER'=> 'SMTP-пользователь:' ,
+
+
 'LBL_MAIL_SMTPTYPE'                => 'Тип SMTP-сервера:',
 'LBL_MAIL_SMTP_SETTINGS'           => 'Настройка SMTP-сервера',
 'LBL_CHOOSE_EMAIL_PROVIDER'        => 'Выберите почтовую службу:',

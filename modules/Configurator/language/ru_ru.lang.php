@@ -417,7 +417,7 @@ To configure additional system settings, click <a href="index.php?module=Adminis
 'LBL_DELETE' => 'Удалить' /*for 508 compliance fix*/,
 'LBL_WELCOME' => 'Добро пожаловать' /*for 508 compliance fix*/,
 'LBL_LOGO' => 'Логотип' /*for 508 compliance fix*/,
-'LBL_MOBILE_MOD_REPORTS_RESTRICTION' => '* The Reports module is only available for the Suite Mobile native clients', ///
+
 'LBL_ENABLE_HISTORY_CONTACTS_EMAILS' => 'Дублировать отображение писем контактов в субпанели "История" для следующих модулей',
 
 );

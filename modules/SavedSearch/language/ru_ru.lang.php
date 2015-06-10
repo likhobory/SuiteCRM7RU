@@ -31,7 +31,7 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
  
 $mod_strings = array (
 'LBL_MODULE_TITLE' => 'Мои сохранённые условия поиска',
-'LBL_MODULE_TITLE' => 'Мои сохранённые условия поиска',
+
 'LBL_SEARCH_FORM_TITLE' => 'Мои сохранённые условия поиска : Поиск',
 'LBL_LIST_FORM_TITLE' => 'Список условий поиска',
 'LBL_DELETE_CONFIRM' => 'Вы действительно хотите удалить выбранное условие поиска?',

@@ -1,6 +1,7 @@
 <?php 
  //WARNING: The contents of this file are auto-generated
 
+
 $app_strings['LBL_SUITE_SUPERCHARGED']= 'Supercharged by SuiteCRM';
 $app_strings['LBL_SUITE_POWERED_BY']= 'Powered By SugarCRM';
 $app_strings['LBL_SUITE_TOP']= 'Наверх';
@@ -501,7 +502,7 @@ $app_list_strings['aow_process_status_list']['Failed'] = 'Ошибка выпо�
 
 $app_list_strings['aow_condition_operator_list']['And'] = 'И';
 $app_list_strings['aow_condition_operator_list']['OR'] = 'ИЛИ';
-$app_list_strings['aow_condition_operator_list']['OR'] = 'ИЛИ';
+
 
 $app_list_strings['aow_condition_type_list']['Value'] = 'Значение';
 $app_list_strings['aow_condition_type_list']['Field'] = 'Поле';
@@ -539,11 +540,11 @@ $app_list_strings['aow_assign_options']['all'] = 'ВСЕ пользовател�
 $app_list_strings['aow_assign_options']['role'] = 'ВСЕ пользователи Роли';
 $app_list_strings['aow_assign_options']['security_group'] = 'ВСЕ пользователи Группы';
 
-$app_list_strings['aow_email_type_list']['Email Address'] = 'Вручную';
+$app_list_strings['aow_email_type_list']['Email Address'] = 'Указать вручную';
 $app_list_strings['aow_email_type_list']['Record Email'] = 'Отобранной записи';
 $app_list_strings['aow_email_type_list']['Related Field'] = 'Связанного модуля';
-$app_list_strings['aow_email_type_list']['Specify User'] = 'Пользователя';
-$app_list_strings['aow_email_type_list']['Users'] = 'Пользователей';
+$app_list_strings['aow_email_type_list']['Specify User'] = 'Выбрать пользователя';
+$app_list_strings['aow_email_type_list']['Users'] = 'Выбрать пользователей';
 $app_list_strings['aow_email_to_list']['to'] = 'Кому';
 $app_list_strings['aow_email_to_list']['cc'] = 'Копия';
 $app_list_strings['aow_email_to_list']['bcc'] = 'Скрытая копия';
@@ -840,8 +841,6 @@ $app_list_strings['moduleList']['AOD_Index'] = 'Индекс';
 
 $app_list_strings['moduleList']['AM_ProjectTemplates'] = 'Шаблоны проектов';
 $app_list_strings['moduleList']['AM_TaskTemplates'] = 'Шаблоны проектных задач';
-$app_list_strings['project_status_dom']['Draft'] = 'Черновик';
-$app_list_strings['project_status_dom']['In Review'] = 'На рассмотрении';
 $app_list_strings['project_status_dom']['Published'] = 'Опубликован';
 $app_list_strings['project_priority_options']['High'] = 'Высокий';
 $app_list_strings['project_priority_options']['Medium'] = 'Средний';
@@ -967,8 +966,6 @@ $mod_strings = array (
  * Social Feed Language Strings.
  */
 
-$app_strings['FACEBOOK_USER_C'] = 'Facebook';
-$app_strings['TWITTER_USER_C'] = 'Twitter';
 $app_strings['LBL_FACEBOOK_USER_C'] = 'Учётная запись в Facebook';
 $app_strings['LBL_TWITTER_USER_C'] = 'Учётная запись в Twitter';
 $app_strings['LBL_PANEL_SOCIAL_FEED'] = 'Подробности';

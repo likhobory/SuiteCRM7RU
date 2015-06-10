@@ -75,7 +75,7 @@ $mod_strings = array (
 'LNK_IMPORT_NOTES' => 'Импорт заметок',
 'LNK_NEW_NOTE' => 'Создать заметку или вложение' ,
 'LNK_NOTE_LIST' => 'Заметки' ,
-'LNK_IMPORT_NOTES' => 'Импорт заметок',
+
 'LBL_MEMBER_OF' => 'Состоит в:'  ,
 'LBL_LIST_ASSIGNED_TO_NAME' => 'Ответственный(ая)',
 'LBL_REMOVING_ATTACHMENT'=> 'Удаление вложения...',
