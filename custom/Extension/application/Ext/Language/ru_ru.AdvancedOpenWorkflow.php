@@ -42,6 +42,10 @@ $app_list_strings['aow_operator_list']['Greater_Than'] = 'Больше';
 $app_list_strings['aow_operator_list']['Less_Than'] = 'Меньше';
 $app_list_strings['aow_operator_list']['Greater_Than_or_Equal_To'] = 'Больше или равно';
 $app_list_strings['aow_operator_list']['Less_Than_or_Equal_To'] = 'Меньше или равно';
+$app_list_strings['aow_operator_list']['Contains'] = 'Содержит';
+$app_list_strings['aow_operator_list']['Starts_With'] = 'Начинается с';
+$app_list_strings['aow_operator_list']['Ends_With'] = 'Оканчивается на';
+$app_list_strings['aow_operator_list']['is_null'] = 'Пустое';
 
 $app_list_strings['aow_sql_operator_list']['Equal_To'] = '=';
 $app_list_strings['aow_sql_operator_list']['Not_Equal_To'] = '!=';
@@ -49,6 +53,10 @@ $app_list_strings['aow_sql_operator_list']['Greater_Than'] = '>';
 $app_list_strings['aow_sql_operator_list']['Less_Than'] = '<';
 $app_list_strings['aow_sql_operator_list']['Greater_Than_or_Equal_To'] = '>=';
 $app_list_strings['aow_sql_operator_list']['Less_Than_or_Equal_To'] = '<=';
+$app_list_strings['aow_sql_operator_list']['Contains'] = 'LIKE';
+$app_list_strings['aow_sql_operator_list']['Starts_With'] = 'LIKE';
+$app_list_strings['aow_sql_operator_list']['Ends_With'] = 'LIKE';
+$app_list_strings['aow_sql_operator_list']['is_null'] = 'IS NULL';
 
 $app_list_strings['aow_process_status_list']['Complete'] = 'Завершён';
 $app_list_strings['aow_process_status_list']['Running'] = 'Выполняется';
@@ -85,6 +93,7 @@ $app_list_strings['aow_date_type_list']['month'] = 'месяцев';
 $app_list_strings['aow_date_type_list']['business_hours'] = 'рабочих часов';
 
 $app_list_strings['aow_date_options']['now'] = 'Сейчас';
+$app_list_strings['aow_date_options']['today'] = 'Сегодня';
 $app_list_strings['aow_date_options']['field'] = 'Это поле';
 
 $app_list_strings['aow_date_operator']['now'] = '';
@@ -107,5 +116,8 @@ $app_list_strings['aow_email_to_list']['bcc'] = 'Скрытая копия';
 $app_list_strings['aow_run_on_list']['All_Records'] = 'Всех записей';
 $app_list_strings['aow_run_on_list']['New_Records'] = 'Создаваемых записей';
 $app_list_strings['aow_run_on_list']['Modified_Records'] = 'Изменяемых записей';
+$app_list_strings['aow_run_when_list']['Always'] = 'Всегда';
+$app_list_strings['aow_run_when_list']['On_Save'] = 'Только при создании записи';
+$app_list_strings['aow_run_when_list']['In_Scheduler'] = 'Только по расписанию в Планировщике';
 
 

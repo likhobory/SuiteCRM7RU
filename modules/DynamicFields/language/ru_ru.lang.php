@@ -111,6 +111,7 @@ $mod_strings = array (
 'LBL_VISIBLE_IF'=> 'Visible If', ///
 'LBL_ENFORCED'=> 'Enforced', ///
 'LBL_HELP' => 'Справка' /*for 508 compliance fix*/,
+'COLUMN_TITLE_INLINE_EDIT_TEXT'=>'Быстрая правка',
 
 );
 

@@ -414,7 +414,7 @@ Last attempted connection @ ',
 'LBL_LOCALE' => 'Установка региональных настроек',
 'LBL_LOGIN_SUGAR_SERVER_DESC'          => '- The User Name of the person who will operate this offline client',
 'LBL_LOGIN_SUGAR_SERVER'                => 'End User Name:',
-'LBL_MAILBOX_DESC' => 'Настройка групповых учётных записей для входящей почты, а также управление персональными учётными записями пользователей' ,
+'LBL_MAILBOX_DESC' => 'Настройка учётных записей для обработки поступающих обращений' ,
 'LBL_MANAGE_CONTRACTEMPLATES_TITLE'=> 'Contract Types',
 'LBL_MANAGE_CURRENCIES' => 'Валюта' ,
 'LBL_MANAGE_GROUPS_TITLE'   => 'Управление группами' ,
@@ -1100,7 +1100,7 @@ If your system environment prohibits your system from communicating to the licen
 
 'LBL_GLOBAL_SEARCH_SETTINGS_TITLE' => 'Выберите модули, в которых будет осуществляться глобальный поиск.',
 'LBL_SELECT_MODULES' => 'Дополнительно',
-'LBL_SELECT_MODULES_TITLE' => 'Модули, перемещённые в левую колонку, будут задействованы в процессе глобального поиска. В этой же колонке вы можете сортировать модули для отображения результатов поиска в необходимой вам последовательности.',
+'LBL_SELECT_MODULES_TITLE' => 'В модулях, перемещённых в левую колонку, будет осуществлён глобальный поиск. В этой же колонке вы можете сортировать модули для отображения результатов поиска в необходимой вам последовательности.',
 'LBL_SELECT_FTS_MODULES_TITLE' => 'Drag and drop to select modules to be used in the Global Search. Click Save to apply the changes.', ///
 'LBL_EAPM_SETTINGS' => 'Внешние учётные записи',
 'LBL_EAPM_SETTINGS_DESC' => 'Выберите  приложения, доступ к которым из Suite возможен с использованием указанных учётных данных.',
@@ -1262,18 +1262,21 @@ $mod_strings['LBL_SECURITYGROUPS_SUGAROUTFITTERS'] = "Grab the latest version of
  // Replaced by RAPIRA <--
 
 $mod_strings['LBL_AOP_ADMIN_MANAGE_AOP'] = 'Настройки портала';
-$mod_strings['LBL_AOP_JOOMLA_SETTINGS'] = 'Настройка портала';
+$mod_strings['LBL_AOP_ENABLE_AOP'] = 'Включить настройки портала';
+$mod_strings['LBL_AOP_ENABLE_PORTAL'] = 'Включить внешний портал';
+$mod_strings['LBL_AOP_JOOMLA_SETTINGS'] = 'Настройки портала';
 $mod_strings['LBL_AOP_JOOMLA_URL'] = 'Joomla URL';
 $mod_strings['LBL_AOP_JOOMLA_ACCESS_KEY'] = 'Ключ доступа к Joomla';
 $mod_strings['LBL_AOP_CASE_ASSIGNMENT'] = 'Распределение обращений';
 $mod_strings['LBL_AOP_DISTRIBUTION_METHOD'] = 'Метод распределения';
 $mod_strings['LBL_AOP_ASSIGNMENT_USER'] = 'Пользователь';
+$mod_strings['LBL_AOP_ASSIGNMENT_OPTIONS'] = 'Пользователи';
 
 $mod_strings['LBL_AOP_EMAIL_SETTINGS'] = 'Настройка шаблонов E-mail для обращений';
 $mod_strings['LBL_AOP_CONTACT_EMAIL_TEMPLATE'] = 'Шаблон письма при ответе контактам';
 $mod_strings['LBL_AOP_USER_EMAIL_TEMPLATE'] = 'Шаблон письма при ответе пользователям';
 $mod_strings['LBL_AOP_CASE_CREATION_EMAIL_TEMPLATE'] = 'Шаблон письма при создании обращения';
-$mod_strings['LBL_AOP_CASE_CLOSURE_EMAIL_TEMPLATE'] = 'Шаблон письма при создании обращения';
+$mod_strings['LBL_AOP_CASE_CLOSURE_EMAIL_TEMPLATE'] = 'Шаблон письма при закрытии обращения';
 $mod_strings['LBL_AOP_CASE_REMINDER_EMAIL_TEMPLATE'] = 'Шаблон письма для напоминаний';
 $mod_strings['LBL_AOP_JOOMLA_ACCOUNT_CREATION_EMAIL_TEMPLATE'] = 'Шаблон письма при создании учётной записи Joomla';
 
@@ -1289,6 +1292,11 @@ $mod_strings['LBL_SINGLE_USER']  = 'Указанный пользователь'
 $mod_strings['LBL_AOP_SETTINGS'] = 'Настройка портала';
 $mod_strings['LBL_AOP_DESC'] = 'Настройка параметров портала';
 
+$mod_strings['LBL_AOP_CASE_STATUS_SETTINGS'] = 'Изменение статуса обращений';
+$mod_strings['LBL_AOP_IF_STATUS'] = 'Если статус указан как';
+$mod_strings['LBL_AOP_THEN_STATUS'] = 'то изменить его на';
+$mod_strings['LBL_AOP_ADD_STATUS'] = 'Добавить';
+$mod_strings['LBL_AOP_REMOVE_STATUS'] = 'Удалить';
 
 $mod_strings['LBL_AOS_ADMIN_CONTRACT_SETTINGS'] = 'Параметры договоров';
 $mod_strings['LBL_AOS_ADMIN_CONTRACT_RENEWAL_REMINDER'] = 'Период действия договора';

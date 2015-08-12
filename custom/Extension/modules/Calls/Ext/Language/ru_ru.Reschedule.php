@@ -28,7 +28,8 @@
   *********************************************************************************/
  // Replaced by RAPIRA <--
  
-$mod_strings = array (
+$mod_strings = array_merge($mod_strings, 
+	array (
     'LBL_RESCHEDULE' => 'Отложить звонок',
     'LBL_RESCHEDULE_COUNT' => 'Попыток дозвона',
     'LBL_RESCHEDULE_DATE' => 'Дата',
@@ -37,5 +38,5 @@ $mod_strings = array (
     'LBL_RESCHEDULE_ERROR2' => 'Укажите причину, по которой звонок отложен',
     'LBL_RESCHEDULE_PANEL' => 'Отложенные звонки',
     'LBL_RESCHEDULE_HISTORY' => 'История дозвона'
-
+		)
 );

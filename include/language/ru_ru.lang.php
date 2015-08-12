@@ -3919,6 +3919,8 @@ $app_list_strings['aor_condition_type_list']['Value'] = 'Значение';
 $app_list_strings['aor_condition_type_list']['Field'] = 'Поле';
 $app_list_strings['aor_condition_type_list']['Date'] = 'Дата';
 $app_list_strings['aor_condition_type_list']['Multi'] = 'Мультивыбор';
+$app_list_strings['aor_condition_type_list']['Period'] = 'Период';
+$app_list_strings['aor_condition_type_list']['CurrentUserID'] = 'Текущий пользователь';
 
 $app_list_strings['aor_date_type_list'][''] = '';
 $app_list_strings['aor_date_type_list']['minute'] = 'мин.';
@@ -3963,9 +3965,18 @@ $app_list_strings['aor_scheduled_reports_status_dom']['inactive'] = 'Не акт
 $app_list_strings['aor_email_type_list']['Email Address'] = 'E-mail';
 $app_list_strings['aor_email_type_list']['Specify User'] = 'Пользователь';
 $app_list_strings['aor_email_type_list']['Users'] = 'Пользователи';
-$app_list_strings['aor_assign_options']['all'] = 'ВСЕ пользователи'; ///
-$app_list_strings['aor_assign_options']['role'] = 'ВСЕ пользователи из Роли'; ///
-$app_list_strings['aor_assign_options']['security_group'] = 'ВСЕ пользователи из Группы'; ///
+$app_list_strings['aor_assign_options']['all'] = 'ВСЕ пользователи';
+$app_list_strings['aor_assign_options']['role'] = 'ВСЕ пользователи из Роли';
+$app_list_strings['aor_assign_options']['security_group'] = 'ВСЕ пользователи из Группы';
+$app_list_strings['date_time_period_list']['today'] = 'Сегодня';
+$app_list_strings['date_time_period_list']['yesterday'] = 'Вчера';
+$app_list_strings['date_time_period_list']['this_week'] = 'На этой неделе';
+$app_list_strings['date_time_period_list']['last_week'] = 'На прошлой неделе';
+$app_list_strings['date_time_period_list']['last_month'] = 'В прошлом месяце';
+$app_list_strings['date_time_period_list']['this_quarter'] = 'В этом квартале';
+$app_list_strings['date_time_period_list']['last_quarter'] = 'В прошлом квартале';
+$app_list_strings['date_time_period_list']['this_year'] = 'В этом году';
+$app_list_strings['date_time_period_list']['last_year'] = 'В прошлом году';
 $app_strings['LBL_CRON_ON_THE_MONTHDAY'] = '';
 $app_strings['LBL_CRON_ON_THE_WEEKDAY'] = '';
 $app_strings['LBL_CRON_AT'] = 'в';
@@ -4540,6 +4551,10 @@ $app_list_strings['aow_operator_list']['Greater_Than'] = 'Больше';
 $app_list_strings['aow_operator_list']['Less_Than'] = 'Меньше';
 $app_list_strings['aow_operator_list']['Greater_Than_or_Equal_To'] = 'Больше или равно';
 $app_list_strings['aow_operator_list']['Less_Than_or_Equal_To'] = 'Меньше или равно';
+$app_list_strings['aow_operator_list']['Contains'] = 'Содержит';
+$app_list_strings['aow_operator_list']['Starts_With'] = 'Начинается с';
+$app_list_strings['aow_operator_list']['Ends_With'] = 'Оканчивается на';
+$app_list_strings['aow_operator_list']['is_null'] = 'Пустое';
 
 $app_list_strings['aow_sql_operator_list']['Equal_To'] = '=';
 $app_list_strings['aow_sql_operator_list']['Not_Equal_To'] = '!=';
@@ -4547,6 +4562,10 @@ $app_list_strings['aow_sql_operator_list']['Greater_Than'] = '>';
 $app_list_strings['aow_sql_operator_list']['Less_Than'] = '<';
 $app_list_strings['aow_sql_operator_list']['Greater_Than_or_Equal_To'] = '>=';
 $app_list_strings['aow_sql_operator_list']['Less_Than_or_Equal_To'] = '<=';
+$app_list_strings['aow_sql_operator_list']['Contains'] = 'LIKE';
+$app_list_strings['aow_sql_operator_list']['Starts_With'] = 'LIKE';
+$app_list_strings['aow_sql_operator_list']['Ends_With'] = 'LIKE';
+$app_list_strings['aow_sql_operator_list']['is_null'] = 'IS NULL';
 
 $app_list_strings['aow_process_status_list']['Complete'] = 'Завершён';
 $app_list_strings['aow_process_status_list']['Running'] = 'Выполняется';
@@ -4583,6 +4602,7 @@ $app_list_strings['aow_date_type_list']['month'] = 'месяцев';
 $app_list_strings['aow_date_type_list']['business_hours'] = 'рабочих часов';
 
 $app_list_strings['aow_date_options']['now'] = 'Сейчас';
+$app_list_strings['aow_date_options']['today'] = 'Сегодня';
 $app_list_strings['aow_date_options']['field'] = 'Это поле';
 
 $app_list_strings['aow_date_operator']['now'] = '';
@@ -4605,6 +4625,10 @@ $app_list_strings['aow_email_to_list']['bcc'] = 'Скрытая копия';
 $app_list_strings['aow_run_on_list']['All_Records'] = 'Всех записей';
 $app_list_strings['aow_run_on_list']['New_Records'] = 'Создаваемых записей';
 $app_list_strings['aow_run_on_list']['Modified_Records'] = 'Изменяемых записей';
+$app_list_strings['aow_run_when_list']['Always'] = 'Всегда';
+$app_list_strings['aow_run_when_list']['On_Save'] = 'Только при создании записи';
+$app_list_strings['aow_run_when_list']['In_Scheduler'] = 'Только по расписанию в Планировщике';
+
 
 /**
 * @package SuiteCRM

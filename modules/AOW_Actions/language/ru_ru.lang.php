@@ -59,9 +59,10 @@ $mod_strings = array (
   'LBL_ADD_FIELD' => 'Добавить поле',
   'LBL_ADD_RELATIONSHIP' => 'Добавить связь',
   'LBL_EDIT_EMAIL_TEMPLATE' => 'Изменить',
-  'LBL_EMAIL' => 'Указать E-mail',
+  'LBL_EMAIL' => 'Отправить E-mail',
   'LBL_EMAIL_TEMPLATE' => 'Шаблон E-mail',
   'LBL_SETAPPROVAL' => 'Set Approval',
   'LBL_RELATE_WORKFLOW' => 'Связать с записью в контролируемом модуле',
+    'LBL_INDIVIDUAL_EMAILS' => 'Отправлять индивидуально каждому указанному адресату',
 
 );

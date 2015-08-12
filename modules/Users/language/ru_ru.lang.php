@@ -574,6 +574,8 @@ $mod_strings = array (
         'LBL_QUICK_DOCUMENT' => 'Создать документ',
         'LBL_QUICK_CALL' => 'Назначить звонок',
         'LBL_QUICK_TASK' => 'Создать задачу',
+		
+		'LBL_ENABLE_NOTIFICATIONS' => 'Отображать всплывающие уведомления браузера',
     
 ); // END STRINGS DEFS
 
