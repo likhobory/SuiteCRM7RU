@@ -40,6 +40,9 @@ $app_list_strings['aor_operator_list']['Greater_Than'] = 'Больше';
 $app_list_strings['aor_operator_list']['Less_Than'] = 'Меньше';
 $app_list_strings['aor_operator_list']['Greater_Than_or_Equal_To'] = 'Больше или равно';
 $app_list_strings['aor_operator_list']['Less_Than_or_Equal_To'] = 'Меньше или равно';
+$app_list_strings['aor_operator_list']['Contains'] = 'Содержит';
+$app_list_strings['aor_operator_list']['Starts_With'] = 'Начинается с';
+$app_list_strings['aor_operator_list']['Ends_With'] = 'Оканчивается на';
 
 $app_list_strings['aor_sql_operator_list']['Equal_To'] = '=';
 $app_list_strings['aor_sql_operator_list']['Not_Equal_To'] = '!=';
@@ -47,6 +50,9 @@ $app_list_strings['aor_sql_operator_list']['Greater_Than'] = '>';
 $app_list_strings['aor_sql_operator_list']['Less_Than'] = '<';
 $app_list_strings['aor_sql_operator_list']['Greater_Than_or_Equal_To'] = '>=';
 $app_list_strings['aor_sql_operator_list']['Less_Than_or_Equal_To'] = '<=';
+$app_list_strings['aor_sql_operator_list']['Contains'] = 'LIKE';
+$app_list_strings['aor_sql_operator_list']['Starts_With'] = 'LIKE';
+$app_list_strings['aor_sql_operator_list']['Ends_With'] = 'LIKE';
 
 $app_list_strings['aor_condition_operator_list']['And'] = 'И';
 $app_list_strings['aor_condition_operator_list']['OR'] = 'ИЛИ';

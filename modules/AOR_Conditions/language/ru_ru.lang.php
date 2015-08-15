@@ -67,5 +67,5 @@ $mod_strings = array (
   'LBL_ORDER' => 'Сортировка',
   'LBL_CONDITION_OPERATOR' => 'Оператор сравнения',
   'LBL_AOR_REPORT_ID' => 'ID Отчёта',
-  'LBL_PARAMETER' => 'Изменяемое условие',///'Параметр',////
+  'LBL_PARAMETER' => 'Изменяемый параметр',///'Параметр',////
 );

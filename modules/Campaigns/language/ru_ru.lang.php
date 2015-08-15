@@ -30,8 +30,8 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
  // Replaced by RAPIRA <--
  
 $mod_strings = array (
-'LBL_FROM_ADDR' => 'Адрес отправителя',
-'LBL_REPLY_ADDR' => 'Адрес для ответа: ',
+'LBL_FROM_ADDR' => 'E-mail отправителя',
+'LBL_REPLY_ADDR' => 'E-mail для ответа: ',
 'LBL_REPLY_NAME' => 'Имя для ответа: ',
 
 'LBL_MODULE_NAME' => 'Маркетинг' ,
