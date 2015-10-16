@@ -67,7 +67,7 @@ $mod_strings = array (
   'LBL_DISCOUNT' => 'Тип скидки',
   'LBL_VAT_AMT' => 'НДС',
   'LBL_VAT' => 'НДС',
-  'LBL_PRODUCT_TOTAL_PRICE' => 'СУММА',
+  'LBL_PRODUCT_TOTAL_PRICE' => 'Итого без НДС',
   'LBL_PRODUCT_NOTE' => 'Заметка',
   'Quote' => '',
   'LBL_AOS_PRODUCTS_QUOTES_SUBPANEL_TITLE' => 'Товары_Предложения',
@@ -82,9 +82,10 @@ $mod_strings = array (
   'LBL_PRODUCT_COST_PRICE_USDOLLAR' => 'Себестоимость (основная валюта)',
   'LBL_PRODUCT_LIST_PRICE_USDOLLAR' => 'Цена по прайсу (основная валюта)',
   'LBL_PRODUCT_UNIT_PRICE_USDOLLAR' => 'Цена за единицу (основная валюта)',
-  'LBL_PRODUCT_TOTAL_PRICE_USDOLLAR' => 'СУММА (основная валюта)',
+  'LBL_PRODUCT_TOTAL_PRICE_USDOLLAR' => 'Итого без НДС (основная валюта)',
   'LBL_PRODUCT_DISCOUNT_USDOLLAR' => 'Скидка (основная валюта)',
   'LBL_PRODUCT_DISCOUNT_AMOUNT_USDOLLAR' => 'Объём скидки (основная валюта)',
   'LBL_VAT_AMT_USDOLLAR' => 'НДС (основная валюта)',
+  'LBL_PRODUCTS_SERVICES' => 'Товары / Услуги',
 );
 ?>

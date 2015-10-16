@@ -85,7 +85,7 @@ $mod_strings = array (
   'LBL_DISCOUNT_TYPE' => 'Тип скидки',
   'LBL_DISCOUNT_AMT' => 'Скидка',
   'LBL_UNIT_PRICE' => 'Цена за единицу',
-  'LBL_TOTAL_PRICE' => 'СУММА',
+  'LBL_TOTAL_PRICE' => 'Итого без НДС',
   'LBL_VAT' => 'НДС (%)',
   'LBL_VAT_AMT' => 'НДС',
 

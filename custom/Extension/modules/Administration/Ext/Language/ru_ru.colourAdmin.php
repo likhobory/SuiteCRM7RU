@@ -37,8 +37,8 @@ $mod_strings['LBL_DISPLAY_SIDEBAR'] = 'Отображать боковое ме�
 
 $mod_strings['LBL_COLOUR_ADMIN_MENU'] = 'Настройка цветовой схемы меню';
 $mod_strings['LBL_COLOUR_ADMIN_PAGE'] = 'Настройка цветовой схемы страниц';
-$mod_strings['LBL_COLOUR_ADMIN_PAGEHEADER'] = 'Цвет заголовков на странице';
-$mod_strings['LBL_COLOUR_ADMIN_PAGELINK'] = 'Цвет гиперссылок на странице';
+$mod_strings['LBL_COLOUR_ADMIN_PAGEHEADER'] = 'Цвет заголовков на странице: ';
+$mod_strings['LBL_COLOUR_ADMIN_PAGELINK'] = 'Цвет гиперссылок на странице: ';
 $mod_strings['LBL_COLOUR_ADMIN_DASHLET'] = 'Настройка цветовой схемы дашлетов';
 $mod_strings['LBL_COLOUR_ADMIN_BUTTON'] = 'Настройка цветовой схемы кнопок';
 
@@ -50,14 +50,21 @@ $mod_strings['LBL_COLOUR_ADMIN_MENUHOVER'] = 'Цвет главного меню
 $mod_strings['LBL_COLOUR_ADMIN_DDLINK'] = 'Цвет надписей выпадающего меню: ';
 $mod_strings['LBL_COLOUR_ADMIN_DDMENU'] = 'Цвет фона выпадающего меню: ';
 
-$mod_strings['LBL_COLOUR_ADMIN_MENUFONT'] = 'Цвет надписи закладок';
-$mod_strings['LBL_COLOUR_ADMIN_MENULNKHVR'] = 'Цвет надписи закладок при наведении курсора: ';
-$mod_strings['LBL_COLOUR_ADMIN_BTNTOP'] = 'Цвет кнопки: ';
-$mod_strings['LBL_COLOUR_ADMIN_BTNHOVER'] = 'Цвет кнопки при наведении курсора: ';
-$mod_strings['LBL_COLOUR_ADMIN_BTNLNK'] = 'Цвет надписи кнопки: ';
-$mod_strings['LBL_COLOUR_ADMIN_BTNLNKHOVER'] = 'Цвет надписи кнопки при наведении курсора: ';
-$mod_strings['LBL_COLOUR_ADMIN_DASHHEAD'] = 'Цвет заголовка дашлета: ';
+$mod_strings['LBL_COLOUR_ADMIN_DDLINK_HOVER'] = 'Цвет надписей выпадающего меню при наведении курсора: ';
+$mod_strings['LBL_ACTION_MENU_BACKGROUND'] = 'Цвет фона меню действий: ';
+$mod_strings['LBL_ACTION_MENU_BACKGROUND_HOVER'] = 'Цвет надписей меню действий при наведении курсора: ';
+
+$mod_strings['LBL_COLOUR_ADMIN_MENUFONT'] = 'Цвет надписей закладок: ';
+$mod_strings['LBL_COLOUR_ADMIN_MENULNKHVR'] = 'Цвет надпией закладок при наведении курсора: ';
+$mod_strings['LBL_COLOUR_ADMIN_BTNTOP'] = 'Цвет кнопок: ';
+$mod_strings['LBL_COLOUR_ADMIN_BTNHOVER'] = 'Цвет кнопок при наведении курсора: ';
+$mod_strings['LBL_COLOUR_ADMIN_BTNLNK'] = 'Цвет надписей кнопок: ';
+$mod_strings['LBL_COLOUR_ADMIN_BTNLNKHOVER'] = 'Цвет надписей кнопок при наведении курсора: ';
+$mod_strings['LBL_COLOUR_ADMIN_DASHHEAD'] = 'Цвет заголовков дашлетов: ';
 
 $mod_strings['LBL_COLOUR_ADMIN_ICON'] = 'Цвет иконок в заголовке дашлета: ';
 
 $mod_strings['LBL_COLOUR_ADMIN_TABS'] = 'Настройка закладок модулей';
+
+$mod_strings['LBL_SUGGESTION_POPUP_FROM'] = 'Окно вариантов решений обращения, градиент, цвет 1:';
+$mod_strings['LBL_SUGGESTION_POPUP_TO'] = 'Окно вариантов решений обращения, градиент, цвет 2:';

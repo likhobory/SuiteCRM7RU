@@ -31,6 +31,17 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
  
 $mod_strings = array (
 'ERR_DELETE_RECORD'=> 'Вы должны указать номер записи перед удалением.' ,
+	'LBL_TOOL_TIP_BOX_TITLE' => 'Варианты решений из базы знаний',
+	'LBL_TOOL_TIP_TITLE' => 'Статья: ',
+	'LBL_TOOL_TIP_BODY'  => 'Текст статьи: ',
+	'LBL_TOOL_TIP_INFO'  => 'Резолюция: ',
+	'LBL_TOOL_TIP_USE'   => 'Использовать как: ',
+	'LBL_SUGGESTION_BOX' => 'Варианты решений',
+	'LBL_NO_SUGGESTIONS' => 'Нет вариантов решения',
+	'LBL_RESOLUTION_BUTTON'  => 'Решение',
+	'LBL_SUGGESTION_BOX_STATUS' => 'Статус',
+	'LBL_SUGGESTION_BOX_TITLE' => 'Статья',
+	'LBL_SUGGESTION_BOX_REL' => 'Актуальность',
 
 'LBL_ACCOUNT_ID'=> 'ID контрагента' ,
 'LBL_ACCOUNT_NAME'=> 'Контрагент:' ,
@@ -58,10 +69,10 @@ $mod_strings = array (
 'LBL_PRIORITY'=> 'Приоритет:' ,
 'LBL_PROJECTS_SUBPANEL_TITLE' => 'Проекты',
 'LBL_DOCUMENTS_SUBPANEL_TITLE' => 'Документы',
-'LBL_RESOLUTION'=> 'Резолюция:' ,
+'LBL_RESOLUTION'=> 'Решение:' ,
 'LBL_SEARCH_FORM_TITLE'=> 'Поиск обращения' ,
 'LBL_STATUS'=> 'Статус:' ,
-'LBL_SUBJECT'=> 'Тема:' ,
+'LBL_SUBJECT'=> 'Тема обращения:' ,
 'LBL_SYSTEM_ID'=> 'System ID' ,
 'LBL_LIST_ASSIGNED_TO_NAME' => 'Ответственный(ая)',
 'LBL_LIST_ACCOUNT_NAME'=> 'Контрагент' ,
@@ -73,7 +84,7 @@ $mod_strings = array (
 'LBL_LIST_NUMBER'=> 'Ном.' ,
 'LBL_LIST_PRIORITY'=> 'Приоритет' ,
 'LBL_LIST_STATUS'=> 'Статус' ,
-'LBL_LIST_SUBJECT'=> 'Тема' ,
+'LBL_LIST_SUBJECT'=> 'Тема обращения' ,
 
 
 

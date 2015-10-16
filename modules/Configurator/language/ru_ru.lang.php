@@ -398,7 +398,7 @@ BSOFR
 // Wizard
 'LBL_WIZARD_TITLE' => 'Мастер настройки параметров SuiteCRM',
 'LBL_WIZARD_WELCOME_TAB' => 'Добро пожаловать',
-'LBL_WIZARD_WELCOME_TITLE' => 'Добро пожаловать в Suite!',
+'LBL_WIZARD_WELCOME_TITLE' => 'Добро пожаловать в SuiteCRM!',
 'LBL_WIZARD_WELCOME' => 'Нажмите на кнопку <b>Вперёд</b> для настройки параметров системы. Если Вы хотите сделать это позже, нажмите на кнопку <b>Пропустить</b>.',
 'LBL_WIZARD_NEXT_BUTTON' => 'Вперёд >',
 'LBL_WIZARD_BACK_BUTTON' => '< Назад',

@@ -94,8 +94,8 @@ $app_list_strings = array (
     'FAQ' => 'FAQ',
     'Newsletters' => 'Бюллетени',
     'SugarFeed'=>'Лента событий',
-	'KBDocuments' => 'База знаний', ///
-	'SugarFavorites'=>'Избранное', ///
+	'KBDocuments' => 'База знаний',
+	'SugarFavorites'=>'Избранное',
 	'OAuthKeys' => 'Клиентские ключи OAuth',
     'OAuthTokens' => 'OAuth-маркёры',
         ),
@@ -128,7 +128,7 @@ $app_list_strings = array (
 	'SugarFollowing'=>'SuiteFollowing', ///
     'Sync'=>'Синхронизация' ,
     'Users' => 'Пользователь' ,
-	'SugarFavorites'=>'SuiteFavorites' ///
+	'SugarFavorites'=>'Избранное' 
         ),
 
   'checkbox_dom'=> array (
@@ -2108,7 +2108,7 @@ $app_strings = array (
     'LBL_LINK_ACTIONS'=> 'Действия',
 	'LBL_LINK_MORE'=> 'More', ///
     'LBL_CLOSE_ACTIVITY_HEADER' => "Подтверждение",
-    'LBL_CLOSE_ACTIVITY_CONFIRM' => "Вы действительно хотите закрыть этот раздел?",
+    'LBL_CLOSE_ACTIVITY_CONFIRM' => "Вы действительно хотите закрыть это мероприятие?",
     'LBL_CLOSE_ACTIVITY_REMEMBER' => "Не отображать это сообщение в дальнейшем: &nbsp;",
     'LBL_INVALID_FILE_EXTENSION' => 'Неверное расширение файла',
 
@@ -2122,7 +2122,7 @@ $app_strings = array (
     'ERR_EXPORT_DISABLED' => 'Экспорт выключен.',
     'ERR_EXPORT_TYPE' => 'Ошибка, экспорт не выполнен. ',
     'ERR_INVALID_AMOUNT' => 'Пожалуйста, введите правильную сумму.' ,
-    'ERR_INVALID_DATE_FORMAT' => 'Формат даты должен быть: гггг-мм-дд' ,
+    'ERR_INVALID_DATE_FORMAT' => 'Формат даты должен быть в виде: гггг-мм-дд' ,
     'ERR_INVALID_DATE' => 'Пожалуйста, введите правильную дату.' ,
     'ERR_INVALID_DAY' => 'Пожалуйста, введите правильный день.' ,
     'ERR_INVALID_EMAIL_ADDRESS' => 'Неверный адрес e-mail.' ,
@@ -2252,7 +2252,7 @@ $app_strings = array (
 
     'LBL_EDIT_AS_NEW_BUTTON_LABEL' => 'Edit As New',  ///
     'LBL_EDIT_AS_NEW_BUTTON_TITLE' => 'Edit As New',  ///
-	'LBL_FAVORITES' => 'Favorites', ///
+	'LBL_FAVORITES' => 'Избранное',
     'LBL_FILTER_MENU_BY' => 'Filter Menu By', ///
 	'LBL_VCARD' => 'vCard',
     'LBL_EMPTY_VCARD' => 'Пожалуйста, укажите файл vCard',
@@ -2506,7 +2506,7 @@ $app_strings = array (
     'LBL_SHORTCUTS' => 'Меню' ,
     'LBL_SHOW'=>'Показать' ,
     'LBL_SQS_INDICATOR' => '' ,
-    'LBL_STATE' => 'Область:',
+    'LBL_STATE' => 'Состояние:',
     'LBL_STATUS_UPDATED'=>'Ваш статус для этого события был обновлён!' ,
     'LBL_STATUS'=>'Статус:' ,
 	'LBL_STREET'=>'Улица',
@@ -3034,6 +3034,8 @@ $app_strings = array (
     'ERR_CONNECTOR_NOT_ARRAY' => 'connector array in {0} been defined incorrectly or is empty and could not be used.', ///
     'ERR_SUHOSIN' => 'Загрузка была заблокирована модулем Suhosin, необходимо добавить &quot;upload&quot; в параметр  suhosin.executor.include.whitelist (детали описаны в файле журнала: sugarcrm.log)',
 	'ERR_BAD_RESPONSE_FROM_SERVER' => 'Некорректный ответ сервера',
+	'LBL_ACCOUNT_PRODUCT_QUOTE_LINK' => 'Предложение',
+    'LBL_ACCOUNT_PRODUCT_SALE_PRICE' => 'Цена со скидкой',
 
    
 );
@@ -3765,7 +3767,7 @@ $app_list_strings['moduleList']['EmailAddresses'] = 'Email Address';
   'America/Caracas' => 'America/Caracas',
   );
 
-    $app_list_strings['moduleList']['Sugar_Favorites'] = 'Favorites';
+    $app_list_strings['moduleList']['Sugar_Favorites'] = 'Избранное';
 	  $app_list_strings['eapm_list']= array(
   	'Sugar'=>'Suite',
   	'WebEx'=>'WebEx',
@@ -3812,9 +3814,17 @@ $app_list_strings ['emailTemplates_type_list_no_workflow'] = array (
 	'PRO' => '04_Sugar_Professional',
 	'COM' => '05_Sugar_Community_Edition'
 
-	
-
 );
+
+	// knowledge base
+$app_list_strings['moduleList']['AOK_KnowledgeBase'] = 'База знаний';
+$app_list_strings['moduleList']['AOK_Knowledge_Base_Categories'] = 'Категории базы знаний';
+$app_list_strings['aok_status_list']['Draft'] = 'Черновик';
+$app_list_strings['aok_status_list']['Expired'] = 'Просрочена';
+$app_list_strings['aok_status_list']['In_Review'] = 'На рассмотрении';
+//$app_list_strings['aok_status_list']['Published'] = 'Published';
+$app_list_strings['aok_status_list']['published_private'] = 'Не опубликована';
+$app_list_strings['aok_status_list']['published_public'] = 'Опубликована';
 
 
 //Suite***************	

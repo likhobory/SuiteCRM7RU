@@ -73,5 +73,8 @@ $mod_strings = array (
   'LBL_COST_USDOLLAR' => 'Себестоимость (основная валюта)',
   'LBL_PRICE_USDOLLAR' => 'Цена по прайсу (основная валюта)',
   'LBL_FILE_URL' => 'URL файла',
+  'LBL_CUSTOMERS_PURCHASED_PRODUCTS_SUBPANEL_TITLE' => 'Оплатившие товар клиенты',
+  'LBL_AOS_QUOTE_NAME' => 'Предложение',
+  'LBL_ACCOUNT_NAME' => 'Контрагент',
 );
 ?>

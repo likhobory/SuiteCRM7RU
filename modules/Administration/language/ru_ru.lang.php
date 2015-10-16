@@ -389,7 +389,7 @@ Last attempted connection @ ',
 'LBL_LDAP_SERVER_HOSTNAME_DESC'=> 'Пример: ldap.example.com или ldaps://ldap.example.com при включении SSL',
 'LBL_LDAP_SERVER_PORT_DESC'=> 'Пример: 389 или 636 при включении SSL',
 'LBL_LDAP_GROUP_NAME'=> 'Название группы:',
-'LBL_LDAP_GROUP_NAME_DESC'=> 'Пример: <em>cn=sugarcrm</em>',
+'LBL_LDAP_GROUP_NAME_DESC'=> 'Пример: <em>cn=suitecrm</em>',
 'LBL_LDAP_USER_DN_DESC'=> 'Пример: <em>ou=people,dc=example,dc=com</eM>',
 'LBL_LDAP_AUTO_CREATE_USERS_DESC'=> 'Если аутентифицированный пользователь не существует в базе Suite, то он будет создан.',
 'LBL_LDAP_ENC_KEY'=> 'Ключ шифрования:',
@@ -1323,8 +1323,8 @@ $mod_strings['LBL_DISPLAY_SIDEBAR'] = 'Отображать боковое ме�
 
 $mod_strings['LBL_COLOUR_ADMIN_MENU'] = 'Настройка цветовой схемы меню';
 $mod_strings['LBL_COLOUR_ADMIN_PAGE'] = 'Настройка цветовой схемы страниц';
-$mod_strings['LBL_COLOUR_ADMIN_PAGEHEADER'] = 'Цвет заголовков на странице';
-$mod_strings['LBL_COLOUR_ADMIN_PAGELINK'] = 'Цвет гиперссылок на странице';
+$mod_strings['LBL_COLOUR_ADMIN_PAGEHEADER'] = 'Цвет заголовков на странице: ';
+$mod_strings['LBL_COLOUR_ADMIN_PAGELINK'] = 'Цвет гиперссылок на странице: ';
 $mod_strings['LBL_COLOUR_ADMIN_DASHLET'] = 'Настройка цветовой схемы дашлетов';
 $mod_strings['LBL_COLOUR_ADMIN_BUTTON'] = 'Настройка цветовой схемы кнопок';
 
@@ -1336,7 +1336,11 @@ $mod_strings['LBL_COLOUR_ADMIN_MENUHOVER'] = 'Цвет главного меню
 $mod_strings['LBL_COLOUR_ADMIN_DDLINK'] = 'Цвет надписей выпадающего меню: ';
 $mod_strings['LBL_COLOUR_ADMIN_DDMENU'] = 'Цвет фона выпадающего меню: ';
 
-$mod_strings['LBL_COLOUR_ADMIN_MENUFONT'] = 'Цвет надписи закладок';
+$mod_strings['LBL_COLOUR_ADMIN_DDLINK_HOVER'] = 'Цвет надписей выпадающего меню при наведении курсора: ';
+$mod_strings['LBL_ACTION_MENU_BACKGROUND'] = 'Цвет фона меню действий: ';
+$mod_strings['LBL_ACTION_MENU_BACKGROUND_HOVER'] = 'Цвет надписей меню действий при наведении курсора: ';
+
+$mod_strings['LBL_COLOUR_ADMIN_MENUFONT'] = 'Цвет надписи закладок: ';
 $mod_strings['LBL_COLOUR_ADMIN_MENULNKHVR'] = 'Цвет надписи закладок при наведении курсора: ';
 $mod_strings['LBL_COLOUR_ADMIN_BTNTOP'] = 'Цвет кнопки: ';
 $mod_strings['LBL_COLOUR_ADMIN_BTNHOVER'] = 'Цвет кнопки при наведении курсора: ';
@@ -1346,6 +1350,9 @@ $mod_strings['LBL_COLOUR_ADMIN_DASHHEAD'] = 'Цвет заголовка даш�
 $mod_strings['LBL_COLOUR_ADMIN_ICON'] = 'Цвет иконок в заголовке дашлета: ';
 
 $mod_strings['LBL_COLOUR_ADMIN_TABS'] = 'Настройка закладок модулей';
+
+$mod_strings['LBL_SUGGESTION_POPUP_FROM'] = 'Окно вариантов решений обращения, градиент, цвет 1:';
+$mod_strings['LBL_SUGGESTION_POPUP_TO'] = 'Окно вариантов решений обращения, градиент, цвет 2:';
 
 
 $mod_strings['LBL_AOD_ADMIN_MANAGE_AOD'] = 'Настройка полнотекстового поиска';

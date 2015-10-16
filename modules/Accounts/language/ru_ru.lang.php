@@ -175,6 +175,7 @@ $mod_strings = array (
 
 // SNIP
 'LBL_CONTACT_HISTORY_SUBPANEL_TITLE' => 'Related Contacts\' Emails', ///
+'LBL_PRODUCTS_SERVICES_PURCHASED_SUBPANEL_TITLE' => 'Оплаченные товары и услуги',
 
 );
 ?>
