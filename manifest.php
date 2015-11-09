@@ -15,8 +15,8 @@ $manifest = array(
 	'acceptable_sugar_flavors' =>
 		  array('CE'),
 	'author' => 'likhobory',
-    'version' => '7.3.0',
-	'published_date' => '2015/08/15',
+    'version' => '7.4.0',
+	'published_date' => '2015/10/02',
       );
 
 $installdefs = array(

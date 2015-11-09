@@ -198,7 +198,7 @@ $mod_strings = array (
   'LBL_SHIPPING_TAX' => 'НДС доставки (%)',
   'LBL_SHIPPING_TAX_AMT' => 'НДС доставки',
   'LBL_IMPORT_LINE_ITEMS' => 'Импорт позиций',
-  'LBL_CREATE_OPPORTUNITY' => 'Создать Сделку',
+  'LBL_CREATE_OPPORTUNITY' => 'Создать сделку',
   
   'LBL_SUBTOTAL_AMOUNT_USDOLLAR' => 'Итого со скидкой (основная валюта)',
   'LBL_DISCOUNT_AMOUNT_USDOLLAR' => 'Скидка (основная валюта)',

@@ -66,5 +66,5 @@ $mod_strings['LBL_COLOUR_ADMIN_ICON'] = 'Цвет иконок в заголов
 
 $mod_strings['LBL_COLOUR_ADMIN_TABS'] = 'Настройка закладок модулей';
 
-$mod_strings['LBL_SUGGESTION_POPUP_FROM'] = 'Окно вариантов решений обращения, градиент, цвет 1:';
-$mod_strings['LBL_SUGGESTION_POPUP_TO'] = 'Окно вариантов решений обращения, градиент, цвет 2:';
+$mod_strings['LBL_SUGGESTION_POPUP_FROM'] = 'Варианты решений обращения, градиент, цвет 1:';
+$mod_strings['LBL_SUGGESTION_POPUP_TO'] = 'Варианты решений обращения, градиент, цвет 2:';

@@ -691,7 +691,7 @@ $app_list_strings = array (
         'Inactive' => 'Не активна' ,
         'Complete' => 'Завершена' ,
         'In Queue' => 'В очереди' ,
-        'Sending'=> 'Отсылается'    ,
+        'Sending'=> 'Рассылается'    ,
   ),
   'campaign_type_dom' =>
   array (
@@ -803,7 +803,7 @@ $app_list_strings = array (
         'read'      => 'Прочитано' ,
         'replied'   => 'Отвечено' ,
         'sent'      => 'Отправлено' ,
-        'send_error'=> 'Ошибка отсылки' ,
+        'send_error'=> 'Ошибка отправки' ,
         'unread'    => 'Не прочитано'    ,
     ),
     'dom_email_archived_status' => array (
@@ -1752,12 +1752,12 @@ $app_strings = array (
 	'LBL_EMAIL_ADDRESSES'				=> 'E-mail',
     'LBL_EMAIL_ADDRESS_PRIMARY'     => 'Адрес Email',
     'LBL_EMAIL_ADDRESSES_TITLE'		=> 'Адреса E-mail',
-	'LBL_EMAIL_ARCHIVE_TO_SUGAR'	=> 'Импорт в Suite',
+	'LBL_EMAIL_ARCHIVE_TO_SUGAR'	=> 'Импорт в SuiteCRM',
     'LBL_EMAIL_ASSIGNMENT'          => 'Назначение',
     'LBL_EMAIL_ATTACH_FILE_TO_EMAIL'=> 'Добавить вложение',
 	'LBL_EMAIL_ATTACHMENT'				=> 'Вложения',
 	'LBL_EMAIL_ATTACHMENTS'				=> 'Вложения',
-	'LBL_EMAIL_ATTACHMENTS2'			=> 'Добавить документы Suite',
+	'LBL_EMAIL_ATTACHMENTS2'			=> 'Добавить документы SuiteCRM',
 	'LBL_EMAIL_ATTACHMENTS3'			=> 'Вложения шаблона',
         'LBL_EMAIL_ATTACHMENTS_FILE'                    => 'Файл',
         'LBL_EMAIL_ATTACHMENTS_DOCUMENT'                => 'Документ',
@@ -1880,7 +1880,7 @@ $app_strings = array (
 	'LBL_EMAIL_IE_DELETE_SUCCESSFUL'	=> 'Удаление успешно завершено.',
 	'LBL_EMAIL_IE_SAVE'				    => 'Сохранение учётной записи',
 	'LBL_EMAIL_IMPORTING_EMAIL'			=> 'Импортирование E-mail',
-	'LBL_EMAIL_IMPORT_EMAIL'			=> 'Импорт в Suite',
+	'LBL_EMAIL_IMPORT_EMAIL'			=> 'Импорт в SuiteCRM',
         'LBL_EMAIL_IMPORT_SETTINGS'     => 'Параметры импорта',
         'LBL_EMAIL_INVALID'				=> 'Неверный',
 
@@ -1909,14 +1909,14 @@ $app_strings = array (
         'LBL_EMAIL_MENU_RENAMING_FOLDER'                => 'Переименование папки',
 	'LBL_EMAIL_MENU_MAKE_SELECTION'			=> 'Сделайте необходимый выбор перед выполнением данной операции',
 
- 	'LBL_EMAIL_MENU_HELP_ADD_FOLDER'		=> 'Создать папку (удалённо или в Suite)',
-	'LBL_EMAIL_MENU_HELP_ARCHIVE'			=> 'Архивировать указанные E-mail в Suite',
+ 	'LBL_EMAIL_MENU_HELP_ADD_FOLDER'		=> 'Создать папку (удалённо или в SuiteCRM)',
+	'LBL_EMAIL_MENU_HELP_ARCHIVE'			=> 'Архивировать указанные E-mail в SuiteCRM',
 	'LBL_EMAIL_MENU_HELP_COMPOSE_TO_LIST'   	=> 'Написать выбранным адресатам',
 	'LBL_EMAIL_MENU_HELP_CONTACT_COMPOSE'   	=> 'Написать выбранному Контакту',
 	
 	'LBL_EMAIL_MENU_HELP_CONTACT_REMOVE'	    => 'Удалить контакт',
 	'LBL_EMAIL_MENU_HELP_DELETE'			=> 'Удалить указанные E-mail',
-	'LBL_EMAIL_MENU_HELP_DELETE_FOLDER'		=> 'Удалить папку (удалённо или в Suite)',
+	'LBL_EMAIL_MENU_HELP_DELETE_FOLDER'		=> 'Удалить папку (удалённо или в SuiteCRM)',
 	'LBL_EMAIL_MENU_HELP_EDIT_CONTACT'		=> 'Править Контакт',
 	'LBL_EMAIL_MENU_HELP_EDIT_LIST'			=> 'Править список рассылки',
 	'LBL_EMAIL_MENU_HELP_EMPTY_TRASH'		=> 'Очистить все папки-корзины для вашей учётной записи',
@@ -1925,7 +1925,7 @@ $app_strings = array (
 	'LBL_EMAIL_MENU_HELP_MARK_UNFLAGGED'    	=> 'Снять отметку с указанных E-mail',
 	'LBL_EMAIL_MENU_HELP_MARK_UNREAD'		=> 'Пометить указанные E-mail как непрочтенные',
 	'LBL_EMAIL_MENU_HELP_REMOVE_LIST'		=> 'Удалить списки рассылки',
-	'LBL_EMAIL_MENU_HELP_RENAME_FOLDER'		=> 'Переименовать папку(удалённо или в Suite)',
+	'LBL_EMAIL_MENU_HELP_RENAME_FOLDER'		=> 'Переименовать папку(удалённо или в SuiteCRM)',
 	'LBL_EMAIL_MENU_HELP_REPLY'			=> 'Ответить на указанные E-mail',
 	'LBL_EMAIL_MENU_HELP_REPLY_ALL'			=> 'Ответить всем получателям указанных E-mail',
 
@@ -2062,11 +2062,11 @@ $app_strings = array (
 	'LBL_SMTPTYPE_EXCHANGE'                 => 'Microsoft Exchange',
 	'LBL_SMTPTYPE_OTHER'                    => 'Другое',
 	'LBL_EMAIL_SPACER_MAIL_SERVER'			=> '[ Удалённые папки ]',
-	'LBL_EMAIL_SPACER_LOCAL_FOLDER'			=> '[ Папки Suite ]',
+	'LBL_EMAIL_SPACER_LOCAL_FOLDER'			=> '[ Папки SuiteCRM ]',
 	'LBL_EMAIL_SUBJECT'				=> 'Тема',
         'LBL_EMAIL_TO'                     		=> 'Кому',
 	'LBL_EMAIL_SUCCESS'				=> 'Готово',
-	'LBL_EMAIL_SUGAR_FOLDER'			=> 'Папка Suite',
+	'LBL_EMAIL_SUGAR_FOLDER'			=> 'Папка SuiteCRM',
 
 
     'LBL_EMAIL_TEMPLATE_EDIT_PLAIN_TEXT'    => 'Шаблон письма пуст',
@@ -2154,11 +2154,11 @@ $app_strings = array (
     'ERR_COMPATIBLE_PRECISION_VALUE' => 'Неверное значение поля',
 	'ERR_EXTERNAL_API_SAVE_FAIL' => 'Ошибка сохранения внешней учётной записи.',
     'ERR_EXTERNAL_API_UPLOAD_FAIL' => 'Ошибка загрузки.  Убедитесь, что загружаемый файл не пуст.',
-    'ERR_NO_DB' => 'Невозможно установить соединение с базой данных. Более подробная информация находится в файле sugarcrm.log.',
-    'ERR_DB_FAIL' => 'Ошибка базы данных. Более подробная информация находится в файле sugarcrm.log.',
+    'ERR_NO_DB' => 'Невозможно установить соединение с базой данных. Более подробная информация находится в файле suitecrm.log.',
+    'ERR_DB_FAIL' => 'Ошибка базы данных. Более подробная информация находится в файле suitecrm.log.',
     'ERR_EXTERNAL_API_403' => 'Доступ запрещён. Данный тип файлов не поддерживается.',
 	'ERR_EXTERNAL_API_NO_OAUTH_TOKEN' => 'OAuth-маркёр доступа не обнаружен.',
-    'ERR_DB_VERSION' => 'Suite CRM версии {0} работает только с базой данных версии {1}.',
+    'ERR_DB_VERSION' => 'SuiteCRM версии {0} работает только с базой данных версии {1}.',
 
     'LBL_ACCOUNT'=>'Контрагент',
     'LBL_OLD_ACCOUNT_LINK'=>'Old Account', ///
@@ -2256,9 +2256,9 @@ $app_strings = array (
     'LBL_FILTER_MENU_BY' => 'Filter Menu By', ///
 	'LBL_VCARD' => 'vCard',
     'LBL_EMPTY_VCARD' => 'Пожалуйста, укажите файл vCard',
-	'LBL_EMPTY_REQUIRED_VCARD' => 'vCard не содержит всех полей, необходимых для текущего модуля. Подробная информация находится в файле sugarcrm.log.',
+	'LBL_EMPTY_REQUIRED_VCARD' => 'vCard не содержит всех полей, необходимых для текущего модуля. Подробная информация находится в файле suitecrm.log.',
     'LBL_VCARD_ERROR_FILESIZE' => 'Размер загружаемого файла vCard превышает допустимый лимит в 30000 байт.',
-    'LBL_VCARD_ERROR_DEFAULT' => 'При загрузке файла vCard произошла ошибка. Подробная информация содержится в файле sugarcrm.log.',
+    'LBL_VCARD_ERROR_DEFAULT' => 'При загрузке файла vCard произошла ошибка. Подробная информация содержится в файле suitecrm.log.',
     'LBL_IMPORT_VCARD' => 'Импорт из vCard:',
     'LBL_IMPORT_VCARD_BUTTON_KEY' => 'I',
     'LBL_IMPORT_VCARD_BUTTON_LABEL' => 'Импортировать из vCard',
@@ -2610,8 +2610,8 @@ $app_strings = array (
     'NTC_YEAR_FORMAT' => '(гггг) ' ,
     'LOGIN_LOGO_ERROR'=> 'Пожалуйста, замените логотипы SuiteCRM' ,
     'ERROR_LICENSE_FULLY_EXPIRED'=> "Your Company's Subscription to the SugarCRM Product has expired and needs to be renewed. Only admins may login when a Subscription has expired. If you have any questions, please contact your administrator.", ///
-    'ERROR_LICENSE_EXPIRED'=> 'Ваша лицензия SugarCRM нуждается в обновлении. Только администраторы могут войти в систему.'  ,
-    'ERROR_LICENSE_VALIDATION'=> 'Ваша лицензия SugarCRM нуждается в подтверждении. Только администраторы могут войти в систему',
+    'ERROR_LICENSE_EXPIRED'=> 'Ваша лицензия SugarCRM нуждается в обновлении. Только администраторы могут войти в систему.'  , ///
+    'ERROR_LICENSE_VALIDATION'=> 'Ваша лицензия SugarCRM нуждается в подтверждении. Только администраторы могут войти в систему', ///
     'WARN_BROWSER_VERSION_WARNING' => "<b>Предупреждение:</b> Данная версия браузера не поддерживается.<p></p>Рекомендуются следующие версии браузеров:<p></p><ul><li>Internet Explorer 11 (режим совместимости не поддерживается)<li>Firefox 32.0<li>Safari 5.1<li>Chrome 37</ul>",
     'WARN_BROWSER_IE_COMPATIBILITY_MODE_WARNING' => "<b>Предупреждение:</b> Браузер открыт в режиме совместимости с IE, данный режим не поддерживается.",
 	'WARN_LICENSE_SEATS'=>  "Warning: The number of active users is already the maximum number of licenses allowed.", ///
@@ -2667,7 +2667,10 @@ $app_strings = array (
     'MSG_JS_ALERT_MTG_REMINDER_RELATED_TO' => 'Относится к: ',
 	'MSG_JS_ALERT_MTG_REMINDER_CALL_MSG' => "\nНажмите кнопку 'ОК' для просмотра информации об этом звонке или на кнопку 'Отмена', чтобы отклонить это сообщение.",
     'MSG_JS_ALERT_MTG_REMINDER_MEETING_MSG' => "\nНажмите кнопку 'ОК' для просмотра информации об этой встрече или на кнопку 'Отмена', чтобы отклонить это сообщение.",
-    
+    'MSG_JS_ALERT_MTG_REMINDER_NO_EVENT_NAME' => 'Событие',
+	'MSG_JS_ALERT_MTG_REMINDER_NO_DESCRIPTION' => '',
+	'MSG_JS_ALERT_MTG_REMINDER_NO_LOCATION' => 'Не указано место встречи.',
+	'MSG_JS_ALERT_MTG_REMINDER_NO_START_DATE' => 'Не указана дата начала.',
 	'MSG_LIST_VIEW_NO_RESULTS_BASIC' => "Ничего не обнаружено.",
 	'MSG_LIST_VIEW_NO_RESULTS' => "Ничего не обнаружено с названием <item1>",
  	'MSG_LIST_VIEW_NO_RESULTS_SUBMSG' => "Создать новую запись с таким названием",
@@ -2953,13 +2956,13 @@ $app_strings = array (
 Названия полей будут использоваться для корректного отображения содержимого файла в соответствующих полях системы.
 
 Примечание:
-Названия полей, содержащихся в БД также могут быть использованы в строке заголовка. Это может быть полезно, когда вы используете средства администрирования СУБД, например PhpMyAdmin или любой другой соответствующий инструментарий для экспорта данных, предназначенных для последующего импорта.
+Названия полей, содержащихся в БД также могут быть использованы в строке заголовка. Это может быть полезно, когда используются средства администрирования СУБД, например PhpMyAdmin или любой другой соответствующий инструментарий для экспорта данных, предназначенных для последующего импорта.
 Порядок расположения столбцов в файле не имеет решающего значения, так как данные будут импортироваться в систему в соответствии с порядком следования полей в строке заголовка.
 
 
 Для использования данного файла в качестве шаблона, выполните следующие действия:
 1. Удалите строки с демонстрационными данными
-2. Удалите текст справки, который вы сейчас и читаете
+2. Удалите текст справки, который вы сейчас читаете
 3. Заполните файл необходимыми рабочими данными
 4. Сохраните данный файл в определенной папке
 5. Из меню модуля запустите процесс импорта и выберите только что сохранённый файл в качестве источника данных для загрузки
@@ -3032,7 +3035,7 @@ $app_strings = array (
     'LBL_KEYBOARD_SHORTCUTS_HELP' => '<p><strong>Form Functionality - Alt+</strong><br/> I = ed<b>I</b>t (detailview)<br/> U = d<b>U</b>plicate (detailview)<br/> D = <b>D</b>elete (detailview)<br/> A = s<b>A</b>ve (editview)<br/> L = cance<b>L</b> (editview) <br/><br/></p><p><strong>Search and Navigation  - Alt+</strong><br/> 7 = first input on Edit form<br/> 8 = Advanced Search link<br/> 9 = First Search Form input<br/> 0 = Unified search input<br></p>' , ///
 
     'ERR_CONNECTOR_NOT_ARRAY' => 'connector array in {0} been defined incorrectly or is empty and could not be used.', ///
-    'ERR_SUHOSIN' => 'Загрузка была заблокирована модулем Suhosin, необходимо добавить &quot;upload&quot; в параметр  suhosin.executor.include.whitelist (детали описаны в файле журнала: sugarcrm.log)',
+    'ERR_SUHOSIN' => 'Загрузка была заблокирована модулем Suhosin, необходимо добавить &quot;upload&quot; в параметр  suhosin.executor.include.whitelist (детали описаны в файле журнала: suitecrm.log)',
 	'ERR_BAD_RESPONSE_FROM_SERVER' => 'Некорректный ответ сервера',
 	'LBL_ACCOUNT_PRODUCT_QUOTE_LINK' => 'Предложение',
     'LBL_ACCOUNT_PRODUCT_SALE_PRICE' => 'Цена со скидкой',
@@ -3825,6 +3828,12 @@ $app_list_strings['aok_status_list']['In_Review'] = 'На рассмотрени
 //$app_list_strings['aok_status_list']['Published'] = 'Published';
 $app_list_strings['aok_status_list']['published_private'] = 'Не опубликована';
 $app_list_strings['aok_status_list']['published_public'] = 'Опубликована';
+
+$app_list_strings['moduleList']['AOM_Reminders'] = 'Напоминания';
+$app_list_strings['moduleListSingular']['AOM_Reminders'] = 'Напоминание';
+
+$app_list_strings['moduleList']['AOM_Reminders_Invitees'] = 'Напоминания_Приглашённые';
+$app_list_strings['moduleListSingular']['AOM_Reminders_Invitees'] = 'Напоминание_Приглашённый';
 
 
 //Suite***************	
@@ -4678,7 +4687,7 @@ $app_strings['LBL_QUICK_TASK'] = 'Создать задачу';
 $app_strings['LBL_COLLECTION_TYPE'] = 'Модуль';
 
 $app_strings['LBL_ADD_TAB'] = 'Добавить страницу';
-$app_strings['LBL_SUITE_DASHBOARD'] = 'Suite - основная страница';
+$app_strings['LBL_SUITE_DASHBOARD'] = 'Основная страница';
 $app_strings['LBL_ENTER_DASHBOARD_NAME'] = 'Название страницы:';
 $app_strings['LBL_DELETE_DASHBOARD1'] = 'Вы действительно хотите удалить страницу';
 $app_strings['LBL_DELETE_DASHBOARD2'] = '?';

@@ -88,7 +88,7 @@ $mod_strings = array (
 
 'LBL_EMAIL' => 'E-mail:' ,
 'LBL_EMAIL_LINK_TYPE'=> 'Почтовый клиент',
-'LBL_EMAIL_LINK_TYPE_HELP'=> '<b>Почтовый клиент Suite</b> - отправка электронных писем при помощи встроенного в Suite почтового клиента.<br><b>Внешний почтовый клиент</b> - любой другой почтовый клиент, например Microsoft Outlook.',
+'LBL_EMAIL_LINK_TYPE_HELP'=> '<b>Почтовый клиент SuiteCRM</b> - отправка электронных писем при помощи встроенного в SuiteCRM почтового клиента.<br><b>Внешний почтовый клиент</b> - любой другой почтовый клиент, например Microsoft Outlook.',
 'LBL_HOME_PHONE' => 'Тел. (дом.):' ,
 'LBL_WORK_PHONE' => 'Тел. (раб.):',
 

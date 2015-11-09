@@ -47,7 +47,7 @@ $mod_strings = array (
 // Errors
 'ERR_CALL' 	=> "Ошибка вызова функции: %s",
 'ERR_CURL' => "CURL  не установлен - нет возможности запускать удалённые задания",
-'ERR_FAILED' => "Неизвестная ошибка, проверьте логи PHP и sugarcrm.log",
+'ERR_FAILED' => "Неизвестная ошибка, проверьте логи PHP и suitecrm.log",
 'ERR_PHP' => "%s [%d]: %s в %s в строке %d",
 'ERR_NOUSER' => "Не указан ID пользователя для данного задания",
 'ERR_NOSUCHUSER' => "ID %s не обнаружен",

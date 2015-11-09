@@ -102,7 +102,7 @@ $mod_strings = array (
 'LBL_JOB' => 'Задание:' ,
 'LBL_JOB_URL' => 'URL задачи',
 'LBL_LAST_RUN' => 'Последний запуск' ,
-'LBL_MODULE_NAME' => 'Задания Suite' ,
+'LBL_MODULE_NAME' => 'Задания SuiteCRM' ,
 'LBL_MODULE_TITLE' => 'Планировщик' ,
 'LBL_NAME' => 'Название задания:' ,
 'LBL_NEVER' => 'Никогда' ,
@@ -150,9 +150,10 @@ $mod_strings = array (
 'LBL_PRUNEDATABASE' => 'Очищать БД первого числа каждого месяца',
 'LBL_TRIMTRACKER' => 'Очищать таблицы трекера',
 'LBL_TRIMSUGARFEEDS'   => 'Очищать ленту событий',
-'LBL_SENDEMAILREMINDERS'=> 'Запускать отправку по E-mail напоминания о мероприятиях',
+'LBL_SENDEMAILREMINDERS'=> 'Отправлять по E-mail напоминания о мероприятиях',
 'LBL_CLEANJOBQUEUE' => 'Очищать очередь заданий',
 'LBL_REMOVEDOCUMENTSFROMFS' => 'Удалять неиспользуемые файлы из системы',
+'LBL_HANDLEMISSEDALERTS' => 'Напоминать о непрочитанных уведомлениях',
 );
 
 $mod_strings['LBL_POLLMONITOREDINBOXESAOP'] = 'Портал - проверять почтовые ящики для входящей почты';

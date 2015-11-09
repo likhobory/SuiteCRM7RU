@@ -128,7 +128,7 @@ $mod_strings = array (
 'LBL_ACCEPT_STATUS' => 'Статус приглашения', ///
 'LBL_ACCEPT_LINK' => 'Accept Link', ///
 // You are not invited to the meeting messages
-'LBL_EXTNOT_HEADER' => 'Ошибка: вы не приглашены на встречу',
+'LBL_EXTNOT_HEADER' => 'Ошибка: Вы не приглашены на встречу',
 'LBL_EXTNOT_MAIN' => 'Вы не можете присоединиться к данной встрече, поскольку вы не приглашены на неё.',
 'LBL_EXTNOT_RECORD_LINK' => 'Просмотр информации о встрече',
 'LBL_EXTNOT_GO_BACK' => 'Вернуться к предыдущей записи',
@@ -169,8 +169,18 @@ $mod_strings = array (
 'LBL_REPEAT_COUNT' => 'Число повторов',
 'LBL_REPEAT_PARENT_ID' => 'Repeat Parent ID',
 'LBL_RECURRING_SOURCE' => 'Источник повтора',
-'LBL_SYNCED_RECURRING_MSG' => 'Данная встреча была создана в другой программе и синхронизирована с Suite. Для изменения данной записи откройте первоначальную программу, внесите в соответствующую встречу необходимые изменения и вновь синхронизируйте её с Suite.',
+'LBL_SYNCED_RECURRING_MSG' => 'Данная встреча была создана в другой программе и синхронизирована с SuiteCRM. Для изменения данной записи откройте первоначальную программу, внесите в соответствующую встречу необходимые изменения и вновь синхронизируйте её с SuiteCRM.',
 'LBL_RELATED_TO' => 'Относится к:',
+//'LBL_ALERTS' => 'Уведомления'
+    // for reminders
+    'LBL_REMINDERS' => 'Напоминания',
+    'LBL_REMINDERS_ACTIONS' => 'Напомнить о мероприятии:',
+    'LBL_REMINDERS_POPUP' => 'Отобразить приглашение в виде всплывающего уведомления браузера',
+    'LBL_REMINDERS_EMAIL' => 'Отправить приглашение по E-mail',
+    'LBL_REMINDERS_WHEN' => 'Когда:',
+    'LBL_REMINDERS_REMOVE_REMINDER' => 'Удалить напоминание',
+    'LBL_REMINDERS_ADD_ALL_INVITEES' => 'Добавить ВСЕХ приглашённых',
+    'LBL_REMINDERS_ADD_REMINDER' => 'Добавить напоминание',
 	
 );
 ?>

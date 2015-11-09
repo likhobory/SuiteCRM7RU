@@ -136,7 +136,7 @@ $mod_strings = array (
 'LBL_LDAP_SERVER_HOSTNAME'=> 'Сервер:',
 'LBL_LDAP_SERVER_PORT'=> 'Порт:',
 'LBL_LDAP_ADMIN_USER'=> 'Имя пользователя:',
-'LBL_LDAP_ADMIN_USER_DESC'=> 'Поиск пользователя Suite. В случае отсутствия параметра будет выполнен анонимный вход.',
+'LBL_LDAP_ADMIN_USER_DESC'=> 'Поиск пользователя SuiteCRM. В случае отсутствия параметра будет выполнен анонимный вход.',
 'LBL_LDAP_ADMIN_PASSWORD'=> 'Пароль:',
 'LBL_LDAP_AUTHENTICATION'=> 'Аутентификация:',
 'LBL_LDAP_AUTHENTICATION_DESC'=> 'Аутентификация на сервере LDAP, используя данные пользователя',
@@ -161,12 +161,12 @@ $mod_strings = array (
 'LBL_LDAP_GROUP_NAME'=> 'Название группы:',
 'LBL_LDAP_GROUP_NAME_DESC'=> 'Пример: <em>cn=suitecrm</em>',
 'LBL_LDAP_USER_DN_DESC'=> 'Пример: <em>ou=people,dc=example,dc=com</eM>',
-'LBL_LDAP_AUTO_CREATE_USERS_DESC'=> 'Если аутентифицированный пользователь не существует в базе Suite, то он будет создан.',
+'LBL_LDAP_AUTO_CREATE_USERS_DESC'=> 'Если аутентифицированный пользователь не существует в базе SuiteCRM, то он будет создан.',
 'LBL_LDAP_ENC_KEY'=> 'Ключ шифрования:',
 'DEVELOPER_MODE'=> 'Режим разработчика',
 
 'SHOW_DOWNLOADS_TAB' => 'Отображать закладку загрузок',
-'SHOW_DOWNLOADS_TAB_HELP' => 'Отображение закладки загрузок в настройках пользователя, обеспечивая доступ пользователя к плагинам и другим файлам Suite',
+'SHOW_DOWNLOADS_TAB_HELP' => 'Отображение закладки загрузок в настройках пользователя, обеспечивая доступ пользователя к плагинам и другим файлам SuiteCRM',
 'LBL_LDAP_ENC_KEY_DESC'=> 'Для SOAP-аутентификации при использовании LDAP.',
 'LDAP_ENC_KEY_NO_FUNC_DESC' => 'Расширение php_mcrypt должно быть включено в файле php.ini или же php должен быть скомпилирован с указанием соответствующего ключа.',
 'LBL_ALL' => 'Показать все',
@@ -203,7 +203,7 @@ $mod_strings = array (
 'LBL_IMPORT_MAX_RECORDS' => 'Максимальное количество импортируемых записей:',
 'LBL_IMPORT_MAX_RECORDS_HELP' => 'Укажите максимально допустимое количество строк в импортируемом файле. Если количество импортируемых <br>строк будет превышать указанное здесь значение, то будет выдано соответствующее предупреждение.<br>Если значение оставить пустым, то разрешается импорт неограниченного количества строк.',
 'vCAL_HELP' => 'Используйте этот параметр для указания количества месяцев, в течение которых возможна публикация данных о занятости (звонки и встречи) из календаря.<BR>При включённой публикации допустимы значения от 1 до 12 месяцев. Для выключения возможности публикации введите "0".',
-'LBL_PDFMODULE_NAME' => 'PDF Settings',
+'LBL_PDFMODULE_NAME' => 'PDF Settings', ///->
 'SUGARPDF_BASIC_SETTINGS' => 'Document Properties',
 'SUGARPDF_ADVANCED_SETTINGS' => 'Advanced Settings',
 'SUGARPDF_LOGO_SETTINGS' => 'Images',
@@ -393,13 +393,13 @@ BSOFR
 'ERR_FONT_FILE_DO_NOT_EXIST' => 'doesn\'t exist or is not a directory.',
 'ERR_FONT_MAKEFONT' => 'ERROR: MakeFont error',
 'ERR_FONT_ALREADY_EXIST' => 'ERROR : This font already exist. Rollback...',
-'ERR_PDF_NO_UPLOAD' => 'Error during the upload of the font or metric file.',
+'ERR_PDF_NO_UPLOAD' => 'Error during the upload of the font or metric file.', ///<-
 
 // Wizard
 'LBL_WIZARD_TITLE' => 'Мастер настройки параметров SuiteCRM',
 'LBL_WIZARD_WELCOME_TAB' => 'Добро пожаловать',
 'LBL_WIZARD_WELCOME_TITLE' => 'Добро пожаловать в SuiteCRM!',
-'LBL_WIZARD_WELCOME' => 'Нажмите на кнопку <b>Вперёд</b> для настройки параметров системы. Если Вы хотите сделать это позже, нажмите на кнопку <b>Пропустить</b>.',
+'LBL_WIZARD_WELCOME' => 'Нажмите на кнопку <b>Вперёд</b> для настройки параметров системы. Если вы хотите сделать это позже, нажмите на кнопку <b>Пропустить</b>.',
 'LBL_WIZARD_NEXT_BUTTON' => 'Вперёд >',
 'LBL_WIZARD_BACK_BUTTON' => '< Назад',
 'LBL_WIZARD_SKIP_BUTTON' => 'Пропустить',

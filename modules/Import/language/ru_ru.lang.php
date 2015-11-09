@@ -69,7 +69,7 @@ $mod_strings = array (
     'LBL_RELATED_ACCOUNTS' => 'Do not create related accounts',                    ///
     'LBL_NO_DATECHECK' => 'Пропустить проверку даты (это ускорит выполнение операции, но приведёт к ошибке, если будет обнаружена хотя бы одна неверная дата)',
 
-    'LBL_NO_EMAILS' => 'Не отсылать предупреждения по E-mail при осуществлении импорта',
+    'LBL_NO_EMAILS' => 'Не отправлять предупреждения по E-mail при осуществлении импорта',
     'LBL_NO_PRECHECK' => 'Native Format mode',   ///
     'LBL_STRICT_CHECKS' => 'Use strict ruleset (Check Email addresses and phone numbers too)',  ///
     'LBL_ERROR_SELECTING_RECORD' => 'Ошибка выбора записи:',
