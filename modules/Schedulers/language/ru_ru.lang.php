@@ -127,7 +127,7 @@ $mod_strings = array (
 // Messages
 'SOCK_GREETING' => "\nЭто интерфейс сервиса планировщика. \n[ Доступные команды: start|restart|shutdown|status ]\nДля выхода наберите 'quit'.\n",
 'ERR_DELETE_RECORD' => 'Вы должны указать конкретную запись для удаления запланированного задания.' ,
-'ERR_CRON_SYNTAX' => 'Неверный Cron-синтакс',
+'ERR_CRON_SYNTAX' => 'Неверный cron-синтакс',
 'NTC_DELETE_CONFIRMATION' => 'Вы действительно хотите удалить эту запись?' ,
 'NTC_STATUS' => 'Установите статус "Не активна" для удаления этой задачи из списка заданий' ,
 'NTC_LIST_ORDER' => 'Установка последовательности, в которой задания появятся в списке' ,
@@ -153,7 +153,6 @@ $mod_strings = array (
 'LBL_SENDEMAILREMINDERS'=> 'Отправлять по E-mail напоминания о мероприятиях',
 'LBL_CLEANJOBQUEUE' => 'Очищать очередь заданий',
 'LBL_REMOVEDOCUMENTSFROMFS' => 'Удалять неиспользуемые файлы из системы',
-'LBL_HANDLEMISSEDALERTS' => 'Напоминать о непрочитанных уведомлениях',
 );
 
 $mod_strings['LBL_POLLMONITOREDINBOXESAOP'] = 'Портал - проверять почтовые ящики для входящей почты';

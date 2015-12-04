@@ -64,6 +64,4 @@ $mod_strings = array (
   'LBL_PROJECT_NAME' => 'Проект',
   'LBL_START_DATE' => 'Дата начала',
   'LBL_CREATE_PROJECT_TITLE' => 'Создать новый проект на основе данного шаблона?',
-  'LBL_EDITVIEW_PANEL1' => 'Разное',
-  'LBL_QUICKCREATE_PANEL1' => 'Создание шаблона проекта',
 );

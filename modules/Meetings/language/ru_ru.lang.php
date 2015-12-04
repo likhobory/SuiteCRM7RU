@@ -171,12 +171,12 @@ $mod_strings = array (
 'LBL_RECURRING_SOURCE' => 'Источник повтора',
 'LBL_SYNCED_RECURRING_MSG' => 'Данная встреча была создана в другой программе и синхронизирована с SuiteCRM. Для изменения данной записи откройте первоначальную программу, внесите в соответствующую встречу необходимые изменения и вновь синхронизируйте её с SuiteCRM.',
 'LBL_RELATED_TO' => 'Относится к:',
-//'LBL_ALERTS' => 'Уведомления'
+
     // for reminders
     'LBL_REMINDERS' => 'Напоминания',
-    'LBL_REMINDERS_ACTIONS' => 'Напомнить о мероприятии:',
-    'LBL_REMINDERS_POPUP' => 'Отобразить приглашение в виде всплывающего уведомления браузера',
-    'LBL_REMINDERS_EMAIL' => 'Отправить приглашение по E-mail',
+    'LBL_REMINDERS_ACTIONS' => 'Напомнить о мероприятии в виде:',
+    'LBL_REMINDERS_POPUP' => 'Всплывающего уведомления браузера',
+    'LBL_REMINDERS_EMAIL' => 'Приглашения по E-mail',
     'LBL_REMINDERS_WHEN' => 'Когда:',
     'LBL_REMINDERS_REMOVE_REMINDER' => 'Удалить напоминание',
     'LBL_REMINDERS_ADD_ALL_INVITEES' => 'Добавить ВСЕХ приглашённых',
