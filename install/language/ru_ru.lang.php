@@ -146,8 +146,7 @@ $mod_strings = array(
 'ERR_URL_BLANK'=> 'URL не может быть пустым.' ,
 'ERR_UW_NO_UPDATE_RECORD'=> 'Невозможно определить расположение' ,
 'ERROR_FLAVOR_INCOMPATIBLE'=> 'Загруженный файл не совместим с установленной версией SuiteCRM: ' ,
-'ERROR_LICENSE_EXPIRED'=> 'Ошибка: Срок действия вашей лицензии истёк' ,
-'ERROR_LICENSE_EXPIRED2'=> " дней назад. Пожалуйста, перейдите на <a href='index.php?action=LicenseSettings&module=Administration'>'\"License Management\"</a> в панели администратора для указания нового лицензионного ключа. Если это не будет сделано в течение 30 дней с момента истечения срока лицензии, то вы не сможете войти в систему." ,
+
 'ERROR_MANIFEST_TYPE'=> 'В файле manifest.php  должен быть указан тип устанавливаемого пакета.' ,
 'ERROR_PACKAGE_TYPE'=> 'В файле manifest.php указан нераспознаваемый тип пакета.',
 'ERROR_VALIDATION_EXPIRED'=> 'Ошибка: Срок действия вашего ключа истёк' ,

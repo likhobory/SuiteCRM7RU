@@ -1846,7 +1846,7 @@ $app_strings = array (
 	'LBL_EMAIL_ERROR_PORT'				=> 'Необходимо указать порт почтового сервера.',
 	'LBL_EMAIL_ERROR_PROTOCOL'			=> 'Необходимо указать протокол почтового сервера.',
     'LBL_EMAIL_ERROR_MONITORED_FOLDER'              => 'Необходимо указать проверяемую папку.',
-    'LBL_EMAIL_ERROR_TRASH_FOLDER'            	=> 'Необходимо указать Trash-папку.',
+    'LBL_EMAIL_ERROR_TRASH_FOLDER'            	=> 'Необходимо указать папку корзины.',
     'LBL_EMAIL_ERROR_VIEW_RAW_SOURCE'               => 'Информация недоступна',
     'LBL_EMAIL_ERROR_NO_OUTBOUND'           => 'Не указан сервер исходящей почты.',
     'LBL_EMAIL_FOLDERS'                     => SugarThemeRegistry::current()->getImage('icon_email_folder', 'align=absmiddle border=0', null, null, ".gif", '').' Папки',
@@ -2114,7 +2114,7 @@ $app_strings = array (
 
 	'ERR_AJAX_LOAD'     => 'ОШИБКА:',
 	'ERR_AJAX_LOAD_FAILURE' => 'В процессе обработки запроса произошла ошибка, попробуйте ещё раз.',
-	'ERR_AJAX_LOAD_FOOTER' => 'При возникновении данной ошибки уведомите администратора системы о необходимости отключения Ajax-технологии для текущего модуля.',
+	'ERR_AJAX_LOAD_FOOTER' => 'При возникновении данной ошибки уведомите администратора системы о необходимости отключения ajax-технологии для текущего модуля.',
     'ERR_CREATING_FIELDS' => 'Ошибка заполнения полей с подробностями: ' ,
     'ERR_CREATING_TABLE' => 'Ошибка создания таблицы: ' ,
     'ERR_DECIMAL_SEP_EQ_THOUSANDS_SEP'  => "В качестве десятичного разделителя не может быть использован тот же символ, что и при разделении разрядов.\\n\\n  Пожалуйста, измените значения.",
@@ -2609,13 +2609,10 @@ $app_strings = array (
     'NTC_WELCOME' => 'Дoбрo пoжалoвать' ,
     'NTC_YEAR_FORMAT' => '(гггг) ' ,
     'LOGIN_LOGO_ERROR'=> 'Пожалуйста, замените логотипы SuiteCRM' ,
-    'ERROR_LICENSE_FULLY_EXPIRED'=> "Your Company's Subscription to the SugarCRM Product has expired and needs to be renewed. Only admins may login when a Subscription has expired. If you have any questions, please contact your administrator.", ///
-    'ERROR_LICENSE_EXPIRED'=> 'Ваша лицензия SugarCRM нуждается в обновлении. Только администраторы могут войти в систему.'  , ///
-    'ERROR_LICENSE_VALIDATION'=> 'Ваша лицензия SugarCRM нуждается в подтверждении. Только администраторы могут войти в систему', ///
+
     'WARN_BROWSER_VERSION_WARNING' => "<b>Предупреждение:</b> Данная версия браузера не поддерживается.<p></p>Рекомендуются следующие версии браузеров:<p></p><ul><li>Internet Explorer 11 (режим совместимости не поддерживается)<li>Firefox 32.0<li>Safari 5.1<li>Chrome 37</ul>",
     'WARN_BROWSER_IE_COMPATIBILITY_MODE_WARNING' => "<b>Предупреждение:</b> Браузер открыт в режиме совместимости с IE, данный режим не поддерживается.",
-	'WARN_LICENSE_SEATS'=>  "Warning: The number of active users is already the maximum number of licenses allowed.", ///
-	'WARN_LICENSE_SEATS_MAXED'=>  "Warning: The number of active users exceeds the maximum number of licenses allowed.", ///   
+ 
     'WARN_ONLY_ADMINS'=> "В систему могут войти только администраторы.", 
     'WARN_UNSAVED_CHANGES'=> "Вы покидаете данную страницу без сохранения внесённых изменений. Продолжить?",
 
@@ -2690,8 +2687,8 @@ $app_strings = array (
     'LBL_CREATE_TASK' => 'Создать задачу',
     'LBL_REMOVE_FROM_FAVORITES' => 'Удалить из Избранного',
     //web to lead
-    'LBL_GENERATE_WEB_TO_LEAD_FORM' => 'Создать Web-форму',
-    'LBL_SAVE_WEB_TO_LEAD_FORM' =>'Сохранить Web-форму',
+    'LBL_GENERATE_WEB_TO_LEAD_FORM' => 'Создать веб-форму',
+    'LBL_SAVE_WEB_TO_LEAD_FORM' =>'Сохранить веб-форму',
 
     'LBL_PLEASE_SELECT' => 'Пожалуйста, выберите',
     'LBL_REDIRECT_URL'=>'URL переадресации',
@@ -2981,6 +2978,7 @@ $app_strings = array (
     'LBL_QUICKEDIT_NODEFS_NAVIGATION'=> 'Navigating... ', ///
 	
 	'LBL_PENDING_NOTIFICATIONS' => 'Уведомления',
+	'LBL_NOTIFICATIONS_NONE' => 'Уведомления отсутствуют',
     'LBL_ALT_ADD_TEAM_ROW' => 'Add new team row', ///
     'LBL_ALT_REMOVE_TEAM_ROW' => 'Remove team', ///
     'LBL_ALT_SPOT_SEARCH' => 'Spot Search',
@@ -3039,6 +3037,10 @@ $app_strings = array (
 	'ERR_BAD_RESPONSE_FROM_SERVER' => 'Некорректный ответ сервера',
 	'LBL_ACCOUNT_PRODUCT_QUOTE_LINK' => 'Предложение',
     'LBL_ACCOUNT_PRODUCT_SALE_PRICE' => 'Цена со скидкой',
+	
+	'ERR_A_REMINDER_IS_EMPTY_OR_INCORRECT' => 'Неверное или незаполненное напоминание.',
+    'ERR_REMINDER_IS_NOT_SET_POPUP_OR_EMAIL' => 'Напоминание не настроено.',
+    'ERR_NO_INVITEES_FOR_REMINDER' => 'Нет приглашённых.'
 
    
 );
@@ -3829,11 +3831,11 @@ $app_list_strings['aok_status_list']['In_Review'] = 'На рассмотрени
 $app_list_strings['aok_status_list']['published_private'] = 'Не опубликована';
 $app_list_strings['aok_status_list']['published_public'] = 'Опубликована';
 
-$app_list_strings['moduleList']['AOM_Reminders'] = 'Напоминания';
-$app_list_strings['moduleListSingular']['AOM_Reminders'] = 'Напоминание';
+$app_list_strings['moduleList']['Reminders'] = 'Напоминания';
+$app_list_strings['moduleListSingular']['Reminders'] = 'Напоминание';
 
-$app_list_strings['moduleList']['AOM_Reminders_Invitees'] = 'Напоминания_Приглашённые';
-$app_list_strings['moduleListSingular']['AOM_Reminders_Invitees'] = 'Напоминание_Приглашённый';
+$app_list_strings['moduleList']['Reminders_Invitees'] = 'Напоминания_Приглашённые';
+$app_list_strings['moduleListSingular']['Reminders_Invitees'] = 'Напоминание_Приглашённый';
 
 
 //Suite***************	

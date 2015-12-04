@@ -171,7 +171,7 @@ $mod_strings = array (
 'LBL_GENERATE_PASSWORD_BUTTON_LABEL'   => 'Сменить пароль',
 'LBL_GENERATE_PASSWORD_BUTTON_TITLE'   => 'Сменить пароль',
 'LBL_GENERATE_PASSWORD'             => 'Сменить пароль',
-'LBL_GROUP_DESC'=> 'Используется только для назначения пользователей в указанную группу (например, для входящих писем) и не может авторизоваться через Веб-интерфейс SuiteCRM.' ,
+'LBL_GROUP_DESC'=> 'Используется только для назначения пользователей в указанную группу (например, для входящих писем) и не может авторизоваться через веб-интерфейс SuiteCRM.' ,
 'LBL_GROUP_USER_STATUS'=> 'Групповой пользователь' ,
 'LBL_GROUP_USER'=> 'Групповой пользователь' ,
 'LBL_HIDE_TABS'=> 'Скрытые закладки' ,
@@ -293,9 +293,9 @@ $mod_strings = array (
 'LBL_RECAPTCHA_INSTRUCTION'         => 'Введите указанные слова через пробел',
 'LBL_RECAPTCHA_INSTRUCTION_OPPOSITE'=> 'Введите указанные слова через пробел',
 'LBL_RECAPTCHA_FILL_FIELD'=> 'Ведите текст, указанный на картинке.',
-'LBL_RECAPTCHA_INVALID_PRIVATE_KEY'=> 'Неверный закрытый Recaptcha-ключ',
+'LBL_RECAPTCHA_INVALID_PRIVATE_KEY'=> 'Неверный закрытый ключ reCAPTCHA',
 'LBL_RECAPTCHA_INVALID_REQUEST_COOKIE'=> 'Проверочный параметр неверен (The challenge parameter of the verify Recaptcha script was incorrect).',
-'LBL_RECAPTCHA_UNKNOWN'=> 'Неизвестная Recaptcha-ошибка',
+'LBL_RECAPTCHA_UNKNOWN'=> 'Неизвестная ошибка c reCAPTCHA',
 
 'LBL_RECEIVE_NOTIFICATIONS_TEXT'=> 'Пользователь получает уведомление по E-mail при назначении ему записи другим пользователем.' ,
 'LBL_RECEIVE_NOTIFICATIONS'=> 'Уведомление о назначении' ,
@@ -309,9 +309,9 @@ $mod_strings = array (
 
     // new reminders
     'LBL_REMINDERS' => 'Напоминания',
-    'LBL_REMINDERS_ACTIONS' => 'Напомнить о мероприятии:',
-    'LBL_REMINDERS_POPUP' => 'Отобразить приглашение в виде всплывающего уведомления браузера',
-    'LBL_REMINDERS_EMAIL' => 'Отправить приглашение по E-mail',
+    'LBL_REMINDERS_ACTIONS' => 'Напомнить о мероприятии в виде:',
+    'LBL_REMINDERS_POPUP' => 'Всплывающего уведомления браузера',
+    'LBL_REMINDERS_EMAIL' => 'Приглашения по E-mail',
     'LBL_REMINDERS_WHEN' => 'Когда:',
     'LBL_REMINDERS_REMOVE_REMINDER' => 'Удалить напоминание',
     'LBL_REMINDERS_ADD_ALL_INVITEES' => 'Добавить ВСЕХ приглашённых',

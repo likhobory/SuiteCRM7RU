@@ -50,7 +50,7 @@ $mod_strings = array (
 'DESC_MODULES_INSTALLED' => 'Следующие модули установлены:' ,
 
 'DOWNLOAD_QUESTION'      => 'Вы действительно хотите загрузить выбранные модули?',
-'ENABLED_OFFLINE_CLIENTS' => 'Offline Clients are enabled.',
+'ENABLED_OFFLINE_CLIENTS' => 'Offline Clients are enabled.', ///
 
 'SEARCHING_UPDATES' => 'Поиск обновлений...',
 'DOWNLOADING' => 'Загрузка...',
@@ -77,16 +77,15 @@ $mod_strings = array (
 'ERR_DELETE_RECORD' => 'Перед удалением должен быть указан номер записи.' ,
 'ERR_ENABLE_CURL'   => 'Пожалуйста, убедитесь, что у вас включён curl',
 'ERR_EXPAND_DATABASE_COMPLETED' => 'Ошибка: Наличие файла restoreExpand.sql свидетельствует о том, что вы уже изменили размеры полей базы данных.',
-'ERR_INCORRECT_REGEX' => 'Регулярное выражение в Regex-поле имеет неверный синтаксис. Пожалуйста, проверьте выражение и исправьте синтаксис',
+'ERR_INCORRECT_REGEX' => 'Регулярное выражение в regex-поле имеет неверный синтаксис. Пожалуйста, проверьте выражение и исправьте синтаксис',
 'ERR_EMPTY_REGEX_DESCRIPTION' => 'Описание необходимого регулярного выражения. Это описание будет отображаться для пользователей, устанавливающих новые пароли.',
 'ERR_NO_COLUMNS_TO_EXPAND' => 'Ошибка: База данных не содержит varchar, char или текстовых полей.',
 'ERR_NOT_FOR_MSSQL'=> 'Эта функция не работает в данной конфигурации.',
 'ERR_NOT_FOR_MYSQL'=> 'Эта функция не работает в данной конфигурации.',
 'ERR_NOT_FOR_ORACLE'=> 'Эта функция не работает в данной конфигурации.' ,
 'ERR_NOT_IMPLEMENTED'=>'Эта функция не работает в данной конфигурации.',
-'ERR_NUM_OFFLINE_CLIENTS_MET' => 'You have already met the number of Offline Clients for your license key.  You must either disable an existing Offline Client or update your license.',
+'ERR_NUM_OFFLINE_CLIENTS_MET' => 'You have already met the number of Offline Clients for your license key.  You must either disable an existing Offline Client or update your license.', ///
 'ERR_OC_USER_ALREADY_EXISTS' => 'Выбранный вами пользователь уже существует в системе.',
-'ERR_SUGAR_DEPOT_DOWN'    => 'Невозможно установить соединение с Suite Exchange для выбора и загрузки модулей.', ///
 'ERR_SMTP_SERVER_NOT_SET'=> 'Внимание: SMTP-сервер для исходящей почты не настроен. Настройте его в параметрах почты для того, чтобы иметь возможность отослать пароли пользователям.',
 'ERR_UW_ACCEPT_LICENSE'                  => 'Вы должны принять лицензионное соглашение перед тем как продолжить',
 'ERR_UW_CONFIG_FAILED'                      => "Ошибка записи в файл config.php",
@@ -114,21 +113,12 @@ $mod_strings = array (
 'ERR_UW_UPDATE_CONFIG'                      => "Ошибка при добавлении в файл config.php информации о новой версии.",
 'ERR_UW_UPLOAD_ERROR'                       => "Ошибка загрузки файла, пожалуйста, попробуйте  ещё раз!<br>\n",
 'ERROR_FLAVOR_INCOMPATIBLE' => 'Загруженный файл не совместим с установленной версией SuiteCRM: ' ,
-'ERROR_LICENSE_EXPIRED'=> 'Ошибка: ваша лицензия закончилась' ,
-'ERROR_LICENSE_EXPIRED2' => " дней назад. Пожалуйста, перейдите <a href='index.php?action=LicenseSettings&module=Administration'>'\"License Management\"</a>  в панель администратора для ввода нового лицензионного ключа.  Если вы не введёте новый ключ в течение 7 дней с момента истечения лицензии, то вы не сможете войти в систему.",
-'ERROR_MANIFEST_TYPE' => 'В Manifest-файле должен быть указан тип пакета.' ,
-'ERROR_PACKAGE_TYPE' => 'В Manifest-файле указан неизвестный тип пакета' ,
-'ERROR_VALIDATION_EXPIRED'=> 'Ошибка: Срок действия лицензионного ключа истёк' ,
-'ERROR_VALIDATION_EXPIRED2' => " дней назад. Пожалуйста, перейдите <a href='index.php?action=LicenseSettings&module=Administration'>'\"License Management\"</a> в панель администратора для ввода нового лицензионного ключа.  Если вы не введёте новый ключ в течение 7 дней с момента истечения лицензии, то вы не сможете войти в систему.",
+
+'ERROR_MANIFEST_TYPE' => 'В файле манифеста должен быть указан тип пакета.' ,
+'ERROR_PACKAGE_TYPE' => 'В файле манифеста указан неизвестный тип пакета' ,
+
 'ERROR_VERSION_INCOMPATIBLE' => 'Загружаемый файл не совместим с установленной версией SuiteCRM: ' ,
 
-'FATAL_LICENSE_ALTERED' => 'Your license has been altered since the last time you were able to validate it. ',
-'FATAL_LICENSE_EXPIRED'=> 'Ошибка: ваша лицензия истекла более 7 дней назад' ,
-'FATAL_LICENSE_EXPIRED2'=> 'Пожалуйста, обновите вашу лицензионную информацию в панели администратора для восстановления полной работоспособности системы.' ,
-'FATAL_LICENSE_REQUIRED' => 'Ошибка: Необходима информация о лицензионном ключе .',
-'FATAL_VALIDATION_EXPIRED'=> 'Ошибка: срок действия вашего лицензионного ключа истёк более 7 дней назад' ,
-'FATAL_VALIDATION_EXPIRED2'=> 'Пожалуйста, обновите вашу лицензионную информацию в панели администратора для восстановления полной работоспособности системы.' ,
-'FATAL_VALIDATION_REQUIRED' => 'Ошибка: Необходима информация о лицензионном ключе.  ',
 'HDR_LOGIN_PANEL'          => 'Пожалуйста, введите ваши учётные данные для suitecrm.com.',
 'HEARTBEAT_MESSAGE'=> '<BR>',
 
@@ -294,7 +284,7 @@ Last attempted connection @ ',
 'LBL_ENABLE_MAILMERGE' => 'Включить слияние?' ,
 'LBL_ENABLED' => 'Доступны',
 'LBL_ERROR_VERSION_INFO'=> 'Ошибка при выборке информации о версии, пожалуйста, попробуйте  ещё раз позже.' ,
-'LBL_EXCEEDING_OC_LICENSES' => "Error: The number of enabled Offline Clients currently exceeds the number specified in your license.  Please go to <a href='index.php?module=Administration&action=ListViewOfflineClient'>'\"Manage Offline Clients\"</a> in the Admin screen to disable Offline Clients or update your License.", ///
+
 'LBL_EXECUTE'               => 'Выполнить',
 'LBL_EXPAND_DATABASE_COLUMNS_DESC' => 'Увеличение размера char/varchar/text-полей в базе данных (только для MSSQL)',
 'LBL_EXPAND_DATABASE_COLUMNS' => 'Увеличение размера поля',
@@ -412,8 +402,8 @@ Last attempted connection @ ',
 'LBL_LOCALE_NAME_FORMAT_DESC'               => '"s" Приветствие<br>"f" Имя<br>"l" Фамилия',
 'LBL_LOCALE_TITLE'                          => 'Управление региональными настройками',
 'LBL_LOCALE' => 'Установка региональных настроек',
-'LBL_LOGIN_SUGAR_SERVER_DESC'          => '- The User Name of the person who will operate this offline client',
-'LBL_LOGIN_SUGAR_SERVER'                => 'End User Name:',
+'LBL_LOGIN_SUGAR_SERVER_DESC'          => '- The User Name of the person who will operate this offline client', ///
+'LBL_LOGIN_SUGAR_SERVER'                => 'End User Name:', ///
 'LBL_MAILBOX_DESC' => 'Настройка учётных записей для обработки поступающих обращений' ,
 'LBL_MANAGE_CONTRACTEMPLATES_TITLE'=> 'Contract Types',
 'LBL_MANAGE_CURRENCIES' => 'Валюта' ,
@@ -438,18 +428,7 @@ Last attempted connection @ ',
 'LBL_MANAGE_TIMEPERIODS' => 'Управление периодами времени',
 'LBL_MANAGE_USERS_TITLE' => 'Управление пользователями' ,
 'LBL_MANAGE_USERS' => 'Управление пользователями (настройки и пароли)' ,
-'LBL_MANAGE_WORKFLOW'                   => 'Workflow Management', ///
-'LBL_MANUAL_VALIDATION_TXT' => 'Подтверждение вручную' ,
-'LBL_MANUAL_VALIDATION'=>'
-If you experience persistent problems with automatic validation, please check your Proxy configuration in the <a href="index.php?module=Configurator&action=EditView">System Settings</a> admin panel.
-If your system environment prohibits your system from communicating to the license validation server through the internet, you should proceed with the <a href="javascript:void(0)" onclick="toggleDisplay(\'mainbody\');toggleDisplay(\'manualbody\');">Manual Validation</a> steps. ',
-'LBL_MANUAL_VALIDATION1'=> 'Step 1: Generate a license key information file by clicking the following button. ', ///
-'LBL_MANUAL_VALIDATION2'=> 'Then save the file (sugarkey.lic) on your local file system.', ///
-'LBL_MANUAL_VALIDATION3'=> 'Step 2: Transfer the sugarkey.lic file to a system where you can access the internet with a web browser.   <br<br>Go to <a href="http://updates.sugarcrm.com/license">http://updates.sugarcrm.com/license</a>  and submit the sugarkey.lic file.  <br><br>The license validation web site will perform the validation immediately and return you the validation key file (sugarvalidationkey.lic) if the validation is successful.  You browser should prompt you to save the file.  ', ///
-'LBL_MANUAL_VALIDATION4'=> 'Step 3:  Transfer the validation key file (sugarvalidationkey.lic) back to the SugarCRM system.  Import the validation key using this form below: ', ///
-'LBL_MANUAL_VALIDATION5'=> 'After you import the validation key, you have completed the manual validation process.  Your system will update the validation key expiration date, which is the date when you need re-validate.', ///
-'LBL_MANUFACTURERS_TITLE' => 'Manufacturers', ///
-'LBL_MANUFACTURERS' => 'Set up the list of manufacturers', ///
+
 'LBL_MASS_EMAIL_CONFIG_DESC'=> 'Настройка параметров электронной почты' ,
 'LBL_MASS_EMAIL_CONFIG_TITLE'=> 'Настройка E-mail' ,
 'LBL_MASS_EMAIL_MANAGER_DESC'=> 'Управление очерёдностью рассылки исходящей почты' ,
@@ -457,9 +436,7 @@ If your system environment prohibits your system from communicating to the licen
 'LBL_MASS_EMAIL_MANAGER_TITLE'=> 'Управление очередью E-mail' ,
 'LBL_MASSAGE_MASS_EMAIL_DESC'=> 'SugarCRM 3.5.1+ предполагает обновление для массовой рассылки E-mail.  Нажмите на кнопку "Начать обновление" для продолжения.' ,
 'LBL_MASSAGE_MASS_EMAIL'=> 'GMT-исправление даты и времени при рассылке E-mail' ,
-'LBL_MISSING_GLOBAL'=> 'We have noticed that there are users missing global team membership. If you would like to have a global team, please check the option below.', ///
-'LBL_MISSING_PRIVATE'=> 'We have noticed that some users do not have private teams. If you would like to ensure that all users have private teams, we recommend that you repair the option below.', ///
-'LBL_MISSING_TEAMS'=> 'We have noticed discrepancies between your reports to structure and your team strcuture. If you would like to repair this, please check the option below.', ///
+
 //ModuleInstaller
 'LBL_MI_REBUILDING' => 'Восстановление ',
 'LBL_MI_SECTION' => 'раздел...',
@@ -585,7 +562,7 @@ If your system environment prohibits your system from communicating to the licen
 'LBL_PASSWORD_EXP_IN'=> 'Пароль будет недействителен через',
 'LBL_PASSWORD_USER_RESET' => 'Сброс пароля пользователем',
 'LBL_PERFORM_UPDATE'=> 'Выполнение обновления' ,
-'LBL_PLUGINS_TITLE' => 'Sugar Forge' , ///
+
 'LBL_PLUGINS' => 'Получить плагины и другие расширения.' ,
 'LBL_PRICE_LIST_TITLE' => 'Product and Quotes', ///
 'LBL_PRICE_LIST_DESC' => 'Manage the product catalog, along with the related information on manufacturers and shipping providers.',
@@ -914,13 +891,7 @@ If your system environment prohibits your system from communicating to the licen
 'REMOVE_QUESTION'           => 'Вы действительно хотите удалить выбранные пакеты?',
 'WARN_POSSIBLE_JS_OVERWRITE'=> 'Осторожно, это приведёт к перезаписи всех изменений, которые вы могли сделать в файлах javascript. Продолжить?',
 'WARN_INSTALLER_LOCKED'=> 'Предупреждение: Для сохранения ваших данных инсталлятор должен быть заблокирован. В файле config.php установите переменную  installer_locked в значение "true".' ,
-'WARN_LICENSE_EXPIRED'=> 'Сообщение: До истечения срока действия вашей лицензии осталось дней: ' ,
-'WARN_LICENSE_EXPIRED2' => " Пожалуйста, перейдите к <a href='index.php?action=LicenseSettings&module=Administration'>'\"License Management\"</a>  в панели администратора.",
-'WARN_LICENSE_SEATS'=> "Warning: User licenses exceeded by ", ///
-'WARN_LICENSE_SEATS2' => ".  Please contact your sales representative or email <a href='mailto:sales@sugarcrm.com'>sales@sugarcrm.com</a>.", ///
-'WARN_LICENSE_SEATS_MAXED'=> "Warning: The number of active users is already the maximum number of licenses allowed: ", ///
-'WARN_LICENSE_SEATS_EDIT_USER'=> "Warning: The number of active users is already the maximum number of licenses allowed", ///
-'WARN_LICENSE_SEATS_USER_CREATE'=> "Warning: The number of active users allowed by your license matches the number of active users in the system. You will not be able to create additional active users.", ///
+
 'WARN_REPAIR_CONFIG' => 'Предупреждение: Файл config.php должен быть перестроен. В панели администратора перейдите по ссылке  "<a href=\'index.php?module=Administration&action=RebuildConfig\'>Перестройка файла конфигурации</a>".' ,
 'WARN_UPGRADE_APP'=> 'В данный момент доступна обновлённая версия приложения.' ,
 'WARN_UPGRADE' => 'Внимание: система может быть обновлена до версии ' ,
@@ -960,7 +931,7 @@ If your system environment prohibits your system from communicating to the licen
 'LBL_QR_CBOX_CLEARLANG'=> 'Очистка кэша языковых файлов',
 'LBL_QR_CBOX_CLEARSEARCH'=> 'Очистка кэша общего поиска',
 'LBL_QR_REBUILDEXT'=> '<h3> Перестройка расширений...</h3>',
-'LBL_QR_CLEARSMARTY'=> 'Очистка кэша Smarty-шаблонов...готово',
+'LBL_QR_CLEARSMARTY'=> 'Очистка кэша шаблонов Smarty...готово',
 'LBL_QR_XMLFILES'=> 'Очистка кэша файлов XML...готово',
 'LBL_QR_CLEARDASHLET'=> 'Очистка кэша дашлетов...готово',
 'LBL_QR_CLEARTEMPLATE'=> 'Очистка кэша файлов шаблонов...готово',
@@ -994,11 +965,9 @@ If your system environment prohibits your system from communicating to the licen
 
 'ML_PACKAGE_SCANNING'=> 'Сканирование {PACKAGE}',
 'ML_INSTALLATION_FAILED'=> 'Установка прервана!',
-'ML_PACKAGE_NOT_CONFIRM'=> 'Пакет, который вы пытаетесь установить, не соответствует политике в рамках <b>Suite Open Cloud</b> или политике, установленной вашим системным администратором.',
-'ML_TO_RESOLVE'=> 'Для решения данной проблемы:',
-'ML_OBTAIN_NEW_PACKAGE'=> 'Клиенты <b>Suite Open Cloud</b> должны получить новый установочный пакет от поставщика для устранения нижеописанных проблем.',
+
 'ML_RELAX_LOCAL'=> 'Если SuiteCRM используется только в локальной сети, вы можете уменьшить ограничения Загрузчика Модулей на разрешение установки пакета.',
-'ML_SUGAR_LOADING_POLICY'=> 'Политики загрузки пакета <b>Suite Open Cloud</b> подробно изложены в',
+
 'ML_SUGAR_KB'=> 'База знаний SuiteCRM',
 'ML_SUGAR_DZ'=> 'Зона разработчика SuiteCRM',
 'ML_AVAIL_RESTRICTION'=> 'Имеющиеся ограничения и исключения подробно изложены в',
@@ -1169,16 +1138,6 @@ If your system environment prohibits your system from communicating to the licen
 	);
 
 //Suite***************
-
-
-$mod_strings['LBL_UPDATE_QUICKCRM_TITLE'] = "Настройка QuickCRM"; 
-$mod_strings['LBL_UPDATE_QUICKCRM'] = "Настройка приложения для работы через мобильные устройства";
-$mod_strings['LBL_QUICKCRM'] = 'QuickCRM Mobile';
-$mod_strings['LBL_CONFIG_QUICKCRM_TITLE'] = "Configuration of QuickCRM Mobile";
-$mod_strings['LBL_CONFIG_QUICKCRM'] = "Definition of visible modules and fields";
-$mod_strings['LBL_UPDATE_MSG'] = '<strong>Приложение настроено для работы через мобильные устройства.</strong><br/> Мобильная версия доступна по ссылке:';
-$mod_strings['LBL_ERR_DIR_MSG'] = 'Некоторые файлы не могут быть созданы. Проверьте права доступа для: '; 
-
 
 
 
