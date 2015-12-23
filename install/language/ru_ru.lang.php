@@ -119,8 +119,7 @@ $mod_strings = array(
 'ERR_LANG_UPLOAD_1'=> 'Загрузка не удалась. Пожалуйста, попробуйте ещё раз.' ,
 'ERR_LANG_UPLOAD_2'=> 'Языковой пакет должны быть ZIP-архивом.' ,
 'ERR_LANG_UPLOAD_3'=> 'PHP не может переместить временный файл в папку обновления' ,
-'ERR_LICENSE_MISSING'=> 'Пропущены обязательные поля' ,
-'ERR_LICENSE_NOT_FOUND'=> 'Файл лицензии не найден.' ,
+
 'ERR_LOG_DIRECTORY_NOT_EXISTS'=> 'Указана неверная папка для журналов.' ,
 'ERR_LOG_DIRECTORY_NOT_WRITABLE'=> 'Указанная папка для журналов недоступна для записи.' ,
 'ERR_LOG_DIRECTORY_REQUIRED'=> 'Если вы решили указать собственную папку для журналов - укажите её расположение' ,
@@ -203,7 +202,7 @@ $mod_strings = array(
 'LBL_CONFIRM_BE_CREATED'=> 'будет создана' ,
 'LBL_CONFIRM_DB_TYPE'=> 'Тип базы данных' ,
 'LBL_CONFIRM_DIRECTIONS'=> 'Пожалуйста, проверьте указанные параметры. Если вы хотите исправить какой-либо параметр, нажмите кнопку "Назад" , если все в порядке - нажмите кнопку "Вперёд" для начала процесса установки.' ,
-'LBL_CONFIRM_LICENSE_TITLE'=> 'Лицензионная информация' ,
+
 'LBL_CONFIRM_NOT'=> 'не' ,
 'LBL_CONFIRM_TITLE'=> 'Подтверждение параметров' ,
 'LBL_CONFIRM_WILL'=> '' ,
@@ -289,19 +288,13 @@ $mod_strings = array(
 'LBL_LICENSE_CHECK_PASSED'          => 'Проверка совместимости успешно пройдена',
 'LBL_CREATE_CACHE' => 'Подготовка к установке...',
 'LBL_LICENSE_REDIRECT'              => 'Перенаправление через ',
-'LBL_LICENSE_DIRECTIONS'=> 'Если у вас есть лицензионная информация, пожалуйста, введите её в указанные поля.' ,
-'LBL_LICENSE_DOWNLOAD_KEY'=> 'Загрузить ключ' ,
-'LBL_LICENSE_EXPIRY'=> 'Дата окончания' ,
+
 'LBL_LICENSE_I_ACCEPT'=> 'Я принимаю лицензионное соглашение' ,
-'LBL_LICENSE_NUM_USERS'=> 'Количество пользователей' ,
-'LBL_LICENSE_OC_DIRECTIONS'=> 'Пожалуйста, укажите количество купленных рабочих мест.' ,
-'LBL_LICENSE_OC_NUM'=> 'Количество лицензий на рабочие места' ,
-'LBL_LICENSE_OC'=> 'Лицензии на рабочие места' ,
+
 'LBL_LICENSE_PRINTABLE'=> 'Версия для печати' ,
 'LBL_PRINT_SUMM'                    => 'Печать',
 'LBL_LICENSE_TITLE_2'=> 'Лицензия SuiteCRM' ,
 'LBL_LICENSE_TITLE'=> 'Лицензионная информация' ,
-'LBL_LICENSE_USERS'=> 'Лицензированные пользователи' , 
 
 'LBL_LOCALE_CURRENCY'=> 'Установки валюты' ,
 'LBL_LOCALE_CURR_DEFAULT'=> 'Валюта по умолчанию' ,
@@ -363,7 +356,7 @@ $mod_strings = array(
 'LBL_PERFORM_DONE'=> 'Готово' ,
 'LBL_PERFORM_DROPPING'=> 'удаление / ' ,
 'LBL_PERFORM_FINISH'=> 'Готово' ,
-'LBL_PERFORM_LICENSE_SETTINGS'=> 'Updating license information' , ///
+
 'LBL_PERFORM_OUTRO_1'=> 'Установка SuiteCRM ' ,
 'LBL_PERFORM_OUTRO_2'=> ' завершена.' ,
 'LBL_PERFORM_OUTRO_3'=> 'Установка заняла ' ,

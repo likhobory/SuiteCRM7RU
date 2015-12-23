@@ -230,12 +230,10 @@ $mod_strings = array(
 'LBL_UW_FOLLOWING_MODULES_CUSTOMIZED'       =>'Следующие модули были определены как настроенные пользователем и поэтому они оставлены без изменений',
 'LBL_UW_FOLLOWING_MODULES_UPGRADED'         =>'Следующие модули были определены как настроенные в Студии и поэтому они были изменены',
 
-'LBL_UW_SUGAR_COMMUNITY_EDITION_LICENSE'    =>'Sugar Community Edition 5.0 использует GNU Affero General Public License Version 3. Это обновление конвертирует вашу существующую лицензию в новую, отображённую ниже.',
-
 
 'LBL_START_UPGRADE_IN_PROGRESS'             =>'Выполняется начальный этап обновления',
 'LBL_SYSTEM_CHECKS_IN_PROGRESS'             =>'Выполняется проверка системы',
-'LBL_LICENSE_CHECK_IN_PROGRESS'             =>'License Check in progress', ///
+
 'LBL_PREFLIGHT_CHECK_IN_PROGRESS'           =>'Выполняется предварительная проверка',
 'LBL_PREFLIGHT_FILE_COPYING_PROGRESS'       =>'Выполняется копирование файлов',
 'LBL_COMMIT_UPGRADE_IN_PROGRESS'            =>'Выполняется основной этап обновления',

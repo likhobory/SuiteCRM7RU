@@ -88,30 +88,30 @@ $mod_strings = array (
 'ERR_OC_USER_ALREADY_EXISTS' => 'Выбранный вами пользователь уже существует в системе.',
 'ERR_SMTP_SERVER_NOT_SET'=> 'Внимание: SMTP-сервер для исходящей почты не настроен. Настройте его в параметрах почты для того, чтобы иметь возможность отослать пароли пользователям.',
 'ERR_UW_ACCEPT_LICENSE'                  => 'Вы должны принять лицензионное соглашение перед тем как продолжить',
-'ERR_UW_CONFIG_FAILED'                      => "Ошибка записи в файл config.php",
+'ERR_UW_CONFIG_FAILED'                      => 'Ошибка записи в файл config.php',
 'ERR_UW_COPY_FAILED'                        => 'Невозможно скопировать файл ',
 'ERR_UW_INVALID_VIEW'                       => 'Указан неверный объект.',
 'ERR_UW_MUST_SELECT_OVERWRITE_OPTION' => 'Please select an overwrite option',
-'ERR_UW_NO_DEPENDENCY'      => "Следующие зависимости не были найдены в системе:",
-'ERR_UW_NO_FILES'                           => "Не указаны файлы для копирования.",
-'ERR_UW_NO_INSTALL_FILE'                    => "Не указан инсталляционный файл.",
-'ERR_UW_NO_LANG_DESC'                       => "Описание языкового файла отсутствует.",
-'ERR_UW_NO_LANG'                            => "Не указан языковой файл.",
-'ERR_UW_NO_MANIFEST'                        => "В архиве отсутствует файл manifest.php. Продолжение установки невозможно.",
-'ERR_UW_NO_MODE'                            => "Не указан режим операции.",
-'ERR_UW_NO_TEMP_DIR'                        => "Не указана временная директория для копирования файлов.",
+'ERR_UW_NO_DEPENDENCY'      => 'Следующие зависимости не были найдены в системе:',
+'ERR_UW_NO_FILES'                           => 'Не указаны файлы для копирования.',
+'ERR_UW_NO_INSTALL_FILE'                    => 'Не указан инсталляционный файл.',
+'ERR_UW_NO_LANG_DESC'                       => 'Описание языкового файла отсутствует.',
+'ERR_UW_NO_LANG'                            => 'Не указан языковой файл.',
+'ERR_UW_NO_MANIFEST'                        => 'В архиве отсутствует файл manifest.php. Продолжение установки невозможно.',
+'ERR_UW_NO_MODE'                            => 'Не указан режим операции.',
+'ERR_UW_NO_TEMP_DIR'                        => 'Не указана временная директория для копирования файлов.',
 'ERR_UW_NO_UPDATE_RECORD'                   => 'Невозможно определить инсталляционную запись для',
-'ERR_UW_NO_UPLOAD_FILE'                     => "Пожалуйста, нажмите на кнопку <b>Обзор</b> для выбора загружаемого файла.<br>\n",
-'ERR_UW_NO_VIEW'                            => "Страница не определена. Пожалуйста, перейдите в панель администратора для перехода на эту страницу.",
-'ERR_UW_NOT_ACCEPTIBLE_TYPE'                => " На этой странице вы можете загружать только модули, темы и языковые файлы.",
+'ERR_UW_NO_UPLOAD_FILE'                     => 'Пожалуйста, нажмите на кнопку <b>Обзор</b> для выбора загружаемого файла.<br>',
+'ERR_UW_NO_VIEW'                            => 'Страница не определена. Пожалуйста, перейдите в панель администратора для перехода на эту страницу.',
+'ERR_UW_NOT_ACCEPTIBLE_TYPE'                => ' На этой странице вы можете загружать только модули, темы и языковые файлы.',
 'ERR_UW_NOT_RECOGNIZED'                     => 'не распознан',
 'ERR_UW_NOT_VALID_UPLOAD'                   => 'Загружен неверный файл.',
-'ERR_UW_ONLY_PATCHES'                       => " На этой странице вы можете загружать только обновления.",
+'ERR_UW_ONLY_PATCHES'                       => ' На этой странице вы можете загружать только обновления.',
 'ERR_UW_REMOVE_FAILED'                      => 'Невозможно удалить файл',
-'ERR_UW_REMOVE_PACKAGE'                     => "Невозможно удалить пакет ",
-'ERR_UW_RUN_SQL'                            => "Ошибка запуска sql-скрипта: ",
-'ERR_UW_UPDATE_CONFIG'                      => "Ошибка при добавлении в файл config.php информации о новой версии.",
-'ERR_UW_UPLOAD_ERROR'                       => "Ошибка загрузки файла, пожалуйста, попробуйте  ещё раз!<br>\n",
+'ERR_UW_REMOVE_PACKAGE'                     => 'Невозможно удалить пакет ',
+'ERR_UW_RUN_SQL'                            => 'Ошибка запуска sql-скрипта: ',
+'ERR_UW_UPDATE_CONFIG'                      => 'Ошибка при добавлении в файл config.php информации о новой версии.',
+'ERR_UW_UPLOAD_ERROR'                       => 'Ошибка загрузки файла, пожалуйста, попробуйте  ещё раз!<br>\n',
 'ERROR_FLAVOR_INCOMPATIBLE' => 'Загруженный файл не совместим с установленной версией SuiteCRM: ' ,
 
 'ERROR_MANIFEST_TYPE' => 'В файле манифеста должен быть указан тип пакета.' ,
@@ -329,22 +329,9 @@ Last attempted connection @ ',
 'LBL_INBOUND_EMAIL_TITLE' => 'Входящие E-mail' ,
 'LBL_LANGUAGES' => 'Управление доступом к языковым пакетам',
 'LBL_LAYOUT' => 'Добавление, удаление, изменение полей, макетов полей и панелей в приложении' ,
-'LBL_LICENSE_EXPIRE_DATE'   => 'Expiration Date', ///
-'LBL_LICENSE_KEY'          => 'Download Key', ///
-'LBL_LICENSE_NUM_LIC_OC'           => 'Number of Offline Client Licenses', ///
-'LBL_LICENSE_NUM_PORTAL_USERS'         => 'Number of Concurrent Self-Service Portal Users',///
-'LBL_LICENSE_USERS'      => 'Number of Users', ///
-'LBL_LICENSE_VALIDATION_END'           => 'Validation Key Expiration', ///
-'LBL_LICENSE_VALIDATION_KEY'           => 'Validation Key', ///
-'LBL_LICENSE_VALIDATION'           => 'License Validation', ///
+
 'LBL_LICENSE'               => 'Лицензия',
-'LBL_LICENSE_UNAUTHORIZED_ACCESS' => 'Unauthorized access to license settings.', ///
-'LBL_LIST_FIRST_CONNECT_DATE' => 'First Connect Date', ///
-'LBL_LIST_LAST_CONNECT_DATE' => 'Last Connect Date', ///
-'LBL_LIST_NUM_SYNCS' => 'Num. of Syncs', ///
-'LBL_LIST_SET_STATUS' => 'Set Status', ///
-'LBL_LIST_SYSTEM_KEY' => 'System Key', ///
-'LBL_LIST_SYSTEM_NAME' => 'System Name', ///
+
 'LBL_LIST_VIEW'          => 'Список',
 
 'LBL_LDAP_TITLE'=> 'LDAP-аутентификация',
@@ -647,16 +634,11 @@ Last attempted connection @ ',
 'LBL_REPAIR_ACTION' => 'Что вы хотите сделать?' ,
 'LBL_REPAIR_DATABASE_DESC' => 'Восстановление БД, основанное на значениях, определённых в vardefs (только MySQL)' ,
 'LBL_REPAIR_DATABASE_PROCESSING' => 'Сравнение базы данных и vardef...',
-'LBL_REPAIR_DATABASE_DIFFERENCES' => "Найдены различия между базой данных и vardefs",
-'LBL_REPAIR_DATABASE_TEXT' =>   "The following script will sync the database structure with the structure defined " .
-"in the vardefs. You have the option of exporting this script and then running it " .
-"against your database using external database management tools, or to allow the " .
-"administration module to run the script." .
-"<br><br><strong>NOTE: any changes you make to the script in the textbox will be reflected " .
-"in the exported or executed code.<br><br>",
+'LBL_REPAIR_DATABASE_DIFFERENCES' => '<br><strong>ВНИМАНИЕ: </strong>найдены различия между базой данных и vardefs.',
+'LBL_REPAIR_DATABASE_TEXT' =>   'При нажатии на кнопку "Выполнить" будет выполнен нижеследующий скрипт, синхронизирующий структуру базы данных с vardefs. Вы также можете экспортировать скрипт и выполнить его в соответствующем приложении, позволяющем изменить структуру БД.<br><br><strong>ПРИМЕЧАНИЕ:</strong> любые изменения кода, указанные в данном текстовом окне будут учтены при выполнении обновлённого скрипта.<br><br>',
 'LBL_REPAIR_DATABASE_SYNCED' => 'Таблицы базы данных синхронизированы с Vardefs' ,
-'LBL_REPAIR_DATABASE_EXECUTE' => "Выполнить",
-'LBL_REPAIR_DATABASE_EXPORT' => "Экспортировать",
+'LBL_REPAIR_DATABASE_EXECUTE' => 'Выполнить',
+'LBL_REPAIR_DATABASE_EXPORT' => 'Экспортировать',
 'LBL_REPAIR_DATABASE' => 'Восстановление Базы Данных' ,
 'LBL_REPAIR_DISPLAYSQL' => 'Показ SQL' ,
 'LBL_REPAIR_ENTRY_POINTS_DESC' => 'Восстановление точек входа.  Запустите этот скрипт, если вы получите ошибку: \'Not A Valid Entry Point\' .',
@@ -818,11 +800,11 @@ Last attempted connection @ ',
 'LBL_UW_MODULE_READY'           => 'Модуль готов к установке.',
 'LBL_UW_LANGPACK_READY'           => 'Языковой пакет готов к установке.',
 'LBL_UW_NO_FILES_SELECTED'                  => 'Не выбраны файлы',
-'LBL_UW_NO_INSTALLED_UPGRADES'              => "<i>Нет установленных обновлений.</i><br>\n",
+'LBL_UW_NO_INSTALLED_UPGRADES'              => '<i>Нет установленных обновлений.</i><br>\n',
 'LBL_UW_NONE'                               => 'Нет',
-'LBL_UW_NOT_AVAILABLE'                      => "Не доступно",
+'LBL_UW_NOT_AVAILABLE'                      => 'Не доступно',
 'LBL_UW_OP_MODE'                            => 'Режим операции:',
-'LBL_UW_PACKAGE_REMOVED'                    => " был удалён.<br>\n",
+'LBL_UW_PACKAGE_REMOVED'                    => ' был удалён.<br>\n',
 'LBL_UW_PATCH_READY'=> '<h2>Все готово к установке</h2>',
 'LBL_UW_UNINSTALL_READY'=> '<h2>Все готово к деинсталляции</h2>',
 'LBL_UW_DISABLE_READY'=> '<h2>Все готово к отключению</h2>',
@@ -831,7 +813,7 @@ Last attempted connection @ ',
 'LBL_UW_SUCCESSFUL' => 'успешно установлен',
 'LBL_UW_SUCCESSFULLY' => 'успешно',
 'LBL_UW_UNINSTALL'                          => 'Деинсталлировать',
-'LBL_UW_UPGRADE_SUCCESSFUL'             => "<b>Обновление успешно применено!</b><br>\n",
+'LBL_UW_UPGRADE_SUCCESSFUL'             => '<b>Обновление успешно применено!</b><br>\n',
 'LBL_UW_UPLOAD_MODULE'                      => 'Модуль',
 'LBL_UW_TYPE_FULL'                          => 'Обновление',
 'LBL_UW_TYPE_LANGPACK'                      => 'Языковой пакет',
@@ -842,7 +824,7 @@ Last attempted connection @ ',
 'LBL_UW_MODE_UNINSTALL'                     => 'деинсталлирован',
 'LBL_UW_MODE_DISABLE'                       => 'отключён',
 'LBL_UW_MODE_ENABLE'                        => 'включён',
-'LBL_UW_UPLOAD_SUCCESS'                     => " успешно загружен<br>",
+'LBL_UW_UPLOAD_SUCCESS'                     => ' успешно загружен<br>',
 'LBL_VALIDATION_FAIL_DATE'=> 'Последняя неудачная проверка: ' ,
 'LBL_VALIDATION_FILE'=> 'Файл лицензионного ключа' ,
 'LBL_VALIDATION_SUCCESS_DATE'=> 'Последняя удачная проверка: ' ,
@@ -897,8 +879,7 @@ Last attempted connection @ ',
 'WARN_UPGRADE' => 'Внимание: система может быть обновлена до версии ' ,
 'WARN_UPGRADENOTE' => 'Примечание: ',
 'WARN_UPGRADE2'=> ', используя ссылку "Восстановление" в панели администратора' ,
-'WARN_VALIDATION_EXPIRED'=> 'Предупреждение: действие вашего лицензионного ключа истечёт через ' ,
-'WARN_VALIDATION_EXPIRED2' => " day(s). Please update information in the <a href='index.php?action=LicenseSettings&module=Administration'>'\"License Management\"</a> page in the Admin area.", ///
+
 'WARN_NO_SMTP_SERVER_AVAILABLE_ERROR' => "Примечание: для отправки уведомлений должен быть настроен SMTP-сервер в разделе <a href='index.php?module=EmailMan&action=config'>Настройка параметров E-mail</a>.",
 'LBL_MODULEBUILDER'=> 'Конструктор модулей',
 'LBL_MODULEBUILDER_DESC'=> 'Создание новых модулей для расширения функциональности SuiteCRM' ,
@@ -958,7 +939,7 @@ Last attempted connection @ ',
 'LBL_REPAIR_SEED_USERS_ACTIVATE'=> 'Включить',
 'LBL_REPAIR_SEED_USERS_DECACTIVATE'=> 'Отключить',
 'LBL_REPAIR_SEED_USERS_DESC' => 'Быстрое включение/отключение пользователей, добавленных в систему при заполнении БД демонстрационными данными в процессе установки системы',
-'LBL_UW_FILES_REMOVED'=> "Следующие файлы будут удалены из системы:<br>\n",
+'LBL_UW_FILES_REMOVED'=> 'Следующие файлы будут удалены из системы:<br>\n',
 'LBL_TEAM_SETS' => 'Clean up unused combinations of teams.', ///
 
 'LBL_MODULE_UPLOAD_DISABLE_HELP_TEXT' => 'Возможность загрузки новых модулей напрямую ограничена. Перечисленные ниже модули загружены в специальную директорию и при необходимости могут быть проверены перед установкой в систему.',
@@ -1082,8 +1063,8 @@ Last attempted connection @ ',
 'LBL_MI_IN_ACTIONVIEWMAP' => 'Установка Action View Map',
 'LBL_MI_UN_ACTIONVIEWMAP' => 'Удаление Action View Map',
 // OAuth
-'LBL_OAUTH_TITLE' => "Ключи OAuth",
-'LBL_OAUTH' => "Управление ключами OAuth",
+'LBL_OAUTH_TITLE' => 'Ключи OAuth',
+'LBL_OAUTH' => 'Управление ключами OAuth',
 
 
 // SNIP / Sugar Ease / Email Archiving
