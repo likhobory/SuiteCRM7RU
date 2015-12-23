@@ -550,7 +550,7 @@ $config_site_url
 ),
 'advanced_password_forgot_password_email' => array(
 'subject' => 'SuiteCRM - сброс пароля пользователя',
-'description' => "Данный шаблон используется при отправке пользователю письма, содержащего ссылку на страницу сброса пароля.",
+'description' => 'Данный шаблон используется при отправке пользователю письма, содержащего ссылку на страницу сброса пароля.',
 'body' => '<div><table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" width="550" align=\"\&quot;\&quot;center\&quot;\&quot;\"><tbody><tr><td colspan=\"2\"><p> $contact_user_pwd_last_changed Вами был сделан запрос на сброс пароля. </p><p>Для сброса пароля перейдите по следующей ссылке:</p><p> $contact_user_link_guid </p>  </td>         </tr><tr><td colspan=\"2\"></td>         </tr> </tbody></table> </div>',
 'txt_body' =>
 '

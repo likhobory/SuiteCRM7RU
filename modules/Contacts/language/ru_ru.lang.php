@@ -226,17 +226,17 @@ $mod_strings = array (
 );
 
 $mod_strings['LBL_AOP_CASE_UPDATES'] = 'Обновления обращения';
-$mod_strings['LBL_CREATE_PORTAL_USER'] = "Создать пользователя портала";
-$mod_strings['LBL_ENABLE_PORTAL_USER'] = "Включить пользователя портала";
-$mod_strings['LBL_DISABLE_PORTAL_USER'] = "Отключить пользователя портала";
-$mod_strings['LBL_CREATE_PORTAL_USER_FAILED'] = "Ошибка создания пользователя портала";
-$mod_strings['LBL_ENABLE_PORTAL_USER_FAILED'] = "Ошибка включения пользователя портала";
-$mod_strings['LBL_DISABLE_PORTAL_USER_FAILED'] = "Ошибка отключения пользователя портала";
-$mod_strings['LBL_CREATE_PORTAL_USER_SUCCESS'] = "Создать пользователя портала";
-$mod_strings['LBL_ENABLE_PORTAL_USER_SUCCESS'] = "Включить пользователя портала";
-$mod_strings['LBL_DISABLE_PORTAL_USER_SUCCESS'] = "Отключить пользователя портала";
-$mod_strings['LBL_NO_JOOMLA_URL'] = "Не указан URL портала";
-$mod_strings['LBL_PORTAL_USER_TYPE'] = "Пользователь портала:";
+$mod_strings['LBL_CREATE_PORTAL_USER'] = 'Создать пользователя портала';
+$mod_strings['LBL_ENABLE_PORTAL_USER'] = 'Включить пользователя портала';
+$mod_strings['LBL_DISABLE_PORTAL_USER'] = 'Отключить пользователя портала';
+$mod_strings['LBL_CREATE_PORTAL_USER_FAILED'] = 'Ошибка создания пользователя портала';
+$mod_strings['LBL_ENABLE_PORTAL_USER_FAILED'] = 'Ошибка включения пользователя портала';
+$mod_strings['LBL_DISABLE_PORTAL_USER_FAILED'] = 'Ошибка отключения пользователя портала';
+$mod_strings['LBL_CREATE_PORTAL_USER_SUCCESS'] = 'Создать пользователя портала';
+$mod_strings['LBL_ENABLE_PORTAL_USER_SUCCESS'] = 'Включить пользователя портала';
+$mod_strings['LBL_DISABLE_PORTAL_USER_SUCCESS'] = 'Отключить пользователя портала';
+$mod_strings['LBL_NO_JOOMLA_URL'] = 'Не указан URL портала';
+$mod_strings['LBL_PORTAL_USER_TYPE'] = 'Пользователь портала:';
 
 
 
@@ -247,10 +247,10 @@ $mod_strings['LBL_FP_EVENT_DELEGATES_CONTACTS_1_FROM_FP_EVENT_DELEGATES_TITLE'] 
 
 $mod_strings = array_merge($mod_strings,
 	array(
-		 'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => "Группы пользователей",
+		 'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Группы пользователей',
 	)
 	
 	);
 	
-$mod_strings['LBL_PORTAL_ACCOUNT_DISABLED'] = "Учётная запись портала отключена:";
+$mod_strings['LBL_PORTAL_ACCOUNT_DISABLED'] = 'Учётная запись портала отключена:';
 ?>

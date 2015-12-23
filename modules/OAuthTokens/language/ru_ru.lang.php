@@ -30,11 +30,11 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
  // Replaced by RAPIRA <--
 
 $mod_strings = array (
-    'LBL_OAUTH_REQUEST' => "Маркёр запроса",
-    'LBL_OAUTH_AUTHORIZE' => "Авторизовать маркёр",
-	'LBL_OAUTH_CONSUMERREQ' => "Авторизовать маркёр пользователя <b>%s</b>?",
-    'LBL_OAUTH_ROLE' => "Роль маркёра",
-	'LBL_OAUTH_VALIDATION' => "Контрольный код",
+    'LBL_OAUTH_REQUEST' => 'Маркёр запроса',
+    'LBL_OAUTH_AUTHORIZE' => 'Авторизовать маркёр',
+	'LBL_OAUTH_CONSUMERREQ' => 'Авторизовать маркёр пользователя <b>%s</b>?',
+    'LBL_OAUTH_ROLE' => 'Роль маркёра',
+	'LBL_OAUTH_VALIDATION' => 'Контрольный код',
   	'LBL_ASSIGNED_TO_NAME' => 'Пользователь',
   	'LBL_ID' => 'ID',
     'LBL_STATUS' => 'Статус',

@@ -165,8 +165,8 @@ $mod_strings = array (
 
 'LBL_SUGAR_COMMUNITY_EDITION' => 'Sugar Community Edition',
 
-'LBL_AND' => "and",
-'LBL_ARE' => "are",
+'LBL_AND' => 'and',
+'LBL_ARE' => 'are',
 'LBL_TRADEMARKS' => 'trademarks',
 'LBL_OF' => 'of',
 'LBL_FOUNDERS' => 'Founders',

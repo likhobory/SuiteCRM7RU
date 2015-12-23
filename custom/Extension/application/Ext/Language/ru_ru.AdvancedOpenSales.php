@@ -131,5 +131,5 @@ $app_list_strings['contract_type_list']['Type'] = 'Тип';
 
 $app_strings['LBL_GENERATE_LETTER'] = 'Создать письмо (PDF)';
 $app_strings['LBL_SELECT_TEMPLATE'] = 'Пожалуйста, выберите шаблон';
-$app_strings['LBL_NO_TEMPLATE'] = 'ОШИБКА\nШаблоны не обнаружены.\nОткройте модуль PDF-шаблонов и создайте необходимый шаблон.';
+$app_strings['LBL_NO_TEMPLATE'] = 'ОШИБКА: шаблоны не обнаружены.\nОткройте модуль PDF-шаблонов и создайте необходимый шаблон.';
 

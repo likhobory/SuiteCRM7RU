@@ -83,7 +83,7 @@ $app_list_strings = array (
     'Queues' => 'Очереди' ,
     'EmailMarketing' => 'Рассылка E-mail' ,
     'EmailTemplates' => 'Шаблоны E-mail' ,
-	'SNIP' => "Email Archiving", ///
+	'SNIP' => 'Email Archiving', ///
     'ProspectLists' => 'Списки адресатов'    ,
     'SavedSearch' => 'Настройка отображения результатов поиска',
 	'UpgradeWizard' => 'Мастер обновления',
@@ -740,44 +740,44 @@ $app_list_strings = array (
   ),
 
           'dom_cal_month_short'=>array(
-                '0'=>"",
-                '1'=>"Янв",
-                '2'=>"Фев",
-                '3'=>"Мар",
-                '4'=>"Апр",
-                '5'=>"Май",
-                '6'=>"Июн",
-                '7'=>"Июл",
-                '8'=>"Авг",
-                '9'=>"Сен",
-                '10'=>"Окт",
-                '11'=>"Ноя",
-                '12'=>"Дек",
+                '0'=>'',
+                '1'=>'Янв',
+                '2'=>'Фев',
+                '3'=>'Мар',
+                '4'=>'Апр',
+                '5'=>'Май',
+                '6'=>'Июн',
+                '7'=>'Июл',
+                '8'=>'Авг',
+                '9'=>'Сен',
+                '10'=>'Окт',
+                '11'=>'Ноя',
+                '12'=>'Дек',
                 ),
         'dom_cal_day_long'=>array(
-                '0'=>"",
-                '1'=>"Воскресенье",
-                '2'=>"Понедельник",
-                '3'=>"Вторник",
-                '4'=>"Среда",
-                '5'=>"Четверг",
-                '6'=>"Пятница",
-                '7'=>"Суббота",
+                '0'=>'',
+                '1'=>'Воскресенье',
+                '2'=>'Понедельник',
+                '3'=>'Вторник',
+                '4'=>'Среда',
+                '5'=>'Четверг',
+                '6'=>'Пятница',
+                '7'=>'Суббота',
                 ),
         'dom_cal_day_short'=>array(
-                '0'=>"",
-                '1'=>"Вс",
-                '2'=>"Пн",
-                '3'=>"Вт",
-                '4'=>"Ср",
-                '5'=>"Чт",
-                '6'=>"Пт",
-                '7'=>"Сб",
+                '0'=>'',
+                '1'=>'Вс',
+                '2'=>'Пн',
+                '3'=>'Вт',
+                '4'=>'Ср',
+                '5'=>'Чт',
+                '6'=>'Пт',
+                '7'=>'Сб',
         ),
 
     'dom_meridiem_lowercase'=>array(
-                'am'=>"am",
-                'pm'=>"pm"
+                'am'=>'am',
+                'pm'=>'pm'
         ),
     'dom_meridiem_uppercase'=>array(
                  'AM'=>'AM',
@@ -1640,10 +1640,10 @@ $app_strings = array (
     'LBL_EDITINLINE'=>'Править',
     'LBL_VIEWINLINE'=>'Просмотр',
     'LBL_INFOINLINE'=>'Детали',
-    'LBL_POWERED_BY_SUGARCRM' => "Powered by SuiteCRM",
-    'LBL_PRINT' => "Печать",
-    'LBL_HELP' => "Справка",
-    'LBL_ID_FF_SELECT' => "Обзор",
+    'LBL_POWERED_BY_SUGARCRM' => 'Powered by SuiteCRM',
+    'LBL_PRINT' => 'Печать',
+    'LBL_HELP' => 'Справка',
+    'LBL_ID_FF_SELECT' => 'Обзор',
     'DEFAULT'                              => 'Основная информация',   
     'LBL_SORT'                              => 'Сортировка',
 	'LBL_OUTBOUND_EMAIL_ADD_SERVER'			=> 'Добавить сервер...',
@@ -1668,9 +1668,9 @@ $app_strings = array (
 	'LBL_ROUTING_ACTIONS_MOVE_MAIL'			=> 'Переместить E-mail',
 	'LBL_ROUTING_ACTIONS_PEFORM'			=> 'Выполните следующие действия:',
 	'LBL_ROUTING_ACTIONS_REPLY'			=> 'Ответить на E-mail',
-        'LBL_ROUTING_CHECK_RULE'			=> "Обнаружена ошибка:\n",
+        'LBL_ROUTING_CHECK_RULE'			=> 'Обнаружена ошибка:\n',
 	'LBL_ROUTING_CHECK_RULE_DESC'			=> 'Пожалуйста, проверьте все отмеченные поля.',
-	'LBL_ROUTING_CONFIRM_DELETE'			=> "Вы действительно хотите удалить это правило?\nОперция не может быть отменена.",
+	'LBL_ROUTING_CONFIRM_DELETE'			=> 'Вы действительно хотите удалить это правило?\nОперция не может быть отменена.',
 
 	'LBL_ROUTING_FLAGGED'					=> 'flag set',  ///
 	'LBL_ROUTING_FORM_DESC'					=> 'Сохранённые правила сразу же вступают в силу.',
@@ -2089,7 +2089,7 @@ $app_strings = array (
     'LBL_EMAIL_TEST_OUTBOUND_SETTINGS_SENT' => 'Тестовое письмо отправлено',
 
 	'LBL_EMAIL_CHECK_INTERVAL_DOM'			=> array(
-		'-1' => "Вручную",
+		'-1' => 'Вручную',
 		'5'  => 'Каждые 5 минут',
 		'15' => 'Каждые 15 минут',
 		'30' => 'Каждые 30 минут',
@@ -2107,9 +2107,9 @@ $app_strings = array (
 	'LBL_LINK_SELECT'=> 'Выбрать',
     'LBL_LINK_ACTIONS'=> 'Действия',
 	'LBL_LINK_MORE'=> 'More', ///
-    'LBL_CLOSE_ACTIVITY_HEADER' => "Подтверждение",
-    'LBL_CLOSE_ACTIVITY_CONFIRM' => "Вы действительно хотите закрыть это мероприятие?",
-    'LBL_CLOSE_ACTIVITY_REMEMBER' => "Не отображать это сообщение в дальнейшем: &nbsp;",
+    'LBL_CLOSE_ACTIVITY_HEADER' => 'Подтверждение',
+    'LBL_CLOSE_ACTIVITY_CONFIRM' => 'Вы действительно хотите закрыть это мероприятие?',
+    'LBL_CLOSE_ACTIVITY_REMEMBER' => 'Не отображать это сообщение в дальнейшем: &nbsp;',
     'LBL_INVALID_FILE_EXTENSION' => 'Неверное расширение файла',
 
 	'ERR_AJAX_LOAD'     => 'ОШИБКА:',
@@ -2117,7 +2117,7 @@ $app_strings = array (
 	'ERR_AJAX_LOAD_FOOTER' => 'При возникновении данной ошибки уведомите администратора системы о необходимости отключения ajax-технологии для текущего модуля.',
     'ERR_CREATING_FIELDS' => 'Ошибка заполнения полей с подробностями: ' ,
     'ERR_CREATING_TABLE' => 'Ошибка создания таблицы: ' ,
-    'ERR_DECIMAL_SEP_EQ_THOUSANDS_SEP'  => "В качестве десятичного разделителя не может быть использован тот же символ, что и при разделении разрядов.\\n\\n  Пожалуйста, измените значения.",
+    'ERR_DECIMAL_SEP_EQ_THOUSANDS_SEP'  => 'В качестве десятичного разделителя не может быть использован тот же символ, что и при разделении разрядов.\\n\\n  Пожалуйста, измените значения.',
     'ERR_DELETE_RECORD' => 'Номер записи надо определить для удаления контакта.' ,
     'ERR_EXPORT_DISABLED' => 'Экспорт выключен.',
     'ERR_EXPORT_TYPE' => 'Ошибка, экспорт не выполнен. ',
@@ -2134,7 +2134,7 @@ $app_strings = array (
     'ERR_NEED_ACTIVE_SESSION' => 'Для экспорта контента необходима активная сессия.',
     'ERR_NO_HEADER_ID' => 'Данная возможность недоступна в этой теме.',
     'ERR_NOT_ADMIN' => 'Неавторизованный доступ к панели администратора.',
-    'ERR_NO_UPGRADES' => "Неавторизованный доступ к обновлениям, свяжитесь с системным администратором.",
+    'ERR_NO_UPGRADES' => 'Неавторизованный доступ к обновлениям, свяжитесь с системным администратором.',
     'ERR_MISSING_REQUIRED_FIELDS' => 'Пропущено обязательное поле:' ,
 
     'ERR_INVALID_REQUIRED_FIELDS' => 'Неверное значение обязательного поля:',
@@ -2421,8 +2421,8 @@ $app_strings = array (
     'LBL_SEARCH_BUTTON_LABEL' => 'Найти' ,
     'LBL_SEARCH_BUTTON_TITLE' => 'Найти' ,
     'LBL_SEARCH' => 'Поиск',
-	'LBL_SEARCH_TIPS' => "Press the search button or click enter to get an exact match for them.", ///
-    'LBL_SEARCH_TIPS_2' => "Press the search button or click enter to get an exact match for", ///
+	'LBL_SEARCH_TIPS' => 'Press the search button or click enter to get an exact match for them.', ///
+    'LBL_SEARCH_TIPS_2' => 'Press the search button or click enter to get an exact match for', ///
     'LBL_SEARCH_MORE' => 'далее',
     'LBL_SEE_ALL' => 'Посмотреть все',
 	'LBL_UPLOAD_IMAGE_FILE_INVALID' => 'Неверный формат файла. Могут быть загружены только изображения.',
@@ -2595,7 +2595,7 @@ $app_strings = array (
     'NTC_DATE_TIME_FORMAT' => '(гггг-мм-дд 24:00)' ,
     'NTC_DELETE_CONFIRMATION_MULTIPLE' => 'Вы действительно хотите удалить выбранные(ую) записи(ь)?' ,
     'NTC_TEMPLATE_IS_USED' => 'Данный шаблон используется как минимум в одной рассылке. Вы действительно хотите его удалить?',
-    'NTC_TEMPLATES_IS_USED' => "Данные шаблоны используются как минимум в одной рассылке. Вы действительно хотите их удалить?\n",	
+    'NTC_TEMPLATES_IS_USED' => 'Данные шаблоны используются как минимум в одной рассылке. Вы действительно хотите их удалить?\n',	
 	'NTC_DELETE_CONFIRMATION' => 'Вы действительно хотите удалить эту запись?' ,
     'NTC_DELETE_CONFIRMATION_NUM' => 'Вы действительно хотите удалить ',
     'NTC_UPDATE_CONFIRMATION_NUM' => 'Вы действительно хотите обновить ',
@@ -2610,11 +2610,11 @@ $app_strings = array (
     'NTC_YEAR_FORMAT' => '(гггг) ' ,
     'LOGIN_LOGO_ERROR'=> 'Пожалуйста, замените логотипы SuiteCRM' ,
 
-    'WARN_BROWSER_VERSION_WARNING' => "<b>Предупреждение:</b> Данная версия браузера не поддерживается.<p></p>Рекомендуются следующие версии браузеров:<p></p><ul><li>Internet Explorer 11 (режим совместимости не поддерживается)<li>Firefox 32.0<li>Safari 5.1<li>Chrome 37</ul>",
-    'WARN_BROWSER_IE_COMPATIBILITY_MODE_WARNING' => "<b>Предупреждение:</b> Браузер открыт в режиме совместимости с IE, данный режим не поддерживается.",
+    'WARN_BROWSER_VERSION_WARNING' => '<b>Предупреждение:</b> Данная версия браузера не поддерживается.<p></p>Рекомендуются следующие версии браузеров:<p></p><ul><li>Internet Explorer 11 (режим совместимости не поддерживается)<li>Firefox 32.0<li>Safari 5.1<li>Chrome 37</ul>',
+    'WARN_BROWSER_IE_COMPATIBILITY_MODE_WARNING' => '<b>Предупреждение:</b> Браузер открыт в режиме совместимости с IE, данный режим не поддерживается.',
  
-    'WARN_ONLY_ADMINS'=> "В систему могут войти только администраторы.", 
-    'WARN_UNSAVED_CHANGES'=> "Вы покидаете данную страницу без сохранения внесённых изменений. Продолжить?",
+    'WARN_ONLY_ADMINS'=> 'В систему могут войти только администраторы.', 
+    'WARN_UNSAVED_CHANGES'=> 'Вы покидаете данную страницу без сохранения внесённых изменений. Продолжить?',
 
 	
 	'ERROR_NO_RECORD' => 'Ошибка получения записи. Вероятно, эта запись была удалена или у вас недостаточно прав для её просмотра.',
@@ -2654,7 +2654,7 @@ $app_strings = array (
     'ERROR_JS_ALERT_TIMEOUT_TITLE' => 'Продолжительность сессии',
     'ERROR_JS_ALERT_TIMEOUT_MSG_1' => 'Ваша сессия закончится через 2 минуты. Пожалуйста, сохраните результаты работы.',
     'ERROR_JS_ALERT_TIMEOUT_MSG_2' =>'Время вашей сессии истекло.',
-    'MSG_JS_ALERT_MTG_REMINDER_AGENDA' => "\nПовестка: ",
+    'MSG_JS_ALERT_MTG_REMINDER_AGENDA' => '\nПовестка: ',
     'MSG_JS_ALERT_MTG_REMINDER_MEETING' => 'Встреча',
     'MSG_JS_ALERT_MTG_REMINDER_CALL' => 'Звонок',
     'MSG_JS_ALERT_MTG_REMINDER_TIME' => 'Время: ',
@@ -2668,13 +2668,13 @@ $app_strings = array (
 	'MSG_JS_ALERT_MTG_REMINDER_NO_DESCRIPTION' => '',
 	'MSG_JS_ALERT_MTG_REMINDER_NO_LOCATION' => 'Не указано место встречи.',
 	'MSG_JS_ALERT_MTG_REMINDER_NO_START_DATE' => 'Не указана дата начала.',
-	'MSG_LIST_VIEW_NO_RESULTS_BASIC' => "Ничего не обнаружено.",
-	'MSG_LIST_VIEW_NO_RESULTS' => "Ничего не обнаружено с названием <item1>",
- 	'MSG_LIST_VIEW_NO_RESULTS_SUBMSG' => "Создать новую запись с таким названием",
-	'MSG_EMPTY_LIST_VIEW_NO_RESULTS' => "Записи не обнаружены. Вы можете либо <item2> новую запись, либо выполнить <item3> записей.",
-	'MSG_EMPTY_LIST_VIEW_NO_RESULTS_SUBMSG' =>	"<item4> чтобы узнать больше о модуле <item1> в англоязычной веб-справке.",
+	'MSG_LIST_VIEW_NO_RESULTS_BASIC' => 'Ничего не обнаружено.',
+	'MSG_LIST_VIEW_NO_RESULTS' => 'Ничего не обнаружено с названием <item1>',
+ 	'MSG_LIST_VIEW_NO_RESULTS_SUBMSG' => 'Создать новую запись с таким названием',
+	'MSG_EMPTY_LIST_VIEW_NO_RESULTS' => 'Записи не обнаружены. Вы можете либо <item2> новую запись, либо выполнить <item3> записей.',
+	'MSG_EMPTY_LIST_VIEW_NO_RESULTS_SUBMSG' =>	'<item4> чтобы узнать больше о модуле <item1> в англоязычной веб-справке.',
 
-    'LBL_CLICK_HERE' => "Нажмите здесь",
+    'LBL_CLICK_HERE' => 'Нажмите здесь',
 	// contextMenu strings
     'LBL_ADD_TO_FAVORITES' => 'Добавить в Избранное',
     'LBL_MARK_AS_FAVORITES' => 'Пометить как Избранное',
@@ -4536,7 +4536,7 @@ $app_list_strings['contract_type_list']['Type'] = 'Тип';
 
 $app_strings['LBL_GENERATE_LETTER'] = 'Создать письмо (PDF)';
 $app_strings['LBL_SELECT_TEMPLATE'] = 'Пожалуйста, выберите шаблон';
-$app_strings['LBL_NO_TEMPLATE'] = 'ОШИБКА\nШаблоны не обнаружены.\nОткройте модуль PDF-шаблонов и создайте необходимый шаблон.';
+$app_strings['LBL_NO_TEMPLATE'] = 'ОШИБКА: шаблоны не обнаружены.\nОткройте модуль PDF-шаблонов и создайте необходимый шаблон.';
 
 
 
@@ -4759,8 +4759,8 @@ $app_list_strings['case_state_default_key'] = 'Open';
 );
 	
 $app_list_strings["moduleList"]["SecurityGroups"] = 'Группы пользователей';
-$app_strings['LBL_LOGIN_AS'] = "Login as ";
-$app_strings['LBL_LOGOUT_AS'] = "Logout as ";
+$app_strings['LBL_LOGIN_AS'] = 'Login as ';
+$app_strings['LBL_LOGOUT_AS'] = 'Logout as ';
 $app_strings['LBL_SECURITYGROUP'] = 'Группы пользователей';
 
 $app_list_strings['moduleList']['AOD_IndexEvent'] = 'Индексирование';

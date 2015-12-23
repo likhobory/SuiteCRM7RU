@@ -139,7 +139,7 @@ $mod_strings['LBL_AOP_CASE_UPDATES'] = 'Обновления обращения'
 $mod_strings['LBL_AOP_CASE_UPDATES_THREADED'] = 'Обновления обращения опубликованы';
 $mod_strings['LBL_CASE_UPDATES_COLLAPSE_ALL'] = 'Свернуть все';
 $mod_strings['LBL_CASE_UPDATES_EXPAND_ALL'] = 'Развернуть все';
-$mod_strings['LBL_NO_CASE_UPDATES'] = "Для данного обращения нет обновлений";
+$mod_strings['LBL_NO_CASE_UPDATES'] = 'Для данного обращения нет обновлений';
 
 $mod_strings['LBL_AOP_CASE_EVENTS'] = 'События обращения';
 $mod_strings['LBL_AOP_CASE_ATTACHMENTS'] = 'Вложения: '; 
@@ -147,7 +147,7 @@ $mod_strings['LBL_AOP_CASE_ATTACHMENTS'] = 'Вложения: ';
 
 $mod_strings = array_merge($mod_strings,
 	array(
-		 'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => "Группы пользователей",
+		 'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Группы пользователей',
 		 )
 	);
 

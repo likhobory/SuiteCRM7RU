@@ -44,10 +44,10 @@ $mod_strings = array (
 'ERR_ENTER_OLD_PASSWORD'=> 'Пожалуйста, введите Ваш текущий пароль.' ,
 'ERR_IE_FAILURE1'=> '[Вернуться]' ,
 'ERR_IE_FAILURE2'=> 'Не удалось соединиться с учётной записью электронной почты. Пожалуйста, проверьте ваши настройки и попробуйте ещё раз.' ,
-'ERR_IE_MISSING_REQUIRED'=> "В настройках входящей электронной почты отсутствует необходимая информация.\n  Пожалуйста, проверьте ваши настройки и попробуйте ещё раз.\n\nЕсли вы не настроили входящую почту - очистите все поля.",
+'ERR_IE_MISSING_REQUIRED'=> 'В настройках входящей электронной почты отсутствует необходимая информация.\n  Пожалуйста, проверьте ваши настройки и попробуйте ещё раз.\n\nЕсли вы не настроили входящую почту - очистите все поля.',
 'ERR_INVALID_PASSWORD'=> 'Вы должны указать правильные логин и пароль.' ,
 'ERR_NO_LOGIN_MOBILE'=> 'Перед тем как использовать мобильную версию, вы должны первый раз войти в систему, используя обычный веб-браузер или же воспользоваться обычным режимом. Пожалуйста, используйте полноценный веб-браузер или нажмите на ссылку ниже для перехода в обычный режим. Приносим свои извинения за доставленные неудобства.',
-'ERR_LAST_ADMIN_1'=> 'Имя пользователя \\\"' ,
+'ERR_LAST_ADMIN_1'=> 'Имя пользователя "' ,
 'ERR_LAST_ADMIN_2'=> '\" последний пользователь с правами администратора.  По меньшей мере один пользователь должен быть администратором.' ,
 'ERR_PASSWORD_CHANGE_FAILED_1'=> 'Изменение пароля пользователя прошло неудачно для ' ,
 'ERR_PASSWORD_CHANGE_FAILED_2'=> ' неудачно.  Должен быть установлен новый пароль.' ,
@@ -550,7 +550,7 @@ $mod_strings = array (
 'LBL_THEMEPREVIEW' => 'Preview', /// /*for 508 compliance fix*/,
 
 'LBL_OAUTH_TOKENS' => 'OAuth-маркёры',
-'LBL_OAUTH_TOKENS_SUBPANEL_TITLE' => "OAuth-маркёры доступа",
+'LBL_OAUTH_TOKENS_SUBPANEL_TITLE' => 'OAuth-маркёры доступа',
 
 //For export labels
 'LBL_MODIFIED_USER_ID' => 'Ответственный(ая)-ID',
@@ -571,10 +571,10 @@ $mod_strings = array (
 'LBL_SHOWOPTIONS' => 'Показать параметры',
 
 
-        'LBL_SUITE_SUPERCHARGED' => "Supercharged by SuiteCRM",
-        'LBL_SUITE_POWERED_BY' => "Powered By SugarCRM",
-        'LBL_SUITE_TOP' => "Наверх",
-        'LBL_SUITE_PRINT' => "Печать",
+        'LBL_SUITE_SUPERCHARGED' => 'Supercharged by SuiteCRM',
+        'LBL_SUITE_POWERED_BY' => 'Powered By SugarCRM',
+        'LBL_SUITE_TOP' => 'Наверх',
+        'LBL_SUITE_PRINT' => 'Печать',
         'LBL_SUITE_DESC1' => 'SuiteCRM has been written and assembled by SalesAgility, one of the worlds most knowledgeable SugarCRM consultancies.',
         'LBL_SUITE_DESC2' => 'SuiteCRM is intended to deliver on the promise of SugarCRM - a freely available open source CRM project that combines great functionality, with community and commitment.',
         'LBL_SUITE_DESC3' => 'There will be no licenced software as part of the project managed by SalesAgility. All the code is free. All the code is available for free download. There is no hidden agenda to charge for access to the code. It is and always will be free and open source. There will be no paid-for versions.',

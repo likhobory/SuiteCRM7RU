@@ -411,9 +411,9 @@ $mod_strings = array (
 'LBL_LEAD_FORM_WIZARD' => 'Мастер создания веб-формы регистрации предварительного контакта',
 'LBL_CAMPAIGN_INFORMATION' => 'Основная информация',
 
-'LBL_MONTH' => "Месяц",
-'LBL_YEAR' => "Год",
-'LBL_DAY' => "День",
+'LBL_MONTH' => 'Месяц',
+'LBL_YEAR' => 'Год',
+'LBL_DAY' => 'День',
 'LBL_EDIT_LAYOUT' => 'Править макет' /*for 508 compliance fix*/,
 'LBL_INVALID' => 'Параметры не настроены' /*for 508 compliance fix*/,
 'LBL_VALID' => 'Параметры настроены' /*for 508 compliance fix*/,
