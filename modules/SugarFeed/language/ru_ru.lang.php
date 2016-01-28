@@ -115,5 +115,6 @@ $mod_strings = array (
 'LBL_POST_TITLE' =>'Добавление сообщения пользователем ',
 'LBL_URL_LINK_TITLE' => 'Адрес ресурса или ссылка на изображение',
 'LBL_TEAM_VISIBILITY_TITLE' => 'team that can see this post', ///
+'LBL_SOCIAL' => 'Social', ///
 );
 ?>

@@ -40,6 +40,7 @@ $mod_strings = array (
 'LBL_EMAIL_ADDRESS' => 'E-mail:' ,
 'LBL_MY_PIPELINE_FORM_TITLE' => 'Диаграмма стадий моих продаж',
 'LBL_PIPELINE_FORM_TITLE' => 'Диаграмма стадий общих продаж',
+'LBL_RGraph_PIPELINE_FORM_TITLE' => 'Диаграмма стадий общих продаж',
 'LBL_CAMPAIGN_ROI_FORM_TITLE' => 'Рентабельность инвестиций',
 'LBL_MY_CLOSED_OPPORTUNITIES_GAUGE' => 'My Closed Won Opportunities Gauge', ///
 'LNK_NEW_CONTACT' => 'Создать контакт' ,
@@ -279,16 +280,14 @@ $mod_strings['LBL_FEATURING'] = 'AOS, AOW, AOR, AOP, AOE and Reschedule modules 
 $mod_strings['LBL_CONTRIBUTOR_SUITECRM'] = 'Бесплатная альтернатива SugarCRM Professional Edition с открытым исходным кодом    <br>
         <hr><h5>
         <ul id="about_menu">
-            <li><a href="https://github.com/likhobory/SuiteCRM7RU" target="_blank">Актуальная версия русификации на GitHub</a></li>
+            <li>Актуальную версию русификации вы можете взять на <a href="https://github.com/likhobory/SuiteCRM7RU" target="_blank">GitHub</a></li>
         </ul></h5>';
 $mod_strings['LBL_CONTRIBUTOR_SECURITY_SUITE'] = 'SecuritySuite by Jason Eggers';
 $mod_strings['LBL_CONTRIBUTOR_JJW_GMAPS'] = 'JJWDesign Google Maps by Jeffrey J. Walters';
 $mod_strings['LBL_CONTRIBUTOR_CONSCIOUS'] = 'SuiteCRM LOGO Provided by Conscious Solutions';
 $mod_strings['LBL_CONTRIBUTOR_RESPONSETAP'] = 'Contribution to SuiteCRM 7.3 release by ResponseTap';
 
-$mod_strings['LBL_LANGUAGE_SPANISH'] = 'TRANSLATORS <br>
-Russian Translation Provided by likhobory (<a href="mailto:likhobory@mail.ru" target="_blank">likhobory@mail.ru</a>)<br>
-Spanish Translation Provided by Disytel openConsulting';
+$mod_strings['LBL_LANGUAGE_SPANISH'] = 'Spanish Translation Provided by Disytel openConsulting'; ///
 
 $mod_strings['LBL_ABOUT_SUITE_1'] = 'SuiteCRM  - бесплатный форк SugarCRM. Вы можете найти множество материалов в интернете, поясняющих необходимость появления данного проекта';
 $mod_strings['LBL_ABOUT_SUITE_2'] = 'SuiteCRM распространяется под лицензией GPL3';

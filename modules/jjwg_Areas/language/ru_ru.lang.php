@@ -69,4 +69,4 @@ $mod_strings['LBL_AREA_EDIT_DESC_2'] = 'Для завершения нажмит
 $mod_strings['LBL_AREA_EDIT_RESET'] = 'Сбросить';
 $mod_strings['LBL_AREA_EDIT_USE_AREA_COORDINATES'] = 'Использовать координаты участка карты';
 $mod_strings['LBL_AREA_EDIT_COORDINATE_RESULTS'] = 'Формат данных: широта, долгота, высота над уровнем моря.';
-$mod_strings['LBL_JJWG_MAPS_JJWG_AREAS_FROM_JJWG_AREAS_TITLE'] = 'Участки карт';
+$mod_strings['LBL_JJWG_MAPS_JJWG_AREAS_FROM_JJWG_MAPS_TITLE'] = 'Карты';

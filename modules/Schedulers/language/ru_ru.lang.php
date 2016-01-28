@@ -153,8 +153,12 @@ $mod_strings = array (
 'LBL_SENDEMAILREMINDERS'=> 'Отправлять по E-mail напоминания о мероприятиях',
 'LBL_CLEANJOBQUEUE' => 'Очищать очередь заданий',
 'LBL_REMOVEDOCUMENTSFROMFS' => 'Удалять неиспользуемые файлы из системы',
-);
 
-$mod_strings['LBL_POLLMONITOREDINBOXESAOP'] = 'Портал - проверять почтовые ящики для входящей почты';
+'LBL_AODOPTIMISEINDEX' => 'Оптимизировать индекс полнотекстового поиска',
+'LBL_AODINDEXUNINDEXED' => 'Индексировать неиндексированные документы',
+'LBL_POLLMONITOREDINBOXESAOP' => 'Портал - проверять почтовые ящики для входящей почты',
+'LBL_AORRUNSCHEDULEDREPORTS' => 'Создавать отчёты по расписанию',
+'LBL_PROCESSAOW_WORKFLOW' => 'Выполнять настроенные процессы',
+);
 
 ?>

@@ -152,6 +152,7 @@ $mod_strings = array (
   'LBL_LAG' => 'Задержка',
   'LBL_DAYS' => 'дней',
   'LBL_HOURS' => 'часов',
+  'LBL_MONTHS' => 'Месяцев',
   'LBL_SUBTASK' => 'Задача',
   'LBL_MILESTONE_FLAG' => 'Контрольная точка',
   'LBL_ADD_NEW_TASK' => 'Проектная задача',
@@ -186,6 +187,7 @@ $mod_strings = array (
   'LBL_PROJECT_DELETE_MSG' => 'Вы действительно хотите удалить этот проект и все входящие в него задачи?',
   'LBL_LIST_MY_PROJECT' => 'Мои проекты',
   'LBL_LIST_ASSIGNED_USER' => 'Менеджер проекта',
+  'LBL_UNASSIGNED' => 'Не назначен',
   'LBL_PROJECT_USERS_1_FROM_USERS_TITLE' => 'Участники',
 );
 ?>

@@ -185,6 +185,7 @@ $mod_strings = array(
 'viewBtnListView' => 'Редактирование макета <b>Формы списка</b>.',
 'searchBtn' => 'Редактирование макета <b>Формы поиска</b>.',
 'viewBtnQuickCreate' => 'Редактирование макета <b>Формы быстрого ввода.</b>.',
+'addLayoutHelp' => 'Для создания макета Групп пользователей выберите соответствующую Группу и макет для копирования.',
 
 'searchHelp'=> 'Редактирование макета <b>Формы поиска</b>.',
 'dashletHelp' => 'Здесь могут быть настроены макеты дашлетов.<br><br>Настроенный дашлет может быть добавлен на страницу <b>Главная</b> путём нажатия на кнопку <b>Добавить дашлет</b>.',
@@ -688,12 +689,24 @@ You can re-order the modules by dragging their rows in the table.<br/><br/>
 'LBL_HISTORY_TIMESTAMP' => 'TimeStamp',
 'LBL_HISTORY_TITLE' => ' history',
 
+$mod_strings['LBL_ADD_LAYOUT'] = 'Добавить макет';
+$mod_strings['LBL_ADD_LAYOUTS'] = 'Добавить макет';
+$mod_strings['LBL_QUESTION_ADD_LAYOUT'] = 'Выбрать макет Групп для добавления.';
+$mod_strings['LBL_REMOVE_LAYOUT'] = 'Удалить макет Групп';
+
+$mod_strings['LBL_SECURITYGROUP'] = 'Группы пользователей:';
+$mod_strings['LBL_COPY_FROM'] = 'Копировать из:';
+$mod_strings['LBL_ADDLAYOUTDONE'] = 'Сохранённый макет';
+$mod_strings['LBL_REMOVELAYOUTDONE'] = 'Удалённый макет';
+$mod_strings['LBL_REMOVE_CONFIRM'] = 'Вы действительно уверены?';
+
 'fieldTypes' => array(
 'varchar'=> 'TextField',
 'int'=> 'Integer',
 'float'=> 'Float',
 'bool'=> 'Checkbox',
 'enum'=> 'DropDown',
+'dynamicenum' => 'Dynamic DropDown',
 'multienum' => 'MultiSelect',
 'date'=> 'Date',
 'phone' => 'Phone',
@@ -710,8 +723,8 @@ You can re-order the modules by dragging their rows in the table.<br/><br/>
 'image' => 'Image',
 ),
 'labelTypes' => array(
-"" => "Frequently used labels",
-"all" => "All Labels",
+"" => "Часто используемые надписи",
+"all" => "Все надписи",
 ),
 
 'parent' => 'Flex Relate',
@@ -726,26 +739,6 @@ You can re-order the modules by dragging their rows in the table.<br/><br/>
 'LBL_RELATED_FIELD_ID_NAME_LABEL' => '{0} (связано с ID модуля {1})',
 );
 
-$mod_strings['LBL_ADD_LAYOUT'] = 'Добавить макет';
-$mod_strings['LBL_ADD_LAYOUTS'] = 'Добавить макет';
-$mod_strings['LBL_QUESTION_ADD_LAYOUT'] = 'Выбрать макет Групп для добавления.';
-$mod_strings['LBL_REMOVE_LAYOUT'] = 'Удалить макет Групп';
-
-$mod_strings['LBL_SECURITYGROUP'] = 'Группы пользователей:';
-$mod_strings['LBL_COPY_FROM'] = 'Копировать из:';
-$mod_strings['LBL_ADDLAYOUTDONE'] = 'Сохранённый макет';
-$mod_strings['LBL_REMOVELAYOUTDONE'] = 'Удалённый макет';
-$mod_strings['LBL_REMOVE_CONFIRM'] = 'Вы действительно уверены?';
-$mod_strings['help']['studioWizard']['addLayoutHelp'] = 'Для создания макета Групп пользователей выберите соответствующую Группу и макет для копирования.';
 
 
-
-
-/**
- * en_us.lang.php
- * @author SalesAgility <support@salesagility.com>
- * Date: 11/07/13
- */
-
-$mod_strings['fieldTypes']['dynamicenum'] = 'Dynamic DropDown';
 ?>

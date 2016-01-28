@@ -255,6 +255,7 @@ $mod_strings = array (
 'LBL_ENTERDATE' => 'Укажите дату' /*for 508 compliance fix*/,
 'LBL_LOADING' => 'Загрузка' /*for 508 compliance fix*/,
 'LBL_EDIT_INLINE' => 'Править' /*for 508 compliance fix*/,
+'LBL_FP_EVENTS_LEADS_1_FROM_FP_EVENTS_TITLE' => 'События',
 );
 
 

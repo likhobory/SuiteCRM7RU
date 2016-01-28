@@ -181,5 +181,7 @@ $mod_strings = array (
 'LBL_EXPORT_MODIFIED_USER_ID' => 'Изменено(ID)',
 'LBL_EXPORT_CREATED_BY' => 'Создано (ID)',
 'LBL_EXPORT_EMAIL2'=> 'Другой E-mail',
+
+ 'LBL_FP_EVENTS_PROSPECTS_1_FROM_FP_EVENTS_TITLE' => 'События',
 );
 ?>

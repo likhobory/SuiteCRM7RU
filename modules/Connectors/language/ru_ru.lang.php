@@ -110,6 +110,8 @@ $mod_strings = array (
 'ERROR_NO_DISPLAYABLE_MAPPED_FIELDS' => 'Ошибка: Не указано ни одного поля модуля для отображения в результирующих данных. Обратитесь к системному администратору.',
 'LBL_TWITTER_USER' => 'Учётная запись в Twitter',
 'LBL_FACEBOOK_USER' => 'Учётная запись в Facebook',
+'LBL_INFO_INLINE' => 'Info' /*for 508 compliance fix*/, ///
+'LBL_CLOSE' => 'Закрыть' /*for 508 compliance fix*/,
 );
 
 ?>

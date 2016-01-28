@@ -144,6 +144,7 @@ $mod_strings = array (
 'ERR_YEAR_BETWEEN' => 'Календарь не может отобразить запрашиваемый год. <br>Значение должно быть в интервале от 1970 до 2037 года.',
 'ERR_NEIGHBOR_DATE' => 'get_neighbor_date_str: not defined for this view',
 'LBL_NO_ITEMS_MOBILE' => 'На эту неделю не назначено ни одного мероприятия.',
+'LBL_SECURITYGROUPS' => 'Фильтр по группам пользователей',
 
 );
 

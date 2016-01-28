@@ -139,6 +139,7 @@ $mod_strings = array (
 
 // SNIP
 'LBL_CONTACT_HISTORY_SUBPANEL_TITLE' => 'Related Contacts\' Emails',
+'TWITTER_USER_C' => 'Учётная запись в Twitter',
 );
 
 ?>

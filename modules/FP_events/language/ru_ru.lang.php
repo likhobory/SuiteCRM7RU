@@ -97,13 +97,14 @@ $mod_strings = array (
   'LBL_ERROR_MSG_4' => ' приглашений не удалось отправить. Убедитесь, что у всех приглашаемых контактов указаны корректные E-mail. (детали содержатся в файле suitecrm.log).',
   'LBL_ERROR_MSG_5' => 'Неверный шаблон E-mail',
   'LBL_EMAIL_INVITE' => 'Приглашение',
+  
+'LBL_FP_EVENTS_CONTACTS_FROM_CONTACTS_TITLE' => 'Контакты',  
+'LBL_FP_EVENT_LOCATIONS_FP_EVENTS_1_FROM_FP_EVENT_LOCATIONS_TITLE' => 'Место проведения события',
+'LBL_FP_EVENTS_LEADS_1_FROM_LEADS_TITLE' => 'Предварит. контакты',
+'LBL_FP_EVENTS_PROSPECTS_1_FROM_PROSPECTS_TITLE' => 'Адресаты',
+'LBL_FP_EVENTS_FP_EVENT_DELEGATES_1_FROM_FP_EVENT_DELEGATES_TITLE' => 'Участники',
+  
 );
 //LBL_ERROR_MSG_4 Begins with a number(controller.php line 581) for example 10 emails have failed to send. 
 
-$mod_strings['LBL_FP_EVENTS_FP_EVENT_LOCATIONS_1_FROM_FP_EVENT_LOCATIONS_TITLE'] = 'Место проведения события';
-$mod_strings['LBL_FP_EVENT_LOCATIONS_FP_EVENTS_1_FROM_FP_EVENT_LOCATIONS_TITLE'] = 'Место проведения события';
-$mod_strings['LBL_FP_EVENTS_LEADS_1_FROM_LEADS_TITLE'] = 'Предварит. контакты';
-$mod_strings['LBL_FP_EVENTS_PROSPECTS_1_FROM_PROSPECTS_TITLE'] = 'Адресаты';
-$mod_strings['LBL_FP_EVENTS_FP_EVENT_DELEGATES_1_FROM_FP_EVENT_DELEGATES_TITLE'] = 'Участники';
-$mod_strings['LBL_FP_EVENTS_CONTACTS_FROM_CONTACTS_TITLE'] = 'Контакты';
 ?>

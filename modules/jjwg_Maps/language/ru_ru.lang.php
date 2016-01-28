@@ -52,6 +52,7 @@ $mod_strings['LBL_MAP_ASSIGNED_TO'] = 'Ответственный(ая):';
 $mod_strings['LBL_MAP_GROUP'] = 'Группа';
 $mod_strings['LBL_MAP_TYPE'] = 'Тип';
 $mod_strings['LBL_MAP_GET_DIRECTIONS'] = 'Проложить маршрут';
+$mod_strings['LBL_MAP_GOOGLE_MAPS_VIEW'] = 'Карты Google';
 
 $mod_strings['LNK_NEW_MAP'] = 'Добавить новую карту';
 $mod_strings['LNK_NEW_RECORD'] = 'Добавить новую карту';
@@ -176,6 +177,6 @@ $mod_strings['LBL_CONFIG_MAP_CLUSTER_GRID_SIZE_DESC'] = 'Установка ра
 $mod_strings['LBL_CONFIG_MAP_MARKERS_CLUSTERER_MAX_ZOOM_TITLE'] = 'Максимальный масштаб для кластеризации:';
 $mod_strings['LBL_CONFIG_MAP_MARKERS_CLUSTERER_MAX_ZOOM_DESC'] = 'Установка максимального масштаба карты, при котором метки будут отображаться единым кластером.';
 $mod_strings['LBL_CONFIG_CUSTOM_CONTROLLER_DESC'] = 'Примечание: все сохранённые параметры находятся в таблице <b>config</b>, категория <b>jjwg</b>. Файл controller.php для перезаписи параметров больше не используется.';
-$mod_strings['LBL_CONFIG_MAP_ADSENSE_REMOVAL_KEY_TITLE'] = 'Удаление объявлений AdSense:';
-$mod_strings['LBL_CONFIG_MAP_ADSENSE_REMOVAL_KEY_DESC'] = 'Пожертвуйте автору модуля определённую сумму, после чего свяжитесь с ним для получения соответствующего ключа.';
+$mod_strings['LBL_JJWG_MAPS_JJWG_AREAS_FROM_JJWG_AREAS_TITLE'] = 'Участки карт';
+$mod_strings['LBL_JJWG_MAPS_JJWG_MARKERS_FROM_JJWG_MARKERS_TITLE'] = 'Метки';
 

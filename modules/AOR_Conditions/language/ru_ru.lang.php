@@ -58,6 +58,7 @@ $mod_strings = array (
   'LBL_HISTORY_SUBPANEL_TITLE' => 'История',
   'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Мероприятия',
   'LBL_NEW_FORM_TITLE' => 'Новые условия',
+  'LBL_LOGIC_OP' => 'Логический оператор',
   'LBL_MODULE_PATH' => 'Модуль',
   'LBL_FIELD' => 'Поле',
   'LBL_OPERATOR' => 'Оператор сравнения',

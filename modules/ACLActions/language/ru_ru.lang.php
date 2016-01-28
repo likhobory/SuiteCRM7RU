@@ -33,6 +33,7 @@ $mod_strings = array (
 'LBL_ACCESS_ALL'=> 'Все',
 'LBL_ACCESS_NONE'=> 'Нет',
 'LBL_ACCESS_OWNER'=> 'Владелец',
+'LBL_ACCESS_GROUP' => 'Группа',
 'LBL_ACCESS_NORMAL'=> 'Обычный',
 'LBL_ACCESS_ADMIN'=> 'Администрирование',
 'LBL_ACCESS_ENABLED'=> 'Доступен',

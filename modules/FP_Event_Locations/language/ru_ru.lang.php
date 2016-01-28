@@ -66,7 +66,7 @@ $mod_strings = array (
   'LBL_ADDRESS_STATE'  => 'Область',
   'LBL_CAPACITY' => 'Вместимость',
   'LBL_EDITVIEW_PANEL1' => 'Адресные данные',	
+  'LBL_FP_EVENT_LOCATIONS_FP_EVENTS_1_FROM_FP_EVENTS_TITLE' => 'События',
 );
 
-$mod_strings['LBL_FP_EVENTS_FP_EVENT_LOCATIONS_1_FROM_FP_EVENTS_TITLE'] = 'События';
-$mod_strings['LBL_FP_EVENT_LOCATIONS_FP_EVENTS_1_FROM_FP_EVENTS_TITLE'] = 'События';
+?>

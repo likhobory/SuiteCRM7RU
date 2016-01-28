@@ -1123,12 +1123,7 @@ Last attempted connection @ ',
 
 
     
-$mod_strings['LBL_RESCHEDULE_REBUILD'] = 'Восстановить отложенные звонки';
-$mod_strings['LBL_RESCHEDULE_REBUILD_DESC'] = 'Восстановление модуля отложенных звонков';
-$mod_strings['LBL_RESCHEDULE_ADMIN'] = 'Отложенные звонки';
-$mod_strings['LBL_RESCHEDULE_ADMIN_DESC'] = 'Настройка отложенных звонков';
-$mod_strings['LBL_REPAIR_RESCHEDULE_DONE'] = 'Отложенные звонки успешно восстановлены';
-$mod_strings['LBL_SALESAGILITY_ADMIN'] = 'OpenAdmin';
+
 
 
 
@@ -1292,9 +1287,9 @@ $mod_strings['LBL_COLOUR_ADMIN_ICON'] = 'Цвет иконок в заголов
 $mod_strings['LBL_COLOUR_ADMIN_TABS'] = 'Настройка закладок модулей';
 
 $mod_strings['LBL_SUGGESTION_POPUP_FROM'] = 'Варианты решений обращения, градиент, цвет 1:';
-$mod_strings['LBL_SUGGESTION_POPUP_TO'] = 'Варианты решений обращения, градиент, цвет 2:';
+$mod_strings['LBL_SUGGESTION_POPUP_TO'] = 'Варианты решений обращения, градиент, цвет 2:'; 
 
-
+$mod_strings['LBL_SALESAGILITY_ADMIN'] = 'OpenAdmin';
 $mod_strings['LBL_AOD_ADMIN_MANAGE_AOD'] = 'Настройка полнотекстового поиска';
 $mod_strings['LBL_AOD_ENABLE'] = 'Включить полнотекстовый поиск';
 $mod_strings['LBL_AOD_SETTINGS'] = 'Настройка полнотекстового поиска';
