@@ -280,7 +280,7 @@ $mod_strings['LBL_FEATURING'] = 'AOS, AOW, AOR, AOP, AOE and Reschedule modules 
 $mod_strings['LBL_CONTRIBUTOR_SUITECRM'] = 'Бесплатная альтернатива SugarCRM Professional Edition с открытым исходным кодом    <br>
         <hr><h5>
         <ul id="about_menu">
-            <li>Актуальную версию русификации вы можете взять на <a href="https://github.com/likhobory/SuiteCRM7RU" target="_blank">GitHub</a></li>
+            <li>Актуальная версия русификации доступна на <a href="https://github.com/likhobory/SuiteCRM7RU" target="_blank">GitHub</a></li>
         </ul></h5>';
 $mod_strings['LBL_CONTRIBUTOR_SECURITY_SUITE'] = 'SecuritySuite by Jason Eggers';
 $mod_strings['LBL_CONTRIBUTOR_JJW_GMAPS'] = 'JJWDesign Google Maps by Jeffrey J. Walters';

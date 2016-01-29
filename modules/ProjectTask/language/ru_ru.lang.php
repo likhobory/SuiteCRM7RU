@@ -50,7 +50,7 @@ $mod_strings = array (
 'LBL_DATE_DUE' => 'Дата окончания:' ,
 'LBL_TIME_DUE' => 'Время окончания:' ,
 'LBL_RESOURCE' => 'Запас:',
-'LBL_PREDECESSORS' => 'Предшественники:',
+'LBL_PREDECESSORS' => 'Предшественник:',
 'LBL_DATE_START' => 'Дата начала:' ,
 'LBL_DATE_FINISH' => 'Дата окончания:',
 'LBL_TIME_START' => 'Время начала:' ,
@@ -110,13 +110,12 @@ $mod_strings = array (
 'LBL_EDITLAYOUT' => 'Изменить макет' /*for 508 compliance fix*/,
 'LBL_PANEL_TIMELINE' => 'Ресурсы',
 
+'LBL_SUBTASK' => 'Подзадача',
+'LBL_LAG' => 'Задержка',
+'LBL_DAYS' => 'дней',
+'LBL_HOURS' => 'часов',
+'LBL_RELATIONSHIP_TYPE' => 'Тип связи',
+
 );
-
-$mod_strings['LBL_SUBTASK'] = 'Подзадача';
-$mod_strings['LBL_LAG'] = 'Задержка';
-$mod_strings['LBL_DAYS'] = 'дней';
-$mod_strings['LBL_HOURS'] = 'часов';
-
-$mod_strings['LBL_RELATIONSHIP_TYPE'] = 'Тип связи';
 
 ?>

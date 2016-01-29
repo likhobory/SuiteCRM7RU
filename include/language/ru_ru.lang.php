@@ -3972,13 +3972,13 @@ $app_list_strings['aor_total_options']['COUNT'] = 'КОЛИЧЕСТВО';
 $app_list_strings['aor_total_options']['SUM'] = 'СУММА';
 $app_list_strings['aor_total_options']['AVG'] = 'СРЕДНЕЕ';
 
-$app_list_strings['aor_chart_types']['bar'] = 'Линейчатая диаграмма';
-$app_list_strings['aor_chart_types']['line'] = 'Гистограмма';
+$app_list_strings['aor_chart_types']['bar'] = 'Гистограмма';
+$app_list_strings['aor_chart_types']['line'] = 'График';
 $app_list_strings['aor_chart_types']['pie'] = 'Круговая диаграмма';
 $app_list_strings['aor_chart_types']['radar'] = 'Лепестковая диаграмма';
 $app_list_strings['aor_chart_types']['polar'] = 'Полярная диаграмма';
-$app_list_strings['aor_chart_types']['stacked_bar'] = 'Линейчатая диаграмма с накоплением';
-$app_list_strings['aor_chart_types']['grouped_bar'] = 'Grouped bar';
+$app_list_strings['aor_chart_types']['stacked_bar'] = 'Гистограмма с накоплением';
+$app_list_strings['aor_chart_types']['grouped_bar'] = 'Гистограмма с группировкой';
 $app_list_strings['aor_scheduled_report_schedule_types']['monthly'] = 'Ежемесячно';
 $app_list_strings['aor_scheduled_report_schedule_types']['weekly'] = 'Еженедельно';
 $app_list_strings['aor_scheduled_report_schedule_types']['daily'] = 'Ежедневно';
