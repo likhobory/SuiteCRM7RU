@@ -689,16 +689,16 @@ You can re-order the modules by dragging their rows in the table.<br/><br/>
 'LBL_HISTORY_TIMESTAMP' => 'TimeStamp',
 'LBL_HISTORY_TITLE' => ' history',
 
-$mod_strings['LBL_ADD_LAYOUT'] = 'Добавить макет';
-$mod_strings['LBL_ADD_LAYOUTS'] = 'Добавить макет';
-$mod_strings['LBL_QUESTION_ADD_LAYOUT'] = 'Выбрать макет Групп для добавления.';
-$mod_strings['LBL_REMOVE_LAYOUT'] = 'Удалить макет Групп';
+'LBL_ADD_LAYOUT' => 'Добавить макет',
+'LBL_ADD_LAYOUTS' => 'Добавить макет',
+'LBL_QUESTION_ADD_LAYOUT' => 'Выбрать макет Групп для добавления.',
+'LBL_REMOVE_LAYOUT' => 'Удалить макет Групп',
 
-$mod_strings['LBL_SECURITYGROUP'] = 'Группы пользователей:';
-$mod_strings['LBL_COPY_FROM'] = 'Копировать из:';
-$mod_strings['LBL_ADDLAYOUTDONE'] = 'Сохранённый макет';
-$mod_strings['LBL_REMOVELAYOUTDONE'] = 'Удалённый макет';
-$mod_strings['LBL_REMOVE_CONFIRM'] = 'Вы уверены?';
+'LBL_SECURITYGROUP' => 'Группы пользователей:',
+'LBL_COPY_FROM' => 'Копировать из:',
+'LBL_ADDLAYOUTDONE' => 'Сохранённый макет',
+'LBL_REMOVELAYOUTDONE' => 'Удалённый макет',
+'LBL_REMOVE_CONFIRM' => 'Вы уверены?',
 
 'fieldTypes' => array(
 'varchar'=> 'TextField',
