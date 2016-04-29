@@ -63,6 +63,6 @@ $mod_strings = array (
 'LBL_PRIORITY' => 'Приоритет',
 'LBL_PROJECT_NAME' => 'Проект',
 'LBL_START_DATE' => 'Дата начала',
-'LBL_CREATE_PROJECT_TITLE' => 'Создать новый проект на основе данного шаблона?',
+'LBL_CREATE_PROJECT_TITLE' => 'Создать новый проект?',
 'LBL_AM_TASKTEMPLATES_AM_PROJECTTEMPLATES_FROM_AM_TASKTEMPLATES_TITLE' => 'Шаблоны проектных задач',
 );

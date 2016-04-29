@@ -58,17 +58,10 @@ $mod_strings = array(
 'ERR_UW_PREFLIGHT_ERRORS'=>'Обнаружены ошибки при предварительной проверке',
 'ERR_UW_UPLOAD_ERR'=>'Ошибка загрузки файла, Пожалуйста, попробуйте ещё раз!<br>\n',
 'ERR_UW_VERSION'=>'Версия SuiteCRM: ',
+'ERR_UW_PHP_VERSION'=>'Версия PHP: ',
+'ERR_UW_SUITECRM_VERSION'=>'Версия SuiteCRM: ',
 'ERR_UW_WRONG_TYPE'=>'Неверная страница',
-'ERR_UW_PHP_FILE_ERRORS'=> array(
-1 =>'Размер загружаемого файла превышает значение, указанное в параметре upload_max_filesize файла php.ini.',
-2 =>'Размер загружаемого файла превышает значение, указанное в параметре MAX_FILE_SIZE HTML-формы.',
-3 =>'Загруженный файл был загружен лишь частично.',
-4 =>'Файл не был загружен.',
-5 =>'Неизвестная ошибка.',
-6 =>'Отсутствует папка для временных файлов.',
-7 =>'Невозможно записать файл на диск.',
-8 =>'Загрузка файла была прервана.',
-),
+
 'LBL_BUTTON_BACK'=>'< Назад',
 'LBL_BUTTON_CANCEL'=>'Отмена',
 'LBL_BUTTON_DELETE'=>'Удаление пакета',
@@ -283,6 +276,8 @@ $mod_strings = array(
 'LBL_UW_CONFIRM_LAYOUT_RESULTS_DESC' =>'Следующие макеты были успешно обновлены:',
 'LBL_SELECT_FILE' =>'Выберите файл:',
 'ERROR_VERSION_INCOMPATIBLE' => 'Загружаемый файл не совместим с текущей версией SuiteCRM: ',
+'ERROR_PHP_VERSION_INCOMPATIBLE' => 'Загруженный файл не совместим в текущей версией PHP: ',
+'ERROR_SUITECRM_VERSION_INCOMPATIBLE' => 'Загруженный файл не совместим в текущей версией SuiteCRM: ',
 'ERROR_FLAVOR_INCOMPATIBLE'  => 'Загружаемый файл не совместим с данной версией SuiteCRM: ',
 'LBL_LANGPACKS' => 'Языковые пакеты' /*for 508 compliance fix*/,
 'LBL_MODULELOADER' => 'Загрузчик модулей' /*for 508 compliance fix*/,
@@ -291,5 +286,17 @@ $mod_strings = array(
 'LBL_WORKFLOW' => 'Workflow' /*for 508 compliance fix*/, ///
 'LBL_UPGRADE' => 'Обновление' /*for 508 compliance fix*/,
 'LBL_PROCESSING' => 'Выполнение' /*for 508 compliance fix*/,
+
+'ERR_UW_PHP_FILE_ERRORS'=> array(
+1 =>'Размер загружаемого файла превышает значение, указанное в параметре upload_max_filesize файла php.ini.',
+2 =>'Размер загружаемого файла превышает значение, указанное в параметре MAX_FILE_SIZE HTML-формы.',
+3 =>'Загруженный файл был загружен лишь частично.',
+4 =>'Файл не был загружен.',
+5 =>'Неизвестная ошибка.',
+6 =>'Отсутствует папка для временных файлов.',
+7 =>'Невозможно записать файл на диск.',
+8 =>'Загрузка файла была прервана.',
+),
+'ERROR_NO_VERSION_SET' => 'В файле manifest.php не указана совместимая версия',
 );
 ?>

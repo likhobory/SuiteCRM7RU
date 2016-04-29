@@ -30,7 +30,7 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
  // Replaced by RAPIRA <--
  
 $mod_strings = array (
-'LBL_MODULE_NAME' => 'Главная',
+'LBL_MODULE_NAME' => 'SuiteCRM',
 'LBL_MODULES_TO_SEARCH' => 'Поиск в модулях:',
 'LBL_NEW_FORM_TITLE' => 'Новый контакт' ,
 'LBL_FIRST_NAME' => 'Имя:' ,
@@ -135,7 +135,7 @@ $mod_strings = array (
 'LBL_RETRIEVING_PAGE' => 'Поиск страницы...',
 
 // Default out-of-box names for tabs
-'LBL_HOME_PAGE_1_NAME' => 'Главная', ///
+'LBL_HOME_PAGE_1_NAME' => 'SuiteCRM', ///
 'LBL_HOME_PAGE_2_NAME' => 'Sales', ///
 'LBL_HOME_PAGE_3_NAME' => 'Support', ///
 'LBL_HOME_PAGE_6_NAME' => 'Marketing',
@@ -267,35 +267,36 @@ $mod_strings = array (
 	'LBL_TOUR_CALENDAR_URL_1' => 'Do you share your SuiteCRM calendar with 3rd party applications, such as Microsoft Outlook or Exchange? If so, you have a new URL. This new, more secure URL includes a personal key which will prevent unauthorized publishing of your calendar.',
     'LBL_TOUR_CALENDAR_URL_2' => 'Retrieve your new shared calendar URL.', ///
 
-);
+
 
 //***Suite***
 
-$mod_strings['LBL_ABOUT'] = 'О нас';
-$mod_strings['LBL_CONTRIBUTORS'] = 'Участники проекта';
-$mod_strings['LBL_ABOUT_SUITE'] = 'О проекте SuiteCRM';
-$mod_strings['LBL_PARTNERS'] = 'Партнёры';
-$mod_strings['LBL_FEATURING'] = 'AOS, AOW, AOR, AOP, AOE and Reschedule modules by SalesAgility.';
+'LBL_ABOUT' => 'О нас',
+'LBL_CONTRIBUTORS' => 'Участники проекта',
+'LBL_ABOUT_SUITE' => 'О проекте SuiteCRM',
+'LBL_PARTNERS' => 'Партнёры',
+'LBL_FEATURING' => 'AOS, AOW, AOR, AOP, AOE and Reschedule modules by SalesAgility.',
 
-$mod_strings['LBL_CONTRIBUTOR_SUITECRM'] = 'Бесплатная альтернатива SugarCRM Professional Edition с открытым исходным кодом    <br>
+'LBL_CONTRIBUTOR_SUITECRM' => 'Бесплатная альтернатива SugarCRM Professional Edition с открытым исходным кодом    <br>
         <hr><h5>
         <ul id="about_menu">
             <li>Актуальная версия русификации доступна на <a href="https://github.com/likhobory/SuiteCRM7RU" target="_blank">GitHub</a></li>
-        </ul></h5>';
-$mod_strings['LBL_CONTRIBUTOR_SECURITY_SUITE'] = 'SecuritySuite by Jason Eggers';
-$mod_strings['LBL_CONTRIBUTOR_JJW_GMAPS'] = 'JJWDesign Google Maps by Jeffrey J. Walters';
-$mod_strings['LBL_CONTRIBUTOR_CONSCIOUS'] = 'SuiteCRM LOGO Provided by Conscious Solutions';
-$mod_strings['LBL_CONTRIBUTOR_RESPONSETAP'] = 'Contribution to SuiteCRM 7.3 release by ResponseTap';
+        </ul></h5>',
+'LBL_CONTRIBUTOR_SECURITY_SUITE' => 'SecuritySuite by Jason Eggers',
+'LBL_CONTRIBUTOR_JJW_GMAPS' => 'JJWDesign Google Maps by Jeffrey J. Walters',
+'LBL_CONTRIBUTOR_CONSCIOUS' => 'SuiteCRM LOGO Provided by Conscious Solutions',
+'LBL_CONTRIBUTOR_RESPONSETAP' => 'Contribution to SuiteCRM 7.3 release by ResponseTap',
 
-$mod_strings['LBL_LANGUAGE_SPANISH'] = 'Spanish Translation Provided by Disytel openConsulting'; ///
+'LBL_LANGUAGE_SPANISH' => 'Spanish Translation Provided by Disytel openConsulting', ///
 
-$mod_strings['LBL_ABOUT_SUITE_1'] = 'SuiteCRM  - бесплатный форк SugarCRM. Вы можете найти множество материалов в интернете, поясняющих необходимость появления данного проекта';
-$mod_strings['LBL_ABOUT_SUITE_2'] = 'SuiteCRM распространяется под лицензией GPL3';
-$mod_strings['LBL_ABOUT_SUITE_3'] = 'SuiteCRM полностью совместим с SugarCRM 6.5.x';
-$mod_strings['LBL_ABOUT_SUITE_4'] = 'Весь исходный код проекта SuiteCRM является открытым и публикуется под лицензией GPL3';
-$mod_strings['LBL_ABOUT_SUITE_5'] = 'Поддержка SuiteCRM осуществляется как на бесплатной, так и на платной основе';
+'LBL_ABOUT_SUITE_1' => 'SuiteCRM  - бесплатный форк SugarCRM. Вы можете найти множество материалов в интернете, поясняющих необходимость появления данного проекта',
+'LBL_ABOUT_SUITE_2' => 'SuiteCRM распространяется под лицензией GPL3',
+'LBL_ABOUT_SUITE_3' => 'SuiteCRM полностью совместим с SugarCRM 6.5.x',
+'LBL_ABOUT_SUITE_4' => 'Весь исходный код проекта SuiteCRM является открытым и публикуется под лицензией GPL3',
+'LBL_ABOUT_SUITE_5' => 'Поддержка SuiteCRM осуществляется как на бесплатной, так и на платной основе',
 
-$mod_strings['LBL_SUITE_PARTNERS'] = 'С полным списком наших партнёров, активно поддерживающих проекты с открытым исходным кодом, вы можете ознакомиться на нашем сайте';
+'LBL_SUITE_PARTNERS' => 'С полным списком наших партнёров, активно поддерживающих проекты с открытым исходным кодом, вы можете ознакомиться на нашем сайте',
 
+);
 
 ?>

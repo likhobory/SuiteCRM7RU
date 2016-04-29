@@ -63,3 +63,5 @@ $mod_strings['LBL_CURRENT_USER_FILTER'] = 'Мои записи';
 $mod_strings['LBL_ASSIGNED_TO'] = 'Ответственный(ая) ';
 $mod_strings['LNK_IMPORT_JJWG_ADDRESS_CACHE'] = 'Импорт кэша адресов';
 $mod_strings['LBL_JJWG_ADDRESS_CACHE_SUBPANEL_TITLE'] = 'Кэш адресов';
+
+?>

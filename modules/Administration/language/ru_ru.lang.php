@@ -184,7 +184,7 @@ $mod_strings = array (
 'LBL_CONFIG_AJAX' => 'Настройка AJAX',
 'LBL_CONFIG_FTS' => 'Configure Full Text Search Engine', ///
 'LBL_CONFIG_AJAX_DESC' => 'При включённой AJAX-технологии скорость обновления страниц существенно повышается, поскольку не требуется обновление всей страницы. Если в каких-либо модулях возникли проблемы с отображением данных, вы можете отключить использование AJAX-технологии в проблемных модулях системы.',
-'LBL_CONFIG_AJAX_HELP' => 'В левой колонке перечислены модули, отображаемые с использованием AJAX-технологии, в правой колонке перечислены модули, в которых использование данной технологии отключено. Воспользуйтесь мышью для перемещения названий модулей между колонками.',
+'LBL_CONFIG_AJAX_HELP' => 'В левой колонке перечислены модули, отображаемые с использованием AJAX-технологии, в правой колонке перечислены модули, в которых использование данной технологии отключено. Вы можете перемещать названий модулей между колонками.',
 'LBL_CONFIG_TABS'=> 'Отображение закладок модулей и субпанелей',
 'LBL_CONFIG_TABS_DESC'=> 'Вы можете перемещать закладки или субпанели для настройки их видимости.',
 'LBL_CONFIG_LANGS_DESC'=> 'Вы можете перемещать названия языковых пакетов в необходимую колонку для настройки их доступности.',
@@ -635,7 +635,7 @@ Last attempted connection @ ',
 'LBL_REPAIR_DATABASE_DESC' => 'Восстановление БД, основанное на значениях, определённых в vardefs (только MySQL)' ,
 'LBL_REPAIR_DATABASE_PROCESSING' => 'Сравнение базы данных и vardef...',
 'LBL_REPAIR_DATABASE_DIFFERENCES' => '<br><strong>ВНИМАНИЕ: </strong>найдены различия между базой данных и vardefs.',
-'LBL_REPAIR_DATABASE_TEXT' =>   'При нажатии на кнопку "Выполнить" будет выполнен нижеследующий скрипт, синхронизирующий структуру базы данных с vardefs. Вы также можете экспортировать скрипт и выполнить его в соответствующем приложении, позволяющем изменить структуру БД.<br><br><strong>ПРИМЕЧАНИЕ:</strong> любые изменения кода, указанные в данном текстовом окне будут учтены при выполнении обновлённого скрипта.<br><br>',
+'LBL_REPAIR_DATABASE_TEXT' =>   'При нажатии на кнопку "Выполнить" будет выполнен нижеследующий скрипт, синхронизирующий структуру базы данных с vardefs. Вы также можете экспортировать скрипт и выполнить его в соответствующем приложении, позволяющем изменить структуру БД.<br><br><strong>ПРИМЕЧАНИЕ:</strong> любые изменения кода, указанные в данном текстовом окне, будут учтены при выполнении обновлённого скрипта.<br><br>',
 'LBL_REPAIR_DATABASE_SYNCED' => 'Таблицы базы данных синхронизированы с Vardefs' ,
 'LBL_REPAIR_DATABASE_EXECUTE' => 'Выполнить',
 'LBL_REPAIR_DATABASE_EXPORT' => 'Экспортировать',
@@ -1110,189 +1110,137 @@ Last attempted connection @ ',
 4) Click Schedule System Index. Make sure that crontab is set up to run cron.php. This will handle indexing as well as the fallback mechanism when the connection to the search engine is interrupted.', ///
     'LBL_FTS_DISABLED' => 'Full Text Search has been disabled because the system is not able to connect to the search engine.', ///
     'LBL_FTS_CONNECTION_INVALID' => 'The Full Text Search Settings you have entered are invalid and may slow down system performance.  Please change or clear your settings.', ///
-    'MSG_RECONNECT_LOTUSLIVE' => 'You are currently not connected to IBM SmartCloud. Connect to IBM SmartCloud within your Profile to be able to access IBM SmartCloud meetings and files.', ///   
 	'LBL_REPAIR_UPLOAD_FOLDER' => 'Удаление неиспользуемых файлов из папки "upload"',
     'LBL_REPAIR_UPLOAD_FOLDER_DESC' => 'Удаление файлов, ссылки на которые были удалены из БД; удаление может занять продолжительное время',
     'LBL_TOTAL_FILES' => 'Всего файлов',
     'LBL_REMOVED_FILES' => 'Удалено файлов',
 	
-	);
+
 
 //Suite***************
 
+'LBL_JJWG_MAPS_ADMIN_HEADER' => 'Карты Google',
+'LBL_JJWG_MAPS_ADMIN_DESC' => 'Управление геокодированием, тестирование геокодирования, просмотр результатов геокодирования, настройка параметров карт',
+'LBL_JJWG_MAPS_ADMIN_CONFIG_TITLE' => 'Настройка карт Google',
+'LBL_JJWG_MAPS_ADMIN_CONFIG_DESC' => 'Настройка параметров карт Google',
+'LBL_JJWG_MAPS_ADMIN_GEOCODED_COUNTS_TITLE' => 'Результаты геокодирования',
+'LBL_JJWG_MAPS_ADMIN_GEOCODED_COUNTS_DESC' => 'Просмотр статистики геокодирования, данные по каждому модулю сгруппированы в зависимости от полученных результатов',
+'LBL_JJWG_MAPS_ADMIN_DONATE_TITLE' => 'Поддержка проекта',
+'LBL_JJWG_MAPS_ADMIN_DONATE_DESC' => ' ',
+'LBL_JJWG_MAPS_ADMIN_GEOCODE_ADDRESSES_TITLE' => 'Геокодирование адресов',
+'LBL_JJWG_MAPS_ADMIN_GEOCODE_ADDRESSES_DESC' => 'Геокодирование адресов системы, этот процесс может занять продолжительное время!',
+'LBL_JJWG_MAPS_ADMIN_GEOCODING_TEST_TITLE' => 'Тестирование геокодирования',
+'LBL_JJWG_MAPS_ADMIN_GEOCODING_TEST_DESC' => 'Запуск геокодирования введённого адреса с детальным просмотром результатов',
+'LBL_JJWG_MAPS_ADMIN_ADDRESS_CACHE_TITLE' => 'Кэш адресов',
+'LBL_JJWG_MAPS_ADMIN_ADDRESS_CACHE_DESC' => 'Доступ к кэшу адресов. Обратите внимание: это только кеш!',
 
+'LBL_COLOUR_SETTINGS' => 'Настройка темы',
+'LBL_COLOUR_DESC' => 'Настройка цветовой схемы и параметров темы',
+'LBL_COLOUR_ADMIN_INTRO' => 'Настройка цветовой схемы и параметров темы.'.' <strong>Обратите внимание:</strong> Для отображения сохранённых изменений рекомендуется обновить страницу сочетанием клавиш Ctrl + F5.',
+'LBL_DISPLAY_SIDEBAR' => 'Отображать боковое меню',
+'LBL_COLOUR_ADMIN_MENU' => 'Настройка цветовой схемы меню',
+'LBL_COLOUR_ADMIN_PAGE' => 'Настройка цветовой схемы страниц',
+'LBL_COLOUR_ADMIN_PAGEHEADER' => 'Цвет заголовков на странице: ',
+'LBL_COLOUR_ADMIN_PAGELINK' => 'Цвет гиперссылок на странице: ',
+'LBL_COLOUR_ADMIN_DASHLET' => 'Настройка цветовой схемы дашлетов',
+'LBL_COLOUR_ADMIN_BUTTON' => 'Настройка цветовой схемы кнопок',
+'LBL_COLOUR_ADMIN_BASE' => 'Цвет главного меню: ',
+'LBL_COLOUR_ADMIN_MENUTOP' => 'Градиент, верхний цвет меню: ',
+'LBL_COLOUR_ADMIN_MENUBOTTOM' => 'Градиент, нижний цвет меню: ',
+'LBL_COLOUR_ADMIN_MENUBRD' => 'Цвет границы меню: ',
+'LBL_COLOUR_ADMIN_MENUHOVER' => 'Цвет главного меню при наведении курсора: ',
+'LBL_COLOUR_ADMIN_DDLINK' => 'Цвет надписей выпадающего меню: ',
+'LBL_COLOUR_ADMIN_DDMENU' => 'Цвет фона выпадающего меню: ',
+'LBL_COLOUR_ADMIN_DDLINK_HOVER' => 'Цвет надписей выпадающего меню при наведении курсора: ',
+'LBL_ACTION_MENU_BUTTON' => 'Цвет кнопки меню действий:',
+'LBL_ACTION_MENU_BACKGROUND' => 'Цвет фона меню действий: ',
+'LBL_ACTION_MENU_BACKGROUND_HOVER' => 'Цвет надписей меню действий при наведении курсора: ',
+'LBL_COLOUR_ADMIN_MENUFONT' => 'Цвет надписи закладок: ',
+'LBL_COLOUR_ADMIN_MENULNKHVR' => 'Цвет надписи закладок при наведении курсора: ',
+'LBL_COLOUR_ADMIN_BTNTOP' => 'Цвет кнопки: ',
+'LBL_COLOUR_ADMIN_BTNHOVER' => 'Цвет кнопки при наведении курсора: ',
+'LBL_COLOUR_ADMIN_BTNLNK' => 'Цвет надписи кнопки: ',
+'LBL_COLOUR_ADMIN_BTNLNKHOVER' => 'Цвет надписи кнопки при наведении курсора: ',
+'LBL_COLOUR_ADMIN_DASHHEAD' => 'Цвет заголовка дашлета: ',
+'LBL_COLOUR_ADMIN_DASHHEADTEXT' => 'Цвет надписи заголовка дашлета: ',
+'LBL_COLOUR_ADMIN_ICON' => 'Цвет иконок в заголовке дашлета: ',
+'LBL_COLOUR_ADMIN_TABS' => 'Настройка закладок модулей',
+'LBL_SUGGESTION_POPUP_FROM' => 'Варианты решений обращения, градиент, цвет 1:',
+'LBL_SUGGESTION_POPUP_TO' => 'Варианты решений обращения, градиент, цвет 2:',
 
-    
+'LBL_SALESAGILITY_ADMIN' => 'OpenAdmin',
+'LBL_AOP_ADMIN_MANAGE_AOP' => 'Настройки портала',
+'LBL_AOP_ENABLE_AOP' => 'Включить настройки портала',
+'LBL_AOP_ENABLE_PORTAL' => 'Включить внешний портал',
+'LBL_AOP_JOOMLA_SETTINGS' => 'Настройки портала',
+'LBL_AOP_JOOMLA_URL' => 'Joomla URL',
+'LBL_AOP_JOOMLA_ACCESS_KEY' => 'Ключ доступа к Joomla',
+'LBL_AOP_CASE_ASSIGNMENT' => 'Распределение обращений',
+'LBL_AOP_DISTRIBUTION_METHOD' => 'Метод распределения',
+'LBL_AOP_ASSIGNMENT_USER' => 'Пользователь',
+'LBL_AOP_ASSIGNMENT_OPTIONS' => 'Пользователи',
 
+'LBL_AOP_EMAIL_SETTINGS' => 'Настройка шаблонов E-mail для обращений',
+'LBL_AOP_CONTACT_EMAIL_TEMPLATE' => 'Шаблон письма при ответе контактам',
+'LBL_AOP_USER_EMAIL_TEMPLATE' => 'Шаблон письма при ответе пользователям',
+'LBL_AOP_CASE_CREATION_EMAIL_TEMPLATE' => 'Шаблон письма при создании обращения',
+'LBL_AOP_CASE_CLOSURE_EMAIL_TEMPLATE' => 'Шаблон письма при закрытии обращения',
+'LBL_AOP_CASE_REMINDER_EMAIL_TEMPLATE' => 'Шаблон письма для напоминаний',
+'LBL_AOP_JOOMLA_ACCOUNT_CREATION_EMAIL_TEMPLATE' => 'Шаблон письма при создании учётной записи Joomla',
 
+'LBL_AOP_BUSINESS_HOURS_SETTINGS' => 'Business Hours',
+'LBL_AOP_OPENING_DAYS' => 'Opening Days',
+'LBL_AOP_OPENING_HOURS' => 'Opening Hours',
+'LBL_AOP_CLOSING_HOURS' => 'Closing Hours',
+'LBL_SUPPORT_FROM_ADDRESS' => 'В качестве адреса отправителя указывать',
+'LBL_SUPPORT_FROM_NAME' => 'В качестве имени отправителя указывать',
+'LBL_CREATE_EMAIL_TEMPLATE' => 'Создать',
+'LBL_EDIT_EMAIL_TEMPLATE' => 'Изменить',
+'LBL_SINGLE_USER' => 'Указанный пользователь',
+'LBL_AOP_SETTINGS' => 'Настройка портала',
+'LBL_AOP_DESC' => 'Настройка параметров портала',
 
+'LBL_AOP_CASE_STATUS_SETTINGS' => 'Изменение статуса обращений',
+'LBL_AOP_IF_STATUS' => 'Если статус указан как',
+'LBL_AOP_THEN_STATUS' => 'то изменить его на',
+'LBL_AOP_ADD_STATUS' => 'Добавить',
+'LBL_AOP_REMOVE_STATUS' => 'Удалить',
 
+'LBL_AOD_ADMIN_MANAGE_AOD' => 'Настройка полнотекстового поиска',
+'LBL_AOD_ENABLE' => 'Включить полнотекстовый поиск',
+'LBL_AOD_SETTINGS' => 'Настройка полнотекстового поиска',
+'LBL_AOD_DESC' => 'Настройка параметров полнотекстового поиска',
 
+'LBL_AOS_ADMIN_CONTRACT_SETTINGS' => 'Параметры договоров',
+'LBL_AOS_ADMIN_CONTRACT_RENEWAL_REMINDER' => 'Уведомление об окончании действия за',
+'LBL_AOS_ADMIN_MANAGE_AOS' => 'Параметры модулей продаж',
+'LBL_AOS_ADMIN_INVOICE_SETTINGS' => 'Параметры счетов',
+'LBL_AOS_ADMIN_INITIAL_INVOICE_NUMBER' => 'Начинать нумерацию с',
+'LBL_AOS_ADMIN_QUOTE_SETTINGS' => 'Параметры предложений',
+'LBL_AOS_ADMIN_INITIAL_QUOTE_NUMBER' => 'Начинать нумерацию с',
+'LBL_AOS_ADMIN_LINE_ITEM_SETTINGS' => 'Настройка позиций в бланках',
+'LBL_AOS_ADMIN_ENABLE_LINE_ITEM_GROUPS' => 'Возможность группировки позиций',
+'LBL_AOS_ADMIN_ENABLE_LINE_ITEM_TOTAL_TAX' => 'Включать НДС в сумму<br>(для каждой позиции)',
+'LBL_AOS_SETTINGS' => 'Настройка модулей продаж',
+'LBL_AOS_PRODUCTS' => 'AOS Products', ///
+'LBL_AOS_EDIT' => 'edit', ///
+'LBL_AOS_DAYS' => 'дней',
+'LBL_CHANGE_SETTINGS' => 'Настройка параметров договоров, счетов, предложений',
 
-
-$mod_strings['LBL_JJWG_MAPS_ADMIN_HEADER'] = 'Карты Google';
-$mod_strings['LBL_JJWG_MAPS_ADMIN_DESC'] = 'Управление геокодированием, тестирование геокодирования, просмотр результатов геокодирования, настройка параметров карт';
-$mod_strings['LBL_JJWG_MAPS_ADMIN_CONFIG_TITLE'] = 'Настройка карт Google';
-$mod_strings['LBL_JJWG_MAPS_ADMIN_CONFIG_DESC'] = 'Настройка параметров карт Google';
-$mod_strings['LBL_JJWG_MAPS_ADMIN_GEOCODED_COUNTS_TITLE'] = 'Результаты геокодирования';
-$mod_strings['LBL_JJWG_MAPS_ADMIN_GEOCODED_COUNTS_DESC'] = 'Просмотр статистики геокодирования, данные по каждому модулю сгруппированы в зависимости от полученных результатов';
-$mod_strings['LBL_JJWG_MAPS_ADMIN_DONATE_TITLE'] = 'Поддержка проекта';
-$mod_strings['LBL_JJWG_MAPS_ADMIN_DONATE_DESC'] = ' ';
-$mod_strings['LBL_JJWG_MAPS_ADMIN_GEOCODE_ADDRESSES_TITLE'] = 'Геокодирование адресов';
-$mod_strings['LBL_JJWG_MAPS_ADMIN_GEOCODE_ADDRESSES_DESC'] = 'Геокодирование адресов системы, этот процесс может занять продолжительное время!';
-$mod_strings['LBL_JJWG_MAPS_ADMIN_GEOCODING_TEST_TITLE'] = 'Тестирование геокодирования';
-$mod_strings['LBL_JJWG_MAPS_ADMIN_GEOCODING_TEST_DESC'] = 'Запуск геокодирования введённого адреса с детальным просмотром результатов';
-$mod_strings['LBL_JJWG_MAPS_ADMIN_ADDRESS_CACHE_TITLE'] = 'Кэш адресов';
-$mod_strings['LBL_JJWG_MAPS_ADMIN_ADDRESS_CACHE_DESC'] = 'Доступ к кэшу адресов. Обратите внимание: это только кеш!';
-
-
-
-$mod_strings['LBL_MANAGE_SECURITYGROUPS_TITLE'] = 'Создание Групп пользователей';
-$mod_strings['LBL_MANAGE_SECURITYGROUPS'] = 'Создание Групп пользователей и включение в них Пользователей и Ролей';
-
-$mod_strings['LBL_CONFIG_SECURITYGROUPS_TITLE'] = 'Управление Группами пользователей';
-$mod_strings['LBL_CONFIG_SECURITYGROUPS'] = 'Настройка Групп пользователей';
-$mod_strings['LBL_SECURITYGROUPS'] = 'Security Suite';
-$mod_strings['LBL_SECURITYGROUPS_UPGRADE_INFO_TITLE'] = "Upgrade and General Info"; ///
-$mod_strings['LBL_SECURITYGROUPS_INFO_TITLE'] = "Security Suite Info"; ///
-$mod_strings['LBL_SECURITYGROUPS_INFO'] = "General information";
-$mod_strings['LBL_SECURITYGROUPS_DASHLETPUSH_TITLE'] = "Push Message Dashlet"; ///
-$mod_strings['LBL_SECURITYGROUPS_DASHLETPUSH'] = "Push the Message Dashlet to the Home page for all users. This process may take some time to complete depending on the number of users"; ///
-$mod_strings['LBL_SECURITYGROUPS_HOOKUP_TITLE'] = "Hookup Module"; ///
-$mod_strings['LBL_SECURITYGROUPS_HOOKUP'] = "Hookup Security Suite to work with your custom modules"; ///
-$mod_strings['LBL_SECURITYGROUPS_SUGAROUTFITTERS_TITLE'] = "SugarOutfitters";
-$mod_strings['LBL_SECURITYGROUPS_SUGAROUTFITTERS'] = "Grab the latest version of SecuritySuite and find other SugarCRM modules, themes, and integrations along with reviews, docs, support, and community verified versions.";
-
-
-
-
-
-/*********************************************************************************
-
-* This program is free software; you can redistribute it and/or modify it under
-* the terms of the GNU Affero General Public License version 3 as published by the
-* Free Software Foundation.
-*
-* This program is distributed in the hope that it will be useful, but WITHOUT
-* ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
-* FOR A PARTICULAR PURPOSE.  See the GNU Affero General Public License for more
-* details.
-*
-* You should have received a copy of the GNU Affero General Public License along with
-* this program; if not, see http://www.gnu.org/licenses or write to the Free
-* Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
-* 02110-1301 USA.
-
- // Replaced by RAPIRA -->
- ********************************************************************************/
-  /*********************************************************************************
-  *
-  * This file was generated by the RAPIRA Translation Suite ----------
-  *
-  ***********************************************************************likhobory*/
-
-  /*********************************************************************************
-  * Description : Defines the Russian language pack for the base application.
-  *********************************************************************************/
- // Replaced by RAPIRA <--
-
-$mod_strings['LBL_AOP_ADMIN_MANAGE_AOP'] = 'Настройки портала';
-$mod_strings['LBL_AOP_ENABLE_AOP'] = 'Включить настройки портала';
-$mod_strings['LBL_AOP_ENABLE_PORTAL'] = 'Включить внешний портал';
-$mod_strings['LBL_AOP_JOOMLA_SETTINGS'] = 'Настройки портала';
-$mod_strings['LBL_AOP_JOOMLA_URL'] = 'Joomla URL';
-$mod_strings['LBL_AOP_JOOMLA_ACCESS_KEY'] = 'Ключ доступа к Joomla';
-$mod_strings['LBL_AOP_CASE_ASSIGNMENT'] = 'Распределение обращений';
-$mod_strings['LBL_AOP_DISTRIBUTION_METHOD'] = 'Метод распределения';
-$mod_strings['LBL_AOP_ASSIGNMENT_USER'] = 'Пользователь';
-$mod_strings['LBL_AOP_ASSIGNMENT_OPTIONS'] = 'Пользователи';
-
-$mod_strings['LBL_AOP_EMAIL_SETTINGS'] = 'Настройка шаблонов E-mail для обращений';
-$mod_strings['LBL_AOP_CONTACT_EMAIL_TEMPLATE'] = 'Шаблон письма при ответе контактам';
-$mod_strings['LBL_AOP_USER_EMAIL_TEMPLATE'] = 'Шаблон письма при ответе пользователям';
-$mod_strings['LBL_AOP_CASE_CREATION_EMAIL_TEMPLATE'] = 'Шаблон письма при создании обращения';
-$mod_strings['LBL_AOP_CASE_CLOSURE_EMAIL_TEMPLATE'] = 'Шаблон письма при закрытии обращения';
-$mod_strings['LBL_AOP_CASE_REMINDER_EMAIL_TEMPLATE'] = 'Шаблон письма для напоминаний';
-$mod_strings['LBL_AOP_JOOMLA_ACCOUNT_CREATION_EMAIL_TEMPLATE'] = 'Шаблон письма при создании учётной записи Joomla';
-
-$mod_strings['LBL_AOP_BUSINESS_HOURS_SETTINGS'] = 'Business Hours';
-$mod_strings['LBL_AOP_OPENING_DAYS'] = 'Opening Days';
-$mod_strings['LBL_AOP_OPENING_HOURS'] = 'Opening Hours';
-$mod_strings['LBL_AOP_CLOSING_HOURS'] = 'Closing Hours';
-$mod_strings['LBL_SUPPORT_FROM_ADDRESS'] = 'В качестве адреса отправителя указывать';
-$mod_strings['LBL_SUPPORT_FROM_NAME'] = 'В качестве имени отправителя указывать';
-$mod_strings['LBL_CREATE_EMAIL_TEMPLATE']  = 'Создать';
-$mod_strings['LBL_EDIT_EMAIL_TEMPLATE']  = 'Изменить';
-$mod_strings['LBL_SINGLE_USER']  = 'Указанный пользователь';
-$mod_strings['LBL_AOP_SETTINGS'] = 'Настройка портала';
-$mod_strings['LBL_AOP_DESC'] = 'Настройка параметров портала';
-
-$mod_strings['LBL_AOP_CASE_STATUS_SETTINGS'] = 'Изменение статуса обращений';
-$mod_strings['LBL_AOP_IF_STATUS'] = 'Если статус указан как';
-$mod_strings['LBL_AOP_THEN_STATUS'] = 'то изменить его на';
-$mod_strings['LBL_AOP_ADD_STATUS'] = 'Добавить';
-$mod_strings['LBL_AOP_REMOVE_STATUS'] = 'Удалить';
-
-$mod_strings['LBL_AOS_ADMIN_CONTRACT_SETTINGS'] = 'Параметры договоров';
-$mod_strings['LBL_AOS_ADMIN_CONTRACT_RENEWAL_REMINDER'] = 'Период действия договора';
-$mod_strings['LBL_AOS_ADMIN_MANAGE_AOS'] = 'Параметры модулей продаж';
-$mod_strings['LBL_AOS_ADMIN_INVOICE_SETTINGS'] = 'Параметры счетов';
-$mod_strings['LBL_AOS_ADMIN_INITIAL_INVOICE_NUMBER'] = 'Начинать нумерацию с';
-$mod_strings['LBL_AOS_ADMIN_QUOTE_SETTINGS'] = 'Параметры предложений';
-$mod_strings['LBL_AOS_ADMIN_INITIAL_QUOTE_NUMBER'] = 'Начинать нумерацию с';
-$mod_strings['LBL_AOS_ADMIN_LINE_ITEM_SETTINGS'] = 'Настройка позиций в бланках';
-$mod_strings['LBL_AOS_ADMIN_ENABLE_LINE_ITEM_GROUPS'] = 'Возможность группировки позиций';
-$mod_strings['LBL_AOS_ADMIN_ENABLE_LINE_ITEM_TOTAL_TAX'] = 'Включать НДС в сумму<br>(для каждой позиции)';
-$mod_strings['LBL_AOS_SETTINGS'] = 'Настройка модулей продаж';
-$mod_strings['LBL_AOS_PRODUCTS'] = 'AOS Products'; ///
-$mod_strings['LBL_AOS_EDIT'] = 'edit'; ///
-$mod_strings['LBL_AOS_DAYS'] = 'дней';
-$mod_strings['LBL_CHANGE_SETTINGS'] = 'Настройка параметров договоров, счетов, предложений';
-
-$mod_strings['LBL_COLOUR_SETTINGS'] = 'Настройка темы';
-$mod_strings['LBL_COLOUR_DESC'] = 'Настройка цветовой схемы и параметров темы';
-$mod_strings['LBL_COLOUR_ADMIN_INTRO'] = 'Настройка цветовой схемы и параметров темы.'.' <strong>Обратите внимание:</strong> Для отображения сохранённых изменений рекомендуется обновить страницу сочетанием клавиш Ctrl + F5.';
-
-$mod_strings['LBL_DISPLAY_SIDEBAR'] = 'Отображать боковое меню';
-
-
-$mod_strings['LBL_COLOUR_ADMIN_MENU'] = 'Настройка цветовой схемы меню';
-$mod_strings['LBL_COLOUR_ADMIN_PAGE'] = 'Настройка цветовой схемы страниц';
-$mod_strings['LBL_COLOUR_ADMIN_PAGEHEADER'] = 'Цвет заголовков на странице: ';
-$mod_strings['LBL_COLOUR_ADMIN_PAGELINK'] = 'Цвет гиперссылок на странице: ';
-$mod_strings['LBL_COLOUR_ADMIN_DASHLET'] = 'Настройка цветовой схемы дашлетов';
-$mod_strings['LBL_COLOUR_ADMIN_BUTTON'] = 'Настройка цветовой схемы кнопок';
-
-$mod_strings['LBL_COLOUR_ADMIN_BASE'] = 'Цвет главного меню: ';
-$mod_strings['LBL_COLOUR_ADMIN_MENUTOP'] = 'Градиент, верхний цвет меню: ';
-$mod_strings['LBL_COLOUR_ADMIN_MENUBOTTOM'] = 'Градиент, нижний цвет меню: ';
-$mod_strings['LBL_COLOUR_ADMIN_MENUBRD'] = 'Цвет границы меню: ';
-$mod_strings['LBL_COLOUR_ADMIN_MENUHOVER'] = 'Цвет главного меню при наведении курсора: ';
-$mod_strings['LBL_COLOUR_ADMIN_DDLINK'] = 'Цвет надписей выпадающего меню: ';
-$mod_strings['LBL_COLOUR_ADMIN_DDMENU'] = 'Цвет фона выпадающего меню: ';
-
-$mod_strings['LBL_COLOUR_ADMIN_DDLINK_HOVER'] = 'Цвет надписей выпадающего меню при наведении курсора: ';
-$mod_strings['LBL_ACTION_MENU_BACKGROUND'] = 'Цвет фона меню действий: ';
-$mod_strings['LBL_ACTION_MENU_BACKGROUND_HOVER'] = 'Цвет надписей меню действий при наведении курсора: ';
-
-$mod_strings['LBL_COLOUR_ADMIN_MENUFONT'] = 'Цвет надписи закладок: ';
-$mod_strings['LBL_COLOUR_ADMIN_MENULNKHVR'] = 'Цвет надписи закладок при наведении курсора: ';
-$mod_strings['LBL_COLOUR_ADMIN_BTNTOP'] = 'Цвет кнопки: ';
-$mod_strings['LBL_COLOUR_ADMIN_BTNHOVER'] = 'Цвет кнопки при наведении курсора: ';
-$mod_strings['LBL_COLOUR_ADMIN_BTNLNK'] = 'Цвет надписи кнопки: ';
-$mod_strings['LBL_COLOUR_ADMIN_BTNLNKHOVER'] = 'Цвет надписи кнопки при наведении курсора: ';
-$mod_strings['LBL_COLOUR_ADMIN_DASHHEAD'] = 'Цвет заголовка дашлета: ';
-$mod_strings['LBL_COLOUR_ADMIN_ICON'] = 'Цвет иконок в заголовке дашлета: ';
-
-$mod_strings['LBL_COLOUR_ADMIN_TABS'] = 'Настройка закладок модулей';
-
-$mod_strings['LBL_SUGGESTION_POPUP_FROM'] = 'Варианты решений обращения, градиент, цвет 1:';
-$mod_strings['LBL_SUGGESTION_POPUP_TO'] = 'Варианты решений обращения, градиент, цвет 2:'; 
-
-$mod_strings['LBL_SALESAGILITY_ADMIN'] = 'OpenAdmin';
-$mod_strings['LBL_AOD_ADMIN_MANAGE_AOD'] = 'Настройка полнотекстового поиска';
-$mod_strings['LBL_AOD_ENABLE'] = 'Включить полнотекстовый поиск';
-$mod_strings['LBL_AOD_SETTINGS'] = 'Настройка полнотекстового поиска';
-$mod_strings['LBL_AOD_DESC'] = 'Настройка параметров полнотекстового поиска';
+'LBL_MANAGE_SECURITYGROUPS_TITLE' => 'Создание Групп пользователей',
+'LBL_MANAGE_SECURITYGROUPS' => 'Создание Групп пользователей и включение в них Пользователей и Ролей',
+'LBL_CONFIG_SECURITYGROUPS_TITLE' => 'Управление Группами пользователей',
+'LBL_CONFIG_SECURITYGROUPS' => 'Настройка Групп пользователей',
+'LBL_SECURITYGROUPS' => 'Security Suite',
+'LBL_SECURITYGROUPS_UPGRADE_INFO_TITLE' => "Upgrade and General Info", ///
+'LBL_SECURITYGROUPS_INFO_TITLE' => "Security Suite Info", ///
+'LBL_SECURITYGROUPS_INFO' => "General information",
+'LBL_SECURITYGROUPS_DASHLETPUSH_TITLE' => "Push Message Dashlet", ///
+'LBL_SECURITYGROUPS_DASHLETPUSH' => "Push the Message Dashlet to the Home page for all users. This process may take some time to complete depending on the number of users", ///
+'LBL_SECURITYGROUPS_HOOKUP_TITLE' => "Hookup Module", ///
+'LBL_SECURITYGROUPS_HOOKUP' => "Hookup Security Suite to work with your custom modules", ///
+'LBL_SECURITYGROUPS_SUGAROUTFITTERS_TITLE' => "SugarOutfitters",
+'LBL_SECURITYGROUPS_SUGAROUTFITTERS' => "Grab the latest version of SecuritySuite and find other SugarCRM modules, themes, and integrations along with reviews, docs, support, and community verified versions.",
+);
 
 ?>

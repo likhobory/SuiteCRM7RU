@@ -99,6 +99,7 @@ $mod_strings = array (
 'LBL_EMAILS_PROJECT_REL'=> 'E-mail: Проект' ,
 'LBL_EMAILS_PROJECT_TASK_REL'=> 'E-mail: Проектная задача' ,
 'LBL_EMAILS_PROSPECT_REL'=> 'E-mail: Потенциальный клиент' ,
+'LBL_EMAILS_CONTRACTS_REL'	=> 'Email: Договор',
 'LBL_EMAILS_TASKS_REL'=> 'E-mail: Задачи' ,
 'LBL_EMAILS_USERS_REL'=> 'E-mail: Пользователи' ,
 'LBL_EMPTY_FOLDER'          => 'Папка пуста',
@@ -334,7 +335,7 @@ $mod_strings = array (
 'LBL_NO_SUBJECT' => '(без темы)',
 'LBL_CHECKING_ACCOUNT'=> 'Проверка учётной записи',
 'LBL_OF'=> 'из',
-'LBL_TEST_EMAIL_BODY' => 'Это сообщение было отправлено с целью проверки настроек сервера исходящей почты SuiteCRM. Успешное получение этого письма свидетельствует о корректных настройках сервера исходящей почты.',
+'LBL_TEST_EMAIL_BODY' => 'Это сообщение было отправлено с целью проверки настроек сервера исходящей почты SuiteCRM. Получение этого письма свидетельствует о корректных настройках сервера исходящей почты.',
 
 // for outbound email dialog
 'LBL_MAIL_SMTPUSER'=> 'SMTP-пользователь:' ,

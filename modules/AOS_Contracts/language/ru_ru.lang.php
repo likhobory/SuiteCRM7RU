@@ -111,7 +111,7 @@ $mod_strings = array (
   'LBL_PDF_NAME' => 'Договор',
   'LBL_EMAIL_NAME' => 'Договор:', 
   'LBL_NO_TEMPLATE' => 'ОШИБКА\nШаблоны договоров не обнаружены.\nЕсли необходимый шаблон договора отсутствует - откройте модуль PDF-шаблонов и создайте необходимый шаблон.',
-  
+  'LBL_TOTAL_CONTRACT_VALUE_USDOLLAR' => 'Сумма договора (основная валюта)',
   'LBL_SUBTOTAL_AMOUNT_USDOLLAR' => 'Итого со скидкой (основная валюта)',
   'LBL_DISCOUNT_AMOUNT_USDOLLAR' => 'Скидка (основная валюта)',
   'LBL_TAX_AMOUNT_USDOLLAR' => 'Всего НДС (основная валюта)',

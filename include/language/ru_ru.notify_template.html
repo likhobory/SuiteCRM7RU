@@ -47,7 +47,7 @@ You may review this Quote at:
 SuiteCRM - Контрагент: {ACCOUNT_NAME}
 <!-- END: Account_Subject -->
 <!-- BEGIN: Account -->
-{ASSIGNER} назначил(а) контрагента пользователю: {ASSIGNED_USER}.
+{ASSIGNER} назначил(а) контрагента пользователю {ASSIGNED_USER}.
 
 Имя: {ACCOUNT_NAME}
 Тип: {ACCOUNT_TYPE}
@@ -62,7 +62,7 @@ SuiteCRM - Контрагент: {ACCOUNT_NAME}
 SuiteCRM - Обращение: {CASE_SUBJECT}
 <!-- END: Case_Subject -->
 <!-- BEGIN: Case -->
-{ASSIGNER} назначил(а) обращение пользователю: {ASSIGNED_USER}.
+{ASSIGNER} назначил(а) обращение пользователю {ASSIGNED_USER}.
 
 Тема: {CASE_SUBJECT}
 Приоритет: {CASE_PRIORITY}
@@ -78,7 +78,7 @@ SuiteCRM - Обращение: {CASE_SUBJECT}
 SuiteCRM - Задача: {TASK_SUBJECT}
 <!-- END: Task_Subject -->
 <!-- BEGIN: Task -->
-{ASSIGNER} назначил(а) задачу пользователю: {ASSIGNED_USER}.
+{ASSIGNER} назначил(а) задачу пользователю {ASSIGNED_USER}.
 
 Тема: {TASK_SUBJECT}
 Приоритет:: {TASK_PRIORITY}
@@ -122,7 +122,7 @@ Meeting URL: {MEETING_URL}
 SuiteCRM - Встреча: {MEETING_SUBJECT}
 <!-- END: MeetingSpecial_Subject -->
 <!-- BEGIN: MeetingSpecial -->
-{ASSIGNER} назначил(а) встречу пользователю: {ASSIGNED_USER}.
+{ASSIGNER} назначил(а) встречу пользователю {ASSIGNED_USER}.
 
 Тема: {MEETING_SUBJECT}
 Статус: {MEETING_STATUS}
@@ -139,7 +139,7 @@ SuiteCRM - Встреча: {MEETING_SUBJECT}
 SuiteCRM - E-mail: {EMAIL_SUBJECT}
 <!-- END: Email_Subject -->
 <!-- BEGIN: Email -->
-{ASSIGNER} назначил(а) E-mail пользователю: {ASSIGNED_USER}.
+{ASSIGNER} назначил(а) E-mail пользователю {ASSIGNED_USER}.
 
 Тема: {EMAIL_SUBJECT}
 Дата отправки: {EMAIL_DATESENT}
@@ -153,7 +153,7 @@ SuiteCRM - E-mail: {EMAIL_SUBJECT}
 SuiteCRM - Контакт: {CONTACT_NAME}
 <!-- END: Contact_Subject -->
 <!-- BEGIN: Contact -->
-{ASSIGNER} назначил(а) контакт пользователю: {ASSIGNED_USER}.
+{ASSIGNER} назначил(а) контакт пользователю {ASSIGNED_USER}.
 
 Имя: {CONTACT_NAME}
 Описание: {CONTACT_DESCRIPTION}
@@ -167,7 +167,7 @@ SuiteCRM - Контакт: {CONTACT_NAME}
 SuiteCRM - Предварительный контакт: {LEAD_NAME}
 <!-- END: Lead_Subject -->
 <!-- BEGIN: Lead -->
-{ASSIGNER} назначил(а) предварительный контакт пользователю: {ASSIGNED_USER}.
+{ASSIGNER} назначил(а) предварительный контакт пользователю {ASSIGNED_USER}.
 
 Имя: {LEAD_NAME}
 Источник предв. контакта: {LEAD_SOURCE}
@@ -183,7 +183,7 @@ SuiteCRM - Предварительный контакт: {LEAD_NAME}
 SuiteCRM - Сделка: {OPPORTUNITY_NAME}
 <!-- END: Opportunity_Subject -->
 <!-- BEGIN: Opportunity -->
-{ASSIGNER} назначил(а) сделку пользователю: {ASSIGNED_USER}.
+{ASSIGNER} назначил(а) сделку пользователю {ASSIGNED_USER}.
 
 Имя: {OPPORTUNITY_NAME}
 Сумма: {OPPORTUNITY_AMOUNT}
@@ -200,7 +200,7 @@ SuiteCRM - Сделка: {OPPORTUNITY_NAME}
 SuiteCRM - Ошибка: {BUG_SUBJECT}
 <!-- END: Bug_Subject -->
 <!-- BEGIN: Bug -->
-{ASSIGNER} назначил(а) ошибку пользователю: {ASSIGNED_USER}.
+{ASSIGNER} назначил(а) ошибку пользователю {ASSIGNED_USER}.
 
 Номер ошибки: {BUG_BUG_NUMBER}
 Тема: {BUG_SUBJECT}
@@ -221,10 +221,9 @@ SuiteCRM - Ошибка: {BUG_SUBJECT}
 SuiteCRM - Назначено: {OBJECT}
 <!-- END: Default_Subject -->
 <!-- BEGIN: Default -->
-{ASSIGNER} назначил(а) {OBJECT} пользователю: {ASSIGNED_USER}.
+{OBJECT}: {ASSIGNER} назначил(а) запись пользователю {ASSIGNED_USER}.
 
-Вы можете просмотреть подробную информацию по {OBJECT}
-здесь:
+Более подробную информацию вы можете посмотреть здесь:
 <{URL}>
 <!-- END: Default -->
 
@@ -255,7 +254,7 @@ SuiteCRM - Звонок: {CALL_SUBJECT}
 SuiteCRM - Звонок: {CALL_SUBJECT}
 <!-- END: CallSpecial_Subject -->
 <!-- BEGIN: CallSpecial -->
-{ASSIGNER} назначил(а) звонок пользователю: {ASSIGNED_USER}.
+{ASSIGNER} назначил(а) звонок пользователю {ASSIGNED_USER}.
 
 Тема: {CALL_SUBJECT}
 Статус: {CALL_STATUS}
@@ -271,7 +270,7 @@ SuiteCRM - Звонок: {CALL_SUBJECT}
 SuiteCRM - Маркет. кампания: {CAMPAIGN_NAME}
 <!-- END: Campaign_Subject -->
 <!-- BEGIN: Campaign -->
-{ASSIGNER} назначил(а) маркет. кампанию пользователю: {ASSIGNED_USER}.
+{ASSIGNER} назначил(а) маркет. кампанию пользователю {ASSIGNED_USER}.
 
 Имя: {CAMPAIGN_NAME}
 Бюджет: {CAMPAIGN_AMOUNT}

@@ -70,10 +70,12 @@ $mod_strings = array (
   'LBL_AOS_PRODUCT_CATEGORYS_NAME' => 'Категория товара',
   
   'LBL_AOS_PRODUCT_CATEGORY' => 'Категория товара (ID)',
+  'LBL_AOS_PRODUCT_CATEGORIES' => 'Категории товаров',
   'LBL_COST_USDOLLAR' => 'Себестоимость (основная валюта)',
   'LBL_PRICE_USDOLLAR' => 'Цена по прайсу (основная валюта)',
   'LBL_FILE_URL' => 'URL файла',
   'LBL_CUSTOMERS_PURCHASED_PRODUCTS_SUBPANEL_TITLE' => 'Оплатившие товар клиенты',
+  'LBL_PRODUCTS_PURCHASES' => 'Оплатившие товар клиенты',
   'LBL_AOS_QUOTE_NAME' => 'Предложение',
   'LBL_ACCOUNT_NAME' => 'Контрагент',
 );

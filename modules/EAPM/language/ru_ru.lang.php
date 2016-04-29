@@ -86,6 +86,8 @@ $mod_strings = array (
 
 'LBL_ERR_FAILED_QUICKCHECK' => 'Нет соединения с {0}. Нажмите на кнопку "ОК" для восстановления соединения.',
 
+'LBL_CLICK_TO_EDIT' => 'Изменить',
+
 // Various strings used throughout the external account modules
 'LBL_MEET_NOW_BUTTON' => 'Назначить встречу на текущее время',
 'LBL_VIEW_LOTUS_LIVE_MEETINGS' => 'Просмотр предстоящих встреч LotusLive&trade;',

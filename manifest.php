@@ -15,13 +15,12 @@ $manifest = array(
 	'acceptable_sugar_flavors' =>
 		  array('CE'),
 	'author' => 'likhobory',
-    'version' => '7.5.1',
-	'published_date' => '2016/01/28',
+    'version' => '7.6',
+	'published_date' => '2016/04/29',
       );
 
 $installdefs = array(
 	'id'=> 'ru_ru',
-	'image_dir'=>'<basepath>/images',
 	'copy' => array(
 	array('from'=> '<basepath>/include','to'=>'include',),
 	array('from'=> '<basepath>/modules','to'=>'modules'),

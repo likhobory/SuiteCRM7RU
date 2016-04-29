@@ -75,6 +75,7 @@ $mod_strings = array (
 'LBL_EDIT_EMAIL_TEMPLATE'=> 'Править' ,
 'LBL_FROM_MAILBOX'=> 'Почтовый ящик для возвращаемых писем' ,
 'LBL_FROM_MAILBOX_NAME'=> 'Почтовый ящик для возвращаемых писем:' ,
+'LBL_OUTBOUND_EMAIL_ACCOUNT_NAME' => 'Учётная запись для исходящей почты:',
 'LBL_PROSPECT_LIST_SUBPANEL_TITLE'=> 'Адресаты' ,
 'LBL_ALL_PROSPECT_LISTS'=> 'ВСЕМ спискам адресатов маркетинговой кампании' ,
 'LBL_RELATED_PROSPECT_LISTS'=> 'ВЫБРАННЫМ спискам адресатов маркетинговой кампании.' ,
@@ -87,6 +88,8 @@ $mod_strings = array (
 'LBL_SCHEDULE_BUTTON_TITLE'=> 'Отправить' ,
 'LBL_SCHEDULE_BUTTON_LABEL'=> 'Отправить' ,
 'LBL_SCHEDULE_BUTTON_KEY'=> 'T'  ,
+//    'LBL_OUTBOUND_EMAIL_ACCOUNT_DEFAULT' => 'Use System Default',
+//    'LBL_OUTBOUND_EMAIL_ACCOUNT_VIEW' => 'View Outbound Email Accounts',
 
 
 

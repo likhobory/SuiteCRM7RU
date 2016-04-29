@@ -43,7 +43,7 @@ $mod_strings = array (
 
 'LBL_DISCLOSURE_TITLE'=> 'Добавлять сообщение к каждому E-mail',
 'LBL_DISCLOSURE_TEXT_TITLE'=> 'Содержание сообщения',
-'LBL_DISCLOSURE_TEXT_SAMPLE'=> ' ',
+'LBL_DISCLOSURE_TEXT_SAMPLE'=> ' ', ///
 
 'LBL_EMAIL_DEFAULT_CHARSET'=> 'Создавать E-mail в  этой кодировке',
 'LBL_EMAIL_DEFAULT_EDITOR'=> 'Создавать E-mail, используя этого почтового клиента' ,
@@ -144,6 +144,7 @@ $mod_strings = array (
 'LBL_YAHOO_MAIL_LOGO' => 'Yahoo Mail' /*for 508 compliance fix*/,
 'LBL_EXCHANGE_LOGO' => 'Exchange' /*for 508 compliance fix*/,
 'LBL_HELP' => 'Справка' /*for 508 compliance fix*/,
+'LBL_OUTBOUND_EMAIL_ACCOUNT_VIEW' => 'Перечень учётных записей исходящей почты',
 );
 
 ?>

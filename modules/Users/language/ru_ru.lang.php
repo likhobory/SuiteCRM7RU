@@ -30,10 +30,9 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
  // Replaced by RAPIRA <--
  
 $mod_strings = array (
+'LBL_DELETE_USER_CONFIRM'           => 'При удалении данных Пользователя будет удалена и соответствующая запись из списка Сотрудников.<br/><br/>Нажмите кнопку "OK" для удаления данных Пользователя.',
 'LBL_DELETE_GROUP_CONFIRM'          => 'Вы действительно хотите удалить данного группового пользователя? Нажмите на кнопку <b>ОК</b> для удаления  пользователя из системы<br/>После удаления у вас будет возможность переназначить ответственных для записей, принадлежащих удалённому групповому пользователю.',
 'LBL_DELETE_PORTAL_CONFIRM'         => 'Are you sure you want to delete this Portal API User? Click OK to delete the User record.', ///
-'LBL_DELETE_USER_CONFIRM'           => 'При удалении данных Пользователя будет удалена и соответствующая запись из списка Сотрудников.<br/><br/>'.
-'Нажмите кнопку "OK" для удаления данных Пользователя.',
 
 'LNK_IMPORT_USERS'                 => 'Импорт пользователей',
 'ERR_DELETE_RECORD'=> 'Перед удалением профиля должен быть указан номер записи.' ,
@@ -326,10 +325,10 @@ $mod_strings = array (
 'LBL_RESET_PREFERENCES'=> 'Установить стандартные значения' ,
 'LBL_RESET_PREFERENCES_WARNING'     => 'Вы действительно хотите сбросить все ваши настройки?',
 'LBL_RESET_PREFERENCES_WARNING_USER' => 'Вы действительно хотите сбросить все настройки данного пользователя?',
-'LBL_RESET_HOMEPAGE'                => 'Сбросить настройки закладки "ГЛАВНАЯ"',
+'LBL_RESET_HOMEPAGE'                => 'Сбросить настройки основной закладки SuiteCRM',
 'LBL_RESET_DASHBOARD'               => 'Сбросить настройки диаграмм',
-'LBL_RESET_HOMEPAGE_WARNING'        => 'Вы действительно хотите сбросить настройки закладки `ГЛАВНАЯ`?',
-'LBL_RESET_HOMEPAGE_WARNING_USER'   => 'Вы действительно хотите сбросить настройки закладки `ГЛАВНАЯ` для данного пользователя?',
+'LBL_RESET_HOMEPAGE_WARNING'        => 'Вы действительно хотите сбросить настройки основной закладки SuiteCRM?',
+'LBL_RESET_HOMEPAGE_WARNING_USER'   => 'Вы действительно хотите сбросить настройки основной закладки SuiteCRM для данного пользователя?',
 'LBL_SALUTATION'                    => 'Приветствие',
 'LBL_ROLES_SUBPANEL_TITLE'=> 'Роли' ,
 'LBL_SEARCH_FORM_TITLE'=> 'Поиск пользователей' ,

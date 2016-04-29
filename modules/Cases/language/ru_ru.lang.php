@@ -81,7 +81,7 @@ $mod_strings = array (
 'LBL_LIST_FORM_TITLE'=> 'Список обращений' ,
 'LBL_LIST_LAST_MODIFIED'=> 'Последнее изменение' ,
 'LBL_LIST_MY_CASES'=> 'Мои открытые обращения' ,
-'LBL_LIST_NUMBER'=> 'Ном.' ,
+'LBL_LIST_NUMBER'=> 'Номер' ,
 'LBL_LIST_PRIORITY'=> 'Приоритет' ,
 'LBL_LIST_STATUS'=> 'Статус' ,
 'LBL_LIST_SUBJECT'=> 'Тема обращения' ,
@@ -133,11 +133,11 @@ $mod_strings = array (
 
 'LBL_UPDATE_TEXT' => 'Текст обновления',
 'LBL_INTERNAL' => 'Внутреннее обновление',
-'LBL_AOP_CASE_UPDATES' => 'Обновления обращения',
-'LBL_AOP_CASE_UPDATES_THREADED' => 'Обновления обращения опубликованы',
+'LBL_AOP_CASE_UPDATES' => 'Обновление обращения',
+'LBL_AOP_CASE_UPDATES_THREADED' => 'Хроника обновлений обращения',
 'LBL_CASE_UPDATES_COLLAPSE_ALL' => 'Свернуть все',
 'LBL_CASE_UPDATES_EXPAND_ALL' => 'Развернуть все',
-'LBL_NO_CASE_UPDATES' => 'Для данного обращения нет обновлений',
+'LBL_NO_CASE_UPDATES' => 'У данного обращения нет обновлений',
 'LBL_AOP_CASE_ATTACHMENTS' => 'Вложения: ', 
 
 'LBL_AOP_CASE_EVENTS' => 'События обращения',

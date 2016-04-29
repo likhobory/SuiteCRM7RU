@@ -173,8 +173,8 @@ $mod_strings = array (
 
   'LBL_AM_PROJECTHOLIDAYS_PROJECT_FROM_AM_PROJECTHOLIDAYS_TITLE' => 'Выходные дни',
   'LBL_TOOLTIP_PROJECT_NAME' => 'Проект',
-  'LBL_TOOLTIP_TASK_NAME' => 'Задача',
-  'LBL_TOOLTIP_TITLE' => 'Сегодняшние задачи',
+  'LBL_TOOLTIP_TASK_NAME' => 'Проектная задача',
+  'LBL_TOOLTIP_TITLE' => 'Задачи на этот день',
   'LBL_TOOLTIP_TASK_DURATION' => 'Продолжительность',
   'LBL_PROJECT_TITLE_HOVER' => 'Детали проекта',
   'LBL_RESOURCE_TYPE_TITLE_USER' => 'Участник является пользователем',

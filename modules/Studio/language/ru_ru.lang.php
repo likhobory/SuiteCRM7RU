@@ -189,8 +189,8 @@ $mod_strings = array (
 'LBL_EDIT' => 'Править' /*for 508 compliance fix*/,
 
 'LBL_LANGUAGE_TOOLTIP' => 'Выберите язык для редактирования.',
-'LBL_SINGULAR' => 'Singular Label', ///
-'LBL_PLURAL' => 'Plural Label', ///
+'LBL_SINGULAR' => 'Единственное число:', 
+'LBL_PLURAL' => 'Множественное число:', 
 'LBL_RENAME_MOD_SAVE_HELP' => 'Нажмите на кнопку <b>Сохранить</b> для применения внесённых изменений.'
 );
 ?>
