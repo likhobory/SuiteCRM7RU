@@ -2563,7 +2563,7 @@ $app_strings = array (
     'LBL_VIEW_PDF_BUTTON_LABEL' => 'Печать в PDF-формате' ,
     'LBL_VIEW_PDF_BUTTON_TITLE' => 'Печать в PDF-формате' ,
 
-    'LNK_ABOUT' => 'О нас' ,
+    'LNK_ABOUT' => 'Справка' ,
     'LNK_ADVANCED_SEARCH' => 'Расширенный поиск' ,
     'LNK_BASIC_SEARCH' => 'Базовый поиск' ,
 	'LNK_SEARCH_FTS_VIEW_ALL' => 'Отобразить все результаты',
@@ -2706,7 +2706,7 @@ $app_strings = array (
     'LBL_REMOVE_ALL_LEAD_FIELDS' => 'Удалить все поля',
     'LBL_ONLY_IMAGE_ATTACHMENT' => 'Возможно добавить только графическое вложение',
     
-    'LBL_TRAINING' => 'Поддержка',
+    'LBL_TRAINING' => 'Форум',
     'ERR_DATABASE_CONN_DROPPED'=>'Ошибка при выполнении запроса. Вероятно, соединение с базой данных было утеряно. Пожалуйста, обновите текущую страницу. Возможно, потребуется перезагрузить ваш веб-сервер.',
     'ERR_MSSQL_DB_CONTEXT' =>'Состояние БД изменилось:',
 	'ERR_MSSQL_WARNING' =>'Внимание:',

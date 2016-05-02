@@ -271,7 +271,7 @@ $mod_strings = array (
 
 //***Suite***
 
-'LBL_ABOUT' => 'О нас',
+'LBL_ABOUT' => 'Справка',
 'LBL_CONTRIBUTORS' => 'Участники проекта',
 'LBL_ABOUT_SUITE' => 'О проекте SuiteCRM',
 'LBL_PARTNERS' => 'Партнёры',
@@ -280,7 +280,8 @@ $mod_strings = array (
 'LBL_CONTRIBUTOR_SUITECRM' => 'Бесплатная альтернатива SugarCRM Professional Edition с открытым исходным кодом    <br>
         <hr><h5>
         <ul id="about_menu">
-            <li>Актуальная версия русификации доступна на <a href="https://github.com/likhobory/SuiteCRM7RU" target="_blank">GitHub</a></li>
+            <li><a href="https://github.com/likhobory/SuiteCRM7RU" target="_blank">Актуальная версия русификации доступна на GitHub</a><hr></li>
+			<li><a href="https://github.com/likhobory/SuiteCRM7RU/blob/master/DOCS/RRAG_6.2.2.pdf?raw=true" target="_blank">Руководство пользователя SugarCRM CE на русском языке</a>, подходящее для знакомства и с SuiteCRM</li>
         </ul></h5>',
 'LBL_CONTRIBUTOR_SECURITY_SUITE' => 'SecuritySuite by Jason Eggers',
 'LBL_CONTRIBUTOR_JJW_GMAPS' => 'JJWDesign Google Maps by Jeffrey J. Walters',
