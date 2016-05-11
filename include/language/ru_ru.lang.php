@@ -4242,8 +4242,8 @@ $app_strings['LBL_CREATE_PROJECT'] = 'Создать проект';
 $app_strings['LBL_MAP'] = 'Показать на карте';
 $app_strings['LBL_MAPS'] = 'Карты';
 
-$app_strings['LBL_JJWG_MAPS_LNG'] = 'Широта';
-$app_strings['LBL_JJWG_MAPS_LAT'] = 'Долгота';
+$app_strings['LBL_JJWG_MAPS_LNG'] = 'Долгота';
+$app_strings['LBL_JJWG_MAPS_LAT'] = 'Широта';
 $app_strings['LBL_JJWG_MAPS_GEOCODE_STATUS'] = 'Геокод';
 $app_strings['LBL_JJWG_MAPS_ADDRESS'] = 'Адрес';
 $app_strings['LBL_BUG_FIX'] = 'Bug Fix';
