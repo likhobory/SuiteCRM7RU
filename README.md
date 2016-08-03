@@ -1,10 +1,9 @@
 Russian RAPIRA language pack for SuiteCRM
 =========================================
 
-+ Здесь находится самая актуальная версия языковых файлов для [SuiteCRM][suitecrm] (форка безвременно почившего [SugarCRM CE] [sugar]), с учётом последних дополнений и исправлений
++ Здесь находится самая актуальная версия языковых файлов для [SuiteCRM][suitecrm] (форка безвременно почившего [SugarCRM CE] [sugar]), с учётом последних дополнений и исправлений, а так же русифицированное ["Руководство пользователя и администратора SuiteCRM"] [man]
 + Обновление языковых файлов проще всего сделать через установку языкового пакета ([ссылка на последний актуальный перевод для SuiteCRM 7.6][langpack]). Детально процесс установки/обновления пакета русификации SuiteCRM описан ниже.
-+ Обсуждение русификации SuiteCRM на [официальном форуме][forum]
-+ Начинающие пользователи могут скачать ["Руководство пользователя и администратора"] [man], переведённое ранее для SugarCRM CE, но вполне подходящее и для знакомства с SuiteCRM.
++ Обсуждение русификации интерфейса и перевода документации по SuiteCRM доступно на [официальном форуме][forum]
 
 ------------------------------------------------
 
@@ -33,7 +32,7 @@ Russian RAPIRA language pack for SuiteCRM
 Установленный язык можно указать в качестве языка по умолчанию. Для этого в панели администрирования в подразделе <b>Региональные настройки</b> выберите соответствующий языковой пакет (Admin->Locale Settings->Default Language).
 [langpack]: https://github.com/likhobory/SuiteCRM7RU/blob/ver.7.6.1/rapira-suite_pack_russian-7.6.1.zip?raw=true
 [suitecrm]: https://github.com/salesagility/SuiteCRM
-[man]: https://github.com/likhobory/SuiteCRM7RU/blob/master/DOCS/RRAG_6.2.2.pdf?raw=true
+[man]: https://github.com/likhobory/SuiteCRM7RU/blob/master/DOCS/Russian_Rapira_Application_Guide_for_SuiteCRM_7.6.pdf?raw=true
 [forum]: https://suitecrm.com/forum/international-language-support/59
 [sugar]: https://ru.wikipedia.org/wiki/SugarCRM
 [history]: https://github.com/likhobory/SuiteCRM7RU/blob/master/HISTORY.TXT
