@@ -36,7 +36,7 @@ $mod_strings['LBL_MODULE_ID'] = 'Карты';
 $mod_strings['LBL_LIST_FORM_TITLE'] = 'Карты';
 $mod_strings['LBL_MAP_CUSTOM_MARKER'] = 'Пользовательская метка';
 $mod_strings['LBL_MAP_CUSTOM_AREA'] = 'Участок карты';
-$mod_strings['LBL_HOMEPAGE_TITLE'] = 'Карты';
+$mod_strings['LBL_HOMEPAGE_TITLE'] = 'Мои карты';
 
 $mod_strings['LBL_FLEX_RELATE'] = 'Показать на карте адрес (центр)';
 $mod_strings['LBL_MODULE_TYPE'] = 'Отображать на карте объекты:';

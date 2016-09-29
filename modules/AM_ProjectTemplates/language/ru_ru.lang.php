@@ -65,4 +65,77 @@ $mod_strings = array (
 'LBL_START_DATE' => 'Дата начала',
 'LBL_CREATE_PROJECT_TITLE' => 'Создать новый проект?',
 'LBL_AM_TASKTEMPLATES_AM_PROJECTTEMPLATES_FROM_AM_TASKTEMPLATES_TITLE' => 'Шаблоны проектных задач',
+'LBL_AM_PROJECTTEMPLATES_USERS_1_TITLE' => 'Пользователи',
+'LBL_AM_PROJECTTEMPLATES_CONTACTS_1_TITLE' => 'Контакты',
+'LBL_AM_PROJECTTEMPLATES_RESOURCES_TITLE' => 'Участники',
+'LBL_NEW_PROJECT_CREATED' => 'Проект создан',
+'LBL_NEW_PROJECT' => 'Создать проект',
+'LBL_CANCEL_PROJECT' => 'Отказаться',
+
+'LBL_SUBTASK' => 'Задача',
+'LBL_MILESTONE_FLAG' => 'Контрольная точка',
+'LBL_TASK_NAME' => 'Проектная задача',
+'LBL_PREDECESSORS' => 'Предшественник',
+'LBL_RELATIONSHIP_TYPE' => 'Тип связи',
+'LBL_LAG' => 'Задержка',
+'LBL_DAYS' => 'дней',
+'LBL_HOURS' => 'часов',
+'LBL_MONTHS' => 'Месяцев',
+
+'LBL_PROJECT_TASKS_SUBPANEL_TITLE' => 'Проектные задачи',
+'LBL_VIEW_GANTT_TITLE' => 'Диаграмма Ганта',
+'LBL_VIEW_GANTT_DURATION' => 'Продолжительность',
+'LBL_TASK_TITLE' => 'Редактировать',
+'LBL_PREDECESSOR_TITLE' => 'Редактировать',
+'LBL_START_DATE_TITLE' => 'Select Start Date', ///
+'LBL_END_DATE_TITLE' => 'Select End Date', ///
+'LBL_DURATION_TITLE' => 'Продолжительность',
+'LBL_PERCENTAGE_COMPLETE_TITLE' => 'Edit %Complete', ///
+'LBL_ACTUAL_DURATION_TITLE' => 'Edit Actual Duration', ///
+
+'LBL_ASSIGNED_USER_ID' => 'Ответственный(ая):',
+
+'LBL_LIST_ASSIGNED_USER' => 'Ответственный(ая)',
+'LBL_UNASSIGNED' => 'Не назначен',
+'LBL_PROJECT_USERS_1_FROM_USERS_TITLE' => 'Участники',
+'LBL_PERCENT_COMPLETE' => 'Процент выполнения',
+'LBL_DELETE_TASK' => 'Удалить проектную задачу',
+'LBL_VIEW_DETAIL' => 'Детали проекта',
+'LBL_ADD_NEW_TASK' => 'Добавить проектную задачу',
+'LBL_START' => 'Начало',
+'LBL_FINISH' => 'Окончание',
+'LBL_ASSIGNED_USER_NAME' => 'Менеджер проекта:',
+
+'LBL_TASK_ID' => 'ID',
+
+'LBL_DURATION' => 'Продолжительность',
+'LBL_ACTUAL_DURATION' => 'Фактическая продолжительность',
+
+
+
+
+'LBL_EDIT_TASK_PROPERTIES' => 'Настройка параметров',
+
+'LBL_OVERRIDE_BUSINESS_HOURS' => 'Учитывать все рабочие дни',
+'LBL_COPY_ALL_TASKS' => 'Копировать все проектные задачи',
+'LBL_COPY_SEL_TASKS' => 'Копировать выбранные проектные задачи',
+'LBL_TOOLTIP_TITLE' => 'Подсказка',
+'LBL_TOOLTIP_TEXT' => 'Копировать в создаваемый проект все проектные задачи, у которых указан ответственный',
+
+'LBL_EMAIL' => 'E-mail',
+'LBL_PHONE' => 'Тел. (раб.):',
+'LBL_ADD_BUTTON'=> 'Добавить',
+'LBL_ADD_INVITEE' => 'Добавить участника',
+'LBL_FIRST_NAME' => 'Имя',
+'LBL_LAST_NAME' => 'Фамилия',
+'LBL_SEARCH_BUTTON'=> 'Найти',
+'LBL_EMPTY_SEARCH_RESULT' => 'По указанным критериям ничего не обнаружено.',
+'LBL_CREATE_INVITEE' => 'Добавить участника',
+'LBL_CREATE_CONTACT' => 'Создав новый контакт',
+'LBL_CREATE_AND_ADD' => 'Создать',
+'LBL_CANCEL_CREATE_INVITEE' => 'Отказаться',
+'LBL_NO_ACCESS' => 'У вас нет прав на создание записи в модуле $module',
+'LBL_SCHEDULING_FORM_TITLE' => 'Участники',
+'LBL_NONE' => '--не выбрано--',
+	
 );

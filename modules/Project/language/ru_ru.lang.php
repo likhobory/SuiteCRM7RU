@@ -77,6 +77,10 @@ $mod_strings = array (
 'LBL_ACCOUNT_SUBPANEL_TITLE' => 'Контрагенты' ,
 'LBL_OPPORTUNITY_SUBPANEL_TITLE' => 'Сделки' ,
 'LBL_QUOTE_SUBPANEL_TITLE' => 'Сметы' ,
+'LBL_PROJECT_PREDECESSOR_NONE' => '--не выбрано--',
+'LBL_ALL_PROJECTS' => 'Все проекты',
+'LBL_ALL_USERS' => 'Все пользователи',
+'LBL_ALL_CONTACTS' => 'Все контакты',
 
 // quick create label
 'LBL_NEW_FORM_TITLE' => 'Новый проект',
@@ -100,7 +104,7 @@ $mod_strings = array (
 'LBL_OPPORTUNITIES_SUBPANEL_TITLE' => 'Сделки',
 'LBL_CASES_SUBPANEL_TITLE' => 'Обращения',
 'LBL_BUGS_SUBPANEL_TITLE' => 'Ошибки',
-'LBL_PRODUCTS_SUBPANEL_TITLE' => 'Products',
+'LBL_PRODUCTS_SUBPANEL_TITLE' => 'Товары',
 
 
 'LBL_TASK_ID' => 'ID',
@@ -143,11 +147,11 @@ $mod_strings = array (
 
   'LBL_TASK_TITLE' => 'Редактировать',
   'LBL_PREDECESSOR_TITLE' => 'Редактировать',
-  ///'LBL_START_DATE_TITLE' => 'Select Start Date',
-  ///'LBL_END_DATE_TITLE' => 'Select End Date',
+  'LBL_START_DATE_TITLE' => 'Select Start Date', ///
+  'LBL_END_DATE_TITLE' => 'Select End Date', ///
   'LBL_DURATION_TITLE' => 'Продолжительность',
-  ///'LBL_PERCENTAGE_COMPLETE_TITLE' => 'Edit %Complete',
-  ///'LBL_ACTUAL_DURATION_TITLE' => 'Edit Actual Duration',
+  'LBL_PERCENTAGE_COMPLETE_TITLE' => 'Edit %Complete', ///
+  'LBL_ACTUAL_DURATION_TITLE' => 'Edit Actual Duration', ///
   'LBL_DESCRIPTION' => 'Описание',
   'LBL_LAG' => 'Задержка',
   'LBL_DAYS' => 'дней',
@@ -155,7 +159,7 @@ $mod_strings = array (
   'LBL_MONTHS' => 'Месяцев',
   'LBL_SUBTASK' => 'Задача',
   'LBL_MILESTONE_FLAG' => 'Контрольная точка',
-  'LBL_ADD_NEW_TASK' => 'Проектная задача',
+  'LBL_ADD_NEW_TASK' => 'Добавить проектную задачу',
   'LBL_DELETE_TASK' => 'Удалить проектную задачу',
   'LBL_EDIT_TASK_PROPERTIES' => 'Настройка параметров',
   'LBL_PARENT_TASK_ID' => 'Предшествующая задача(ID)',
@@ -174,7 +178,7 @@ $mod_strings = array (
   'LBL_AM_PROJECTHOLIDAYS_PROJECT_FROM_AM_PROJECTHOLIDAYS_TITLE' => 'Выходные дни',
   'LBL_TOOLTIP_PROJECT_NAME' => 'Проект',
   'LBL_TOOLTIP_TASK_NAME' => 'Проектная задача',
-  'LBL_TOOLTIP_TITLE' => 'Задачи на этот день',
+  'LBL_TOOLTIP_TITLE' => 'Задачи на выбранный период',
   'LBL_TOOLTIP_TASK_DURATION' => 'Продолжительность',
   'LBL_PROJECT_TITLE_HOVER' => 'Детали проекта',
   'LBL_RESOURCE_TYPE_TITLE_USER' => 'Участник является пользователем',
@@ -189,6 +193,38 @@ $mod_strings = array (
   'LBL_LIST_ASSIGNED_USER' => 'Менеджер проекта',
   'LBL_UNASSIGNED' => 'Не назначен',
   'LBL_PROJECT_USERS_1_FROM_USERS_TITLE' => 'Участники',
+  
+  'LBL_EMAIL' => 'E-mail',
+  'LBL_PHONE' => 'Тел. (раб.):',
+  'LBL_ADD_BUTTON'=> 'Добавить',
+  'LBL_ADD_INVITEE' => 'Добавить участника',
+  'LBL_FIRST_NAME' => 'Имя',
+  'LBL_LAST_NAME' => 'Фамилия',
+  'LBL_SEARCH_BUTTON'=> 'Найти',
+  'LBL_EMPTY_SEARCH_RESULT' => 'По указанным критериям ничего не обнаружено.',
+  'LBL_CREATE_INVITEE' => 'Добавить участника',
+  'LBL_CREATE_CONTACT' => 'Создав новый контакт',
+  'LBL_CREATE_AND_ADD' => 'Создать',
+  'LBL_CANCEL_CREATE_INVITEE' => 'Отказаться',
+  'LBL_NO_ACCESS' => 'У вас нет прав на создание записи в модуле $module',
+  'LBL_SCHEDULING_FORM_TITLE' => 'Участники',
+  'LBL_REMOVE' => 'удал.',
+  'LBL_VIEW_DETAIL' => 'Детали проекта',
+  'LBL_OVERRIDE_BUSINESS_HOURS' => 'Учитывать все рабочие дни',
+
+  'LBL_PROJECTS_SEARCH' => 'Проекты',
+  'LBL_USERS_SEARCH' => 'Пользователи',
+  'LBL_CONTACTS_SEARCH' => 'Контакты',
+  'LBL_RESOURCE_CHART_SEARCH_BUTTON' => 'Найти',
+	
+  'LBL_CHART_TYPE' => 'Отображать данные по:',
+  'LBL_CHART_WEEKLY' => 'Неделям',
+  'LBL_CHART_MONTHLY' => 'Месяцам',	
+  'LBL_CHART_QUARTERLY' => 'Кварталам',
+
+  'LBL_RESOURCE_CHART_MONTH' => 'Месяц',
+  'LBL_RESOURCE_CHART_QUARTER' => 'Квартал',
+  'LBL_ALL_RESOURCES' => 'Все участники',
 );
 ?>
 

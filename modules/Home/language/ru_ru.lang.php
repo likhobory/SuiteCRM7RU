@@ -281,7 +281,7 @@ $mod_strings = array (
         <hr><h5>
         <ul id="about_menu">
             <li><a href="https://github.com/likhobory/SuiteCRM7RU" target="_blank">Актуальная версия русификации доступна на GitHub</a><hr></li>
-			<li><a href="https://github.com/likhobory/SuiteCRM7RU/blob/master/DOCS/RRAG_6.2.2.pdf?raw=true" target="_blank">Руководство пользователя SugarCRM CE на русском языке</a>, подходящее для знакомства и с SuiteCRM</li>
+			<li><a href="https://github.com/likhobory/SuiteCRM7RU" target="_blank">Скачать Руководство пользователя и администратора SuiteCRM</a></li>
         </ul></h5>',
 'LBL_CONTRIBUTOR_SECURITY_SUITE' => 'SecuritySuite by Jason Eggers',
 'LBL_CONTRIBUTOR_JJW_GMAPS' => 'JJWDesign Google Maps by Jeffrey J. Walters',

@@ -67,6 +67,6 @@ $mod_strings = array (
   'LBL_ADD_CONDITION' => 'Добавить условие',
   'LBL_ACTION_LINES' => 'Выполняемые действия',
   'LBL_ADD_ACTION' => 'Добавить действие',
-  'LBL_MULTIPLE_RUNS' => 'Множественный запуск',
+  'LBL_MULTIPLE_RUNS' => 'Многократный запуск',
   'LBL_RUN_WHEN' => 'Запускать'
 );

@@ -36,7 +36,8 @@ $app_list_strings = array (
   'moduleList' =>
   array (
     'Home' => 'SuiteCRM' ,
-   
+   	'ResourceCalendar' => 'Диаграмма ресурсов',
+	'AOBH_BusinessHours' => 'Часы работы',
     'Contacts' => 'Контакты' ,
     'Accounts' => 'Контрагенты' ,
     'Opportunities' => 'Сделки' ,
@@ -97,7 +98,7 @@ $app_list_strings = array (
 	'KBDocuments' => 'База знаний',
 	'SugarFavorites'=>'Избранное',
 	'OAuthKeys' => 'Клиентские ключи OAuth',
-    'OAuthTokens' => 'OAuth-маркёры',
+    'OAuthTokens' => 'OAuth-токены',
         ),
   'moduleListSingular' =>
   array (
@@ -255,11 +256,11 @@ $app_list_strings = array (
     'Net 15' => 'Net 15' ,
     'Net 30' => 'Net 30'    ,
   ),
-  'sales_stage_default_key' => 'Разведка' ,
     'fts_type' => array (
       '' => '',
       'Elastic' => 'elasticsearch' ///
   ),
+  'sales_stage_default_key' => 'Разведка' ,
   'sales_stage_dom' =>
   array ( 
      // Added by RAPIRA -->
@@ -405,18 +406,6 @@ $app_list_strings = array (
     'male' => 'Муж.',
     'female' => 'Жен.',
   ),
-  //Note:  do not translate case_status_default_key
-//       it is the key for the default case_status_dom value
-  'case_status_default_key' => 'New' ,
-  'case_status_dom' =>
-  array (
-    'New' => 'Новое' ,
-    'Assigned' => 'Назначенное' ,
-    'Closed' => 'Закрытое' ,
-    'Pending Input' => 'Ожидание решения' ,
-    'Rejected' => 'Отклонённое'    ,
-    'Duplicate' => 'Дублировать' ,
-  ),
   'case_priority_default_key' => 'P2' ,
   'case_priority_dom' =>
   array (
@@ -494,6 +483,11 @@ $app_list_strings = array (
         'Hours' => 'Часы',
     ),
 
+	'activity_status_type_dom' => array(''=>'--не выбрано--',
+        'active' => 'Активно',
+        'inactive' => 'Не активно',
+    ),
+	
     'project_priority_options' => array (
         'High' => 'Высокий' ,
         'Medium' => 'Средний' ,
@@ -1647,8 +1641,9 @@ $app_strings = array (
     'DEFAULT'                              => 'Основная информация',   
     'LBL_SORT'                              => 'Сортировка',
 	'LBL_OUTBOUND_EMAIL_ADD_SERVER'			=> 'Добавить сервер...',
-    'LBL_EMAIL_SMTP_SSL_OR_TLS'				=> 'Включить SMTP over SSL/TLS',
+    'LBL_EMAIL_SMTP_SSL_OR_TLS'				=> 'Включить SSL/TLS:',
     'LBL_NO_ACTION'                         => 'Действие не определено.',
+	'LBL_NO_SHORTCUT_MENU' 					=> 'Нет доступных действий.',
 	'LBL_NO_DATA'                           => 'Данные отсутствуют',
 	'LBL_ROUTING_ADD_RULE'	       	=> 'Добавить правило',
 	'LBL_ROUTING_ALL'              	=> 'Минимум',
@@ -2157,7 +2152,7 @@ $app_strings = array (
     'ERR_NO_DB' => 'Невозможно установить соединение с базой данных. Более подробная информация находится в файле suitecrm.log.',
     'ERR_DB_FAIL' => 'Ошибка базы данных. Более подробная информация находится в файле suitecrm.log.',
     'ERR_EXTERNAL_API_403' => 'Доступ запрещён. Данный тип файлов не поддерживается.',
-	'ERR_EXTERNAL_API_NO_OAUTH_TOKEN' => 'OAuth-маркёр доступа не обнаружен.',
+	'ERR_EXTERNAL_API_NO_OAUTH_TOKEN' => 'OAuth-токен доступа не обнаружен.',
     'ERR_DB_VERSION' => 'SuiteCRM версии {0} работает только с базой данных версии {1}.',
 
     'LBL_ACCOUNT'=>'Контрагент',
@@ -2298,6 +2293,7 @@ $app_strings = array (
 	'LBL_CAMPAIGNLOG' => 'Журнал маркет. кампании',
     'LBL_CAMPAIGN_CONTACT'=>'Маркет. кампании',
     'LBL_CAMPAIGN_ID'=>'ID маркет. кампании',
+	'LBL_CAMPAIGN_NONE' => '--не выбрано--',
     'LBL_SITEMAP'=>'Карта',
 	'LBL_THEME'=>'Тема:',
 	'LBL_THEME_PICKER'=>'Оформление',
@@ -2332,7 +2328,7 @@ $app_strings = array (
     'LBL_LOCALE_NAME_EXAMPLE_TITLE' => 'Обращение',
     'LBL_LOGIN_TO_ACCESS' => 'Войдите в систему, чтобы получить доступ к этой странице.',
     'LBL_LOGOUT' => 'Выход' ,
-	'LBL_PROFILE' => 'Profile',
+	'LBL_PROFILE' => 'Мои настройки',
     'LBL_MAILMERGE_KEY' => 'M' ,
     'LBL_MAILMERGE' => 'Слияние' ,
     'LBL_MASS_UPDATE' => 'Массовое обновление' ,
@@ -2522,7 +2518,17 @@ $app_strings = array (
 
     'LBL_SUGAR_COPYRIGHT_SUB' => '&copy; 2004-2013 <a href="http://www.sugarcrm.com" target="_blank" class="copyRightLink">SugarCRM Inc.</a> Все права защищены.<br />SuiteCRM является зарегистрированной торговой маркой SuiteCRM, Inc. Названия остальных компаний и продуктов могут являться торговым марками соответствующих компаний, с которыми они связаны.',
 
-
+	'LBL_SCENARIO_SALES' => 'Сделки',
+    'LBL_SCENARIO_MARKETING' => 'Маркетинг',
+    'LBL_SCENARIO_FINANCE' => 'Продажи',
+    'LBL_SCENARIO_SERVICE' => 'Обращения',
+    'LBL_SCENARIO_PROJECT' => 'Проекты',
+	
+	'LBL_SCENARIO_SALES_DESCRIPTION'=>'Управление сделками',
+    'LBL_SCENARIO_MAKETING_DESCRIPTION'=>'Управление маркетинговыми кампаниями',
+    'LBL_SCENARIO_FINANCE_DESCRIPTION'=>'Управление продажами',
+    'LBL_SCENARIO_SERVICE_DESCRIPTION'=>'Управление пользовательскими обращениями',
+    'LBL_SCENARIO_PROJECT_DESCRIPTION'=>'Управление проектами',
 
     'LBL_SYNC' => 'Синхронизация' ,
 
@@ -2703,7 +2709,9 @@ $app_strings = array (
     'LBL_REDIRECT_URL'=>'URL переадресации',
     'LBL_RELATED_CAMPAIGN' =>'Связь с маркет. кампанией',
     'LBL_ADD_ALL_LEAD_FIELDS' => 'Добавить все поля',
+	'LBL_RESET_ALL_LEAD_FIELDS' => 'Удалить все поля',
     'LBL_REMOVE_ALL_LEAD_FIELDS' => 'Удалить все поля',
+	'LBL_NEXT_BTN' => 'Далее',
     'LBL_ONLY_IMAGE_ATTACHMENT' => 'Возможно добавить только графическое вложение',
     
     'LBL_TRAINING' => 'Форум',
@@ -3046,7 +3054,7 @@ $app_strings = array (
     'ERR_SUHOSIN' => 'Загрузка была заблокирована модулем Suhosin, необходимо добавить &quot;upload&quot; в параметр  suhosin.executor.include.whitelist (детали описаны в файле журнала: suitecrm.log)',
 	'ERR_BAD_RESPONSE_FROM_SERVER' => 'Некорректный ответ сервера',
 	'LBL_ACCOUNT_PRODUCT_QUOTE_LINK' => 'Предложение',
-    'LBL_ACCOUNT_PRODUCT_SALE_PRICE' => 'Цена со скидкой',
+    'LBL_ACCOUNT_PRODUCT_SALE_PRICE' => 'Цена распродажи',
 	
 	'ERR_A_REMINDER_IS_EMPTY_OR_INCORRECT' => 'Неверное или незаполненное напоминание.',
     'ERR_REMINDER_IS_NOT_SET_POPUP_OR_EMAIL' => 'Напоминание не настроено.',
@@ -3091,7 +3099,7 @@ $app_list_strings['moduleList']['EmailAddresses'] = 'Email Address';
     );
 
 
-  $app_strings['LBL_CREATE_KB_DOCUMENT'] = 'Create Article';
+  $app_strings['LBL_CREATE_KB_DOCUMENT'] = 'Create Article'; ///
   $app_list_strings['kbdocument_viewing_frequency_dom'] =
   array(
     ''=>'' ,
@@ -3801,9 +3809,9 @@ $app_list_strings['eapm_list_documents']= array(
   	'Google' => 'Google Docs',
   );
 	$app_list_strings['token_status'] = array(
-        1 => 'Маркёр запроса',
-        2 => 'Маркёр доступа',
-        3 => 'Неверный маркёр',
+        1 => 'Токен запроса',
+        2 => 'Токен доступа',
+        3 => 'Неверный токен',
     );
 	$app_list_strings ['emailTemplates_type_list'] = array (
     '' => '' ,
@@ -3831,6 +3839,9 @@ $app_list_strings ['emailTemplates_type_list_no_workflow'] = array (
 
 );
 
+//Suite***************
+
+
 	// knowledge base
 $app_list_strings['moduleList']['AOK_KnowledgeBase'] = 'База знаний';
 $app_list_strings['moduleList']['AOK_Knowledge_Base_Categories'] = 'Категории базы знаний';
@@ -3841,14 +3852,7 @@ $app_list_strings['aok_status_list']['In_Review'] = 'На рассмотрени
 $app_list_strings['aok_status_list']['published_private'] = 'Не опубликована';
 $app_list_strings['aok_status_list']['published_public'] = 'Опубликована';
 
-$app_list_strings['moduleList']['Reminders'] = 'Напоминания';
-$app_list_strings['moduleListSingular']['Reminders'] = 'Напоминание';
 
-$app_list_strings['moduleList']['Reminders_Invitees'] = 'Напоминания_Приглашённые';
-$app_list_strings['moduleListSingular']['Reminders_Invitees'] = 'Напоминание_Приглашённый';
-
-
-//Suite***************	
 
 $app_list_strings['moduleList']['FP_events'] = 'События';
 $app_list_strings['moduleList']['FP_Event_Locations'] = 'Места';
@@ -3877,15 +3881,14 @@ $app_list_strings['moduleList']['AOP_Case_Updates'] = 'Обновления об
 $app_strings['LBL_AOP_EMAIL_REPLY_DELIMITER'] = '========== Пожалуйста, пишите ответ выше этой линии ==========';
 
 //aop
+$app_list_strings['case_state_default_key'] = 'Open';
 $app_list_strings['case_state_dom'] =
   array (
       'Open' => 'Открыто',
       'Closed' => 'Закрыто',
   );
   
-  $app_list_strings['case_state_default_key'] = 'Open';
-  $app_list_strings['case_status_default_key'] = 'Open_New';
-
+$app_list_strings['case_status_default_key'] = 'Open_New';
 $app_list_strings['case_status_dom'] =
   array (
       'Open_New' => 'Новое',
@@ -3930,16 +3933,6 @@ $app_list_strings['aor_format_options']['Ymd'] = 'Гмд';
 $app_list_strings['aor_format_options']['Y-m'] = 'Г-м';
 $app_list_strings['aor_format_options']['d/m/Y'] = 'д/м/Г';
 $app_list_strings['aor_format_options']['Y'] = 'Г';
-
-$app_list_strings['aor_sql_operator_list']['Equal_To'] = '=';
-$app_list_strings['aor_sql_operator_list']['Not_Equal_To'] = '!=';
-$app_list_strings['aor_sql_operator_list']['Greater_Than'] = '>';
-$app_list_strings['aor_sql_operator_list']['Less_Than'] = '<';
-$app_list_strings['aor_sql_operator_list']['Greater_Than_or_Equal_To'] = '>=';
-$app_list_strings['aor_sql_operator_list']['Less_Than_or_Equal_To'] = '<=';
-$app_list_strings['aor_sql_operator_list']['Contains'] = 'LIKE';
-$app_list_strings['aor_sql_operator_list']['Starts_With'] = 'LIKE';
-$app_list_strings['aor_sql_operator_list']['Ends_With'] = 'LIKE';
 
 $app_list_strings['aor_condition_operator_list']['And'] = 'И';
 $app_list_strings['aor_condition_operator_list']['OR'] = 'ИЛИ';
@@ -4067,9 +4060,9 @@ $app_list_strings['approval_status_dom']['Approved'] = 'Утверждено';
 $app_list_strings['approval_status_dom']['Not Approved'] = 'Не утверждено';
 $app_list_strings['approval_status_dom'][''] = '';
 
-$app_list_strings['vat_list']['18.0'] = '18.0';
-$app_list_strings['vat_list']['0.0'] = '0.0';
-$app_list_strings['vat_list']['10.0'] = '10.0';
+$app_list_strings['vat_list']['18.0'] = '18.0%';
+$app_list_strings['vat_list']['0.0'] = '0.0%';
+$app_list_strings['vat_list']['10.0'] = '10.0%';
 
 
 $app_list_strings['discount_list']['Percentage'] = 'Процент';
@@ -4130,7 +4123,7 @@ $app_strings['LBL_NO_TEMPLATE'] = 'ОШИБКА: шаблоны не обнар�
 //aow
 $app_list_strings['moduleList']['AOW_WorkFlow'] = 'Процессы';
 $app_list_strings['moduleList']['AOW_Conditions'] = 'Условия';
-$app_list_strings['moduleList']['AOW_Processed'] = 'Контроль процессов';
+$app_list_strings['moduleList']['AOW_Processed'] = 'Контроль процесса';
 $app_list_strings['moduleList']['AOW_Actions'] = 'Действия';
 
 $app_list_strings['aow_status_list']['Active'] = 'Активен';
@@ -4206,7 +4199,7 @@ $app_list_strings['aow_assign_options']['security_group'] = 'ВСЕ пользо
 
 $app_list_strings['aow_email_type_list']['Email Address'] = 'Указать вручную';
 $app_list_strings['aow_email_type_list']['Record Email'] = 'Отобранной записи';
-$app_list_strings['aow_email_type_list']['Related Field'] = 'Связанного модуля';
+$app_list_strings['aow_email_type_list']['Related Field'] = 'Связанной записи';
 $app_list_strings['aow_email_type_list']['Specify User'] = 'Выбрать пользователя';
 $app_list_strings['aow_email_type_list']['Users'] = 'Выбрать пользователей';
 $app_list_strings['aow_email_to_list']['to'] = 'Кому';
@@ -4217,7 +4210,7 @@ $app_list_strings['aow_run_on_list']['All_Records'] = 'Всех записей';
 $app_list_strings['aow_run_on_list']['New_Records'] = 'Создаваемых записей';
 $app_list_strings['aow_run_on_list']['Modified_Records'] = 'Изменяемых записей';
 $app_list_strings['aow_run_when_list']['Always'] = 'Всегда';
-$app_list_strings['aow_run_when_list']['On_Save'] = 'Только при создании записи';
+$app_list_strings['aow_run_when_list']['On_Save'] = 'Только при сохранении записи';
 $app_list_strings['aow_run_when_list']['In_Scheduler'] = 'Только по расписанию в Планировщике';
 
 //gant
@@ -4568,13 +4561,15 @@ $app_strings['LBL_QUICK_TASK'] = 'Создать задачу';
 $app_strings['LBL_COLLECTION_TYPE'] = 'Модуль';
 
 $app_strings['LBL_ADD_TAB'] = 'Добавить страницу';
+$app_strings['LBL_EDIT_TAB'] = 'Удалить страницу';
 $app_strings['LBL_SUITE_DASHBOARD'] = 'Основная страница';
 $app_strings['LBL_ENTER_DASHBOARD_NAME'] = 'Название страницы:';
 $app_strings['LBL_DELETE_DASHBOARD1'] = 'Вы действительно хотите удалить страницу';
 $app_strings['LBL_DELETE_DASHBOARD2'] = '?';
 $app_strings['LBL_ADD_DASHBOARD_PAGE'] = 'Добавление новой страницы на закладку';
-$app_strings['LBL_DELETE_DASHBOARD_PAGE'] = 'Удаление текущей страницы с закладки';
+$app_strings['LBL_DELETE_DASHBOARD_PAGE'] = 'Удаление страницы с закладки';
 $app_strings['LBL_RENAME_DASHBOARD_PAGE'] = 'Переименование страницы';
+$app_strings['LBL_SUITE_DASHBOARD_ACTIONS'] = 'Действия';
 
 $app_strings['LBL_DISCOVER_SUITECRM'] = 'Discover SuiteCRM';
 
@@ -4583,6 +4578,52 @@ $app_list_strings['collection_temp_list'] = array ( 'Tasks' => 'Задачи', '
 $app_list_strings['moduleList']['TemplateEditor'] = 'Редактор фрагментов шаблонов'; ///
 $app_strings['LBL_CONFIRM_CANCEL_INLINE_EDITING'] = "Данные редактируемого поля не сохранены. При нажатии на кнопку 'ОК' все изменённые данные будут утеряны, при нажатии на кнопку 'Отмена' вы сможете продолжить редактирование поля ";
 $app_strings['LBL_LOADING_ERROR_INLINE_EDITING'] = "Ошибка  получения данных. Вероятно, сеанс закончился и необходимо заново войти в систему.";
-  
+
+//SuiteSpots
+$app_list_strings['spots_areas'] = array(
+    'getSalesSpotsData' => 'Продажи',
+    'getAccountsSpotsData' => 'Контрагенты',
+    'getLeadsSpotsData' => 'Предварит. контакты',
+    'getServiceSpotsData' => 'Сервис',
+    'getMarketingSpotsData' => 'Маркетинг',
+    'getMarketingActivitySpotsData' => 'Маркетинговая активность',
+    'getActivitiesSpotsData' => 'Мероприятия',
+    'getQuotesSpotsData' => 'Предложения'
+);
+
+$app_list_strings['moduleList']['Spots'] = 'Сводки';  
+
+
+$app_list_strings['business_hours_list']['0'] = '0:00';
+$app_list_strings['business_hours_list']['1'] = '1:00';
+$app_list_strings['business_hours_list']['2'] = '2:00';
+$app_list_strings['business_hours_list']['3'] = '3:00';
+$app_list_strings['business_hours_list']['4'] = '4:00';
+$app_list_strings['business_hours_list']['5'] = '5:00';
+$app_list_strings['business_hours_list']['6'] = '6:00';
+$app_list_strings['business_hours_list']['7'] = '7:00';
+$app_list_strings['business_hours_list']['8'] = '8:00';
+$app_list_strings['business_hours_list']['9'] = '9:00';
+$app_list_strings['business_hours_list']['10'] = '10:00';
+$app_list_strings['business_hours_list']['11'] = '11:00';
+$app_list_strings['business_hours_list']['12'] = '12:00';
+$app_list_strings['business_hours_list']['13'] = '13:00';
+$app_list_strings['business_hours_list']['14'] = '14:00';
+$app_list_strings['business_hours_list']['15'] = '15:00';
+$app_list_strings['business_hours_list']['16'] = '16:00';
+$app_list_strings['business_hours_list']['17'] = '17:00';
+$app_list_strings['business_hours_list']['18'] = '18:00';
+$app_list_strings['business_hours_list']['19'] = '19:00';
+$app_list_strings['business_hours_list']['20'] = '20:00';
+$app_list_strings['business_hours_list']['21'] = '21:00';
+$app_list_strings['business_hours_list']['22'] = '22:00';
+$app_list_strings['business_hours_list']['23'] = '23:00';
+$app_list_strings['day_list']['Monday'] = 'Понедельник';
+$app_list_strings['day_list']['Tuesday'] = 'Вторник';
+$app_list_strings['day_list']['Wednesday'] = 'Среда';
+$app_list_strings['day_list']['Thursday'] = 'Четверг';
+$app_list_strings['day_list']['Friday'] = 'Пятница';
+$app_list_strings['day_list']['Saturday'] = 'Суббота';
+$app_list_strings['day_list']['Sunday'] = 'Воскресенье';
 
 ?>

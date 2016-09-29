@@ -31,6 +31,11 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
  
 $mod_strings = array (
 'LBL_MODULE_NAME'=> 'Календарь' ,
+'LBL_AGENDADAY' => 'День',
+'LBL_AGENDAWEEK' => 'Неделя',
+'LBL_SHAREDWEEK' => 'Сводная неделя',
+'LBL_SHAREDMONTH' => 'Сводный месяц',
+
 'LBL_MODULE_TITLE'=> 'Календарь' ,
 'LNK_NEW_CALL' => 'Назначить звонок' ,
 'LNK_NEW_MEETING' => 'Назначить встречу' ,
@@ -39,14 +44,16 @@ $mod_strings = array (
 'LNK_CALL_LIST' => 'Звонки' ,
 'LNK_MEETING_LIST' => 'Встречи' ,
 'LNK_TASK_LIST' => 'Задачи' ,
+'LNK_TASK' => 'Задача',
+'LNK_TASK_VIEW' => 'Просмотр задачи',
 'LNK_VIEW_CALENDAR' => 'Сегодня' ,
 'LNK_IMPORT_CALLS'=> 'Импорт звонков',
 'LNK_IMPORT_MEETINGS'=> 'Импорт встреч',
 'LNK_IMPORT_TASKS'=> 'Импорт задач',
 'LBL_MONTH' => 'Месяц' ,
-'LBL_DAY' => 'День' ,
+
 'LBL_YEAR' => 'Год' ,
-'LBL_WEEK' => 'Неделя' ,
+
 'LBL_PREVIOUS_MONTH' => 'Предыдущий месяц' ,
 'LBL_PREVIOUS_DAY' => 'Предыдущий день' ,
 'LBL_PREVIOUS_YEAR' => 'Предыдущий год' ,
@@ -106,6 +113,7 @@ $mod_strings = array (
 'LBL_SUBJECT' => 'Тема',
 'LBL_DURATION' => 'Продолжительность',
 'LBL_STATUS' => 'Статус',
+'LBL_PRIORITY' => 'Приоритет',
 'LBL_DATE_TIME' => 'Дата и время',
 
 
@@ -115,7 +123,8 @@ $mod_strings = array (
 'LBL_SETTINGS_TIME_ENDS'=>'Время завершения:', 
 'LBL_SETTINGS_CALLS_SHOW' => 'Отображать звонки:',
 'LBL_SETTINGS_TASKS_SHOW' => 'Отображать задачи:', 
-'LBL_SETTINGS_COMPLETED_SHOW' => 'Отображать завершённые Встречи, Звонки и Задачи:',
+'LBL_SETTINGS_COMPLETED_SHOW' => 'Отображать завершённые мероприятия:',
+'LBL_SETTINGS_DISPLAY_SHARED_CALENDAR_SEPARATE' => 'Разделённый сводный календарь:',
 	
 'LBL_SAVE_BUTTON' => 'Сохранить',
 'LBL_DELETE_BUTTON' => 'Удалить',
@@ -144,12 +153,12 @@ $mod_strings = array (
 'ERR_YEAR_BETWEEN' => 'Календарь не может отобразить запрашиваемый год. <br>Значение должно быть в интервале от 1970 до 2037 года.',
 'ERR_NEIGHBOR_DATE' => 'get_neighbor_date_str: not defined for this view',
 'LBL_NO_ITEMS_MOBILE' => 'На эту неделю не назначено ни одного мероприятия.',
-'LBL_SECURITYGROUPS' => 'Фильтр по группам пользователей',
-
-'LBL_ADD_ITEM' => 'Назначить мероприятие',
-'LBL_ADD_MEETING' => 'Назначить встречу',
-'LBL_ADD_TASK' => 'Создать задачу',
-'LBL_ADD_CALL' => 'Назначить звонок',
+'LBL_GENERAL_SETTINGS' => 'Настройки',
+'LBL_COLOR_SETTINGS' => 'Настройки цветовой схемы',
+'LBL_MODULE' => 'Модуль',
+'LBL_BODY' => 'Фон',
+'LBL_BORDER' => 'Граница',
+'LBL_TEXT' => 'Текст',
 
 );
 

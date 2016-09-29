@@ -286,7 +286,7 @@ $mod_strings = array(
 'LBL_WORKFLOW' => 'Workflow' /*for 508 compliance fix*/, ///
 'LBL_UPGRADE' => 'Обновление' /*for 508 compliance fix*/,
 'LBL_PROCESSING' => 'Выполнение' /*for 508 compliance fix*/,
-
+'ERROR_NO_VERSION_SET' => 'В файле manifest.php не указана совместимая версия',
 'ERR_UW_PHP_FILE_ERRORS'=> array(
 1 =>'Размер загружаемого файла превышает значение, указанное в параметре upload_max_filesize файла php.ini.',
 2 =>'Размер загружаемого файла превышает значение, указанное в параметре MAX_FILE_SIZE HTML-формы.',
@@ -297,6 +297,6 @@ $mod_strings = array(
 7 =>'Невозможно записать файл на диск.',
 8 =>'Загрузка файла была прервана.',
 ),
-'ERROR_NO_VERSION_SET' => 'В файле manifest.php не указана совместимая версия',
+
 );
 ?>

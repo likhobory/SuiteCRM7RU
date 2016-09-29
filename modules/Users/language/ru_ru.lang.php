@@ -248,7 +248,7 @@ $mod_strings = array (
 'LBL_NAME'=> 'Полное имя' ,
 'LBL_SIGNATURE_NAME'                                        => 'Название',
 'LBL_NAVIGATION_PARADIGM'           => 'Навигация',
-'LBL_NAVIGATION_PARADIGM_DESCRIPTION'   => 'Группировать модули в закладки по определённым признакам или в виде отдельных закладок для каждого модуля.',
+'LBL_NAVIGATION_PARADIGM_DESCRIPTION'   => 'Группировать несколько модулей на закладке. Если опция выключена, то каждый модуль будет отображаться в виде отдельной закладки.',
 'LBL_USE_GROUP_TABS'                => 'Сгруппированные модули',
 'LBL_NEW_FORM_TITLE'=> 'Новый пользователь' ,
 'LBL_NEW_PASSWORD'=> 'Новый пароль:' ,
@@ -526,10 +526,10 @@ $mod_strings = array (
 'LBL_WIZARD_FINISH8' => 'Управление стандартными и дополнительными параметрами системы',
 'LBL_WIZARD_FINISH9' => 'Настройка внешнего вида системы',
 'LBL_WIZARD_FINISH10' => 'Настройка макетов страниц, полей, меток и комбобоксов при помощи Студии',
-'LBL_WIZARD_FINISH11' => 'Поддержка',
-'LBL_WIZARD_FINISH12' => 'Доступ к англоязычному форуму.',
+'LBL_WIZARD_FINISH11' => 'Поддержка и документация',
+'LBL_WIZARD_FINISH12' => 'Доступ к англоязычному форуму.<br> Для русскоязычных пользователей доступно подробное <a href="https://github.com/likhobory/SuiteCRM7RU" target="_blank">Руководство пользователя и администратора SuiteCRM</a>.',
 'LBL_WIZARD_FINISH14' => 'Просмотр документации ',
-'LBL_WIZARD_FINISH15' => 'Англоязычное руководство пользователя и примечания к текущему релизу',
+'LBL_WIZARD_FINISH15' => 'Англоязычное руководство пользователя и примечания к текущему релизу. Для русскоязычных пользователей доступно более подробное <a href="https://github.com/likhobory/SuiteCRM7RU" target="_blank">Руководство пользователя и администратора SuiteCRM</a>.',
 'LBL_WIZARD_FINISH16' => 'Просмотр базы знаний',
 'LBL_WIZARD_FINISH17' => 'Советы от службы технической поддержки',
 'LBL_WIZARD_FINISH18' => 'Форум',
@@ -537,9 +537,18 @@ $mod_strings = array (
 'LBL_WIZARD_FINISH2DESC' => 'Переход на ГЛАВНУЮ страницу системы.',
 'LBL_WIZARD_PERSONALINFO' => 'Информация о сотруднике',
 'LBL_WIZARD_LOCALE' => 'Региональные стандарты',
+
+//Wizard Scenarios
+'LBL_WIZARD_SCENARIOS' => 'Наборы модулей',
+'LBL_WIZARD_SCENARIOS_EMPTY_LIST' => 'Не выбран ни одни набор модулей',
+'LBL_WIZARD_LOCALE_DESC' => 'Укажите способ представления данных в системе, используя региональные настройки. По умолчанию будут использоваться именно эти настройки. При необходимости параметры можно настроить под каждого пользователя, указав необходимые значения в настройках профиля пользователя.',
+'LBL_WIZARD_SCENARIOS_DESC' => 'Укажите наборы модулей, которые могут быть востребованы пользователями при работе в системе. При необходимости эти параметры могут быть изменены после установки системы.',
+
+	
+
 'LBL_WIZARD_SMTP' => 'Параметры сервера исходящей почты',
 'LBL_WIZARD_PERSONALINFO_DESC' => 'Введите контактную информацию. Эта информация будет доступна другим пользователям системы. Поля, помеченные значком <span class="required">*</span>, обязательны для заполнения.',
-'LBL_WIZARD_LOCALE_DESC' => 'Укажите ваш часовой пояс, формат отображения даты, времени, валюты и ФИО.',
+
 'LBL_WIZARD_SMTP_DESC' => 'Укажите параметры сервера исходящей почты.',
 'LBL_EAPM_SUBPANEL_TITLE' => 'Внешние учётные записи',
 
@@ -548,8 +557,8 @@ $mod_strings = array (
 'LBL_CHECKMARK' => 'Checkmark', /// /*for 508 compliance fix*/,
 'LBL_THEMEPREVIEW' => 'Preview', /// /*for 508 compliance fix*/,
 
-'LBL_OAUTH_TOKENS' => 'OAuth-маркёры',
-'LBL_OAUTH_TOKENS_SUBPANEL_TITLE' => 'OAuth-маркёры доступа',
+'LBL_OAUTH_TOKENS' => 'OAuth-токены',
+'LBL_OAUTH_TOKENS_SUBPANEL_TITLE' => 'OAuth-токены доступа',
 
 //For export labels
 'LBL_MODIFIED_USER_ID' => 'Ответственный(ая)-ID',
@@ -588,6 +597,7 @@ $mod_strings = array (
 'LBL_ENABLE_NOTIFICATIONS' => 'Отображать всплывающие уведомления браузера',
 'LBL_LIST_NONINHERITABLE' => 'Не наследуемая',
 'LBL_PRIMARY_GROUP' => 'Основная группа',
+'LBL_PASSWORD_MIS_MATCH' => 'не совпадают', ///
     
 ); // END STRINGS DEFS
 

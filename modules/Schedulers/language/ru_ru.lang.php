@@ -33,19 +33,19 @@ global $sugar_config;
 
 $mod_strings = array (
 // OOTB Scheduler Job Names:
-'LBL_OOTB_WORKFLOW'=> 'Обрабатывать задачи документооборота' ,
-'LBL_OOTB_REPORTS'=> 'Выполнять запланированные задачи создания отчётов' ,
+'LBL_OOTB_WORKFLOW'=> 'Выполнять настроенные процессы' ,
+'LBL_OOTB_REPORTS'=> 'Создавать отчёты по расписанию' ,
 'LBL_OOTB_IE'=> 'Проверять входящие письма' ,
 'LBL_OOTB_BOUNCE'=> 'Запускать ночью проверку почтовых ящиков для возвращаемых писем' ,
 'LBL_OOTB_CAMPAIGN'=> 'Запускать ночью массовую рассылку писем' ,
-'LBL_OOTB_PRUNE'=> 'Очищать таблицы трекера',
-'LBL_OOTB_TRACKER'=> 'Очищать историю последних просмотров первого числа каждого месяца',
+'LBL_OOTB_PRUNE'=> 'Очищать базу данных первого числа каждого месяца',
+'LBL_OOTB_TRACKER'=> 'Очищать таблицы трекера',
 'LBL_OOTB_SUGARFEEDS' => 'Очищать ленту событий',
 'LBL_OOTB_LUCENE_INDEX' => 'Индексировать неиндексированные документы',
 'LBL_OOTB_OPTIMISE_INDEX' => 'Оптимизировать индекс полнотекстового поиска',
 'LBL_UPDATE_TRACKER_SESSIONS' => 'Обновлять таблицу tracker_sessions',
 'LBL_OOTB_SEND_EMAIL_REMINDERS'	=> 'Отправлять напоминания о мероприятиях по E-mail',
-'LBL_OOTB_CLEANUP_QUEUE' => 'Очистить очередь заданий',
+'LBL_OOTB_CLEANUP_QUEUE' => 'Очищать очередь заданий',
 'LBL_OOTB_REMOVE_DOCUMENTS_FROM_FS' => 'Удалять неиспользуемые файлы из системы',
 
 // List Labels
@@ -100,7 +100,7 @@ $mod_strings = array (
 'LBL_DATE_TIME_START' => 'Дата и время начала' ,
 'LBL_INTERVAL' => 'Периодичность' ,
 'LBL_JOB' => 'Задание:' ,
-'LBL_JOB_URL' => 'URL задачи',
+'LBL_JOB_URL' => 'URL задания',
 'LBL_LAST_RUN' => 'Последний запуск' ,
 'LBL_MODULE_NAME' => 'Задания SuiteCRM' ,
 'LBL_MODULE_TITLE' => 'Планировщик' ,
@@ -147,7 +147,7 @@ $mod_strings = array (
 'LBL_PERFORMFULLFTSINDEX' => 'Full-text Search Index System',
 
 'LBL_RUNMASSEMAILCAMPAIGN' => 'Запускать ночью массовую рассылку писем',
-'LBL_POLLMONITOREDINBOXESFORBOUNCEDCAMPAIGNEMAILS' => 'Информировать ночью о неудачной рассылке',
+'LBL_POLLMONITOREDINBOXESFORBOUNCEDCAMPAIGNEMAILS' => 'Запускать ночью проверку почтовых ящиков для возвращаемых писем',
 'LBL_PRUNEDATABASE' => 'Очищать БД первого числа каждого месяца',
 'LBL_TRIMTRACKER' => 'Очищать таблицы трекера',
 'LBL_TRIMSUGARFEEDS'   => 'Очищать ленту событий',

@@ -76,7 +76,7 @@ $mod_strings = array (
 'LBL_MIN_AUTO_REFRESH_INTERVAL' => 'Минимальный интервал автообновления',
 'LBL_MIN_AUTO_REFRESH_INTERVAL_HELP' => 'Установка минимального интервала автообновления дашлета. Выберите "Никогда", если необходимо отключить автоматическое обновление.',
 'LBL_MODULE_FAVICON'               => 'Отображать иконку модуля в качестве иконки сайта',
-'LBL_MODULE_FAVICON_HELP'   => 'Если вы находитесь в модуле, содержащем иконку, то эта иконка будет использоваться в качестве иконки сайта, вместо иконки сайта, содержащейся в текущей теме.',
+'LBL_MODULE_FAVICON_HELP'   => 'Если вы находитесь в модуле, содержащем иконку, то эта иконка будет отображаться в качестве иконки сайта на закладке браузера.',
 'LBL_MODULE_NAME'=> 'Настройка  конфигурации' ,
 'LBL_MODULE_ID'  => 'Конфигуратор',
 'LBL_MODULE_TITLE'=> 'Пользовательский интерфейс' ,
@@ -108,6 +108,7 @@ $mod_strings = array (
 'LBL_ENABLE_INLINE_EDITING_LIST_DESC' => 'Редактирование данных непосредственно в Форме списка, не открывая Формы редактирования.',
 'LBL_ENABLE_INLINE_EDITING_DETAIL' => 'Включить быструю правку в Формах просмотра',
 'LBL_ENABLE_INLINE_EDITING_DETAIL_DESC' => 'Редактирование данных непосредственно в Форме просмотра, не открывая Формы редактирования.',
+'LBL_HIDE_SUBPANELS' => 'Отображать субпанели в свёрнутом виде',
 'LIST_ENTRIES_PER_LISTVIEW'=> 'Максимальное количество одновременно отображаемых записей в Форме списка' ,
 'LIST_ENTRIES_PER_SUBPANEL'=> 'Максимальное количество одновременно отображаемых записей в субпанелях' ,
 'LOG_MEMORY_USAGE'=> 'Вести журнал использования памяти' ,
@@ -357,7 +358,7 @@ $mod_strings = array (
 'LBL_ADD_FONT_BUTTON' => 'Add',
 'JS_ALERT_PDF_WRONG_EXTENSION' => 'This file do not have a good file extension.',
 'LBL_PDF_INSTRUCTIONS' => 'Instructions',
-'PDF_INSTRUCTIONS_ADD_FONT' => <<<BSOFR
+'PDF_INSTRUCTIONS_ADD_FONT' => '<<<BSOFR
 Fonts supported by SugarPDF :
 <ul>
 <li>TrueTypeUnicode (UTF-8 Unicode)</li>
@@ -373,8 +374,8 @@ If you choose to not embed your font in the PDF, the generated PDF file will be 
 Adding a PDF font to SugarCRM requires to follow steps 1 and 2 of the TCPDF Fonts documentation available in the "DOCS" section of the <a href="http://www.tcpdf.org" target="_blank">TCPDF website</a>.
 <br><br>The pfm2afm and ttf2ufm utils are available in fonts/utils in the TCPDF package that you can download on the "DOWNLOAD" section of the <a href="http://www.tcpdf.org" target="_blank">TCPDF website</a>.
 <br><br>Load the metric file generated in step 2 and your font file below.
-BSOFR
-,
+BSOFR',
+
 'ERR_MISSING_CIDINFO' => 'The field CID Information cannot be empty.',
 'LBL_ADDFONTRESULT_TITLE' => 'Result of the add font process',
 'LBL_STATUS_FONT_SUCCESS' => 'SUCCESS : The font has been added to SugarCRM.',
@@ -396,6 +397,12 @@ BSOFR
 'ERR_PDF_NO_UPLOAD' => 'Error during the upload of the font or metric file.', ///<-
 
 // Wizard
+//Wizard Scenarios
+'LBL_WIZARD_SCENARIOS' => 'Наборы модулей',
+'LBL_WIZARD_SCENARIOS_EMPTY_LIST' => 'Не выбран ни одни набор модулей',
+'LBL_WIZARD_LOCALE_DESC' => 'Укажите способ представления данных в системе, используя региональные настройки. По умолчанию будут использоваться именно эти настройки. При необходимости параметры можно настроить под каждого пользователя, указав необходимые значения в настройках профиля пользователя.',
+'LBL_WIZARD_SCENARIOS_DESC' => 'Укажите наборы модулей, которые могут быть востребованы пользователями при работе в системе. При необходимости эти параметры могут быть изменены после установки системы.',
+
 'LBL_WIZARD_TITLE' => 'Мастер настройки параметров SuiteCRM',
 'LBL_WIZARD_WELCOME_TAB' => 'Добро пожаловать',
 'LBL_WIZARD_WELCOME_TITLE' => 'Добро пожаловать в SuiteCRM!',
@@ -411,7 +418,7 @@ BSOFR
 To configure additional system settings, click <a href="index.php?module=Administration&action=index" target="_blank">here</a>.',
 'LBL_WIZARD_SYSTEM_TITLE' => 'Настройка логотипа',
 'LBL_WIZARD_SYSTEM_DESC' => 'Укажите название вашей организации и выберите логотип.',
-'LBL_WIZARD_LOCALE_DESC' => 'Укажите каким образом должны быть представлены данные в системе. Указанные здесь параметры будут являться параметрами по умолчанию. В дальнейшем пользователи смогут изменить данные параметры по своему усмотрению.',
+
 'LBL_WIZARD_SMTP_DESC' => 'Учётная запись исходящей почты будет использоваться для отправки исходящей почты, в том числе такой как уведомления о назначении ответственного, а также писем с информацией о новом пароле. Электронный адрес данной учётной записи будет фигурировать в получаемых письмах в качестве отправителя.',
 'LBL_GMAIL_LOGO' => 'Gmail Logo' /*for 508 compliance fix*/,
 'LBL_YAHOO_MAIL' => 'Yahoo Mail' /*for 508 compliance fix*/,

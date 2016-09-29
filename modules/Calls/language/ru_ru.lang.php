@@ -42,7 +42,7 @@ $mod_strings = array (
 'LBL_LIST_CONTACT' => 'Контакт' ,
 'LBL_LIST_RELATED_TO' => 'Относится к' ,
 'LBL_LIST_RELATED_TO_ID' => 'Относится к ID',
-'LBL_LIST_DATE' => 'Дата' ,
+'LBL_LIST_DATE' => 'Дата звонка' ,
 'LBL_LIST_TIME' => 'Время' ,
 'LBL_LIST_DURATION' => 'Продолжительность' ,
 'LBL_LIST_DIRECTION' => 'Направление' ,
@@ -53,7 +53,7 @@ $mod_strings = array (
 'LBL_DESCRIPTION' => 'Описание:' ,
 'LBL_STATUS' => 'Статус:' ,
 'LBL_DIRECTION' => 'Направление:' ,
-'LBL_DATE' => 'Дата:' ,
+'LBL_DATE' => 'Дата звонка:' ,
 'LBL_DURATION' => 'Продолжительность:' ,
 'LBL_DURATION_HOURS' => 'Продолжительность (час.):' ,
 'LBL_DURATION_MINUTES' => 'Продолжительность (мин.):' ,
@@ -162,7 +162,9 @@ $mod_strings = array (
     'LBL_RESCHEDULE_ERROR1' => 'Укажите правильную дату',
     'LBL_RESCHEDULE_ERROR2' => 'Укажите причину, по которой звонок отложен',
     'LBL_RESCHEDULE_PANEL' => 'Отложенные звонки',
-    'LBL_RESCHEDULE_HISTORY' => 'История дозвона'
+    'LBL_RESCHEDULE_HISTORY' => 'История дозвона',
+	'LBL_CANCEL' => 'Отказаться',
+    'LBL_SAVE' => 'Сохранить',
 	
 );
 

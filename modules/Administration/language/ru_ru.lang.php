@@ -67,6 +67,14 @@ $mod_strings = array (
 'LBL_WEEKS'=> 'недель',
 'LBL_MONTHS'=> 'месяцев',
 
+'LBL_MONDAY' => 'Понедельник',
+'LBL_TUESDAY' => 'Вторник',
+'LBL_WEDNESDAY' => 'Среда',
+'LBL_THURSDAY' => 'Черверг',
+'LBL_FRIDAY' => 'Пятница',
+'LBL_SATURDAY' => 'Суббота',
+'LBL_SUNDAY' => 'Воскресенье',
+
 'LBL_PUBLIC_KEY'=> 'Открытый ключ',
 'LBL_PRIVATE_KEY'=> 'Закрытый ключ',
 
@@ -392,6 +400,7 @@ Last attempted connection @ ',
 'LBL_LOGIN_SUGAR_SERVER_DESC'          => '- The User Name of the person who will operate this offline client', ///
 'LBL_LOGIN_SUGAR_SERVER'                => 'End User Name:', ///
 'LBL_MAILBOX_DESC' => 'Настройка учётных записей для обработки поступающих обращений' ,
+'LBL_MAILBOX_OUTBOUND_DESC' => 'Настройка учётных записей исходящей почты',
 'LBL_MANAGE_CONTRACTEMPLATES_TITLE'=> 'Contract Types',
 'LBL_MANAGE_CURRENCIES' => 'Валюта' ,
 'LBL_MANAGE_GROUPS_TITLE'   => 'Управление группами' ,
@@ -402,6 +411,7 @@ Last attempted connection @ ',
 'LBL_MANAGE_LICENSE'        => 'Manage license properties', ///
 'LBL_MANAGE_LOCALE' => 'Региональные настройки',
 'LBL_MANAGE_MAILBOX' => 'Входящие E-mail' ,
+'LBL_MANAGE_MAILBOX_OUTBOUND' => 'Исходящие E-mail',
 'LBL_MANAGE_OFFLINE_CLIENT'   => 'View Offline Clients', ///
 'LBL_MANAGE_OPPORTUNITIES' => 'Сделки' ,
 'LBL_MANAGE_PASSWORD_TITLE' => 'Управление паролями',
@@ -487,10 +497,10 @@ Last attempted connection @ ',
 'LBL_OOTB_BOUNCE'       => 'Запускать ночью проверку почтовых ящиков для возвращаемых писем' ,
 'LBL_OOTB_CAMPAIGN'     => 'Запускать ночью массовую рассылку писем' ,
 'LBL_OOTB_IE'           => 'Проверять входящие письма' ,
-'LBL_OOTB_PRUNE'        => 'Сжимать базу данных первого числа каждого месяца',
-'LBL_OOTB_REPORTS'      => 'Выполнять запланированные задачи создания отчётов' ,
-'LBL_OOTB_WORKFLOW'     => 'Обрабатывать задачи документооборота' ,
-'LBL_OOTB_TRACKER'=> 'Очищать историю последних просмотров первого числа каждого месяца',
+'LBL_OOTB_PRUNE'        => 'Очищать базу данных первого числа каждого месяца',
+'LBL_OOTB_REPORTS'      => 'Создавать отчёты по расписанию' ,
+'LBL_OOTB_WORKFLOW'     => 'Выполнять настроенные процессы' ,
+'LBL_OOTB_TRACKER'=> 'Очищать таблицы трекера',
 'LBL_UPDATE_TRACKER_SESSIONS' => 'Обновить таблицу tracker_sessions',
 'LBL_OOTB_SUGARFEEDS'   => 'Очищать ленту событий',
 'LBL_OOTB_DCE_CLNUP'    => 'Close loop on completed DCE actions', ///
@@ -1132,7 +1142,7 @@ Last attempted connection @ ',
 'LBL_JJWG_MAPS_ADMIN_GEOCODING_TEST_TITLE' => 'Тестирование геокодирования',
 'LBL_JJWG_MAPS_ADMIN_GEOCODING_TEST_DESC' => 'Запуск геокодирования введённого адреса с детальным просмотром результатов',
 'LBL_JJWG_MAPS_ADMIN_ADDRESS_CACHE_TITLE' => 'Кэш адресов',
-'LBL_JJWG_MAPS_ADMIN_ADDRESS_CACHE_DESC' => 'Доступ к кэшу адресов. Обратите внимание: это только кеш!',
+'LBL_JJWG_MAPS_ADMIN_ADDRESS_CACHE_DESC' => 'Доступ к кэшу адресов. Обратите внимание: это только кэш!',
 
 'LBL_COLOUR_SETTINGS' => 'Настройка темы',
 'LBL_COLOUR_DESC' => 'Настройка цветовой схемы и параметров темы',
@@ -1188,17 +1198,17 @@ Last attempted connection @ ',
 'LBL_AOP_CASE_REMINDER_EMAIL_TEMPLATE' => 'Шаблон письма для напоминаний',
 'LBL_AOP_JOOMLA_ACCOUNT_CREATION_EMAIL_TEMPLATE' => 'Шаблон письма при создании учётной записи Joomla',
 
-'LBL_AOP_BUSINESS_HOURS_SETTINGS' => 'Business Hours',
-'LBL_AOP_OPENING_DAYS' => 'Opening Days',
-'LBL_AOP_OPENING_HOURS' => 'Opening Hours',
-'LBL_AOP_CLOSING_HOURS' => 'Closing Hours',
+'LBL_AOP_BUSINESS_HOURS_SETTINGS' => 'График работы',
+'LBL_AOP_BUSINESS_HOURS_DESC' => 'Указание рабочих дней и часов работы организации',
+'LBL_AOP_OPENING_DAYS' => 'Рабочие дни', ///
+'LBL_AOP_OPENING_HOURS' => 'Рабочие часы', ///
+'LBL_AOP_CLOSING_HOURS' => 'Нерабочие часы', ///
 'LBL_SUPPORT_FROM_ADDRESS' => 'В качестве адреса отправителя указывать',
 'LBL_SUPPORT_FROM_NAME' => 'В качестве имени отправителя указывать',
 'LBL_CREATE_EMAIL_TEMPLATE' => 'Создать',
 'LBL_EDIT_EMAIL_TEMPLATE' => 'Изменить',
 'LBL_SINGLE_USER' => 'Указанный пользователь',
 'LBL_AOP_SETTINGS' => 'Настройка портала',
-'LBL_AOP_DESC' => 'Настройка параметров портала',
 
 'LBL_AOP_CASE_STATUS_SETTINGS' => 'Изменение статуса обращений',
 'LBL_AOP_IF_STATUS' => 'Если статус указан как',
@@ -1209,7 +1219,7 @@ Last attempted connection @ ',
 'LBL_AOD_ADMIN_MANAGE_AOD' => 'Настройка полнотекстового поиска',
 'LBL_AOD_ENABLE' => 'Включить полнотекстовый поиск',
 'LBL_AOD_SETTINGS' => 'Настройка полнотекстового поиска',
-'LBL_AOD_DESC' => 'Настройка параметров полнотекстового поиска',
+
 
 'LBL_AOS_ADMIN_CONTRACT_SETTINGS' => 'Параметры договоров',
 'LBL_AOS_ADMIN_CONTRACT_RENEWAL_REMINDER' => 'Уведомление об окончании действия за',
@@ -1222,10 +1232,12 @@ Last attempted connection @ ',
 'LBL_AOS_ADMIN_ENABLE_LINE_ITEM_GROUPS' => 'Возможность группировки позиций',
 'LBL_AOS_ADMIN_ENABLE_LINE_ITEM_TOTAL_TAX' => 'Включать НДС в сумму<br>(для каждой позиции)',
 'LBL_AOS_SETTINGS' => 'Настройка модулей продаж',
-'LBL_AOS_PRODUCTS' => 'AOS Products', ///
+'LBL_AOS_PRODUCTS' => 'Товары', ///
 'LBL_AOS_EDIT' => 'edit', ///
 'LBL_AOS_DAYS' => 'дней',
 'LBL_CHANGE_SETTINGS' => 'Настройка параметров договоров, счетов, предложений',
+'LBL_CHANGE_SETTINGS_AOD' => 'Настройка параметров полнотекстового поиска',
+'LBL_CHANGE_SETTINGS_AOP' => 'Настройка параметров портала',
 
 'LBL_MANAGE_SECURITYGROUPS_TITLE' => 'Создание Групп пользователей',
 'LBL_MANAGE_SECURITYGROUPS' => 'Создание Групп пользователей и включение в них Пользователей и Ролей',
@@ -1241,6 +1253,13 @@ Last attempted connection @ ',
 'LBL_SECURITYGROUPS_HOOKUP' => "Hookup Security Suite to work with your custom modules", ///
 'LBL_SECURITYGROUPS_SUGAROUTFITTERS_TITLE' => "SugarOutfitters",
 'LBL_SECURITYGROUPS_SUGAROUTFITTERS' => "Grab the latest version of SecuritySuite and find other SugarCRM modules, themes, and integrations along with reviews, docs, support, and community verified versions.",
+
+'LBL_BUSINESS_HOURS' => 'График работы',
+'LBL_BUSINESS_HOURS_DESC' => "Указание рабочих дней и часов работы организации",
+'LBL_BUSINESS_HOURS_FROM' => 'с',
+'LBL_BUSINESS_HOURS_TO' => 'до',
+'LBL_BUSINESS_HOURS_OPEN' => "Открыто",
+
 );
 
 ?>

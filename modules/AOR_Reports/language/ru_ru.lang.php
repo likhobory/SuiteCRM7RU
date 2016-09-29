@@ -92,4 +92,5 @@ $mod_strings = array (
   'LBL_TOOLTIP_DRAG_DROP_ELEMS' => 'Переместите выбранный элемент в список ', ///
   'LBL_MAIN_GROUPS' => 'Основная группа:',
   'LBL_CHAR_UNNAMED_DEFAULT_TITLE' => 'Без названия ',
+  'LBL_REPORT' => 'Отчёт',
 );

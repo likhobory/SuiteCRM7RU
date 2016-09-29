@@ -31,7 +31,7 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
 $mod_strings = array(
 'LBL_LOADING' => 'Загрузка' /*for 508 compliance fix*/,
 'LBL_HIDEOPTIONS' => 'Скрыть параметры' /*for 508 compliance fix*/,
-'LBL_DELETE' => 'удалить' /*for 508 compliance fix*/,
+'LBL_DELETE' => 'Корзина' /*for 508 compliance fix*/,
 'LBL_POWERED_BY_SUGAR' => 'Powered By SuiteCRM' /*for 508 compliance fix*/,
 
 'help'=>array(
@@ -203,7 +203,7 @@ $mod_strings = array(
 'portalLayoutHelp' => 'The modules within the Sugar Portal appear in this area.<br><br>Select a module to edit the <b>Layouts</b>.', ///
 'relationshipsHelp' => 'Здесь отображаются все связи между текущим и другими модулями.<br><br> <b>Название связи</b> создаётся системой автоматически при её добавлении. <br><br>Все указанные связи принадлежат <b>Основному модулю</b> и сохраняются в соответствующей таблице.<br><br>Нажмите на  заголовке таблицы при необходимости сортировки выбранной колонки, а так же при необходимости изменения отображения колонок.<br><br>Для просмотра свойств связи нажмите на соответствующей строке таблицы.<br/><br/>Для создания новой связи нажмите на кнопку <b>Добавить связь</b>. Связи могут быть установлены между двумя любыми установленными модулями.',
 'relationshipHelp'=> '<b>Связи</b> могут быть установлены между текущим и другими установленными модулями.<br><br> Визуально связи отображаются в виде субпанелей, а так же связанных полей.<br><br> Выберите один из возможных <b>Типов</b> связей модуля:<br><br> <b>Один-к-одному</b> - записи в обеих модулях будут содержать связанные поля.<br><br> <b>Один-ко-многим</b> - запись в главном модуле будет содержать субпанель, а запись в подчинённом модуле будет содержать связанное поле.<br><br> <b>Многие-ко-многим</b> - записи в обеих модулях будут содержать субпанели.<br><br> Выберите Подчинённый модуль для создания связи. <br><br> Если тип связи допускает наличие субпанелей - выберите субпанель для соответствующих модулей.<br><br>Нажмите кнопку <b>Сохранить</b> для создания связи.',
-'convertLeadHelp' => "Here you can add modules to the convert layout screen and modify the layouts of existing ones.<br/>
+'convertLeadHelp' => 'Here you can add modules to the convert layout screen and modify the layouts of existing ones.<br/>
 You can re-order the modules by dragging their rows in the table.<br/><br/>
 
 <b>Module:</b> The name of the module.<br/><br/>
@@ -211,8 +211,7 @@ You can re-order the modules by dragging their rows in the table.<br/><br/>
 <b>Copy Data:</b> If checked, fields from the lead will be copied to fields with the same name in the newly created records.<br/><br/>
 <b>Allow Selection:</b> Modules with a relate field in Contacts can be selected rather than created during the convert lead process.<br/><br/>
 <b>Edit:</b> Modify the convert layout for this module.<br/><br/>
-<b>Delete:</b> Remove this module from the convert layout.<br/><br/>
-",
+<b>Delete:</b> Remove this module from the convert layout.<br/><br/>',
 'editDropDownBtn' => 'Редактировать комбобокс',
 'addDropDownBtn' => 'Добавить новый комбобокс',
 ),
@@ -410,8 +409,8 @@ You can re-order the modules by dragging their rows in the table.<br/><br/>
 'LBL_TAB_PANELS_HELP' => 'Отображать подразделы формы на отдельных закладках',
 'LBL_TABDEF_TYPE' => 'Отображать как',
 'LBL_TABDEF_TYPE_HELP' => 'Выбор способа отображения данного подраздела: на панели, либо на отдельной закладке.',
-'LBL_TABDEF_TYPE_OPTION_TAB' => 'Панель',
-'LBL_TABDEF_TYPE_OPTION_PANEL' => 'Закладку',
+'LBL_TABDEF_TYPE_OPTION_TAB' => 'Закладку',
+'LBL_TABDEF_TYPE_OPTION_PANEL' => 'Панель',
 'LBL_TABDEF_TYPE_OPTION_HELP' => 'Выберите <b>Панель</b> для отображения данного подраздела на общей панели.<br/><br/>Выберите <b>Закладку</b> для для отображения данного подраздела на отдельной закладке. В этом случае все последующие подразделы, отображаемые как <b>Панель</b>, будут также отображены на этой закладке.<br/><br/>Первый подраздел будет автоматически отображаться в виде <b>Закладки</b>, если тип отображения одного из последующих подразделов указан как <b>Закладка</b>.',
 'LBL_TABDEF_COLLAPSE' => 'Свернуть',
 'LBL_TABDEF_COLLAPSE_HELP' => 'Выберите эту опцию для отображения текущего подраздела в свернутом виде.',
@@ -722,7 +721,7 @@ You can re-order the modules by dragging their rows in the table.<br/><br/>
 'image' => 'Image',
 ),
 'labelTypes' => array(
-"" => "Часто используемые надписи",
+"frequently_used" => "Часто используемые надписи",
 "all" => "Все надписи",
 ),
 
@@ -730,10 +729,7 @@ You can re-order the modules by dragging their rows in the table.<br/><br/>
 
 'LBL_ILLEGAL_FIELD_VALUE' => 'Ключ комбобокса не может содержать кавычки.',
 'LBL_CONFIRM_SAVE_DROPDOWN' => 'Вы удаляете выбранные значения из списка. Таким образом, удаляемые значения будут недоступны во всех комбобоксах, использующих данный список. Продолжить?',
-'LBL_POPHELP_VALIDATE_US_PHONE'=>"Select to validate this field for the entry of a 10-digit<br>" .
-"phone number, with allowance for the country code 1, and<br>" .
-"to apply a U.S. format to the phone number when the record<br>" .
-"is saved. The following format will be applied: (xxx) xxx-xxxx.",
+'LBL_POPHELP_VALIDATE_US_PHONE' => 'Select to validate this field for the entry of a 10-digit phone number,<br>with allowance for the country code 1,<br>and to apply a U.S. format to the phone number when the record is saved.<br> The following format will be applied: (xxx) xxx-xxxx.', ///
 'LBL_ALL_MODULES'=>'Все модули',
 'LBL_RELATED_FIELD_ID_NAME_LABEL' => '{0} (связано с ID модуля {1})',
 );

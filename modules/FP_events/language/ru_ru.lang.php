@@ -103,8 +103,32 @@ $mod_strings = array (
 'LBL_FP_EVENTS_LEADS_1_FROM_LEADS_TITLE' => 'Предварит. контакты',
 'LBL_FP_EVENTS_PROSPECTS_1_FROM_PROSPECTS_TITLE' => 'Адресаты',
 'LBL_FP_EVENTS_FP_EVENT_DELEGATES_1_FROM_FP_EVENT_DELEGATES_TITLE' => 'Участники',
-  
-);
+'LBL_HOURS_ABBREV' => 'час.' ,
+'LBL_MINSS_ABBREV' => 'мин.' ,
+
+	// Attendance report
+	'LBL_ACCEPT_REPORT' => 'Посещаемость', ///
+	'LBL_ACCEPT_REPORT_KEY' => '',
+	'LBL_CONTACT_NAME' => 'Имя',
+	'LBL_ACCOUNT_NAME' => 'Контрагент',
+	'LBL_SIGNATURE' => 'Подпись',
+	// email templates
+	'LBL_EMAIL_ACCEPT' => 'Принять',
+	'LBL_EMAIL_DECLINE' => 'Отклонить',
+	// contacts/leads/targets subpanels
+	'LBL_LIST_INVITE_STATUS_EVENT' => 'Приглашённые', ///
+	'LBL_LIST_ACCEPT_STATUS_EVENT' => 'Статус',
+	// counts
+	'LBL_NB_INVITES' => 'Приглашено:', ///
+	'LBL_NB_ACCEPT' => 'Принято приглашений:',
+	'LBL_NB_DECLINED' => 'Отклонено приглашений:',
+	'LBL_NB_ATTENDED' => 'Участвовали:',
+
+	'LBL_NAME_FIRST' => 'Имя',
+	'LBL_NAME_SECOND' => 'Фамилия',
+     
+	'LBL_ACTIVITY_STATUS' => 'Статус активности',
+  );
 //LBL_ERROR_MSG_4 Begins with a number(controller.php line 581) for example 10 emails have failed to send. 
 
 ?>

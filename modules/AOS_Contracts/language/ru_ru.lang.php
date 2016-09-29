@@ -91,7 +91,7 @@ $mod_strings = array (
 
   'LBL_SERVICE_NAME' => 'Услуга',
   'LBL_SERVICE_LIST_PRICE' => 'Стоимость по прайсу',
-  'LBL_SERVICE_PRICE' => 'Стоимость',
+  'LBL_SERVICE_PRICE' => 'Конечная стоимость',
   'LBL_SERVICE_DISCOUNT' => 'Скидка',
 
   'LBL_LINE_ITEMS' => 'Позиции',
