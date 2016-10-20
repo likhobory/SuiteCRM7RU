@@ -45,12 +45,14 @@ Russian RAPIRA language pack and manual for SuiteCRM
 
 Установленный язык можно указать в качестве языка по умолчанию. Для этого в панели администрирования в подразделе <b>Региональные настройки</b> выберите соответствующий языковой пакет (Admin->Locale Settings->Default Language).
 
+<b>Документация к SuiteCRM</b>
+
 Детальная информация по установке, настройке и использованию системы описана в [документации к SuiteCRM][man].
 Начинающим пользователям, не знакомым с SuiteCRM, в первую очередь рекомендуются к прочтению раздел 'Начало работы', знакомящий с основными настройками системы, и раздел 'Описание пользовательского интерфейса', описывающий базовые принципы работы в системе. 
 
 [langpack]: https://github.com/likhobory/SuiteCRM7RU/blob/ver.7.7/rapira-suite_pack_russian-7.7.zip?raw=true
 [suitecrm]: https://github.com/salesagility/SuiteCRM
-[man]: https://github.com/likhobory/SuiteCRM7RU/blob/master/DOCS/Russian_Rapira_Application_Guide_for_SuiteCRM_7.6.pdf?raw=true
+[man]: https://github.com/likhobory/SuiteCRM7RU/blob/master/DOCS/Russian_Rapira_Application_Guide_for_SuiteCRM_7.7.pdf?raw=true
 [forum]: https://suitecrm.com/forum/international-language-support/59
 [sugar]: https://ru.wikipedia.org/wiki/SugarCRM
 [history]: https://github.com/likhobory/SuiteCRM7RU/blob/master/HISTORY.TXT
