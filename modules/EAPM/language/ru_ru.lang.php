@@ -65,7 +65,7 @@ $mod_strings = array (
 'LBL_URL' => 'URL',
 'LBL_APPLICATION' => 'Приложение',
 'LBL_API_DATA' => 'API-данные',
-'LBL_API_TYPE' => 'Login Type',
+'LBL_API_TYPE' => 'Login Type', ///
 'LBL_API_CONSKEY' => 'Публичный ключ',
 'LBL_API_CONSSECRET' => 'Секретный ключ',
 'LBL_API_OAUTHTOKEN' => 'OAuth-токен',
@@ -89,13 +89,13 @@ $mod_strings = array (
 'LBL_CLICK_TO_EDIT' => 'Изменить',
 
 // Various strings used throughout the external account modules
-'LBL_MEET_NOW_BUTTON' => 'Назначить встречу на текущее время',
+'LBL_MEET_NOW_BUTTON' => 'Назначить встречу на текущее время', /// ->
 'LBL_VIEW_LOTUS_LIVE_MEETINGS' => 'Просмотр предстоящих встреч LotusLive&trade;',
 'LBL_TITLE_LOTUS_LIVE_MEETINGS' => 'Предстоящие встречи LotusLive&trade;',
 'LBL_VIEW_LOTUS_LIVE_DOCUMENTS' => 'Просмотр файлов LotusLive&trade;',
-'LBL_TITLE_LOTUS_LIVE_DOCUMENTS' => 'Файлы LotusLive&trade;',
+'LBL_TITLE_LOTUS_LIVE_DOCUMENTS' => 'Файлы LotusLive&trade;', /// <-
 'LBL_REAUTHENTICATE_LABEL' => 'Переподключиться',
-'LBL_REAUTHENTICATE_KEY' => 'a',
+'LBL_REAUTHENTICATE_KEY' => 'a', ///
 'LBL_APPLICATION_FOUND_NOTICE' => 'Учётная запись для данного приложения уже существует. Мы восстановили существующую учётную запись.',
 'LBL_OMIT_URL' => '(Без http:// или https://)',
 'LBL_OAUTH_SAVE_NOTICE' => 'Нажмите на кнопку <b>Подключить</b> для перенаправления на страницу ввода регистрационной информации. После успешного подключения вы автоматически вернётесь в SuiteCRM.',

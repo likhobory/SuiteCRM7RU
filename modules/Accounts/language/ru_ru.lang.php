@@ -154,13 +154,13 @@ $mod_strings = array (
 'LNK_IMPORT_ACCOUNTS' => 'Импорт контрагентов',
 'MSG_DUPLICATE' => 'Создаваемая запись, возможно, дублирует уже существующего контрагента. Схожие записи приведены в списке.<br>Нажмите на кнопку <b>Создать контрагента</b> для создания новой записи или выберите существующую запись из списка.',
 'MSG_SHOW_DUPLICATES' => 'Создаваемая запись, возможно, дублирует уже существующего контрагента. Схожие записи приведены в списке.<br>Нажмите на кнопку <b>Сохранить</b> для создания новой записи или на кнопку <b>Отказаться</b> для возврата в модуль без создания новой записи.',
-'NTC_COPY_BILLING_ADDRESS' => 'Копировать расчётный адрес в отгрузочный' ,
-'NTC_COPY_BILLING_ADDRESS2' => 'Копировать в отгрузочный адрес',
-'NTC_COPY_SHIPPING_ADDRESS' => 'Копировать отгрузочный адрес в расчётный' ,
-'NTC_COPY_SHIPPING_ADDRESS2' => 'Копировать в расчётный адрес',
+'NTC_COPY_BILLING_ADDRESS' => 'Копировать расчётный адрес в отгрузочный' , ///
+'NTC_COPY_BILLING_ADDRESS2' => 'Копировать в отгрузочный адрес', ///
+'NTC_COPY_SHIPPING_ADDRESS' => 'Копировать отгрузочный адрес в расчётный' , ///
+'NTC_COPY_SHIPPING_ADDRESS2' => 'Копировать в расчётный адрес', ///
 'NTC_DELETE_CONFIRMATION' => 'Вы действительно хотите удалить эту запись?' ,
-'NTC_REMOVE_ACCOUNT_CONFIRMATION' => 'Вы действительно хотите удалить эту запись?' ,
-'NTC_REMOVE_MEMBER_ORG_CONFIRMATION' => 'Вы действительно хотите удалить эту запись из членских организаций?' ,
+'NTC_REMOVE_ACCOUNT_CONFIRMATION' => 'Вы действительно хотите удалить эту запись?' , ///
+'NTC_REMOVE_MEMBER_ORG_CONFIRMATION' => 'Вы действительно хотите удалить эту запись из членских организаций?' , ///
 'LBL_ASSIGNED_USER_NAME' => 'Ответственный(ая):',
 'LBL_PROSPECT_LIST' => 'Адресаты',
 'LBL_ACCOUNTS_SUBPANEL_TITLE'=> 'Контрагенты',
@@ -171,7 +171,7 @@ $mod_strings = array (
 
 'LBL_PARENT_ID' => 'ID родителя',
 'LBL_PHONE_ALTERNATE' => 'Другой тел.',
-'LBL_EXPORT_ASSIGNED_USER_NAME' => 'Ответственный(ая)',
+'LBL_EXPORT_ASSIGNED_USER_NAME' => 'Ответственный(ая)', ///
 
 // SNIP
 'LBL_CONTACT_HISTORY_SUBPANEL_TITLE' => 'Related Contacts\' Emails', ///

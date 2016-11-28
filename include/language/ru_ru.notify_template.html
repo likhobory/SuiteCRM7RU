@@ -31,15 +31,14 @@
 SuiteCRM Quote - {QUOTE_SUBJECT}
 <!-- END: Quote_Subject -->
 <!-- BEGIN: Quote -->
-{ASSIGNER} has assigned a Quote to {ASSIGNED_USER}.
-
-Subject: {QUOTE_SUBJECT}
-Status: {QUOTE_STATUS}
-Expected Close Date: {QUOTE_CLOSEDATE}
-Description: {QUOTE_DESCRIPTION}
-
-You may review this Quote at:
-<{URL}>
+<b>{ASSIGNER}</b> has assigned a Quote to <b>{ASSIGNED_USER}</b>.
+<hr>
+Subject: {QUOTE_SUBJECT}<br />
+Status: {QUOTE_STATUS}<br />
+Expected Close Date: {QUOTE_CLOSEDATE}<br />
+Description: {QUOTE_DESCRIPTION}<br />
+<hr>
+You may <a href={URL}>review this Quote</a>
 <!-- END: Quote -->
 
 
@@ -47,14 +46,13 @@ You may review this Quote at:
 SuiteCRM - Контрагент: {ACCOUNT_NAME}
 <!-- END: Account_Subject -->
 <!-- BEGIN: Account -->
-{ASSIGNER} назначил(а) контрагента пользователю {ASSIGNED_USER}.
-
-Имя: {ACCOUNT_NAME}
-Тип: {ACCOUNT_TYPE}
-Описание: {ACCOUNT_DESCRIPTION}
-
-Вы можете просмотреть информацию по этому контрагенту здесь:
-<{URL}>
+<b>{ASSIGNER}</b> назначил(а) контрагента пользователю <b>{ASSIGNED_USER}</b>.
+<hr>
+Контрагент: {ACCOUNT_NAME}<br />
+Тип: {ACCOUNT_TYPE}<br />
+Описание: {ACCOUNT_DESCRIPTION}<br />
+<hr>
+Вы можете просмотреть информацию по этому контрагенту <a href={URL}>здесь</a>.
 <!-- END: Account -->
 
 
@@ -62,15 +60,14 @@ SuiteCRM - Контрагент: {ACCOUNT_NAME}
 SuiteCRM - Обращение: {CASE_SUBJECT}
 <!-- END: Case_Subject -->
 <!-- BEGIN: Case -->
-{ASSIGNER} назначил(а) обращение пользователю {ASSIGNED_USER}.
-
-Тема: {CASE_SUBJECT}
-Приоритет: {CASE_PRIORITY}
-Статус: {CASE_STATUS}
-Описание: {CASE_DESCRIPTION}
-
-Вы можете просмотреть информацию по этому обращению здесь:
-<{URL}>
+<b>{ASSIGNER}</b> назначил(а) обращение пользователю <b>{ASSIGNED_USER}</b>.
+<hr>
+Тема: {CASE_SUBJECT}<br />
+Приоритет: {CASE_PRIORITY}<br />
+Статус: {CASE_STATUS}<br />
+Описание: {CASE_DESCRIPTION}<br />
+<hr>
+Вы можете просмотреть информацию по этому обращению <a href={URL}>здесь</a>.
 <!-- END: Case -->
 
 
@@ -78,16 +75,15 @@ SuiteCRM - Обращение: {CASE_SUBJECT}
 SuiteCRM - Задача: {TASK_SUBJECT}
 <!-- END: Task_Subject -->
 <!-- BEGIN: Task -->
-{ASSIGNER} назначил(а) задачу пользователю {ASSIGNED_USER}.
-
-Тема: {TASK_SUBJECT}
-Приоритет:: {TASK_PRIORITY}
-Дата выполнения: {TASK_DUEDATE}
-Статус: {TASK_STATUS}
-Описание: {TASK_DESCRIPTION}
-
-Вы можете просмотреть информацию по этой задаче здесь:
-<{URL}>
+<b>{ASSIGNER}</b> назначил(а) задачу пользователю <b>{ASSIGNED_USER}</b>.
+<hr>
+Тема: {TASK_SUBJECT}<br />
+Приоритет:: {TASK_PRIORITY}<br />
+Дата выполнения: {TASK_DUEDATE}<br />
+Статус: {TASK_STATUS}<br />
+Описание: {TASK_DESCRIPTION}<br />
+<hr>
+Вы можете просмотреть информацию по этой задаче <a href={URL}>здесь</a>.
 <!-- END: Task -->
 
 
@@ -97,55 +93,58 @@ SuiteCRM - Встреча: {MEETING_SUBJECT}
 <!-- BEGIN: Meeting -->
 С кем: {MEETING_TO}
 
-{ASSIGNER} пригласил(а) Вас на встречу
-
-Тема: {MEETING_SUBJECT}
-Дата начала: {MEETING_STARTDATE}
+<b>{ASSIGNER}</b> пригласил(а) Вас на встречу
+<hr>
+Тема: {MEETING_SUBJECT}<br />
+Дата начала: {MEETING_STARTDATE}<br />
 Дата окончания: {MEETING_ENDDATE}
 <!-- BEGIN: Meeting_External_API -->
 Meeting URL: {MEETING_URL}
 <!-- END: Meeting_External_API -->
-Описание: {MEETING_DESCRIPTION}
+Описание: {MEETING_DESCRIPTION}<br />
 
-Принять участие во встрече:
-<{ACCEPT_URL}&accept_status=accept>
+<a href={ACCEPT_URL}&accept_status=accept>Принять участие во встрече</a>.
 
-Участие во встрече пока под вопросом:
-<{ACCEPT_URL}&accept_status=tentative>
+<a href={ACCEPT_URL}&accept_status=tentative>Участие во встрече пока под вопросом</a>.
 
-Отклонить встречу
-<{ACCEPT_URL}&accept_status=decline>
-
+<a href={ACCEPT_URL}&accept_status=decline>Отклонить встречу</a>.
 <!-- END: Meeting -->
 
 <!-- BEGIN: MeetingSpecial_Subject -->
 SuiteCRM - Встреча: {MEETING_SUBJECT}
 <!-- END: MeetingSpecial_Subject -->
 <!-- BEGIN: MeetingSpecial -->
-{ASSIGNER} назначил(а) встречу пользователю {ASSIGNED_USER}.
-
-Тема: {MEETING_SUBJECT}
-Статус: {MEETING_STATUS}
-Дата начала: {MEETING_STARTDATE}
-Дата окончания: {MEETING_ENDDATE}
-Описание: {MEETING_DESCRIPTION}
-
-Вы можете просмотреть информацию по этой встрече здесь:
-<{URL}>
+<b>{ASSIGNER}</b> назначил(а) встречу пользователю <b>{ASSIGNED_USER}</b>.
+<hr>
+Тема: {MEETING_SUBJECT}<br />
+Статус: {MEETING_STATUS}<br />
+Дата начала: {MEETING_STARTDATE}<br />
+Дата окончания: {MEETING_ENDDATE}<br />
+Описание: {MEETING_DESCRIPTION}<br />
+<hr>
+Вы можете просмотреть информацию по этой встрече <a href={URL}>здесь</a>.
 <!-- END: MeetingSpecial -->
 
+<!-- BEGIN: MeetingReminder_Subject -->
+Напоминание о встрече - {MEETING_SUBJECT}
+<!-- END: MeetingSpecial_Subject -->
+<!-- BEGIN: MeetingReminder -->
+    Тема: {MEETING_SUBJECT}<br />
+    Дата встречи: {MEETING_STARTDATE}<br />
+    Место встречи: {MEETING_LOCATION}<br />
+    Ответственный(ая): {MEETING_CREATED_BY}
+<!-- END: MeetingReminder -->
 
 <!-- BEGIN: Email_Subject -->
 SuiteCRM - E-mail: {EMAIL_SUBJECT}
 <!-- END: Email_Subject -->
 <!-- BEGIN: Email -->
-{ASSIGNER} назначил(а) E-mail пользователю {ASSIGNED_USER}.
-
-Тема: {EMAIL_SUBJECT}
-Дата отправки: {EMAIL_DATESENT}
-
-Вы можете просмотреть информацию по этому E-mail здесь:
-<{URL}>
+<b>{ASSIGNER}</b> назначил(а) E-mail пользователю <b>{ASSIGNED_USER}</b>.
+<hr>
+Тема: {EMAIL_SUBJECT}<br />
+Дата отправки: {EMAIL_DATESENT}<br />
+<hr>
+Вы можете просмотреть информацию по этому E-mail <a href={URL}>здесь</a>.
 <!-- END: Email -->
 
 
@@ -153,13 +152,12 @@ SuiteCRM - E-mail: {EMAIL_SUBJECT}
 SuiteCRM - Контакт: {CONTACT_NAME}
 <!-- END: Contact_Subject -->
 <!-- BEGIN: Contact -->
-{ASSIGNER} назначил(а) контакт пользователю {ASSIGNED_USER}.
-
-Имя: {CONTACT_NAME}
-Описание: {CONTACT_DESCRIPTION}
-
-Вы можете просмотреть информацию по этому контакту здесь:
-<{URL}>
+<b>{ASSIGNER}</b> назначил(а) контакт пользователю <b>{ASSIGNED_USER}</b>.
+<hr>
+Контакт: {CONTACT_NAME}<br />
+Описание: {CONTACT_DESCRIPTION}<br />
+<hr>
+Вы можете просмотреть информацию по этому контакту <a href={URL}>здесь</a>.
 <!-- END: Contact -->
 
 
@@ -167,15 +165,14 @@ SuiteCRM - Контакт: {CONTACT_NAME}
 SuiteCRM - Предварительный контакт: {LEAD_NAME}
 <!-- END: Lead_Subject -->
 <!-- BEGIN: Lead -->
-{ASSIGNER} назначил(а) предварительный контакт пользователю {ASSIGNED_USER}.
-
-Имя: {LEAD_NAME}
-Источник предв. контакта: {LEAD_SOURCE}
-Статус: {LEAD_STATUS}
-Описание: {LEAD_DESCRIPTION}
-
-Вы можете просмотреть информацию по этому предв. контакту здесь:
-<{URL}>
+<b>{ASSIGNER}</b> назначил(а) предварительный контакт пользователю <b>{ASSIGNED_USER}</b>.
+<hr>
+Предварительный контакт: {LEAD_NAME}<br />
+Источник предв. контакта: {LEAD_SOURCE}<br />
+Статус: {LEAD_STATUS}<br />
+Описание: {LEAD_DESCRIPTION}<br />
+<hr>
+Вы можете просмотреть информацию по этому предв. контакту <a href={URL}>здесь</a>.
 <!-- END: Lead -->
 
 
@@ -183,16 +180,14 @@ SuiteCRM - Предварительный контакт: {LEAD_NAME}
 SuiteCRM - Сделка: {OPPORTUNITY_NAME}
 <!-- END: Opportunity_Subject -->
 <!-- BEGIN: Opportunity -->
-{ASSIGNER} назначил(а) сделку пользователю {ASSIGNED_USER}.
-
-Имя: {OPPORTUNITY_NAME}
-Сумма: {OPPORTUNITY_AMOUNT}
-Ожидаемая дата закрытия: {OPPORTUNITY_CLOSEDATE}
-Стадия продаж: {OPPORTUNITY_STAGE}
-Описание: {OPPORTUNITY_DESCRIPTION}
-
-Вы можете просмотреть информацию по этой сделке здесь:
-<{URL}>
+<b>{ASSIGNER}</b> назначил(а) сделку пользователю <b>{ASSIGNED_USER}</b>.<hr>
+Сделка: {OPPORTUNITY_NAME}<br />
+Сумма: {OPPORTUNITY_AMOUNT}<br />
+Ожидаемая дата закрытия: {OPPORTUNITY_CLOSEDATE}<br />
+Стадия продаж: {OPPORTUNITY_STAGE}<br />
+Описание: {OPPORTUNITY_DESCRIPTION}<br />
+<hr>
+Вы можете просмотреть информацию по этой сделке <a href={URL}>здесь</a>.
 <!-- END: Opportunity -->
 
 
@@ -200,20 +195,19 @@ SuiteCRM - Сделка: {OPPORTUNITY_NAME}
 SuiteCRM - Ошибка: {BUG_SUBJECT}
 <!-- END: Bug_Subject -->
 <!-- BEGIN: Bug -->
-{ASSIGNER} назначил(а) ошибку пользователю {ASSIGNED_USER}.
-
-Номер ошибки: {BUG_BUG_NUMBER}
-Тема: {BUG_SUBJECT}
-Тип: {BUG_TYPE}
-Приоритет: {BUG_PRIORITY}
-Статус: {BUG_STATUS}
-Резолюция: {BUG_RESOLUTION}
-Версия: {BUG_RELEASE}
-Описание: {BUG_DESCRIPTION}
-Журнал: {BUG_WORK_LOG}
-
-Вы можете просмотреть информацию по этой ошибке здесь:
-<{URL}>
+<b>{ASSIGNER}</b> назначил(а) ошибку пользователю <b>{ASSIGNED_USER}</b>.
+<hr>
+Номер ошибки: {BUG_BUG_NUMBER}<br />
+Тема: {BUG_SUBJECT}<br />
+Тип: {BUG_TYPE}<br />
+Приоритет: {BUG_PRIORITY}<br />
+Статус: {BUG_STATUS}<br />
+Резолюция: {BUG_RESOLUTION}<br />
+Версия: {BUG_RELEASE}<br />
+Описание: {BUG_DESCRIPTION}<br />
+Журнал: {BUG_WORK_LOG}<br />
+<hr>
+Вы можете просмотреть информацию по этой ошибке <a href={URL}>здесь</a>.
 <!-- END: Bug -->
 
 
@@ -221,10 +215,9 @@ SuiteCRM - Ошибка: {BUG_SUBJECT}
 SuiteCRM - Назначено: {OBJECT}
 <!-- END: Default_Subject -->
 <!-- BEGIN: Default -->
-{OBJECT}: {ASSIGNER} назначил(а) запись пользователю {ASSIGNED_USER}.
-
-Более подробную информацию вы можете посмотреть здесь:
-<{URL}>
+{OBJECT}: <b>{ASSIGNER}</b> назначил(а) запись пользователю <b>{ASSIGNED_USER}</b>.
+<hr>
+Более подробную информацию вы можете посмотреть <a href={URL}>здесь</a>.
 <!-- END: Default -->
 
 <!-- BEGIN: Call_Subject -->
@@ -232,67 +225,72 @@ SuiteCRM - Звонок: {CALL_SUBJECT}
 <!-- END: Call_Subject -->
 <!-- BEGIN: Call -->
 Кому: {CALL_TO}
- {ASSIGNER} пригласил(а) Вас на встречу
-Тема: {CALL_SUBJECT}
-Статус: {CALL_STATUS}
-Дата начала: {CALL_STARTDATE}
-Продолжительность: {CALL_HOURS}час., {CALL_MINUTES}мин.
-Описание: {CALL_DESCRIPTION}
+<b>{ASSIGNER}</b> пригласил(а) Вас поучаствовать в телефонном разговоре
+<hr>
+Тема: {CALL_SUBJECT}<br />
+Статус: {CALL_STATUS}<br />
+Дата начала: {CALL_STARTDATE}<br />
+Продолжительность: {CALL_HOURS}час., {CALL_MINUTES}мин.<br />
+Описание: {CALL_DESCRIPTION}<br />
 
-Принять этот звонок:
-<{ACCEPT_URL}&accept_status=accept>
+<a href={ACCEPT_URL}&accept_status=accept>Принять этот звонок</a>.
 
-Принятие этого звонка пока под вопросом:
-<{ACCEPT_URL}&accept_status=tentative>
 
-Отклонить этот звонок:
-<{ACCEPT_URL}&accept_status=decline>
+<a href={ACCEPT_URL}&accept_status=tentative>Принятие этого звонка пока под вопросом</a>.
 
+
+<a href={ACCEPT_URL}&accept_status=decline>Отклонить этот звонок</a>.
 <!-- END: Call -->
 
 <!-- BEGIN: CallSpecial_Subject -->
 SuiteCRM - Звонок: {CALL_SUBJECT}
 <!-- END: CallSpecial_Subject -->
 <!-- BEGIN: CallSpecial -->
-{ASSIGNER} назначил(а) звонок пользователю {ASSIGNED_USER}.
-
-Тема: {CALL_SUBJECT}
-Статус: {CALL_STATUS}
-Дата начала: {CALL_STARTDATE}
-Продолжительность: {CALL_HOURS}час., {CALL_MINUTES}мин.
-Описание: {CALL_DESCRIPTION}
-
-Вы можете просмотреть информацию по этому звонку здесь:
-<{URL}>
+<b>{ASSIGNER}</b> назначил(а) звонок пользователю <b>{ASSIGNED_USER}</b>.
+<hr>
+Тема: {CALL_SUBJECT}<br />
+Статус: {CALL_STATUS}<br />
+Дата начала: {CALL_STARTDATE}<br />
+Продолжительность: {CALL_HOURS}час., {CALL_MINUTES}мин.<br />
+Описание: {CALL_DESCRIPTION}<br />
+<hr>
+Вы можете просмотреть информацию по этому звонку <a href={URL}>здесь</a>.
 <!-- END: CallSpecial -->
+
+<!-- BEGIN: CallReminder_Subject -->
+Напоминание о звонке - {CALL_SUBJECT}
+<!-- END: CallReminder_Subject -->
+<!-- BEGIN: CallReminder -->
+    Тема: {CALL_SUBJECT}<br />
+    Дата звонка: {CALL_STARTDATE}<br />
+    Ответственный(ая): {CALL_CREATED_BY}
+<!-- END: CallReminder -->
 
 <!-- BEGIN: Campaign_Subject -->
 SuiteCRM - Маркет. кампания: {CAMPAIGN_NAME}
 <!-- END: Campaign_Subject -->
 <!-- BEGIN: Campaign -->
-{ASSIGNER} назначил(а) маркет. кампанию пользователю {ASSIGNED_USER}.
-
-Имя: {CAMPAIGN_NAME}
-Бюджет: {CAMPAIGN_AMOUNT}
-Дата окончания: {CAMPAIGN_CLOSEDATE}
-Статус: {CAMPAIGN_STATUS}
-Описание: {CAMPAIGN_DESCRIPTION}
-
-Вы можете просмотреть информацию по этой маркет. кампании здесь:
-<{URL}>
+<b>{ASSIGNER}</b> назначил(а) маркет. кампанию пользователю <b>{ASSIGNED_USER}</b>.
+<hr>
+Маркетинговая кампания: {CAMPAIGN_NAME}<br />
+Бюджет: {CAMPAIGN_AMOUNT}<br />
+Дата окончания: {CAMPAIGN_CLOSEDATE}<br />
+Статус: {CAMPAIGN_STATUS}<br />
+Описание: {CAMPAIGN_DESCRIPTION}<br />
+<hr>
+Вы можете просмотреть информацию по этой маркет. кампании <a href={URL}>здесь</a>.
 <!-- END: Campaign -->
 
 <!-- BEGIN: Quota_Subject -->
 SuiteCRM Quotas - Your Quota for {QUOTA_TIMEPERIOD}
 <!-- END: Quota_Subject -->
 <!-- BEGIN: Quota -->
-{ASSIGNER} has assigned a Quota to {ASSIGNED_USER}.
-
-Amount: {QUOTA_AMOUNT}
-Timeperiod: {QUOTA_TIMEPERIOD}
-
-You may review this Quota assignment at:
-<{QUOTA_URL}>
+<b>{ASSIGNER}</b> has assigned a Quota to <b>{ASSIGNED_USER}</b>.
+<hr>
+Amount: {QUOTA_AMOUNT}<br />
+Timeperiod: {QUOTA_TIMEPERIOD}<br />
+<hr>
+You may <a href={QUOTA_URL}>review this Quota assignment</a>.
 <!-- END: Quota -->
 
 <!-- BEGIN: KBDocument_Subject -->
@@ -302,55 +300,29 @@ SuiteCRM Document - {KBDOCUMENT_NAME}
 
 {NOTIFICATION_MESSAGE}
 
-Name: {KBDOCUMENT_NAME}
-Created Date: {KBDOCUMENT_DATE_CREATED}
-Created By: {KBDOCUMENT_CREATED_BY}
-Status: {KBDOCUMENT_STATUS}
-Description: {KBDOCUMENT_DESCRIPTION}
-
-You may review this Document at:
-<{URL}>
+Name: {KBDOCUMENT_NAME}<br />
+Created Date: {KBDOCUMENT_DATE_CREATED}<br />
+Created By: {KBDOCUMENT_CREATED_BY}<br />
+Status: {KBDOCUMENT_STATUS}<br />
+Description: {KBDOCUMENT_DESCRIPTION}<br />
+<hr>
+You may <a href={URL}>review this Document</a>.
 <!-- END: KBDocument -->
 
 <!-- BEGIN: Contract_Subject -->
 SuiteCRM Contract - {CONTRACT_NAME}
 <!-- END: Contract_Subject -->
 <!-- BEGIN: Contract-->
-
-{ASSIGNER} has assigned a Contract to {ASSIGNED_USER}.
-
-You may review this Contract at:
-<{URL}>
+<b>{ASSIGNER}</b> has assigned a Contract to <b>{ASSIGNED_USER}</b>.
+<hr>
+You may <a href={URL}>review this Contract</a>.
 <!-- END:Contract-->
 
 <!-- BEGIN: ContractSpecial_Subject -->
 SuiteCRM Contract - {CONTRACT_NAME}
 <!-- END: ContractSpecial_Subject -->
 <!-- BEGIN: ContractSpecial -->
-
 Your Contract: {CONTRACT_NAME} will be our of date at {CONTRACT_END_DATE}.
-
-You may review this Contract at:
-<{URL}>
+<hr>
+You may <a href={URL}>review this Contract</a>.
 <!-- END:ContractSpecial-->
-
-<!-- BEGIN: MeetingReminder_Subject -->
-Напоминание о встрече - {MEETING_SUBJECT}
-<!-- END: MeetingSpecial_Subject -->
-<!-- BEGIN: MeetingReminder -->
-Тема: {MEETING_SUBJECT}
-Дата начала: {MEETING_STARTDATE}
-Дата и время: {MEETING_LOCATION}
-Ответственный(ая): {MEETING_CREATED_BY}
-
-<!-- END: MeetingReminder -->
-
-<!-- BEGIN: CallReminder_Subject -->
-Напоминание о звонке - {CALL_SUBJECT}
-<!-- END: CallReminder_Subject -->
-<!-- BEGIN: CallReminder -->
-Тема: {CALL_SUBJECT}
-Дата и время: {CALL_STARTDATE}
-Ответственный(ая): {CALL_CREATED_BY}
-
-<!-- END: CallReminder -->

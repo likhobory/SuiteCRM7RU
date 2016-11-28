@@ -56,7 +56,7 @@ $mod_strings = array (
 'db_amount' => 'LBL_LIST_AMOUNT',
 'db_date_closed' => 'LBL_LIST_DATE_CLOSED',
 //END DON'T CONVERT
-'UPDATE' => 'Сделка - валютное обновление' ,
+'UPDATE' => 'Сделка - валютное обновление' , /// ->
 'UPDATE_DOLLARAMOUNTS' => 'Обновить суммы в долларах США' ,
 'UPDATE_VERIFY' => 'Проверить суммы' ,
 'UPDATE_VERIFY_TXT' => 'Проверьте, что суммы в сделках имеют правильные значения, используются только цифры (0-9) и знак разряда (.)' ,
@@ -80,7 +80,7 @@ $mod_strings = array (
 'UPDATE_FAIL' => 'Не обновлено - ' ,
 'UPDATE_NULL_VALUE' => 'Сумма NULL установлена на 0 -' ,
 'UPDATE_MERGE' => 'Объединить валюты' ,
-'UPDATE_MERGE_TXT' => 'Объединение многих валют в одну. Если имеется много записей валют для одной и той же валюты, то объедините их вместе. Это так же объединит данные валюты  для всех остальных модулей.' ,
+'UPDATE_MERGE_TXT' => 'Объединение многих валют в одну. Если имеется много записей валют для одной и той же валюты, то объедините их вместе. Это так же объединит данные валюты  для всех остальных модулей.' , /// <-
 'LBL_ACCOUNT_NAME' => 'Контрагент:' ,
 'LBL_AMOUNT' => 'Сумма сделки:' ,
 'LBL_AMOUNT_USDOLLAR' => 'Сумма:',
@@ -100,12 +100,12 @@ $mod_strings = array (
 'LNK_OPPORTUNITY_LIST' => 'Сделки' ,
 'ERR_DELETE_RECORD' => 'Перед удалением сделки должен быть определён номер записи.' ,
 'LBL_TOP_OPPORTUNITIES' => 'Мои основные открытые сделки' ,
-'NTC_REMOVE_OPP_CONFIRMATION' => 'Вы действительно хотите удалить этот контакт из сделки?' ,
+'NTC_REMOVE_OPP_CONFIRMATION' => 'Вы действительно хотите удалить этот контакт из сделки?' , ///
 'OPPORTUNITY_REMOVE_PROJECT_CONFIRM' => 'Вы действительно хотите удалить данную сделку из проекта?' ,
 'LBL_DEFAULT_SUBPANEL_TITLE' => 'Сделки' ,
 'LBL_ACTIVITIES_SUBPANEL_TITLE'=> 'Мероприятия' ,
 'LBL_HISTORY_SUBPANEL_TITLE'=> 'История' ,
-'LBL_RAW_AMOUNT'=> 'Сырой объем' ,
+'LBL_RAW_AMOUNT'=> 'Сырой объем' , ///
 
 'LBL_LEADS_SUBPANEL_TITLE' => 'Предварительные контакты' ,
 'LBL_CONTACTS_SUBPANEL_TITLE' => 'Контакты' ,
@@ -128,17 +128,17 @@ $mod_strings = array (
 'LABEL_PANEL_ASSIGNMENT' => 'Назначение ответственного',
 'LNK_IMPORT_OPPORTUNITIES' => 'Импорт сделок',
 'LBL_EDITLAYOUT' => 'Изменить макет' /*for 508 compliance fix*/,
-//For export labels
+//For export labels ///
 'LBL_EXPORT_CAMPAIGN_ID' => 'Маркет. кампания (ID)',
 'LBL_OPPORTUNITY_TYPE' => 'Тип сделки',
-'LBL_EXPORT_ASSIGNED_USER_NAME' => 'Assigned User Name',
-'LBL_EXPORT_ASSIGNED_USER_ID' => 'Ответственный(ая)',
-'LBL_EXPORT_MODIFIED_USER_ID' => 'Изменено(ID)',
-'LBL_EXPORT_CREATED_BY' => 'Создано (ID)',
-'LBL_EXPORT_NAME'=> 'Имя',
+'LBL_EXPORT_ASSIGNED_USER_NAME' => 'Assigned User Name', ///
+'LBL_EXPORT_ASSIGNED_USER_ID' => 'Ответственный(ая)', ///
+'LBL_EXPORT_MODIFIED_USER_ID' => 'Изменено(ID)', ///
+'LBL_EXPORT_CREATED_BY' => 'Создано (ID)', ///
+'LBL_EXPORT_NAME'=> 'Имя', ///
 
 // SNIP
-'LBL_CONTACT_HISTORY_SUBPANEL_TITLE' => 'Related Contacts\' Emails',
+'LBL_CONTACT_HISTORY_SUBPANEL_TITLE' => 'Related Contacts\' Emails', ///
 'TWITTER_USER_C' => 'Учётная запись в Twitter',
 );
 

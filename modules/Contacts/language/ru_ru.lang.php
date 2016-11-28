@@ -129,11 +129,11 @@ $mod_strings = array (
 'LBL_OTHER_EMAIL_ADDRESS' => 'Другой E-mail:' ,
 'LBL_OTHER_PHONE' => 'Другой тел.:' ,
 'LBL_PHONE' => 'Тел.:' ,
-'LBL_PORTAL_ACTIVE' => 'Портал включён:' ,
+'LBL_PORTAL_ACTIVE' => 'Портал включён:' , ///
 'LBL_PORTAL_APP'=> 'Портальные приложения' ,
 'LBL_PORTAL_INFORMATION' => 'Портальная информация' ,
 'LBL_PORTAL_NAME' => 'Название портала:' ,
-'LBL_PORTAL_PASSWORD_ISSET' => 'Портальный пароль установлен:' ,
+'LBL_PORTAL_PASSWORD_ISSET' => 'Портальный пароль установлен:' , ///
 'LBL_STREET' => 'Улица',
 'LBL_POSTAL_CODE' => 'Индекс:' ,
 'LBL_PRIMARY_ADDRESS_CITY' => 'Основной адрес - город:' ,
@@ -173,12 +173,12 @@ $mod_strings = array (
 'LNK_SELECT_ACCOUNT' => 'Выбор контрагента' ,
 'MSG_DUPLICATE' => 'Создаваемый вами контакт, возможно, дублирует уже имеющуюся запись. Контакты, содержащие схожие имена показаны ниже. <br>Нажмите на кнопку <b>Создать контакт</b> для создания новой записи или выберите существующую запись из списка.' ,
 'MSG_SHOW_DUPLICATES' => 'Создаваемый вами контакт, возможно, дублирует уже имеющуюся запись. Контакты, содержащие схожие имена показаны ниже. Нажмите кнопку "Сохранить"  для продолжения создания нового контакта или кнопку "Отказаться" для возврата в модуль.',
-'NTC_COPY_ALTERNATE_ADDRESS' => 'Копировать дополнительный адрес в основной' ,
-'NTC_COPY_PRIMARY_ADDRESS' => 'Копировать основной адрес в дополнительный' ,
+'NTC_COPY_ALTERNATE_ADDRESS' => 'Копировать дополнительный адрес в основной' , ///
+'NTC_COPY_PRIMARY_ADDRESS' => 'Копировать основной адрес в дополнительный' , ///
 'NTC_DELETE_CONFIRMATION' => 'Вы уверены, что хотите удалить эту запись?' ,
 'NTC_OPPORTUNITY_REQUIRES_ACCOUNT' => 'Создание сделки требует контрагента.\n Пожалуйста, или создайте нового контрагента или выберите из уже существующих.' ,
 'NTC_REMOVE_CONFIRMATION' => 'Вы уверены, что хотите удалить этот контакт из данного обращения?' ,
-'NTC_REMOVE_DIRECT_REPORT_CONFIRMATION' => 'Вы уверены, что хотите удалить эту запись из личных отчётов?' ,
+'NTC_REMOVE_DIRECT_REPORT_CONFIRMATION' => 'Вы уверены, что хотите удалить эту запись из личных отчётов?' , ////
 
 'LBL_USER_PASSWORD' => 'Пароль:',
 
@@ -191,7 +191,7 @@ $mod_strings = array (
 'LBL_CASES_SUBPANEL_TITLE' => 'Обращения' ,
 'LBL_BUGS_SUBPANEL_TITLE' => 'Ошибки' ,
 'LBL_PROJECTS_SUBPANEL_TITLE' => 'Проекты' ,
-'LBL_PROJECTS_RESOURCES' => 'Projects Resources', ///
+'LBL_PROJECTS_RESOURCES' => 'Ресурсы проекта', 
 'LBL_TARGET_OF_CAMPAIGNS' => 'Адресат маркет. кампании:' ,
 'LBL_CAMPAIGNS'=> 'Маркет. кампании' ,
 'LBL_CAMPAIGN_LIST_SUBPANEL_TITLE'=> 'Маркет. кампании',
@@ -203,29 +203,29 @@ $mod_strings = array (
 'LBL_CHECKOUT_DATE'=> 'Дата проверки',
 'LBL_CONTACTS_SUBPANEL_TITLE' => 'Контакты',
 'LBL_PROJECT_SUBPANEL_TITLE' => 'Проекты',
-'LBL_CAMPAIGNS_SUBPANEL_TITLE' => 'Маркетинговые кампании',
+'LBL_CAMPAIGNS_SUBPANEL_TITLE' => 'Маркетинговые кампании', ////
 'LNK_IMPORT_CONTACTS' => 'Импорт контактов',
 
-//For export labels
-'LBL_PHONE_HOME' => 'Тел. (дом.)',
-'LBL_PHONE_MOBILE' => 'Тел. (моб.)',
-'LBL_PHONE_WORK' => 'Тел. (раб.)',
-'LBL_PHONE_OTHER' => 'Другой тел.',
+//For export labels ///
+'LBL_PHONE_HOME' => 'Тел. (дом.)', ///
+'LBL_PHONE_MOBILE' => 'Тел. (моб.)', ///
+'LBL_PHONE_WORK' => 'Тел. (раб.)', ///
+'LBL_PHONE_OTHER' => 'Другой тел.', ///
 'LBL_PHONE_FAX' => 'Факс',
 
 
-'LBL_EXPORT_ASSIGNED_USER_NAME' => 'Ответственный(ая)',
-'LBL_EXPORT_ASSIGNED_USER_ID' => 'Ответственный(ая)-ID',
-'LBL_EXPORT_MODIFIED_USER_ID' => 'Изменено(ID)',
-'LBL_EXPORT_CREATED_BY' => 'Создано (ID)',
-'LBL_EXPORT_PHONE_HOME' => 'Тел. (дом.)',
-'LBL_EXPORT_PHONE_MOBILE' => 'Тел. (моб.)',
+'LBL_EXPORT_ASSIGNED_USER_NAME' => 'Ответственный(ая)', ///
+'LBL_EXPORT_ASSIGNED_USER_ID' => 'Ответственный(ая)-ID', ///
+'LBL_EXPORT_MODIFIED_USER_ID' => 'Изменено(ID)', ///
+'LBL_EXPORT_CREATED_BY' => 'Создано (ID)', ///
+'LBL_EXPORT_PHONE_HOME' => 'Тел. (дом.)', ///
+'LBL_EXPORT_PHONE_MOBILE' => 'Тел. (моб.)', ///
 // SNIP
 'LBL_CONTACT_HISTORY_SUBPANEL_TITLE' => 'Related Contacts\' Emails', ///
 'LBL_USER_SYNC' => 'User Sync',
 
 'LBL_FP_EVENTS_CONTACTS_FROM_FP_EVENTS_TITLE' => 'События',
-'LBL_FP_EVENT_DELEGATES_CONTACTS_1_FROM_FP_EVENT_DELEGATES_TITLE' => 'Участники',
+'LBL_FP_EVENT_DELEGATES_CONTACTS_1_FROM_FP_EVENT_DELEGATES_TITLE' => 'Участники', ///
 
 'LBL_AOP_CASE_UPDATES' => 'Обновления обращения',
 'LBL_CREATE_PORTAL_USER' => 'Создать пользователя портала',

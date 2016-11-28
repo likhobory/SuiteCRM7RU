@@ -84,7 +84,7 @@ $mod_strings = array (
 'LBL_NOTIFY_SUBJECT' => 'Тема E-mail:' ,
 'LBL_PORTAL_ON_DESC' => 'Allows users to manage portal user information within contact records. Portal users can access Cases, Bugs, Knowledge Base articles and other data through the Sugar Portal application.', ///
 'LBL_PORTAL_ON' => 'Enable Portal User Management', ///
-'LBL_PORTAL_TITLE' => 'Пользовательский портал' ,
+'LBL_PORTAL_TITLE' => 'Пользовательский портал' , ///
 'LBL_PROXY_AUTH'=> 'Аутентификация?' ,
 'LBL_PROXY_HOST'=> 'Прокси-сервер' ,
 'LBL_PROXY_ON_DESC'=> 'Настройка прокси-сервера и параметров регистрации в системе' ,
@@ -415,7 +415,7 @@ BSOFR',
 'LBL_WIZARD_FINISH_TAB' => 'Готово',
 'LBL_WIZARD_FINISH_TITLE' => 'Настройка основных параметров системы завершена',
 'LBL_WIZARD_FINISH' => 'Click <b>Continue</b> to configure your user settings.<br/><br />
-To configure additional system settings, click <a href="index.php?module=Administration&action=index" target="_blank">here</a>.',
+To configure additional system settings, click <a href="index.php?module=Administration&action=index" target="_blank">here</a>.', ///
 'LBL_WIZARD_SYSTEM_TITLE' => 'Настройка логотипа',
 'LBL_WIZARD_SYSTEM_DESC' => 'Укажите название вашей организации и выберите логотип.',
 

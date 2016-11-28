@@ -290,7 +290,7 @@ $mod_strings = array (
     'LBL_HIDE_NOTES' => 'Скрыть примечания',
     'LBL_SHOW_PREVIEW_COLUMNS' => 'Show Preview Columns',    ///
     'LBL_HIDE_PREVIEW_COLUMNS' => 'Hide Preview Columns',     ///
-    'LBL_SAVE_MAPPING_AS' => 'Сохранить схему импорта как:',               ///
+    'LBL_SAVE_MAPPING_AS' => 'Сохранить схему импорта как:',               
     'LBL_OPTION_ENCLOSURE_QUOTE' => 'Одинарная кавычка (\')',
     'LBL_OPTION_ENCLOSURE_DOUBLEQUOTE' => 'Двойная кавычка (")',
     'LBL_OPTION_ENCLOSURE_NONE' => 'Нет',
@@ -362,7 +362,7 @@ $mod_strings = array (
 
 	'LBL_EXTERNAL_MAP_HELP' => 'The table below contains the fields in the external source and the module fields to which they are mapped. Check the mappings to make sure that they are what you expect, and make changes, as necessary. Be sure to map to all of the required fields (noted by an asterisk).', ///
     'LBL_EXTERNAL_MAP_NOTE' => 'The import will be attempted for contacts within all Google Contacts groups.', ///
-    'LBL_EXTERNAL_MAP_NOTE_SUB' => 'The User Names of the newly created users will be the Full Names of the Google Contact by default. The User Names can be changed after the user records are created.',
+    'LBL_EXTERNAL_MAP_NOTE_SUB' => 'The User Names of the newly created users will be the Full Names of the Google Contact by default. The User Names can be changed after the user records are created.', ///
 	'LBL_EXTERNAL_MAP_SUB_HELP' => 'Click <b>Import Now</b> to begin the import. Records will only be created for entries that include last names. Records will not be created for data identified as duplicate based on names and/or email addresses matching existing records.', ///
     'LBL_EXTERNAL_FIELD_TOOLTIP' => 'This column displays the fields in the external source containing data that will be used to create new records.', ///
     'LBL_EXTERNAL_DEFAULT_TOOPLTIP' => 'Indicate a value to use for the field in the created record if the field in the external source contains no data.', ///

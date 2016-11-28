@@ -83,7 +83,7 @@ $mod_strings = array (
 'NTC_NO_LEGENDS' => 'Нет'  ,
 
 'LBL_TITLE' => 'Заголовок: ',
-'LBL_MY_MODULES_USED_SIZE' => 'Access Count', ///
+'LBL_MY_MODULES_USED_SIZE' => 'Access Count',  ///
 
 'LBL_CHART_ACTION' => 'Action', ///
 'LBL_CHART_PIPELINE_BY_SALES_STAGE' => 'Диаграмма стадий общих продаж',

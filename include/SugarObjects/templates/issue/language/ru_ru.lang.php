@@ -47,7 +47,7 @@ $mod_strings = array (
 'LBL_DATE_MODIFIED'=> 'Дата изменения:' ,
 'LBL_MODIFIED_BY' => 'Кем изменено:',
 'LBL_ASSIGNED_USER' => 'Ответственный(ая):',
-'LBL_SYSTEM_ID' => 'System ID' ,
+'LBL_SYSTEM_ID' => 'System ID' , ///
 'LBL_TYPE'=> 'Тип',
 'LBL_SUBJECT' => 'Тема:',
 

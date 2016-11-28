@@ -30,12 +30,12 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
  // Replaced by RAPIRA <--
  
 $mod_strings = array (
-'ERR_DELETE_RECORD' => 'Для удаления встречи должен быть определен номер записи.' ,
+'ERR_DELETE_RECORD' => 'Для удаления встречи должен быть определён номер записи.' ,
 
 'LBL_ACCEPT_THIS'=> 'Принять?',
 'LBL_ADD_BUTTON'=> 'Добавить' ,
 'LBL_ADD_INVITEE' => 'Добавить приглашённых' ,
-'LBL_COLON' => ':' ,
+'LBL_COLON' => ':' , ////
 'LBL_CONTACT_NAME' => 'Контакт:' ,
 'LBL_CONTACTS_SUBPANEL_TITLE' => 'Контакты' ,
 'LBL_CREATED_BY'=> 'Кем создано' ,
@@ -70,7 +70,7 @@ $mod_strings = array (
 'LBL_LIST_RELATED_TO' => 'Относится к' ,
 'LBL_LIST_STATUS'=> 'Статус' ,
 'LBL_LIST_SUBJECT' => 'Тема' ,
-'LBL_LIST_TIME' => 'Время начала' ,
+'LBL_LIST_TIME' => 'Время начала' , ////
 'LBL_LEADS_SUBPANEL_TITLE' => 'Предварительные контакты',
 'LBL_LOCATION' => 'Место встречи:' ,
 'LBL_MEETING' => 'Встреча:' ,
@@ -95,7 +95,7 @@ $mod_strings = array (
 'LBL_SCHEDULING_FORM_TITLE' => 'Планирование' ,
 'LBL_SEARCH_BUTTON'=> 'Найти' ,
 'LBL_SEARCH_FORM_TITLE' => 'Поиск встречи' ,
-'LBL_SEND_BUTTON_KEY'=> 'I' ,
+'LBL_SEND_BUTTON_KEY'=> 'I' , ///
 'LBL_SEND_BUTTON_LABEL'=> 'Сохранить и отправить приглашения' ,
 'LBL_SEND_BUTTON_TITLE'=> 'Сохранить и отправить приглашения' ,
 'LBL_STATUS' => 'Статус:' ,
@@ -109,9 +109,9 @@ $mod_strings = array (
 'LBL_SUBJECT' => 'Тема встречи:' ,
 'LBL_TIME' => 'Время начала:' ,
 'LBL_USERS_SUBPANEL_TITLE' => 'Пользователи' ,
-'LBL_ACTIVITIES_REPORTS' => 'Отчёты по мероприятиям',
-'LBL_PARENT_TYPE' => 'Parent Type', ///
-'LBL_PARENT_ID' => 'Parent ID', ///
+'LBL_ACTIVITIES_REPORTS' => 'Отчёты по мероприятиям', ///
+'LBL_PARENT_TYPE' => 'Parent Type', 
+'LBL_PARENT_ID' => 'Parent ID',
 'LNK_MEETING_LIST'=> 'Встречи' ,
 'LNK_NEW_APPOINTMENT' => 'Назначить встречу/звонок' ,
 'LNK_NEW_MEETING'=> 'Назначить встречу' ,
@@ -125,33 +125,33 @@ $mod_strings = array (
 'LBL_LIST_JOIN_MEETING' => 'Присоединиться к встрече',
 'LBL_JOIN_EXT_MEETING' => 'Присоединиться к встрече',
 'LBL_HOST_EXT_MEETING' => 'Начало встречи',
-'LBL_ACCEPT_STATUS' => 'Статус приглашения', ///
-'LBL_ACCEPT_LINK' => 'Accept Link', ///
+'LBL_ACCEPT_STATUS' => 'Статус приглашения',
+'LBL_ACCEPT_LINK' => 'Accept Link', 
 // You are not invited to the meeting messages
-'LBL_EXTNOT_HEADER' => 'Ошибка: Вы не приглашены на встречу',
+'LBL_EXTNOT_HEADER' => 'Ошибка: Вы не приглашены на встречу', ///
 'LBL_EXTNOT_MAIN' => 'Вы не можете присоединиться к данной встрече, поскольку вы не приглашены на неё.',
 'LBL_EXTNOT_RECORD_LINK' => 'Просмотр информации о встрече',
-'LBL_EXTNOT_GO_BACK' => 'Вернуться к предыдущей записи',
+'LBL_EXTNOT_GO_BACK' => 'Вернуться к предыдущей записи', ///
 
 //cannot start messages
-'LBL_EXTNOSTART_HEADER' => 'Ошибка: Встреча не может быть начата',
+'LBL_EXTNOSTART_HEADER' => 'Ошибка: Встреча не может быть начата', ///
 'LBL_EXTNOSTART_MAIN' => 'Вы не можете начать данную встречу, поскольку вы не администратор системы, либо встреча была запланирована не вами.',
 
-//For export labels
+//For export labels  ///
 'LBL_EXPORT_JOIN_URL' => 'Join Url', ///
 'LBL_EXPORT_HOST_URL' => 'Host Url', ///
 'LBL_EXPORT_DISPLAYED_URL' => 'Displayed Url', ///
-'LBL_EXPORT_ASSIGNED_USER_ID' => 'Ответственный(ая)-ID',
-'LBL_EXPORT_EXTERNAL_ID' => 'Внешний ID',
-'LBL_EXPORT_ASSIGNED_USER_NAME' => 'Ответственный(ая)',
-'LBL_EXPORT_MODIFIED_USER_ID' => 'Изменено(ID)',
-'LBL_EXPORT_CREATED_BY' => 'Создано (ID)',
+'LBL_EXPORT_ASSIGNED_USER_ID' => 'Ответственный(ая)-ID', ////
+'LBL_EXPORT_EXTERNAL_ID' => 'Внешний ID', ///
+'LBL_EXPORT_ASSIGNED_USER_NAME' => 'Ответственный(ая)', ///
+'LBL_EXPORT_MODIFIED_USER_ID' => 'Изменено(ID)', ///
+'LBL_EXPORT_CREATED_BY' => 'Создано (ID)', ///
 
-'LBL_EXPORT_DATE_START' => 'Дата и время начала',
-'LBL_EXPORT_DATE_END' => 'Дата и время окончания',
-'LBL_EXPORT_PARENT_TYPE' => 'Относится к модулю',
-'LBL_EXPORT_PARENT_ID' => 'Модуль(ID)',
-'LBL_EXPORT_REMINDER_TIME' => 'Напоминание (минуты)',
+'LBL_EXPORT_DATE_START' => 'Дата и время начала', ////
+'LBL_EXPORT_DATE_END' => 'Дата и время окончания', ///
+'LBL_EXPORT_PARENT_TYPE' => 'Относится к модулю', ////
+'LBL_EXPORT_PARENT_ID' => 'Модуль(ID)', ///
+'LBL_EXPORT_REMINDER_TIME' => 'Напоминание (минуты)', ////
 
 // create invitee functionallity
 'LBL_CREATE_INVITEE' => 'Составить приглашение:',
@@ -164,7 +164,7 @@ $mod_strings = array (
 
 'LBL_REPEAT_TYPE' => 'Тип повтора',
 'LBL_REPEAT_INTERVAL' => 'Интервал повтора',
-'LBL_REPEAT_DOW' => 'Repeat Dow',
+'LBL_REPEAT_DOW' => 'Repeat Dow', ////
 'LBL_REPEAT_UNTIL' => 'Прекратить',
 'LBL_REPEAT_COUNT' => 'Число повторов',
 'LBL_REPEAT_PARENT_ID' => 'Repeat Parent ID',

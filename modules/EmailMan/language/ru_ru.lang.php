@@ -32,7 +32,7 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
 $mod_strings = array (
 'LBL_SEND_DATE_TIME'=> 'Дата отправки',
 'LBL_IN_QUEUE'=> 'Выполняется..',
-'LBL_IN_QUEUE_DATE'=> 'Дата постановки в очередь',
+'LBL_IN_QUEUE_DATE'=> 'Дата постановки в очередь', ///
 
 'ERR_INT_ONLY_EMAIL_PER_RUN'=> 'Используйте только целое значение для указания числа писем при пакетной рассылке' ,
 
@@ -41,8 +41,8 @@ $mod_strings = array (
 'LBL_CUSTOM_LOCATION'=> 'Определено пользователем' ,
 'LBL_DEFAULT_LOCATION'=> 'По умолчанию' ,
 
-'LBL_DISCLOSURE_TITLE'=> 'Добавлять сообщение к каждому E-mail',
-'LBL_DISCLOSURE_TEXT_TITLE'=> 'Содержание сообщения',
+'LBL_DISCLOSURE_TITLE'=> 'Добавлять сообщение к каждому E-mail', ///
+'LBL_DISCLOSURE_TEXT_TITLE'=> 'Содержание сообщения', ///
 'LBL_DISCLOSURE_TEXT_SAMPLE'=> ' ', ///
 
 'LBL_EMAIL_DEFAULT_CHARSET'=> 'Создавать E-mail в  этой кодировке',
@@ -97,9 +97,9 @@ $mod_strings = array (
 'LBL_NOTIFY_FROMADDRESS' => 'E-mail отправителя:' ,
 'LBL_NOTIFY_FROMNAME' => 'Имя отправителя:' ,
 'LBL_NOTIFY_ON'=> 'Отправление уведомлений' ,
-'LBL_NOTIFY_SEND_BY_DEFAULT'=> 'Отправлять уведомления новым пользователям' ,
+'LBL_NOTIFY_SEND_BY_DEFAULT'=> 'Отправлять уведомления новым пользователям' , ///
 'LBL_NOTIFY_TITLE'=> 'Параметры E-mail' ,
-'LBL_OLD_ID'=> 'Старый ID' ,
+'LBL_OLD_ID'=> 'Старый ID' , ///
 'LBL_OUTBOUND_EMAIL_TITLE'=> 'Параметры исходящей почты' ,
 'LBL_RELATED_ID'=> 'Родительский ID' ,
 'LBL_RELATED_TYPE'=> 'Родительский тип' ,

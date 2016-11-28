@@ -43,7 +43,7 @@ $mod_strings['LBL_MODULE_TYPE'] = 'Отображать на карте объе
 $mod_strings['LBL_DISTANCE'] = 'Отображать объекты, находящиеся в радиусе:';
 $mod_strings['LBL_UNIT_TYPE'] = 'Единицы измерения расстояния:';
 
-$mod_strings['LBL_MAP_ACTION'] = 'Map It';
+$mod_strings['LBL_MAP_ACTION'] = 'Map It'; ///
 $mod_strings['LBL_MAP_DISPLAY'] = 'Отобразить карту';
 $mod_strings['LBL_MAP_LEGEND'] = 'Условные обозначения:';
 $mod_strings['LBL_MAP_USERS'] = 'Пользователи:';
@@ -69,7 +69,7 @@ $mod_strings['LBL_MAP_NULL_GROUP_NAME'] = '--не указано--';
 $mod_strings['LBL_MAP_ADDRESS'] = 'Адрес';
 $mod_strings['LBL_MAP_PROCESS'] = 'Запустить';
 
-$mod_strings['LBL_MAP_LAST_STATUS'] = 'Last Geocode Status'; ///
+$mod_strings['LBL_MAP_LAST_STATUS'] = 'Статус геокодирования'; 
 $mod_strings['LBL_MAP_GEOCODED_COUNTS'] = 'Результаты геокодирования';
 $mod_strings['LBL_GEOCODED_COUNTS'] = 'Результаты геокодирования';
 $mod_strings['LBL_CRON_URL'] = 'Cron URL:';

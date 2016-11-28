@@ -43,7 +43,7 @@ array (
 'Assigned' => 'Назначенное' ,
 'Closed' => 'Закрытое' ,
 'Pending Input' => 'Ожидание решения' ,
-'Rejected' => 'Отклоненное'    ,
+'Rejected' => 'Отклонённое'    ,
 'Duplicate' => 'Дублировать' ,
 ),
 $object_name.'_priority_dom' =>

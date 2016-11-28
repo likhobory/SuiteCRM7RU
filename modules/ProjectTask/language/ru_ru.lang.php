@@ -34,7 +34,7 @@ $mod_strings = array (
 'LBL_MODULE_TITLE' => 'Проектные задачи' ,
 'LBL_SEARCH_FORM_TITLE' => 'Поиск проектной задачи' ,
 'LBL_LIST_FORM_TITLE'=> 'Список задач проекта' ,
-'LBL_EDIT_TASK_IN_GRID_TITLE'=> 'Edit Task In Grid',
+'LBL_EDIT_TASK_IN_GRID_TITLE'=> 'Edit Task In Grid', ///
 
 'LBL_ID' => 'ID:' ,
 'LBL_PROJECT_TASK_ID' => 'ID проектной задачи:',
@@ -44,7 +44,7 @@ $mod_strings = array (
 'LBL_ASSIGNED_USER_ID' => 'Ответственный(ая): ' ,
 'LBL_MODIFIED_USER_ID' => 'Изменено(ID):' ,
 'LBL_CREATED_BY' => 'Кем создано:' ,
-'LBL_TEAM_ID' => 'Team:',
+'LBL_TEAM_ID' => 'Team:', ///
 'LBL_NAME' => 'Проектная задача:' ,
 'LBL_STATUS' => 'Статус:' ,
 'LBL_DATE_DUE' => 'Дата окончания:' ,
@@ -102,11 +102,11 @@ $mod_strings = array (
 'LBL_HISTORY_TITLE'=> 'История' ,
 'LBL_ACTIVITIES_SUBPANEL_TITLE'=> 'Мероприятия' ,
 'LBL_HISTORY_SUBPANEL_TITLE'=> 'История' ,
-'DATE_JS_ERROR' => 'Пожалуйста, введите дату, соответствующую указанному времени' ,
+'DATE_JS_ERROR' => 'Пожалуйста, введите дату, соответствующую указанному времени' , ///
 
 'LBL_ASSIGNED_USER_NAME' => 'Ответственный(ая)',
 'LBL_PARENT_NAME' => 'Название проекта',
-'LBL_LIST_PROJECT_NAME' => 'Проекты',
+'LBL_LIST_PROJECT_NAME' => 'Проекты', ///
 'LBL_EDITLAYOUT' => 'Изменить макет' /*for 508 compliance fix*/,
 'LBL_PANEL_TIMELINE' => 'Ресурсы',
 

@@ -64,8 +64,8 @@ $mod_strings = array(
 'assignable'=> 'Checking this box will allow a record in this module to be assigned to a selected user.',  ///
 'has_tab'=> 'Отображать закладку данного модуля в панели закладок.',
 'acl'=> 'Checking this box will enable Access Controls on this module, including Field Level Security',   ///
-'studio'=> 'Разрешить администратору редактировать этот модуль в Студии',
-'audit'=> 'Отметив данную опцию, вы включите аудит для данного модуля. Изменения данных в полях будут записываться, таким образом администратор системы сможет просматривать историю изменения данных.',
+'studio'=> 'Разрешить администратору редактировать этот модуль в Студии', ///
+'audit'=> 'Отметив данную опцию, вы включите аудит для данного модуля. Изменения данных в полях будут записываться, таким образом администратор системы сможет просматривать историю изменения данных.', ///
 'viewfieldsbtn'=> 'Выберите <b>Просмотр полей</b> для просмотра полей, связанных с указанным модулем, а так же для создания и редактирования пользовательских полей.',
 'viewrelsbtn'=> 'Выберите <b>Просмотр связей</b> для просмотра связей, связанных с указанным модулем, а так же для создания новых связей.',
 'viewlayoutsbtn'=> 'Выберите <b>Просмотр макетов</b> для просмотра макетов указанного модуля, а так же для настройки полей, размещённых в модулях.',
@@ -196,9 +196,9 @@ $mod_strings = array(
 'PopupSearchViewBtn' => 'Редактирование критериев поиска записи.',
 'BasicSearchBtn' => 'Редактирование формы <b>Базового поиска</b> модуля.',
 'AdvancedSearchBtn' => 'Редактирование формы <b>Расширенного поиска</b> модуля.',
-'portalHelp' => 'Настройка <b>Портала</b>.',
-'SPUploadCSS' => 'Загрузить <b>Таблицу стилей</b> для Портала.',
-'SPSync' => '<b>Синхронизация</b> настроек Портала.',
+'portalHelp' => 'Настройка <b>Портала</b>.', ///
+'SPUploadCSS' => 'Загрузить <b>Таблицу стилей</b> для Портала.', ///
+'SPSync' => '<b>Синхронизация</b> настроек Портала.', ///
 'Layouts' => 'Edit the <b>Layouts</b> of the Sugar Portal modules.', ///
 'portalLayoutHelp' => 'The modules within the Sugar Portal appear in this area.<br><br>Select a module to edit the <b>Layouts</b>.', ///
 'relationshipsHelp' => 'Здесь отображаются все связи между текущим и другими модулями.<br><br> <b>Название связи</b> создаётся системой автоматически при её добавлении. <br><br>Все указанные связи принадлежат <b>Основному модулю</b> и сохраняются в соответствующей таблице.<br><br>Нажмите на  заголовке таблицы при необходимости сортировки выбранной колонки, а так же при необходимости изменения отображения колонок.<br><br>Для просмотра свойств связи нажмите на соответствующей строке таблицы.<br/><br/>Для создания новой связи нажмите на кнопку <b>Добавить связь</b>. Связи могут быть установлены между двумя любыми установленными модулями.',
@@ -211,7 +211,7 @@ You can re-order the modules by dragging their rows in the table.<br/><br/>
 <b>Copy Data:</b> If checked, fields from the lead will be copied to fields with the same name in the newly created records.<br/><br/>
 <b>Allow Selection:</b> Modules with a relate field in Contacts can be selected rather than created during the convert lead process.<br/><br/>
 <b>Edit:</b> Modify the convert layout for this module.<br/><br/>
-<b>Delete:</b> Remove this module from the convert layout.<br/><br/>',
+<b>Delete:</b> Remove this module from the convert layout.<br/><br/>', ///
 'editDropDownBtn' => 'Редактировать комбобокс',
 'addDropDownBtn' => 'Добавить новый комбобокс',
 ),
@@ -228,12 +228,12 @@ You can re-order the modules by dragging their rows in the table.<br/><br/>
 'saveBtn'=> 'Нажмите кнопку <b>Сохранить</b> для сохранения всех изменений.',
 'publishBtn'=> 'Нажмите кнопку <b>Сохранить и установить</b> для сохранения и применения всех изменений.',
 ),
-'portalSync'=>array(
+'portalSync'=>array( /// ->
 'default' => 'Enter the <b>Sugar Portal URL</b> of the portal instance to update, and click <b>Go</b>.<br><br>Enter a valid Sugar user name and password, and then click <b>Begin Sync</b>.<br><br>The customizations made to the Sugar Portal <b>Layouts</b>, along with the <b>Style Sheet</b> if one was uploaded, will be transferred to specified the portal instance.',   ///
 ),
 'portalStyle'=>array(
 'default' => 'From here you can customize the look of the Sugar Portal.',   ///
-),
+), /// <-
 ),
 
 'assistantHelp'=>array(
@@ -288,10 +288,10 @@ You can re-order the modules by dragging their rows in the table.<br/><br/>
 'exportcustom'=>array(
 'exportHelp'=> 'Настройки, сделанные в Студии, могут быть экспортированы в виде отдельного пакета и установлены в другие экземпляры Suite с помощью <b>Загрузчика модулей</b>.<br><br> Прежде всего, укажите <b>Название пакета</b>. Вы также можете указать <b>Автора</b> и <b>Описание</b> пакета.<br><br>Выберите содержащие пользовательские настройки модули, которые вы желаете экспортировать(для выбора будут доступны только модули, содержащие пользовательские настройки).<br><br>Затем нажмите кнопку <b>Экспортировать</b> для создания zip-архива пакета, содержащего пользовательские настройки. Созданный архив может быть загружен в другие экземпляры системы с помощью <b>Загрузчика модулей</b>',
 'exportCustomBtn'=>'Click <b>Export</b> to create a .zip file for the package containing the customizations that you wish to export.
-',
+', ///
 'name'=> 'Это <b>Название</b> пакета. Это название будет отображаться в процессе установки.',
 'author'=>'The <b>Author</b> is the name of the entity that created the package. The Author can be either an individual or a company.<br><br>The Author will be displayed in Module Loader after the package is uploaded for installation in Studio.
-',
+', ///
 'description'=> 'Это <b>Описание</b> пакета, которое будет отображено в Загрузчике модулей после загрузки пакета в Студии.',
 ),
 'studioWizard'=>array(
@@ -321,10 +321,10 @@ You can re-order the modules by dragging their rows in the table.<br/><br/>
 //HOME
 'LBL_HOME_EDIT_DROPDOWNS'=> 'Редактор комбобоксов',
 
-//ASSISTANT
+//ASSISTANT /// ->
 'LBL_AS_SHOW' => 'Показывать помощник в дальнейшем',
 'LBL_AS_IGNORE' => 'Не показывать помощник в дальнейшем',
-'LBL_AS_SAYS' => 'Помощник',
+'LBL_AS_SAYS' => 'Помощник', /// <-
 
 
 //STUDIO2
@@ -333,14 +333,14 @@ You can re-order the modules by dragging their rows in the table.<br/><br/>
 'LBL_DROPDOWNEDITOR' => 'Редактор комбобоксов',
 'LBL_EDIT_DROPDOWN'=> 'Редактирование комбобокса',
 'LBL_DEVELOPER_TOOLS' => 'Инструментарий разработчика',
-'LBL_SUGARPORTAL' => 'Редактор портала',
-'LBL_SYNCPORTAL' => 'Синхронизация портала',
+'LBL_SUGARPORTAL' => 'Редактор портала', ///
+'LBL_SYNCPORTAL' => 'Синхронизация портала', ///
 'LBL_PACKAGE_LIST' => 'Список пакетов',
 'LBL_HOME' => 'SuiteCRM',
 'LBL_NONE'=> '-Нет-',
 'LBL_DEPLOYE_COMPLETE'=> 'Установка завершена',
 'LBL_DEPLOY_FAILED'   => 'В процессе установки произошла ошибка,корректная установка пакета не возможна',
-'LBL_ADD_FIELDS'=> 'Добавить пользовательские поля',
+'LBL_ADD_FIELDS'=> 'Добавить пользовательские поля', ////
 'LBL_AVAILABLE_SUBPANELS'=> 'Доступные субпанели',
 'LBL_ADVANCED'=> 'Расширенный',
 'LBL_ADVANCED_SEARCH'=> 'Расширенный поиск',
@@ -357,16 +357,16 @@ You can re-order the modules by dragging their rows in the table.<br/><br/>
 'LBL_POPUPLISTVIEW'=> 'Всплывающая форма списка',
 'LBL_POPUPSEARCH'=> 'Всплывающая форма поиска',
 'LBL_DASHLETSEARCHVIEW'=> 'Форма фильтра дашлета',
-'LBL_DISPLAY_HTML'=> 'Просмотр кода HTML',
+'LBL_DISPLAY_HTML'=> 'Просмотр кода HTML', ////
 'LBL_DETAILVIEW'=> 'Форма просмотра',
 'LBL_DROP_HERE' => '[Переместить сюда]',
 'LBL_EDIT'=> 'Редактирование:',
 'LBL_EDIT_LAYOUT'=> 'Редактирование макета',
-'LBL_EDIT_ROWS'=> 'Редактирование строк',
-'LBL_EDIT_COLUMNS'=> 'Редактирование столбцов',
-'LBL_EDIT_LABELS'=> 'Редактирование надписей',
+'LBL_EDIT_ROWS'=> 'Редактирование строк', ////
+'LBL_EDIT_COLUMNS'=> 'Редактирование столбцов', ////
+'LBL_EDIT_LABELS'=> 'Редактирование надписей', ////
 'LBL_EDIT_FIELDS'=> 'Редактирование полей',
-'LBL_EDIT_PORTAL'=> 'Редактировать Portal для ',
+'LBL_EDIT_PORTAL'=> 'Редактировать Portal для ', ///
 
 'LBL_EDITVIEW'=> 'Форма редактирования',
 'LBL_FILLER'=> 'Пустое поле',
@@ -386,9 +386,9 @@ You can re-order the modules by dragging their rows in the table.<br/><br/>
 'LBL_PUBLISHING' => 'Публикация ...',
 'LBL_PUBLISHED' => 'Опубликовано',
 'LBL_SELECT_FILE'=> 'Выбрать файл',
-'LBL_SAVE_LAYOUT'=> 'Сохранить макет',
-'LBL_SELECT_A_SUBPANEL' => 'Выбрать субпанель',
-'LBL_SELECT_SUBPANEL' => 'Выбрать субпанель',
+'LBL_SAVE_LAYOUT'=> 'Сохранить макет', ////
+'LBL_SELECT_A_SUBPANEL' => 'Выбрать субпанель', ////
+'LBL_SELECT_SUBPANEL' => 'Выбрать субпанель', ////
 'LBL_SUBPANELS' => 'Субпанели',
 'LBL_SUBPANEL' => 'Субпанель',
 'LBL_SUBPANEL_TITLE' => 'Надпись:',
@@ -486,7 +486,7 @@ You can re-order the modules by dragging their rows in the table.<br/><br/>
 'LBL_SECTION_PACKAGES' => 'Пакеты',
 'LBL_SECTION_PACKAGE' => 'Пакет',
 'LBL_SECTION_MODULES' => 'Модули',
-'LBL_SECTION_PORTAL' => 'Portal',
+'LBL_SECTION_PORTAL' => 'Portal', ///
 'LBL_SECTION_DROPDOWNS' => 'Комбобоксы',
 'LBL_SECTION_PROPERTIES' => 'Свойства',
 'LBL_SECTION_DROPDOWNED' => 'Редактирование комбобокса',
@@ -511,7 +511,7 @@ You can re-order the modules by dragging their rows in the table.<br/><br/>
 'LBL_MB_PREVIEW'=> 'Предпросмотр',
 'LBL_MB_RESTORE'=> 'Восстановить',
 'LBL_MB_DELETE'=> 'Удалить',
-'LBL_MB_COMPARE'=> 'Сравнить',
+'LBL_MB_COMPARE'=> 'Сравнить', ////
 'LBL_MB_DEFAULT_LAYOUT'=> 'Стандартный макет',
 
 //END WIZARDS
@@ -527,7 +527,7 @@ You can re-order the modules by dragging their rows in the table.<br/><br/>
 'LBL_BTN_NEXT'=> 'Вперёд>>',
 'LBL_BTN_BACK'=> '<<Назад',
 'LBL_BTN_CLONE'=> 'Клонировать',
-'LBL_BTN_ADDCOLS'=> 'Добавить колонку',
+'LBL_BTN_ADDCOLS'=> 'Добавить колонку', ////
 'LBL_BTN_ADDROWS'=> 'Добавить строку',
 'LBL_BTN_ADDFIELD'=> 'Добавить поле',
 'LBL_BTN_ADDDROPDOWN'=> 'Добавить комбобокс',
@@ -578,8 +578,8 @@ You can re-order the modules by dragging their rows in the table.<br/><br/>
 'LBL_WIDTH'=> 'Ширина',
 'LBL_PACKAGE'=> 'Пакет:',
 'LBL_TYPE'=> 'Тип:',
-'LBL_TEAM_SECURITY'=> 'Team Security',
-'LBL_ASSIGNABLE'=> 'Указание ответственных',    ////'Assignable',
+'LBL_TEAM_SECURITY'=> 'Team Security', ///
+'LBL_ASSIGNABLE'=> 'Указание ответственных',    ///
 'LBL_PERSON'=> 'Персона',
 'LBL_COMPANY'=> 'Компания',
 'LBL_ISSUE'=> 'Описание',
@@ -606,8 +606,8 @@ You can re-order the modules by dragging their rows in the table.<br/><br/>
 'LBL_MB_IMPORTABLE'=> 'Импортирование',
 
 // VISIBILITY EDITOR
-'LBL_VE_VISIBLE'=> 'отображается',
-'LBL_VE_HIDDEN'=> 'скрыт',
+'LBL_VE_VISIBLE'=> 'отображается', ///
+'LBL_VE_HIDDEN'=> 'скрыт', ///
 'LBL_PACKAGE_WAS_DELETED'=> 'Пакет [[package]] был удалён',
 
 //EXPORT CUSTOMS
@@ -684,19 +684,19 @@ You can re-order the modules by dragging their rows in the table.<br/><br/>
 
 
 
-'LBL_HISTORY_TIMESTAMP' => 'TimeStamp',
-'LBL_HISTORY_TITLE' => ' history',
+'LBL_HISTORY_TIMESTAMP' => 'Время создания',
+'LBL_HISTORY_TITLE' => ' (история)',
 
-'LBL_ADD_LAYOUT' => 'Добавить макет',
+'LBL_ADD_LAYOUT' => 'Добавить макет', /// ->
 'LBL_ADD_LAYOUTS' => 'Добавить макет',
 'LBL_QUESTION_ADD_LAYOUT' => 'Выбрать макет Групп для добавления.',
-'LBL_REMOVE_LAYOUT' => 'Удалить макет Групп',
+'LBL_REMOVE_LAYOUT' => 'Удалить макет Групп', /// <-
 
-'LBL_SECURITYGROUP' => 'Группы пользователей:',
+'LBL_SECURITYGROUP' => 'Группы пользователей:', ///
 'LBL_COPY_FROM' => 'Копировать из:',
-'LBL_ADDLAYOUTDONE' => 'Сохранённый макет',
-'LBL_REMOVELAYOUTDONE' => 'Удалённый макет',
-'LBL_REMOVE_CONFIRM' => 'Вы уверены?',
+'LBL_ADDLAYOUTDONE' => 'Сохранённый макет', ///
+'LBL_REMOVELAYOUTDONE' => 'Удалённый макет', ///
+'LBL_REMOVE_CONFIRM' => 'Вы уверены?', ///
 
 'fieldTypes' => array(
 'varchar'=> 'TextField',
@@ -727,7 +727,7 @@ You can re-order the modules by dragging their rows in the table.<br/><br/>
 
 'parent' => 'Flex Relate',
 
-'LBL_ILLEGAL_FIELD_VALUE' => 'Ключ комбобокса не может содержать кавычки.',
+'LBL_ILLEGAL_FIELD_VALUE' => 'Ключ комбобокса не может содержать кавычки.', ///
 'LBL_CONFIRM_SAVE_DROPDOWN' => 'Вы удаляете выбранные значения из списка. Таким образом, удаляемые значения будут недоступны во всех комбобоксах, использующих данный список. Продолжить?',
 'LBL_POPHELP_VALIDATE_US_PHONE' => 'Select to validate this field for the entry of a 10-digit phone number,<br>with allowance for the country code 1,<br>and to apply a U.S. format to the phone number when the record is saved.<br> The following format will be applied: (xxx) xxx-xxxx.', ///
 'LBL_ALL_MODULES'=>'Все модули',

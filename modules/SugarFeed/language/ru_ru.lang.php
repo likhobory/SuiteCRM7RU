@@ -29,8 +29,8 @@
  // Replaced by RAPIRA <--
  
 $mod_strings = array (
-'LBL_TEAM' => 'Team',
-'LBL_TEAM_ID' => 'Team Id',
+'LBL_TEAM' => 'Team', ///
+'LBL_TEAM_ID' => 'Team Id', ///
 'LBL_ASSIGNED_TO_ID' => 'Ответственный(ая)-ID',
 'LBL_ASSIGNED_TO_NAME' => 'Ответственный(ая)',
 'LBL_ID' => 'ID',
@@ -97,9 +97,9 @@ $mod_strings = array (
 'WON_OPPORTUNITY'=> ' <b>ЗАКРЫЛ(а) С УСПЕХОМ</b> сделку',
 'WITH' => 'с',
 
-'LBL_LINK_TYPE_Link' => 'Ссылка',
-'LBL_LINK_TYPE_Image' => 'Изображение',
-'LBL_LINK_TYPE_YouTube' => 'YouTube&#153;',
+'LBL_LINK_TYPE_Link' => 'Ссылка', ///
+'LBL_LINK_TYPE_Image' => 'Изображение', ///
+'LBL_LINK_TYPE_YouTube' => 'YouTube&#153;', ///
 
 'LBL_SELECT' => 'Выбрать',
 'LBL_POST' => 'Опубликовать',

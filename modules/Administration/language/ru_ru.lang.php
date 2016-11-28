@@ -208,9 +208,9 @@ $mod_strings = array (
 'LBL_CONTRACT_TITLE'=> 'Договоры',
 'LBL_CONTRACT_DESC'=> 'Define contract types for the Contracts module. When users create a contract, the Types drop-down menu displays the contract types for selection.', ///
 'LBL_CONTRACT_TYPES'=> 'Manage Contract Types', ///
-'LBL_COULD_NOT_CONNECT'=>'Error: Could not connect to the Suite Server.
-Please check your Proxy Settings value in the <a href="index.php?module=Configurator&action=EditView">System Settings</a> admin panel.
-Last attempted connection @ ',
+'LBL_COULD_NOT_CONNECT'=>'Ошибка: Нет возможности соединиться с сервером.
+Проверьте параметры прокси-сервера в разделе <a href="index.php?module=Configurator&action=EditView">Настройка конфигурации</a>.
+Последняя попытка подключения @ ',
 'LBL_CREATE_RESOTRE_FILE' => 'Файл restoreExpand.sql был успешно создан. Вы можете использовать этот файл для восстановления прежних размеров полей.',
 'LBL_CURRENCY' => 'Настройки валют, установка курса валют' ,
 'LBL_CONNECTOR_SETTINGS' => 'Подключения',
@@ -225,7 +225,7 @@ Last attempted connection @ ',
 'LBL_DIAGNOSTIC_BEANLIST_GREEN' => 'Зелёный цвет означает, что файл существует.' ,
 'LBL_DIAGNOSTIC_BEANLIST_ORANGE' => 'Оранжевый цвет означает, что индексированные файлы отсутствуют и поиск не может быть осуществлён.' ,
 'LBL_DIAGNOSTIC_BEANLIST_RED' => 'Красный цвет означает, что файл не существует.' ,
-'LBL_DIAGNOSTIC_BLBF'=> 'Наличие файлов BeanList/BeanFiles',
+'LBL_DIAGNOSTIC_BLBF'=> 'Наличие файлов BeanFiles из перечня BeanList',
 'LBL_DIAGNOSTIC_CALCMD5'=> '&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;Подсчёт контрольных сумм (MD5)',
 'LBL_DIAGNOSTIC_CONFIGPHP'=> 'Содержимое файла config.php' ,
 'LBL_DIAGNOSTIC_CUSTOMDIR'=> 'Содержимое папки Custom' ,
@@ -299,10 +299,10 @@ Last attempted connection @ ',
 'LBL_EXPAND_DATABASE_TEXT'=> 'Данная утилита позволяет увеличить размер выбранных полей базы данных и используется как временная мера для устранения ограничений, связанных с многобайтовыми символами в SQL Server. <br>Выберите один из вариантов: <br> Отобразить sql-скрипт на экране<br> Экспортировать sql-скрипт в файл<br> Выполнить sql-скрипт',
 'LBL_EXPORT_CUSTOM_FIELDS_TITLE' => 'Экспорт структуры пользовательских полей' ,
 'LBL_EXPORT_CUSTOM_FIELDS'=> 'Экспорт определений пользовательских полей в файл .sugar' ,
-'LBL_EXPORT_DOWNLOAD_KEY' => 'Export Download Key' ,
+'LBL_EXPORT_DOWNLOAD_KEY' => 'Export Download Key' , ///
 'LBL_EXTERNAL_DEV_DESC'=> 'Перемещение структуры пользовательских полей из одной системы в другую' ,
 'LBL_EXTERNAL_DEV_TITLE'=> 'Перемещение пользовательских полей' ,
-'LBL_FORECAST_TITLE'=> 'Прогноз' ,
+'LBL_FORECAST_TITLE'=> 'Прогноз' , ///
 'LBL_FORECAST_DESC'=> 'Define time periods for the Forecasts module. These time periods display in the Time Periods drop-down menus in the Forecasts Module.', ///
 'LBL_GLOBAL_SEARCH_SETTINGS' => 'Глобальный поиск',
 'LBL_GLOBAL_SEARCH_SETTINGS_DESC' => 'Настройка глобального поиска',
@@ -401,10 +401,10 @@ Last attempted connection @ ',
 'LBL_LOGIN_SUGAR_SERVER'                => 'End User Name:', ///
 'LBL_MAILBOX_DESC' => 'Настройка учётных записей для обработки поступающих обращений' ,
 'LBL_MAILBOX_OUTBOUND_DESC' => 'Настройка учётных записей исходящей почты',
-'LBL_MANAGE_CONTRACTEMPLATES_TITLE'=> 'Contract Types',
+'LBL_MANAGE_CONTRACTEMPLATES_TITLE'=> 'Contract Types', ///
 'LBL_MANAGE_CURRENCIES' => 'Валюта' ,
-'LBL_MANAGE_GROUPS_TITLE'   => 'Управление группами' ,
-'LBL_MANAGE_GROUPS'         => 'Управление групповыми счетами' ,
+'LBL_MANAGE_GROUPS_TITLE'   => 'Управление группами' , ///
+'LBL_MANAGE_GROUPS'         => 'Управление групповыми счетами' , ///
 'LBL_MANAGE_LANGUAGES' => 'Языковые пакеты',
 'LBL_MANAGE_LAYOUT' => 'Размещение поля' ,
 'LBL_MANAGE_LICENSE_TITLE'  => 'License Management', ///
@@ -431,8 +431,8 @@ Last attempted connection @ ',
 'LBL_MASS_EMAIL_MANAGER_DESC'=> 'Управление очерёдностью рассылки исходящей почты' ,
 'LBL_MASS_EMAIL_MANAGER_HEADER'=> 'Управление рассылкой' ,
 'LBL_MASS_EMAIL_MANAGER_TITLE'=> 'Управление очередью E-mail' ,
-'LBL_MASSAGE_MASS_EMAIL_DESC'=> 'SugarCRM 3.5.1+ предполагает обновление для массовой рассылки E-mail.  Нажмите на кнопку "Начать обновление" для продолжения.' ,
-'LBL_MASSAGE_MASS_EMAIL'=> 'GMT-исправление даты и времени при рассылке E-mail' ,
+'LBL_MASSAGE_MASS_EMAIL_DESC'=> 'SugarCRM 3.5.1+ предполагает обновление для массовой рассылки E-mail.  Нажмите на кнопку "Начать обновление" для продолжения.' , ///
+'LBL_MASSAGE_MASS_EMAIL'=> 'GMT-исправление даты и времени при рассылке E-mail' , ///
 
 //ModuleInstaller
 'LBL_MI_REBUILDING' => 'Восстановление ',
@@ -560,9 +560,9 @@ Last attempted connection @ ',
 'LBL_PASSWORD_USER_RESET' => 'Сброс пароля пользователем',
 'LBL_PERFORM_UPDATE'=> 'Выполнение обновления' ,
 
-'LBL_PLUGINS' => 'Получить плагины и другие расширения.' ,
+'LBL_PLUGINS' => 'Получить плагины и другие расширения.' , ///
 'LBL_PRICE_LIST_TITLE' => 'Product and Quotes', ///
-'LBL_PRICE_LIST_DESC' => 'Manage the product catalog, along with the related information on manufacturers and shipping providers.',
+'LBL_PRICE_LIST_DESC' => 'Manage the product catalog, along with the related information on manufacturers and shipping providers.', ///
 'LBL_PRIVATE_TEAM' => 'Rebuild access to private team. Every user of the application must have one, and all managers in the upline must have access to it.', ///
 'LBL_PRODUCT_CATEGORIES_TITLE' => 'Product Categories', ///
 'LBL_PRODUCT_CATEGORIES' => 'Update the list of product categories', ///
@@ -660,14 +660,14 @@ Last attempted connection @ ',
 'LBL_REPAIR_IE_SUCCESS' => 'Все учётные записи входящей почты успешно восстановлены!',
 'LBL_REPAIR_IE' => 'Восстановление учётных записей входящей почты',
 'LBL_REPAIR_INDEX'=> 'Восстановление индексов',
-'LBL_REPAIR_INDEX_DROPPING'=> '<BR>Dropping constraints/indexes.',
+'LBL_REPAIR_INDEX_DROPPING'=> '<BR>Удаление ограничений/индексов.',
 'LBL_REPAIR_INDEX_EXECUTING'=> '<BR> Выполнение ',
-'LBL_REPAIR_INDEX_DROP'=> '<BR>Drop these constraints/indexes.',
-'LBL_REPAIR_INDEX_ADDING'=> '<BR>Adding constraints/indexes.',
-'LBL_REPAIR_INDEX_ADD'=> '<BR><BR>Add these constraints/indexes.',
-'LBL_REPAIR_INDEX_ALTERING'=> '<BR>Altering constraints/indexes.',
-'LBL_REPAIR_INDEX_ALTER'=> '<BR><BR>Alter these constraints/indexes.',
-'LBL_REPAIR_INDEX_SYNC'=> '<BR><BR><BR> Index definitions are in sync.',
+'LBL_REPAIR_INDEX_DROP'=> '<BR>удалить ограничения/индексы.',
+'LBL_REPAIR_INDEX_ADDING'=> '<BR>Добавление ограничений/индексов.',
+'LBL_REPAIR_INDEX_ADD'=> '<BR><BR>Добавить ограничения/индексы.',
+'LBL_REPAIR_INDEX_ALTERING'=> '<BR>Изменение ограничений/индексов.',
+'LBL_REPAIR_INDEX_ALTER'=> '<BR><BR>Изменить ограничения/индексы.',
+'LBL_REPAIR_INDEX_SYNC'=> '<BR><BR><BR> Индексы восстановлены.',
 'LBL_REPAIR_ORACLE_COMMIT_DONE'         => 'All SQL queries commited.', ///
 'LBL_REPAIR_ORACLE_COMMIT'              => 'Commit', ///
 'LBL_REPAIR_ORACLE_VARCHAR_DESC_LONG_1' => 'The following queries should be run against your database.  Run them manually with the client of your choice or click the "Commit" button to have SugarCRM run the queries immediately.', ///
@@ -725,7 +725,7 @@ Last attempted connection @ ',
 'LBL_SUPPORT_TITLE' => 'SuiteCRM  - портал технической поддержки' ,
 'LBL_SUPPORT' => 'Доступ к технической поддержке',
 'LBL_SYSTEM_NAME' => 'Название системы',
-'LBL_TAXRATES_TITLE' => 'Tax Rates',
+'LBL_TAXRATES_TITLE' => 'Tax Rates', ///
 'LBL_TAXRATES' => 'Configure the list of available tax rates for quotes', ///
 'LBL_TEAM_HIERARCHY' => 'Rebuild team hierarchy. Implicit access to all teams for all users will be rebuilt. <Br/>Let\'s say User A reports to User B who reports to User C. If explicit access to Team 1 is provided to User A, then User B and User C will acquire implicit access to this team.', ///
 'LBL_TEAMS_TITLE' => 'Teams', ///
@@ -745,13 +745,13 @@ Last attempted connection @ ',
 'LBL_UPDATE_CHECK_TYPE'=> 'Автоматически проверять доступные обновления' ,
 'LBL_UPDATE_DESCRIPTIONS'=> 'Описание' ,
 'LBL_UPDATE_TITLE'=> 'Доступные обновления SuiteCRM:' ,
-'LBL_UPGRADE_ADDED_TO_GROUP' => 'Добавлен в группу',
-'LBL_UPGRADE_ALREADY_EXISTS_GROUP' => 'группа уже существует',
-'LBL_UPGRADE_ALREADY_EXISTS_IN_GROUP' => 'Уже присутствуют в группе:',
+'LBL_UPGRADE_ADDED_TO_GROUP' => 'Добавлен в группу', ///
+'LBL_UPGRADE_ALREADY_EXISTS_GROUP' => 'группа уже существует', ///
+'LBL_UPGRADE_ALREADY_EXISTS_IN_GROUP' => 'Уже присутствуют в группе:', ///
 'LBL_UPGRADE_CONVERT_DISC_CLIENT_TITLE' => 'Convert to Offline Client', ///
 'LBL_UPGRADE_CONVERT_DISC_CLIENT'      => 'Convert this Sugar installation to an Offline Client', ///
 'LBL_UPGRADE_CONVERT_DISC_DESCRIPTION'  => '<b>Warning: Please ensure this is a fresh install with no seed data.</b><br>Enter the following information and press Save to convert this system into an offline client.', ///
-'LBL_UPGRADE_CURRENCY' => 'Обновление валютной суммы в модуле ' ,
+'LBL_UPGRADE_CURRENCY' => 'Обновление валютной суммы в модуле ' ,  ///->
 'LBL_UPGRADE_CUSTOM_LABELS_DESC'=> 'Обновление форматов пользовательских меток полей в каждом языковом файле.' ,
 'LBL_UPGRADE_CUSTOM_LABELS_TITLE'=> 'Обновление пользовательских меток' ,
 'LBL_UPGRADE_DB_BEGIN' => 'Начало обновления' ,
@@ -765,7 +765,7 @@ Last attempted connection @ ',
 'LBL_UPGRADE_STUDIO_DESC'=> ' Обновление файлов предыдущих версий до версии 4.5',
 'LBL_UPGRADE_STUDIO_TITLE'=> 'Обновление',
 'LBL_UPGRADE_SYNC_DISC_CLIENT_TITLE'    => 'Синхронизация',
-'LBL_UPGRADE_SYNC_DISC_CLIENT'        => 'Синхронизация клиентских файлов с даными на сервере',
+'LBL_UPGRADE_SYNC_DISC_CLIENT'        => 'Синхронизация клиентских файлов с даными на сервере',  /// <-
 'LBL_UPGRADE_TEAM_CREATE' => 'Created Teams for -', ///
 'LBL_UPGRADE_TEAM_EXISTS'=> 'Team Already Exists', ///
 'LBL_UPGRADE_TEAM_TITLE' => 'Upgrade teams', ///
@@ -807,12 +807,12 @@ Last attempted connection @ ',
 'LBL_UW_LANGPACK_READY_ENABLE' => 'Языковой пакет может быть включён.',
 'LBL_UW_MODULE_READY_UNISTALL'          => 'Модуль готов к деинсталляции.',
 'LBL_UW_LANGPACK_READY_UNISTALL'          => 'Языковой пакет готов к деинсталляции.',
-'LBL_UW_MODULE_READY'           => 'Модуль готов к установке.',
+'LBL_UW_MODULE_READY'           => 'Модуль готов к установке.', ////
 'LBL_UW_LANGPACK_READY'           => 'Языковой пакет готов к установке.',
 'LBL_UW_NO_FILES_SELECTED'                  => 'Не выбраны файлы',
 'LBL_UW_NO_INSTALLED_UPGRADES'              => '<i>Нет установленных обновлений.</i><br>\n',
 'LBL_UW_NONE'                               => 'Нет',
-'LBL_UW_NOT_AVAILABLE'                      => 'Не доступно',
+'LBL_UW_NOT_AVAILABLE'                      => 'Не доступно', ////
 'LBL_UW_OP_MODE'                            => 'Режим операции:',
 'LBL_UW_PACKAGE_REMOVED'                    => ' был удалён.<br>\n',
 'LBL_UW_PATCH_READY'=> '<h2>Все готово к установке</h2>',
@@ -878,8 +878,8 @@ Last attempted connection @ ',
 'NO_ENABLED_OFFLINE_CLIENTS' => 'There currently are no enabled Offline Clients.',  ///
 'NTC_DISABLE_OFFLINE_CLIENT_ALERT' => 'Are you sure you want to disable this Offline Client?',     ///
 'NTC_ENABLE_OFFLINE_CLIENT_ALERT' => 'Are you sure you want to enable this Offline Client?', ///
-'NTC_OC_NOT_AVAILABLE' => 'Не доступно',
-'NTC_OC_RESERVED' => 'Reserved',
+'NTC_OC_NOT_AVAILABLE' => 'Не доступно', ///
+'NTC_OC_RESERVED' => 'Reserved', ///
 'REMOVE_QUESTION'           => 'Вы действительно хотите удалить выбранные пакеты?',
 'WARN_POSSIBLE_JS_OVERWRITE'=> 'Осторожно, это приведёт к перезаписи всех изменений, которые вы могли сделать в файлах javascript. Продолжить?',
 'WARN_INSTALLER_LOCKED'=> 'Предупреждение: Для сохранения ваших данных инсталлятор должен быть заблокирован. В файле config.php установите переменную  installer_locked в значение "true".' ,
@@ -988,7 +988,7 @@ Last attempted connection @ ',
 //language changed
 'LBL_CURRENT_LANGUAGE_CHANGE' => 'Your current language is changed to ',
 'LBL_DEFAULT_LANGUAGE_CHANGE' => 'System\'s default language is changed to ',
-'ACLActions'     => 'ACLAction',
+'ACLActions'     => 'ACLAction', /// ->
 'ACLFields'      => 'ACLField',
 'ACLRoles'       => 'ACLRole',
 'Administration' => 'Administration',
@@ -1049,7 +1049,7 @@ Last attempted connection @ ',
 'WorkFlowAlerts'  => 'WorkFlowAlert',
 'WorkFlowAlertShells'  => 'WorkFlowAlertShell',
 'WorkFlowTriggerShells'  => 'WorkFlowTriggerShell',
-'Worksheet'  => 'Worksheet',
+'Worksheet'  => 'Worksheet', /// <-
 'LBL_SAML_ENABLE' => 'Включить SAML-аутентификацию',
 'LBL_SAML_HELP_TXT' => 'При использовании SAML-аутентификации пароли будут обрабатываться только через SAML. Все дополнительные настройки, указанные в этом разделе, будут проигнорированы.',
 'LBL_SAML_TITLE' => 'SAML-аутентификация',
@@ -1091,7 +1091,7 @@ Last attempted connection @ ',
     'LBL_SPRITES_EXCLUDING_FILE' => 'Не обработано файлов: {0}',
 	
 	    //FTS
-    'LBL_FTS_TYPE' => 'System Type', ///
+    'LBL_FTS_TYPE' => 'System Type', /// ->
     'LBL_FTS_HOST' => 'Host',
     'LBL_FTS_PORT' => 'Port',
     'LBL_FTS_TYPE_HELP' => 'Select the engine to use for full text searching. The system detects the engines that are supported and displays them within this list. Sugar includes built-in support for the elasticsearch engine.',
@@ -1119,7 +1119,7 @@ Last attempted connection @ ',
 3) Click Test to make sure Sugar can connect to the search engine<br>
 4) Click Schedule System Index. Make sure that crontab is set up to run cron.php. This will handle indexing as well as the fallback mechanism when the connection to the search engine is interrupted.', ///
     'LBL_FTS_DISABLED' => 'Full Text Search has been disabled because the system is not able to connect to the search engine.', ///
-    'LBL_FTS_CONNECTION_INVALID' => 'The Full Text Search Settings you have entered are invalid and may slow down system performance.  Please change or clear your settings.', ///
+    'LBL_FTS_CONNECTION_INVALID' => 'The Full Text Search Settings you have entered are invalid and may slow down system performance.  Please change or clear your settings.', /// <-
 	'LBL_REPAIR_UPLOAD_FOLDER' => 'Удаление неиспользуемых файлов из папки "upload"',
     'LBL_REPAIR_UPLOAD_FOLDER_DESC' => 'Удаление файлов, ссылки на которые были удалены из БД; удаление может занять продолжительное время',
     'LBL_TOTAL_FILES' => 'Всего файлов',
@@ -1243,16 +1243,16 @@ Last attempted connection @ ',
 'LBL_MANAGE_SECURITYGROUPS' => 'Создание Групп пользователей и включение в них Пользователей и Ролей',
 'LBL_CONFIG_SECURITYGROUPS_TITLE' => 'Управление Группами пользователей',
 'LBL_CONFIG_SECURITYGROUPS' => 'Настройка Групп пользователей',
-'LBL_SECURITYGROUPS' => 'Security Suite',
+'LBL_SECURITYGROUPS' => 'Группы пользователей',
 'LBL_SECURITYGROUPS_UPGRADE_INFO_TITLE' => "Upgrade and General Info", ///
 'LBL_SECURITYGROUPS_INFO_TITLE' => "Security Suite Info", ///
-'LBL_SECURITYGROUPS_INFO' => "General information",
+'LBL_SECURITYGROUPS_INFO' => "General information", ///
 'LBL_SECURITYGROUPS_DASHLETPUSH_TITLE' => "Push Message Dashlet", ///
 'LBL_SECURITYGROUPS_DASHLETPUSH' => "Push the Message Dashlet to the Home page for all users. This process may take some time to complete depending on the number of users", ///
 'LBL_SECURITYGROUPS_HOOKUP_TITLE' => "Hookup Module", ///
 'LBL_SECURITYGROUPS_HOOKUP' => "Hookup Security Suite to work with your custom modules", ///
-'LBL_SECURITYGROUPS_SUGAROUTFITTERS_TITLE' => "SugarOutfitters",
-'LBL_SECURITYGROUPS_SUGAROUTFITTERS' => "Grab the latest version of SecuritySuite and find other SugarCRM modules, themes, and integrations along with reviews, docs, support, and community verified versions.",
+'LBL_SECURITYGROUPS_SUGAROUTFITTERS_TITLE' => "SugarOutfitters", ///
+'LBL_SECURITYGROUPS_SUGAROUTFITTERS' => "Grab the latest version of SecuritySuite and find other SugarCRM modules, themes, and integrations along with reviews, docs, support, and community verified versions.", ///
 
 'LBL_BUSINESS_HOURS' => 'График работы',
 'LBL_BUSINESS_HOURS_DESC' => "Указание рабочих дней и часов работы организации",

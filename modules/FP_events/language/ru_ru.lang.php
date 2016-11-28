@@ -63,7 +63,7 @@ $mod_strings = array (
   'LBL_START_DATE' => 'дата начала',
   'LBL_END_DATE' => 'Дата и время окончания',
   'LBL_BUDGET' => 'Бюджет',
-  'LBL_FP_EVENTS_FP_EXPENSES_1_FROM_FP_EXPENSES_TITLE' => 'Расходы',
+  'LBL_FP_EVENTS_FP_EXPENSES_1_FROM_FP_EXPENSES_TITLE' => 'Расходы', ///
   'LBL_DATE' => 'Начало',
   'LBL_DATE_END' => 'Окончание',
   'LBL_DURATION' => 'Продолжительность',
@@ -108,7 +108,7 @@ $mod_strings = array (
 
 	// Attendance report
 	'LBL_ACCEPT_REPORT' => 'Посещаемость', ///
-	'LBL_ACCEPT_REPORT_KEY' => '',
+	'LBL_ACCEPT_REPORT_KEY' => '', ///
 	'LBL_CONTACT_NAME' => 'Имя',
 	'LBL_ACCOUNT_NAME' => 'Контрагент',
 	'LBL_SIGNATURE' => 'Подпись',
@@ -116,7 +116,7 @@ $mod_strings = array (
 	'LBL_EMAIL_ACCEPT' => 'Принять',
 	'LBL_EMAIL_DECLINE' => 'Отклонить',
 	// contacts/leads/targets subpanels
-	'LBL_LIST_INVITE_STATUS_EVENT' => 'Приглашённые', ///
+	'LBL_LIST_INVITE_STATUS_EVENT' => 'Приглашённые',
 	'LBL_LIST_ACCEPT_STATUS_EVENT' => 'Статус',
 	// counts
 	'LBL_NB_INVITES' => 'Приглашено:', ///

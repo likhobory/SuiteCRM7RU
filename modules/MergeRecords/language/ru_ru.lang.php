@@ -42,16 +42,16 @@ $mod_strings = array (
 'LBL_MERGE_RECORDS_WITH' => 'Объединить записи с',
 'LBL_MERGE_VALUE_OVER' => 'Перезаписать значением',
 
-'LBL_NEXT_STEP_TITLE' => 'Следующий шаг[Ctrl+N]',
-'LBL_NEXT_STEP_BUTTON_KEY' => 'N',
+'LBL_NEXT_STEP_TITLE' => 'Следующий шаг',
+'LBL_NEXT_STEP_BUTTON_KEY' => 'N', ///
 'LBL_NEXT_STEP_BUTTON_LABEL' => 'Следующий шаг >',
 
-'LBL_PERFORM_MERGE_BUTTON_TITLE' => 'Выполнить объединение[Ctrl+P]',
-'LBL_PERFORM_MERGE_BUTTON_KEY' => 'P',
+'LBL_PERFORM_MERGE_BUTTON_TITLE' => 'Выполнить объединение',
+'LBL_PERFORM_MERGE_BUTTON_KEY' => 'P', ///
 'LBL_PERFORM_MERGE_BUTTON_LABEL' => 'Выполнить объединение',
 
-'LBL_SAVE_MERGED_RECORD_BUTTON_TITLE' => 'Сохранить объединение[Ctrl+S]',
-'LBL_SAVE_MERGED_RECORD_BUTTON_KEY' => 'S',
+'LBL_SAVE_MERGED_RECORD_BUTTON_TITLE' => 'Сохранить объединение',
+'LBL_SAVE_MERGED_RECORD_BUTTON_KEY' => 'S', ///
 'LBL_SAVE_MERGED_RECORD_BUTTON_LABEL' => 'Сохранить объединение',
 
 'LBL_STEP2_FORM_TITLE' => 'Найденные записи для объединения с',

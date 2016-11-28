@@ -43,9 +43,9 @@ $mod_strings = array (
 
 'LBL_MODIFIED_USER_ID' => 'Изменено(ID):' ,
 'LBL_CREATED_BY' => 'Кем создано:' ,
-'LBL_TEAM_ID' => 'Team:',
+'LBL_TEAM_ID' => 'Team:', ///
 'LBL_NAME' => 'Проект:' ,
-'LBL_PDF_PROJECT_NAME' => 'Название проекта:',
+'LBL_PDF_PROJECT_NAME' => 'Название проекта:', ///
 
 'LBL_DELETED' => 'Удалено:' ,
 'LBL_DATE' => 'Дата:',
@@ -64,11 +64,11 @@ $mod_strings = array (
 'LBL_LIST_ASSIGNED_USER_ID' => 'Менеджер проекта' ,
 'LBL_LIST_TOTAL_ESTIMATED_EFFORT' => 'Предварительная оценка общих усилий (час.)' ,
 'LBL_LIST_TOTAL_ACTUAL_EFFORT' => 'Реальные общие усилия (час.)' ,
-'LBL_LIST_UPCOMING_TASKS' => 'Ближайшие задачи (1 неделя)',
-'LBL_LIST_OVERDUE_TASKS' => 'Просроченные задачи',
-'LBL_LIST_OPEN_CASES' => 'Открытые обращения',
+'LBL_LIST_UPCOMING_TASKS' => 'Ближайшие задачи (1 неделя)', ///
+'LBL_LIST_OVERDUE_TASKS' => 'Просроченные задачи', ///
+'LBL_LIST_OPEN_CASES' => 'Открытые обращения', ///
 'LBL_LIST_END_DATE' => 'Дата окончания',
-'LBL_LIST_TEAM_ID' => 'Team',
+'LBL_LIST_TEAM_ID' => 'Team', ///
 
 
 'LBL_PROJECT_SUBPANEL_TITLE' => 'Проекты' ,
@@ -76,7 +76,7 @@ $mod_strings = array (
 'LBL_CONTACT_SUBPANEL_TITLE' => 'Контакты' ,
 'LBL_ACCOUNT_SUBPANEL_TITLE' => 'Контрагенты' ,
 'LBL_OPPORTUNITY_SUBPANEL_TITLE' => 'Сделки' ,
-'LBL_QUOTE_SUBPANEL_TITLE' => 'Сметы' ,
+'LBL_QUOTE_SUBPANEL_TITLE' => 'Сметы' , ///
 'LBL_PROJECT_PREDECESSOR_NONE' => '--не выбрано--',
 'LBL_ALL_PROJECTS' => 'Все проекты',
 'LBL_ALL_USERS' => 'Все пользователи',
@@ -85,7 +85,7 @@ $mod_strings = array (
 // quick create label
 'LBL_NEW_FORM_TITLE' => 'Новый проект',
 
-'CONTACT_REMOVE_PROJECT_CONFIRM' => 'Вы уверены, что хотите удалить этот контакт из проекта?' ,
+'CONTACT_REMOVE_PROJECT_CONFIRM' => 'Вы уверены, что хотите удалить этот контакт из проекта?' , ///
 
 'LNK_NEW_PROJECT'=> 'Создать проект' ,
 'LNK_PROJECT_LIST'=> 'Проекты' ,
@@ -117,25 +117,25 @@ $mod_strings = array (
 
 'LBL_MORE'  => 'Больше...',
 
-'LBL_PERCENT_BUSY' => '% занято',
-'LBL_TASK_ID_WIDGET' => 'id',
-'LBL_TASK_NAME_WIDGET' => 'описание',
-'LBL_DURATION_WIDGET' => 'продолжительность',
-'LBL_START_WIDGET' => 'дата начала',
-'LBL_FINISH_WIDGET' => 'дата окончания',
-'LBL_PREDECESSORS_WIDGET' => 'предшественники_',
-'LBL_PERCENT_COMPLETE_WIDGET' => 'Процент выполнения',
-'LBL_EDIT_PROJECT_TASKS_TITLE'=> 'Редактировать проектные задачи',
+'LBL_PERCENT_BUSY' => '% занято', ///
+'LBL_TASK_ID_WIDGET' => 'id', ///
+'LBL_TASK_NAME_WIDGET' => 'описание', ///
+'LBL_DURATION_WIDGET' => 'продолжительность', ///
+'LBL_START_WIDGET' => 'дата начала', ///
+'LBL_FINISH_WIDGET' => 'дата окончания', ///
+'LBL_PREDECESSORS_WIDGET' => 'предшественники_', ///
+'LBL_PERCENT_COMPLETE_WIDGET' => 'Процент выполнения', ///
+'LBL_EDIT_PROJECT_TASKS_TITLE'=> 'Редактировать проектные задачи', ///
 
 'LBL_OPPORTUNITIES' => 'Сделки',
-'LBL_LAST_WEEK' => 'Предыдущая',
+'LBL_LAST_WEEK' => 'Предыдущая', ///
 'LBL_NEXT_WEEK' => 'Следующая',
 'LBL_PROJECTRESOURCES_SUBPANEL_TITLE' => 'Project Resources', ///
-'LBL_PROJECTTASK_SUBPANEL_TITLE' => 'Проектные задачи',
+'LBL_PROJECTTASK_SUBPANEL_TITLE' => 'Проектные задачи', ///
 'LBL_HOLIDAYS_SUBPANEL_TITLE' => 'Holidays', ///
 'LBL_PROJECT_INFORMATION' => 'Основная информация',
 'LBL_EDITLAYOUT' => 'Изменить макет' /*for 508 compliance fix*/,
-'LBL_INSERTROWS' => 'Добавить строки' /*for 508 compliance fix*/,
+'LBL_INSERTROWS' => 'Добавить строки' /*for 508 compliance fix*/, ///
 
 
 
@@ -175,12 +175,12 @@ $mod_strings = array (
   'LBL_AM_PROJECTTEMPLATES_PROJECT_1_FROM_AM_PROJECTTEMPLATES_TITLE' => 'Шаблон проекта',
 
 
-  'LBL_AM_PROJECTHOLIDAYS_PROJECT_FROM_AM_PROJECTHOLIDAYS_TITLE' => 'Выходные дни',
+  'LBL_AM_PROJECTHOLIDAYS_PROJECT_FROM_AM_PROJECTHOLIDAYS_TITLE' => 'Выходные дни', ///
   'LBL_TOOLTIP_PROJECT_NAME' => 'Проект',
   'LBL_TOOLTIP_TASK_NAME' => 'Проектная задача',
   'LBL_TOOLTIP_TITLE' => 'Задачи на выбранный период',
   'LBL_TOOLTIP_TASK_DURATION' => 'Продолжительность',
-  'LBL_PROJECT_TITLE_HOVER' => 'Детали проекта',
+  'LBL_PROJECT_TITLE_HOVER' => 'Детали проекта', ///
   'LBL_RESOURCE_TYPE_TITLE_USER' => 'Участник является пользователем',
   'LBL_RESOURCE_TYPE_TITLE_CONTACT' => 'Участник является контактом',
   'LBL_RESOURCE_CHART_PREVIOUS_MONTH' => 'Предыдущий месяц',

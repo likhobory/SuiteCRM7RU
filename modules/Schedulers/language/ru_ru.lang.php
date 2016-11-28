@@ -90,8 +90,8 @@ $mod_strings = array (
 'LBL_MONTHS' => 'месяц' ,
 'LBL_DAY_OF_WEEK' => 'день недели' ,
 'LBL_CRONTAB_EXAMPLES' => 'Значения представлены в стандартной crontab-нотации' ,
-'LBL_CRONTAB_SERVER_TIME_PRE' => 'Планировщик выполняет задания с учётом часового пояса, указанного на сервере (',
-'LBL_CRONTAB_SERVER_TIME_POST' => '). Укажите соответствующее время выполнения задания.',
+'LBL_CRONTAB_SERVER_TIME_PRE' => 'Планировщик выполняет задания с учётом часового пояса, указанного на сервере (', ///
+'LBL_CRONTAB_SERVER_TIME_POST' => '). Укажите соответствующее время выполнения задания.', ///
 // Labels
 'LBL_ALWAYS' => 'Всегда' ,
 'LBL_CATCH_UP' => 'Выполнить, если пропущено' ,
@@ -125,7 +125,7 @@ $mod_strings = array (
 'LNK_NEW_SCHEDULER' => 'Создать задание' ,
 'LNK_LIST_SCHEDULED' => 'Запланированные задания' ,
 // Messages
-'SOCK_GREETING' => "\nЭто интерфейс сервиса планировщика. \n[ Доступные команды: start|restart|shutdown|status ]\nДля выхода наберите 'quit'.\n",
+'SOCK_GREETING' => "\nЭто интерфейс сервиса планировщика. \n[ Доступные команды: start|restart|shutdown|status ]\nДля выхода наберите 'quit'.\n", ///
 'ERR_DELETE_RECORD' => 'Вы должны указать конкретную запись для удаления запланированного задания.' ,
 'ERR_CRON_SYNTAX' => 'Неверный cron-синтакс',
 'NTC_DELETE_CONFIRMATION' => 'Вы действительно хотите удалить эту запись?' ,
@@ -142,9 +142,9 @@ $mod_strings = array (
 'LBL_EXECUTE_TIME'=> 'Время выполнения' ,
 
 //jobstrings
-'LBL_REFRESHJOBS' => 'Обновить задания',
-'LBL_POLLMONITOREDINBOXES' => 'Проверять почтовые ящики для входящей почты',
-'LBL_PERFORMFULLFTSINDEX' => 'Full-text Search Index System',
+'LBL_REFRESHJOBS' => 'Обновить задания', /// ->
+'LBL_POLLMONITOREDINBOXES' => 'Проверять почтовые ящики для входящей почты', ///
+'LBL_PERFORMFULLFTSINDEX' => 'Full-text Search Index System', ///
 
 'LBL_RUNMASSEMAILCAMPAIGN' => 'Запускать ночью массовую рассылку писем',
 'LBL_POLLMONITOREDINBOXESFORBOUNCEDCAMPAIGNEMAILS' => 'Запускать ночью проверку почтовых ящиков для возвращаемых писем',
@@ -159,7 +159,7 @@ $mod_strings = array (
 'LBL_AODINDEXUNINDEXED' => 'Индексировать неиндексированные документы',
 'LBL_POLLMONITOREDINBOXESAOP' => 'Портал - проверять почтовые ящики для входящей почты',
 'LBL_AORRUNSCHEDULEDREPORTS' => 'Создавать отчёты по расписанию',
-'LBL_PROCESSAOW_WORKFLOW' => 'Выполнять настроенные процессы',
+'LBL_PROCESSAOW_WORKFLOW' => 'Выполнять настроенные процессы', /// <-
 );
 
 ?>
