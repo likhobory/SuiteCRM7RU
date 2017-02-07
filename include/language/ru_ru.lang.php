@@ -40,11 +40,15 @@ $app_list_strings = array (
 	'AOBH_BusinessHours' => 'Часы работы',
     'Contacts' => 'Контакты' ,
     'Accounts' => 'Контрагенты' ,
+	'Alerts' => 'Уведомления',
     'Opportunities' => 'Сделки' ,
     'Cases' => 'Обращения' ,
     'Notes' => 'Заметки' ,
     'Calls' => 'Звонки' ,
+    'TemplateSectionLine' => 'Фрагменты шаблонов',
+    'Calls_Reschedule' => 'Отложенные звонки',
     'Emails' => 'E-mail' ,
+	'EAPM' => 'Внешние учётные записи (EAPM)',
     'Meetings' => 'Встречи' ,
     'Tasks' => 'Задачи' ,
     'Calendar' => 'Календарь' ,
@@ -86,7 +90,7 @@ $app_list_strings = array (
     'EmailTemplates' => 'Шаблоны E-mail' ,
 	'SNIP' => 'Email Archiving', ///
     'ProspectLists' => 'Списки адресатов'    ,
-    'SavedSearch' => 'Настройка отображения результатов поиска',
+    'SavedSearch' => 'Настройка отображения результатов фильтрации',
 	'UpgradeWizard' => 'Мастер обновления',
     'Trackers' => 'Трекеры',
     'TrackerPerfs' => 'Tracker Performance',   ///
@@ -99,7 +103,9 @@ $app_list_strings = array (
 	'SugarFavorites'=>'Избранное',
 	'OAuthKeys' => 'Клиентские ключи OAuth',
     'OAuthTokens' => 'OAuth-токены',
+	
         ),
+		
   'moduleListSingular' =>
   array (
     'Home' => 'SuiteCRM' ,
@@ -1607,14 +1613,13 @@ $app_strings = array (
   'LBL_MOREDETAIL' => 'Подробнее' /*for 508 compliance fix*/,
   'LBL_EDIT_INLINE' => 'Править' /*for 508 compliance fix*/,
   'LBL_VIEW_INLINE' => 'Просмотр' /*for 508 compliance fix*/,
-  'LBL_BASIC_SEARCH' => 'Поиск' /*for 508 compliance fix*/,
+  'LBL_BASIC_SEARCH' => 'Фильтр' /*for 508 compliance fix*/,
   'LBL_PROJECT_MINUS' => 'Удалить' /*for 508 compliance fix*/,
   'LBL_PROJECT_PLUS' => 'Добавить' /*for 508 compliance fix*/,
   'LBL_Blank' => ' ' /*for 508 compliance fix*/,
   'LBL_ICON_COLUMN_1' => 'Column' /*for 508 compliance fix*/, ///
   'LBL_ICON_COLUMN_2' => '2 Columns' /*for 508 compliance fix*/, ///
   'LBL_ICON_COLUMN_3' => '3 Columns' /*for 508 compliance fix*/, ///
-  'LBL_ADVANCED_SEARCH' => 'Расширенный поиск' /*for 508 compliance fix*/,
   'LBL_ID_FF_ADD' => 'Добавить' /*for 508 compliance fix*/,
   'LBL_HIDE_SHOW' => 'Скрыть/Отобразить' /*for 508 compliance fix*/,
   'LBL_DELETE_INLINE' => 'Удалить' /*for 508 compliance fix*/,
@@ -1744,7 +1749,7 @@ $app_strings = array (
     'LBL_EMAIL_ADDRESS_BOOK_TITLE_ICON'     => SugarThemeRegistry::current()->getImage('icon_email_addressbook', '', null, null, '.gif', 'Address Book').' Адресная книга',
     'LBL_EMAIL_ADDRESS_BOOK_TITLE_ICON_SHORT'     => SugarThemeRegistry::current()->getImage('icon_email_addressbook', 'align=absmiddle border=0', 14, 14, '.gif', ''),
 	'LBL_EMAIL_REMOVE_SMTP_WARNING'         => 'Внимание! Удаляемые настройки сервера исходящей почты связаны с существующей учётной записью. Все равно продолжить?',
-	'LBL_EMAIL_ADDRESSES'				=> 'E-mail',
+	'LBL_EMAIL_ADDRESSES'				=> 'Адреса E-mail',
     'LBL_EMAIL_ADDRESS_PRIMARY'     => 'Адрес Email',
     'LBL_EMAIL_ADDRESSES_TITLE'		=> 'Адреса E-mail',
 	'LBL_EMAIL_ARCHIVE_TO_SUGAR'	=> 'Импорт в SuiteCRM',
@@ -2122,7 +2127,7 @@ $app_strings = array (
     'ERR_INVALID_DAY' => 'Пожалуйста, введите правильный день.' ,
     'ERR_INVALID_EMAIL_ADDRESS' => 'Неверный адрес e-mail.' ,
     'ERR_INVALID_FILE_REFERENCE' => 'INVALID FILE REFERENCE.',
-    'ERR_INVALID_HOUR' => 'Пожалуйста, введите правильный час.' , ////
+    'ERR_INVALID_HOUR' => 'Пожалуйста, введите правильный час.' ,
     'ERR_INVALID_MONTH' => 'Пожалуйста, введите правильный месяц.' ,
     'ERR_INVALID_TIME' => 'Пожалуйста, введите правильное время.' ,
     'ERR_INVALID_YEAR' => 'Пожалуйста, введите правильные 4 цифры года.' ,
@@ -2418,7 +2423,9 @@ $app_strings = array (
     'LBL_SEARCH_BUTTON_KEY' => 'Q' , ///
     'LBL_SEARCH_BUTTON_LABEL' => 'Найти' ,
     'LBL_SEARCH_BUTTON_TITLE' => 'Найти' ,
+	'LBL_FILTER' => 'Фильтр',
     'LBL_SEARCH' => 'Поиск',
+	'LBL_SEARCH_ALT' => '',
 	'LBL_SEARCH_TIPS' => 'Press the search button or click enter to get an exact match for them.', ///
     'LBL_SEARCH_TIPS_2' => 'Press the search button or click enter to get an exact match for', ///
     'LBL_SEARCH_MORE' => 'далее',
@@ -2570,13 +2577,15 @@ $app_strings = array (
     'LBL_VIEW_PDF_BUTTON_TITLE' => 'Печать в PDF-формате' ,
 
     'LNK_ABOUT' => 'Справка' ,
-    'LNK_ADVANCED_SEARCH' => 'Расширенный поиск' ,
-    'LNK_BASIC_SEARCH' => 'Базовый поиск' ,
+    'LNK_ADVANCED_FILTER' => 'Расширенный фильтр' ,
+    'LNK_BASIC_FILTER' => 'Фильтр' ,
+	'LBL_ADVANCED_SEARCH' => 'Расширенный фильтр',
+	'LBL_QUICK_FILTER' => 'Фильтр',
 	'LNK_SEARCH_FTS_VIEW_ALL' => 'Отобразить все результаты',
     'LNK_SEARCH_NONFTS_VIEW_ALL' => 'Отобразить всё',
     'LNK_CLOSE' => 'закрыть',
-	'LBL_MODIFY_CURRENT_SEARCH'=> 'Изменить условия поиска',
-    'LNK_SAVED_VIEWS' => 'Настройка отображения результатов поиска',
+	'LBL_MODIFY_CURRENT_FILTER'=> 'Изменить условия фильтра',
+    'LNK_SAVED_VIEWS' => 'Настройка отображения результатов фильтрации',
     'LNK_DELETE_ALL' => 'удал. все' ,
     'LNK_DELETE' => 'удалить' ,
     'LNK_EDIT' => 'править',
@@ -2650,7 +2659,7 @@ $app_strings = array (
     'LBL_AJAX_FAILURE' => 'Ajax failure',
 
     'LBL_MERGE_DUPLICATES'  => 'Объединить',
-    'LBL_SAVED_SEARCH_SHORTCUT' => 'Сохранённые условия поиска',
+    'LBL_SAVED_FILTER_SHORTCUT' => 'Мои фильтры',
     'LBL_SEARCH_POPULATE_ONLY'=> 'Выполните поиск, используя вышеуказанную форму',
     'LBL_DETAILVIEW'=>'Форма просмотра',
     'LBL_LISTVIEW'=>'Форма списка',
@@ -2677,9 +2686,11 @@ $app_strings = array (
 	'MSG_JS_ALERT_MTG_REMINDER_NO_LOCATION' => 'Не указано место встречи.',
 	'MSG_JS_ALERT_MTG_REMINDER_NO_START_DATE' => 'Не указана дата начала.',
 	'MSG_LIST_VIEW_NO_RESULTS_BASIC' => 'Ничего не обнаружено.',
+	'MSG_LIST_VIEW_NO_RESULTS_CHANGE_CRITERIA' => 'Ничего не обнаружено... Попробуйте изменить условия фильтрации',
 	'MSG_LIST_VIEW_NO_RESULTS' => 'Ничего не обнаружено с названием <item1>',
- 	'MSG_LIST_VIEW_NO_RESULTS_SUBMSG' => 'Создать новую запись с таким названием',
-	'MSG_EMPTY_LIST_VIEW_NO_RESULTS' => 'Записи не обнаружены. Вы можете либо <item2> новую запись, либо выполнить <item3> записей.',
+ 	'MSG_LIST_VIEW_NO_RESULTS_SUBMSG' => 'Вы можете либо создать новую запись с таким названием,',
+	'MSG_LIST_VIEW_CHANGE_SEARCH' => 'либо изменить параметры поиска.',
+	'MSG_EMPTY_LIST_VIEW_NO_RESULTS' => 'Записи не обнаружены. Вы можете либо <item2> новую запись, либо выполнить <item3> записей,',
 	'MSG_EMPTY_LIST_VIEW_NO_RESULTS_SUBMSG' =>	'<item4> чтобы узнать больше о модуле <item1> в англоязычной веб-справке.',
 
     'LBL_CLICK_HERE' => 'Нажмите здесь',
@@ -2714,7 +2725,7 @@ $app_strings = array (
 	'LBL_NEXT_BTN' => 'Далее',
     'LBL_ONLY_IMAGE_ATTACHMENT' => 'Возможно добавить только графическое вложение',
     
-    'LBL_TRAINING' => 'Форум', ////
+    'LBL_TRAINING' => 'Форум',
     'ERR_DATABASE_CONN_DROPPED'=>'Ошибка при выполнении запроса. Вероятно, соединение с базой данных было утеряно. Пожалуйста, обновите текущую страницу. Возможно, потребуется перезагрузить ваш веб-сервер.',
     'ERR_MSSQL_DB_CONTEXT' =>'Состояние БД изменилось:',
 	'ERR_MSSQL_WARNING' =>'Внимание:',
@@ -2735,11 +2746,11 @@ $app_strings = array (
 	'LBL_DASHLET_CONFIGURE_DISPLAY_ROWS' => 'Отображать строк:',
 
 	// MySugar status strings
-	'LBL_CREATING_NEW_PAGE' => 'Создание новой страницы ...', ////
-	'LBL_NEW_PAGE_FEEDBACK' => 'Была создана новая страница. Вы можете наполнить её содержимым с помощью кнопки "Добавить дашлеты".', ////
-	'LBL_DELETE_PAGE_CONFIRM' => 'Вы действительно хотите удалить эту страницу?', ////
-	'LBL_SAVING_PAGE_TITLE' => 'Сохранение заголовка страницы ...', ////
-	'LBL_RETRIEVING_PAGE' => 'Получение страницы ...', ////
+	'LBL_CREATING_NEW_PAGE' => 'Создание новой страницы ...',
+	'LBL_NEW_PAGE_FEEDBACK' => 'Была создана новая страница. Вы можете наполнить её содержимым с помощью кнопки "Добавить дашлеты".',
+	'LBL_DELETE_PAGE_CONFIRM' => 'Вы действительно хотите удалить эту страницу?',
+	'LBL_SAVING_PAGE_TITLE' => 'Сохранение заголовка страницы ...',
+	'LBL_RETRIEVING_PAGE' => 'Получение страницы ...',
 	'LBL_MAX_DASHLETS_REACHED' => 'У вас установлено максимальное количество дашлетов, разрешённое администратором. Необходимо удалить один из дашлетов для добавления нового.',
 	'LBL_ADDING_DASHLET' => 'Добавление дашлета ...',
 	'LBL_ADDED_DASHLET' => 'Дашлет добавлен',
@@ -2979,14 +2990,14 @@ $app_strings = array (
 1. Удалите строки с демонстрационными данными
 2. Удалите текст справки, который вы сейчас читаете
 3. Заполните файл необходимыми рабочими данными
-4. Сохраните данный файл в определённой папке
+4. Сохраните данный файл в определенной папке
 5. Из меню модуля запустите процесс импорта и выберите только что сохранённый файл в качестве источника данных для загрузки
 
    ',
   // Replaced by RAPIRA <--
     //define labels to be used for overriding local values during import/export
-    'LBL_EXPORT_ASSIGNED_USER_ID' => 'Ответственный(ая)-ID', ////
-    'LBL_EXPORT_ASSIGNED_USER_NAME' => 'Ответственный(ая)', ////
+    'LBL_EXPORT_ASSIGNED_USER_ID' => 'Ответственный(ая)-ID',
+    'LBL_EXPORT_ASSIGNED_USER_NAME' => 'Ответственный(ая)',
     'LBL_EXPORT_REPORTS_TO_ID' => 'Reports To ID',///
     'LBL_EXPORT_FULL_NAME' => 'Full Name',///
     'LBL_EXPORT_TEAM_ID' => 'Team ID',///
@@ -3037,6 +3048,8 @@ $app_strings = array (
     'LBL_DELETE_BUTTON_KEY' => 'd', ///
     'LBL_DELETE_BUTTON_LABEL' => 'Удалить',
     'LBL_DELETE_BUTTON_TITLE' => 'Удалить',
+	'LBL_BULK_ACTION_BUTTON_LABEL' => 'Действия',
+    'LBL_BULK_ACTION_BUTTON_LABEL_MOBILE' => 'Действия',
     'LBL_SAVE_BUTTON_KEY' => 'a', ///
     'LBL_SAVE_BUTTON_LABEL' => 'Сохранить',
     'LBL_SAVE_BUTTON_TITLE' => 'Сохранить',
@@ -3058,19 +3071,32 @@ $app_strings = array (
 	
 	'ERR_A_REMINDER_IS_EMPTY_OR_INCORRECT' => 'Неверное или незаполненное напоминание.',
     'ERR_REMINDER_IS_NOT_SET_POPUP_OR_EMAIL' => 'Напоминание не настроено.',
-    'ERR_NO_INVITEES_FOR_REMINDER' => 'Нет приглашённых.'
+    'ERR_NO_INVITEES_FOR_REMINDER' => 'Нет приглашённых.',
+	'LBL_DELETE_REMINDER_CONFIRM' => 'Напоминание не содержит ни одного приглашённого. Удалить напоминание?',
+    'LBL_DELETE_REMINDER' => 'Удаление напоминания',
+    'LBL_OK' => 'Удалить',
+	
+	'LBL_COLUMNS_FILTER_HEADER_TITLE' => 'Выбор колонок',
+    'LBL_SAVE_CHANGES_BUTTON_TITLE' => 'Сохранить и закрыть',
+    'LBL_DISPLAYED' => 'Отображаемые колонки',
+    'LBL_HIDDEN' => 'Скрытые колонки',
+    'ERR_EMPTY_COLUMNS_LIST' => 'В списке отображаемых колонок должна быть как минимум одна колонка',
 
+    'LBL_FILTER_HEADER_TITLE' => 'Фильтрация записей',
+
+    'LBL_AOP_INTERNAL' => 'Внутреннее обновление',
    
 );
 
 $app_list_strings['moduleList']['Library'] = 'Library'; ///
 $app_list_strings['library_type'] = array('Books'=>'Book', 'Music'=>'Music', 'DVD'=>'DVD', 'Magazines'=>'Magazines'); ///
-$app_list_strings['moduleList']['EmailAddresses'] = 'Email Address'; ///
+$app_list_strings['moduleList']['EmailAddresses'] = 'Адрес E-mail'; ///
 
 
 
 
-  $app_list_strings['kbdocument_status_dom'] =    array ( /// ->
+
+  $app_list_strings['kbdocument_status_dom'] =    array (
     'Draft' => 'Черновик',
     'Expired' => 'Просрочен' ,
     'In Review' => 'На рассмотрении',
@@ -3137,8 +3163,8 @@ $app_list_strings['moduleList']['EmailAddresses'] = 'Email Address'; ///
     'this_year' => 'Текущий год',
     'next_year' => 'Следующий год',
     'isnull' => 'Без даты',
-        );/// <-
-
+        );
+/// <-
 	$app_list_strings['countries_dom'] = array(
 		'' => '' ,
 'ABU DHABI'=> 'АБУ-ДАБИ',
@@ -3791,7 +3817,8 @@ $app_list_strings['moduleList']['EmailAddresses'] = 'Email Address'; ///
   );
 
     $app_list_strings['moduleList']['Sugar_Favorites'] = 'Избранное';
-	  $app_list_strings['eapm_list']= array( /// ->
+	/// ->
+	  $app_list_strings['eapm_list']= array( 
   	'Sugar'=>'Suite',
   	'WebEx'=>'WebEx',
   	'GoToMeeting'=>'GoToMeeting',
@@ -3807,7 +3834,8 @@ $app_list_strings['moduleList']['EmailAddresses'] = 'Email Address'; ///
   );
 $app_list_strings['eapm_list_documents']= array(
   	'Google' => 'Google Docs',
-  ); /// <-
+  ); 
+  /// <-
 	$app_list_strings['token_status'] = array(
         1 => 'Токен запроса',
         2 => 'Токен доступа',
@@ -3829,7 +3857,8 @@ $app_list_strings ['emailTemplates_type_list_no_workflow'] = array (
     'campaign' => 'Маркетинг' ,
     'email' => 'E-mail',
   );
-  $app_strings ['documentation'] = array ( /// ->
+  /// ->
+  $app_strings ['documentation'] = array ( 
     'LBL_DOCS' => 'Документация',
     'ULT' => '02_Sugar_Ultimate',
 	'ENT' => '02_Sugar_Enterprise',
@@ -3837,7 +3866,8 @@ $app_list_strings ['emailTemplates_type_list_no_workflow'] = array (
 	'PRO' => '04_Sugar_Professional',
 	'COM' => '05_Sugar_Community_Edition'
 
-); /// <-
+); 
+/// <-
 
 //Suite***************
 

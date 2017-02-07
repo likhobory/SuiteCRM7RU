@@ -32,7 +32,7 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
 $mod_strings = array (
 'LBL_EMAIL_ADDRESS_ID' => 'ID',
 'LBL_EMAIL_ADDRESS' => 'E-mail',
-'LBL_EMAIL_ADDRESS_CAPS' => 'Email Address caps',
+'LBL_EMAIL_ADDRESS_CAPS' => 'Адрес E-mail (заглавными буквами)',
 'LBL_INVALID_EMAIL' => 'Неверный E-mail',
 'LBL_OPT_OUT' => 'Не писать',
 'LBL_DATE_CREATE' => 'Дата создания',

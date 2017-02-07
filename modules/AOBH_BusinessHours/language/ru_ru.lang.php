@@ -62,7 +62,7 @@ $mod_strings = array (
   'LBL_OPENING_HOURS' => 'Время открытия',
   'LBL_CLOSING_HOURS' => 'Время закрытия',
   'LBL_DAY' => 'День',
-  
+  'LBL_OPEN' => 'Открыто', /// for PR #2698
   );
 
 ?>

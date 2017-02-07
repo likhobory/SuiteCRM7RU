@@ -338,9 +338,10 @@ $mod_strings = array (
 'LBL_LANGUAGES' => 'Управление доступом к языковым пакетам',
 'LBL_LAYOUT' => 'Добавление, удаление, изменение полей, макетов полей и панелей в приложении' ,
 
-'LBL_LICENSE'               => 'Лицензия',
-
-'LBL_LIST_VIEW'          => 'Список',
+'LBL_LICENSE' => 'Лицензия',
+'LBL_LIST_VIEW' => 'Список',
+'LBL_LIST_SYMBOL' => 'Символ валюты', /// for PR #2698
+'LBL_LIST_RATE' => 'Курс обмена', /// for PR #2698
 
 'LBL_LDAP_TITLE'=> 'LDAP-аутентификация',
 'LBL_LDAP_ENABLE'=> 'Включить LDAP-аутентификацию',
@@ -1066,8 +1067,8 @@ $mod_strings = array (
 'LBL_EAPM_SETTINGS_DESC' => 'Выберите  приложения, доступ к которым из SuiteCRM возможен с использованием указанных учётных данных.',
 	'LBL_LANGUAGE_PACKS' => 'Языковые пакеты' /*for 508 compliance fix*/,
 	'LBL_PATCH_UPGRADES' => 'Обновления' /*for 508 compliance fix*/,
-	'LBL_ADVANCED_SEARCH' => 'Расширенный поиск' /*for 508 compliance fix*/,
-	'LBL_BASIC_SEARCH' => 'Базовый поиск' /*for 508 compliance fix*/,
+	'LBL_ADVANCED_SEARCH' => 'Расширенный фильтр' /*for 508 compliance fix*/,
+	'LBL_BASIC_SEARCH' => 'Фильтр' /*for 508 compliance fix*/,
 	'LBL_PROCESSING' => 'Обработка' /*for 508 compliance fix*/,
 
 'LBL_MI_IN_ACTIONVIEWMAP' => 'Установка Action View Map',

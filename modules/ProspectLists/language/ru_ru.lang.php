@@ -62,7 +62,7 @@ $mod_strings = array (
 'LNK_NEW_PROSPECT' => 'Создать адресата' ,
 'LNK_PROSPECT_LIST' => 'Адресаты' ,
 
-'LBL_PROSPECT_LISTS_SUBPANEL_TITLE' => 'Адресаты' ,
+'LBL_PROSPECT_LISTS_SUBPANEL_TITLE' => 'Адресаты' , ///
 'LBL_CONTACTS_SUBPANEL_TITLE' => 'Контакты' ,
 'LBL_LEADS_SUBPANEL_TITLE' => 'Предварительные контакты' ,
 'LBL_PROSPECTS_SUBPANEL_TITLE'=> 'Адресаты' ,
@@ -74,11 +74,12 @@ $mod_strings = array (
 'LBL_LIST_TYPE_LIST_NAME'=> 'Тип' ,
 'LBL_NEW_FORM_TITLE'=> 'Новый список адресатов' ,
 'LBL_MARKETING_NAME'=> 'Название маркетинговой кампании',
-'LBL_MARKETING_MESSAGE'=> 'Отправить маркетинговое сообщение' ,
+'LBL_MARKETING_MESSAGE'=> 'Отправить маркетинговое сообщение' , ///
 'LBL_DOMAIN_NAME'=> 'Имя домена' ,
 'LBL_DOMAIN'=> 'Нет писем в домене:'  ,
 'LBL_LIST_PROSPECTLIST_NAME'=> 'Название',
-'LBL_MORE_DETAIL' => 'Подробнее' /*for 508 compliance fix*/,
+'LBL_EMAIL_MARKETING'=>'Рассылки E-mail', /// for PR #2698
+'LBL_MORE_DETAIL' => 'Подробнее' /*for 508 compliance fix*/, ///
 );
 
 

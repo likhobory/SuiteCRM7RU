@@ -175,6 +175,7 @@ $mod_strings = array (
 'LBL_BUGS_SUBPANEL_TITLE' => 'Ошибки',
 'LBL_QUOTES_SUBPANEL_TITLE' => 'Quotes', ///
 'LBL_PRODUCTS_SUBPANEL_TITLE' => 'Products', ///
+'LBL_AOS_CONTRACTS' => 'Договоры', /// for PR #2698
 );
 
 

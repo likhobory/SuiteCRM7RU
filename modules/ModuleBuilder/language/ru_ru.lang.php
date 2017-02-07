@@ -194,8 +194,8 @@ $mod_strings = array(
 'popupHelp' => 'Здесь отображаются макеты настраиваемых <b>Всплывающих форм</b>.<br>',
 'PopupListViewBtn' => 'Поля, отображаемые в результатах поиска записи (под Формой поиска).',
 'PopupSearchViewBtn' => 'Редактирование критериев поиска записи.',
-'BasicSearchBtn' => 'Редактирование формы <b>Базового поиска</b> модуля.',
-'AdvancedSearchBtn' => 'Редактирование формы <b>Расширенного поиска</b> модуля.',
+'BasicSearchBtn' => 'Редактирование формы <b>Фильтра</b> модуля.',
+'AdvancedSearchBtn' => 'Редактирование формы <b>Расширенного фильтра</b> модуля.',
 'portalHelp' => 'Настройка <b>Портала</b>.', ///
 'SPUploadCSS' => 'Загрузить <b>Таблицу стилей</b> для Портала.', ///
 'SPSync' => '<b>Синхронизация</b> настроек Портала.', ///
@@ -228,12 +228,14 @@ You can re-order the modules by dragging their rows in the table.<br/><br/>
 'saveBtn'=> 'Нажмите кнопку <b>Сохранить</b> для сохранения всех изменений.',
 'publishBtn'=> 'Нажмите кнопку <b>Сохранить и установить</b> для сохранения и применения всех изменений.',
 ),
-'portalSync'=>array( /// ->
+/// ->
+'portalSync'=>array(
 'default' => 'Enter the <b>Sugar Portal URL</b> of the portal instance to update, and click <b>Go</b>.<br><br>Enter a valid Sugar user name and password, and then click <b>Begin Sync</b>.<br><br>The customizations made to the Sugar Portal <b>Layouts</b>, along with the <b>Style Sheet</b> if one was uploaded, will be transferred to specified the portal instance.',   ///
 ),
 'portalStyle'=>array(
 'default' => 'From here you can customize the look of the Sugar Portal.',   ///
-), /// <-
+), 
+/// <-
 ),
 
 'assistantHelp'=>array(
@@ -324,7 +326,8 @@ You can re-order the modules by dragging their rows in the table.<br/><br/>
 //ASSISTANT /// ->
 'LBL_AS_SHOW' => 'Показывать помощник в дальнейшем',
 'LBL_AS_IGNORE' => 'Не показывать помощник в дальнейшем',
-'LBL_AS_SAYS' => 'Помощник', /// <-
+'LBL_AS_SAYS' => 'Помощник', 
+/// <-
 
 
 //STUDIO2
@@ -343,9 +346,9 @@ You can re-order the modules by dragging their rows in the table.<br/><br/>
 'LBL_ADD_FIELDS'=> 'Добавить пользовательские поля', ////
 'LBL_AVAILABLE_SUBPANELS'=> 'Доступные субпанели',
 'LBL_ADVANCED'=> 'Расширенный',
-'LBL_ADVANCED_SEARCH'=> 'Расширенный поиск',
+'LBL_ADVANCED_SEARCH'=> 'Расширенный фильтр',
 'LBL_BASIC'=> 'Основные данные',
-'LBL_BASIC_SEARCH'=> 'Базовый поиск',
+'LBL_BASIC_SEARCH'=> 'Фильтр',
 'LBL_CURRENT_LAYOUT'=> 'Текущий макет',
 'LBL_CURRENCY' => 'Валюта',
 'LBL_CUSTOM' => 'Custom', ///
@@ -392,8 +395,8 @@ You can re-order the modules by dragging their rows in the table.<br/><br/>
 'LBL_SUBPANELS' => 'Субпанели',
 'LBL_SUBPANEL' => 'Субпанель',
 'LBL_SUBPANEL_TITLE' => 'Надпись:',
-'LBL_SEARCH_FORMS' => 'Поиск',
-'LBL_SEARCH'=> 'Поиск',
+'LBL_SEARCH_FORMS' => 'Фильтры',
+'LBL_FILTER'=> 'Фильтры',
 'LBL_STAGING_AREA' => 'Staging Area (drag and drop items here)',   ///
 'LBL_SUGAR_FIELDS_STAGE' => 'Suite Fields (click items to add to staging area)', ///
 'LBL_SUGAR_BIN_STAGE' => 'Suite Bin (click items to add to staging area)',   ///
@@ -459,7 +462,7 @@ You can re-order the modules by dragging their rows in the table.<br/><br/>
 'LBL_QUESTION_EDIT' => 'Выберите модуль для редактирования',
 'LBL_QUESTION_LAYOUT' => 'Выберите макет для редактирования',
 'LBL_QUESTION_SUBPANEL' => 'Выберите субпанель для редактирования',
-'LBL_QUESTION_SEARCH' => 'Выберите макет Формы поиска для редактирования',
+'LBL_QUESTION_SEARCH' => 'Выберите макет Формы фильтра для редактирования',
 'LBL_QUESTION_MODULE' => 'Выберите компонент модуля для редактирования',
 'LBL_QUESTION_PACKAGE' => 'Выберите пакет для редактирования или создайте новый пакет.',
 'LBL_QUESTION_EDITOR' => 'Выберите необходимый инструмент',
@@ -690,7 +693,8 @@ You can re-order the modules by dragging their rows in the table.<br/><br/>
 'LBL_ADD_LAYOUT' => 'Добавить макет', /// ->
 'LBL_ADD_LAYOUTS' => 'Добавить макет',
 'LBL_QUESTION_ADD_LAYOUT' => 'Выбрать макет Групп для добавления.',
-'LBL_REMOVE_LAYOUT' => 'Удалить макет Групп', /// <-
+'LBL_REMOVE_LAYOUT' => 'Удалить макет Групп', 
+/// <-
 
 'LBL_SECURITYGROUP' => 'Группы пользователей:', ///
 'LBL_COPY_FROM' => 'Копировать из:',

@@ -30,12 +30,11 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
  // Replaced by RAPIRA <--
  
 $mod_strings = array (
-'LBL_MODULE_NAME'=> 'Календарь' ,
-'LBL_AGENDADAY' => 'День',
-'LBL_AGENDAWEEK' => 'Неделя',
+
 'LBL_SHAREDWEEK' => 'Сводная неделя',
 'LBL_SHAREDMONTH' => 'Сводный месяц',
 
+'LBL_MODULE_NAME'=> 'Календарь' ,
 'LBL_MODULE_TITLE'=> 'Календарь' ,
 'LNK_NEW_CALL' => 'Назначить звонок' ,
 'LNK_NEW_MEETING' => 'Назначить встречу' ,
@@ -46,14 +45,16 @@ $mod_strings = array (
 'LNK_TASK_LIST' => 'Задачи' ,
 'LNK_TASK' => 'Задача',
 'LNK_TASK_VIEW' => 'Просмотр задачи',
+'LNK_EVENT' => 'Событие',
+'LNK_EVENT_VIEW' => 'Просмотр события',
 'LNK_VIEW_CALENDAR' => 'Сегодня' ,
 'LNK_IMPORT_CALLS'=> 'Импорт звонков',
 'LNK_IMPORT_MEETINGS'=> 'Импорт встреч',
 'LNK_IMPORT_TASKS'=> 'Импорт задач',
 'LBL_MONTH' => 'Месяц' ,
-
+'LBL_AGENDADAY' => 'День',
 'LBL_YEAR' => 'Год' ,
-
+'LBL_AGENDAWEEK' => 'Неделя',
 'LBL_PREVIOUS_MONTH' => 'Предыдущий месяц' ,
 'LBL_PREVIOUS_DAY' => 'Предыдущий день' ,
 'LBL_PREVIOUS_YEAR' => 'Предыдущий год' ,

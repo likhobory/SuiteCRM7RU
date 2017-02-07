@@ -205,6 +205,7 @@ $mod_strings = array (
 'LBL_PROJECT_SUBPANEL_TITLE' => 'Проекты',
 'LBL_CAMPAIGNS_SUBPANEL_TITLE' => 'Маркетинговые кампании', ////
 'LNK_IMPORT_CONTACTS' => 'Импорт контактов',
+'LBL_PROJECT_CONTACTS_1_FROM_PROJECT_TITLE' => 'Контакты проекта', /// for PR #2698
 
 //For export labels ///
 'LBL_PHONE_HOME' => 'Тел. (дом.)', ///
@@ -234,13 +235,17 @@ $mod_strings = array (
 'LBL_CREATE_PORTAL_USER_FAILED' => 'Ошибка создания пользователя портала.',
 'LBL_ENABLE_PORTAL_USER_FAILED' => 'Ошибка включения пользователя портала.',
 'LBL_DISABLE_PORTAL_USER_FAILED' => 'Ошибка отключения пользователя портала.',
-'LBL_CREATE_PORTAL_USER_SUCCESS' => 'Создать пользователя портала',
+'LBL_CREATE_PORTAL_USER_SUCCESS' => 'Пользователь портала успешно создан',
 'LBL_ENABLE_PORTAL_USER_SUCCESS' => 'Включить пользователя портала',
 'LBL_DISABLE_PORTAL_USER_SUCCESS' => 'Отключить пользователя портала',
 'LBL_NO_JOOMLA_URL' => 'Не указан URL портала',
 'LBL_PORTAL_USER_TYPE' => 'Пользователь портала:',
 'LBL_PORTAL_ACCOUNT_DISABLED' => 'Учётная запись портала отключена:',
 'LBL_JOOMLA_ACCOUNT_ID' => 'ID учётной записи Joomla',
+
+'LBL_AOS_CONTRACTS' => 'Договоры', /// for PR #2698
+'LBL_AOS_INVOICES' => 'Счета', /// for PR #2698
+'LBL_AOS_QUOTES' => 'Предложения', /// for PR #2698
 
 );
 

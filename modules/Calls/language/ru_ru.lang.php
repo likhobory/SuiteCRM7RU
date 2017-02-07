@@ -165,6 +165,8 @@ $mod_strings = array (
     'LBL_RESCHEDULE_HISTORY' => 'История дозвона',
 	'LBL_CANCEL' => 'Отказаться',
     'LBL_SAVE' => 'Сохранить',
+	'LBL_CALLS_RESCHEDULE' => 'Отложенные звонки', /// for PR #2698
+    'LBL_TYPE' => 'Тип:', /// for PR #2698
 	
 );
 

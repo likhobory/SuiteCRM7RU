@@ -50,5 +50,6 @@ $mod_strings = array (
   'LBL_TOTAL_AMT_USDOLLAR' => 'Итого без скидки (основная валюта)',
   'LBL_GROUP_TOTAL_USDOLLAR' => 'ИТОГО С НДС (основная валюта)',
   'LBL_SUBTOTAL_TAX_AMOUNT_USDOLLAR' => 'Итого учётом скидки и НДС (основная валюта)',
+  'LBL_PARENT_ID' => 'ID родителя', /// for PR #2698
 );
 ?>

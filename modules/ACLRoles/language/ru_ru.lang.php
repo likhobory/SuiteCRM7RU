@@ -42,10 +42,12 @@ $mod_strings = array (
 'LBL_ROLES_SUBPANEL_TITLE'=> 'Роли пользователя' ,
 'LBL_SEARCH_FORM_TITLE'=> 'Найти' ,
 'LBL_CREATE_ROLE'=> 'Создать роль' ,
-'LBL_EDIT_VIEW_DIRECTIONS'=> 'Нажмите два раза на элементе для изменения значения.'  ,
+'LBL_EDIT_VIEW_DIRECTIONS'=> 'Нажмите на элементе для изменения значения.'  ,
 'LBL_ACCESS_DEFAULT'=> 'По умолчанию',
 'LBL_ACTION_ADMIN'=> 'Тип доступа',
 'LBL_ALL'=> 'Все',
 'LBL_DUPLICATE_OF'=> 'Дублирует ',
+'LBL_MODULES'=>'Модули', /// for PR #2698
+'LBL_SECURITYGROUPS'=>'Группы пользователей', /// for PR #2698
 )
 ?>

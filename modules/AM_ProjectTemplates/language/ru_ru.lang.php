@@ -137,5 +137,6 @@ $mod_strings = array (
 'LBL_NO_ACCESS' => 'У вас нет прав на создание записи в модуле $module',
 'LBL_SCHEDULING_FORM_TITLE' => 'Участники',
 'LBL_NONE' => '--не выбрано--',
+'LBL_AM_PROJECTTEMPLATES_PROJECT_1_FROM_PROJECT_TITLE' => 'Шаблоны проекта', /// for PR #2698
 	
 );

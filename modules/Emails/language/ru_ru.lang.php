@@ -38,9 +38,7 @@ $mod_strings = array (
 'LBL_QS_DISABLED'                   => '(Функция быстрого поиска не доступна для данного модуля. Пожалуйста, используйте кнопку выбора.)',
 'LBL_SIGNATURE_PREPEND'=> 'Поместить подпись перед ответом',
 'LBL_EMAIL_DEFAULT_DESCRIPTION' => 'Here is the quote you requested (You can change this text)',
-'LBL_EMAIL_QUOTE_FOR' => 'Quote for: ', ///
-'LBL_QUOTE_LAYOUT_DOES_NOT_EXIST_ERROR' => 'quote layout file does not exist: $layout', ///
-'LBL_QUOTE_LAYOUT_REGISTERED_ERROR' => 'quote layout is not registered in modules/Quotes/Layouts.php', ///
+
 
 
 'LBL_CONFIRM_DELETE'=> 'Вы уверены, что хотите удалить эту папку?' ,
@@ -105,7 +103,6 @@ $mod_strings = array (
 'LBL_EMPTY_FOLDER'          => 'Папка пуста',
 'LBL_ERROR_SENDING_EMAIL'=> 'Ошибка при отправке E-mail' ,
 'LBL_ERROR_SAVING_DRAFT'=> 'Ошибка сохранения черновика',
-'LBL_FORWARD_HEADER'=> 'Begin forwarded message:',  ///
 'LBL_FROM_NAME'=> 'Имя отправителя' ,
 'LBL_FROM'=> 'От:' ,
 'LBL_REPLY_TO'=> 'Ответить:',
@@ -127,14 +124,12 @@ $mod_strings = array (
 'LBL_PROJECT_SUBPANEL_TITLE'=> 'Проекты' ,
 'LBL_PROJECT_TASK_SUBPANEL_TITLE'=> 'Проектные задачи' ,
 'LBL_RAW'                  => 'Исходный E-mail',
-'LBL_SAVE_AS_DRAFT_BUTTON_KEY'=> 'R' , ///
 'LBL_SAVE_AS_DRAFT_BUTTON_LABEL'=> 'Сохранить черновик' ,
 'LBL_SAVE_AS_DRAFT_BUTTON_TITLE'=> 'Сохранить черновик' ,
 'LBL_SEARCH_FORM_DRAFTS_TITLE'=> 'Найти черновики' ,
 'LBL_SEARCH_FORM_SENT_TITLE'=> 'Найти отправленные E-mail' ,
 'LBL_SEARCH_FORM_TITLE'=> 'Поиск E-mail' ,
 'LBL_SEND_ANYWAYS'=> 'Не указана тема письма. Все равно отправить?' ,
-'LBL_SEND_BUTTON_KEY'=> 'S' , ///
 'LBL_SEND_BUTTON_LABEL'=> 'Отправить' ,
 'LBL_SEND_BUTTON_TITLE'=> 'Отправить' ,
 'LBL_SEND'=> 'ОТПРАВИТЬ' ,
@@ -192,7 +187,6 @@ $mod_strings = array (
 
 // for All emails
 'LBL_BUTTON_RAW_TITLE'   => 'Показать исходный текст сообщения',
-'LBL_BUTTON_RAW_KEY'     => 'e', ///
 'LBL_BUTTON_RAW_LABEL'   => 'Показать исходный текст сообщения',
 'LBL_BUTTON_RAW_LABEL_HIDE' => 'Скрыть исходный текст сообщения',
 
@@ -202,8 +196,6 @@ $mod_strings = array (
 'LBL_BUTTON_CHECK_KEY'=> 'c' ,
 'LBL_BUTTON_FORWARD'=> 'Переслать' ,
 'LBL_BUTTON_FORWARD_TITLE'=> 'Переслать это сообщение' ,
-'LBL_BUTTON_FORWARD_KEY'=> 'f' , ///
-'LBL_BUTTON_REPLY_KEY'=> 'r' , ///
 'LBL_BUTTON_REPLY_TITLE'=> 'Ответить' ,
 'LBL_BUTTON_REPLY'=> 'Ответить' ,
 'LBL_BUTTON_REPLY_ALL'=> 'Ответить всем',
@@ -227,10 +219,8 @@ $mod_strings = array (
 'LBL_ALL'=> 'Все' ,
 'LBL_ASSIGN_WARN'=> 'Проверьте, что все 2 опции установлены.' ,
 'LBL_BACK_TO_GROUP'=> 'Возврат к групповым входящим' ,
-'LBL_BUTTON_DISTRIBUTE_KEY'=> 'a' , ///
 'LBL_BUTTON_DISTRIBUTE_TITLE'=> 'Назначение' ,
 'LBL_BUTTON_DISTRIBUTE'=> 'Назначить' ,
-'LBL_BUTTON_GRAB_KEY'=> 't' , ///
 'LBL_BUTTON_GRAB_TITLE'=> 'Взять из группы' ,
 'LBL_BUTTON_GRAB'=> 'Взять из группы' ,
 'LBL_CREATE_BUG'=> 'Добавить ошибку' ,
@@ -247,7 +237,6 @@ $mod_strings = array (
 'LBL_NO_GRAB_DESC'=> 'Нет доступным записей. Попробуйте ещё раз попозже.' ,
 'LBL_QUICK_REPLY'=> 'Ответить' ,
 'LBL_REPLIED'=> 'Дан ответ' ,
-'LBL_SELECT_TEAM'=> 'Выбор команды' , ///
 'LBL_TAKE_ONE_TITLE'=> 'Повт.' ,
 'LBL_TITLE_SEARCH_RESULTS'=> 'Результаты поиска' ,
 'LBL_TO'=> 'Кому:' ,
@@ -272,7 +261,6 @@ $mod_strings = array (
 'LBL_LIST_TITLE_MY_INBOX'=> 'Мои входящие' ,
 'LBL_LIST_TITLE_MY_SENT'=> 'Мои отправленные письма' ,
 'LBL_LIST_TITLE_MY_ARCHIVES'=> 'Моя архивная почта' ,
-'LBL_ACTIVITIES_REPORTS' => 'Отчёты по мероприятиям', ///
 
 'LNK_CHECK_MY_INBOX'=> 'Проверить почту' ,
 'LNK_DATE_SENT'=> 'Дата отправки' ,
@@ -282,7 +270,7 @@ $mod_strings = array (
 'LNK_VIEW_MY_INBOX'=> 'Просмотр моих E-mail',
 'LNK_QUICK_REPLY'=> 'Ответить' ,
 'LNK_MY_ARCHIVED_LIST'=> 'Мои архивы' ,
-'LBL_EMAILS_NO_PRIMARY_TEAM_SPECIFIED' => 'No Primary Team specified', ///
+'LBL_EMAILS_NO_PRIMARY_TEAM_SPECIFIED' => 'Не указана основная Группа пользователей',
 
 // advanced search
 'LBL_ASSIGNED_TO'=> 'Ответственный(ая): ' ,
@@ -341,7 +329,7 @@ $mod_strings = array (
 'LBL_MAIL_SMTPUSER'=> 'SMTP-пользователь:' ,
 'LBL_MAIL_SMTPPASS'=> 'SMTP-пароль:' ,
 'LBL_MAIL_SMTPSERVER' => 'SMTP-сервер:' ,
-'LBL_SMTP_SERVER_HELP' => 'Сервер SMTP может быть использован для отправки исходящей электронной почты. Для использования данного сервера в настройках учётной записи укажите соответствующего пользователя и пароль.',
+'LBL_SMTP_SERVER_HELP' => 'Сервер SMTP может быть использован для отправки исходящей электронной почты. Для использования данного сервера в настройках учётной записи укажите соответствующего пользователя и пароль.', ////
 'LBL_MISSING_DEFAULT_OUTBOUND_SMTP_SETTINGS' => 'Администратор системы ещё не настроил стандартный сервер исходящей почты. Тестовое письмо не может быть отправлено.',
 'LBL_MAIL_SMTPAUTH_REQ'=> 'Использовать SMTP-аутентификацию?',
 
@@ -380,8 +368,8 @@ $mod_strings = array (
 'LBL_EMAILSETTINGS' => 'Параметры E-mail' /*for 508 compliance fix*/,
 
 // SNIP
-'LBL_CONTACTS_SUBPANEL_TITLE_SNIP' => 'E-mail: Контакты', ///
 'LBL_EMAILS_MEETINGS_REL' => 'E-mail: Встречи',
 'LBL_DATE_CREATED' => 'Дата создания',
 'LBL_DATE_MODIFIED' => 'Дата изменения',
+'LBL_MAILBOX_ID' => 'ID почтовой папки', /// for PR #2698
 );

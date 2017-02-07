@@ -42,7 +42,7 @@ $mod_strings = array (
 'LBL_RETRY_COUNT' 	=> 'Количество повторов',
 'LBL_FAIL_COUNT' 	=> 'Неудачи',
 'LBL_INTERVAL' 	=> 'Минимальный интервал между повторами',
-'LBL_CLIENT' 	=> 'Owning client',
+'LBL_CLIENT' 	=> 'Owning client', ////
 'LBL_PERCENT'	=> 'Процент выполнения',
 // Errors
 'ERR_CALL' 	=> 'Ошибка вызова функции: %s',

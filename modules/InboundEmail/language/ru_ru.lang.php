@@ -180,6 +180,10 @@ $mod_strings = array(
 'LBL_WARNING_CHANGING_AUTO_IMPORT' => 'Предупреждение: Вы изменяете параметр автоматического импорта, что может привести к потере данных.',
 'LBL_WARNING_CHANGING_AUTO_IMPORT_WITH_CREATE_CASE' => 'Предупреждение: При автоматическом создании Обращений автоиморт также должен быть включён.',
 'LBL_EDIT_LAYOUT' => 'Изменить макет' /*for 508 compliance fix*/,
+'LBL_MODIFIED_BY' => 'Изменено', /// for PR #2698
+'LBL_SERVICE' => 'Сервис', /// for PR #2698
+'LBL_STORED_OPTIONS' => 'Сохранённые параметры', /// for PR #2698
+'LBL_GROUP_ID' => 'ID группы', /// for PR #2698
 );
 
 ?>

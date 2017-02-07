@@ -65,4 +65,5 @@ $mod_strings = array (
   'LBL_PRODUCT_CATEGORIES' => 'Родительская категория',
   'LBL_PRODUCT_CATEGORYS_NAME' => 'Родительская категория',
   'LBL_PARENT_CATEGORY_ID' =>  'Родительская категория (ID)',
+  'LBL_AOS_PRODUCT_CATEGORIES_AOS_PRODUCTS_FROM_AOS_PRODUCTS_TITLE' =>  'Название товара', /// for PR #2698
 );

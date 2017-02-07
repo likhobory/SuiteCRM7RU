@@ -160,6 +160,8 @@ $mod_strings = array (
 'LBL_POLLMONITOREDINBOXESAOP' => 'Портал - проверять почтовые ящики для входящей почты',
 'LBL_AORRUNSCHEDULEDREPORTS' => 'Создавать отчёты по расписанию',
 'LBL_PROCESSAOW_WORKFLOW' => 'Выполнять настроенные процессы', /// <-
+
+'LBL_SCHEDULER_TIMES' => 'Расписание планировщика', /// for PR #2698
 );
 
 ?>

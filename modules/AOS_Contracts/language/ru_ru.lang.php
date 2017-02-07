@@ -120,6 +120,11 @@ $mod_strings = array (
   'LBL_SHIPPING_TAX_USDOLLAR' => 'НДС доставки (основная валюта)',
   'LBL_SHIPPING_TAX_AMT_USDOLLAR' => 'НДС доставки (основная валюта)',
   'LBL_GRAND_TOTAL_USDOLLAR' => 'ВСЕГО К ОПЛАТЕ (основная валюта)',
+  
+  'LBL_AOS_LINE_ITEM_GROUPS' => 'Группы', /// for PR #2698
+  'LBL_AOS_PRODUCT_QUOTES' => 'Предложение-Товары', /// for PR #2698
+  'LBL_AOS_QUOTES_AOS_CONTRACTS' => 'Предложения : Договоры', /// for PR #2698
+  'LBL_AOS_CONTRACTS' => 'Договоры', /// for PR #2698
 
 
 );

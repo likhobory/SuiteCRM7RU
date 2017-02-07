@@ -59,8 +59,22 @@ $mod_strings = array (
   'LBL_EDIT_EMAIL_TEMPLATE' => 'Изменить',
   'LBL_EMAIL' => 'Отправить E-mail',
   'LBL_EMAIL_TEMPLATE' => 'Шаблон E-mail',
-  'LBL_SETAPPROVAL' => 'Set Approval',
+  'LBL_SETAPPROVAL' => 'Set Approval', ////
   'LBL_RELATE_WORKFLOW' => 'Связать с записью в контролируемом модуле',
-    'LBL_INDIVIDUAL_EMAILS' => 'Отправлять индивидуально каждому указанному адресату',
+  'LBL_INDIVIDUAL_EMAILS' => 'Отправлять индивидуально каждому указанному адресату',
+  'LBL_COMPUTEFIELD' => 'Выполнить вычисления в полях',
+  'LBL_COMPUTEFIELD_PARAMETERS' => 'Основные параметры',
+  'LBL_COMPUTEFIELD_FIELD_NAME' => 'Поле',
+  'LBL_COMPUTEFIELD_IDENTIFIER' => 'Идентификатор',
+  'LBL_COMPUTEFIELD_ADD_PARAMETER' => 'Добавить основной параметр',
+  'LBL_COMPUTEFIELD_RELATION_PARAMETERS' => 'Связанные параметры',
+  'LBL_COMPUTEFIELD_RELATION' => 'Связь',
+  'LBL_COMPUTEFIELD_ADD_RELATION_PARAMETER' => 'Добавить связанный параметр',
+  'LBL_COMPUTEFIELD_FORMULA' => 'Формула',
+  'LBL_COMPUTEFIELD_FORMULAS' => 'Формулы',
+  'LBL_COMPUTEFIELD_ADD_FORMULA' => 'Добавить формулу',
+  'LBL_COMPUTEFIELD_VALUE_TYPE' => 'Ключ / Видимое значение',
+  'LBL_COMPUTEFIELD_RAW_VALUE' => 'Ключ',
+  'LBL_COMPUTEFIELD_FORMATTED_VALUE' => 'Видимое значение'
 
 );

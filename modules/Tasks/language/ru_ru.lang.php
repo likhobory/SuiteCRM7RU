@@ -103,6 +103,7 @@ $mod_strings = array (
 'LBL_EXPORT_PARENT_TYPE' => 'Относится к модулю', ////
 'LBL_EXPORT_PARENT_ID' => 'Относится к (ID)', ///
 'LBL_RELATED_TO' => 'Относится к:',
+'LBL_CONTACT_PARENT' => 'Руководитель', /// for PR #2698
 );
 
 

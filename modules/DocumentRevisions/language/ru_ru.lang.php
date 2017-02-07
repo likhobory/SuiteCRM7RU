@@ -52,6 +52,7 @@ $mod_strings = array (
 
 'LBL_DOC_NAME' => 'Название документа:' ,
 'LBL_DOC_VERSION' => 'Версия:' ,
+'LBL_CREATED_BY_NAME' => 'Создано', /// for PR #2698
 
 //document revisions.
 'LBL_REV_LIST_REVISION' => 'Версия' ,

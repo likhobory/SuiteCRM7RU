@@ -173,5 +173,6 @@ $mod_strings['LBL_CONFIG_MAP_MARKERS_CLUSTERER_MAX_ZOOM_DESC'] = 'Установ
 $mod_strings['LBL_CONFIG_CUSTOM_CONTROLLER_DESC'] = 'Примечание: все сохранённые параметры находятся в таблице <b>config</b>, категория <b>jjwg</b>. Файл controller.php для перезаписи параметров больше не используется.';
 $mod_strings['LBL_JJWG_MAPS_JJWG_AREAS_FROM_JJWG_AREAS_TITLE'] = 'Участки карт';
 $mod_strings['LBL_JJWG_MAPS_JJWG_MARKERS_FROM_JJWG_MARKERS_TITLE'] = 'Метки';
+$mod_strings['LBL_PARENT_ID'] = 'ID родителя';  /// for PR #2698
 
 ?>

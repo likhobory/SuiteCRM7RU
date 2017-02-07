@@ -140,6 +140,9 @@ $mod_strings = array (
 // SNIP
 'LBL_CONTACT_HISTORY_SUBPANEL_TITLE' => 'Related Contacts\' Emails', ///
 'TWITTER_USER_C' => 'Учётная запись в Twitter',
+
+'LBL_AOS_CONTRACTS' => 'Договоры', /// for PR #2698
+'LBL_AOS_QUOTES' => 'Предложения', /// for PR #2698
 );
 
 ?>

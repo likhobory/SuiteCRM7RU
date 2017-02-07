@@ -60,6 +60,7 @@ $mod_strings = array(
     'LBL_USERS' => 'Пользователи',
     'LBL_USERS_SUBPANEL_TITLE' => 'Пользователи',
     'LBL_ROLES_SUBPANEL_TITLE' => 'Роли',
+	'LBL_ROLES' => 'Роли', /// for PR #2698
 
     'LBL_CONFIGURE_SETTINGS' => 'Настройка',
     'LBL_ADDITIVE' => 'Аддитивные права',

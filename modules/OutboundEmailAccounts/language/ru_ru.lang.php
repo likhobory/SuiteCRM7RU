@@ -53,11 +53,11 @@ $mod_strings = array (
   'LBL_HOMEPAGE_TITLE' => 'Мои серверы исходящей почты',
   'LNK_NEW_RECORD' => 'Добавить сервер исходящей почты',
   'LNK_LIST' => 'Перечень серверов исходящей почты',
-  'LNK_IMPORT_OUTBOUNDEMAILACCOUNT' => 'Импорт данных о серверах исходящей почты',
+  'LNK_IMPORT_OUTBOUNDEMAILACCOUNT' => 'Импорт данных о серверах исходящей почты', ///
   'LBL_SEARCH_FORM_TITLE' => 'Поиск серверов исходящей почты',
   'LBL_HISTORY_SUBPANEL_TITLE' => 'История',
   'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Мероприятия',
-  'LBL_OUTBOUNDEMAILACCOUNT_SUBPANEL_TITLE' => 'Серверы исходящей почты',
+  'LBL_OUTBOUNDEMAILACCOUNT_SUBPANEL_TITLE' => 'Серверы исходящей почты', ///
   'LBL_NEW_FORM_TITLE' => 'Серверы исходящей почты',
   'LBL_USERNAME' => 'Логин',
   'LBL_PASSWORD' => 'Пароль',
@@ -66,15 +66,15 @@ $mod_strings = array (
   'LBL_SMTP_PORT' => 'Порт',
   'LBL_SMTP_PROTOCOL' => 'Протокол',
   'LBL_EDITVIEW_PANEL1' => 'Параметры сервера SMTP',
-  'LNK_IMPORT_OUTBOUNDEMAILACCOUNTS' => 'Импорт данных о серверах исходящей почты',
-  'LBL_OUTBOUNDEMAILACCOUNTS_SUBPANEL_TITLE' => 'Серверы исходящей почты',
-  'LBL_OUTBOUNDEMAILACCOUNT_CAMPA' => 'outboundemailaccount_campaigns_name',
+  'LNK_IMPORT_OUTBOUNDEMAILACCOUNTS' => 'Импорт данных о серверах исходящей почты', ///
+  'LBL_OUTBOUNDEMAILACCOUNTS_SUBPANEL_TITLE' => 'Серверы исходящей почты', ///
+  'LBL_OUTBOUNDEMAILACCOUNT_CAMPA' => 'outboundemailaccount_campaigns_name', ///
   'LBL_CHANGE_PASSWORD' => 'Изменить пароль',
   'LBL_CHOOSE_EMAIL_PROVIDER' => 'Укажите провайдера электронной почты',
   'LBL_SEND_TEST_EMAIL' => 'Тестирование',
 
     // for outbound email dialog
-    'LBL_SMTP_SERVER_HELP' => 'SMTP-сервер может быть использован для отправки исходящей почты. В параметрах учётной записи укажите соответствующие логин и пароль.',
+    'LBL_SMTP_SERVER_HELP' => 'SMTP-сервер может быть использован для отправки исходящей почты. В параметрах учётной записи укажите соответствующие логин и пароль.', ///
     'LBL_MISSING_DEFAULT_OUTBOUND_SMTP_SETTINGS' => 'Невозможно отправить тестовое письмо: почтовый сервер для отправки исходящей почты не настроен.',
     'LBL_MAIL_SMTPAUTH_REQ'				=> 'Использовать SMTP-аутентификацию?',
     'LBL_MAIL_SMTPPASS'					=> 'Пароль:',
@@ -91,4 +91,8 @@ $mod_strings = array (
     'LBL_EXCHANGE_SMTPUSER'					=> 'Логин:',
     'LBL_EXCHANGE_SMTPPORT'					=> 'Порт:',
     'LBL_EXCHANGE_SMTPSERVER'				=> 'SMTP-сервер:',
+	
+	'LBL_TYPE' => 'Почтовый сервер:', /// for PR #2698
+    'LBL_MAIL_SENDTYPE' => 'Отправка почты с помощью:', /// for PR #2698
+    'LBL_MAIL_SMTPSSL' => 'Параметры SMTP/SSL:', /// for PR #2698
 );

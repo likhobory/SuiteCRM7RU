@@ -233,9 +233,9 @@ $mod_strings = array (
 'LBL_DASHLET_SUGAR_NEWS' => 'SuiteCRM-новости',
 'LBL_DASHLET_DISCOVER_SUGAR_PRO' => 'Discover Suite', ///
 	'LBL_POWERED_BY_SUGAR' => 'Powered By SuiteCRM' /*for 508 compliance fix*/,
-	'LBL_MORE_DETAIL' => 'Подробнее' /*for 508 compliance fix*/,
-	'LBL_BASIC_SEARCH' => 'Базовый поиск' /*for 508 compliance fix*/,
-	'LBL_ADVANCED_SEARCH' => 'Расширенный поиск' /*for 508 compliance fix*/,
+	'LBL_MORE_DETAIL' => 'Подробнее' /*for 508 compliance fix*/, ////
+	'LBL_BASIC_SEARCH' => 'Фильтр' /*for 508 compliance fix*/,
+	'LBL_ADVANCED_SEARCH' => 'Расширенный фильтр' /*for 508 compliance fix*/,
     'LBL_TOUR_HOME' => 'Home Icon', /// ->
     'LBL_TOUR_HOME_DESCRIPTION' => 'Quickly get back to your Home Page dashboard in one click.',
     'LBL_TOUR_MODULES' => 'Modules',
@@ -287,6 +287,7 @@ $mod_strings = array (
 'LBL_CONTRIBUTOR_JJW_GMAPS' => 'JJWDesign Google Maps by Jeffrey J. Walters',
 'LBL_CONTRIBUTOR_CONSCIOUS' => 'SuiteCRM LOGO Provided by Conscious Solutions',
 'LBL_CONTRIBUTOR_RESPONSETAP' => 'Contribution to SuiteCRM 7.3 release by ResponseTap',
+'LBL_CONTRIBUTOR_GMBH' => 'Workflow Calculated Fields contributed by diligent technology & business consulting GmbH',
 
 'LBL_LANGUAGE_SPANISH' => 'Spanish Translation Provided by Disytel openConsulting', 
 

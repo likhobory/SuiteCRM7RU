@@ -29,9 +29,9 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
   *********************************************************************************/
  // Replaced by RAPIRA <--
 $mod_strings = array(
-'LBL_BASIC_SEARCH'					=> 'Базовый поиск',
-'LBL_ADVANCED_SEARCH'				=> 'Расширенный поиск',
-'LBL_BASIC_TYPE'					=> 'Базовый поиск',
+'LBL_BASIC_SEARCH'					=> 'Фильтр',
+'LBL_ADVANCED_SEARCH'				=> 'Расширенный фильтр',
+'LBL_BASIC_TYPE'					=> 'Базовый поиск', 
 'LBL_ADVANCED_TYPE'					=> 'Расширенный поиск',
 
 'ERR_DB_VERSION_FAILURE'			=> ' Невозможно проверить версию БД.',

@@ -206,7 +206,7 @@ $mod_strings = array (
 // LOGIN PAGE STRINGS
 'LBL_LOGIN_BUTTON_KEY'=> 'L' , ///
 'LBL_LOGIN_BUTTON_LABEL'=> 'Вход' ,
-'LBL_LOGIN_BUTTON_TITLE'=> 'Авторизоваться' ,
+'LBL_LOGIN_BUTTON_TITLE'=> 'Авторизоваться в системе' ,
 'LBL_LOGIN_WELCOME_TO'=> 'Добро пожаловать в', ///
 'LBL_LOGIN_OPTIONS'=> 'Параметры',
 'LBL_LOGIN_FORGOT_PASSWORD'         => 'Забыли пароль?',
@@ -328,6 +328,7 @@ $mod_strings = array (
 'LBL_RESET_HOMEPAGE_WARNING_USER'   => 'Вы действительно хотите сбросить настройки основной закладки SuiteCRM для данного пользователя?',
 'LBL_SALUTATION'                    => 'Приветствие',
 'LBL_ROLES_SUBPANEL_TITLE'=> 'Роли' ,
+'LBL_ROLES' => 'Роли', /// for PR #2698
 'LBL_SEARCH_FORM_TITLE'=> 'Поиск пользователей' ,
 'LBL_SEARCH_URL'=> 'Искать размещение' ,
 'LBL_SELECT_CHECKED_BUTTON_LABEL'=> 'Выбрать отмеченных пользователей' ,
@@ -476,7 +477,7 @@ $mod_strings = array (
 'LBL_MAIL_SMTPUSER'=> 'SMTP-пользователь:' ,
 'LBL_MAIL_SMTPPASS'=> 'SMTP-пароль:' ,
 'LBL_MAIL_SMTPSERVER' => 'SMTP-сервер:' ,
-'LBL_SMTP_SERVER_HELP' => 'Сервер SMTP может быть использован для отправки исходящей электронной почты. Для использования данного сервера в настройках учётной записи укажите соответствующего пользователя и пароль.',
+'LBL_SMTP_SERVER_HELP' => 'Сервер SMTP может быть использован для отправки исходящей электронной почты. Для использования данного сервера в настройках учётной записи укажите соответствующего пользователя и пароль.', ////
 'LBL_MISSING_DEFAULT_OUTBOUND_SMTP_SETTINGS' => 'Администратор системы ещё не настроил стандартный сервер исходящей почты. Тестовое письмо не может быть отправлено.',
 
 
@@ -580,9 +581,9 @@ $mod_strings = array (
 'LBL_SUITE_POWERED_BY' => 'Powered By SugarCRM',
 'LBL_SUITE_TOP' => 'Наверх',
 'LBL_SUITE_PRINT' => 'Печать',
-'LBL_SUITE_DESC1' => 'SuiteCRM has been written and assembled by SalesAgility, one of the worlds most knowledgeable SugarCRM consultancies.',
-'LBL_SUITE_DESC2' => 'SuiteCRM is intended to deliver on the promise of SugarCRM - a freely available open source CRM project that combines great functionality, with community and commitment.',
-'LBL_SUITE_DESC3' => 'There will be no licenced software as part of the project managed by SalesAgility. All the code is free. All the code is available for free download. There is no hidden agenda to charge for access to the code. It is and always will be free and open source. There will be no paid-for versions.',
+'LBL_SUITE_DESC1' => 'SuiteCRM has been written and assembled by <a href="https://salesagility.com">SalesAgility</a>.  The Program is provided AS IS, without warranty.  Licensed under AGPLv3.',
+'LBL_SUITE_DESC2' => 'This program is free software; you can redistribute it and/or modify it under the terms of the GNU Affero General Public License version 3 as published by the Free Software Foundation, including the additional permission set forth in the source code header.',
+'LBL_SUITE_DESC3' => 'SuiteCRM is a trademark of SalesAgility Ltd. All other company and product names may be trademarks of the respective companies with which they are associated.',
 'LBL_QUICK_ACCOUNT' => 'Создать контрагента',
 'LBL_QUICK_CONTACT' => 'Создать контакт',
 'LBL_QUICK_OPPORTUNITY' => 'Создать сделку',
@@ -595,6 +596,11 @@ $mod_strings = array (
 'LBL_LIST_NONINHERITABLE' => 'Не наследуемая',
 'LBL_PRIMARY_GROUP' => 'Основная группа',
 'LBL_PASSWORD_MIS_MATCH' => 'не совпадают',
+
+'LBL_CONTACTS_SYNC' => 'Контакты', /// for PR #2698
+'LBL_PROJECT_TEMPLATES' => 'Шаблоны проекта', /// for PR #2698
+'LBL_PROJECTS' => 'Проекты', /// for PR #2698
+'LBL_SECURITYGROUPS' => 'Группы пользователей', /// for PR #2698
     
 ); // END STRINGS DEFS
 

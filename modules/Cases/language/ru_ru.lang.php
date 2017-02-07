@@ -149,6 +149,7 @@ $mod_strings = array (
 'LBL_SELECT_INTERNAL_CASE_DOCUMENT' => 'Документ SuiteCRM',
 'LBL_SELECT_EXTERNAL_CASE_DOCUMENT' => 'Внешний файл',
 'LBL_CONTACT_CREATED_BY_NAME' => 'Создано',
+'LBL_CONTACT_CREATED_BY' => 'Создано',
 'LBL_CASE_UPDATE_FORM' => 'Добавить вложение',
 
 );

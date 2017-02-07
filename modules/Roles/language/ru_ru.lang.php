@@ -47,5 +47,6 @@ $mod_strings = array (
 'LBL_USERS'=> 'Пользователи' ,
 
 'LBL_USERS_SUBPANEL_TITLE' => 'Пользователи'  ,
+'LBL_MODULES'=>'Модули', /// for PR #2698
 );
 ?>

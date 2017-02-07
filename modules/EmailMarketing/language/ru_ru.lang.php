@@ -91,7 +91,7 @@ $mod_strings = array (
 //    'LBL_OUTBOUND_EMAIL_ACCOUNT_DEFAULT' => 'Use System Default',
 //    'LBL_OUTBOUND_EMAIL_ACCOUNT_VIEW' => 'View Outbound Email Accounts',
 'LBL_ERROR_ON_MARKETING' => 'Обязательные поля не заполнены',
-
+'LBL_OUTBOUND_EMAIL_ACOUNT_ID' => 'ID учётной записи исходящей почты', /// for PR #2698
 
 );
 ?>

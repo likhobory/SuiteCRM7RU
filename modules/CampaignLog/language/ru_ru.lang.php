@@ -77,13 +77,14 @@ $mod_strings = array (
 'LBL_SENT_EMAIL' => 'Отправленный E-mail',
 'LBL_LIST_FORM_TITLE'=> 'Адресуемые маркет. кампании' ,
 'LBL_LIST_ACTIVITY_DATE'=> 'Дата мероприятия' ,
-'LBL_LIST_CAMPAIGN_OBJECTIVE'=> 'Цель маркет. кампании' ,
+'LBL_LIST_CAMPAIGN_OBJECTIVE'=> 'Цель маркет. кампании' , ///
 'LBL_RELATED'=> 'Относится к' ,
-'LBL_CLICKED_URL_KEY'=> 'Ключ выбранной ссылки' ,
-'LBL_URL_CLICKED'=> 'Выбранная ссылка ',
+'LBL_CLICKED_URL_KEY'=> 'Ключ выбранной ссылки' , ///
+'LBL_URL_CLICKED'=> 'Выбранная ссылка ', ///
 'LBL_MORE_INFO'=> 'Подробная информация' ,
 
 'LBL_CAMPAIGNS' => 'Маркет. кампании',
 'LBL_LIST_MARKETING_NAME' => 'Маркетинговая кампания',
+'LBL_RELATED_NAME' => 'Связанное название', /// for PR #2698
 );
 ?>
