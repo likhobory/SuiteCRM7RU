@@ -3076,7 +3076,7 @@ $app_strings = array (
     'LBL_DELETE_REMINDER' => 'Удаление напоминания',
     'LBL_OK' => 'Удалить',
 	
-	'LBL_COLUMNS_FILTER_HEADER_TITLE' => 'Выбор колонок',
+	'LBL_COLUMNS_FILTER_HEADER_TITLE' => 'Настройка колонок',
     'LBL_SAVE_CHANGES_BUTTON_TITLE' => 'Сохранить и закрыть',
     'LBL_DISPLAYED' => 'Отображаемые колонки',
     'LBL_HIDDEN' => 'Скрытые колонки',
