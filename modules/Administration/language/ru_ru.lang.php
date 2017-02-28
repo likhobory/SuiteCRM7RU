@@ -1057,7 +1057,9 @@ $mod_strings = array (
 'LBL_SAML_CERT' => 'X509-сертификат',
 'LBL_SAML_CERT_DESC' => 'Введите X509-сертификат',
 'LBL_SAML_LOGIN_URL' => 'SAML URL',
-'LBL_SAML_LOGIN_URL_DESC' => 'Укажите Login URL',
+'LBL_SAML_LOGOUT_URL' => 'SLO URL',
+'LBL_SAML_LOGIN_URL_DESC' => 'Укажите URL для единого входа в приложения',
+'LBL_SAML_LOGOUT_URL_DESC' => 'Укажите URL для единого выхода из приложений',
 
 'LBL_GLOBAL_SEARCH_SETTINGS_TITLE' => 'Выберите модули, в которых будет осуществляться глобальный поиск.',
 'LBL_SELECT_MODULES' => 'Дополнительно',

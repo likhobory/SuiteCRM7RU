@@ -688,7 +688,7 @@ You can re-order the modules by dragging their rows in the table.<br/><br/>
 
 
 'LBL_HISTORY_TIMESTAMP' => 'Время создания',
-'LBL_HISTORY_TITLE' => ' (история)',
+'LBL_HISTORY_TITLE' => ' (история изменений)',
 
 'LBL_ADD_LAYOUT' => 'Добавить макет', /// ->
 'LBL_ADD_LAYOUTS' => 'Добавить макет',

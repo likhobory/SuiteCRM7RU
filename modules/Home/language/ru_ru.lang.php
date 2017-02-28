@@ -280,8 +280,7 @@ $mod_strings = array (
 'LBL_CONTRIBUTOR_SUITECRM' => 'Бесплатная альтернатива SugarCRM Professional Edition с открытым исходным кодом    <br>
         <hr><h5>
         <ul id="about_menu">
-            <li><a href="https://github.com/likhobory/SuiteCRM7RU" target="_blank">Актуальная версия русификации доступна на GitHub</a><hr></li>
-			<li><a href="https://github.com/likhobory/SuiteCRM7RU" target="_blank">Скачать Руководство пользователя и администратора SuiteCRM</a></li>
+			<li><a href="https://github.com/likhobory/SuiteCRM7RU/blob/master/DOCS/Russian_Rapira_Application_Guide_for_SuiteCRM.pdf?raw=true" target="_blank">Скачать русифицированное Руководство пользователя и администратора SuiteCRM</a></li>
         </ul></h5>',
 'LBL_CONTRIBUTOR_SECURITY_SUITE' => 'SecuritySuite by Jason Eggers',
 'LBL_CONTRIBUTOR_JJW_GMAPS' => 'JJWDesign Google Maps by Jeffrey J. Walters',
@@ -289,7 +288,9 @@ $mod_strings = array (
 'LBL_CONTRIBUTOR_RESPONSETAP' => 'Contribution to SuiteCRM 7.3 release by ResponseTap',
 'LBL_CONTRIBUTOR_GMBH' => 'Workflow Calculated Fields contributed by diligent technology & business consulting GmbH',
 
-'LBL_LANGUAGE_SPANISH' => 'Spanish Translation Provided by Disytel openConsulting', 
+'LBL_LANGUAGE_ABOUT' => 'О русификации проекта',
+'LBL_LANGUAGE_COMMUNITY_ABOUT' => 'Актуальная версия русификации в виде языкового пакета RAPIRA доступна на сайте GitHub (<a href="https://github.com/likhobory/SuiteCRM7RU" target="_blank">https://github.com/likhobory/SuiteCRM7RU</a>)',
+'LBL_LANGUAGE_COMMUNITY_PACKS' => 'Альтернативный перевод на русский язык, осуществляющийся всеми желающими на основе языковых файлов RAPIRA, доступен на сайте Crowdin',
 
 'LBL_ABOUT_SUITE_1' => 'SuiteCRM  - бесплатный форк SugarCRM. Вы можете найти множество материалов в интернете, поясняющих необходимость появления данного проекта',
 'LBL_ABOUT_SUITE_2' => 'SuiteCRM распространяется под лицензией GPL3',
