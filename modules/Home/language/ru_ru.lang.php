@@ -263,7 +263,7 @@ $mod_strings = array (
     'LBL_TOUR_DONE' => 'You\'re Done!',
     'LBL_TOUR_REFERENCE_1' => 'You can always reference our',
     'LBL_TOUR_REFERENCE_2' => 'through the "Support" link under the profile tab.',
-    'LNK_TOUR_DOCUMENTATION' => 'documentation', 
+    'LNK_TOUR_DOCUMENTATION' => 'documentation',
 	'LBL_TOUR_CALENDAR_URL_1' => 'Do you share your SuiteCRM calendar with 3rd party applications, such as Microsoft Outlook or Exchange? If so, you have a new URL. This new, more secure URL includes a personal key which will prevent unauthorized publishing of your calendar.',
     'LBL_TOUR_CALENDAR_URL_2' => 'Retrieve your new shared calendar URL.', /// <-
 

@@ -69,7 +69,7 @@ $mod_strings['LBL_MAP_NULL_GROUP_NAME'] = '--не указано--';
 $mod_strings['LBL_MAP_ADDRESS'] = 'Адрес';
 $mod_strings['LBL_MAP_PROCESS'] = 'Запустить';
 
-$mod_strings['LBL_MAP_LAST_STATUS'] = 'Статус геокодирования'; 
+$mod_strings['LBL_MAP_LAST_STATUS'] = 'Статус геокодирования';
 $mod_strings['LBL_MAP_GEOCODED_COUNTS'] = 'Результаты геокодирования';
 $mod_strings['LBL_GEOCODED_COUNTS'] = 'Результаты геокодирования';
 $mod_strings['LBL_CRON_URL'] = 'Cron URL:';
@@ -173,6 +173,12 @@ $mod_strings['LBL_CONFIG_MAP_MARKERS_CLUSTERER_MAX_ZOOM_DESC'] = 'Установ
 $mod_strings['LBL_CONFIG_CUSTOM_CONTROLLER_DESC'] = 'Примечание: все сохранённые параметры находятся в таблице <b>config</b>, категория <b>jjwg</b>. Файл controller.php для перезаписи параметров больше не используется.';
 $mod_strings['LBL_JJWG_MAPS_JJWG_AREAS_FROM_JJWG_AREAS_TITLE'] = 'Участки карт';
 $mod_strings['LBL_JJWG_MAPS_JJWG_MARKERS_FROM_JJWG_MARKERS_TITLE'] = 'Метки';
-$mod_strings['LBL_PARENT_ID'] = 'ID родителя';  /// for PR #2698
+
+$mod_strings['LBL_PARENT_ID'] = 'ID родителя';
+$mod_strings['LBL_JJWP_PARTNERS'] = 'Партнёры JJWP';
+$mod_strings['LBL_GET_GOOGLE_API_KEY'] = 'Получить ключ API';
+$mod_strings['LBL_GOOGLE_API_KEY'] = 'Ключ Google Maps API';
+$mod_strings['LBL_ERROR_NO_GOOGLE_API_KEY'] = 'Ключ не обнаружен. Перейдите в панель Администрирования и укажите ключ API в настройках параметров карт Google.';
+
 
 ?>

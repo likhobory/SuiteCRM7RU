@@ -115,7 +115,7 @@ $mod_strings = array (
 'LBL_TIME_TO' => 'Задание активно до' ,
 'LBL_WARN_CURL_TITLE' => 'cURL предупреждение:' ,
 'LBL_WARN_CURL' => 'Предупреждение:' ,
-'LBL_WARN_NO_CURL' => 'Эта система не имеет cURL-библиотеку, доступную/откомпилированную в PHP-модуле (--with-curl=/path/to/curl_library).  Пожалуйста, свяжитесь с Вашим администратором, чтобы решить этот вопрос.  Без cURL-функциональности, планировщик не может выполнить необходимые действия.' ,
+'LBL_WARN_NO_CURL' => 'Эта система не имеет cURL-библиотеку, доступную/откомпилированную в PHP-модуле (--with-curl=/path/to/curl_library). Пожалуйста, свяжитесь с Вашим администратором, чтобы решить этот вопрос. Без cURL-функциональности, планировщик не может выполнить необходимые действия.' ,
 'LBL_BASIC_OPTIONS' => 'Основные параметры' ,
 'LBL_ADV_OPTIONS'=> 'Дополнительные параметры' ,
 'LBL_TOGGLE_ADV' => 'Показать дополнительные параметры' ,
@@ -133,8 +133,10 @@ $mod_strings = array (
 'NTC_LIST_ORDER' => 'Установка последовательности, в которой задания появятся в списке' ,
 'LBL_CRON_INSTRUCTIONS_WINDOWS' => 'Настройка планировщика Windows' ,
 'LBL_CRON_INSTRUCTIONS_LINUX' => 'Настройка сrontab' ,
-'LBL_CRON_LINUX_DESC' => 'Примечание: Для запуска планировщика SuiteCRM добавьте эту строку в файл crontab: ',
-'LBL_CRON_WINDOWS_DESC' => 'Примечание: Для запуска планировщика SuiteCRM создайте пакетный файл и ежеминутно выполняйте его при помощи планировщика Windows. Пакетный файл должен содержать следующие команды: ',
+'LBL_CRON_LINUX_DESC1' => 'Для запуска планировщика SuiteCRM откройте файл crontab при помощи команды: ',
+'LBL_CRON_LINUX_DESC2' => '... и добавьте в него следующую строку: ',
+'LBL_CRON_LINUX_DESC3' => 'Изменения в файл crontab необходимо вносить только после завершения установки системы.',
+'LBL_CRON_WINDOWS_DESC' => 'Для запуска планировщика SuiteCRM создайте пакетный файл и ежеминутно выполняйте его при помощи планировщика Windows. Пакетный файл должен содержать следующие команды: ',
 'LBL_NO_PHP_CLI' => 'Если на вашем хосте не установлен PHP, вы можете использовать wget или curl для выполнения запланированных задач.<br>для wget: <b>*&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;&nbsp;&nbsp;&nbsp;wget --quiet --non-verbose ' . (isset($sugar_config['site_url'])?$sugar_config['site_url']:'http://yoursite') . '/cron.php > /dev/null 2>&1</b><br>для curl: <b>*&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;&nbsp;&nbsp;&nbsp;curl --silent ' . (isset($sugar_config['site_url'])?$sugar_config['site_url']:'http://yoursite') . '/cron.php > /dev/null 2>&1',
 
 // Subpanels
@@ -161,7 +163,7 @@ $mod_strings = array (
 'LBL_AORRUNSCHEDULEDREPORTS' => 'Создавать отчёты по расписанию',
 'LBL_PROCESSAOW_WORKFLOW' => 'Выполнять настроенные процессы', /// <-
 
-'LBL_SCHEDULER_TIMES' => 'Расписание планировщика', /// for PR #2698
+'LBL_SCHEDULER_TIMES' => 'Расписание планировщика',
 );
 
 ?>

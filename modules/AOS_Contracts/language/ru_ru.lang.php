@@ -109,7 +109,7 @@ $mod_strings = array (
   'LBL_PRINT_AS_PDF' => 'Сохранить в PDF',
   'LBL_EMAIL_PDF' => 'Отправить по почте в виде PDF',
   'LBL_PDF_NAME' => 'Договор',
-  'LBL_EMAIL_NAME' => 'Договор:', 
+  'LBL_EMAIL_NAME' => 'Договор:',
   'LBL_NO_TEMPLATE' => 'ОШИБКА\nШаблоны договоров не обнаружены.\nЕсли необходимый шаблон договора отсутствует - откройте модуль PDF-шаблонов и создайте необходимый шаблон.',
   'LBL_TOTAL_CONTRACT_VALUE_USDOLLAR' => 'Сумма договора (основная валюта)',
   'LBL_SUBTOTAL_AMOUNT_USDOLLAR' => 'Итого со скидкой (основная валюта)',
@@ -121,10 +121,11 @@ $mod_strings = array (
   'LBL_SHIPPING_TAX_AMT_USDOLLAR' => 'НДС доставки (основная валюта)',
   'LBL_GRAND_TOTAL_USDOLLAR' => 'ВСЕГО К ОПЛАТЕ (основная валюта)',
   
-  'LBL_AOS_LINE_ITEM_GROUPS' => 'Группы', /// for PR #2698
-  'LBL_AOS_PRODUCT_QUOTES' => 'Предложение-Товары', /// for PR #2698
-  'LBL_AOS_QUOTES_AOS_CONTRACTS' => 'Предложения : Договоры', /// for PR #2698
-  'LBL_AOS_CONTRACTS' => 'Договоры', /// for PR #2698
+  'LBL_CALL_ID' => 'Звонок (ID)',
+  'LBL_AOS_LINE_ITEM_GROUPS' => 'Группы',
+  'LBL_AOS_PRODUCT_QUOTES' => 'Предложение-Товары',
+  'LBL_AOS_QUOTES_AOS_CONTRACTS' => 'Предложения : Договоры',
+
 
 
 );

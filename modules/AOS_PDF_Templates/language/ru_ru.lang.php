@@ -62,7 +62,7 @@ $mod_strings = array (
   'LBL_DEFAULT_TEMPLATE' => 'Стандартный шаблон',
   'LBL_BUTTON_INSERT' => 'Вставить',
   'LBL_WARNING_OVERWRITE' => 'Внимание: все несохранённые данные текущего шаблона будут потеряны.',
-  'LBL_INSERT_FIELDS' => 'Вставка поля', 
+  'LBL_INSERT_FIELDS' => 'Вставка поля',
   
   'LBL_SAMPLE' => 'Загрузить пример бланка',
   'LBL_PAGE' => 'Страница',
@@ -87,5 +87,7 @@ $mod_strings = array (
   'LBL_MARGIN_FOOTER' => 'Поле нижнего колонтитула',
   'LBL_EDITVIEW_PANEL1' => 'Параметры страниц: размеры полей',
   'LBL_DETAILVIEW_PANEL1' => 'Параметры страниц: размеры полей',
+  'LBL_PAGE_SIZE' => 'Размер страницы',
+  'LBL_ORIENTATION' => 'Ориентация страницы',
 );
 ?>

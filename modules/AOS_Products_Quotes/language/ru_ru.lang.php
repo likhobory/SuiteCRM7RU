@@ -70,13 +70,13 @@ $mod_strings = array (
   'LBL_PRODUCT_TOTAL_PRICE' => 'Итого без НДС',
   'LBL_PRODUCT_NOTE' => 'Заметка',
   'Quote' => '',
-  'LBL_AOS_PRODUCTS_QUOTES_SUBPANEL_TITLE' => 'Товары_Предложения',
+  'LBL_AOS_PRODUCTS_QUOTES_SUBPANEL_TITLE' => 'Товары/Предложения',
   'LBL_FLEX_RELATE' => 'Относится к',
   'LBL_PRODUCT' => 'Товар',
-  'LBL_AOS_CONTRACTS' => 'Договоры', /// for PR #2698
-  'LBL_AOS_INVOICES' => 'Счета', /// for PR #2698
-  'LBL_AOS_PRODUCTS' => 'Товары', /// for PR #2698
-  'LBL_AOS_QUOTES' => 'Предложения', /// for PR #2698
+  'LBL_AOS_CONTRACTS' => 'Договоры',
+  'LBL_AOS_INVOICES' => 'Счета',
+  'LBL_AOS_PRODUCTS' => 'Товары',
+  'LBL_AOS_QUOTES' => 'Предложения',
 
   'LBL_SERVICE_MODULE_NAME' => 'Услуги',
   'LBL_LIST_NUM' => '№',
@@ -90,7 +90,7 @@ $mod_strings = array (
   'LBL_PRODUCT_DISCOUNT_AMOUNT_USDOLLAR' => 'Объём скидки (основная валюта)',
   'LBL_VAT_AMT_USDOLLAR' => 'НДС (основная валюта)',
   'LBL_PRODUCTS_SERVICES' => 'Товары / Услуги',
-  'LBL_CONTRACT_ACCOUNT' => 'Договоры', /// for PR #2698
-  'LBL_PRODUCT_ID' => 'ID товара' /// for PR #2698
+
+  'LBL_PRODUCT_ID' => 'ID товара'
 );
 ?>

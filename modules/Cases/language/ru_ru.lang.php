@@ -105,11 +105,11 @@ $mod_strings = array (
 
 //For export labels ///
 'LBL_MODIFIED_BY_NAME_OWNER' => 'Изменено', /// ->
-'LBL_MODIFIED_BY_NAME_MOD' => 'Modified By Name Mod', 
+'LBL_MODIFIED_BY_NAME_MOD' => 'Modified By Name Mod',
 'LBL_CREATED_BY_NAME_OWNER' => 'Создано',
-'LBL_CREATED_BY_NAME_MOD' => 'Created By Name Mod', 
+'LBL_CREATED_BY_NAME_MOD' => 'Created By Name Mod',
 'LBL_ASSIGNED_USER_NAME_OWNER' => 'Ответственный(ая)',
-'LBL_ASSIGNED_USER_NAME_MOD' => 'Assigned User Name Mod', 
+'LBL_ASSIGNED_USER_NAME_MOD' => 'Assigned User Name Mod',
 'LBL_TEAM_COUNT_OWNER' => 'Team Count Owner',
 'LBL_TEAM_COUNT_MOD' => 'Team Count Mod',
 'LBL_TEAM_NAME_OWNER' => 'Team Name Owner',
@@ -138,7 +138,7 @@ $mod_strings = array (
 'LBL_CASE_UPDATES_COLLAPSE_ALL' => 'Свернуть все',
 'LBL_CASE_UPDATES_EXPAND_ALL' => 'Развернуть все',
 'LBL_NO_CASE_UPDATES' => 'У данного обращения нет обновлений',
-'LBL_AOP_CASE_ATTACHMENTS' => 'Вложения: ', 
+'LBL_AOP_CASE_ATTACHMENTS' => 'Вложения: ',
 
 'LBL_AOP_CASE_EVENTS' => 'События обращения',
 'LBL_CASE_ATTACHMENTS_DISPLAY' => 'Вложения:',

@@ -92,7 +92,7 @@ $mod_strings = array (
     'LBL_EXCHANGE_SMTPPORT'					=> 'Порт:',
     'LBL_EXCHANGE_SMTPSERVER'				=> 'SMTP-сервер:',
 	
-	'LBL_TYPE' => 'Почтовый сервер:', /// for PR #2698
-    'LBL_MAIL_SENDTYPE' => 'Отправка почты с помощью:', /// for PR #2698
-    'LBL_MAIL_SMTPSSL' => 'Параметры SMTP/SSL:', /// for PR #2698
+	'LBL_TYPE' => 'Почтовый сервер:',
+    'LBL_MAIL_SENDTYPE' => 'Отправка почты с помощью:',
+    'LBL_MAIL_SMTPSSL' => 'Параметры SMTP/SSL:',
 );

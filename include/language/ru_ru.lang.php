@@ -117,6 +117,7 @@ $app_list_strings = array (
     'Notes' => 'Заметка' ,
     'Calls' => 'Звонок' ,
     'Emails' => 'E-mail' ,
+	'EmailTemplates' => 'Шаблоны E-mail',
     'Meetings' => 'Встреча' ,
     'Tasks' => 'Задача' ,
     'Calendar' => 'Календарь' ,
@@ -147,7 +148,7 @@ $app_list_strings = array (
   //e.g. en fran?ais 'Analyst'=>'Аналитик' ,
   'account_type_dom' =>
   array (  
-    '' => '',  
+    '' => '',
     // Added by RAPIRA -->
     'Provider' => 'Поставщик' ,
     'Delivery service' => 'Служба доставки' ,
@@ -279,7 +280,7 @@ $app_list_strings = array (
      'Shipping1' => 'Заказ отгружен /Счёт частично оплачен' ,
      'Shipping2' => 'Заказ отгружен /Счёт не оплачен' ,
      // Added by RAPIRA <--  
-    'Prospecting' => 'Разведка' ,  
+    'Prospecting' => 'Разведка' ,
     'Qualification' => 'Оценка' ,
     'Needs Analysis' => 'Анализ потребностей' ,
     'Value Proposition' => 'Предложение ценности' ,
@@ -631,9 +632,9 @@ $app_list_strings = array (
   ),
  'case_type_dom' =>
   array (
-    'Administration' => 'Административное', 
+    'Administration' => 'Административное',
     'Product' => 'Продукция',
-    'User' => 'Пользовательское', 
+    'User' => 'Пользовательское',
   ),
 
   'source_default_key' => '' ,
@@ -725,7 +726,7 @@ $app_list_strings = array (
 
       'dom_cal_month_long' => array (
       '0' => '' ,
-      '1' => 'Январь' , 
+      '1' => 'Январь' ,
       '2' => 'Февраль' ,
       '3' => 'Март' ,
       '4' => 'Апрель' ,
@@ -846,6 +847,10 @@ $app_list_strings = array (
                                         
                                         'mailto'    => 'Внешний почтовый клиент'),
 
+    'dom_editor_type' => array(        	'tinymce' => 'Tiny MCE',
+										'mozaik' => 'Mozaik',
+										'none' => 'Прямое редактирование HTML'),
+
     'dom_email_editor_option'=> array(  ''          => 'Формат по умолчанию',
                                         'html'      => 'HTML-сообщение' ,
                                         'plain'     => 'Текстовое сообщение'),
@@ -889,6 +894,12 @@ $app_list_strings = array (
     'Sales' => 'Продажи'    ,
   ),
 
+    'email_category_dom' => array(
+        '' => '',
+        'Archived' => 'Архив',
+        // TODO: add more categories here...
+  ),
+	
     'document_subcategory_dom' =>
     array (
     '' => '' ,
@@ -1643,11 +1654,11 @@ $app_strings = array (
     'LBL_PRINT' => 'Печать',
     'LBL_HELP' => 'Справка',
     'LBL_ID_FF_SELECT' => 'Обзор',
-    'DEFAULT'                              => 'Основная информация',   
+    'DEFAULT'                              => 'Основная информация',
     'LBL_SORT'                              => 'Сортировка',
 	'LBL_OUTBOUND_EMAIL_ADD_SERVER'			=> 'Добавить сервер...',
     'LBL_EMAIL_SMTP_SSL_OR_TLS'				=> 'Включить SSL/TLS:',
-    'LBL_NO_ACTION'                         => 'Действие не определено.',
+    'LBL_NO_ACTION'                         => 'Действие не определено: %s',
 	'LBL_NO_SHORTCUT_MENU' 					=> 'Нет доступных действий.',
 	'LBL_NO_DATA'                           => 'Данные отсутствуют',
 	'LBL_ROUTING_ADD_RULE'	       	=> 'Добавить правило', /// ->
@@ -1701,7 +1712,7 @@ $app_strings = array (
 	'LBL_ROUTING_TO_ADDRESS'			=> 'to address',  ///
 	'LBL_ROUTING_WITH_TEMPLATE'			=> 'with template',  /// <-
 
-    'NTC_OVERWRITE_ADDRESS_PHONE_CONFIRM' => 'Поля с адресными и телефонными данными текущего контрагента уже содержат значения. Для перезаписи  существующих данных данными выбранного контрагента нажмите кнопку "OK". Для сохранения текущих значений нажмите кнопку "Отмена".',
+    'NTC_OVERWRITE_ADDRESS_PHONE_CONFIRM' => 'Поля с адресными и телефонными данными текущего контрагента уже содержат значения. Для перезаписи существующих данных данными выбранного контрагента нажмите кнопку "OK". Для сохранения текущих значений нажмите кнопку "Отмена".',
 
     'LBL_DROP_HERE' => '[Переместить сюда]',
 	'LBL_EMAIL_ACCOUNTS_EDIT'		     	=> 'Редактировать',
@@ -1776,7 +1787,7 @@ $app_strings = array (
     'LBL_EMAIL_COMPOSE'				=> 'E-mail',
 	'LBL_EMAIL_COMPOSE_ERR_NO_RECIPIENTS'	        => 'Письмо не содержит получателей.',
 	'LBL_EMAIL_COMPOSE_LINK_TO'			=> 'Связать с ',
-	'LBL_EMAIL_COMPOSE_NO_BODY'			=> 'Тело письма пустое. Все равно отправить?',
+	'LBL_EMAIL_COMPOSE_NO_BODY'			=> 'Сообщение пустое. Все равно отправить?',
 	'LBL_EMAIL_COMPOSE_NO_SUBJECT'			=> 'Не указана тема письма. Все равно отправить?',
 	'LBL_EMAIL_COMPOSE_NO_SUBJECT_LITERAL'  	=> '(без темы)',
 	'LBL_EMAIL_COMPOSE_READ'			=> 'Прочитать и создать E-mail',
@@ -1787,7 +1798,9 @@ $app_strings = array (
     	'LBL_EMAIL_CONFIRM_CLOSE'			=> 'Закрыть E-mail без сохранения изменений?',
 	'LBL_EMAIL_CONFIRM_DELETE'			=> 'Удалить записи из адресной книги?',
         'LBL_EMAIL_CONFIRM_DELETE_SIGNATURE'            => 'Вы действительно хотите удалить эту подпись?',
-        
+    
+	'LBL_EMAIL_SENT_SUCCESS' => 'Письмо отправлено',
+    
 	'LBL_EMAIL_CREATE_NEW'				=> '--Create On Save--',    ///
     'LBL_EMAIL_MULT_GROUP_FOLDER_ACCOUNTS'  => 'Multiple',
     'LBL_EMAIL_MULT_GROUP_FOLDER_ACCOUNTS_EMPTY' => 'Empty',
@@ -1849,7 +1862,9 @@ $app_strings = array (
     'LBL_EMAIL_ERROR_TRASH_FOLDER'            	=> 'Необходимо указать папку корзины.',
     'LBL_EMAIL_ERROR_VIEW_RAW_SOURCE'               => 'Информация недоступна',
     'LBL_EMAIL_ERROR_NO_OUTBOUND'           => 'Не указан сервер исходящей почты.',
-    'LBL_EMAIL_FOLDERS'                     => SugarThemeRegistry::current()->getImage('icon_email_folder', 'align=absmiddle border=0', null, null, '.gif', '').' Папки',
+    'LBL_EMAIL_ERROR_SENDING' => 'Ошибка при отправке письма. Свяжитесь с Администратором системы.',
+    'LBL_EMAIL_ERROR_SAVING' => 'Ошибка при сохранении письма. Свяжитесь с Администратором системы.',
+	'LBL_EMAIL_FOLDERS'                     => SugarThemeRegistry::current()->getImage('icon_email_folder', 'align=absmiddle border=0', null, null, '.gif', '').' Папки',
     'LBL_EMAIL_FOLDERS_SHORT'               => SugarThemeRegistry::current()->getImage('icon_email_folder', 'align=absmiddle border=0', null, null, '.gif', ''),
 
 	'LBL_EMAIL_FOLDERS_ACTIONS'			=> 'Переместить в',
@@ -1880,7 +1895,7 @@ $app_strings = array (
 	'LBL_EMAIL_IE_DELETE_SUCCESSFUL'	=> 'Удаление успешно завершено.',
 	'LBL_EMAIL_IE_SAVE'				    => 'Сохранение учётной записи',
 	'LBL_EMAIL_IMPORTING_EMAIL'			=> 'Импортирование E-mail',
-	'LBL_EMAIL_IMPORT_EMAIL'			=> 'Импорт в SuiteCRM',
+	'LBL_EMAIL_IMPORT_EMAIL'			=> 'Импортирование сообщений',
         'LBL_EMAIL_IMPORT_SETTINGS'     => 'Параметры импорта',
         'LBL_EMAIL_INVALID'				=> 'Неверный',
 
@@ -1962,25 +1977,28 @@ $app_strings = array (
 	'LBL_EMAIL_QUICK_CREATE'			=> 'Быстрое создание',
 
 	'LBL_EMAIL_REBUILDING_FOLDERS'			=> 'Перестройка дерева папок',
-        'LBL_EMAIL_RELATE_TO'                           => 'Связать',
-        'LBL_EMAIL_VIEW_RELATIONSHIPS'                  => 'Просмотр связей',
-        'LBL_EMAIL_RECORD'          			=> 'Данные E-mail',
+    'LBL_EMAIL_RELATE_TO'                           => 'Связать',
+    'LBL_EMAIL_VIEW_RELATIONSHIPS'                  => 'Просмотр связей',
+    'LBL_EMAIL_RECORD'          			=> 'Данные E-mail',
 	'LBL_EMAIL_REMOVE'				=> 'Удалить',
 	'LBL_EMAIL_REPLY'				=> 'Ответить',
 	'LBL_EMAIL_REPLY_ALL'				=> 'Ответить всем',
 	'LBL_EMAIL_REPLY_TO'				=> 'Для автоответа',
 	'LBL_EMAIL_RETRIEVING_LIST'			=> 'Получение списка рассылки',
 	'LBL_EMAIL_RETRIEVING_MESSAGE'			=> 'Получение сообщения',
-        'LBL_EMAIL_RETRIEVING_RECORD'                   => 'Получение данных E-mail',
-        'LBL_EMAIL_SELECT_ONE_RECORD'                   => 'Пожалуйста, выберите только одно E-mail',
-        'LBL_EMAIL_RETURN_TO_VIEW'			=> 'Вернуться к предыдущему модулю?',
+    'LBL_EMAIL_RETRIEVING_RECORD'                   => 'Получение данных E-mail',
+    'LBL_EMAIL_SELECT_ONE_RECORD'                   => 'Пожалуйста, выберите только одно E-mail',
+    'LBL_EMAIL_RETURN_TO_VIEW'			=> 'Вернуться к предыдущему модулю?',
 	'LBL_EMAIL_REVERT'				=> 'Вернуть',
-        'LBL_EMAIL_RELATE_EMAIL'                        => 'Связать E-mail',
+    'LBL_EMAIL_RELATE_EMAIL'                        => 'Связать E-mail',
 	'LBL_EMAIL_RULES_TITLE'				=> 'Управление правилами',
 
 	'LBL_EMAIL_SAVE'				=> 'Сохранить',
-        'LBL_EMAIL_SAVE_AND_REPLY'                      => 'Сохранить и ответить',
+    'LBL_EMAIL_SAVE_AND_REPLY'                      => 'Сохранить и ответить',
  	'LBL_EMAIL_SAVE_DRAFT'				=> 'Сохранить черновик',
+    'LBL_EMAIL_DRAFT_SAVED' => 'Сообщение сохранено в папке с черновиками.',
+    'LBL_EMAIL_DRAFT_CONFIRM_DISCARD' => 'Вы действительно хотите закрыть это сообщение?',
+	
 
 	'LBL_EMAIL_SEARCHING'				=> 'ПОИСК',
 	'LBL_EMAIL_SEARCH'                      => SugarThemeRegistry::current()->getImage('Search', 'align=absmiddle border=0', null, null, '.gif', '').' Поиск',
@@ -2033,7 +2051,7 @@ $app_strings = array (
 
         'LBL_EMAIL_SETTINGS_GROUP_FOLDERS_EDIT' => 'Редактировать групповую папку',
 
-	'LBL_EMAIL_SETTINGS_NAME'		 	 => 'Название',
+	'LBL_EMAIL_SETTINGS_NAME'		 	 => 'Учётная запись входящей почты',
 	'LBL_EMAIL_SETTINGS_REQUIRE_REFRESH' => 'Выберите количество входящих писем, отображаемых на странице. Для применения этих настроек, возможно, потребуется обновить страницу.',
 	'LBL_EMAIL_SETTINGS_RETRIEVING_ACCOUNT'	        => 'Получение учётной записи',
 	'LBL_EMAIL_SETTINGS_RULES'			=> 'Правила',
@@ -2117,7 +2135,7 @@ $app_strings = array (
 	'ERR_AJAX_LOAD_FOOTER' => 'При возникновении данной ошибки уведомите администратора системы о необходимости отключения ajax-технологии для текущего модуля.',
     'ERR_CREATING_FIELDS' => 'Ошибка заполнения полей с подробностями: ' ,
     'ERR_CREATING_TABLE' => 'Ошибка создания таблицы: ' ,
-    'ERR_DECIMAL_SEP_EQ_THOUSANDS_SEP'  => 'В качестве десятичного разделителя не может быть использован тот же символ, что и при разделении разрядов.\\n\\n  Пожалуйста, измените значения.',
+    'ERR_DECIMAL_SEP_EQ_THOUSANDS_SEP'  => 'В качестве десятичного разделителя не может быть использован тот же символ, что и при разделении разрядов.\\n\\n Пожалуйста, измените значения.',
     'ERR_DELETE_RECORD' => 'Номер записи надо определить для удаления контакта.' ,
     'ERR_EXPORT_DISABLED' => 'Экспорт выключен.',
     'ERR_EXPORT_TYPE' => 'Ошибка, экспорт не выполнен. ',
@@ -2142,18 +2160,18 @@ $app_strings = array (
     'ERR_NO_SUCH_FILE' =>'Файл не существует.',
     'ERR_NO_SINGLE_QUOTE' => 'Не может использовать одинарные кавычки для ',
     'ERR_NOTHING_SELECTED' =>'Пожалуйста, сделайте выбор перед тем, как продолжить.' ,
-    'ERR_OPPORTUNITY_NAME_DUPE' => 'Сделка с именем %s уже существует.  Пожалуйста, введите другое имя.' ,
+    'ERR_OPPORTUNITY_NAME_DUPE' => 'Сделка с именем %s уже существует. Пожалуйста, введите другое имя.' ,
     'ERR_OPPORTUNITY_NAME_MISSING' => 'Название сделки не указано. Пожалуйста, введите имя сделки.' ,
     'ERR_POTENTIAL_SEGFAULT' => 'A potential Apache segmentation fault was detected.  Please notify your system administrator to confirm this problem and have her/him report it to SuiteCRM.',
     'ERR_SELF_REPORTING' => 'Сотрудник не может отчитываться перед самим собой.' ,
     'ERR_SINGLE_QUOTE'  => 'В данном поле нельзя использовать одинарные кавычки. Пожалуйста, измените значение.',
     'ERR_SQS_NO_MATCH_FIELD' => 'Нет соответствия для поля: ' ,
     'ERR_SQS_NO_MATCH' =>'Не выбрано' ,
-    'ERR_ADDRESS_KEY_NOT_SPECIFIED' => 'Please specify \'key\' index in displayParams attribute for the Meta-Data definition',    
+    'ERR_ADDRESS_KEY_NOT_SPECIFIED' => 'Please specify \'key\' index in displayParams attribute for the Meta-Data definition',
     'ERR_EXISTING_PORTAL_USERNAME'=>'Ошибка: Название уже назначено другому пользователю.',
     'ERR_COMPATIBLE_PRECISION_VALUE' => 'Неверное значение поля',
 	'ERR_EXTERNAL_API_SAVE_FAIL' => 'Ошибка сохранения внешней учётной записи.',
-    'ERR_EXTERNAL_API_UPLOAD_FAIL' => 'Ошибка загрузки.  Убедитесь, что загружаемый файл не пуст.',
+    'ERR_EXTERNAL_API_UPLOAD_FAIL' => 'Ошибка загрузки. Убедитесь, что загружаемый файл не пуст.',
     'ERR_NO_DB' => 'Невозможно установить соединение с базой данных. Более подробная информация находится в файле suitecrm.log.',
     'ERR_DB_FAIL' => 'Ошибка базы данных. Более подробная информация находится в файле suitecrm.log.',
     'ERR_EXTERNAL_API_403' => 'Доступ запрещён. Данный тип файлов не поддерживается.',
@@ -2390,7 +2408,7 @@ $app_strings = array (
 	
 	'LBL_PROSPECTS'=>'Адресаты',
     'LBL_PRODUCT_BUNDLES'=>'Набор товаров' ,
-    'LBL_PRODUCTS'=>'Продукция' ,
+    'LBL_PRODUCTS'=>'Товары' ,
     'LBL_PROJECT_TASKS'=>'Проектные задачи' ,
     'LBL_PROJECTS'=>'Проекты' ,
 
@@ -2593,11 +2611,11 @@ $app_strings = array (
     'LNK_GET_LATEST_TOOLTIP'=>'Заменить последней версией' ,
     'LNK_HELP' => 'Помощь' ,
 	'LNK_CREATE' => 'Создать',
-    'LNK_LIST_END' => 'Конец' ,
+    'LNK_LIST_END' => 'В конец' ,
     'LNK_LIST_NEXT' => 'След.' ,
     'LNK_LIST_PREVIOUS' => 'Пред.' ,
     'LNK_LIST_RETURN' => 'Вернуться к списку' ,
-    'LNK_LIST_START' => 'Начало' ,
+    'LNK_LIST_START' => 'В начало' ,
     'LNK_LOAD_SIGNED'=>'Подпись' ,
     'LNK_LOAD_SIGNED_TOOLTIP'=>'Заменить подписанным документом' ,
     'LNK_PRINT' => 'Печать' ,
@@ -2612,7 +2630,7 @@ $app_strings = array (
     'NTC_DATE_TIME_FORMAT' => '(гггг-мм-дд 24:00)' ,
     'NTC_DELETE_CONFIRMATION_MULTIPLE' => 'Вы действительно хотите удалить выбранные(ую) записи(ь)?' ,
     'NTC_TEMPLATE_IS_USED' => 'Данный шаблон используется как минимум в одной рассылке. Вы действительно хотите его удалить?',
-    'NTC_TEMPLATES_IS_USED' => 'Данные шаблоны используются как минимум в одной рассылке. Вы действительно хотите их удалить?\n',	
+    'NTC_TEMPLATES_IS_USED' => 'Данные шаблоны используются как минимум в одной рассылке. Вы действительно хотите их удалить?\n',
 	'NTC_DELETE_CONFIRMATION' => 'Вы действительно хотите удалить эту запись?' ,
     'NTC_DELETE_CONFIRMATION_NUM' => 'Вы действительно хотите удалить ',
     'NTC_UPDATE_CONFIRMATION_NUM' => 'Вы действительно хотите обновить ',
@@ -2620,7 +2638,7 @@ $app_strings = array (
     'NTC_LOGIN_MESSAGE' => 'Пожалуйста, введите Ваш логин и пароль.' ,
     'NTC_NO_ITEMS_DISPLAY' => 'нет' ,
     'NTC_REMOVE_CONFIRMATION' => 'Вы действительно хотите удалить эту связь? (При удалении связей данные не удаляются)' ,
-    'NTC_REQUIRED' => '-  поля, обязательные для заполнения' ,
+    'NTC_REQUIRED' => '- поля, обязательные для заполнения' ,
     
     'NTC_TIME_FORMAT' => '(24:00)' ,
     'NTC_WELCOME' => 'Дoбрo пoжалoвать' ,
@@ -2630,12 +2648,12 @@ $app_strings = array (
     'WARN_BROWSER_VERSION_WARNING' => '<b>Предупреждение:</b> Данная версия браузера не поддерживается.<p></p>Рекомендуются следующие версии браузеров:<p></p><ul><li>Internet Explorer 11 (режим совместимости не поддерживается)<li>Firefox 32.0<li>Safari 5.1<li>Chrome 37</ul>',
     'WARN_BROWSER_IE_COMPATIBILITY_MODE_WARNING' => '<b>Предупреждение:</b> Браузер открыт в режиме совместимости с IE, данный режим не поддерживается.',
  
-    'WARN_ONLY_ADMINS'=> 'В систему могут войти только администраторы.', 
+    'WARN_ONLY_ADMINS'=> 'В систему могут войти только администраторы.',
     'WARN_UNSAVED_CHANGES'=> 'Вы покидаете данную страницу без сохранения внесённых изменений. Продолжить?',
 
 	
 	'ERROR_NO_RECORD' => 'Ошибка получения записи. Вероятно, эта запись была удалена или у вас недостаточно прав для её просмотра.',
-	'ERROR_NO_BEAN' => 'Failed to get bean.', 
+	'ERROR_NO_BEAN' => 'Failed to get bean.',
     'ERROR_TYPE_NOT_VALID' => 'Ошибка. Недопустимый тип.',
     'LBL_DUP_MERGE'=>'Поиск дубликатов',
     'LBL_MANAGE_SUBSCRIPTIONS'=>'Управление подписками',
@@ -2686,7 +2704,7 @@ $app_strings = array (
 	'MSG_JS_ALERT_MTG_REMINDER_NO_LOCATION' => 'Не указано место встречи.',
 	'MSG_JS_ALERT_MTG_REMINDER_NO_START_DATE' => 'Не указана дата начала.',
 	'MSG_LIST_VIEW_NO_RESULTS_BASIC' => 'Ничего не обнаружено.',
-	'MSG_LIST_VIEW_NO_RESULTS_CHANGE_CRITERIA' => 'Ничего не обнаружено... Попробуйте изменить условия фильтрации',
+	'MSG_LIST_VIEW_NO_RESULTS_CHANGE_CRITERIA' => 'Ничего не обнаружено... Попробуйте изменить условия фильтрации.',
 	'MSG_LIST_VIEW_NO_RESULTS' => 'Ничего не обнаружено с названием <item1>',
  	'MSG_LIST_VIEW_NO_RESULTS_SUBMSG' => 'Вы можете либо создать новую запись с таким названием,',
 	'MSG_LIST_VIEW_CHANGE_SEARCH' => 'либо изменить параметры поиска.',
@@ -2799,7 +2817,7 @@ $app_strings = array (
 
 
 		
-	'LBL_SEARCH_HELP_TEXT' => '<p><br /><strong>Выбор нескольких элементов</strong></p><ul><li>Для выбора необходимого элемента списка нажмите на нём.</li><li>Для выбора нескольких непоследовательных элементов списка нажмите на них, удерживая клавишу <b>Ctrl</b> (CMD-Click для пользователей Mac).</li><li>Для выбора нескольких последовательных элементов списка нажмите на начальном и конечном выбираемых элементах списка, удерживая клавишу <b>Shift</b>. </li></ul><p><strong>Расширенный поиск и настройка макета результатов поиска  </strong><br><br>Используя ссылку <b>Настройка отображения результатов поиска</b>, вы можете сохранять указанные параметры поиска и / или настраивать макеты результатов поиска для быстрого получения желаемых результатов поиска в дальнейшем. Вы можете сохранять неограниченное количество различных вариантов поиска и макетов результатов поиска. Названия всех сохраненных условий поиска отображаются в соответствующем комбобоксе, последнее выбранное условие поиска всегда отображается первым в списке комбобокса.<br><br> Для настойки макета результатов поиска используйте списки с отображаемыми и скрытыми колонками. Например, в результатах поиска вы можете отображать или скрывать такие колонки как дату создания или изменения записи, ответственного пользователя и т.д. Для настройки отображения необходимых результатов поиска выберите соответствующие элементы в правом / левом списке и воспользуйтесь стрелками для перемещения элементов между ними.<br><br> Для сохранения и обновления параметров поиска и / или сохранения настроек макета результатов поиска:<ol><li>Укажите название сохраняемых параметров в поле <b>Сохранить условия поиска</b> и нажмите кнопку <b>Сохранить</b>. Указанное название будет отображено в комбобоксе справа от кнопки <b>Очистить</b>.</li><li>Для применения сохранённых параметров выберите необходимое название из комбобокса <b>Сохраненные условия поиска</b>, результат поиска тут же будет отображён на экране.</li><li> Для изменения ранее сохраненных параметров выберите необходимое название из комбобокса, измените параметры поиска  и / или настройки макета результатов поиска на странице <b>Расширенного поиска</b> и нажмите на кнопку <b>Обновить</b>.</li><li>Для удаления сохраненных параметров выберите необходимое название из комбобокса <b>Сохраненные условия поиска</b>, нажмите на кнопку <b>Удалить</b> и подтвердите свой выбор нажатием кнопки <b>OK</b>.</li></ol><p><strong>Совет</strong><br><br> Используйте символ <b>%</b> в качестве маски поиска. Например, если необходимо найти записи, начинающиеся со слова <b>Яблоко</b>, введите <b>Яблоко%</b> в качестве критерия поиска.</p>' ,
+	'LBL_SEARCH_HELP_TEXT' => '<p><br /><strong>Выбор нескольких элементов</strong></p><ul><li>Для выбора необходимого элемента списка нажмите на нём.</li><li>Для выбора нескольких непоследовательных элементов списка нажмите на них, удерживая клавишу <b>Ctrl</b> (CMD-Click для пользователей Mac).</li><li>Для выбора нескольких последовательных элементов списка нажмите на начальном и конечном выбираемых элементах списка, удерживая клавишу <b>Shift</b>. </li></ul><p><strong>Расширенный поиск и настройка макета результатов поиска  </strong><br><br>Используя ссылку <b>Настройка отображения результатов поиска</b>, вы можете сохранять указанные параметры поиска и / или настраивать макеты результатов поиска для быстрого получения желаемых результатов поиска в дальнейшем. Вы можете сохранять неограниченное количество различных вариантов поиска и макетов результатов поиска. Названия всех сохраненных условий поиска отображаются в соответствующем комбобоксе, последнее выбранное условие поиска всегда отображается первым в списке комбобокса.<br><br> Для настойки макета результатов поиска используйте списки с отображаемыми и скрытыми колонками. Например, в результатах поиска вы можете отображать или скрывать такие колонки как дату создания или изменения записи, ответственного пользователя и т.д. Для настройки отображения необходимых результатов поиска выберите соответствующие элементы в правом / левом списке и воспользуйтесь стрелками для перемещения элементов между ними.<br><br> Для сохранения и обновления параметров поиска и / или сохранения настроек макета результатов поиска:<ol><li>Укажите название сохраняемых параметров в поле <b>Сохранить условия поиска</b> и нажмите кнопку <b>Сохранить</b>. Указанное название будет отображено в комбобоксе справа от кнопки <b>Очистить</b>.</li><li>Для применения сохранённых параметров выберите необходимое название из комбобокса <b>Сохраненные условия поиска</b>, результат поиска тут же будет отображён на экране.</li><li> Для изменения ранее сохраненных параметров выберите необходимое название из комбобокса, измените параметры поиска и / или настройки макета результатов поиска на странице <b>Расширенного поиска</b> и нажмите на кнопку <b>Обновить</b>.</li><li>Для удаления сохраненных параметров выберите необходимое название из комбобокса <b>Сохраненные условия поиска</b>, нажмите на кнопку <b>Удалить</b> и подтвердите свой выбор нажатием кнопки <b>OK</b>.</li></ol><p><strong>Совет</strong><br><br> Используйте символ <b>%</b> в качестве маски поиска. Например, если необходимо найти записи, начинающиеся со слова <b>Яблоко</b>, введите <b>Яблоко%</b> в качестве критерия поиска.</p>' ,
 		
 		
 
@@ -2844,8 +2862,8 @@ $app_strings = array (
 	'MSG_SHOULD_BE' => 'should be',
 	'MSG_OR_GREATER' => 'or greater',
 
-    'LBL_PORTAL_WELCOME_TITLE' => 'Welcome to Sugar Portal', 
-    'LBL_PORTAL_WELCOME_INFO' => 'Sugar Portal is a framework which provides real-time view of cases, bugs & newsletters etc to customers. This is an external facing interface to Sugar that can be deployed within any website.  Stay tuned for more customer self service features like Project Management and Forums in our future releases.', 
+    'LBL_PORTAL_WELCOME_TITLE' => 'Welcome to Sugar Portal',
+    'LBL_PORTAL_WELCOME_INFO' => 'Sugar Portal is a framework which provides real-time view of cases, bugs & newsletters etc to customers. This is an external facing interface to Sugar that can be deployed within any website.  Stay tuned for more customer self service features like Project Management and Forums in our future releases.',
     'LBL_LIST' => 'List',
 
     'LBL_CREATE_BUG' => 'Create Bug',
@@ -2931,8 +2949,8 @@ $app_strings = array (
     'LBL_DURATION_HOUR' => 'час',
     'LBL_DURATION_MINUTE' => 'минута',
     'LBL_DURATION_DAYS' => 'дней',
-    'LBL_DURATION_HOURS' => 'часов',
-    'LBL_DURATION_MINUTES' => 'минут',
+    'LBL_DURATION_HOURS' => 'час.',
+    'LBL_DURATION_MINUTES' => 'мин.',
     
     //Calendar widget labels
     'LBL_CHOOSE_MONTH' => 'Выберите месяц',
@@ -3074,7 +3092,7 @@ $app_strings = array (
     'ERR_NO_INVITEES_FOR_REMINDER' => 'Нет приглашённых.',
 	'LBL_DELETE_REMINDER_CONFIRM' => 'Напоминание не содержит ни одного приглашённого. Удалить напоминание?',
     'LBL_DELETE_REMINDER' => 'Удаление напоминания',
-    'LBL_OK' => 'Удалить',
+    'LBL_OK' => 'OK',
 	
 	'LBL_COLUMNS_FILTER_HEADER_TITLE' => 'Настройка колонок',
     'LBL_SAVE_CHANGES_BUTTON_TITLE' => 'Сохранить и закрыть',
@@ -3083,9 +3101,9 @@ $app_strings = array (
     'ERR_EMPTY_COLUMNS_LIST' => 'В списке отображаемых колонок должна быть как минимум одна колонка',
 
     'LBL_FILTER_HEADER_TITLE' => 'Фильтрация записей',
-
-    'LBL_AOP_INTERNAL' => 'Внутреннее обновление',
-   
+	
+    'LBL_CATEGORY' => 'Категория',
+	'LBL_LIST_CATEGORY' => 'Категория',
 );
 
 $app_list_strings['moduleList']['Library'] = 'Library'; ///
@@ -3834,7 +3852,7 @@ $app_list_strings['moduleList']['EmailAddresses'] = 'Адрес E-mail'; ///
   );
 $app_list_strings['eapm_list_documents']= array(
   	'Google' => 'Google Docs',
-  ); 
+  );
   /// <-
 	$app_list_strings['token_status'] = array(
         1 => 'Токен запроса',
@@ -3866,7 +3884,7 @@ $app_list_strings ['emailTemplates_type_list_no_workflow'] = array (
 	'PRO' => '04_Sugar_Professional',
 	'COM' => '05_Sugar_Community_Edition'
 
-); 
+);
 /// <-
 
 //Suite***************
@@ -3933,7 +3951,7 @@ $app_list_strings['case_status_dom'] =
     array (
         'Single' => 'Указанный пользователь',
         'Account' => 'Учётная запись пользователя',
-    ); 
+    );
   
     $app_list_strings['dom_email_distribution_for_auto_create']=array (
     'AOPDefault' => 'Стандартный',
@@ -4058,7 +4076,7 @@ $app_list_strings['moduleList']['AOS_Quotes'] = 'Предложения';
 $app_list_strings['aos_quotes_type_dom'][''] = '';
 // Added by RAPIRA -->
 $app_list_strings['aos_quotes_type_dom']['Provider'] = 'Поставщик';
-$app_list_strings['aos_quotes_type_dom']['Delivery service'] = 'Служба доставки';
+$app_list_strings['aos_quotes_type_dom']['Delivery Service'] = 'Служба доставки';
 // Added by RAPIRA <--
 $app_list_strings['aos_quotes_type_dom']['Analyst'] = 'Аналитик';
 $app_list_strings['aos_quotes_type_dom']['Competitor'] = 'Конкурент';
@@ -4115,8 +4133,8 @@ $app_list_strings['invoice_status_dom']['Unpaid'] = 'Не оплачен';
 $app_list_strings['invoice_status_dom']['Cancelled'] = 'Аннулирован';
 $app_list_strings['invoice_status_dom'][''] = '';
 
-$app_list_strings['quote_invoice_status_dom']['Not Invoiced'] = 'Не преобразовано в счёт'; 
-$app_list_strings['quote_invoice_status_dom']['Invoiced'] = 'Преобразовано в счёт'; 
+$app_list_strings['quote_invoice_status_dom']['Not Invoiced'] = 'Не преобразовано в счёт';
+$app_list_strings['quote_invoice_status_dom']['Invoiced'] = 'Преобразовано в счёт';
 
 $app_list_strings['product_code_dom']['XXXX'] = 'XXXX';
 $app_list_strings['product_code_dom']['YYYY'] = 'YYYY';
@@ -4146,7 +4164,7 @@ $app_list_strings['contract_status_list']['Signed'] = 'Подписан';
 
 $app_list_strings['contract_type_list']['Type'] = 'Тип';
 
-$app_strings['LBL_GENERATE_LETTER'] = 'Создать письмо (PDF)';
+$app_strings['LBL_PRINT_AS_PDF'] = 'Создать письмо (PDF)';
 $app_strings['LBL_SELECT_TEMPLATE'] = 'Пожалуйста, выберите шаблон';
 $app_strings['LBL_NO_TEMPLATE'] = 'ОШИБКА: шаблоны не обнаружены.\nОткройте модуль PDF-шаблонов и создайте необходимый шаблон.';
 
@@ -4259,6 +4277,8 @@ $app_list_strings['duration_unit_dom']['Hours'] = 'часов';
 
 $app_strings['LBL_GANTT_BUTTON_LABEL'] = 'Диаграмма Ганта';
 $app_strings['LBL_GANTT_BUTTON_TITLE'] = 'Диаграмма Ганта';
+$app_strings['LBL_DETAIL_BUTTON_LABEL'] = 'Просмотр деталей';
+$app_strings['LBL_DETAIL_BUTTON_TITLE'] = 'Просмотр деталей';
 $app_strings['LBL_CREATE_PROJECT'] = 'Создать проект';
 
 //gmaps
@@ -4275,6 +4295,8 @@ $app_list_strings['moduleList']['jjwg_Maps'] = 'Карты';
 $app_list_strings['moduleList']['jjwg_Markers'] = 'Метки';
 $app_list_strings['moduleList']['jjwg_Areas'] = 'Участки карт';
 $app_list_strings['moduleList']['jjwg_Address_Cache'] = 'Кэш адресов';
+
+$app_list_strings['moduleList']['jjwp_Partners'] = 'Партнёры JJWP';
 
 $app_list_strings['map_unit_type_list']['km'] = 'Километры';
 $app_list_strings['map_unit_type_list']['mi'] = 'Мили';
@@ -4495,7 +4517,7 @@ $app_list_strings['marker_image_list']['stadium'] = 'Стадион';
 $app_list_strings['marker_image_list']['statue'] = 'Статуя';
 $app_list_strings['marker_image_list']['stop'] = 'Стоп';
 $app_list_strings['marker_image_list']['construction'] = 'Строительство';
-$app_list_strings['marker_image_list']['satursday'] = 'Суббота';
+$app_list_strings['marker_image_list']['saturday'] = 'Суббота';
 $app_list_strings['marker_image_list']['court'] = 'Суд';
 $app_list_strings['marker_image_list']['supermarket'] = 'Супермаркет';
 $app_list_strings['marker_image_list']['taxi'] = 'Такси';
@@ -4607,7 +4629,7 @@ $app_list_strings['collection_temp_list'] = array ( 'Tasks' => 'Задачи', '
 
 $app_list_strings['moduleList']['TemplateEditor'] = 'Редактор фрагментов шаблонов'; ///1
 $app_strings['LBL_CONFIRM_CANCEL_INLINE_EDITING'] = "Данные редактируемого поля не сохранены. При нажатии на кнопку 'ОК' все изменённые данные будут утеряны, при нажатии на кнопку 'Отмена' вы сможете продолжить редактирование поля ";
-$app_strings['LBL_LOADING_ERROR_INLINE_EDITING'] = "Ошибка  получения данных. Вероятно, сеанс закончился и необходимо заново войти в систему.";
+$app_strings['LBL_LOADING_ERROR_INLINE_EDITING'] = "Ошибка получения данных. Вероятно, сеанс закончился и необходимо заново войти в систему.";
 
 //SuiteSpots
 $app_list_strings['spots_areas'] = array(
@@ -4621,7 +4643,7 @@ $app_list_strings['spots_areas'] = array(
     'getQuotesSpotsData' => 'Предложения'
 );
 
-$app_list_strings['moduleList']['Spots'] = 'Сводки';  
+$app_list_strings['moduleList']['Spots'] = 'Сводки';
 
 
 $app_list_strings['business_hours_list']['0'] = '0:00';
@@ -4655,5 +4677,10 @@ $app_list_strings['day_list']['Thursday'] = 'Четверг';
 $app_list_strings['day_list']['Friday'] = 'Пятница';
 $app_list_strings['day_list']['Saturday'] = 'Суббота';
 $app_list_strings['day_list']['Sunday'] = 'Воскресенье';
+$app_list_strings['pdf_page_size_dom']['A4'] = 'A4	(21х29,7 см)';
+$app_list_strings['pdf_page_size_dom']['Letter'] = 'Letter	(21,59х27,94 см)';
+$app_list_strings['pdf_page_size_dom']['Legal'] = 'Legal (21,59х35,56 см)';
+$app_list_strings['pdf_orientation_dom']['Portrait'] = 'Книжная';
+$app_list_strings['pdf_orientation_dom']['Landscape'] = 'Альбомная';
 
 ?>

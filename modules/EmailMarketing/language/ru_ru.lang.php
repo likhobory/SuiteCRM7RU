@@ -91,7 +91,11 @@ $mod_strings = array (
 //    'LBL_OUTBOUND_EMAIL_ACCOUNT_DEFAULT' => 'Use System Default',
 //    'LBL_OUTBOUND_EMAIL_ACCOUNT_VIEW' => 'View Outbound Email Accounts',
 'LBL_ERROR_ON_MARKETING' => 'Обязательные поля не заполнены',
-'LBL_OUTBOUND_EMAIL_ACOUNT_ID' => 'ID учётной записи исходящей почты', /// for PR #2698
+
+'LBL_CAMPAIGN_ID' => 'Маркет. кампания (ID)',
+'LBL_OUTBOUND_EMAIL_ACOUNT_ID' => 'ID учётной записи исходящей почты',
+'LBL_EMAIL_TEMPLATE' => 'Шаблон E-mail',
+'LBL_PROSPECT_LISTS' => 'Списки адресатов',
 
 );
 ?>

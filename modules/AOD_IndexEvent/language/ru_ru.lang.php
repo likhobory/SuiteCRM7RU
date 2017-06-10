@@ -62,6 +62,6 @@ $mod_strings = array (
   'LBL_ERROR' => 'Ошибка',
   'LBL_SUCCESS' => 'Индексирование окончено',
   'LBL_RECORD_MODULE' => 'Индексирование окончено',
-  'LBL_RECORD_ID' => 'ID записи', /// for PR #2698
+  'LBL_RECORD_ID' => 'ID записи',
 
 );

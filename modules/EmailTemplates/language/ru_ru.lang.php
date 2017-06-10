@@ -101,5 +101,6 @@ $mod_strings = array (
 'LBL_SELECT' => 'Обзор' /*for 508 compliance fix*/,
 'LBL_ID_FF_CLEAR' => 'Очистить' /*for 508 compliance fix*/,
 'LBL_TYPE' => 'Тип шаблона:',
+'LBL_WIDTH' => 'Ширина страницы:',
 );
 ?>

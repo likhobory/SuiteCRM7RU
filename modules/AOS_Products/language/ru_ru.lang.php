@@ -66,7 +66,7 @@ $mod_strings = array (
   'LBL_CONTACT' => 'Контакт',
   
   'LBL_PRODUCT_IMAGE' => 'Фото товара',
-  'LBL_IMAGE_UPLOAD_FAIL' => 'ОШИБКА:  размер загружаемого файла превышает максимально допустимое значение, равное ',
+  'LBL_IMAGE_UPLOAD_FAIL' => 'ОШИБКА: размер загружаемого файла превышает максимально допустимое значение, равное ',
   'LBL_AOS_PRODUCT_CATEGORYS_NAME' => 'Категория товара',
   
   'LBL_AOS_PRODUCT_CATEGORY' => 'Категория товара (ID)',

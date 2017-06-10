@@ -122,8 +122,8 @@ $mod_strings = array(
 'LBL_PASSWORD_CHECK'=> 'Контрольный пароль' , ///
 'LBL_PASSWORD'=> 'Пароль' ,
 'LBL_POP3_SUCCESS'=> 'Тест POP3 успешно пройден.' ,
-'LBL_POPUP_FAILURE'=> 'Тестирование соединения  прошло неудачно. Ошибка показана ниже.' , ///
-'LBL_POPUP_SUCCESS'=> 'Успешное тестирование соединения.  Ваши настройки работают.' , ///
+'LBL_POPUP_FAILURE'=> 'Тестирование соединения прошло неудачно. Ошибка показана ниже.' , ///
+'LBL_POPUP_SUCCESS'=> 'Успешное тестирование соединения. Ваши настройки работают.' , ///
 'LBL_POPUP_TITLE'=> 'Тестирование настроек...' ,
 'LBL_GETTING_FOLDERS_LIST' => 'Получение списка папок', ///
 'LBL_SELECT_SUBSCRIBED_FOLDERS' => 'Выбрать папку/папки',
@@ -156,7 +156,7 @@ $mod_strings = array(
 'LBL_TLS'=> 'Использовать TLS' , ///
 'LBL_WARN_IMAP_TITLE'=> 'IMAP-предупреждение' ,
 'LBL_WARN_IMAP'=> 'Предупреждения:' ,
-'LBL_WARN_NO_IMAP'=> 'Эта система не имеет IMAP-клиента, откомпилированного в PHP-модуле (--with-imap=/path/to/imap_c-client_library).  Пожалуйста, свяжитесь с Вашим администратором для решений этой проблемы.' ,
+'LBL_WARN_NO_IMAP'=> 'Эта система не имеет IMAP-клиента, откомпилированного в PHP-модуле (--with-imap=/path/to/imap_c-client_library). Пожалуйста, свяжитесь с Вашим администратором для решений этой проблемы.' ,
 
 'LNK_CREATE_GROUP'=> 'Создать новую группу' , ///
 'LNK_LIST_CREATE_NEW_GROUP' => 'Создать групповую учётную запись',
@@ -167,23 +167,36 @@ $mod_strings = array(
 'LNK_LIST_TEST_IMPORT'=> 'Тестирование импортирования почты' , ///
 'LNK_NEW_QUEUES'=> 'Создать новую очередь' , ///
 'LNK_SEED_QUEUES'=> 'Создать очередь из групп' ,
-'LBL_IS_PERSONAL'       => 'Персональная',
 'LBL_GROUPFOLDER_ID'=> 'Групповая папка(ID)',
 'LBL_ASSIGN_TO_GROUP_FOLDER' => 'Назначить групповой папке',
 'LBL_ALLOW_OUTBOUND_GROUP_USAGE' => 'Разрешить пользователям отправлять письма, используя в качестве адреса для ответа данные поля <<b>От</b>>',
 'LBL_ALLOW_OUTBOUND_GROUP_USAGE_DESC' => 'Имя и адрес групповой учётной записи появятся в поле <<b>От</b>> при отправке писем пользователям, являющимся членами данной групповой учётной записи.',
 'LBL_STATUS_ACTIVE'     => 'Активна',
 'LBL_STATUS_INACTIVE'   => 'Не активна',
-
+'LBL_IS_PERSONAL'       => 'Персональная',
 'LBL_IS_GROUP' => 'Групповая',
 'LBL_ENABLE_AUTO_IMPORT' => 'Автоматически импортировать E-mail',
 'LBL_WARNING_CHANGING_AUTO_IMPORT' => 'Предупреждение: Вы изменяете параметр автоматического импорта, что может привести к потере данных.',
 'LBL_WARNING_CHANGING_AUTO_IMPORT_WITH_CREATE_CASE' => 'Предупреждение: При автоматическом создании Обращений автоиморт также должен быть включён.',
 'LBL_EDIT_LAYOUT' => 'Изменить макет' /*for 508 compliance fix*/,
-'LBL_MODIFIED_BY' => 'Изменено', /// for PR #2698
-'LBL_SERVICE' => 'Сервис', /// for PR #2698
-'LBL_STORED_OPTIONS' => 'Сохранённые параметры', /// for PR #2698
-'LBL_GROUP_ID' => 'ID группы', /// for PR #2698
+'LBL_LIST_TITLE_MY_DRAFTS' => 'Черновики',
+'LBL_LIST_TITLE_MY_INBOX' => 'Входящие',
+'LBL_LIST_TITLE_MY_SENT' => 'Отправленные',
+'LBL_LIST_TITLE_MY_ARCHIVES' => 'Архивные E-mails',
+'LNK_CHECK_MY_INBOX' => 'Получить',
+'LNK_DATE_SENT' => 'Дата отправки',
+'LNK_GROUP_INBOX' => 'Групповые входящие',
+'LNK_MY_DRAFTS' => 'Черновики',
+'LNK_MY_INBOX' => 'E-mail',
+'LNK_VIEW_MY_INBOX' => 'Входящие',
+'LNK_QUICK_REPLY' => 'Ответить',
+'LNK_MY_ARCHIVED_LIST' => 'Архивные',
+'LNK_SENT_EMAIL_LIST' => 'Отправленные',
+	
+'LBL_MODIFIED_BY' => 'Изменено',
+'LBL_SERVICE' => 'Сервис',
+'LBL_STORED_OPTIONS' => 'Сохранённые параметры',
+'LBL_GROUP_ID' => 'ID группы',
 );
 
 ?>

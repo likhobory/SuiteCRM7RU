@@ -68,7 +68,7 @@ $mod_strings = array (
   'LBL_DURATION' => 'Продолжительность',
   'LBL_INVITE_TEMPLATES' => 'Шаблон приглашения',
   'LBL_INVITE_PDF' => 'Отправить приглашения',
-  'LBL_EDITVIEW_PANEL1' => 'Детали события', 
+  'LBL_EDITVIEW_PANEL1' => 'Детали события',
   'LBL_DEFAULT_SUBPANEL_TITLE' => 'Участники',
   'LBL_ACCEPT_REDIRECT' => 'Показать страницу при принятии приглашения',
   'LBL_DECLINE_REDIRECT' => 'Показать страницу при отказе от приглашения',
@@ -97,11 +97,12 @@ $mod_strings = array (
   'LBL_ERROR_MSG_5' => 'Неверный шаблон E-mail',
   'LBL_EMAIL_INVITE' => 'Приглашение',
   
-'LBL_FP_EVENTS_CONTACTS_FROM_CONTACTS_TITLE' => 'Контакты',  
+'LBL_FP_EVENTS_CONTACTS_FROM_CONTACTS_TITLE' => 'Контакты',
 'LBL_FP_EVENT_LOCATIONS_FP_EVENTS_1_FROM_FP_EVENT_LOCATIONS_TITLE' => 'Место проведения события',
 'LBL_FP_EVENTS_LEADS_1_FROM_LEADS_TITLE' => 'Предварит. контакты',
 'LBL_FP_EVENTS_PROSPECTS_1_FROM_PROSPECTS_TITLE' => 'Адресаты',
 'LBL_FP_EVENTS_FP_EVENT_DELEGATES_1_FROM_FP_EVENT_DELEGATES_TITLE' => 'Участники',
+
 'LBL_HOURS_ABBREV' => 'час.' ,
 'LBL_MINSS_ABBREV' => 'мин.' ,
 
@@ -124,7 +125,7 @@ $mod_strings = array (
 	'LBL_NAME_SECOND' => 'Фамилия',
      
 	'LBL_ACTIVITY_STATUS' => 'Статус активности',
-	'LBL_FP_EVENT_LOCATIONS_FP_EVENTS_1_FROM_FP_EVENTS_TITLE' => 'Места', /// for PR #2698
+	'LBL_FP_EVENT_LOCATIONS_FP_EVENTS_1_FROM_FP_EVENTS_TITLE' => 'Места',
   );
  
 

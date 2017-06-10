@@ -88,7 +88,7 @@ $mod_strings = array (
 'LBL_CONTACT_ID' => 'ID контакта:',
 'LBL_PARENT_ID' => 'ID родителя:',
 'LBL_CONTACT_PHONE' => 'Телефон контакта:',
-'LBL_PARENT_NAME' => 'Тип родителя:',
+'LBL_PARENT_TYPE' => 'Тип родителя:',
 'LBL_ACTIVITIES_REPORTS' => 'Отчёт о мероприятиях',  ///
 'LBL_TASK_INFORMATION' => 'Основная информация',
 'LBL_HISTORY_SUBPANEL_TITLE' => 'Заметки',
@@ -103,7 +103,6 @@ $mod_strings = array (
 'LBL_EXPORT_PARENT_TYPE' => 'Относится к модулю', ////
 'LBL_EXPORT_PARENT_ID' => 'Относится к (ID)', ///
 'LBL_RELATED_TO' => 'Относится к:',
-'LBL_CONTACT_PARENT' => 'Руководитель', /// for PR #2698
 );
 
 

@@ -101,6 +101,9 @@ $mod_strings = array (
 'NTC_NONE'=> 'Нет' ,
 'LBL_ACCEPT_THIS'=> 'Принято?' ,
 'LBL_DEFAULT_SUBPANEL_TITLE' => 'История' ,
+
+'LBL_CATEGORY' => 'Категория',
+'LBL_LIST_CATEGORY' => 'Категория',
 );
 
 ?>

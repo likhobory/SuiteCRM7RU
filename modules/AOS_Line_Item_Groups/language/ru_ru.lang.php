@@ -40,7 +40,7 @@ $mod_strings = array (
   'LBL_DISCOUNT_AMOUNT' => 'Скидка',
   'LBL_SUBTOTAL_AMOUNT' => 'Итого со скидкой',
   'LBL_TAX_AMOUNT' => 'Всего НДС',
-  'LBL_SUBTOTAL_TAX_AMOUNT' => 'Итого учётом скидки и НДС',
+  'LBL_SUBTOTAL_TAX_AMOUNT' => 'Итого с учётом скидки и НДС',
   'LBL_GROUP_TOTAL' => 'ИТОГО С НДС',
   'LBL_LIST_NUM' => '№',
   
@@ -49,7 +49,10 @@ $mod_strings = array (
   'LBL_TAX_AMOUNT_USDOLLAR' => 'Всего НДС (основная валюта)',
   'LBL_TOTAL_AMT_USDOLLAR' => 'Итого без скидки (основная валюта)',
   'LBL_GROUP_TOTAL_USDOLLAR' => 'ИТОГО С НДС (основная валюта)',
-  'LBL_SUBTOTAL_TAX_AMOUNT_USDOLLAR' => 'Итого учётом скидки и НДС (основная валюта)',
-  'LBL_PARENT_ID' => 'ID родителя', /// for PR #2698
+  'LBL_SUBTOTAL_TAX_AMOUNT_USDOLLAR' => 'Итого с учётом скидки и НДС (основная валюта)',
+   
+   'LBL_PARENT_ID' => 'ID родителя',
+   'AOS_PRODUCT_QUOTES' => 'Предложение-Товары',
+  
 );
 ?>

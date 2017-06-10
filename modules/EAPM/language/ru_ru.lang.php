@@ -105,5 +105,7 @@ $mod_strings = array (
 'LBL_ERR_OAUTH_FACEBOOK_2' => 'login to Facebook again', ///
 'LBL_ERR_NO_RESPONSE' => 'При попытке подключения произошла ошибка.',
 'LBL_ERR_TWITTER' => 'Twitter returned an error, and the feed cannot be displayed.', ///
-'LBL_ERR_POPUPS_DISABLED' => 'Для успешного подключения разрешите всплывающие окна в вашем браузере или добавьте сайт "{0}" в список исключений.'
+'LBL_ERR_POPUPS_DISABLED' => 'Для успешного подключения разрешите всплывающие окна в вашем браузере или добавьте сайт "{0}" в список исключений.',
+
+'LBL_API_OAUTHSECRET' => 'API OAuth Secret',
 );

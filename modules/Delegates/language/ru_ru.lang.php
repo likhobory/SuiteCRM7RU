@@ -66,6 +66,6 @@ $mod_strings = array (
   'LBL_INVITE_EMAIL' => 'Отправить приглашения (E-mail)',
   'LBL_PDF_TEMPLATE' => 'Шаблон приглашения (PDF)',
   'LBL_EMAIL_TEMPLATE' => 'Шаблон приглашения (E-mail)',
-  'LBL_EDITVIEW_PANEL1' => 'Детали события', 
+  'LBL_EDITVIEW_PANEL1' => 'Детали события',
   'LBL_DEFAULT_SUBPANEL_TITLE' => 'Участники',
 );

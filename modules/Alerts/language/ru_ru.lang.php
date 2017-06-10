@@ -58,4 +58,6 @@ $mod_strings = array (
   'LBL_Alert_SUBPANEL_TITLE' => 'Уведомления',
   'LBL_NEW_FORM_TITLE' => 'Новое уведомление',
   'LBL_IS_READ' => 'прочитано',
+  
+  'LBL_TYPE' => 'Тип',
 );

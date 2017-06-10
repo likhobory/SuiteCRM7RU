@@ -50,6 +50,8 @@ $mod_strings = array (
 'LBL_DESCENDING' => 'Нисходящая',
 'LBL_MODIFY_CURRENT_FILTER'=> 'Выбранный фильтр',
 
+'LBL_CREATED_BY' => 'Кем создано',
+
 );
 
 

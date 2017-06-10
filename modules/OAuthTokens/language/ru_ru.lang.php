@@ -42,6 +42,10 @@ $mod_strings = array (
     'LBL_LIST_DELETE' => 'Удалён',
     'LBL_CONSUMER' => 'Пользователь',
     'LBL_OAUTH_DISABLED' => 'Поддержка OAuth отключена. Вероятно, отсутствует соответствующее расширение PHP. Для решения вопроса свяжитесь с системным администратором.',
-	'LBL_TOKEN_TS' => 'Токен', /// for PR #2698
-    'LBL_CALLBACK_URL' => 'Callback-URL', /// for PR #2698
+	
+	'LBL_TOKEN_TS' => 'Токен',
+    'LBL_CALLBACK_URL' => 'Callback-URL',
+	'LBL_SECRET' => 'Secret',
+    'LBL_TSTATE' => 'TState',
+    'LBL_VERIFY' => 'Проверить',
 );

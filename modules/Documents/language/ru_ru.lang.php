@@ -85,7 +85,7 @@ $mod_strings = array (
 'LBL_LAST_REV_CREATOR' => 'Изменено:' ,
 'LBL_LASTEST_REVISION_NAME' => 'Название последней версии:',
 'LBL_SELECTED_REVISION_NAME' => 'Название выбранной версии:',
-'LBL_CONTRACT_STATUS' => 'Статус договора:', 
+'LBL_CONTRACT_STATUS' => 'Статус договора:',
 'LBL_CONTRACT_NAME' => 'Название договора:' ,
 'LBL_LAST_REV_DATE' => 'Дата изменения:' ,
 'LBL_DOWNNLOAD_FILE'=> 'Загрузить файл:' ,
@@ -175,7 +175,7 @@ $mod_strings = array (
 'LBL_BUGS_SUBPANEL_TITLE' => 'Ошибки',
 'LBL_QUOTES_SUBPANEL_TITLE' => 'Quotes', ///
 'LBL_PRODUCTS_SUBPANEL_TITLE' => 'Products', ///
-'LBL_AOS_CONTRACTS' => 'Договоры', /// for PR #2698
+'LBL_AOS_CONTRACTS' => 'Договоры',
 );
 
 

@@ -172,7 +172,7 @@ $mod_strings = array (
 'LNK_NEW_TASK' => 'Создать задачу' ,
 'LNK_SELECT_ACCOUNT' => 'Выбор контрагента' ,
 'MSG_DUPLICATE' => 'Создаваемый вами контакт, возможно, дублирует уже имеющуюся запись. Контакты, содержащие схожие имена показаны ниже. <br>Нажмите на кнопку <b>Создать контакт</b> для создания новой записи или выберите существующую запись из списка.' ,
-'MSG_SHOW_DUPLICATES' => 'Создаваемый вами контакт, возможно, дублирует уже имеющуюся запись. Контакты, содержащие схожие имена показаны ниже. Нажмите кнопку "Сохранить"  для продолжения создания нового контакта или кнопку "Отказаться" для возврата в модуль.',
+'MSG_SHOW_DUPLICATES' => 'Создаваемый вами контакт, возможно, дублирует уже имеющуюся запись. Контакты, содержащие схожие имена показаны ниже. Нажмите кнопку "Сохранить" для продолжения создания нового контакта или кнопку "Отказаться" для возврата в модуль.',
 'NTC_COPY_ALTERNATE_ADDRESS' => 'Копировать дополнительный адрес в основной' , ///
 'NTC_COPY_PRIMARY_ADDRESS' => 'Копировать основной адрес в дополнительный' , ///
 'NTC_DELETE_CONFIRMATION' => 'Вы уверены, что хотите удалить эту запись?' ,
@@ -191,7 +191,7 @@ $mod_strings = array (
 'LBL_CASES_SUBPANEL_TITLE' => 'Обращения' ,
 'LBL_BUGS_SUBPANEL_TITLE' => 'Ошибки' ,
 'LBL_PROJECTS_SUBPANEL_TITLE' => 'Проекты' ,
-'LBL_PROJECTS_RESOURCES' => 'Ресурсы проекта', 
+'LBL_PROJECTS_RESOURCES' => 'Ресурсы проекта',
 'LBL_TARGET_OF_CAMPAIGNS' => 'Адресат маркет. кампании:' ,
 'LBL_CAMPAIGNS'=> 'Маркет. кампании' ,
 'LBL_CAMPAIGN_LIST_SUBPANEL_TITLE'=> 'Маркет. кампании',
@@ -205,7 +205,7 @@ $mod_strings = array (
 'LBL_PROJECT_SUBPANEL_TITLE' => 'Проекты',
 'LBL_CAMPAIGNS_SUBPANEL_TITLE' => 'Маркетинговые кампании', ////
 'LNK_IMPORT_CONTACTS' => 'Импорт контактов',
-'LBL_PROJECT_CONTACTS_1_FROM_PROJECT_TITLE' => 'Контакты проекта', /// for PR #2698
+'LBL_PROJECT_CONTACTS_1_FROM_PROJECT_TITLE' => 'Контакты проекта',
 
 //For export labels ///
 'LBL_PHONE_HOME' => 'Тел. (дом.)', ///
@@ -243,9 +243,9 @@ $mod_strings = array (
 'LBL_PORTAL_ACCOUNT_DISABLED' => 'Учётная запись портала отключена:',
 'LBL_JOOMLA_ACCOUNT_ID' => 'ID учётной записи Joomla',
 
-'LBL_AOS_CONTRACTS' => 'Договоры', /// for PR #2698
-'LBL_AOS_INVOICES' => 'Счета', /// for PR #2698
-'LBL_AOS_QUOTES' => 'Предложения', /// for PR #2698
+'LBL_AOS_CONTRACTS' => 'Договоры',
+'LBL_AOS_INVOICES' => 'Счета',
+'LBL_AOS_QUOTES' => 'Предложения',
 
 );
 

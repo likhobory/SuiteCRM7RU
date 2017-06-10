@@ -215,19 +215,19 @@ $mod_strings = array (
   'LBL_PROJECTS_SEARCH' => 'Проекты',
   'LBL_USERS_SEARCH' => 'Пользователи',
   'LBL_CONTACTS_SEARCH' => 'Контакты',
-  'LBL_PROJECT_CONTACTS_1_FROM_CONTACTS_TITLE' => 'Контакты : Контакты', /// for PR #2698
+  'LBL_PROJECT_CONTACTS_1_FROM_CONTACTS_TITLE' => 'Контакты : Контакты',
   'LBL_RESOURCE_CHART_SEARCH_BUTTON' => 'Найти',
 	
   'LBL_CHART_TYPE' => 'Отображать данные по:',
   'LBL_CHART_WEEKLY' => 'Неделям',
-  'LBL_CHART_MONTHLY' => 'Месяцам',	
+  'LBL_CHART_MONTHLY' => 'Месяцам',
   'LBL_CHART_QUARTERLY' => 'Кварталам',
 
   'LBL_RESOURCE_CHART_MONTH' => 'Месяц',
   'LBL_RESOURCE_CHART_QUARTER' => 'Квартал',
   'LBL_ALL_RESOURCES' => 'Все участники',
-  'LBL_AM_PROJECTTEMPLATES_PROJECT_1_FROM_PROJECT_TITLE' => 'Шаблоны проекта', /// for PR #2698
-  'LBL_AOS_QUOTES_PROJECT' => 'Проекты-Предложения', /// for PR #2698
+  'LBL_AM_PROJECTTEMPLATES_PROJECT_1_FROM_PROJECT_TITLE' => 'Шаблоны проекта',
+  'LBL_AOS_QUOTES_PROJECT' => 'Проекты-Предложения',
 );
 ?>
 

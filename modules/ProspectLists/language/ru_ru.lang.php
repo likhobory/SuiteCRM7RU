@@ -78,7 +78,7 @@ $mod_strings = array (
 'LBL_DOMAIN_NAME'=> 'Имя домена' ,
 'LBL_DOMAIN'=> 'Нет писем в домене:'  ,
 'LBL_LIST_PROSPECTLIST_NAME'=> 'Название',
-'LBL_EMAIL_MARKETING'=>'Рассылки E-mail', /// for PR #2698
+'LBL_EMAIL_MARKETING'=>'Рассылки E-mail',
 'LBL_MORE_DETAIL' => 'Подробнее' /*for 508 compliance fix*/, ///
 );
 

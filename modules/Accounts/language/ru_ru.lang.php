@@ -176,9 +176,9 @@ $mod_strings = array (
 // SNIP
 'LBL_CONTACT_HISTORY_SUBPANEL_TITLE' => 'Related Contacts\' Emails', ///
 'LBL_PRODUCTS_SERVICES_PURCHASED_SUBPANEL_TITLE' => 'Оплаченные товары и услуги',
-'LBL_AOS_CONTRACTS' => 'Договоры', /// for PR #2698
-'LBL_AOS_INVOICES' => 'Счета', /// for PR #2698
-'LBL_AOS_QUOTES' => 'Предложения', /// for PR #2698
+'LBL_AOS_CONTRACTS' => 'Договоры',
+'LBL_AOS_INVOICES' => 'Счета',
+'LBL_AOS_QUOTES' => 'Предложения',
 
 );
 ?>

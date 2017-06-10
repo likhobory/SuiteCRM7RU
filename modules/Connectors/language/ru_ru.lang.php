@@ -101,16 +101,16 @@ $mod_strings = array (
 'ERROR_EMPTY_RECORD_ID' => 'Ошибка: Запись не указана или она пуста.', ///
 'ERROR_NO_ADDITIONAL_DETAIL' => 'Ошибка: Для данной записи не обнаружено дополнительной информации.',
 'ERROR_NO_SEARCHDEFS_DEFINED' => 'Для данного подключения не указан ни один модуль. Укажите модуль на странице выбора модулей.',
-'ERROR_NO_SEARCHDEFS_MAPPED' => 'Ошибка: Нет подключений с настроенными для поиска полями.', 
+'ERROR_NO_SEARCHDEFS_MAPPED' => 'Ошибка: Нет подключений с настроенными для поиска полями.',
 'ERROR_NO_SOURCEDEFS_FILE' => 'Ошибка: Файл sourcedefs.php не найден.', ///
 'ERROR_NO_SOURCEDEFS_SPECIFIED' => 'Ошибка: Не указан источник получения данных.', ///
 'ERROR_NO_CONNECTOR_DISPLAY_CONFIG_FILE' => 'Ошибка: С данным модулем не связано ни одного подключения.', ///
-'ERROR_NO_SEARCHDEFS_MAPPING' => 'Ошибка:  Не определены поля поиска для модуля и подключения. Для решения проблемы свяжитесь с системным администратором.',
+'ERROR_NO_SEARCHDEFS_MAPPING' => 'Ошибка: Не определены поля поиска для модуля и подключения. Для решения проблемы свяжитесь с системным администратором.',
 'ERROR_NO_FIELDS_MAPPED' => 'Ошибка: Для каждого модуля вы должны указать как минимум одно поле подключения.', ///
 'ERROR_NO_DISPLAYABLE_MAPPED_FIELDS' => 'Ошибка: Не указано ни одного поля модуля для отображения в результирующих данных. Обратитесь к системному администратору.',
 'LBL_TWITTER_USER' => 'Учётная запись в Twitter', ///
 'LBL_FACEBOOK_USER' => 'Учётная запись в Facebook', ///
-'LBL_INFO_INLINE' => 'Info' /*for 508 compliance fix*/, 
+'LBL_INFO_INLINE' => 'Info' /*for 508 compliance fix*/,
 'LBL_CLOSE' => 'Закрыть' /*for 508 compliance fix*/,
 );
 

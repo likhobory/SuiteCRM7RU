@@ -85,6 +85,8 @@ $mod_strings = array (
 
 'LBL_CAMPAIGNS' => 'Маркет. кампании',
 'LBL_LIST_MARKETING_NAME' => 'Маркетинговая кампания',
-'LBL_RELATED_NAME' => 'Связанное название', /// for PR #2698
+
+'LBL_MARKETING_ID' => 'Маркетинг (ID)',
+'LBL_RELATED_NAME' => 'Связанное название',
 );
 ?>

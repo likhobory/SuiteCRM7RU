@@ -60,7 +60,7 @@ $mod_strings = array (
   'LBL_CALLS_RESCHEDUAL_SUBPANEL_TITLE' => 'Отложенные звонки',
   'LBL_NEW_FORM_TITLE' => 'Новый отложенный звонок',
   'LBL_REASON' => 'Причина',
-  'LBL_CALLS' => 'calls',
+  'LBL_CALLS' => 'Звонки',
   'LNK_IMPORT_CALLS_RESCHEDULE' => 'Импорт отложенных звонков',
   'LBL_CALLS_RESCHEDULE_SUBPANEL_TITLE' => 'Отложенные звонки',
 );

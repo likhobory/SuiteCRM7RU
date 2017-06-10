@@ -47,7 +47,7 @@ $mod_strings = array (
 'LBL_ACTION_ADMIN'=> 'Тип доступа',
 'LBL_ALL'=> 'Все',
 'LBL_DUPLICATE_OF'=> 'Дублирует ',
-'LBL_MODULES'=>'Модули', /// for PR #2698
-'LBL_SECURITYGROUPS'=>'Группы пользователей', /// for PR #2698
+
+'LBL_SECURITYGROUPS'=>'Группы пользователей',
 )
 ?>
