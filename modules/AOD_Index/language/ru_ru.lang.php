@@ -65,7 +65,6 @@ $mod_strings = array (
   'LBL_SEARCH_BUTTON' => 'Поиск',
   'LBL_SEARCH_QUERY_PLACEHOLDER' => 'Ведите искомую фразу',
   'LBL_INDEX_STATS' => 'Статистика индексирования',
-  'LBL_SEARCH_LABEL' => 'Term', ///
   'LBL_OPTIMISE_NOW' => 'Оптимизировать',
   'LBL_TOTAL_RECORDS' => 'Всего записей:',
   'LBL_INDEXED_RECORDS' => 'Всего проиндексировано записей:',

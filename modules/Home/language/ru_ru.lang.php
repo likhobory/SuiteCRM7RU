@@ -42,7 +42,6 @@ $mod_strings = array (
 'LBL_PIPELINE_FORM_TITLE' => 'Диаграмма стадий общих продаж',
 'LBL_RGraph_PIPELINE_FORM_TITLE' => 'Диаграмма стадий общих продаж',
 'LBL_CAMPAIGN_ROI_FORM_TITLE' => 'Рентабельность инвестиций',
-'LBL_MY_CLOSED_OPPORTUNITIES_GAUGE' => 'My Closed Won Opportunities Gauge', ///
 'LNK_NEW_CONTACT' => 'Создать контакт' ,
 'LNK_NEW_ACCOUNT' => 'Создать контрагента' ,
 'LNK_NEW_OPPORTUNITY' => 'Создать сделку' ,
@@ -56,7 +55,6 @@ $mod_strings = array (
 'LNK_NEW_TASK' => 'Создать задачу' ,
 'LNK_NEW_BUG' => 'Новая ошибка' ,
 'LBL_ADD_BUSINESSCARD' => 'Ввести визитку' ,
-'ERR_ONE_CHAR' => 'Пожалуйста, введите по меньшей мере одну букву или цифру для поиска ...' , ///
 'LBL_OPEN_TASKS' => 'Мои открытые задачи' ,
 'LBL_SEARCH_RESULTS' => 'Результат поиска',
 'LBL_SEARCH_RESULTS_IN' => 'в',
@@ -66,7 +64,6 @@ $mod_strings = array (
 'LBL_NO_RESULTS' => '<h2>Ничего не найдено. Пожалуйста, повторите поиск.</h2><br>',
 'LBL_NO_RESULTS_TIPS' => '<h3>Совет:</h3><ul><li>Убедитесь, что вы отметили необходимые модули.</li><li>Укажите более подробные условия поиска.</li><li>Если вы все ещё ничего не нашли - попробуйте воспользоваться закладкой "Расширенный поиск" соответствующего модуля.</li></ul>',
 
-'LBL_RELOAD_PAGE' => 'Пожалуйста, <a href="javascript: window.location.reload()">обновите страницу</a>, чтобы увидеть добавленный дашлет.',
 'LBL_ADD_DASHLETS' => 'Добавить дашлеты',
 'LBL_ADD_PAGE' => 'Добавить страницу',
 'LBL_DEL_PAGE' => 'Удалить страницу',
@@ -110,7 +107,6 @@ $mod_strings = array (
 'Charts' => 'Графики',
 'Tools' => 'Сервис',
 'Miscellaneous' => 'Разное') ,
-'LBL_MAX_DASHLETS_REACHED' => 'Вы добавили максимальное количество дашлетов, установленное администратором. Пожалуйста, удалите один из существующих дашлетов для добавления нового.',
 'LBL_ADDING_DASHLET' => 'Добавление дашлета ...',
 'LBL_ADDED_DASHLET' => 'Дашлет добавлен',
 'LBL_REMOVE_DASHLET_CONFIRM' => 'Вы действительно хотите удалить этот дашлет?',
@@ -126,32 +122,17 @@ $mod_strings = array (
 'LBL_DASHLET_REFRESH' => 'Обновить дашлет',
 'LBL_DASHLET_EDIT' => 'Настроить дашлет',
 
-'LBL_TRAINING_TITLE' => 'Обучение', ///
 
-'LBL_CREATING_NEW_PAGE' => 'Создание новой страницы...', ///
-'LBL_NEW_PAGE_FEEDBACK' => 'Вы создали новую страницу. Вы можете наполнить её новым содержимым, воспользовавшись меню дашлетов.', ///
-'LBL_DELETE_PAGE_CONFIRM' => 'Вы действительно хотите удалить эту страницу?', ///
-'LBL_SAVING_PAGE_TITLE' => 'Сохранение заголовка страницы...', ///
-'LBL_RETRIEVING_PAGE' => 'Поиск страницы...', ///
 
 // Default out-of-box names for tabs
 'LBL_HOME_PAGE_1_NAME' => 'SuiteCRM', ///
-'LBL_HOME_PAGE_2_NAME' => 'Sales', ///
-'LBL_HOME_PAGE_3_NAME' => 'Support', ///
-'LBL_HOME_PAGE_6_NAME' => 'Marketing',
-'LBL_HOME_PAGE_4_NAME' => 'Tracker', ///
 
 
 'LBL_SEARCH' => 'Найти',
 'LBL_CLEAR' => 'Очистить',
 
 'LBL_BASIC_CHARTS' => 'Основные диаграммы',
-'LBL_REPORT_CHARTS' => 'Диаграммы отчётов', ///
 
-'LBL_MY_FAVORITE_REPORT_CHARTS' => 'My Favorite Reports', ///
-'LBL_GLOBAL_REPORT_CHARTS' => 'Global Team Reports', ///
-'LBL_MY_TEAM_REPORT_CHARTS' => 'My Team Reports', ///
-'LBL_MY_SAVED_REPORT_CHARTS' => 'My Saved Reports', ///
 
 'LBL_DASHLET_SEARCH' => 'Найти дашлет',
 
@@ -160,35 +141,9 @@ $mod_strings = array (
 'LBL_BUILD' => 'Сборка',
 
 
-'LBL_VIEWLICENSE_COM' => '<P>Эта программа является свободным программным обеспечением; вы можете распространять его и/или изменять его в соответствии с условиями лицензии <a href="LICENSE.txt" target="_blank" class="body"> GNU Affero General Public License версии 3</a>, которая была опубликована Фондом свободного программного обеспечения, включая дополнительные разрешения, изложенные в заголовке исходного кода.</P>', ///
-'LBL_ADD_TERM_COM' => '<P>The interactive user interfaces in modified source and object code versions of this program must display Appropriate Legal Notices, as required under Section 5 of the GNU Affero General Public License version 3. In accordance with Section 7(b) of the GNU Affero General Public License version 3, these Appropriate Legal Notices must retain the display of the &quot;Powered by SugarCRM&quot; logo. If the display of the logo is not reasonably feasible for technical reasons, the Appropriate Legal Notices must display the words &quot;Powered by SugarCRM&quot;.</P>', ///
 
 
-'LBL_SUGAR_COMMUNITY_EDITION' => 'Sugar Community Edition', ///
 
-'LBL_AND' => 'and', ///
-'LBL_ARE' => 'are', ///
-'LBL_TRADEMARKS' => 'trademarks', ///
-'LBL_OF' => 'of', ///
-'LBL_FOUNDERS' => 'Founders', ///
-'LBL_JOIN_SUGAR_COMMUNITY' => 'Присоединяйтесь к сообществу SuiteCRM!', ///
-'LBL_DETAILS_SUGARFORGE' => 'Создавайте собственные дополнения к SuiteCRM.', ///
-'LBL_DETAILS_SUGAREXCHANGE' => 'Покупайте и продавайте сертифицированные дополнения к SuiteCRM.', ///
-'LBL_TRAINING' => 'Обучение', ///
-'LBL_DETAILS_TRAINING' => 'Узнайте больше об использовании SuiteCRM в режиме онлайн и об интерактивных обучающих материалах.', ///
-'LBL_FORUMS' => 'Форумы', ///
-'LBL_DETAILS_FORUMS' => 'Обсуждайте систему с пользователями и разработчиками SuiteCRM.', ///
-'LBL_WIKI' => 'Wiki', ///
-'LBL_DETAILS_WIKI' => 'Используйте базу знаний для поиска интересующей вас информации.', ///
-'LBL_DEVSITE' => 'Сайт разработчика', ///
-'LBL_DETAILS_DEVSITE' => 'Пользуйтесь публикуемыми материалами и полезными ссылками, чтобы быть в курсе последних разработок SuiteCRM.', ///
-'LBL_GET_SUGARCRM_RSS' => 'Подписка на RSS:', ///
-'LBL_SUGARCRM_NEWS' => 'Новости SuiteCRM', ///
-'LBL_SUGARCRM_TRAINING_NEWS' => 'SugarCRM Training News', ///
-'LBL_SUGARCRM_FORUMS' => 'Форумы SuiteCRM', ///
-'LBL_SUGARFORGE_NEWS' => 'Новости SuiteForge', ///
-'LBL_ALL_NEWS' => 'Все новости', ///
-'LBL_SOURCE_CODE' => 'Source Code', /// ->
 'LBL_SOURCE_SUGAR' => 'Sugar - The world\'s most popular sales force automation application created by SugarCRM Inc.',
 'LBL_SOURCE_XTEMPLATE' => 'XTemplate - A template engine for PHP created by BarnabГЎs Debreceni',
 'LBL_SOURCE_NUSOAP' => 'NuSOAP - A set of PHP classes that allow developers to create and consume web services created by NuSphere Corporation and Dietrich Ayala',
@@ -292,9 +247,7 @@ $mod_strings = array (
 'LBL_LANGUAGE_COMMUNITY_ABOUT' => 'Актуальная версия русификации в виде языкового пакета RAPIRA доступна на сайте GitHub (<a href="https://github.com/likhobory/SuiteCRM7RU" target="_blank">https://github.com/likhobory/SuiteCRM7RU</a>)',
 'LBL_LANGUAGE_COMMUNITY_PACKS' => 'Альтернативный перевод на русский язык, осуществляющийся всеми желающими на основе языковых файлов RAPIRA, доступен на сайте Crowdin',
 
-'LBL_ABOUT_SUITE_1' => 'SuiteCRM  - бесплатный форк SugarCRM. Вы можете найти множество материалов в интернете, поясняющих необходимость появления данного проекта',
 'LBL_ABOUT_SUITE_2' => 'SuiteCRM распространяется под лицензией GPL3',
-'LBL_ABOUT_SUITE_3' => 'SuiteCRM полностью совместим с SugarCRM 6.5.x',
 'LBL_ABOUT_SUITE_4' => 'Весь исходный код проекта SuiteCRM является открытым и публикуется под лицензией GPL3',
 'LBL_ABOUT_SUITE_5' => 'Поддержка SuiteCRM осуществляется как на бесплатной, так и на платной основе',
 

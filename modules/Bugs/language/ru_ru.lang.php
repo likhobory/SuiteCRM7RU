@@ -99,13 +99,6 @@ $mod_strings = array (
 'LBL_BUG_INFORMATION' => 'Основная информация',
 
 //For export labels
-'LBL_FOUND_IN_RELEASE_NAME' => 'Обнаружено в версии', ///
-'LBL_PORTAL_VIEWABLE' => 'Portal Viewable', ///
-'LBL_EXPORT_ASSIGNED_USER_NAME' => 'Ответственный(ая)', ///
-'LBL_EXPORT_ASSIGNED_USER_ID' => 'Ответственный(ая)-ID', ///
-'LBL_EXPORT_FIXED_IN_RELEASE_NAMR' => 'Исправлено в версии', ///
-'LBL_EXPORT_MODIFIED_USER_ID' => 'Изменено(ID)', ///
-'LBL_EXPORT_CREATED_BY' => 'Создано (ID)', ///
 
 
 );

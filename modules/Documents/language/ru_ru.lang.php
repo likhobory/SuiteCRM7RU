@@ -146,18 +146,13 @@ $mod_strings = array (
 
 'LBL_LIST_IS_TEMPLATE'=> 'Шаблон? :' ,
 'LBL_LIST_TEMPLATE_TYPE'=> 'Тип документа' ,
-'LBL_LIST_SELECTED_REVISION'=> 'Выбранная версия' , ///
-'LBL_LIST_LATEST_REVISION'=> 'Последняя версия'  , ///
-'LBL_CONTRACTS_SUBPANEL_TITLE'=> 'Связанные договоры', ///
 'LBL_LAST_REV_CREATE_DATE'=> 'Дата создания последней версии',
 //'LNK_DOCUMENT_CAT'=>'Document Categories',
 'LBL_CONTRACTS' => 'Договоры',
 'LBL_CREATED_USER' => 'Создано',
-'LBL_THEREVISIONS_SUBPANEL_TITLE' => 'Возвраты', ///
 'LBL_DOCUMENT_INFORMATION' => 'Основная информация',
 'LBL_DOC_ID' => 'Источник документа (ID)',
 'LBL_DOC_TYPE' => 'Источник',
-'LBL_LIST_DOC_TYPE' => 'Источник', ///
 'LBL_DOC_TYPE_POPUP' => 'Укажите адрес, с которого будет доступен данный документ.',
 'LBL_DOC_URL' => 'Источник документа (URL)',
 'LBL_SEARCH_EXTERNAL_DOCUMENT' => 'Имя файла',
@@ -173,8 +168,6 @@ $mod_strings = array (
 'LBL_OPPORTUNITIES_SUBPANEL_TITLE' => 'Сделки',
 'LBL_CASES_SUBPANEL_TITLE' => 'Обращения',
 'LBL_BUGS_SUBPANEL_TITLE' => 'Ошибки',
-'LBL_QUOTES_SUBPANEL_TITLE' => 'Quotes', ///
-'LBL_PRODUCTS_SUBPANEL_TITLE' => 'Products', ///
 'LBL_AOS_CONTRACTS' => 'Договоры',
 );
 

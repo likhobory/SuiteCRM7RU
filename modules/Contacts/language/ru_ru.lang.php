@@ -129,11 +129,9 @@ $mod_strings = array (
 'LBL_OTHER_EMAIL_ADDRESS' => 'Другой E-mail:' ,
 'LBL_OTHER_PHONE' => 'Другой тел.:' ,
 'LBL_PHONE' => 'Тел.:' ,
-'LBL_PORTAL_ACTIVE' => 'Портал включён:' , ///
 'LBL_PORTAL_APP'=> 'Портальные приложения' ,
 'LBL_PORTAL_INFORMATION' => 'Портальная информация' ,
 'LBL_PORTAL_NAME' => 'Название портала:' ,
-'LBL_PORTAL_PASSWORD_ISSET' => 'Портальный пароль установлен:' , ///
 'LBL_STREET' => 'Улица',
 'LBL_POSTAL_CODE' => 'Индекс:' ,
 'LBL_PRIMARY_ADDRESS_CITY' => 'Основной адрес - город:' ,
@@ -171,10 +169,6 @@ $mod_strings = array (
 'LNK_NEW_OPPORTUNITY' => 'Создать сделку' ,
 'LNK_NEW_TASK' => 'Создать задачу' ,
 'LNK_SELECT_ACCOUNT' => 'Выбор контрагента' ,
-'MSG_DUPLICATE' => 'Создаваемый вами контакт, возможно, дублирует уже имеющуюся запись. Контакты, содержащие схожие имена показаны ниже. <br>Нажмите на кнопку <b>Создать контакт</b> для создания новой записи или выберите существующую запись из списка.' ,
-'MSG_SHOW_DUPLICATES' => 'Создаваемый вами контакт, возможно, дублирует уже имеющуюся запись. Контакты, содержащие схожие имена показаны ниже. Нажмите кнопку "Сохранить" для продолжения создания нового контакта или кнопку "Отказаться" для возврата в модуль.',
-'NTC_COPY_ALTERNATE_ADDRESS' => 'Копировать дополнительный адрес в основной' , ///
-'NTC_COPY_PRIMARY_ADDRESS' => 'Копировать основной адрес в дополнительный' , ///
 'NTC_DELETE_CONFIRMATION' => 'Вы уверены, что хотите удалить эту запись?' ,
 'NTC_OPPORTUNITY_REQUIRES_ACCOUNT' => 'Создание сделки требует контрагента.\n Пожалуйста, или создайте нового контрагента или выберите из уже существующих.' ,
 'NTC_REMOVE_CONFIRMATION' => 'Вы уверены, что хотите удалить этот контакт из данного обращения?' ,
@@ -208,25 +202,12 @@ $mod_strings = array (
 'LBL_PROJECT_CONTACTS_1_FROM_PROJECT_TITLE' => 'Контакты проекта',
 
 //For export labels ///
-'LBL_PHONE_HOME' => 'Тел. (дом.)', ///
-'LBL_PHONE_MOBILE' => 'Тел. (моб.)', ///
-'LBL_PHONE_WORK' => 'Тел. (раб.)', ///
-'LBL_PHONE_OTHER' => 'Другой тел.', ///
-'LBL_PHONE_FAX' => 'Факс',
 
 
-'LBL_EXPORT_ASSIGNED_USER_NAME' => 'Ответственный(ая)', ///
-'LBL_EXPORT_ASSIGNED_USER_ID' => 'Ответственный(ая)-ID', ///
-'LBL_EXPORT_MODIFIED_USER_ID' => 'Изменено(ID)', ///
-'LBL_EXPORT_CREATED_BY' => 'Создано (ID)', ///
-'LBL_EXPORT_PHONE_HOME' => 'Тел. (дом.)', ///
-'LBL_EXPORT_PHONE_MOBILE' => 'Тел. (моб.)', ///
 // SNIP
-'LBL_CONTACT_HISTORY_SUBPANEL_TITLE' => 'Related Contacts\' Emails', ///
 'LBL_USER_SYNC' => 'User Sync',
 
 'LBL_FP_EVENTS_CONTACTS_FROM_FP_EVENTS_TITLE' => 'События',
-'LBL_FP_EVENT_DELEGATES_CONTACTS_1_FROM_FP_EVENT_DELEGATES_TITLE' => 'Участники', ///
 
 'LBL_AOP_CASE_UPDATES' => 'Обновления обращения',
 'LBL_CREATE_PORTAL_USER' => 'Создать пользователя портала',

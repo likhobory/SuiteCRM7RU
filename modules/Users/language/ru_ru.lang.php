@@ -32,7 +32,6 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
 $mod_strings = array (
 'LBL_DELETE_USER_CONFIRM'           => 'При удалении данных Пользователя будет удалена и соответствующая запись из списка Сотрудников.<br/><br/>Нажмите кнопку "OK" для удаления данных Пользователя.',
 'LBL_DELETE_GROUP_CONFIRM'          => 'Вы действительно хотите удалить данного группового пользователя? Нажмите на кнопку <b>ОК</b> для удаления пользователя из системы<br/>После удаления у вас будет возможность переназначить ответственных для записей, принадлежащих удалённому групповому пользователю.',
-'LBL_DELETE_PORTAL_CONFIRM'         => 'Are you sure you want to delete this Portal API User? Click OK to delete the User record.', ///
 
 'LNK_IMPORT_USERS'                 => 'Импорт пользователей',
 'ERR_DELETE_RECORD'=> 'Перед удалением профиля должен быть указан номер записи.' ,
@@ -45,7 +44,6 @@ $mod_strings = array (
 'ERR_IE_FAILURE2'=> 'Не удалось соединиться с учётной записью электронной почты. Пожалуйста, проверьте ваши настройки и попробуйте ещё раз.' ,
 'ERR_IE_MISSING_REQUIRED'=> 'В настройках входящей электронной почты отсутствует необходимая информация.\n Пожалуйста, проверьте ваши настройки и попробуйте ещё раз.\n\nЕсли вы не настроили входящую почту - очистите все поля.',
 'ERR_INVALID_PASSWORD'=> 'Вы должны указать правильные логин и пароль.' ,
-'ERR_NO_LOGIN_MOBILE'=> 'Перед тем как использовать мобильную версию, вы должны первый раз войти в систему, используя обычный веб-браузер или же воспользоваться обычным режимом. Пожалуйста, используйте полноценный веб-браузер или нажмите на ссылку ниже для перехода в обычный режим. Приносим свои извинения за доставленные неудобства.', ///
 'ERR_LAST_ADMIN_1'=> 'Имя пользователя "' ,
 'ERR_LAST_ADMIN_2'=> '\" последний пользователь с правами администратора. По меньшей мере один пользователь должен быть администратором.' ,
 'ERR_PASSWORD_CHANGE_FAILED_1'=> 'Изменение пароля пользователя прошло неудачно для ' ,
@@ -55,7 +53,6 @@ $mod_strings = array (
 'ERR_PASSWORD_INCORRECT_OLD_2'=> '. Повторите ввод паролей' ,
 'ERR_PASSWORD_MISMATCH'=> 'Пароли не совпадают' ,
 'ERR_PASSWORD_USERNAME_MISSMATCH'   => 'Вы должны указать правильные имя пользователя и E-mail',
-'ERR_PASSWORD_LINK_EXPIRED'         => 'Ваша ссылка устарела, пожалуйста, создайте новую', ///
 'ERR_REENTER_PASSWORDS'=> 'Новый пароль и подтверждение пароля не совпадают.' ,
 'ERR_REPORT_LOOP'=> 'Пользователь не может отчитываться ни перед самим собой, ни перед кем из менеджеров.' ,
 'ERR_RULES_NOT_MET'                 => 'Введённый вами пароль не отвечает требованиям, предъявляемым при его создании. Попробуйте ввести другой пароль.',
@@ -163,7 +160,6 @@ $mod_strings = array (
 'LBL_FAX_PHONE'=> 'Факс' ,
 'LBL_FAX'=> 'Факс' ,
 'LBL_FIRST_NAME'=> 'Имя' ,
-'LBL_GENERATE_PASSWORD_BUTTON_KEY'  => 'G', ///
 'LBL_SYSTEM_GENERATED_PASSWORD'     => 'Автоматически сгенерированный пароль',
 'LBL_GENERATE_PASSWORD_BUTTON_LABEL'   => 'Сменить пароль',
 'LBL_GENERATE_PASSWORD_BUTTON_TITLE'   => 'Сменить пароль',
@@ -177,7 +173,6 @@ $mod_strings = array (
 'LBL_IS_ADMIN'=> 'Администратор' ,
 'LBL_LANGUAGE'=> 'Язык:' ,
 'LBL_LAST_NAME'=> 'Фамилия' ,
-'LBL_LAST_NAME_SLASH_NAME'=> 'Фамилия/Имя', ///
 'LBL_LAYOUT_OPTIONS'                => 'Параметры макета',
 'LBL_LDAP'=> 'LDAP',
 'LBL_LDAP_AUTHENTICATION'=> 'LDAP-аутентификация',
@@ -205,20 +200,11 @@ $mod_strings = array (
 'LBL_LOCALE_NAME_FORMAT_DESC_2'=> '<i>"s" Приветствие<br>"f" Имя<br>"l" Фамилия</i>',
 'LBL_SAVED_SEARCH'                  => 'Отображение результатов поиска / управление сохранёнными условиями поиска',
 // LOGIN PAGE STRINGS
-'LBL_LOGIN_BUTTON_KEY'=> 'L' , ///
 'LBL_LOGIN_BUTTON_LABEL'=> 'Вход' ,
 'LBL_LOGIN_BUTTON_TITLE'=> 'Авторизоваться в системе' ,
-'LBL_LOGIN_WELCOME_TO'=> 'Добро пожаловать в', ///
 'LBL_LOGIN_OPTIONS'=> 'Параметры',
 'LBL_LOGIN_FORGOT_PASSWORD'         => 'Забыли пароль?',
 'LBL_LOGIN_SUBMIT'          => 'Отправить E-mail',
-'LBL_LOGIN_ATTEMPTS_OVERRUN'        => 'Слишком много безуспешных попыток входа в систему.', ///
-'LBL_LOGIN_LOGIN_TIME_ALLOWED'      => 'Вы можете попытаться снова войти в систему через ', ///
-'LBL_LOGIN_LOGIN_TIME_DAYS'     => ' дней.', ///
-'LBL_LOGIN_LOGIN_TIME_HOURS'    => ' час.', ///
-'LBL_LOGIN_LOGIN_TIME_MINUTES'      => ' мин.', ///
-'LBL_LOGIN_LOGIN_TIME_SECONDS'      => ' сек.', ///
-'LBL_LOGIN_ADMIN_CALL'              => 'Обратитесь к системному администратору.', ///
 // END LOGIN PAGE STRINGS
 'LBL_LOGGED_OUT_1' => 'Вы автоматически вышли из системы. Для повторного входа нажмите ',
 'LBL_LOGGED_OUT_2' => 'здесь',
@@ -231,10 +217,6 @@ $mod_strings = array (
 'LBL_MAIL_SMTPPORT'=> 'SMTP-порт:' ,
 'LBL_MAILMERGE_TEXT'=> 'Включить слияние (этот параметр так же должен быть установлен администратором в настройках конфигурации).' ,
 'LBL_MAILMERGE'=> 'Слияние' ,
-'LBL_MAX_TAB'=> 'Количество отображаемых закладок' , ///
-'LBL_MAX_TAB_DESCRIPTION'           => 'Максимальное количество закладок, отображаемых в верхней части окна. Число отображаемых закладок зависит от разрешения экрана. Если суммарное количество закладок превышает указанное здесь значение, то оставшиеся закладки отображаются при нажатии на значок <b>>></b>, расположенном в правой части панели навигации.', ///
-'LBL_MAX_SUBTAB'                    => 'Количество субпанелей', ///
-'LBL_MAX_SUBTAB_DESCRIPTION'        => 'Количество субпанелей, отображаемых на каждой закладке.', ///
 'LBL_MESSENGER_ID'=> 'IM - имя / E-mail' ,
 'LBL_MESSENGER_TYPE'=> 'IM-тип' ,
 'LBL_MOBILE_PHONE'=> 'Тел. (моб.)' ,
@@ -245,8 +227,6 @@ $mod_strings = array (
 'LBL_MODULE_TITLE'=> 'Сотрудники - ГЛАВНАЯ' ,
 'LBL_NAME'=> 'Полное имя' ,
 'LBL_SIGNATURE_NAME'                                        => 'Название',
-'LBL_NAVIGATION_PARADIGM'           => 'Навигация',
-'LBL_NAVIGATION_PARADIGM_DESCRIPTION'   => 'Группировать несколько модулей на закладке. Если опция выключена, то каждый модуль будет отображаться в виде отдельной закладки.',
 'LBL_USE_GROUP_TABS'                => 'Сгруппированные модули',
 'LBL_NEW_FORM_TITLE'=> 'Новый пользователь' ,
 'LBL_NEW_PASSWORD'=> 'Новый пароль:' ,
@@ -255,10 +235,6 @@ $mod_strings = array (
 'LBL_NEW_USER_PASSWORD_1'=> 'Пароль был успешно изменён.',
 'LBL_NEW_USER_PASSWORD_2'=> 'Письмо, содержащее автоматически сгенерированный пароль, было отправлено новому пользователю.',
 'LBL_NEW_USER_PASSWORD_3'=> 'Пароль успешно создан.', ///
-'LBL_NEW_USER_BUTTON_KEY'=> 'N' , ///
-'LBL_NEW_USER_BUTTON_LABEL'=> 'Новый пользователь' , ///
-'LBL_NEW_USER_BUTTON_TITLE'=> 'Новый пользователь' , ///
-'LBL_NORMAL_LOGIN'=> 'Переключитесь в режим обычного просмотра', ///
 'LBL_NOTES'=> 'Заметки' ,
 'LBL_OFFICE_PHONE'=> 'Тел. (раб.)' ,
 'LBL_OLD_PASSWORD'=> 'Текущий пароль:' ,
@@ -266,7 +242,6 @@ $mod_strings = array (
 'LBL_OTHER_PHONE'=> 'Другой тел.' ,
 'LBL_OTHER'=> 'Другое' ,
 'LBL_PASSWORD'=> 'Пароль' ,
-'LBL_PASSWORD_GENERATED'            => 'Новый пароль сгенерирован', ///
 'LBL_PASSWORD_EXPIRATION_LOGIN'     => 'Срок действия пароля истёк. Укажите новый пароль.',
 'LBL_PASSWORD_EXPIRATION_GENERATED' => 'Ваш пароль создан автоматически',
 'LBL_PASSWORD_EXPIRATION_TIME'      => 'Срок действия пароля истёк. Укажите новый пароль.',
@@ -296,7 +271,6 @@ $mod_strings = array (
 
 'LBL_RECEIVE_NOTIFICATIONS_TEXT'=> 'Пользователь получает уведомление по E-mail при назначении ему записи другим пользователем.' ,
 'LBL_RECEIVE_NOTIFICATIONS'=> 'Уведомление о назначении' ,
-'LBL_REGISTER'                      => 'Новый пользователь? Пожалуйста, зарегистрируйтесь', ///
 'LBL_REGULAR_USER'                  => 'Обычный пользователь',
 'LBL_REMINDER_TEXT'=> 'Временной интервал по умолчанию для напоминания о предстоящем телефонном разговоре или встрече. Напоминания в виде всплывающих окон появляются у всех приглашённых пользователей SuiteCRM. Напоминания по электронной почте отправляются ВСЕМ приглашённым.' ,
 'LBL_REMINDER'=> 'Напоминание о мероприятии' ,
@@ -314,12 +288,10 @@ $mod_strings = array (
     'LBL_REMINDERS_ADD_ALL_INVITEES' => 'Добавить ВСЕХ приглашённых',
     'LBL_REMINDERS_ADD_REMINDER' => 'Добавить напоминание',
 	
-'LBL_REMOVED_TABS'=> 'Закладки, доступные только администратору' , ///
 'LBL_REPORTS_TO_NAME'=> 'Руководитель',
 'LBL_REPORTS_TO'=> 'Руководитель',
 'LBL_REPORTS_TO_ID'                => 'Руководитель (ID):',
 'LBL_REQUEST_SUBMIT'=> 'Письмо отправлено',
-'LBL_RESET_TO_DEFAULT'=> 'Сброс в стандартные значения', ///
 'LBL_RESET_PREFERENCES'=> 'Установить стандартные значения' ,
 'LBL_RESET_PREFERENCES_WARNING'     => 'Вы действительно хотите сбросить все ваши настройки?',
 'LBL_RESET_PREFERENCES_WARNING_USER' => 'Вы действительно хотите сбросить все настройки данного пользователя?',
@@ -338,13 +310,9 @@ $mod_strings = array (
 'LBL_SETTINGS_URL'=> 'URL' ,
 'LBL_SIGNATURE'=> 'Подпись' ,
 'LBL_SIGNATURE_HTML'=> 'HTML-подпись' ,
-'LBL_SIGNATURE_DEFAULT'=> 'Использовать подпись?' , ///
-'LBL_SIGNATURE_PREPEND'=> 'Подпись перед ответом?' ,
-'LBL_SIGNATURES'=> 'Подписи:' , ///
+'LBL_SIGNATURE_PREPEND'=> 'Подпись перед ответом' ,
 'LBL_STATE'=> 'Область' ,
 'LBL_STATUS'=> 'Статус пользователя' ,
-'LBL_SUBPANEL_LINKS'                => 'Субпанели', ///
-'LBL_SUBPANEL_LINKS_DESCRIPTION'    => 'Отображать субпанели в Форме просмотра.', ///
 'LBL_SUBPANEL_TABS'                 => 'Группировать закладки субпанелей',
 'LBL_SUBPANEL_TABS_DESCRIPTION'     => 'В Форме просмотра группировать субпанели на закладках.',
 'LBL_SUGAR_LOGIN'=> 'Пользователь SuiteCRM',
@@ -356,12 +324,8 @@ $mod_strings = array (
 'LBL_TAB_TITLE_EMAIL'=> 'Массовые рассылки' , ///
 'LBL_TAB_TITLE_USER'=> 'Пользовательские настройки' , ///
 'LBL_THEME'=> 'Темы' ,
-'LBL_THEME_COLOR'=> 'Цвет', ///
-'LBL_THEME_FONT'=> 'Шрифт', ///
 'LBL_TIME_FORMAT_TEXT'=> 'Установите формат отображения времени' ,
 'LBL_TIME_FORMAT'=> 'Формат времени' ,
-'LBL_TIMEZONE_DST_TEXT'=> 'Соблюдение летнего времени' , ///
-'LBL_TIMEZONE_DST'=> 'Летнее время:' , ///
 'LBL_TIMEZONE_TEXT'=> 'Установите часовой пояс' ,
 'LBL_TIMEZONE'=> 'Часовой пояс' ,
 'LBL_TITLE'=> 'Должность' ,
@@ -379,12 +343,9 @@ $mod_strings = array (
     'LBL_ICAL_PUB_URL'                  => 'Адрес интеграции с iCal',
     'LBL_ICAL_PUB_URL_HELP'             => 'Используйте этот адрес для подписки на календарь SuiteCRM в рамках iCal.',
 
-'LBL_YOUR_QUERY_URL'=> 'Запрашиваемый Вами URL:' , ///
 'LNK_NEW_USER'=> 'Создать нового пользователя' ,
-'LNK_NEW_PORTAL_USER'=> 'Create Portal API User', ///
 'LNK_NEW_GROUP_USER'=> 'Создать группового пользователя',
 'LNK_USER_LIST'=> 'Пользователи' ,
-'LNK_REASSIGN_RECORDS'=> 'Переназначить записи', ///
 'LBL_PROSPECT_LIST'                 => 'Список адресатов',
 'LBL_EMAILS'                        => 'E-mail',
 'LBL_PROCESSING'                    => 'Выполняется..',
@@ -395,10 +356,8 @@ $mod_strings = array (
 'LBL_SESSION_EXPIRED'               => 'Ваш сеанс закончился, необходимо заново войти в систему.',
 
 // INBOUND EMAIL STRINGS
-'LBL_APPLY_OPTIMUMS'=> 'Применить оптимальные настройки' , ///
 'LBL_ASSIGN_TO_USER'=> 'Назначить пользователю' ,
 'LBL_BASIC'=> 'Настройки входящей почты' ,
-'LBL_CERT_DESC'=> 'Включить проверку почтовых сертификатов сервера - не использовать, если используется автоподписка.' , ///
 'LBL_CERT'=> 'Проверка сертификата' , ///
 'LBL_FIND_OPTIMUM_KEY'=> 'f' , ///
 'LBL_FIND_OPTIMUM_MSG'=> 'Найти оптимальные параметры соединения.' , ///
@@ -410,44 +369,28 @@ $mod_strings = array (
 'LBL_EMAIL_OUTBOUND_TITLE'=> 'Параметры исходящей почты' , ///
 'LBL_LOGIN'=> 'Логин' ,
 'LBL_MAILBOX_DEFAULT'=> 'ВХОДЯЩИЕ' ,
-'LBL_MAILBOX_SSL_DESC'=> 'Использовать SSL при соединении. Если SSL не работает, то проверьте наличие параметра "--with-imap-ssl" при конфигурировании исходных текстов PHP.' , ///
 'LBL_MAILBOX'=> 'Контролируемая папка' ,
 'LBL_MAILBOX_TYPE'=> 'Возможные действия' ,
 'LBL_MARK_READ_NO'=> 'E-mail помечаются удалёнными после импортирования' ,
 'LBL_MARK_READ_YES'=> 'Оставлять E-mail на сервере при импорте' ,
-'LBL_MARK_READ_DESC'=> 'Импортировать сообщения и помечать их на сервере как прочитанные; не удалять сообщения на сервере.' , ///
 'LBL_MARK_READ'=> 'Оставлять сообщения на сервере' ,
-'LBL_ONLY_SINCE_NO'=> 'Нет. Помечать все письма на сервере.' ,
-'LBL_ONLY_SINCE_YES'=> 'Да' ,
-'LBL_ONLY_SINCE_DESC'=> 'PHP не может отличить НОВЫЕ сообщения от НЕПРОЧИТАННЫХ, когда используется POP3. Оставьте эту опцию отмеченной. Это значительно увеличит производительность системы, если ваш сервер не поддерживает IMAP.' , ///
-'LBL_ONLY_SINCE'=> 'Импортировать только новые (с момента последней проверки)' ,
 'LBL_PORT'=> 'Порт почтового сервера' ,
 'LBL_SERVER_OPTIONS'=> 'Опции почтового сервера' ,
 'LBL_SERVER_TYPE'=> 'Протокол почтового сервера' ,
 'LBL_SERVER_URL'=> 'Адрес почтового сервера' ,
 'LBL_SSL'=> 'Использовать SSL' ,
 'LBL_SSL_DESC'=> 'Использовать SSL' ,
-'LBL_TEST_BUTTON_KEY'=> 't' , ///
 'LBL_TEST_BUTTON_TITLE'=> 'Тестирование' ,
 'LBL_TEST_SETTINGS'=> 'Тест настроек' ,
 'LBL_TEST_SUCCESSFUL'=> 'Соединение успешно завершено' ,
-'LBL_TLS_DESC'=> 'Использование TLS при соединении с почтовым сервером - используйте этот параметр только в случае поддержки данного протокола почтовым сервером.' , ///
-'LBL_TLS'=> 'Использовать TLS' , ///
 'LBL_TOGGLE_ADV'=> 'Дополнительные настройки' ,
-'LBL_OWN_OPPS'                      => 'Нет сделок', ///
-'LBL_EXTERNAL_AUTH_ONLY'=> 'Authenticate this user only through',
-'LBL_ONLY'=> 'Only', ///
-'LBL_OWN_OPPS_DESC'                 => 'Отметьте эту опцию, если пользователю не назначено сделок. Используйте эту опцию для пользователей, являющихся менеджерами и не участвующих в продажах. Используется в модуле "Прогнозы".', ///
 // END INBOUND EMAIL STRINGS
-'LBL_LDAP_ERROR' => 'Ошибка LDAP. Пожалуйста, свяжитесь с администратором', ///
 'LBL_LDAP_EXTENSION_ERROR' => 'Ошибка LDAP. Расширения не загружены',
 
 // PROJECT RESOURCES STRINGS
-'LBL_USER_HOLIDAY_SUBPANEL_TITLE' => 'Праздники', ///
 'LBL_RESOURCE_NAME' => 'Название',
 'LBL_RESOURCE_TYPE' => 'Тип',
 
-'LBL_PDF_SETTINGS'  => 'PDF Settings', ///->
 'LBL_PDF_PAGE_FORMAT'  => 'Page Format',
 'LBL_PDF_PAGE_FORMAT_TEXT'  => 'The format used for pages',
 'LBL_PDF_PAGE_ORIENTATION'  => 'Page Orientation',
@@ -515,26 +458,6 @@ $mod_strings = array (
 <tr><td colspan=2><hr style="margin: 5px 0px;"></td></tr>
 </table>',
 
-'LBL_WIZARD_FINISH1' => 'С чего начнём?',
-'LBL_WIZARD_FINISH2' => 'Начало работы в системе',
-'LBL_WIZARD_FINISH3' => 'Импортирование данных',
-'LBL_WIZARD_FINISH4' => 'Импортирование данных из внешних источников',
-'LBL_WIZARD_FINISH5' => 'Создание пользователей',
-'LBL_WIZARD_FINISH6' => 'Создание в системе новых учётных записей',
-'LBL_WIZARD_FINISH7' => 'Просмотр и настройка параметров системы',
-'LBL_WIZARD_FINISH8' => 'Управление стандартными и дополнительными параметрами системы',
-'LBL_WIZARD_FINISH9' => 'Настройка внешнего вида системы',
-'LBL_WIZARD_FINISH10' => 'Настройка макетов страниц, полей, меток и комбобоксов при помощи Студии',
-'LBL_WIZARD_FINISH11' => 'Поддержка и документация',
-'LBL_WIZARD_FINISH12' => 'Доступ к англоязычному форуму.<br> Для русскоязычных пользователей доступно подробное <a href="https://github.com/likhobory/SuiteCRM7RU" target="_blank">Руководство пользователя и администратора SuiteCRM</a>.',
-'LBL_WIZARD_FINISH14' => 'Просмотр документации ',
-'LBL_WIZARD_FINISH15' => 'Англоязычное руководство пользователя и примечания к текущему релизу. Для русскоязычных пользователей доступно более подробное <a href="https://github.com/likhobory/SuiteCRM7RU" target="_blank">Руководство пользователя и администратора SuiteCRM</a>.',
-'LBL_WIZARD_FINISH16' => 'Просмотр базы знаний', ///
-'LBL_WIZARD_FINISH17' => 'Советы от службы технической поддержки', ///
-'LBL_WIZARD_FINISH18' => 'Форум',
-'LBL_WIZARD_FINISH19' => 'Англоязычный форум.',
-'LBL_WIZARD_FINISH2DESC' => 'Переход на ГЛАВНУЮ страницу системы.',
-'LBL_WIZARD_PERSONALINFO' => 'Информация о сотруднике',
 'LBL_WIZARD_LOCALE' => 'Региональные стандарты',
 
 //Wizard Scenarios
@@ -546,7 +469,6 @@ $mod_strings = array (
 	
 
 'LBL_WIZARD_SMTP' => 'Параметры сервера исходящей почты',
-'LBL_WIZARD_PERSONALINFO_DESC' => 'Введите контактную информацию. Эта информация будет доступна другим пользователям системы. Поля, помеченные значком <span class="required">*</span>, обязательны для заполнения.',
 
 'LBL_WIZARD_SMTP_DESC' => 'Укажите параметры сервера исходящей почты.',
 'LBL_EAPM_SUBPANEL_TITLE' => 'Внешние учётные записи',
@@ -554,22 +476,12 @@ $mod_strings = array (
 'LBL_EDITLAYOUT' => 'Изменить макет' /*for 508 compliance fix*/,
 'LBL_HELP' => 'Справка' /*for 508 compliance fix*/,
 'LBL_CHECKMARK' => 'Checkmark', /// /*for 508 compliance fix*/,
-'LBL_THEMEPREVIEW' => 'Preview', /// /*for 508 compliance fix*/,
 
 'LBL_OAUTH_TOKENS' => 'OAuth-токены',
-'LBL_OAUTH_TOKENS_SUBPANEL_TITLE' => 'OAuth-токены доступа', ///
 
 //For export labels ///
-'LBL_MODIFIED_USER_ID' => 'Ответственный(ая)-ID',
-'LBL_PHONE_HOME' => 'Тел. (дом.)', ///
-'LBL_PHONE_MOBILE' => 'Тел. (моб.)', ///
-'LBL_PHONE_WORK' => 'Тел. (раб.)', ///
-'LBL_PHONE_OTHER' => 'Другой тел.', ///
-'LBL_PHONE_FAX' => 'Факс',
 'LBL_PORTAL_ONLY' => 'Portal Only', ///
 'LBL_SHOW_ON_EMPLOYEES' => 'Отображать в списке сотрудников',
-'LBL_IS_GROUP' => 'Is Group', ///
-'LBL_EXPORT_CREATED_BY' => 'Создано (ID)', ///
 
 'LBL_DATE_MODIFIED' => 'Дата изменения',
 'LBL_DATE_ENTERED' => 'Дата создания',

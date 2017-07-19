@@ -63,7 +63,6 @@ $mod_strings = array (
 'LBL_TIME' => 'Время:' ,
 'LBL_HOURS_ABBREV' => 'час.' ,
 'LBL_MINSS_ABBREV' => 'мин.' ,
-'LBL_COLON' => ':' , ///
 'LNK_NEW_CALL' => 'Назначить звонок' ,
 'LNK_NEW_MEETING' => 'Назначить встречу' ,
 'LNK_CALL_LIST' => 'Звонки' ,
@@ -87,7 +86,6 @@ $mod_strings = array (
 'LBL_EMAIL_REMINDER' => 'Напоминание при помощи E-mail',
 'LBL_EMAIL_REMINDER_TIME' => 'Время напоминания по E-mail',
 'LBL_SEND_BUTTON_TITLE'=> 'Сохранить и отправить приглашения' ,
-'LBL_SEND_BUTTON_KEY'=> 'I' , ///
 'LBL_SEND_BUTTON_LABEL'=> 'Сохранить и отправить приглашения' ,
 'LBL_DATE_END'=> 'Дата окончания' ,
 'LBL_TIME_END'=> 'Время окончания' ,
@@ -119,13 +117,6 @@ $mod_strings = array (
 'LBL_ACCEPT_STATUS' => 'Статус приглашения',
 'LBL_ACCEPT_LINK' => 'Accept Link', ///
 //For export labels  ///
-'LBL_PARENT_ID' => 'ID родителя',
-'LBL_EXPORT_MODIFIED_USER_ID' => 'Изменено(ID)', ////
-'LBL_EXPORT_CREATED_BY' => 'Создано (ID)', ////
-'LBL_EXPORT_ASSIGNED_USER_ID' => 'Ответственный(ая)-ID', ////
-'LBL_EXPORT_DATE_START' => 'Дата и время начала', ////
-'LBL_EXPORT_PARENT_TYPE' => 'Относится к модулю', ////
-'LBL_EXPORT_REMINDER_TIME' => 'Напоминание (минуты)', ////
 
 // create invitee functionallity
 'LBL_CREATE_INVITEE' => 'Составить приглашение:',

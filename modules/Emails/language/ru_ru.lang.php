@@ -401,8 +401,13 @@ $mod_strings = array (
 'LBL_LIST_CATEGORY' => 'Категория',
 'LBL_EMAIL_TEMPLATE' => 'Шаблон E-mail',
 
-'LBL_CONFIRM_TITLE' => 'Применение шаблона',
-'LBL_CONFIRM_BODY' => 'Тема и содержимое письма будут заменены данными из шаблона. Продолжить?',
+'LBL_CONFIRM_DISREGARD_DRAFT_TITLE' => 'Удаление сообщения',
+'LBL_CONFIRM_DISREGARD_DRAFT_BODY' => 'Сообщение будет удалено, продолжить?',
+'LBL_EMAIL_DRAFT_DELETED' => 'Сообщение удалено',
+'LBL_EMAIL_DRAFT_ERROR_DELETING' => 'В процессе удаления сообщения произошла ошибка.',
+
+'LBL_CONFIRM_APPLY_EMAIL_TEMPLATE_TITLE' => 'Применение шаблона',
+'LBL_CONFIRM_APPLY_EMAIL_TEMPLATE_BODY' => 'Тема и содержимое письма будут заменены данными из шаблона. Продолжить?',
 
 'LBL_MAILBOX_ID' => 'ID почтовой папки',
 'LBL_PARENT_ID' => 'ID родителя',

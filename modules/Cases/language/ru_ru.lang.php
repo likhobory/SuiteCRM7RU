@@ -50,7 +50,6 @@ $mod_strings = array (
 'LBL_ATTACH_NOTE' => 'Прикрепить заметку',
 'LBL_BUGS_SUBPANEL_TITLE'=> 'Ошибки' ,
 'LBL_CASE_NUMBER'=> 'Номер обращения:' ,
-'LBL_CASE_SUBJECT'=> 'Тема примера:' , ///
 'LBL_CASE'=> 'Обращение:' ,
 'LBL_CONTACT_CASE_TITLE'=> 'Контакт обращения:' ,
 'LBL_CONTACT_NAME'=> 'Контактное лицо:' ,
@@ -73,7 +72,6 @@ $mod_strings = array (
 'LBL_SEARCH_FORM_TITLE'=> 'Поиск обращения' ,
 'LBL_STATUS'=> 'Статус:' ,
 'LBL_SUBJECT'=> 'Тема обращения:' ,
-'LBL_SYSTEM_ID'=> 'System ID' , ///
 'LBL_LIST_ASSIGNED_TO_NAME' => 'Ответственный(ая)',
 'LBL_LIST_ACCOUNT_NAME'=> 'Контрагент' ,
 'LBL_LIST_ASSIGNED'=> 'Ответственный(ая)' ,
@@ -104,31 +102,9 @@ $mod_strings = array (
 'LBL_CASE_INFORMATION' => 'Основная информация',
 
 //For export labels ///
-'LBL_MODIFIED_BY_NAME_OWNER' => 'Изменено', /// ->
-'LBL_MODIFIED_BY_NAME_MOD' => 'Modified By Name Mod',
-'LBL_CREATED_BY_NAME_OWNER' => 'Создано',
-'LBL_CREATED_BY_NAME_MOD' => 'Created By Name Mod',
-'LBL_ASSIGNED_USER_NAME_OWNER' => 'Ответственный(ая)',
-'LBL_ASSIGNED_USER_NAME_MOD' => 'Assigned User Name Mod',
-'LBL_TEAM_COUNT_OWNER' => 'Team Count Owner',
-'LBL_TEAM_COUNT_MOD' => 'Team Count Mod',
-'LBL_TEAM_NAME_OWNER' => 'Team Name Owner',
-'LBL_TEAM_NAME_MOD' => 'Team Name Mod',
-'LBL_ACCOUNT_NAME_OWNER' => 'Account Name Owner',
-'LBL_ACCOUNT_NAME_MOD' => 'Account Name Mod', /// <-
 'LBL_MODIFIED_USER_NAME' => 'Изменено',
-'LBL_MODIFIED_USER_NAME_OWNER' => 'Изменено', ///
-'LBL_MODIFIED_USER_NAME_MOD' => 'Modified User Name Mod', ///
-'LBL_PORTAL_VIEWABLE' => 'Portal Viewable', ///
-'LBL_EXPORT_ASSIGNED_USER_ID' => 'Ответственный(ая)-ID', ///
-'LBL_EXPORT_MODIFIED_USER_ID' => 'Изменено(ID)', ///
-'LBL_EXPORT_CREATED_BY' => 'Создано (ID)', ///
-'LBL_EXPORT_CREATED_BY_NAME' => 'Создано', ///
-'LBL_EXPORT_ASSIGNED_USER_NAME' => 'Ответственный(ая)', ///
-'LBL_EXPORT_TEAM_COUNT' => 'Team Count', ///
 
 // SNIP
-'LBL_CONTACT_HISTORY_SUBPANEL_TITLE' => 'Related Contacts\' Emails', ///
 
 
 'LBL_UPDATE_TEXT' => 'Текст обновления',

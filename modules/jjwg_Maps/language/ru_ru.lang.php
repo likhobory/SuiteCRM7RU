@@ -43,7 +43,6 @@ $mod_strings['LBL_MODULE_TYPE'] = 'Отображать на карте объе
 $mod_strings['LBL_DISTANCE'] = 'Отображать объекты, находящиеся в радиусе:';
 $mod_strings['LBL_UNIT_TYPE'] = 'Единицы измерения расстояния:';
 
-$mod_strings['LBL_MAP_ACTION'] = 'Map It'; ///
 $mod_strings['LBL_MAP_DISPLAY'] = 'Отобразить карту';
 $mod_strings['LBL_MAP_LEGEND'] = 'Условные обозначения:';
 $mod_strings['LBL_MAP_USERS'] = 'Пользователи:';
@@ -61,7 +60,6 @@ $mod_strings['LNK_IMPORT_MAPS'] = 'Импорт карт';
 $mod_strings['LBL_MAP_GEOCODE_ADDRESSES'] = 'Геокодировать адреса';
 $mod_strings['LBL_MAP_DONATE'] = 'Помочь проекту';
 $mod_strings['LBL_MAP_DONATE_TO_THIS_PROJECT'] = 'Помочь проекту';
-$mod_strings['LBL_BUG_FIX'] = 'Bug Fix'; ///
 
 $mod_strings['LBL_MAP_ADDRESS_TEST'] = 'Тест геокодирования';
 $mod_strings['LBL_MAP_QUICK_RADIUS'] = 'Отобразить объекты';

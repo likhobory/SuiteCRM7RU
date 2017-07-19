@@ -119,9 +119,6 @@ $mod_strings = array (
 'NEW_LOGO'=> 'Выбрать логотип' ,
 'NEW_LOGO_HELP'=> 'Допустимы следующие форматы изображений: PNG или JPG. Максимальная высота изображения - 170px, максимальная ширина - 450px. Любое загруженное изображение, размер которого будет превышать указанные значения, будет масштабировано до допустимых размеров.',
 'NEW_LOGO_HELP_NO_SPACE'=>'Логотип может быть в одном из следующих форматов: PNG или JPG. Максимально допустимый размер картинки: 170х450 пикселей. Если размер загружаемой картинки превышает указанные значения, то изображение будет соответствующим образом масштабировано. Название файла картинки не должно содержать пробелов.',
-'NEW_QUOTE_LOGO'=> 'Upload new Quotes logo', ///
-'NEW_QUOTE_LOGO_HELP'=> 'The required image file format is .jpg.<BR>The recommended size is 867x74 px.', ///
-'QUOTES_CURRENT_LOGO'=> 'Quotes logo', ///
 'SLOW_QUERY_TIME_MSEC'=> 'Пороговое время выполнения медленных запросов (мсек) ' ,
 'STACK_TRACE_ERRORS'=> 'Отображать стековую трассировку ошибок' ,
 'UPLOAD_MAX_SIZE'=> 'Максимальный размер загружаемого файла' ,
@@ -209,8 +206,6 @@ $mod_strings = array (
 'SUGARPDF_ADVANCED_SETTINGS' => 'Advanced Settings',
 'SUGARPDF_LOGO_SETTINGS' => 'Images',
 
-'PDF_CREATOR' => 'PDF Creator',
-'PDF_CREATOR_INFO' => 'Defines the creator of the document. <br>This is typically the name of the application that generates the PDF.',
 
 'PDF_AUTHOR' => 'Author',
 'PDF_AUTHOR_INFO' => 'The Author appears in the document properties.',
@@ -221,8 +216,6 @@ $mod_strings = array (
 'PDF_NEW_HEADER_LOGO' => 'Select New Image for Quotes',
 'PDF_NEW_HEADER_LOGO_INFO' => 'The file format can be either .jpg or .png. (Only .jpg for EZPDF)<BR>The recommended size is 867x60 px.',
 
-'PDF_HEADER_LOGO_WIDTH' => 'Quotes Image Width',
-'PDF_HEADER_LOGO_WIDTH_INFO' => 'Change the scale of the uploaded image that appears in Quotes PDF Documents. (TCPDF only)',
 
 'PDF_SMALL_HEADER_LOGO' => 'For Reports PDF Documents',
 'PDF_SMALL_HEADER_LOGO_INFO' => 'This image appears in the default Header in Reports PDF Documents.<br> This image also appears in the top left-hand corner of the Sugar application.',
@@ -230,15 +223,9 @@ $mod_strings = array (
 'PDF_NEW_SMALL_HEADER_LOGO' => 'Select New Image for Reports',
 'PDF_NEW_SMALL_HEADER_LOGO_INFO' => 'The file format can be either .jpg or .png. (Only .jpg for EZPDF)<BR>The recommended size is 212x40 px.',
 
-'PDF_SMALL_HEADER_LOGO_WIDTH' => 'Reports Image Width',
-'PDF_SMALL_HEADER_LOGO_WIDTH_INFO' => 'Change the scale of the uploaded image that appears in Reports PDF Documents. (TCPDF only)',
 
 
-'PDF_HEADER_STRING' => 'Header String',
-'PDF_HEADER_STRING_INFO' => 'Header description string',
 
-'PDF_HEADER_TITLE' => 'Header Title',
-'PDF_HEADER_TITLE_INFO' => 'String to print as title on document header',
 
 'PDF_FILENAME' => 'Default Filename',
 'PDF_FILENAME_INFO' => 'Default filename for the generated PDF files',
@@ -276,14 +263,10 @@ $mod_strings = array (
 'K_CELL_HEIGHT_RATIO' => 'Cell Height Ratio',
 'K_CELL_HEIGHT_RATIO_INFO' => 'If the height of a cell is smaller than (Font Height x Cell Height Ratio), then (Font Height x Cell Height Ratio) is used as the cell height.<br>(Font Height x Cell Height Ratio) is also used as the height of the cell when no height is define.',
 
-'K_TITLE_MAGNIFICATION' => 'Title Magnification',
-'K_TITLE_MAGNIFICATION_INFO' => 'Title magnification respect main font size.',
 
 'K_SMALL_RATIO' => 'Small Font Factor',
 'K_SMALL_RATIO_INFO' => 'Reduction factor for small font.',
 
-'HEAD_MAGNIFICATION' => 'Head Magnification',
-'HEAD_MAGNIFICATION_INFO' => 'Magnification factor for titles.',
 
 'PDF_IMAGE_SCALE_RATIO' => 'Image scale ratio',
 'PDF_IMAGE_SCALE_RATIO_INFO' => 'Ratio used to scale the images',
@@ -348,7 +331,6 @@ $mod_strings = array (
 
 'LBL_ADDFONT_TITLE' => 'Add a PDF Font',
 'LBL_PDF_PATCH' => 'Patch',
-'LBL_PDF_PATCH_INFO' => 'Custom modification of the encoding. Write a PHP array.<br>Example :<br>ISO-8859-1 does not contain the euro symbol. To add it at position 164, write "array(164=>\\\'Euro\\\')".',
 'LBL_PDF_ENCODING_TABLE' => 'Encoding Table',
 'LBL_PDF_ENCODING_TABLE_INFO' => 'Name of the encoding table.<br>This option is ignored for TrueType Unicode, OpenType Unicode and symbolic fonts.<br>The encoding defines the association between a code (from 0 to 255) and a character contained in the font.<br>The first 128 are fixed and correspond to ASCII.',
 'LBL_PDF_FONT_FILE' => 'Font File',
@@ -357,8 +339,6 @@ $mod_strings = array (
 'LBL_PDF_METRIC_FILE_INFO' => '.afm or .ufm file',
 'LBL_ADD_FONT_BUTTON' => 'Add',
 'JS_ALERT_PDF_WRONG_EXTENSION' => 'This file do not have a good file extension.',
-'LBL_PDF_INSTRUCTIONS' => 'Instructions',
-'PDF_INSTRUCTIONS_ADD_FONT' => '<<<BSOFR
 Fonts supported by SugarPDF :
 <ul>
 <li>TrueTypeUnicode (UTF-8 Unicode)</li>
@@ -380,20 +360,8 @@ BSOFR',
 'LBL_ADDFONTRESULT_TITLE' => 'Result of the add font process',
 'LBL_STATUS_FONT_SUCCESS' => 'SUCCESS : The font has been added to SugarCRM.',
 'LBL_STATUS_FONT_ERROR' => 'ERROR : The font has not been added. Look at the log below.',
-'LBL_FONT_MOVE_DEFFILE' => 'Font definition file move to : ',
-'LBL_FONT_MOVE_FILE' => 'Font file move to : ',
 
 // Font manager
-'ERR_LOADFONTFILE' => 'ERROR: LoadFontFile error!',
-'ERR_FONT_EMPTYFILE' => 'ERROR: Empty filename!',
-'ERR_FONT_UNKNOW_TYPE' => 'ERROR: Unknow font type:',
-'ERR_DELETE_CORE_FILE' => 'ERROR: It is not possible to delete a core font.',
-'ERR_NO_FONT_PATH' => 'ERROR: No font path available!',
-'ERR_NO_CUSTOM_FONT_PATH' => 'ERROR: No custom font path available!',
-'ERR_FONT_NOT_WRITABLE' => 'is not writable.',
-'ERR_FONT_FILE_DO_NOT_EXIST' => 'doesn\'t exist or is not a directory.',
-'ERR_FONT_MAKEFONT' => 'ERROR: MakeFont error',
-'ERR_FONT_ALREADY_EXIST' => 'ERROR : This font already exist. Rollback...',
 'ERR_PDF_NO_UPLOAD' => 'Error during the upload of the font or metric file.', ///<-
 
 // Wizard
@@ -410,7 +378,6 @@ BSOFR',
 'LBL_WIZARD_NEXT_BUTTON' => 'Вперёд >',
 'LBL_WIZARD_BACK_BUTTON' => '< Назад',
 'LBL_WIZARD_SKIP_BUTTON' => 'Пропустить',
-'LBL_WIZARD_FINISH_BUTTON' => 'Готово',
 'LBL_WIZARD_CONTINUE_BUTTON' => 'Продолжить',
 'LBL_WIZARD_FINISH_TAB' => 'Готово',
 'LBL_WIZARD_FINISH_TITLE' => 'Настройка основных параметров системы завершена',

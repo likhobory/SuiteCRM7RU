@@ -62,7 +62,6 @@ $app_list_strings = array (
     'Feeds' => 'RSS-ленты' ,
     'iFrames'=>'Мои сайты' ,
     'TimePeriods'=>'Периоды времени' ,
-	'TaxRates'=>'Tax Rates',///
     'ContractTypes' => 'Contract Types',///
     'Schedulers'=>'Планировщик',
     'Project'=>'Проекты' ,
@@ -88,12 +87,10 @@ $app_list_strings = array (
     'Queues' => 'Очереди' ,
     'EmailMarketing' => 'Рассылка E-mail' ,
     'EmailTemplates' => 'Шаблоны E-mail' ,
-	'SNIP' => 'Email Archiving', ///
     'ProspectLists' => 'Списки адресатов'    ,
     'SavedSearch' => 'Настройка отображения результатов фильтрации',
 	'UpgradeWizard' => 'Мастер обновления',
     'Trackers' => 'Трекеры',
-    'TrackerPerfs' => 'Tracker Performance',   ///
     'TrackerSessions' => 'Сессии трекера',
     'TrackerQueries' => 'Запросы трекера',
     'FAQ' => 'FAQ',
@@ -133,7 +130,6 @@ $app_list_strings = array (
 	'Prospects' => 'Адресат',
     'Campaigns'=>'Маркетинг' ,
     'Documents'=>'Документ' ,
-	'SugarFollowing'=>'SuiteFollowing', ///
     'Sync'=>'Синхронизация' ,
     'Users' => 'Пользователь' ,
 	'SugarFavorites'=>'Избранное' 
@@ -263,10 +259,7 @@ $app_list_strings = array (
     'Net 15' => 'Net 15' ,
     'Net 30' => 'Net 30'    ,
   ),
-    'fts_type' => array (
-      '' => '',
-      'Elastic' => 'elasticsearch' ///
-  ),
+
   'sales_stage_default_key' => 'Разведка' ,
   'sales_stage_dom' =>
   array ( 
@@ -495,12 +488,6 @@ $app_list_strings = array (
         'inactive' => 'Не активно',
     ),
 	
-    'project_priority_options' => array (
-        'High' => 'Высокий' ,
-        'Medium' => 'Средний' ,
-        'Low' => 'Низкий'    ,
-    ),
-    'project_priority_default' => 'Medium',
 
   //Note:  do not translate record_type_default_key
 //       it is the key for the default record_type_module value
@@ -942,407 +929,6 @@ $app_list_strings = array (
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     'duration_intervals' => array('0'=>'00',
                                     '15'=>'15',
                                     '30'=>'30',
@@ -1452,12 +1038,7 @@ $app_list_strings = array (
     'required'=>'Обязательное',
 	  ),
 
-    'Elastic_boost_options' => array ( 
-        '0' =>'Disabled', ///
-        '1'=>'Low Boost', ///
-        '2'=>'Medium Boost', ///
-        '3'=>'High Boost', ///
-  ),
+
 
   'custom_fields_merge_dup_dom'=> array (
 0=>'Выкл.',
@@ -1473,14 +1054,6 @@ $app_list_strings = array (
         'm'=>'Модули',
         'gm'=>'Сгруппированные модули',
   ),
-
-
-
-
-
-
-
-
 
 
 
@@ -1501,7 +1074,6 @@ $app_list_strings = array (
 		'expandlegend' 		=> 'Показать легенду',
 		'collapselegend' 	=> 'Свернуть легенду',
 		'clickfordrilldown'     => 'Нажмите для просмотра деталей',
-		'drilldownoptions' 	=> 'Drill Down Options', ///
 		'detailview' 		=> 'Подробно...',
 		'piechart'		=> 'Круговая диаграмма',
 		'groupchart'		=> 'Диаграмма с группировкой',
@@ -1513,13 +1085,6 @@ $app_list_strings = array (
 		'print'			=> 'Печать',
 	    'pieWedgeName'  => 'секции',
     ),
-
-
-
-
-
-
-
 
 
 
@@ -1617,10 +1182,6 @@ $app_strings = array (
   'LBL_TOUR_BACK' => 'Назад',
   'LBL_TOUR_CLOSE' => 'Закрыть',
   'LBL_TOUR_TAKE_TOUR' => 'Начать знакомство с системой',
-  'LBL_MY_AREA_LINKS' => 'My area links: ' /*for 508 compliance fix*/, ///
-  'LBL_GETTINGAIR' => 'Getting Air' /*for 508 compliance fix*/, ///
-  'LBL_WELCOMEBAR' => 'Welcome' /*for 508 compliance fix*/, ///
-  'LBL_ADVANCEDSEARCH' => 'Advanced Search' /*for 508 compliance fix*/, ///
   'LBL_MOREDETAIL' => 'Подробнее' /*for 508 compliance fix*/,
   'LBL_EDIT_INLINE' => 'Править' /*for 508 compliance fix*/,
   'LBL_VIEW_INLINE' => 'Просмотр' /*for 508 compliance fix*/,
@@ -1628,22 +1189,20 @@ $app_strings = array (
   'LBL_PROJECT_MINUS' => 'Удалить' /*for 508 compliance fix*/,
   'LBL_PROJECT_PLUS' => 'Добавить' /*for 508 compliance fix*/,
   'LBL_Blank' => ' ' /*for 508 compliance fix*/,
-  'LBL_ICON_COLUMN_1' => 'Column' /*for 508 compliance fix*/, ///
-  'LBL_ICON_COLUMN_2' => '2 Columns' /*for 508 compliance fix*/, ///
-  'LBL_ICON_COLUMN_3' => '3 Columns' /*for 508 compliance fix*/, ///
   'LBL_ID_FF_ADD' => 'Добавить' /*for 508 compliance fix*/,
+  'LBL_ID_FF_ADD_EMAIL' => 'Добавить электронный адрес' /*for 508 compliance fix*/,
   'LBL_HIDE_SHOW' => 'Скрыть/Отобразить' /*for 508 compliance fix*/,
   'LBL_DELETE_INLINE' => 'Удалить' /*for 508 compliance fix*/,
   'LBL_PLUS_INLINE' => 'Добавить' /*for 508 compliance fix*/,
   'LBL_ID_FF_CLEAR' => 'Очистить' /*for 508 compliance fix*/,
   'LBL_ID_FF_VCARD' => 'vCard' /*for 508 compliance fix*/,
   'LBL_ID_FF_REMOVE' => 'Удалить' /*for 508 compliance fix*/,
+  'LBL_ID_FF_REMOVE_EMAIL' => 'Удалить электронный адрес' /*for 508 compliance fix*/,
+  'LBL_ID_FF_OPT_OUT' => 'Не использовать этот электронный адрес',
+  'LBL_ID_FF_INVALID' => 'Неверный электронный адрес',
   'LBL_ADD' => 'Добавить' /*for 508 compliance fix*/,
   'LBL_COMPANY_LOGO' => 'Логотип' /*for 508 compliance fix*/,
   'LBL_JS_CALENDAR' => 'Календарь' /*for 508 compliance fix*/,
-    'LBL_ADVANCED' => 'Advanced', ///
-    'LBL_BASIC' => 'Basic', ///
-    'LBL_MODULE_FILTER' => 'Filter By', ///
     'LBL_CONNECTORS_POPUPS'=>'Подключения',
     'LBL_CLOSEINLINE'=>'Закрыть',
 
@@ -1661,53 +1220,10 @@ $app_strings = array (
     'LBL_NO_ACTION'                         => 'Действие не определено: %s',
 	'LBL_NO_SHORTCUT_MENU' 					=> 'Нет доступных действий.',
 	'LBL_NO_DATA'                           => 'Данные отсутствуют',
-	'LBL_ROUTING_ADD_RULE'	       	=> 'Добавить правило', /// ->
-	'LBL_ROUTING_ALL'              	=> 'Минимум',
-	'LBL_ROUTING_ANY'				=> 'Любое',
-	'LBL_ROUTING_BREAK'				=> '-',
-	'LBL_ROUTING_BUTTON_CANCEL'			=> 'Отказаться',
-	'LBL_ROUTING_BUTTON_SAVE'			=> 'Сохранить правило',
 
-	'LBL_ROUTING_ACTIONS_COPY_MAIL'			=> 'Копировать E-mail',
-	'LBL_ROUTING_ACTIONS_DELETE_BEAN'		=> 'Удалить объекты',
-	'LBL_ROUTING_ACTIONS_DELETE_FILE'		=> 'Удалить файл',
-	'LBL_ROUTING_ACTIONS_DELETE_MAIL'		=> 'Удалить E-mail',
-	'LBL_ROUTING_ACTIONS_FORWARD'			=> 'Переслать E-mail',
-	'LBL_ROUTING_ACTIONS_MARK_FLAGGED'		=> 'Пометить E-mail',
-	'LBL_ROUTING_ACTIONS_MARK_READ'			=> 'Пометить как прочтённое',
-	'LBL_ROUTING_ACTIONS_MARK_UNREAD'		=> 'Пометить как непрочтённое',
-	'LBL_ROUTING_ACTIONS_MOVE_MAIL'			=> 'Переместить E-mail',
-	'LBL_ROUTING_ACTIONS_PEFORM'			=> 'Выполните следующие действия:',
-	'LBL_ROUTING_ACTIONS_REPLY'			=> 'Ответить на E-mail',
-        'LBL_ROUTING_CHECK_RULE'			=> 'Обнаружена ошибка:\n',
-	'LBL_ROUTING_CHECK_RULE_DESC'			=> 'Пожалуйста, проверьте все отмеченные поля.',
-	'LBL_ROUTING_CONFIRM_DELETE'			=> 'Вы действительно хотите удалить это правило?\nОперция не может быть отменена.',
 
 	'LBL_ROUTING_FLAGGED'					=> 'flag set',  ///
-	'LBL_ROUTING_FORM_DESC'					=> 'Сохранённые правила сразу же вступают в силу.',
-	'LBL_ROUTING_FW'						=> 'FW: ',  ///
-	'LBL_ROUTING_LIST_TITLE'				=> 'Правила',
-	'LBL_ROUTING_MATCH'						=> 'Если',
-	'LBL_ROUTING_MATCH_2'					=> 'встретились следующие условия:',
-    'LBL_NOTIFICATIONS'                     => 'Уведомления',
-    'LBL_ROUTING_MATCH_CC_ADDR'				=> 'CC',
-	'LBL_ROUTING_MATCH_DESCRIPTION'			=> 'Содержимое',
-	'LBL_ROUTING_MATCH_FROM_ADDR'			=> 'От',
-	'LBL_ROUTING_MATCH_NAME'			=> 'Тема',
-	'LBL_ROUTING_MATCH_PRIORITY_HIGH'		=> 'Высокий приоритет',
-	'LBL_ROUTING_MATCH_PRIORITY_NORMAL'		=> 'Средний приоритет',
-	'LBL_ROUTING_MATCH_PRIORITY_LOW'		=> 'Низкий приоритет',
-	'LBL_ROUTING_MATCH_TO_ADDR'			=> 'Кому',
-	'LBL_ROUTING_MATCH_TYPE_MATCH'			=> 'Содержит',
-	'LBL_ROUTING_MATCH_TYPE_NOT_MATCH'		=> 'Не содержит',
 
-	'LBL_ROUTING_NAME'				=> 'Название правила',
-	'LBL_ROUTING_NEW_NAME'				=> 'Новое правило',
-	'LBL_ROUTING_ONE_MOMENT'			=> 'Пожалуйста, подождите...',
-	'LBL_ROUTING_ORIGINAL_MESSAGE_FOLLOWS'	=> 'Original message follows.', ///
-	'LBL_ROUTING_RE'				=> 'RE: ',  ///
-	'LBL_ROUTING_SAVING_RULE'			=> 'Saving Rule',///
-	'LBL_ROUTING_SUB_DESC'				=> 'Отмеченные правила работают. Для изменения правила кликните на названии.',
 	'LBL_ROUTING_TO'				=> 'to',   ///
 	'LBL_ROUTING_TO_ADDRESS'			=> 'to address',  ///
 	'LBL_ROUTING_WITH_TEMPLATE'			=> 'with template',  /// <-
@@ -1772,7 +1288,6 @@ $app_strings = array (
 	'LBL_EMAIL_ATTACHMENTS3'			=> 'Вложения шаблона',
         'LBL_EMAIL_ATTACHMENTS_FILE'                    => 'Файл',
         'LBL_EMAIL_ATTACHMENTS_DOCUMENT'                => 'Документ',
-        'LBL_EMAIL_ATTACHMENTS_EMBEDED'                 => 'Embeded',   ///
         'LBL_EMAIL_BCC'					=> 'Скрытая',
 	'LBL_EMAIL_CANCEL'                              => 'Отказаться',
  	'LBL_EMAIL_CC'					=> 'Копия',
@@ -2026,7 +1541,6 @@ $app_strings = array (
 	'LBL_EMAIL_SETTINGS_ADD_ACCOUNT'		=> 'Очистить форму',
 	'LBL_EMAIL_SETTINGS_AUTO_IMPORT'		=> 'Импортировать E-mail при просмотре',
 	'LBL_EMAIL_SETTINGS_CHECK_INTERVAL'		=> 'Проверять почту',
-	'LBL_EMAIL_SETTINGS_COMPOSE_INLINE'		=> 'Use Preview Pane',    ///
 	'LBL_EMAIL_SETTINGS_COMPOSE_POPUP'		=> 'Использовать всплывающее окно',
 	'LBL_EMAIL_SETTINGS_DISPLAY_NUM'		=> 'Количество E-mail на странице',
 	'LBL_EMAIL_SETTINGS_EDIT_ACCOUNT'		=> 'Редактировать учётную запись',
@@ -2069,22 +1583,22 @@ $app_strings = array (
 	'LBL_EMAIL_INVALID_PERSONAL_OUTBOUND' => 'Неверные параметры сервера исходящей почты для данной учётной записи. Проверьте указанные параметры или выберите другой сервер исходящей почты.',
 	'LBL_EMAIL_INVALID_SYSTEM_OUTBOUND' => 'Сервер исходящей почты не настроен для отправки электронной почты. Настройте необходимые параметры или выберите другой сервер исходящей почты, если он указан в настройках учётной записи модуля "E-mail".',
 
-	'LBL_EMAIL_SHOW_READ'				=> 'Показать все',
+	'LBL_EMAIL_SHOW_READ'					=> 'Показать все',
 	'LBL_EMAIL_SHOW_UNREAD_ONLY'			=> 'Показать непрочитанные',
-	'LBL_EMAIL_SIGNATURES'				=> 'Подписи',
+	'LBL_DEFAULT_EMAIL_SIGNATURES' 			=> 'Подпись по умолчанию',
+	'LBL_EMAIL_SIGNATURES'					=> 'Подписи',
 	'LBL_EMAIL_SIGNATURE_CREATE'			=> 'Создание подписи',
-	'LBL_EMAIL_SIGNATURE_NAME'			=> 'Название подписи',
-	'LBL_EMAIL_SIGNATURE_TEXT'			=> 'Текст подписи',
+	'LBL_EMAIL_SIGNATURE_NAME'				=> 'Название подписи',
+	'LBL_EMAIL_SIGNATURE_TEXT'				=> 'Текст подписи',
 	'LBL_SMTPTYPE_GMAIL'                    => 'Gmail',
 	'LBL_SMTPTYPE_YAHOO'                    => 'Yahoo! Mail',
 	'LBL_SMTPTYPE_EXCHANGE'                 => 'Microsoft Exchange',
 	'LBL_SMTPTYPE_OTHER'                    => 'Другое',
 	'LBL_EMAIL_SPACER_MAIL_SERVER'			=> '[ Удалённые папки ]',
 	'LBL_EMAIL_SPACER_LOCAL_FOLDER'			=> '[ Папки SuiteCRM ]',
-	'LBL_EMAIL_SUBJECT'				=> 'Тема',
-        'LBL_EMAIL_TO'                     		=> 'Кому',
-	'LBL_EMAIL_SUCCESS'				=> 'Готово',
-	'LBL_EMAIL_SUGAR_FOLDER'			=> 'Папка SuiteCRM',
+	'LBL_EMAIL_SUBJECT'						=> 'Тема',
+	'LBL_EMAIL_SUCCESS'						=> 'Готово',
+	'LBL_EMAIL_SUGAR_FOLDER'				=> 'Папка SuiteCRM',
 
 
     'LBL_EMAIL_TEMPLATE_EDIT_PLAIN_TEXT'    => 'Шаблон письма пуст',
@@ -2094,7 +1608,7 @@ $app_strings = array (
         'LBL_EMAIL_TEXT_NEXT'                           => 'Следующая страница',
         'LBL_EMAIL_TEXT_LAST'                           => 'Последняя страница',
         'LBL_EMAIL_TEXT_REFRESH'                        => 'Обновить',
-	'LBL_EMAIL_TOGGLE_LIST'		        	=> 'Переключить',    ///
+        'LBL_EMAIL_TO'                    	=> 'Кому',
 	'LBL_EMAIL_VIEW'				=> 'Просмотр',
 	'LBL_EMAIL_VIEWS'				=> 'Вид',
 	'LBL_EMAIL_VIEW_HEADERS'	        	=> 'Заголовок E-mail',
@@ -2124,7 +1638,6 @@ $app_strings = array (
 	'LBL_LINK_RECORDS'=> 'Записи',
 	'LBL_LINK_SELECT'=> 'Выбрать',
     'LBL_LINK_ACTIONS'=> 'Действия',
-	'LBL_LINK_MORE'=> 'More', ///
     'LBL_CLOSE_ACTIVITY_HEADER' => 'Подтверждение',
     'LBL_CLOSE_ACTIVITY_CONFIRM' => 'Вы действительно хотите закрыть это мероприятие?',
     'LBL_CLOSE_ACTIVITY_REMEMBER' => 'Не отображать это сообщение в дальнейшем: &nbsp;',
@@ -2179,13 +1692,11 @@ $app_strings = array (
     'ERR_DB_VERSION' => 'SuiteCRM версии {0} работает только с базой данных версии {1}.',
 
     'LBL_ACCOUNT'=>'Контрагент',
-    'LBL_OLD_ACCOUNT_LINK'=>'Old Account', ///
     'LBL_ACCOUNTS'=>'Контрагенты',
     'LBL_ACTIVITIES_SUBPANEL_TITLE'=>'Мероприятия',
     'LBL_ACCUMULATED_HISTORY_BUTTON_KEY' => 'H' , ///
     'LBL_ACCUMULATED_HISTORY_BUTTON_LABEL' => 'Краткий отчёт' ,
     'LBL_ACCUMULATED_HISTORY_BUTTON_TITLE' => 'Краткий отчёт' ,
-    'LBL_ADD_BUTTON_KEY' => 'A' , ///
     'LBL_ADD_BUTTON_TITLE' => 'Добавить' ,
     'LBL_ADD_BUTTON' => 'Добавить' ,
     'LBL_ADD_DOCUMENT' => 'Добавить документ' ,
@@ -2216,21 +1727,17 @@ $app_strings = array (
     'LBL_SUBMIT_BUTTON_LABEL' => 'Подтвердить',
     'LBL_CASE'=>'Обращение' ,
     'LBL_CASES'=>'Обращения' ,
-    'LBL_CHANGE_BUTTON_KEY' => 'G' , ///
 	'LBL_CHANGE_PASSWORD' => 'Изменение пароля',
     'LBL_CHANGE_BUTTON_LABEL' => 'Изменять' ,
     'LBL_CHANGE_BUTTON_TITLE' => 'Изменить' ,
     'LBL_CHARSET' => 'utf-8' ,
     'LBL_CHECKALL' => 'Отметить все' ,
     'LBL_CITY' => 'Город',
-    'LBL_CLEAR_BUTTON_KEY' => 'C' , ///
     'LBL_CLEAR_BUTTON_LABEL' => 'Очистить' ,
     'LBL_CLEAR_BUTTON_TITLE' => 'Очистить' ,
     'LBL_CLEARALL' => 'Очистить все' ,
     'LBL_CLOSE_BUTTON_TITLE' =>'Закрыть',
-    'LBL_CLOSE_BUTTON_KEY'=>'Q', ///
     'LBL_CLOSE_WINDOW'=>'Закрыть окно' ,
-    'LBL_CLOSEALL_BUTTON_KEY' => 'Q' , ///
     'LBL_CLOSEALL_BUTTON_LABEL' => 'Закрыть все' ,
     'LBL_CLOSEALL_BUTTON_TITLE' => 'Закрыть все' ,
     'LBL_CLOSE_AND_CREATE_BUTTON_LABEL' => 'Закрыть и создать копию',
@@ -2264,7 +1771,6 @@ $app_strings = array (
     'LBL_DELETE' => 'Удалить' ,
     'LBL_DELETED'=>'Удалено' ,
     'LBL_DIRECT_REPORTS'=>'Подчинённые' ,
-    'LBL_DONE_BUTTON_KEY' => 'X' , ///
     'LBL_DONE_BUTTON_LABEL' => 'Готово' ,
     'LBL_DONE_BUTTON_TITLE' => 'Готово' ,
     'LBL_DST_NEEDS_FIXIN' => 'Приложению требуется исправление дневного времени. Пожалуйста, перейдите по ссылке <a href="index.php?module=Administration&action=DstFix">Восстановление</a> в панели администратора и используйте ссылку "Исправление дневного времени".' ,
@@ -2273,21 +1779,17 @@ $app_strings = array (
     'LBL_EDIT_AS_NEW_BUTTON_LABEL' => 'Edit As New',  ///
     'LBL_EDIT_AS_NEW_BUTTON_TITLE' => 'Edit As New',  ///
 	'LBL_FAVORITES' => 'Избранное',
-    'LBL_FILTER_MENU_BY' => 'Filter Menu By', ///
 	'LBL_VCARD' => 'vCard',
     'LBL_EMPTY_VCARD' => 'Пожалуйста, укажите файл vCard',
 	'LBL_EMPTY_REQUIRED_VCARD' => 'vCard не содержит всех полей, необходимых для текущего модуля. Подробная информация находится в файле suitecrm.log.',
     'LBL_VCARD_ERROR_FILESIZE' => 'Размер загружаемого файла vCard превышает допустимый лимит в 30000 байт.',
     'LBL_VCARD_ERROR_DEFAULT' => 'При загрузке файла vCard произошла ошибка. Подробная информация содержится в файле suitecrm.log.',
     'LBL_IMPORT_VCARD' => 'Импорт из vCard:',
-    'LBL_IMPORT_VCARD_BUTTON_KEY' => 'I', ///
     'LBL_IMPORT_VCARD_BUTTON_LABEL' => 'Импортировать из vCard',
     'LBL_IMPORT_VCARD_BUTTON_TITLE' => 'Импортировать из vCard',
-    'LBL_VIEW_BUTTON_KEY' => 'V' , ///
     'LBL_VIEW_BUTTON_LABEL' => 'Просмотр' ,
     'LBL_VIEW_BUTTON_TITLE' => 'Просмотр' ,
     'LBL_VIEW_BUTTON' => 'Просмотреть' ,
-    'LBL_EMAIL_PDF_BUTTON_KEY' => 'M' , ///
     'LBL_EMAIL_PDF_BUTTON_LABEL' => 'Отправить в формате PDF' ,
     'LBL_EMAIL_PDF_BUTTON_TITLE' => 'Отправить в формате PDF' ,
     'LBL_EMAILS'=>'E-mail' ,
@@ -2306,8 +1808,6 @@ $app_strings = array (
     'LBL_IMPORT_STARTED' => 'Импорт начат: ',
     'LBL_MISSING_CUSTOM_DELIMITER' => 'Должен быть указан разделитель.',
     'LBL_LAST_VIEWED' => 'Последние просмотры' ,
-	'LBL_SHOW_LESS' => 'Show Less', ///
-    'LBL_SHOW_MORE' => 'Show More', ///
     'LBL_TODAYS_ACTIVITIES' => 'Сегодняшние мероприятия',
     'LBL_LEADS'=>'Предварит. контакты' ,
     'LBL_LESS' => 'меньше',
@@ -2352,7 +1852,6 @@ $app_strings = array (
     'LBL_LOGIN_TO_ACCESS' => 'Войдите в систему, чтобы получить доступ к этой странице.',
     'LBL_LOGOUT' => 'Выход' ,
 	'LBL_PROFILE' => 'Мои настройки',
-    'LBL_MAILMERGE_KEY' => 'M' , ///
     'LBL_MAILMERGE' => 'Слияние' ,
     'LBL_MASS_UPDATE' => 'Массовое обновление' ,
 	'LBL_NO_MASS_UPDATE_FIELDS_AVAILABLE' => 'Не найдены обновляемые поля',
@@ -2376,10 +1875,8 @@ $app_strings = array (
     'LBL_NEXT_BUTTON_LABEL' => 'Далее' ,
     'LBL_NONE' => '--не выбрано--' ,
     'LBL_NOTES'=>'Заметки' ,
-    'LBL_OPENALL_BUTTON_KEY' => 'O' , ///
     'LBL_OPENALL_BUTTON_LABEL' => 'Открыть все' ,
     'LBL_OPENALL_BUTTON_TITLE' => 'Открыть все' ,
-    'LBL_OPENTO_BUTTON_KEY' => 'T' , ///
     'LBL_OPENTO_BUTTON_LABEL' => 'Открыть для: ' ,
     'LBL_OPENTO_BUTTON_TITLE' => 'Открыть для:' ,
     'LBL_OPPORTUNITIES'=>'Сделки' ,
@@ -2412,14 +1909,12 @@ $app_strings = array (
     'LBL_PROJECT_TASKS'=>'Проектные задачи' ,
     'LBL_PROJECTS'=>'Проекты' ,
 
-    'LBL_QUOTE_TO_OPPORTUNITY_KEY' => 'O' , ///
     'LBL_QUOTE_TO_OPPORTUNITY_LABEL' => 'Создать сделку из ссылки' ,
     'LBL_QUOTE_TO_OPPORTUNITY_TITLE' => 'Создать сделку из ссылки' ,
     'LBL_QUOTES_SHIP_TO'=>'Предложения для' ,
     'LBL_QUOTES'=>'Предложения' ,
 	
     'LBL_RELATED' => 'Связано',
-    'LBL_RELATED_INFORMATION' => 'Дополнительная информация',   ///
     'LBL_RELATED_RECORDS' => 'Связанные записи' ,
     'LBL_REMOVE' => 'Удалить' ,
     'LBL_REPORTS_TO' => 'Reports To',
@@ -2428,13 +1923,11 @@ $app_strings = array (
 
 	'LBL_EMAIL_DONE_BUTTON_LABEL' => 'Готово',
 
-    'LBL_SAVE_AS_BUTTON_KEY' => 'A', ///
     'LBL_SAVE_AS_BUTTON_LABEL' => 'Сохранить как',
     'LBL_SAVE_AS_BUTTON_TITLE' => 'Сохранить как',
     'LBL_FULL_FORM_BUTTON_KEY' => 'L', ///
     'LBL_FULL_FORM_BUTTON_LABEL' => 'Показать все поля формы',
     'LBL_FULL_FORM_BUTTON_TITLE' => 'Показать все поля формы',
-    'LBL_SAVE_NEW_BUTTON_KEY' => 'V' , ///
     'LBL_SAVE_NEW_BUTTON_LABEL' => 'Сохранить и создать новую' ,
     'LBL_SAVE_NEW_BUTTON_TITLE' => 'Сохранить и создать новую' ,
 	'LBL_SAVE_OBJECT' => 'Сохранить {0}',
@@ -2444,18 +1937,12 @@ $app_strings = array (
 	'LBL_FILTER' => 'Фильтр',
     'LBL_SEARCH' => 'Поиск',
 	'LBL_SEARCH_ALT' => '',
-	'LBL_SEARCH_TIPS' => 'Press the search button or click enter to get an exact match for them.', ///
-    'LBL_SEARCH_TIPS_2' => 'Press the search button or click enter to get an exact match for', ///
     'LBL_SEARCH_MORE' => 'далее',
     'LBL_SEE_ALL' => 'Посмотреть все',
 	'LBL_UPLOAD_IMAGE_FILE_INVALID' => 'Неверный формат файла. Могут быть загружены только изображения.',
     'LBL_SELECT_BUTTON_KEY' => 'T' , ///
     'LBL_SELECT_BUTTON_LABEL' => 'Выбрать' ,
     'LBL_SELECT_BUTTON_TITLE' => 'Выбрать' ,
-	'LBL_SELECT_TEAMS_KEY' => 'Z', ///
-    'LBL_SELECT_TEAMS_LABEL' => 'Add Team(s)', ///
-    'LBL_SELECT_TEAMS_TITLE' => 'Add Teams(s)', ///
-    'LBL_BROWSE_DOCUMENTS_BUTTON_KEY' => 'B', ///
     'LBL_BROWSE_DOCUMENTS_BUTTON_LABEL' => 'Обзор документов',
     'LBL_BROWSE_DOCUMENTS_BUTTON_TITLE' => 'Обзор документов',
     'LBL_SELECT_CONTACT_BUTTON_KEY' => 'T' , ///
@@ -2570,11 +2057,7 @@ $app_strings = array (
     'LBL_TABGROUP_TOOLS' => 'Сервис',
     'LBL_TASKS'=>'Задачи' ,
 	
-    'LBL_TEAMS_LINK'=>'Teams' , ///
-	'LBL_THEME_COLOR'=>'Цвет', ///
-    'LBL_THEME_FONT'=>'Шрифт', ///
     'LBL_THOUSANDS_SYMBOL' => 'K' ,
-    'LBL_TRACK_EMAIL_BUTTON_KEY' => 'K' , ///
     'LBL_TRACK_EMAIL_BUTTON_LABEL' => 'Отправить E-mail в архив' ,
     'LBL_TRACK_EMAIL_BUTTON_TITLE' => 'Отправить E-mail в архив' ,
     'LBL_UNAUTH_ADMIN' => 'Неавторизованный доступ к администрированию' ,
@@ -2590,7 +2073,6 @@ $app_strings = array (
     'LBL_VERIFY_EMAIL_ADDRESS'=>'Проверка адреса E-mail...',
     'LBL_VERIFY_PORTAL_NAME'=>'Проверка названия портала...',
 	'LBL_VIEW_IMAGE' => 'вид',
-    'LBL_VIEW_PDF_BUTTON_KEY' => 'P' , ///
     'LBL_VIEW_PDF_BUTTON_LABEL' => 'Печать в PDF-формате' ,
     'LBL_VIEW_PDF_BUTTON_TITLE' => 'Печать в PDF-формате' ,
 
@@ -2749,12 +2231,11 @@ $app_strings = array (
 	'ERR_MSSQL_WARNING' =>'Внимание:',
 
     //Meta-Data framework
-    'ERR_MISSING_VARDEF_NAME' => 'Warning: field [[field]] does not have a mapped entry in [moduleDir] vardefs.php file', ///
     'ERR_CANNOT_CREATE_METADATA_FILE' => 'Error: File [[file]] is missing.  Unable to create because no corresponding HTML file was found.',
+	'ERR_MISSING_VARDEF_NAME' => 'Warning: field [[field]] does not have a mapped entry in [moduleDir] vardefs.php file', ///
     'ERR_CANNOT_FIND_MODULE' => 'Error: Module [module] does not exist.',
     'LBL_ALT_ADDRESS' => 'Другой адрес:',
     'ERR_SMARTY_UNEQUAL_RELATED_FIELD_PARAMETERS' => 'Error: There are an unequal number of arguments for the \'key\' and \'copy\' elements in the displayParams array.',
-    'ERR_SMARTY_MISSING_DISPLAY_PARAMS' => 'Missing index in displayParams Array for: ', ///
 
     /* MySugar Framework (for Home and Dashboard) */
 	'LBL_DASHLET_CONFIGURE_GENERAL' => 'Основные настройки',
@@ -2798,13 +2279,8 @@ $app_strings = array (
     'LBL_SEARCH_RESULTS' => 'Результаты поиска',
     'LBL_SEARCH_MODULES' => 'Модули',
     'LBL_SEARCH_CHARTS' => 'Диаграммы',
-    'LBL_SEARCH_REPORT_CHARTS' => 'Report Charts', ///
     'LBL_SEARCH_TOOLS' => 'Разное',
     'LBL_SEARCH_HELP_TITLE' => 'Настройка отображения результатов поиска и управление сохранёнными условиями поиска',
-    'LBL_SEARCH_HELP_CLOSE_TOOLTIP' => 'Закрыть', ///
-    'LBL_SEARCH_RESULTS_FOUND' => 'Search Results Found', ///
-    'LBL_SEARCH_RESULTS_TIME' => 'мсек.', ///
-    'ERR_BLANK_PAGE_NAME' => 'Пожалуйста, укажите название страницы.', ///
 	/* End MySugar Framework strings */
 
 	'LBL_NO_IMAGE' => 'Нет изображения',
@@ -2891,33 +2367,22 @@ $app_strings = array (
     //jchi #	20776
     'LBL_DROPDOWN_LIST_ALL' => 'All',
     
-    'LBL_OPERATOR_IN_TEXT' => 'is one of the following:',  ///
-    'LBL_OPERATOR_NOT_IN_TEXT' => 'is not one of the following:',  ///
 
 	//Connector
     'ERR_CONNECTOR_FILL_BEANS_SIZE_MISMATCH' => 'Error: The Array count of the bean parameter does not match the Array count of the results.',
 	'ERR_MISSING_MAPPING_ENTRY_FORM_MODULE' => 'Ошибка: Не указано подключение для модуля.',
 	'ERROR_UNABLE_TO_RETRIEVE_DATA' => 'Ошибка: Невозможно получить данные подключения {0}. Возможно, сервис в данный момент недоступен или у вас установлены неверные параметры подключения. Сообщение об ошибке: ({1}).',
 	'LBL_MERGE_CONNECTORS' => 'Получить данные',
-	'LBL_MERGE_CONNECTORS_BUTTON_KEY' => '[D]', ///
 	'LBL_REMOVE_MODULE_ENTRY' => 'Вы действительно хотите деактивировать связь подключения с данным модулем?',
 	
 	// fastcgi checks
     'LBL_FASTCGI_LOGGING' => 'Для оптимального использования IIS / FastCGI SAPI, установите параметр fastcgi.logging в файле php.ini равным 0.',
     
   
-        //cma
-    'LBL_MASSUPDATE_DELETE_GLOBAL_TEAM'=> 'The Global team cannot be deleted.', ///
-    'LBL_MASSUPDATE_DELETE_USER_EXISTS'=>'This private team [{0}] cannot be deleted until the user [{1}] is deleted.', ///
-
-    //martin #25548
-    'LBL_NO_FLASH_PLAYER' => 'Возможно, у вас выключена flash-анимация или у вас установлена старая версия Adobe Flash Player. Нажмите <a href="http://www.adobe.com/go/getflashplayer/">здесь</a> для загрузки последней версии плеера или включите flash-анимацию.', ///
-
     //Collection Field
 	'LBL_COLLECTION_NAME' => 'Name', ///
 	'LBL_COLLECTION_PRIMARY' => 'Primary', ///
 	'ERROR_MISSING_COLLECTION_SELECTION' => 'Empty required field', ///
-    'LBL_COLLECTION_EXACT' => 'Exact', ///
 	
 
   //MB -Fixed Bug #32812 -Max
@@ -2968,26 +2433,8 @@ $app_strings = array (
     'LBL_BEFORE' => 'До',
 
     // File fields
-    'LBL_UPLOAD_FROM_COMPUTER' => 'Загрузка с вашего компьютера', /// 
     'LBL_SEARCH_EXTERNAL_API' => 'Поиск на внешнем носителе', ///
     'LBL_EXTERNAL_SECURITY_LEVEL' => 'Безопасность', ///
-    'LBL_SHARE_PRIVATE' => 'Private', ///
-    'LBL_SHARE_COMPANY' => 'Company', ///
-    'LBL_SHARE_LINKABLE' => 'Linkable', ///
-    'LBL_SHARE_PUBLIC' => 'Public', ///
-
-    
-    // Web Services REST RSS
-    'LBL_RSS_FEED' => 'RSS-канал', /// ->
-    'LBL_RSS_RECORDS_FOUND' => 'записей найдено',
-    'ERR_RSS_INVALID_INPUT' => 'RSS is not a valid input_type',
-    'ERR_RSS_INVALID_RESPONSE' => 'RSS is not a valid response_type for this method',
-    
-    //External API Error Messages
-    'ERR_GOOGLE_API_415' => 'Google Docs не поддерживает данный формат файлов.',
-	    'LBL_EMPTY' => 'Empty', ///
-    'LBL_IS_EMPTY' => 'Is empty', ///
-    'LBL_IS_NOT_EMPTY' => 'Is not empty', /// <-
 
 	    //IMPORT SAMPLE TEXT
 		// Replaced by RAPIRA -->
@@ -3000,9 +2447,9 @@ $app_strings = array (
 Названия полей будут использоваться для корректного отображения содержимого файла в соответствующих полях системы.
 
 Примечание:
-Названия полей, содержащихся в БД также могут быть использованы в строке заголовка. Это может быть полезно, когда используются средства администрирования СУБД, например PhpMyAdmin или любой другой соответствующий инструментарий для экспорта данных, предназначенных для последующего импорта.
+Названия полей, содержащихся в БД, также могут быть использованы в строке заголовка. Это может быть полезно, когда используются средства администрирования СУБД, например, PhpMyAdmin или любой другой соответствующий инструментарий для экспорта данных, предназначенных для последующего импорта.
 Порядок расположения столбцов в файле не имеет решающего значения, так как данные будут импортироваться в систему в соответствии с порядком следования полей в строке заголовка.
-
+	
 
 Для использования данного файла в качестве шаблона, выполните следующие действия:
 1. Удалите строки с демонстрационными данными
@@ -3016,19 +2463,11 @@ $app_strings = array (
     //define labels to be used for overriding local values during import/export
     'LBL_EXPORT_ASSIGNED_USER_ID' => 'Ответственный(ая)-ID',
     'LBL_EXPORT_ASSIGNED_USER_NAME' => 'Ответственный(ая)',
-    'LBL_EXPORT_REPORTS_TO_ID' => 'Reports To ID',///
-    'LBL_EXPORT_FULL_NAME' => 'Full Name',///
-    'LBL_EXPORT_TEAM_ID' => 'Team ID',///
-    'LBL_EXPORT_TEAM_NAME' => 'Teams',///
-    'LBL_EXPORT_TEAM_SET_ID' => 'Team Set ID',///
 
-    'LBL_QUICKEDIT_NODEFS_NAVIGATION'=> 'Navigating... ', ///
 	
 	'LBL_PENDING_NOTIFICATIONS' => 'Уведомления',
 	'LBL_NOTIFICATIONS_NONE' => 'Уведомления отсутствуют',
-    'LBL_ALT_ADD_TEAM_ROW' => 'Add new team row', ///
     'LBL_ALT_REMOVE_TEAM_ROW' => 'Remove team', ///
-    'LBL_ALT_SPOT_SEARCH' => 'Spot Search', ///
     'LBL_ALT_SORT_DESC' => 'Нисходящая сортировка',
     'LBL_ALT_SORT_ASC' => 'Восходящая сортировка',
     'LBL_ALT_SORT' => 'Сортировать',
@@ -3047,8 +2486,6 @@ $app_strings = array (
     'LBL_EMAIL_PRIM_TITLE' => 'Основной адрес E-mail',
     'LBL_SELECT_ALL_TITLE' => 'Выбрать всё',
     'LBL_SELECT_THIS_ROW_TITLE' => 'Выбрать текущую запись',
-    'LBL_TEAM_SELECTED_TITLE' => 'Team Selected ', ///
-    'LBL_TEAM_SELECT_AS_PRIM_TITLE' => 'Select to make this team primary', ///
 	    //for upload errors
     'UPLOAD_ERROR_TEXT'          => 'ВНИМАНИЕ: В процессе загрузки произошла ошибка. Код ошибки: {0} - {1}.',
     'UPLOAD_ERROR_TEXT_SIZEINFO' => 'ВНИМАНИЕ: В процессе загрузки произошла ошибка. Код ошибки: {0} - {1}. Максимально допустимый размер загружаемого файла (upload_maxsize) составляет {2} байт.',
@@ -3077,9 +2514,6 @@ $app_strings = array (
     'LBL_FIRST_INPUT_EDIT_VIEW_KEY' => '7', ///
     'LBL_ADV_SEARCH_LNK_KEY' => '8', ///
     'LBL_FIRST_INPUT_SEARCH_KEY' => '9', ///
-    'LBL_GLOBAL_SEARCH_LNK_KEY' => '0', ///
-    'LBL_KEYBOARD_SHORTCUTS_HELP_TITLE' => 'Keyboard Shortcuts', ///
-    'LBL_KEYBOARD_SHORTCUTS_HELP' => '<p><strong>Form Functionality - Alt+</strong><br/> I = ed<b>I</b>t (detailview)<br/> U = d<b>U</b>plicate (detailview)<br/> D = <b>D</b>elete (detailview)<br/> A = s<b>A</b>ve (editview)<br/> L = cance<b>L</b> (editview) <br/><br/></p><p><strong>Search and Navigation  - Alt+</strong><br/> 7 = first input on Edit form<br/> 8 = Advanced Search link<br/> 9 = First Search Form input<br/> 0 = Unified search input<br></p>' , ///
 
     'ERR_CONNECTOR_NOT_ARRAY' => 'connector array in {0} been defined incorrectly or is empty and could not be used.', ///
     'ERR_SUHOSIN' => 'Загрузка была заблокирована модулем Suhosin, необходимо добавить &quot;upload&quot; в параметр  suhosin.executor.include.whitelist (детали описаны в файле журнала: suitecrm.log)',
@@ -3109,17 +2543,14 @@ $app_strings = array (
 $app_list_strings['moduleList']['Library'] = 'Library'; ///
 $app_list_strings['library_type'] = array('Books'=>'Book', 'Music'=>'Music', 'DVD'=>'DVD', 'Magazines'=>'Magazines'); ///
 $app_list_strings['moduleList']['EmailAddresses'] = 'Адрес E-mail'; ///
+$app_list_strings['project_priority_default'] = 'Medium';
 
+$app_list_strings['project_priority_options'] = array(
+    'High' => 'Высокий',
+    'Medium' => 'Средний',
+    'Low' => 'Низкий',
+);
 
-
-
-
-  $app_list_strings['kbdocument_status_dom'] =    array (
-    'Draft' => 'Черновик',
-    'Expired' => 'Просрочен' ,
-    'In Review' => 'На рассмотрении',
-    'Published' => 'Опубликован',
-  );
 
    $app_list_strings['kbadmin_actions_dom'] =
     array (
@@ -3230,7 +2661,6 @@ $app_list_strings['moduleList']['EmailAddresses'] = 'Адрес E-mail'; ///
 'UNITED KINGDOM' => 'ВЕЛИКОБРИТАНИЯ',
 'HUNGARY' => 'ВЕНГРИЯ',
 'VENEZUELA' => 'ВЕНЕСУЭЛА',
-'UPPER VOLTA' => 'ВЕРХНЯЯ ВОЛЬТА',
 'BRITISH VIRGIN ISLANDS' => 'ВИРГИНСКИЕ ОСТРОВА - ВЕЛИКОБРИТАНИЯ',
 'US VIRGIN ISLANDS' => 'ВИРГИНСКИЕ ОСТРОВА-США',
 
@@ -3403,7 +2833,6 @@ $app_list_strings['moduleList']['EmailAddresses'] = 'Адрес E-mail'; ///
 'FRENCH GUIANA' => 'ФРАНЦУЗСКАЯ ГВИАНА',
 'FRENCH POLYNESIA' => 'ФРАНЦУЗСКАЯ ПОЛИНЕЗИЯ',
 'CROATIA' => 'ХОРВАТИЯ',
-'CEVLON' => 'ЦЕЙЛОН',
 'CHAD' => 'ЧАД',
 'CZECH REPUBLIC' => 'ЧЕХИЯ',
 'CHILE' => 'ЧИЛИ',
@@ -3875,17 +3304,7 @@ $app_list_strings ['emailTemplates_type_list_no_workflow'] = array (
     'campaign' => 'Маркетинг' ,
     'email' => 'E-mail',
   );
-  /// ->
-  $app_strings ['documentation'] = array ( 
-    'LBL_DOCS' => 'Документация',
-    'ULT' => '02_Sugar_Ultimate',
-	'ENT' => '02_Sugar_Enterprise',
-	'CORP' => '03_Sugar_Corporate',
-	'PRO' => '04_Sugar_Professional',
-	'COM' => '05_Sugar_Community_Edition'
 
-);
-/// <-
 
 //Suite***************
 

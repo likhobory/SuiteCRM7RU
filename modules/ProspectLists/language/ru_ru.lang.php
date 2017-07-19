@@ -48,7 +48,6 @@ $mod_strings = array (
 'LBL_DATE_MODIFIED' => 'Дата изменения' ,
 'LBL_MODIFIED' => 'Исправлено' ,
 'LBL_CREATED' => 'Создано' ,
-'LBL_TEAM' => 'Группа' ,
 'LBL_ASSIGNED_TO' => 'Ответственный(ая)' ,
 'LBL_DESCRIPTION' => 'Описание' ,
 'LNK_NEW_CAMPAIGN' => 'Создать маркет. кампанию' ,
@@ -62,7 +61,6 @@ $mod_strings = array (
 'LNK_NEW_PROSPECT' => 'Создать адресата' ,
 'LNK_PROSPECT_LIST' => 'Адресаты' ,
 
-'LBL_PROSPECT_LISTS_SUBPANEL_TITLE' => 'Адресаты' , ///
 'LBL_CONTACTS_SUBPANEL_TITLE' => 'Контакты' ,
 'LBL_LEADS_SUBPANEL_TITLE' => 'Предварительные контакты' ,
 'LBL_PROSPECTS_SUBPANEL_TITLE'=> 'Адресаты' ,
@@ -74,12 +72,10 @@ $mod_strings = array (
 'LBL_LIST_TYPE_LIST_NAME'=> 'Тип' ,
 'LBL_NEW_FORM_TITLE'=> 'Новый список адресатов' ,
 'LBL_MARKETING_NAME'=> 'Название маркетинговой кампании',
-'LBL_MARKETING_MESSAGE'=> 'Отправить маркетинговое сообщение' , ///
 'LBL_DOMAIN_NAME'=> 'Имя домена' ,
 'LBL_DOMAIN'=> 'Нет писем в домене:'  ,
 'LBL_LIST_PROSPECTLIST_NAME'=> 'Название',
 'LBL_EMAIL_MARKETING'=>'Рассылки E-mail',
-'LBL_MORE_DETAIL' => 'Подробнее' /*for 508 compliance fix*/, ///
 );
 
 

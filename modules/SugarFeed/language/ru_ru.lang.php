@@ -29,8 +29,6 @@
  // Replaced by RAPIRA <--
  
 $mod_strings = array (
-'LBL_TEAM' => 'Team', ///
-'LBL_TEAM_ID' => 'Team Id', ///
 'LBL_ASSIGNED_TO_ID' => 'Ответственный(ая)-ID',
 'LBL_ASSIGNED_TO_NAME' => 'Ответственный(ая)',
 'LBL_ID' => 'ID',
@@ -97,14 +95,9 @@ $mod_strings = array (
 'WON_OPPORTUNITY'=> ' <b>ЗАКРЫЛ(а) С УСПЕХОМ</b> сделку',
 'WITH' => 'с',
 
-'LBL_LINK_TYPE_Link' => 'Ссылка', ///
-'LBL_LINK_TYPE_Image' => 'Изображение', ///
-'LBL_LINK_TYPE_YouTube' => 'YouTube&#153;', ///
 
 'LBL_SELECT' => 'Выбрать',
 'LBL_POST' => 'Опубликовать',
-'LBL_EXTERNAL_PREFIX' => 'External: ', ///
-'LBL_EXTERNAL_WARNING' => 'Items labeled "external" require an <a href="?module=EAPM">external account</a>.', ///
 'LBL_AUTHENTICATE' => 'Connect to', ///
 'LBL_AUTHENTICATION_PENDING' => 'Not all of the external accounts you have selected have been authenticated. Click \'Cancel\' to return to the Options window to authenticate the external accounts, or click \'Ok\' to proceed without authenticating.', ///
 'LBL_ADVANCED_SEARCH' => 'Расширенный фильтр' /*for 508 compliance fix*/,
@@ -114,7 +107,5 @@ $mod_strings = array (
 'LBL_VIEW' => 'View', ///
 'LBL_POST_TITLE' =>'Добавление сообщения пользователем ',
 'LBL_URL_LINK_TITLE' => 'Адрес ресурса или ссылка на изображение',
-'LBL_TEAM_VISIBILITY_TITLE' => 'team that can see this post', ///
-'LBL_SOCIAL' => 'Social', ///
 );
 ?>

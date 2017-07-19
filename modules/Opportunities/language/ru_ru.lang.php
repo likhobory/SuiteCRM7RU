@@ -57,30 +57,6 @@ $mod_strings = array (
 'db_date_closed' => 'LBL_LIST_DATE_CLOSED',
 //END DON'T CONVERT
 'UPDATE' => 'Сделка - валютное обновление' , /// ->
-'UPDATE_DOLLARAMOUNTS' => 'Обновить суммы в долларах США' ,
-'UPDATE_VERIFY' => 'Проверить суммы' ,
-'UPDATE_VERIFY_TXT' => 'Проверьте, что суммы в сделках имеют правильные значения, используются только цифры (0-9) и знак разряда (.)' ,
-'UPDATE_FIX' => 'Исправление сумм' ,
-'UPDATE_FIX_TXT' => 'Попытки исправить неверные суммы, посредством создания правильного разделителя из текущего. Любое изменение суммы будет сохранено в виде резервной копии в поле БД amount_backup. Если вы получили уведомление об ошибке, не повторяйте этот шаг без восстановления данных из резервной копии, в противном случае в архив будут перезаписаны новые неверные данные.' ,
-'UPDATE_DOLLARAMOUNTS_TXT' => 'Обновление сумм в долларах США для сделок, основанное на текущих установках валютных ставок. Эти величины используются для расчёта графиков и списков просмотра валютных сумм.' ,
-'UPDATE_CREATE_CURRENCY' => 'Создать новую валюту:' ,
-'UPDATE_VERIFY_FAIL' => 'Неудачная проверка записи:' ,
-'UPDATE_VERIFY_CURAMOUNT' => 'Текущая сумма:' ,
-'UPDATE_VERIFY_FIX' => 'Запуск проверки данных' ,
-'UPDATE_INCLUDE_CLOSE' => 'Включить закрытые записи' ,
-'UPDATE_VERIFY_NEWAMOUNT' => 'Новая сумма:' ,
-'UPDATE_VERIFY_NEWCURRENCY' => 'Новая валюта:' ,
-'UPDATE_DONE' => 'Готово' ,
-'UPDATE_BUG_COUNT' => 'Кол-во ошибок и попыток их решения:' ,
-'UPDATE_BUGFOUND_COUNT' => 'Найдено ошибок:' ,
-'UPDATE_COUNT' => 'Записей обновлено:' ,
-'UPDATE_RESTORE_COUNT' => 'Суммы в записях восстановлены:' ,
-'UPDATE_RESTORE' => 'Восстановление сумм' ,
-'UPDATE_RESTORE_TXT' => 'Восстановление сумм из резервной копии, созданной во время исправления ошибок.' ,
-'UPDATE_FAIL' => 'Не обновлено - ' ,
-'UPDATE_NULL_VALUE' => 'Сумма NULL установлена на 0 -' ,
-'UPDATE_MERGE' => 'Объединить валюты' ,
-'UPDATE_MERGE_TXT' => 'Объединение многих валют в одну. Если имеется много записей валют для одной и той же валюты, то объедините их вместе. Это так же объединит данные валюты для всех остальных модулей.' , /// <-
 'LBL_ACCOUNT_NAME' => 'Контрагент:' ,
 'LBL_AMOUNT' => 'Сумма сделки:' ,
 'LBL_AMOUNT_USDOLLAR' => 'Сумма:',
@@ -100,12 +76,10 @@ $mod_strings = array (
 'LNK_OPPORTUNITY_LIST' => 'Сделки' ,
 'ERR_DELETE_RECORD' => 'Перед удалением сделки должен быть определён номер записи.' ,
 'LBL_TOP_OPPORTUNITIES' => 'Мои основные открытые сделки' ,
-'NTC_REMOVE_OPP_CONFIRMATION' => 'Вы действительно хотите удалить этот контакт из сделки?' , ///
 'OPPORTUNITY_REMOVE_PROJECT_CONFIRM' => 'Вы действительно хотите удалить данную сделку из проекта?' ,
 'LBL_DEFAULT_SUBPANEL_TITLE' => 'Сделки' ,
 'LBL_ACTIVITIES_SUBPANEL_TITLE'=> 'Мероприятия' ,
 'LBL_HISTORY_SUBPANEL_TITLE'=> 'История' ,
-'LBL_RAW_AMOUNT'=> 'Сырой объем' , ///
 
 'LBL_LEADS_SUBPANEL_TITLE' => 'Предварительные контакты' ,
 'LBL_CONTACTS_SUBPANEL_TITLE' => 'Контакты' ,
@@ -129,17 +103,8 @@ $mod_strings = array (
 'LNK_IMPORT_OPPORTUNITIES' => 'Импорт сделок',
 'LBL_EDITLAYOUT' => 'Изменить макет' /*for 508 compliance fix*/,
 //For export labels ///
-'LBL_EXPORT_CAMPAIGN_ID' => 'Маркет. кампания (ID)',
-'LBL_OPPORTUNITY_TYPE' => 'Тип сделки',
-'LBL_EXPORT_ASSIGNED_USER_NAME' => 'Assigned User Name', ///
-'LBL_EXPORT_ASSIGNED_USER_ID' => 'Ответственный(ая)', ///
-'LBL_EXPORT_MODIFIED_USER_ID' => 'Изменено(ID)', ///
-'LBL_EXPORT_CREATED_BY' => 'Создано (ID)', ///
-'LBL_EXPORT_NAME'=> 'Имя', ///
 
 // SNIP
-'LBL_CONTACT_HISTORY_SUBPANEL_TITLE' => 'Related Contacts\' Emails', ///
-'TWITTER_USER_C' => 'Учётная запись в Twitter',
 
 'LBL_AOS_CONTRACTS' => 'Договоры',
 'LBL_AOS_QUOTES' => 'Предложения',

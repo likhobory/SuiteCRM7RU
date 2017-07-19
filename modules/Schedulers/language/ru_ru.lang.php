@@ -43,7 +43,6 @@ $mod_strings = array (
 'LBL_OOTB_SUGARFEEDS' => 'Очищать ленту событий',
 'LBL_OOTB_LUCENE_INDEX' => 'Индексировать неиндексированные документы',
 'LBL_OOTB_OPTIMISE_INDEX' => 'Оптимизировать индекс полнотекстового поиска',
-'LBL_UPDATE_TRACKER_SESSIONS' => 'Обновлять таблицу tracker_sessions',
 'LBL_OOTB_SEND_EMAIL_REMINDERS'	=> 'Отправлять напоминания о мероприятиях по E-mail',
 'LBL_OOTB_CLEANUP_QUEUE' => 'Очищать очередь заданий',
 'LBL_OOTB_REMOVE_DOCUMENTS_FROM_FS' => 'Удалять неиспользуемые файлы из системы',
@@ -90,8 +89,6 @@ $mod_strings = array (
 'LBL_MONTHS' => 'месяц' ,
 'LBL_DAY_OF_WEEK' => 'день недели' ,
 'LBL_CRONTAB_EXAMPLES' => 'Значения представлены в стандартной crontab-нотации' ,
-'LBL_CRONTAB_SERVER_TIME_PRE' => 'Планировщик выполняет задания с учётом часового пояса, указанного на сервере (', ///
-'LBL_CRONTAB_SERVER_TIME_POST' => '). Укажите соответствующее время выполнения задания.', ///
 // Labels
 'LBL_ALWAYS' => 'Всегда' ,
 'LBL_CATCH_UP' => 'Выполнить, если пропущено' ,
@@ -125,11 +122,7 @@ $mod_strings = array (
 'LNK_NEW_SCHEDULER' => 'Создать задание' ,
 'LNK_LIST_SCHEDULED' => 'Запланированные задания' ,
 // Messages
-'SOCK_GREETING' => "\nЭто интерфейс сервиса планировщика. \n[ Доступные команды: start|restart|shutdown|status ]\nДля выхода наберите 'quit'.\n", ///
-'ERR_DELETE_RECORD' => 'Вы должны указать конкретную запись для удаления запланированного задания.' ,
 'ERR_CRON_SYNTAX' => 'Неверный cron-синтакс',
-'NTC_DELETE_CONFIRMATION' => 'Вы действительно хотите удалить эту запись?' ,
-'NTC_STATUS' => 'Установите статус "Не активна" для удаления этой задачи из списка заданий' ,
 'NTC_LIST_ORDER' => 'Установка последовательности, в которой задания появятся в списке' ,
 'LBL_CRON_INSTRUCTIONS_WINDOWS' => 'Настройка планировщика Windows' ,
 'LBL_CRON_INSTRUCTIONS_LINUX' => 'Настройка сrontab' ,
@@ -137,31 +130,14 @@ $mod_strings = array (
 'LBL_CRON_LINUX_DESC2' => '... и добавьте в него следующую строку: ',
 'LBL_CRON_LINUX_DESC3' => 'Изменения в файл crontab необходимо вносить только после завершения установки системы.',
 'LBL_CRON_WINDOWS_DESC' => 'Для запуска планировщика SuiteCRM создайте пакетный файл и ежеминутно выполняйте его при помощи планировщика Windows. Пакетный файл должен содержать следующие команды: ',
-'LBL_NO_PHP_CLI' => 'Если на вашем хосте не установлен PHP, вы можете использовать wget или curl для выполнения запланированных задач.<br>для wget: <b>*&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;&nbsp;&nbsp;&nbsp;wget --quiet --non-verbose ' . (isset($sugar_config['site_url'])?$sugar_config['site_url']:'http://yoursite') . '/cron.php > /dev/null 2>&1</b><br>для curl: <b>*&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;&nbsp;&nbsp;&nbsp;curl --silent ' . (isset($sugar_config['site_url'])?$sugar_config['site_url']:'http://yoursite') . '/cron.php > /dev/null 2>&1',
 
 // Subpanels
 'LBL_JOBS_SUBPANEL_TITLE'=> 'Журнал заданий' ,
 'LBL_EXECUTE_TIME'=> 'Время выполнения' ,
 
 //jobstrings
-'LBL_REFRESHJOBS' => 'Обновить задания', /// ->
-'LBL_POLLMONITOREDINBOXES' => 'Проверять почтовые ящики для входящей почты', ///
-'LBL_PERFORMFULLFTSINDEX' => 'Full-text Search Index System', ///
 
-'LBL_RUNMASSEMAILCAMPAIGN' => 'Запускать ночью массовую рассылку писем',
-'LBL_POLLMONITOREDINBOXESFORBOUNCEDCAMPAIGNEMAILS' => 'Запускать ночью проверку почтовых ящиков для возвращаемых писем',
-'LBL_PRUNEDATABASE' => 'Очищать БД первого числа каждого месяца',
-'LBL_TRIMTRACKER' => 'Очищать таблицы трекера',
-'LBL_TRIMSUGARFEEDS'   => 'Очищать ленту событий',
-'LBL_SENDEMAILREMINDERS'=> 'Отправлять по E-mail напоминания о мероприятиях',
-'LBL_CLEANJOBQUEUE' => 'Очищать очередь заданий',
-'LBL_REMOVEDOCUMENTSFROMFS' => 'Удалять неиспользуемые файлы из системы',
 
-'LBL_AODOPTIMISEINDEX' => 'Оптимизировать индекс полнотекстового поиска',
-'LBL_AODINDEXUNINDEXED' => 'Индексировать неиндексированные документы',
-'LBL_POLLMONITOREDINBOXESAOP' => 'Портал - проверять почтовые ящики для входящей почты',
-'LBL_AORRUNSCHEDULEDREPORTS' => 'Создавать отчёты по расписанию',
-'LBL_PROCESSAOW_WORKFLOW' => 'Выполнять настроенные процессы', /// <-
 
 'LBL_SCHEDULER_TIMES' => 'Расписание планировщика',
 );

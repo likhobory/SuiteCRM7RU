@@ -101,19 +101,15 @@ $mod_strings = array (
 'LNK_NEW_EMAIL_TEMPLATE' => 'Создать шаблон E-mail' ,
 'LNK_EMAIL_TEMPLATE_LIST' => 'Шаблоны E-mail' ,
 'LBL_TRACK_BUTTON_TITLE' => 'Просмотр статуса' ,
-'LBL_TRACK_BUTTON_KEY' => 'T' , ///
 'LBL_TRACK_BUTTON_LABEL' => 'Просмотр статуса' ,
 'LBL_QUEUE_BUTTON_TITLE'=> 'Разослать E-mail' ,
-'LBL_QUEUE_BUTTON_KEY'=> 'u' , ///
 'LBL_QUEUE_BUTTON_LABEL'=> 'Разослать E-mail' ,
 'LBL_TEST_BUTTON_TITLE'=> 'Тест' ,
-'LBL_TEST_BUTTON_KEY'=> 'e' , ///
 'LBL_TEST_BUTTON_LABEL'=> 'Тест' ,
 'LBL_COPY_AND_PASTE_CODE' => ' или скопируйте и вставьте исходный код веб-формы на необходимую страницу',
 'LBL_CHARSET_NOTICE' => 'Примечание: Пожалуйста, убедитесь, что в секции &lt;head&gt; исходного кода страницы содержатся следующие строки:',
 
 'LBL_TODETAIL_BUTTON_TITLE'=> 'Просмотр деталей' ,
-'LBL_TODETAIL_BUTTON_KEY'=> 'T' , ///
 'LBL_TODETAIL_BUTTON_LABEL'=> 'Просмотр деталей' ,
 
 'LBL_DEFAULT'=> 'Список всех адресатов' ,
@@ -131,7 +127,6 @@ $mod_strings = array (
 'LBL_OPPORTUNITY_SUBPANEL_TITLE'=> 'Сделки',
 'LBL_LOG_ENTRIES_CONTACT_TITLE'=> 'Созданные контакты' ,
 
-'LBL_BACK_TO_CAMPAIGNS'=> 'Возврат к компаниям' , ///
 //error messages.
 'ERR_NO_EMAIL_MARKETING'=> 'Должна быть по меньшей мере одна активная рассылка E-mail.' ,
 'ERR_NO_TARGET_LISTS'=> 'Должен быть по меньшей мере один список адресатов, связанный с маркет. кампанией.' ,
@@ -141,7 +136,6 @@ $mod_strings = array (
 'ERR_MESS_DUPLICATE_FOR_LIST'=> 'Множество рассылок E-mail определено для этого списка адресатов' ,
 'ERR_FIX_MESSAGES'=> 'Пожалуйста, исправьте следующие ошибки перед тем как продолжить:' ,
 
-'LBL_TRACK_DELETE_BUTTON_KEY'=> 'D' , ///
 'LBL_TRACK_ROI_BUTTON_LABEL' => 'Просмотр рентабельности инвестиций (ROI)',
 'LBL_TRACK_DELETE_BUTTON_TITLE'=> 'Удаление тестовых данных' ,
 'LBL_TRACK_DELETE_BUTTON_LABEL'=> 'Удаление тестовых данных' ,
@@ -335,7 +329,6 @@ $mod_strings = array (
 'LBL_SCHEDULER_NAME' => 'Планировщик',
 'LBL_SCHEDULER_STATUS' => 'Статус',
 'LBL_MARKETING_CHECK1_GOOD' => 'Необходимые составляющие для осуществления рассылки обнаружены.',
-'LBL_MARKETING_CHECK1_BAD'  => 'Необходимые составляющие для осуществления рассылки НЕ обнаружены, вам требуется добавить все необходимые компоненты.',
 'LBL_MARKETING_CHECK2_GOOD' => 'Списки адресатов обнаружены.',
 'LBL_MARKETING_CHECK2_BAD'  => 'Не обнаружены списки адресатов. Необходимо создать хотя бы один на основе желаемой рассылки.',
 'LBL_EMAIL_SETUP_WIZ' => 'Настроить параметры E-mail',
@@ -464,7 +457,6 @@ $mod_strings = array (
 	'LBL_INSERT_VARIABLE_SUBJECT_BTN'	=> 'Вставить переменную',
 	'LBL_EMAIL_VARIABLES'	=> 'Добавление переменных в шаблон',
 	'LBL_SAVE' => 'Сохранить',
-	'LBL_EMAIL_TEMPLATE_TITLE' => 'Параметры шаблона', ///
 	'LBL_SAVE_TEMPLATE_BTN' => 'Сохранить шаблон',
 	'LBL_CREATE_TEMPLATE_BTN' => 'Создать шаблон',
 	'LBL_EDIT_TEMPLATE_BTN' => 'Править',
@@ -483,7 +475,6 @@ $mod_strings = array (
 	'LBL_CHOOSE_TARGETS' => 'Выбор адресатов',
 	'LBL_CAMPAIGN_DETAILS_AND_CONDITIONS' => 'Параметры маркетинговой кампании',
 	'LBL_OPEN_IN_NEW_WINDOW' => 'Открыть в новом окне...',
-	'LBL_OVERWRITE_TEMPLATE_CONFIRM_DIALOG' => 'Желаете обновить содержимое выбранного шаблона? При нажатии на кнопку "Отмена" мастер продолжит работу без сохранения изменений в шаблоне.',
 	'LBL_CREATE_MARKETING_RECORD' => 'Создать маркетинговую кампанию',
 	'LBL_NO_TEMPLATE_SELECTED' => 'Не выбран шаблон письма',
 	'LBL_SELECT_TEMPLATE' => 'Выбор шаблона',
@@ -501,7 +492,6 @@ $mod_strings = array (
 	'LBL_STEP_INFO_EMAIL_TEMPLATE' => "Выберите из перечня подходящий шаблон письма или заполните поля необходимыми данными и создайте новый шаблон, нажав на кнопку 'Создать шаблон'.",
 	'LBL_STEP_INFO_MARKETING' => 'Выберите учётную запись исходящей почты, которая будет использоваться в процессе рассылки и укажите дату/время начала рассылки.',
 	'LBL_STEP_INFO_BUDGET' => 'Укажите бюджет для расчёта рентабельности инвестиций (ROI).',
-	'LBL_EMAIL_TRACKERS' => 'В каждой маркетинговой кампании должно быть как минимум три списка адресатов: список для ПОДПИСКИ, список для ОТПИСКИ и ТЕСТОВЫЙ список. Вы можете выбрать уже существующие списки или указать списки по умолчанию. Во втором случае случае будут созданы пустые списки адресатов, которые необходимо заполнить соответствующими адресатами.',
 
 	'LBL_NO_SUBJECT' => 'У выбранного шаблона не указана тема сообщения.',
 	'LBL_NO_HTML_BODY_CONTENTS' => 'У выбранного шаблона нет html-содержимого',

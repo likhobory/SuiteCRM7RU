@@ -41,9 +41,6 @@ $mod_strings = array (
 'LBL_CUSTOM_LOCATION'=> 'Определено пользователем' ,
 'LBL_DEFAULT_LOCATION'=> 'По умолчанию' ,
 
-'LBL_DISCLOSURE_TITLE'=> 'Добавлять сообщение к каждому E-mail', ///
-'LBL_DISCLOSURE_TEXT_TITLE'=> 'Содержание сообщения', ///
-'LBL_DISCLOSURE_TEXT_SAMPLE'=> ' ', ///
 
 'LBL_EMAIL_DEFAULT_CHARSET'=> 'Создавать E-mail в этой кодировке',
 'LBL_EMAIL_DEFAULT_EDITOR'=> 'Создавать E-mail, используя этого почтового клиента' ,
@@ -87,7 +84,6 @@ $mod_strings = array (
 'LBL_EXCHANGE_SMTPPORT'=> 'Exchange - порт сервера:',
 'LBL_EXCHANGE_SMTPSERVER'=> 'Exchange  - сервер:',
 'LBL_EMAIL_LINK_TYPE'=> 'Почтовый клиент' ,
-'LBL_EMAIL_LINK_TYPE_HELP'=> '<b>Почтовый клиент SuiteCRM</b> - отправка электронных писем при помощи встроенного в SuiteCRM почтового клиента.<br><b>Внешний почтовый клиент</b> - любой другой почтовый клиент, например Microsoft Outlook.',
 'LBL_MARKETING_ID'=> 'ID рассылки' ,
 'LBL_MODULE_ID'                             => 'EmailMan',
 'LBL_MODULE_NAME'=> 'Настройка E-mail' ,
@@ -97,9 +93,7 @@ $mod_strings = array (
 'LBL_NOTIFY_FROMADDRESS' => 'E-mail отправителя:' ,
 'LBL_NOTIFY_FROMNAME' => 'Имя отправителя:' ,
 'LBL_NOTIFY_ON'=> 'Отправление уведомлений' ,
-'LBL_NOTIFY_SEND_BY_DEFAULT'=> 'Отправлять уведомления новым пользователям' , ///
 'LBL_NOTIFY_TITLE'=> 'Параметры E-mail' ,
-'LBL_OLD_ID'=> 'Старый ID' , ///
 'LBL_OUTBOUND_EMAIL_TITLE'=> 'Параметры исходящей почты' ,
 'LBL_RELATED_ID'=> 'Родительский ID' ,
 'LBL_RELATED_TYPE'=> 'Родительский тип' ,

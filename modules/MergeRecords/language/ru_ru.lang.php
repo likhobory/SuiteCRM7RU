@@ -43,7 +43,6 @@ $mod_strings = array (
 'LBL_MERGE_VALUE_OVER' => 'Перезаписать значением',
 
 'LBL_NEXT_STEP_TITLE' => 'Следующий шаг',
-'LBL_NEXT_STEP_BUTTON_KEY' => 'N', ///
 'LBL_NEXT_STEP_BUTTON_LABEL' => 'Следующий шаг >',
 
 'LBL_PERFORM_MERGE_BUTTON_TITLE' => 'Выполнить объединение',
@@ -51,7 +50,6 @@ $mod_strings = array (
 'LBL_PERFORM_MERGE_BUTTON_LABEL' => 'Выполнить объединение',
 
 'LBL_SAVE_MERGED_RECORD_BUTTON_TITLE' => 'Сохранить объединение',
-'LBL_SAVE_MERGED_RECORD_BUTTON_KEY' => 'S', ///
 'LBL_SAVE_MERGED_RECORD_BUTTON_LABEL' => 'Сохранить объединение',
 
 'LBL_STEP2_FORM_TITLE' => 'Найденные записи для объединения с',

@@ -87,11 +87,7 @@ $mod_strings = array (
 'LBL_VIEW_GANTT_DURATION' => 'Продолжительность',
 'LBL_TASK_TITLE' => 'Редактировать',
 'LBL_PREDECESSOR_TITLE' => 'Редактировать',
-'LBL_START_DATE_TITLE' => 'Select Start Date', ///
-'LBL_END_DATE_TITLE' => 'Select End Date', ///
 'LBL_DURATION_TITLE' => 'Продолжительность',
-'LBL_PERCENTAGE_COMPLETE_TITLE' => 'Edit %Complete', ///
-'LBL_ACTUAL_DURATION_TITLE' => 'Edit Actual Duration', ///
 
 'LBL_ASSIGNED_USER_ID' => 'Ответственный(ая):',
 

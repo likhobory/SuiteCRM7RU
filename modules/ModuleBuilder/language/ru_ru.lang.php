@@ -324,9 +324,6 @@ You can re-order the modules by dragging their rows in the table.<br/><br/>
 'LBL_HOME_EDIT_DROPDOWNS'=> 'Редактор комбобоксов',
 
 //ASSISTANT /// ->
-'LBL_AS_SHOW' => 'Показывать помощник в дальнейшем',
-'LBL_AS_IGNORE' => 'Не показывать помощник в дальнейшем',
-'LBL_AS_SAYS' => 'Помощник',
 /// <-
 
 
@@ -337,7 +334,6 @@ You can re-order the modules by dragging their rows in the table.<br/><br/>
 'LBL_EDIT_DROPDOWN'=> 'Редактирование комбобокса',
 'LBL_DEVELOPER_TOOLS' => 'Инструментарий разработчика',
 'LBL_SUGARPORTAL' => 'Редактор портала', ///
-'LBL_SYNCPORTAL' => 'Синхронизация портала', ///
 'LBL_PACKAGE_LIST' => 'Список пакетов',
 'LBL_HOME' => 'SuiteCRM',
 'LBL_NONE'=> '-Нет-',
@@ -369,7 +365,6 @@ You can re-order the modules by dragging their rows in the table.<br/><br/>
 'LBL_EDIT_COLUMNS'=> 'Редактирование столбцов', ////
 'LBL_EDIT_LABELS'=> 'Редактирование надписей', ////
 'LBL_EDIT_FIELDS'=> 'Редактирование полей',
-'LBL_EDIT_PORTAL'=> 'Редактировать Portal для ', ///
 
 'LBL_EDITVIEW'=> 'Форма редактирования',
 'LBL_FILLER'=> 'Пустое поле',
@@ -397,12 +392,7 @@ You can re-order the modules by dragging their rows in the table.<br/><br/>
 'LBL_SUBPANEL_TITLE' => 'Надпись:',
 'LBL_SEARCH_FORMS' => 'Фильтры',
 'LBL_FILTER'=> 'Фильтры',
-'LBL_STAGING_AREA' => 'Staging Area (drag and drop items here)',   ///
-'LBL_SUGAR_FIELDS_STAGE' => 'Suite Fields (click items to add to staging area)', ///
-'LBL_SUGAR_BIN_STAGE' => 'Suite Bin (click items to add to staging area)',   ///
 'LBL_TOOLBOX' => 'ИНСТРУМЕНТАРИЙ',
-'LBL_VIEW_SUGAR_FIELDS' => 'View Suite Fields',   ///
-'LBL_VIEW_SUGAR_BIN' => 'View Suite Bin',  ///
 'LBL_QUICKCREATE' => 'Форма быстрого ввода',
 'LBL_EDIT_DROPDOWNS' => 'Редактировать комбобокс',
 'LBL_ADD_DROPDOWN' => 'Добавить новый комбобокс',
@@ -489,7 +479,6 @@ You can re-order the modules by dragging their rows in the table.<br/><br/>
 'LBL_SECTION_PACKAGES' => 'Пакеты',
 'LBL_SECTION_PACKAGE' => 'Пакет',
 'LBL_SECTION_MODULES' => 'Модули',
-'LBL_SECTION_PORTAL' => 'Portal', ///
 'LBL_SECTION_DROPDOWNS' => 'Комбобоксы',
 'LBL_SECTION_PROPERTIES' => 'Свойства',
 'LBL_SECTION_DROPDOWNED' => 'Редактирование комбобокса',
@@ -581,8 +570,6 @@ You can re-order the modules by dragging their rows in the table.<br/><br/>
 'LBL_WIDTH'=> 'Ширина',
 'LBL_PACKAGE'=> 'Пакет:',
 'LBL_TYPE'=> 'Тип:',
-'LBL_TEAM_SECURITY'=> 'Team Security', ///
-'LBL_ASSIGNABLE'=> 'Указание ответственных',    ///
 'LBL_PERSON'=> 'Персона',
 'LBL_COMPANY'=> 'Компания',
 'LBL_ISSUE'=> 'Описание',
@@ -659,19 +646,12 @@ You can re-order the modules by dragging their rows in the table.<br/><br/>
 //CONFIRM
 'LBL_CONFIRM_FIELD_DELETE'=> 'Удаление данного пользовательского поля приведёт к удалению как самого поля, так и всех относящихся к нему данных. Также это поле будет удалено изо всех макетов, в которые оно было добавлено.\n\nПродолжить удаление?',
 'LBL_CONFIRM_RELATIONSHIP_DELETE'=> 'Вы действительно хотите удалить эту связь?',
-'LBL_CONFIRM_RELATIONSHIP_DEPLOY'=> 'После установки связи она станет постоянной. Вы действительно хотите установить эту связь?',
 'LBL_CONFIRM_DONT_SAVE' => 'С момента последнего сохранения были внесены изменения. Желаете их сохранить?',
 'LBL_CONFIRM_DONT_SAVE_TITLE' => 'Сохранить изменения?',
 'LBL_CONFIRM_LOWER_LENGTH' => 'Данные могут быть урезаны и это действие не может быть отменено. Вы действительно хотите продолжить?',
 
 //POPUP HELP
 'LBL_POPHELP_FIELD_DATA_TYPE'=>'Выберите соответствующий тип данных, основываясь на данных, которые будут вводиться в поле.',
-'LBL_POPHELP_SEARCHABLE'=>'Select the boost level for this field. <br />Fields with a higher boost level will be given greater weight when the search is performed. <br />When a search is performed, matching records containing fields with a greater weight will be appear higher in the search results.<br /> If you change the boost level for a field from one level to another, perform a system index to apply the change. <br/> Be sure to select to delete the existing data at the time that the system index is performed.', ///
-'LBL_POPHELP_IMPORTABLE'=> '<b>Да</b>: Поле будет задействовано при операции импортирования.<br><b>Нет</b>: Поле НЕ будет задействовано при операции импортирования.<br><b>Обязательное</b>: При выполнении импортирования значение поля НЕ может быть пустым.',
-'LBL_POPHELP_IMAGE_WIDTH'=> 'Укажите ширину поля в пикселях.<br> Загружаемая картинка будет масштабирована до указанной ширины.',
-'LBL_POPHELP_IMAGE_HEIGHT'=> 'Укажите высоту поля в пикселях.<br> Загружаемая картинка будет масштабирована до указанной высоты.',
-'LBL_POPHELP_DUPLICATE_MERGE'=> '<b>Включено</b>: Поле появится в списке полей при объединении дубликатов, но НЕ будет доступно для использования в условии фильтра при поиске дубликатов.<br><br><b>Выключено</b>: Поле НЕ появится в списке полей при объединении дубликатов и НЕ будет доступно для использования в условии фильтра при поиске дубликатов.',
-'LBL_POPHELP_GLOBAL_SEARCH'=>'Select to use this field when searching for records using the Global Search on this module.', ///
 
 
 //Revert Module labels
@@ -690,17 +670,12 @@ You can re-order the modules by dragging their rows in the table.<br/><br/>
 'LBL_HISTORY_TIMESTAMP' => 'Время создания',
 'LBL_HISTORY_TITLE' => ' (история изменений)',
 
-'LBL_ADD_LAYOUT' => 'Добавить макет', /// ->
-'LBL_ADD_LAYOUTS' => 'Добавить макет',
 'LBL_QUESTION_ADD_LAYOUT' => 'Выбрать макет Групп для добавления.',
 'LBL_REMOVE_LAYOUT' => 'Удалить макет Групп',
 /// <-
 
 'LBL_SECURITYGROUP' => 'Группы пользователей:', ///
 'LBL_COPY_FROM' => 'Копировать из:',
-'LBL_ADDLAYOUTDONE' => 'Сохранённый макет', ///
-'LBL_REMOVELAYOUTDONE' => 'Удалённый макет', ///
-'LBL_REMOVE_CONFIRM' => 'Вы уверены?', ///
 
 'fieldTypes' => array(
 'varchar'=> 'TextField',
@@ -731,9 +706,7 @@ You can re-order the modules by dragging their rows in the table.<br/><br/>
 
 'parent' => 'Flex Relate',
 
-'LBL_ILLEGAL_FIELD_VALUE' => 'Ключ комбобокса не может содержать кавычки.', ///
 'LBL_CONFIRM_SAVE_DROPDOWN' => 'Вы удаляете выбранные значения из списка. Таким образом, удаляемые значения будут недоступны во всех комбобоксах, использующих данный список. Продолжить?',
-'LBL_POPHELP_VALIDATE_US_PHONE' => 'Select to validate this field for the entry of a 10-digit phone number,<br>with allowance for the country code 1,<br>and to apply a U.S. format to the phone number when the record is saved.<br> The following format will be applied: (xxx) xxx-xxxx.', ///
 'LBL_ALL_MODULES'=>'Все модули',
 'LBL_RELATED_FIELD_ID_NAME_LABEL' => '{0} (связано с ID модуля {1})',
 );
