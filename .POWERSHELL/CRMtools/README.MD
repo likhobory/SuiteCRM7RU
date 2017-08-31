@@ -1,18 +1,18 @@
-**SYNOPSIS**
+**SYNOPSIS**  
     Creates new SuiteCRM language pack without unused language strings.
 
-**USAGE**
+**USAGE**  
     Remove-UnusedStrings [[-SUITE_PATH] <String>] [[-LANGPACK_PATH] <String>] [[-NEW_BASE] <String>] [[-SUF] <Regex>] [-SHOWKEYS ] [<CommonParameters>]
 
-**ALIASES**
+**ALIASES**  
     ru
 	
 	
-**DESCRIPTION**
+**DESCRIPTION**  
     This cmdlet gets all language files from language pack, compares them with all language files from SuiteCRM instance, removes any unused strings and puts new language files into specified folder.
 
 
-**PARAMETERS**
+**PARAMETERS**  
 ```
     -SUITE_PATH <String>
         Path to the SuiteCRM instance.
@@ -54,11 +54,11 @@
         Default value                    false
 ```
 
-**OUTPUTS**
+**OUTPUTS**  
     The number of affected language strings.
 
 
-**EXAMPLE**
+**EXAMPLE**  
     
 `    C:\PS>Remove-UnusedStrings -LANGPACK_PATH C:\rapira-suite_pack_russian-7.9.5 -SUITE_PATH C:\suitecrm-7.9.5  -NEW_BASE new-folder -SUF "PR\s*#1868"` > c:\unused.txt
     
