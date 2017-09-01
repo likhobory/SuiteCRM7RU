@@ -2,7 +2,7 @@
     Creates new SuiteCRM language pack without unused language strings.
 
 **USAGE**  
-    Remove-UnusedStrings [[-SUITE_PATH] <String>] [[-LANGPACK_PATH] <String>] [[-NEW_BASE] <String>] [[-SUF] <Regex>] [-SHOWKEYS ] [<CommonParameters>]
+    Remove-UnusedStrings [[-SUITE_PATH] <String>] [[-LANGPACK_PATH] <String>] [[-LANG] <String>] [[-NEW_BASE] <String>] [[-SUF] <Regex>] [-SHOWKEYS] [<CommonParameters>]
 
 **ALIASES**  
     ru
@@ -15,7 +15,7 @@
 **PARAMETERS**  
 ```
     -SUITE_PATH <String>
-        Path to the SuiteCRM instance.
+        Path to the SuiteCRM instance (C:\develop\Suite\SuiteCRM if omitted).
 
         Required?                        false
         Position?                        1
@@ -23,18 +23,18 @@
 
 
     -LANGPACK_PATH <String>
-        Path to the language pack instance.
+        Path to the language pack instance (C:\develop\Suite\rapira-suite_pack_russian if omitted).
 
         Required?                        false
         Position?                        2
         Default value                    C:\develop\Suite\rapira-suite_pack_russian
 
     -LANG <String>
-        Language parameter (ru_ru if omited)
+        Language parameter (ru_ru if omitted)
         
-        Required?            			false
-        Position?           			3
-        Default value                	ru_ru
+        Required?            		 false
+        Position?           		 3
+        Default value                	 ru_ru
 		
 		
     -NEW_BASE <String>
