@@ -55,7 +55,7 @@
 ```
 
 **OUTPUTS**  
-    The number of affected language strings.
+    The number of removed language strings or sorted keys from removed strings.
 
 
 **EXAMPLE**  

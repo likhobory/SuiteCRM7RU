@@ -57,7 +57,7 @@ param (
         [regex]$SUF="PR\s*#",
 
         [Alias('sk')]
-        #Display or not all unique keys from removed language strings.
+        #Display all unique keys from removed language strings.
         [switch]$SHOWKEYS=$false
       )
 
@@ -96,7 +96,7 @@ $en=ls $SUITE_PATH -recurs -inc *en_us* -exc *demo*, *.js -File
 
     {
 
-        $rfile=ls ($file.FullName -replace  "$EN_BASE", "$RUS_BASE" -replace  'en_us', 'ru_ru') -EA Inquire
+        $rfile=ls ($file.FullName -replace  [regex]::Escape($SUITE_PATH), $LANGPACK_PATH -replace  'en_us', 'ru_ru') -EA Inquire
 
         Write-Progress -activity "Searching for unused strings..." -status "Processing: $rfile" 
 
@@ -155,10 +155,9 @@ $en=ls $SUITE_PATH -recurs -inc *en_us* -exc *demo*, *.js -File
         }
 
      
-     $unused=$unused|% {[regex]::Escape($_)} |% {"(?s)$_.*?(\),|;)"} 
-
      if ($unused)  
         { 
+          $unused=$unused|% {[regex]::Escape($_)} |% {"(?s)$_.*?(\),|;)"}
           [System.IO.File]::WriteAllLines($rfile,  ($rfileGC -replace ($unused -join "|")))
         }
 
