@@ -49,6 +49,11 @@ param (
         [string]$LANGPACK_PATH ="C:\develop\Suite\rapira-suite_pack_russian",
 
         [ValidateNotNullOrEmpty()]
+        [ValidateScript({$_ -match "^[a-z]{2}_[a-z]{2}$"})]
+        #Language parameter (ru_ru if omited)
+        [string]$LANG ="ru_ru",
+
+        [ValidateNotNullOrEmpty()]
         [Alias('nb')]
         #Path to the new folder for generated files w/o unused language strings.
         [string]$NEW_BASE ="new-langpack",
@@ -96,14 +101,14 @@ $en=ls $SUITE_PATH -recurs -inc *en_us* -exc *demo*, *.js -File
 
     {
 
-        $rfile=ls ($file.FullName -replace  [regex]::Escape($SUITE_PATH), $LANGPACK_PATH -replace  'en_us', 'ru_ru') -EA Inquire
+        $rfile=ls ($file.FullName -replace  [regex]::Escape($SUITE_PATH), $LANGPACK_PATH -replace  'en_us', $LANG) -EA Inquire
 
         Write-Progress -activity "Searching for unused strings..." -status "Processing: $rfile" 
 
-        $lang=($file |sls $reg_en  -AllMatches -CaseSensitive).matches.value|sort|gu
+        $langen=($file |sls $reg_en  -AllMatches -CaseSensitive).matches.value|sort|gu
         $langrus=($rfile |sls $reg_ru -AllMatches -CaseSensitive).matches.value|sort|gu
 
-        $unused=$langrus|? {$lang -notcontains $_}
+        $unused=$langrus|? {$langen -notcontains $_}
 
   
        
@@ -124,7 +129,7 @@ $en=ls $SUITE_PATH -recurs -inc *en_us* -exc *demo*, *.js -File
 
 # for unused arrays from \include\language\en_us.lang.php
      $file=ls ("$SUITE_PATH\include\language\en_us.lang.php")
-     $rfile=ls "$(Split-Path $LANGPACK_PATH)\$NEW_BASE\include\language\ru_ru.lang.php"
+     $rfile=ls "$(Split-Path $LANGPACK_PATH)\$NEW_BASE\include\language\$LANG.lang.php"
 
      $rfileGC=gc -Raw -Encoding UTF8 $rfile
 
@@ -135,10 +140,10 @@ $en=ls $SUITE_PATH -recurs -inc *en_us* -exc *demo*, *.js -File
      Write-Verbose "RegExp for arrays: $reg_ru"
 
      
-     $lang=(gc $file -Raw |sls $reg_en -AllMatches).Matches.Groups.Value|sort|gu
+     $langen=(gc $file -Raw |sls $reg_en -AllMatches).Matches.Groups.Value|sort|gu
      $langrus=($rfileGC|sls $reg_ru -AllMatches).Matches.Groups.Value|sort|gu
 
-     $lfilt=($lang -notmatch ";|\),") 
+     $lfilt=($langen -notmatch ";|\),") 
      $lrusfilt=($langrus -notmatch ";|\),") 
 
 

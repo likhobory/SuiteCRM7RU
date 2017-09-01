@@ -29,12 +29,19 @@
         Position?                        2
         Default value                    C:\develop\Suite\rapira-suite_pack_russian
 
-
+    -LANG <String>
+        Language parameter (ru_ru if omited)
+        
+        Required?            			false
+        Position?           			3
+        Default value                	ru_ru
+		
+		
     -NEW_BASE <String>
         Path to the new folder for generated files w/o unused language strings.
 
         Required?                        false
-        Position?                        3
+        Position?                        4
         Default value                    new-langpack
 
 
@@ -42,7 +49,7 @@
         Suffix in regex format for unused strings in language files which you do not want to remove.
 
         Required?                        false
-        Position?                        4
+        Position?                        5
         Default value                    PR\s*#
 
 
