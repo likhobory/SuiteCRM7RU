@@ -41,16 +41,16 @@ param (
 
 param (
         [ValidateScript({Test-Path $_})]
-        #Path to the SuiteCRM instance.
+        #Path to the SuiteCRM instance (C:\develop\Suite\SuiteCRM if omitted).
         [string]$SUITE_PATH ="C:\develop\Suite\SuiteCRM",
 
         [ValidateScript({Test-Path $_})]
-        #Path to the language pack instance.
+        #Path to the language pack instance (C:\develop\Suite\rapira-suite_pack_russian if omitted).
         [string]$LANGPACK_PATH ="C:\develop\Suite\rapira-suite_pack_russian",
 
         [ValidateNotNullOrEmpty()]
         [ValidateScript({$_ -match "^[a-z]{2}_[a-z]{2}$"})]
-        #Language parameter (ru_ru if omited)
+        #Language parameter (ru_ru if omitted)
         [string]$LANG ="ru_ru",
 
         [ValidateNotNullOrEmpty()]
