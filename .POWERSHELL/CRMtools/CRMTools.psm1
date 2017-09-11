@@ -1,21 +1,20 @@
-﻿   
  Function Get-RegExp
  {
 
-param (
-        [string]$suffix,
+    param (
+        [string]$suffix="PR\s*#",
         [parameter(mandatory=$true)]
         [ValidateNotNullOrEmpty()]
         [string]$InitRegexpString
-      )
+            )
+    
+    
+            if (!$suffix)
+                { $RegExp=$InitRegexpString }
+            else
+                { $RegExp="$InitRegexpString(?!.*$SUF)" }
 
-
-        if (!$suffix)
-           { $RegExp=$InitRegexpString }
-        else
-           { $RegExp="$InitRegexpString(?!.*$SUF)" }
-
-        $RegExp
+            $RegExp
 
  }
 
@@ -36,8 +35,9 @@ param (
      #>
    
 
-[CmdletBinding()]
+#[CmdletBinding()]
    
+
 
 param (
         [ValidateScript({Test-Path $_})]
@@ -48,7 +48,6 @@ param (
         #Path to the language pack instance (C:\develop\Suite\rapira-suite_pack_russian if omitted).
         [string]$LANGPACK_PATH ="C:\develop\Suite\rapira-suite_pack_russian",
 
-        [ValidateNotNullOrEmpty()]
         [ValidateScript({$_ -match "^[a-z]{2}_[a-z]{2}$"})]
         #Language parameter (ru_ru if omitted)
         [string]$LANG ="ru_ru",
@@ -65,6 +64,7 @@ param (
         #Display all unique keys from removed language strings.
         [switch]$SHOWKEYS=$false
       )
+
 
 [string]$EN_BASE=Split-Path $SUITE_PATH -Leaf
 [string]$RUS_BASE=Split-Path $LANGPACK_PATH -Leaf
@@ -133,7 +133,8 @@ $en=ls $SUITE_PATH -recurs -inc *en_us* -exc *demo*, *.js -File
 
      $rfileGC=gc -Raw -Encoding UTF8 $rfile
 
-     $reg_en="(?s)('\w+')(?=\s*=>\s*array).*?\),|(?-s)(\$.*\]).*?;"
+
+     $reg_en= "(?s)(?>'\w+')(?=\s*=>\s*array)|(?-s)(?>\$.*\])"
 
      $reg_ru=Get-RegExp -suffix $SUF -InitRegexpString $reg_en
 
@@ -143,11 +144,8 @@ $en=ls $SUITE_PATH -recurs -inc *en_us* -exc *demo*, *.js -File
      $langen=(gc $file -Raw |sls $reg_en -AllMatches).Matches.Groups.Value|sort|gu
      $langrus=($rfileGC|sls $reg_ru -AllMatches).Matches.Groups.Value|sort|gu
 
-     $lfilt=($langen -notmatch ";|\),") 
-     $lrusfilt=($langrus -notmatch ";|\),") 
 
-
-     $unused=$lrusfilt |? {$lfilt  -notcontains $_}
+     $unused=$langrus |? {$langen  -notcontains $_}
       
      $allunused+=$unused
       
@@ -169,10 +167,6 @@ $en=ls $SUITE_PATH -recurs -inc *en_us* -exc *demo*, *.js -File
      "`nTotal strings removed: $($allunused.Count)`n"  
      
     
- }  
+ } 
 
-              
-    Set-Alias ru Remove-UnusedStrings
-    
-    Export-ModuleMember -Function Remove-UnusedStrings  -Alias ru
-
+ Set-Alias rr Remove-UnusedStrings
