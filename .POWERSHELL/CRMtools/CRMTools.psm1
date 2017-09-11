@@ -2,7 +2,7 @@
  {
 
     param (
-        [string]$suffix="PR\s*#",
+        [string]$suffix,
         [parameter(mandatory=$true)]
         [ValidateNotNullOrEmpty()]
         [string]$InitRegexpString
@@ -35,7 +35,7 @@
      #>
    
 
-#[CmdletBinding()]
+[CmdletBinding()]
    
 
 
@@ -169,4 +169,6 @@ $en=ls $SUITE_PATH -recurs -inc *en_us* -exc *demo*, *.js -File
     
  } 
 
- Set-Alias rr Remove-UnusedStrings
+    Set-Alias ru Remove-UnusedStrings
+    
+    Export-ModuleMember -Function Remove-UnusedStrings  -Alias ru
