@@ -29,6 +29,6 @@
  // Replaced by RAPIRA <--
 
 $mod_strings = array(
-'LBL_TEAM'=> 'Группа пользователей',
-'LBL_TEAMS'=> 'Группы пользователей',
+'LBL_TEAM' => 'Группа пользователей',
+'LBL_TEAMS' => 'Группы пользователей',
 );

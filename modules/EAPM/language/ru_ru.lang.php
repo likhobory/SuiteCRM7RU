@@ -28,17 +28,15 @@
   *********************************************************************************/
  // Replaced by RAPIRA <--
  
-$mod_strings = array (
+$mod_strings = array(
 'LBL_ASSIGNED_TO_ID' => 'Ответственный(ая)-ID',
 'LBL_ASSIGNED_TO_NAME' => 'Пользователь SuiteCRM',
 'LBL_ID' => 'ID',
 'LBL_DATE_ENTERED' => 'Дата создания',
 'LBL_DATE_MODIFIED' => 'Дата изменения',
 'LBL_MODIFIED' => 'Изменено',
-'LBL_MODIFIED_ID' => 'Изменено(ID)',
 'LBL_MODIFIED_NAME' => 'Изменено',
 'LBL_CREATED' => 'Создано',
-'LBL_CREATED_ID' => 'Создано(ID)',
 'LBL_DESCRIPTION' => 'Описание',
 'LBL_DELETED' => 'Удалено',
 'LBL_NAME' => 'Имя пользователя приложения',
@@ -51,11 +49,9 @@ $mod_strings = array (
 'LBL_HOMEPAGE_TITLE' => 'Мои внешние учётные записи',
 'LNK_NEW_RECORD' => 'Создать внешнюю учётную запись',
 'LNK_LIST' => 'Внешние учётные записи',
-'LNK_IMPORT_SUGAR_EAPM' => 'Импорт внешних учётных записей',
 'LBL_SEARCH_FORM_TITLE' => 'Поиск внешнего источника',
 'LBL_HISTORY_SUBPANEL_TITLE' => 'История',
 'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Мероприятия',
-'LBL_SUGAR_EAPM_SUBPANEL_TITLE' => 'Внешние учётные записи',
 'LBL_NEW_FORM_TITLE' => 'Новая учётная запись',
 'LBL_PASSWORD' => 'Пароль',
 'LBL_USER_NAME' => 'Имя пользователя приложения',
@@ -70,12 +66,9 @@ $mod_strings = array (
 'LBL_VALIDATED' => 'Соединение установлено',
 'LBL_ACTIVE' => 'Активно',
 'LBL_OAUTH_NAME' => '%s',
-'LBL_SUGAR_USER_NAME' => 'Пользователь',
-'LBL_DISPLAY_PROPERTIES' => 'Параметры',
 'LBL_CONNECT_BUTTON_TITLE' => 'Подключить',
 'LBL_NOTE' => 'Please Note', ///
 'LBL_CONNECTED' => 'Подключено',
-'LBL_DISCONNECTED' => 'Не подключено',
 
 'LBL_ERR_NO_AUTHINFO' => 'По данной учётной записи нет регистрационных данных.',
 'LBL_ERR_NO_TOKEN' => 'There are no valid login tokens for this account.',
@@ -90,7 +83,6 @@ $mod_strings = array (
 'LBL_OMIT_URL' => '(Без http:// или https://)',
 'LBL_OAUTH_SAVE_NOTICE' => 'Нажмите на кнопку <b>Подключить</b> для перенаправления на страницу ввода регистрационной информации. После успешного подключения вы автоматически вернётесь в SuiteCRM.',
 'LBL_BASIC_SAVE_NOTICE' => 'Нажмите на кнопку <b>Подключить</b> для подключения данной учётной записи к SuiteCRM.',
-'LBL_ERR_NO_RESPONSE' => 'При попытке подключения произошла ошибка.',
 'LBL_ERR_POPUPS_DISABLED' => 'Для успешного подключения разрешите всплывающие окна в вашем браузере или добавьте сайт "{0}" в список исключений.',
 
 'LBL_API_OAUTHSECRET' => 'API OAuth Secret',

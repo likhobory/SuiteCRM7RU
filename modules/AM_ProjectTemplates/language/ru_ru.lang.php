@@ -28,17 +28,15 @@
   *********************************************************************************/
  // Replaced by RAPIRA <--
 
-$mod_strings = array (
+$mod_strings = array(
 'LBL_ASSIGNED_TO_ID' => 'Ответственный(ая)-ID',
 'LBL_ASSIGNED_TO_NAME' => 'Ответственный(ая)',
 'LBL_ID' => 'ID',
 'LBL_DATE_ENTERED' => 'Дата создания',
 'LBL_DATE_MODIFIED' => 'Дата изменения',
 'LBL_MODIFIED' => 'Изменено',
-'LBL_MODIFIED_ID' => 'Изменено(ID)',
 'LBL_MODIFIED_NAME' => 'Изменено (Имя)',
 'LBL_CREATED' => 'Создано',
-'LBL_CREATED_ID' => 'Создано(ID)',
 'LBL_DESCRIPTION' => 'Описание',
 'LBL_DELETED' => 'Удалено',
 'LBL_NAME' => 'Шаблон проекта',
@@ -57,7 +55,6 @@ $mod_strings = array (
 'LBL_SEARCH_FORM_TITLE' => 'Поиск шаблонов проектов',
 'LBL_HISTORY_SUBPANEL_TITLE' => 'История',
 'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Мероприятия',
-'LBL_AM_PROJECTTEMPLATES_SUBPANEL_TITLE' => 'Шаблоны проектов',
 'LBL_NEW_FORM_TITLE' => 'Создание шаблона проекта',
 'LBL_STATUS' => 'Статус',
 'LBL_PRIORITY' => 'Приоритет',
@@ -86,7 +83,6 @@ $mod_strings = array (
 'LBL_VIEW_GANTT_TITLE' => 'Диаграмма Ганта',
 'LBL_VIEW_GANTT_DURATION' => 'Продолжительность',
 'LBL_TASK_TITLE' => 'Редактировать',
-'LBL_PREDECESSOR_TITLE' => 'Редактировать',
 'LBL_DURATION_TITLE' => 'Продолжительность',
 
 'LBL_ASSIGNED_USER_ID' => 'Ответственный(ая):',
@@ -120,11 +116,11 @@ $mod_strings = array (
 
 'LBL_EMAIL' => 'E-mail',
 'LBL_PHONE' => 'Тел. (раб.):',
-'LBL_ADD_BUTTON'=> 'Добавить',
+'LBL_ADD_BUTTON' => 'Добавить',
 'LBL_ADD_INVITEE' => 'Добавить участника',
 'LBL_FIRST_NAME' => 'Имя',
 'LBL_LAST_NAME' => 'Фамилия',
-'LBL_SEARCH_BUTTON'=> 'Найти',
+'LBL_SEARCH_BUTTON' => 'Найти',
 'LBL_EMPTY_SEARCH_RESULT' => 'По указанным критериям ничего не обнаружено.',
 'LBL_CREATE_INVITEE' => 'Добавить участника',
 'LBL_CREATE_CONTACT' => 'Создав новый контакт',
@@ -134,7 +130,6 @@ $mod_strings = array (
 'LBL_SCHEDULING_FORM_TITLE' => 'Участники',
 'LBL_NONE' => '--не выбрано--',
 
-'LBL_AOS_PRODUCTS_AM_PROJECTTEMPLATES_1_FROM_AM_PROJECTTEMPLATES_TITLE' => 'Товары: Шаблоны проекта',
 'LBL_AM_PROJECTTEMPLATES_PROJECT_1_FROM_PROJECT_TITLE' => 'Шаблоны проекта',
 	
 );

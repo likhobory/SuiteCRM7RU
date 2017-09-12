@@ -29,22 +29,22 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
   *********************************************************************************/
  // Replaced by RAPIRA <--
  
-$mod_strings = array (
-'LBL_LIST_ID'=> 'ID списка адресатов' ,
+$mod_strings = array(
+'LBL_LIST_ID' => 'ID списка адресатов' ,
 'LBL_ID' => 'ID' ,
-'LBL_TARGET_TRACKER_KEY'=> 'Присоединённый ключ трекера' ,
-'LBL_TARGET_ID'=> 'ID адресата' ,
-'LBL_TARGET_TYPE'=> 'Тип адресата' ,
+'LBL_TARGET_TRACKER_KEY' => 'Присоединённый ключ трекера' ,
+'LBL_TARGET_ID' => 'ID адресата' ,
+'LBL_TARGET_TYPE' => 'Тип адресата' ,
 'LBL_ACTIVITY_TYPE' => 'Состояние' ,
 'LBL_ACTIVITY_DATE' => 'Дата' ,
 'LBL_RELATED_ID' => 'Родительский ID' ,
-'LBL_RELATED_TYPE'=> 'Родительский тип' ,
+'LBL_RELATED_TYPE' => 'Родительский тип' ,
 'LBL_DELETED' => 'Удалено' ,
 'LBL_MODULE_NAME' => 'Журнал маркет. кампании' ,
-'LBL_LIST_RECIPIENT_EMAIL'=> 'E-mail получателя' ,
-'LBL_LIST_RECIPIENT_NAME'=> 'Имя получателя' ,
-'LBL_ARCHIVED'=> 'Архив' ,
-'LBL_HITS'=> 'Хиты' ,
+'LBL_LIST_RECIPIENT_EMAIL' => 'E-mail получателя' ,
+'LBL_LIST_RECIPIENT_NAME' => 'Имя получателя' ,
+'LBL_ARCHIVED' => 'Архив' ,
+'LBL_HITS' => 'Хиты' ,
 
 'LBL_CAMPAIGN_NAME' => 'Название:' ,
 'LBL_CAMPAIGN' => 'Маркетинговая кампания:' ,
@@ -75,10 +75,10 @@ $mod_strings = array (
 'LBL_CREATED_OPPORTUNITY' => 'Созданная Сделка',
 'LBL_TARGETED_USER' => 'Созданный Адресат',
 'LBL_SENT_EMAIL' => 'Отправленный E-mail',
-'LBL_LIST_FORM_TITLE'=> 'Адресуемые маркет. кампании' ,
-'LBL_LIST_ACTIVITY_DATE'=> 'Дата мероприятия' ,
-'LBL_RELATED'=> 'Относится к' ,
-'LBL_MORE_INFO'=> 'Подробная информация' ,
+'LBL_LIST_FORM_TITLE' => 'Адресуемые маркет. кампании' ,
+'LBL_LIST_ACTIVITY_DATE' => 'Дата мероприятия' ,
+'LBL_RELATED' => 'Относится к' ,
+'LBL_MORE_INFO' => 'Подробная информация' ,
 
 'LBL_CAMPAIGNS' => 'Маркет. кампании',
 'LBL_LIST_MARKETING_NAME' => 'Маркетинговая кампания',

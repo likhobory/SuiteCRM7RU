@@ -28,7 +28,7 @@
   *********************************************************************************/
  // Replaced by RAPIRA <--
 
-$mod_strings = array (
+$mod_strings = array(
   'LBL_ID' => 'ID',
   'LBL_MODULE_NAME' => 'Группы',
   'LBL_DATE_ENTERED' => 'Создано',

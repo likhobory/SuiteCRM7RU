@@ -28,17 +28,15 @@
   *********************************************************************************/
  // Replaced by RAPIRA <--
 
-$mod_strings = array (
+$mod_strings = array(
   'LBL_ASSIGNED_TO_ID' => 'Ответственный(ая)',
   'LBL_ASSIGNED_TO_NAME' => 'Ответственный(ая)',
   'LBL_ID' => 'ID',
   'LBL_DATE_ENTERED' => 'Дата создания',
   'LBL_DATE_MODIFIED' => 'Дата изменения',
   'LBL_MODIFIED' => 'Изменено',
-  'LBL_MODIFIED_ID' => 'Изменено(ID)',
   'LBL_MODIFIED_NAME' => 'Изменено',
   'LBL_CREATED' => 'Создано',
-  'LBL_CREATED_ID' => 'Создано(ID)',
   'LBL_DESCRIPTION' => 'Описание',
   'LBL_DELETED' => 'Удалено',
   'LBL_NAME' => 'Событие',
@@ -53,11 +51,9 @@ $mod_strings = array (
   'LBL_HOMEPAGE_TITLE' => 'Мои события',
   'LNK_NEW_RECORD' => 'Создать событие',
   'LNK_LIST' => 'События',
-  'LNK_IMPORT_FP_EVENTS' => 'Импорт событий',
   'LBL_SEARCH_FORM_TITLE' => 'Поиск событий',
   'LBL_HISTORY_SUBPANEL_TITLE' => 'История',
   'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Мероприятия',
-  'LBL_FP_EVENTS_SUBPANEL_TITLE' => 'Событие',
   'LBL_NEW_FORM_TITLE' => 'Новое событие',
   'LBL_LOCATION' => 'Место',
   'LBL_START_DATE' => 'дата начала',
@@ -111,18 +107,11 @@ $mod_strings = array (
 	'LBL_ACCOUNT_NAME' => 'Контрагент',
 	'LBL_SIGNATURE' => 'Подпись',
 	// email templates
-	'LBL_EMAIL_ACCEPT' => 'Принять',
-	'LBL_EMAIL_DECLINE' => 'Отклонить',
 	// contacts/leads/targets subpanels
 	'LBL_LIST_INVITE_STATUS_EVENT' => 'Приглашённые',
 	'LBL_LIST_ACCEPT_STATUS_EVENT' => 'Статус',
 	// counts
-	'LBL_NB_ACCEPT' => 'Принято приглашений:',
-	'LBL_NB_DECLINED' => 'Отклонено приглашений:',
-	'LBL_NB_ATTENDED' => 'Участвовали:',
 
-	'LBL_NAME_FIRST' => 'Имя',
-	'LBL_NAME_SECOND' => 'Фамилия',
      
 	'LBL_ACTIVITY_STATUS' => 'Статус активности',
 	'LBL_FP_EVENT_LOCATIONS_FP_EVENTS_1_FROM_FP_EVENTS_TITLE' => 'Места',

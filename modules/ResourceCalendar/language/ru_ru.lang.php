@@ -29,7 +29,7 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
   *********************************************************************************/
  // Replaced by RAPIRA <--
 
-$mod_strings = array (
+$mod_strings = array(
 
 );
 

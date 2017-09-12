@@ -28,17 +28,15 @@
   *********************************************************************************/
  // Replaced by RAPIRA <--
 
-$mod_strings = array (
+$mod_strings = array(
   'LBL_ASSIGNED_TO_ID' => 'Ответственный(ая)-ID',
   'LBL_ASSIGNED_TO_NAME' => 'Ответственный(ая)',
   'LBL_ID' => 'ID',
   'LBL_DATE_ENTERED' => 'Дата создания',
   'LBL_DATE_MODIFIED' => 'Дата изменения',
   'LBL_MODIFIED' => 'Изменено',
-  'LBL_MODIFIED_ID' => 'Изменено(ID)',
   'LBL_MODIFIED_NAME' => 'Изменено (Имя)',
   'LBL_CREATED' => 'Создано',
-  'LBL_CREATED_ID' => 'Создано(ID)',
   'LBL_DESCRIPTION' => 'Описание',
   'LBL_DELETED' => 'Удалён',
   'LBL_NAME' => 'Название',
@@ -53,7 +51,6 @@ $mod_strings = array (
   'LBL_SEARCH_FORM_TITLE' => 'Поиск Товаров/Предложений',
   'LBL_HISTORY_SUBPANEL_TITLE' => 'История',
   'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Мероприятия',
-  'LBL_AOS_PRODUCTS_SUBPANEL_TITLE' => 'Товары/Предложения',
   'LBL_NEW_FORM_TITLE' => 'Новые Товары/Предложения',
   'LBL_PRODUCT_NAME' => 'Название',
   'LBL_PRODUCT_QTY' => 'Количество',
@@ -61,7 +58,7 @@ $mod_strings = array (
   'LBL_PRODUCT_LIST_PRICE' => 'Цена по прайсу',
   'LBL_PRODUCT_UNIT_PRICE' => 'Цена за единицу',
   'LBL_PRODUCT_DISCOUNT' => 'Скидка',
-  'LBL_PRODUCT_DISCOUNT_AMOUNT' =>'Объём скидки',
+  'LBL_PRODUCT_DISCOUNT_AMOUNT' => 'Объём скидки',
   'LBL_PART_NUMBER' => 'Артикул',
   'LBL_PRODUCT_DESCRIPTION' => 'Описание',
   'LBL_DISCOUNT' => 'Тип скидки',
@@ -70,7 +67,6 @@ $mod_strings = array (
   'LBL_PRODUCT_TOTAL_PRICE' => 'Итого без НДС',
   'LBL_PRODUCT_NOTE' => 'Заметка',
   'Quote' => '',
-  'LBL_AOS_PRODUCTS_QUOTES_SUBPANEL_TITLE' => 'Товары/Предложения',
   'LBL_FLEX_RELATE' => 'Относится к',
   'LBL_PRODUCT' => 'Товар',
   'LBL_AOS_CONTRACTS' => 'Договоры',

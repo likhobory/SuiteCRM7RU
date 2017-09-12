@@ -29,14 +29,11 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
   *********************************************************************************/
  // Replaced by RAPIRA <--
  
-$mod_strings = array (
+$mod_strings = array(
 'LBL_STEP_1' => 'Шаг 1: Выбор модуля и шаблона' ,
 'LBL_MAILMERGE_MODULE' => 'Выбор модуля: ' ,
 'LBL_MAILMERGE_SELECTED_MODULE' => 'Выбор модуля: ' ,
 'LBL_MAILMERGE_TEMPLATES' => 'Выбор шаблона: ' ,
-'LBL_STEP_2' => 'Шаг 2: Выбор объектов для слияния' ,
-'LBL_MAILMERGE_OBJECTS' => 'Выбор объектов: ' ,
-'LBL_STEP_3' => 'Установка контактных связей' ,
 'LBL_STEP_4' => 'Просмотр и завершение' ,
 'LBL_SELECTED_MODULE' => 'Выбранный модуль: ' ,
 'LBL_SELECTED_TEMPLATE' => 'Выбранный шаблон: ' ,
@@ -48,7 +45,7 @@ $mod_strings = array (
 'LBL_DOC_NAME' => 'Название документа:' ,
 'LBL_FILENAME' => 'Имя файла:' ,
 'LBL_DOC_VERSION' => 'Версия:' ,
-'LBL_DOC_DESCRIPTION'=> 'Описание:' ,
+'LBL_DOC_DESCRIPTION' => 'Описание:' ,
 'LBL_LIST_NAME' => 'Название' ,
 'LBL_FINISH' => 'Начать слияние' ,
 'LBL_NEXT' => 'Вперёд >' ,

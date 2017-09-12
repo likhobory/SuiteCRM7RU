@@ -29,10 +29,10 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
   *********************************************************************************/
  // Replaced by RAPIRA <--
  
-$app_list_strings = array (
+$app_list_strings = array(
 
 strtolower($object_name).'_type_dom' =>
-array (
+array(
 '' => '',
 'Existing Business' => 'Существующий бизнес' ,
 'New Business' => 'Новый бизнес'    ,

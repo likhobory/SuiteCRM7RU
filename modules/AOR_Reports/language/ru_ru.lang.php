@@ -28,15 +28,13 @@
   *********************************************************************************/
  // Replaced by RAPIRA <--
 
-$mod_strings = array (
+$mod_strings = array(
     'LBL_ID' => 'ID',
     'LBL_DATE_ENTERED' => 'Дата создания',
     'LBL_DATE_MODIFIED' => 'Дата изменения',
     'LBL_MODIFIED' => 'Изменено',
-    'LBL_MODIFIED_ID' => 'Изменено(ID)',
     'LBL_MODIFIED_NAME' => 'Изменено (Имя)',
     'LBL_CREATED' => 'Создано',
-    'LBL_CREATED_ID' => 'Создано(ID)',
     'LBL_DESCRIPTION' => 'Описание',
     'LBL_DELETED' => 'Удалено',
     'LBL_NAME' => 'Отчёт',
@@ -53,11 +51,9 @@ $mod_strings = array (
   'LBL_HOMEPAGE_TITLE' => 'Мои отчёты',
   'LNK_NEW_RECORD' => 'Создать отчёт',
   'LNK_LIST' => 'Отчёты',
-  'LNK_IMPORT_AOR_REPORTS' => 'Импорт отчётов',
   'LBL_SEARCH_FORM_TITLE' => 'Поиск отчётов',
   'LBL_HISTORY_SUBPANEL_TITLE' => 'История',
   'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Мероприятия',
-  'LBL_AOR_REPORTS_SUBPANEL_TITLE' => 'Отчёты',
   'LBL_NEW_FORM_TITLE' => 'Новый отчёт',
   'LBL_REPORT_MODULE' => 'Модуль',
   'LBL_GRAPHS_PER_ROW' => 'Диаграмм в строке отчёта',
@@ -86,7 +82,6 @@ $mod_strings = array (
   'LBL_DASHLET_SAVE' => 'Сохранить',
   'LBL_DASHLET_CHARTS' => 'Диаграммы',
   'LBL_DASHLET_ONLY_CHARTS' => 'Отображать только диаграммы',
-  'LBL_AOR_SCHEDULED_REPORTS_AOR_REPORTS_FROM_AOR_SCHEDULED_REPORTS_TITLE' => 'Отчёты по расписанию',
   'LBL_UPDATE_PARAMETERS' => 'Обновить',
   'LBL_PARAMETERS' => 'Условия',
   'LBL_TOOLTIP_DRAG_DROP_ELEMS' => 'Переместите необходимый элемент в перечень полей создаваемого отчёта',

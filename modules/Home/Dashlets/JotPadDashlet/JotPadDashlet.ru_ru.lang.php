@@ -30,13 +30,14 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
  // Replaced by RAPIRA <--
  
 $defaultText = "";
-$dashletStrings['JotPadDashlet'] = array('LBL_TITLE'            => 'Мини-блокнот',
-'LBL_DESCRIPTION'      => 'Дашлет для заметок',
-'LBL_SAVING'           => 'Сохранение...',
-'LBL_SAVED'            => 'Сохранено',
-'LBL_CONFIGURE_TITLE'  => 'Заголовок',
+$dashletStrings['JotPadDashlet'] = array(
+'LBL_TITLE' => 'Мини-блокнот',
+'LBL_DESCRIPTION' => 'Дашлет для заметок',
+'LBL_SAVING' => 'Сохранение...',
+'LBL_SAVED' => 'Сохранено',
+'LBL_CONFIGURE_TITLE' => 'Заголовок',
 'LBL_CONFIGURE_HEIGHT' => 'Высота (1 - 300)',
-'LBL_DBLCLICK_HELP'    => 'Для редактирования текста кликните на нём дважды.',
+'LBL_DBLCLICK_HELP' => 'Для редактирования текста кликните на нём дважды.',
 'LBL_DEFAULT_TEXT'     => $defaultText,
 );
 ?>

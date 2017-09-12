@@ -29,11 +29,10 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
   *********************************************************************************/
  // Replaced by RAPIRA <--
  
-$mod_strings = array (
+$mod_strings = array(
 'LBL_MODULE_NAME' => 'Сделки' ,
 'LBL_MODULE_TITLE' => 'Сделки - ГЛАВНАЯ' ,
 'LBL_SEARCH_FORM_TITLE' => 'Поиск сделки' ,
-'LBL_VIEW_FORM_TITLE' => 'Обзор сделки',
 'LBL_LIST_FORM_TITLE' => 'Список сделок' ,
 'LBL_OPPORTUNITY_NAME' => 'Название сделки:' ,
 'LBL_OPPORTUNITY' => 'Сделка:' ,
@@ -46,17 +45,11 @@ $mod_strings = array (
 'LBL_LIST_AMOUNT_USDOLLAR' => 'Сумма',
 'LBL_LIST_DATE_CLOSED' => 'Закрытие' ,
 'LBL_LIST_SALES_STAGE' => 'Стадия продаж' ,
-'LBL_ACCOUNT_ID'=> 'ID контрагента' ,
-'LBL_CURRENCY_ID'=> 'Код валюты' ,
-'LBL_CURRENCY_NAME'=> 'Название валюты',
-'LBL_CURRENCY_SYMBOL'=> 'Символ валюты',
-//DON'T CONVERT THESE THEY ARE MAPPINGS
-'db_sales_stage' => 'LBL_LIST_SALES_STAGE',
-'db_name' => 'LBL_NAME',
-'db_amount' => 'LBL_LIST_AMOUNT',
-'db_date_closed' => 'LBL_LIST_DATE_CLOSED',
-//END DON'T CONVERT
-'UPDATE' => 'Сделка - валютное обновление' , /// ->
+'LBL_ACCOUNT_ID' => 'ID контрагента' ,
+'LBL_CURRENCY_NAME' => 'Название валюты',
+'LBL_CURRENCY_SYMBOL' => 'Символ валюты',
+
+'UPDATE' => 'Сделка - валютное обновление' ,
 'LBL_ACCOUNT_NAME' => 'Контрагент:' ,
 'LBL_AMOUNT' => 'Сумма сделки:' ,
 'LBL_AMOUNT_USDOLLAR' => 'Сумма:',
@@ -78,8 +71,8 @@ $mod_strings = array (
 'LBL_TOP_OPPORTUNITIES' => 'Мои основные открытые сделки' ,
 'OPPORTUNITY_REMOVE_PROJECT_CONFIRM' => 'Вы действительно хотите удалить данную сделку из проекта?' ,
 'LBL_DEFAULT_SUBPANEL_TITLE' => 'Сделки' ,
-'LBL_ACTIVITIES_SUBPANEL_TITLE'=> 'Мероприятия' ,
-'LBL_HISTORY_SUBPANEL_TITLE'=> 'История' ,
+'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Мероприятия' ,
+'LBL_HISTORY_SUBPANEL_TITLE' => 'История' ,
 
 'LBL_LEADS_SUBPANEL_TITLE' => 'Предварительные контакты' ,
 'LBL_CONTACTS_SUBPANEL_TITLE' => 'Контакты' ,
@@ -92,14 +85,11 @@ $mod_strings = array (
 'LBL_TOTAL_OPPORTUNITIES' => 'Всего',
 'LBL_CLOSED_WON_OPPORTUNITIES' => 'Успешно закрытые сделки',
 'LBL_ASSIGNED_TO_ID' => 'Ответственный(ая)',
-'LBL_CREATED_ID' => 'Создано(ID)',
-'LBL_MODIFIED_ID' => 'Изменено(ID)',
-'LBL_MODIFIED_NAME'=> 'Изменено',
+'LBL_MODIFIED_NAME' => 'Изменено',
 'LBL_CREATED_USER' => 'Создано',
 'LBL_MODIFIED_USER' => 'Изменено',
 'LBL_CAMPAIGN_OPPORTUNITY' => 'Маркет. кампании',
 'LBL_PROJECT_SUBPANEL_TITLE' => 'Проекты',
-'LABEL_PANEL_ASSIGNMENT' => 'Назначение ответственного',
 'LNK_IMPORT_OPPORTUNITIES' => 'Импорт сделок',
 'LBL_EDITLAYOUT' => 'Изменить макет' /*for 508 compliance fix*/,
 //For export labels ///

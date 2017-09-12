@@ -29,8 +29,9 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
   *********************************************************************************/
  // Replaced by RAPIRA <--
  
-$dashletStrings['MyPipelineBySalesStageDashlet'] = array('LBL_TITLE' => 'Диаграмма стадий моих продаж',
-															'LBL_DESCRIPTION' => 'Диаграмма стадий моих продаж',
-															'LBL_REFRESH' => 'Обновить диаграмму');
+$dashletStrings['MyPipelineBySalesStageDashlet'] = array(
+'LBL_TITLE' => 'Диаграмма стадий моих продаж',
+'LBL_DESCRIPTION' => 'Диаграмма стадий моих продаж',
+'LBL_REFRESH' => 'Обновить диаграмму');
 
 ?>

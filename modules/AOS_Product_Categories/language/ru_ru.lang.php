@@ -28,17 +28,15 @@
   *********************************************************************************/
  // Replaced by RAPIRA <--
 
-$mod_strings = array (
+$mod_strings = array(
   'LBL_ASSIGNED_TO_ID' => 'Ответственный(ая)',
   'LBL_ASSIGNED_TO_NAME' => 'Ответственный(ая)',
   'LBL_ID' => 'ID',
   'LBL_DATE_ENTERED' => 'Дата создания:',
   'LBL_DATE_MODIFIED' => 'Дата изменения:',
   'LBL_MODIFIED' => 'Изменено:',
-  'LBL_MODIFIED_ID' => 'Изменено(ID)',
   'LBL_MODIFIED_NAME' => 'Изменено (Имя)',
   'LBL_CREATED' => 'Создано',
-  'LBL_CREATED_ID' => 'Создано(ID)',
   'LBL_DESCRIPTION' => 'Описание',
   'LBL_DELETED' => 'Удалена',
   'LBL_NAME' => 'Категория товара',
@@ -53,17 +51,14 @@ $mod_strings = array (
   'LBL_HOMEPAGE_TITLE' => 'Мои категории товаров',
   'LNK_NEW_RECORD' => 'Создать категорию товара',
   'LNK_LIST' => 'Категории товаров',
-  'LNK_IMPORT_AOS_PRODUCT_CATEGORIES' => 'Импорт категорий товаров',
   'LBL_SEARCH_FORM_TITLE' => 'Поиск категорий товаров',
   'LBL_HISTORY_SUBPANEL_TITLE' => 'История',
   'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Мероприятия',
-  'LBL_AOS_PRODUCT_CATEGORIES_SUBPANEL_TITLE' => 'Категории товаров',
   'LBL_NEW_FORM_TITLE' => 'Новая категория товара',
   'LBL_PARENT_CATEGORY' => 'Родительская категория',
   'LBL_IS_PARENT' => 'Родительская категория',
   'LBL_SUB_CATEGORIES' => 'Подкатегории',
-  'LBL_PRODUCT_CATEGORIES' => 'Родительская категория',
   'LBL_PRODUCT_CATEGORYS_NAME' => 'Родительская категория',
-  'LBL_PARENT_CATEGORY_ID' =>  'Родительская категория (ID)',
-  'LBL_AOS_PRODUCT_CATEGORIES_AOS_PRODUCTS_FROM_AOS_PRODUCTS_TITLE' =>  'Название товара',
+  'LBL_PARENT_CATEGORY_ID' => 'Родительская категория (ID)',
+  'LBL_AOS_PRODUCT_CATEGORIES_AOS_PRODUCTS_FROM_AOS_PRODUCTS_TITLE' => 'Название товара',
 );

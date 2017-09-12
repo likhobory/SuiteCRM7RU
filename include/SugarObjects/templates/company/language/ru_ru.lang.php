@@ -29,12 +29,11 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
   *********************************************************************************/
  // Replaced by RAPIRA <--
  
-$mod_strings = array (
-'ACCOUNT_REMOVE_PROJECT_CONFIRM' => 'Вы действительно хотите удалить этого контрагента из проекта?' ,
+$mod_strings = array(
 'ERR_DELETE_RECORD' => 'Вы должны указать номер записи перед удалением.' ,
 'LBL_ACCOUNT_NAME' => 'Контрагент:' ,
 'LBL_ACCOUNT' => 'Контрагент:' ,
-'LBL_ACTIVITIES_SUBPANEL_TITLE'=> 'Мероприятия' ,
+'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Мероприятия' ,
 'LBL_ADDRESS_INFORMATION' => 'Адресная информация' ,
 'LBL_ANNUAL_REVENUE' => 'Годовой доход:' ,
 'LBL_ANY_ADDRESS' => 'Любой адрес:' ,
@@ -74,11 +73,9 @@ $mod_strings = array (
 'LBL_LIST_EMAIL_ADDRESS' => 'Адрес E-mail' ,
 'LBL_LIST_PHONE' => 'Тел.' ,
 'LBL_LIST_STATE' => 'Область' ,
-'LBL_LIST_WEBSITE' => 'Сайт' ,
 'LBL_MEMBER_OF' => 'Состоит в:' ,
-'LBL_MEMBER_ORG_FORM_TITLE' => 'Членские организации' ,
-'LBL_MEMBER_ORG_SUBPANEL_TITLE'=> 'Членские организации' ,
-'LBL_NAME'=> 'Название:' ,
+'LBL_MEMBER_ORG_SUBPANEL_TITLE' => 'Членские организации' ,
+'LBL_NAME' => 'Название:' ,
 'LBL_OTHER_EMAIL_ADDRESS' => 'Другой E-mail:' ,
 'LBL_OTHER_PHONE' => 'Другой тел.:' ,
 'LBL_OWNERSHIP' => 'Собственность:' ,
@@ -104,10 +101,6 @@ $mod_strings = array (
 'LBL_STATE' => 'Область:' ,
 'LBL_TICKER_SYMBOL' => 'Биржевой код:' ,
 'LBL_TYPE' => 'Тип:' ,
-'LBL_USERS_ASSIGNED_LINK'=> 'Ответственные пользователи' ,
-'LBL_USERS_CREATED_LINK'=> 'Создано пользователями' ,
-'LBL_USERS_MODIFIED_LINK'=> 'Измененные пользователи' ,
-'LBL_VIEW_FORM_TITLE' => 'Обзор контрагента',
 'LBL_WEBSITE' => 'Сайт:' ,
 
 'LNK_ACCOUNT_LIST' => 'Контрагенты' ,
@@ -116,13 +109,7 @@ $mod_strings = array (
 'MSG_DUPLICATE' => 'Создаваемая запись, возможно, дублирует уже существующего контрагента. Схожие записи приведены в списке.<br>Нажмите на кнопку <b>Создать контрагента</b> для создания новой записи или выберите существующую запись из списка.',
 'MSG_SHOW_DUPLICATES' => 'Создаваемая запись, возможно, дублирует уже существующего контрагента. Схожие записи приведены в списке.<br>Нажмите на кнопку <b>Сохранить</b> для создания новой записи или на кнопку <b>Отказаться</b> для возврата в модуль без создания новой записи.',
 
-'NTC_COPY_BILLING_ADDRESS' => 'Копировать расчётный адрес в отгрузочный' ,
-'NTC_COPY_BILLING_ADDRESS2' => 'Копировать в отгрузочный адрес',
-'NTC_COPY_SHIPPING_ADDRESS' => 'Копировать отгрузочный адрес в расчётный' ,
-'NTC_COPY_SHIPPING_ADDRESS2' => 'Копировать в расчётный адрес',
 'NTC_DELETE_CONFIRMATION' => 'Вы действительно хотите удалить эту запись?' ,
-'NTC_REMOVE_ACCOUNT_CONFIRMATION' => 'Вы действительно хотите удалить эту запись?' ,
-'NTC_REMOVE_MEMBER_ORG_CONFIRMATION' => 'Вы действительно хотите удалить эту запись из членских организаций?' ,
 
 'LBL_EDIT_BUTTON' => 'Править',
 'LBL_REMOVE' => 'Удалить',

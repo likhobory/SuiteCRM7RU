@@ -29,7 +29,7 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
   *********************************************************************************/
  // Replaced by RAPIRA <--
  
-$mod_strings = array (
+$mod_strings = array(
 // DON'T CONVERT THESE THEY ARE MAPPINGS
 'db_name' => 'LBL_LIST_ACCOUNT_NAME',
 'db_website' => 'LBL_LIST_WEBSITE',
@@ -37,18 +37,15 @@ $mod_strings = array (
 // END DON'T CONVERT
 'LBL_DOCUMENTS_SUBPANEL_TITLE' => 'Документы',
 // Dashlet Categories
-'LBL_CHARTS'    => 'Графики',
+'LBL_CHARTS' => 'Графики',
 'LBL_DEFAULT' => 'Обзоры',
-'LBL_MISC'    => 'Разное',
-'LBL_UTILS'    => 'Утилиты',
 // END Dashlet Categories
 
-'ACCOUNT_REMOVE_PROJECT_CONFIRM' => 'Вы действительно хотите удалить этого контрагента из проекта?' ,
 'ERR_DELETE_RECORD' => 'Вы должны указать номер записи перед удалением.' ,
 'LBL_ACCOUNT_INFORMATION' => 'Основная информация' ,
 'LBL_ACCOUNT_NAME' => 'Контрагент:' ,
 'LBL_ACCOUNT' => 'Контрагент:' ,
-'LBL_ACTIVITIES_SUBPANEL_TITLE'=> 'Мероприятия' ,
+'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Мероприятия' ,
 'LBL_ADDRESS_INFORMATION' => 'Адресная информация' ,
 'LBL_ANNUAL_REVENUE' => 'Годовой доход:' ,
 'LBL_ANY_ADDRESS' => 'Любой адрес:' ,
@@ -65,9 +62,7 @@ $mod_strings = array (
 'LBL_BILLING_ADDRESS_STREET_4' => 'Адрес получателя - улица 4' ,
 'LBL_BILLING_ADDRESS_STREET' => 'Расчётный адрес - улица:' ,
 'LBL_BILLING_ADDRESS' => 'Расчётный адрес' ,
-'LBL_BUG_FORM_TITLE' => 'Контрагенты' ,
 'LBL_BUGS_SUBPANEL_TITLE' => 'Ошибки' ,
-'LBL_CALLS_SUBPANEL_TITLE' => 'Звонки',
 'LBL_CAMPAIGN_ID' => 'Маркет. кампания (ID)',
 'LBL_CASES_SUBPANEL_TITLE' => 'Обращения' ,
 'LBL_CITY' => 'Город:' ,
@@ -75,7 +70,6 @@ $mod_strings = array (
 'LBL_COUNTRY' => 'Страна:' ,
 'LBL_DATE_ENTERED' => 'Дата создания:' ,
 'LBL_DATE_MODIFIED' => 'Дата изменения:' ,
-'LBL_MODIFIED_ID' => 'Изменено(ID)',
 'LBL_DEFAULT_SUBPANEL_TITLE' => 'Контрагенты' ,
 'LBL_DESCRIPTION_INFORMATION' => 'Описание' ,
 'LBL_DESCRIPTION' => 'Описание:' ,
@@ -85,10 +79,10 @@ $mod_strings = array (
 'LBL_EMAIL_ADDRESSES' => 'Адреса E-mail',
 'LBL_EMPLOYEES' => 'Число сотрудников:' ,
 'LBL_FAX' => 'Факс:' ,
-'LBL_HISTORY_SUBPANEL_TITLE'=> 'История' ,
+'LBL_HISTORY_SUBPANEL_TITLE' => 'История' ,
 'LBL_HOMEPAGE_TITLE' => 'Мои контрагенты',
 'LBL_INDUSTRY' => 'Отрасль:' ,
-'LBL_INVALID_EMAIL'=> 'Неверный E-mail:',
+'LBL_INVALID_EMAIL' => 'Неверный E-mail:',
 'LBL_INVITEE' => 'Контакты' ,
 'LBL_LEADS_SUBPANEL_TITLE' => 'Предварительные контакты' ,
 'LBL_LIST_ACCOUNT_NAME' => 'Контрагент' ,
@@ -98,15 +92,12 @@ $mod_strings = array (
 'LBL_LIST_FORM_TITLE' => 'Список контрагентов' ,
 'LBL_LIST_PHONE' => 'Тел.' ,
 'LBL_LIST_STATE' => 'Область' ,
-'LBL_LIST_WEBSITE' => 'Сайт' ,
-'LBL_MEETINGS_SUBPANEL_TITLE' => 'Встречи',
 'LBL_MEMBER_OF' => 'Состоит в:' ,
-'LBL_MEMBER_ORG_FORM_TITLE' => 'Членские организации' ,
-'LBL_MEMBER_ORG_SUBPANEL_TITLE'=> 'Членские организации' ,
+'LBL_MEMBER_ORG_SUBPANEL_TITLE' => 'Членские организации' ,
 'LBL_MODULE_NAME' => 'Контрагенты' ,
 'LBL_MODULE_TITLE' => 'Контрагенты - ГЛАВНАЯ' ,
-'LBL_MODULE_ID'=> 'Контрагенты',
-'LBL_NAME'=> 'Контрагент:' ,
+'LBL_MODULE_ID' => 'Контрагенты',
+'LBL_NAME' => 'Контрагент:' ,
 'LBL_NEW_FORM_TITLE' => 'Новый контрагент' ,
 'LBL_OPPORTUNITIES_SUBPANEL_TITLE' => 'Сделки' ,
 'LBL_OTHER_EMAIL_ADDRESS' => 'Другой E-mail:' ,
@@ -118,7 +109,7 @@ $mod_strings = array (
 'LBL_PHONE_OFFICE' => 'Тел. (раб.):' ,
 'LBL_PHONE' => 'Тел.:' ,
 'LBL_POSTAL_CODE' => 'Индекс:' ,
-'LBL_PRODUCTS_TITLE'=> 'Продукты' ,
+'LBL_PRODUCTS_TITLE' => 'Продукты' ,
 'LBL_PROJECTS_SUBPANEL_TITLE' => 'Проекты' ,
 'LBL_PUSH_CONTACTS_BUTTON_LABEL' => 'Копия для контакта' ,
 'LBL_PUSH_CONTACTS_BUTTON_TITLE' => 'Копирование...' ,
@@ -136,16 +127,9 @@ $mod_strings = array (
 'LBL_SHIPPING_ADDRESS' => 'Отгрузочный адрес:' ,
 'LBL_SIC_CODE' => 'SIC / ОКВЭД:' ,
 'LBL_STATE' => 'Область:' ,
-'LBL_TASKS_SUBPANEL_TITLE' => 'Задачи',
-'LBL_TEAMS_LINK'=> 'Команды' ,
 'LBL_TICKER_SYMBOL' => 'Биржевой код:' ,
 'LBL_TYPE' => 'Тип:' ,
-'LBL_USERS_ASSIGNED_LINK'=> 'Ответственные пользователи' ,
-'LBL_USERS_CREATED_LINK'=> 'Создано пользователями' ,
-'LBL_USERS_MODIFIED_LINK'=> 'Изменённые пользователи' ,
-'LBL_VIEW_FORM_TITLE' => 'Обзор контрагента',
 'LBL_WEBSITE' => 'Сайт:' ,
-'LBL_CREATED_ID' => 'ID создавшего',
 'LBL_CAMPAIGNS' => 'Маркет. кампании',
 'LNK_ACCOUNT_LIST' => 'Контрагенты' ,
 'LNK_NEW_ACCOUNT' => 'Создать контрагента',
@@ -154,15 +138,11 @@ $mod_strings = array (
 'MSG_SHOW_DUPLICATES' => 'Создаваемая запись, возможно, дублирует уже существующего контрагента. Схожие записи приведены в списке.<br>Нажмите на кнопку <b>Сохранить</b> для создания новой записи или на кнопку <b>Отказаться</b> для возврата в модуль без создания новой записи.',
 'LBL_ASSIGNED_USER_NAME' => 'Ответственный(ая):',
 'LBL_PROSPECT_LIST' => 'Адресаты',
-'LBL_ACCOUNTS_SUBPANEL_TITLE'=> 'Контрагенты',
+'LBL_ACCOUNTS_SUBPANEL_TITLE' => 'Контрагенты',
 'LBL_PROJECT_SUBPANEL_TITLE' => 'Проекты',
-'LBL_COPY' => 'Копировать' /*for 508 compliance fix*/,
 //For export labels
-'LBL_ACCOUNT_TYPE' => 'Тип',
 
 'LBL_PARENT_ID' => 'ID родителя',
-'LBL_PHONE_ALTERNATE' => 'Другой тел.',
-'LBL_EXPORT_ASSIGNED_USER_NAME' => 'Ответственный(ая)', ///
 
 // SNIP
 'LBL_PRODUCTS_SERVICES_PURCHASED_SUBPANEL_TITLE' => 'Оплаченные товары и услуги',

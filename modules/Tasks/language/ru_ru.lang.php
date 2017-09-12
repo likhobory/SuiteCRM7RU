@@ -29,9 +29,8 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
   *********************************************************************************/
  // Replaced by RAPIRA <--
  
-$mod_strings = array (
+$mod_strings = array(
 'LBL_MODULE_NAME' => 'Задачи' ,
-'LBL_TASK' => 'Задачи: ' ,
 'LBL_MODULE_TITLE' => 'Задачи - ГЛАВНАЯ' ,
 'LBL_SEARCH_FORM_TITLE' => 'Поиск задачи' ,
 'LBL_LIST_FORM_TITLE' => 'Список задач' ,
@@ -69,10 +68,8 @@ $mod_strings = array (
 'LNK_NEW_TASK' => 'Создать задачу' ,
 'LNK_TASK_LIST' => 'Задачи' ,
 'LNK_IMPORT_TASKS' => 'Импорт задач',
-'LBL_CONTACT_FIRST_NAME'=> 'Имя контакта' ,
-'LBL_CONTACT_LAST_NAME'=> 'Фамилия контакта',
 'LBL_LIST_ASSIGNED_TO_NAME' => 'Ответственный(ая)',
-'LBL_ASSIGNED_TO_NAME'=> 'Ответственный(ая):',
+'LBL_ASSIGNED_TO_NAME' => 'Ответственный(ая):',
 'LBL_LIST_DATE_MODIFIED' => 'Дата изменения',
 'LBL_CONTACT_ID' => 'ID контакта:',
 'LBL_PARENT_ID' => 'ID родителя:',

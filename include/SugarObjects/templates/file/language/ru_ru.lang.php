@@ -29,34 +29,33 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
   *********************************************************************************/
  // Replaced by RAPIRA <--
  
-$mod_strings = array (
+$mod_strings = array(
 //module
 'LBL_MODULE_NAME' => 'Документы' ,
 'LBL_MODULE_TITLE' => 'Документы - ГЛАВНАЯ' ,
 'LNK_NEW_DOCUMENT' => 'Создать документ' ,
-'LNK_DOCUMENT_LIST'=> 'Документы' ,
-'LBL_SEARCH_FORM_TITLE'=> 'Поиск документа' ,
+'LNK_DOCUMENT_LIST' => 'Документы' ,
+'LBL_SEARCH_FORM_TITLE' => 'Поиск документа' ,
 //vardef labels
-'LBL_DOCUMENT_ID' => 'ID документа' ,
 'LBL_NAME' => 'Название документа' ,
 'LBL_DESCRIPTION' => 'Описание' ,
 'LBL_ASSIGNED_TO' => 'Ответственный(ая):',
 'LBL_CATEGORY' => 'Категория' ,
 'LBL_SUBCATEGORY' => 'Подкатегория' ,
 'LBL_STATUS' => 'Статус' ,
-'LBL_IS_TEMPLATE'=> 'Шаблон' ,
-'LBL_TEMPLATE_TYPE'=> 'Тип документа' ,
+'LBL_IS_TEMPLATE' => 'Шаблон' ,
+'LBL_TEMPLATE_TYPE' => 'Тип документа' ,
 'LBL_REVISION_NAME' => 'Номер версии' ,
 'LBL_MIME' => 'Тип MIME' ,
 'LBL_REVISION' => 'Версия' ,
 'LBL_DOCUMENT' => 'Связанные документы' ,
 'LBL_LATEST_REVISION' => 'Последняя версия' ,
-'LBL_CHANGE_LOG'=> 'Журнал изменений:' ,
-'LBL_ACTIVE_DATE'=> 'Дата публикации' ,
+'LBL_CHANGE_LOG' => 'Журнал изменений:' ,
+'LBL_ACTIVE_DATE' => 'Дата публикации' ,
 'LBL_EXPIRATION_DATE' => 'Дата окончания' ,
-'LBL_FILE_EXTENSION'  => 'Расширение файла' ,
+'LBL_FILE_EXTENSION' => 'Расширение файла' ,
 
-'LBL_CAT_OR_SUBCAT_UNSPEC'=> 'Неопределенный' ,
+'LBL_CAT_OR_SUBCAT_UNSPEC' => 'Неопределенный' ,
 //quick search
 'LBL_NEW_FORM_TITLE' => 'Новый документ',
 //document edit and detail view
@@ -65,12 +64,12 @@ $mod_strings = array (
 'LBL_FILE_UPLOAD' => 'Файл:',
 'LBL_DOC_VERSION' => 'Версия:' ,
 'LBL_CATEGORY_VALUE' => 'Категория:' ,
-'LBL_SUBCATEGORY_VALUE'=> 'Подкатегория:' ,
-'LBL_DOC_STATUS'=> 'Статус:' ,
-'LBL_DET_TEMPLATE_TYPE'=> 'Тип документа:' ,
-'LBL_DOC_DESCRIPTION'=> 'Описание:' ,
-'LBL_DOC_ACTIVE_DATE'=> 'Дата публикации:' ,
-'LBL_DOC_EXP_DATE'=> 'Актуален до:' ,
+'LBL_SUBCATEGORY_VALUE' => 'Подкатегория:' ,
+'LBL_DOC_STATUS' => 'Статус:' ,
+'LBL_DET_TEMPLATE_TYPE' => 'Тип документа:' ,
+'LBL_DOC_DESCRIPTION' => 'Описание:' ,
+'LBL_DOC_ACTIVE_DATE' => 'Дата публикации:' ,
+'LBL_DOC_EXP_DATE' => 'Актуален до:' ,
 
 //document list view.
 'LBL_LIST_FORM_TITLE' => 'Список документов' ,
@@ -80,30 +79,24 @@ $mod_strings = array (
 'LBL_LIST_REVISION' => 'Версия' ,
 'LBL_LIST_LAST_REV_CREATOR' => 'Опубликовано' ,
 'LBL_LIST_LAST_REV_DATE' => 'Дата изменения' ,
-'LBL_LIST_VIEW_DOCUMENT'=> 'Просмотр' ,
-'LBL_LIST_DOWNLOAD'=> 'Загружено',
+'LBL_LIST_VIEW_DOCUMENT' => 'Просмотр' ,
 'LBL_LIST_ACTIVE_DATE' => 'Дата публикации' ,
 'LBL_LIST_EXP_DATE' => 'Актуален до' ,
-'LBL_LIST_STATUS'=> 'Статус' ,
+'LBL_LIST_STATUS' => 'Статус' ,
 
 //document search form.
-'LBL_SF_DOCUMENT' => 'Название документа:' ,
 'LBL_SF_CATEGORY' => 'Категория:' ,
-'LBL_SF_SUBCATEGORY'=> 'Подкатегория:' ,
-'LBL_SF_ACTIVE_DATE' => 'Дата публикации:' ,
-'LBL_SF_EXP_DATE'=> 'Актуален до:' ,
+'LBL_SF_SUBCATEGORY' => 'Подкатегория:' ,
 
 'DEF_CREATE_LOG' => 'Документ создан' ,
 
 //error messages
-'ERR_DOC_NAME'=> 'Название документа' ,
-'ERR_DOC_ACTIVE_DATE'=> 'Дата публикации' ,
-'ERR_DOC_EXP_DATE'=> 'Актуален до' ,
-'ERR_FILENAME'=> 'Имя файла' ,
+'ERR_DOC_NAME' => 'Название документа' ,
+'ERR_DOC_ACTIVE_DATE' => 'Дата публикации' ,
+'ERR_FILENAME' => 'Имя файла' ,
 
-'LBL_TREE_TITLE' => 'Документы' ,
 //sub-panel vardefs.
-'LBL_LIST_DOCUMENT_NAME'=> 'Название документа' ,
+'LBL_LIST_DOCUMENT_NAME' => 'Название документа' ,
 
 'LBL_EDIT_BUTTON' => 'Править',
 'LBL_REMOVE' => 'Удалить',

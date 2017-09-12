@@ -29,7 +29,7 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
   *********************************************************************************/
  // Replaced by RAPIRA <--
  
-$mod_strings = array (
+$mod_strings = array(
 'LBL_MODULE_NAME' => 'Версии' ,
 'LBL_MODULE_TITLE' => 'Версии - ГЛАВНАЯ' ,
 'LBL_SEARCH_FORM_TITLE' => 'Поиск версий' ,
@@ -48,7 +48,7 @@ $mod_strings = array (
 'NTC_STATUS' => 'Установите статус на "Не активна" для удаления этой версии из списка' ,
 'NTC_LIST_ORDER' => 'Установить порядок следования версий' ,
 'release_status_dom' =>
-array (
+array(
 'Active' => 'Активна' ,
 'Inactive' => 'Не активна'   ,
 ),

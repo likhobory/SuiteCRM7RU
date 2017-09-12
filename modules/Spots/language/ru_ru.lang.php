@@ -36,10 +36,8 @@ $mod_strings = array(
   'LBL_DATE_ENTERED' => 'Дата создания',
   'LBL_DATE_MODIFIED' => 'Дата изменения',
   'LBL_MODIFIED' => 'Изменено',
-  'LBL_MODIFIED_ID' => 'Изменено(ID)',
   'LBL_MODIFIED_NAME' => 'Изменено (Имя)',
   'LBL_CREATED' => 'Создано',
-  'LBL_CREATED_ID' => 'Создано(ID)',
   'LBL_DESCRIPTION' => 'Описание',
   'LBL_DELETED' => 'Удалён',
   'LBL_NAME' => 'Название',
@@ -54,11 +52,9 @@ $mod_strings = array(
   'LBL_HOMEPAGE_TITLE' => 'Мои сводки',
   'LNK_NEW_RECORD' => 'Создать сводку',
   'LNK_LIST' => 'Сводки',
-  'LNK_IMPORT_PIVOT' => 'Импорт сводки',
   'LBL_SEARCH_FORM_TITLE' => 'Поиск сводки',
   'LBL_HISTORY_SUBPANEL_TITLE' => 'История',
   'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Мероприятия',
-  'LBL_PIVOT_SUBPANEL_TITLE' => 'Сводка',
   'LBL_NEW_FORM_TITLE' => 'Новая сводка',
   'LBL_CONFIG' => 'Настройка',
   'LBL_TYPE' => 'Область анализа',
@@ -66,16 +62,7 @@ $mod_strings = array(
   'LNK_SPOT_CREATE' => 'Создать сводку',
 
     //Analytics
-    'LBL_AN_AREA_FOR_ANALYSIS' => 'Область анализа',
     'LBL_AN_CONFIGURATION' => 'Конфигурация',
-    'LBL_AN_SALES' => 'Продажи',
-    'LBL_AN_ACCOUNTS' => 'Контрагенты',
-    'LBL_AN_LEADS' => 'Предварит. контакты',
-    'LBL_AN_SERVICE' => 'Сервис',
-    'LBL_AN_MARKETING' => 'Маркетинг',
-    'LBL_AN_MARKETING_ACTIVITY' => 'Маркетинговая активность',
-    'LBL_AN_ACTIVITIES' => 'Мероприятия',
-    'LBL_AN_QUOTES' => 'Предложения',
 
     'LBL_AN_UNSUPPORTED_DB' => 'В данный момент Сводки могут работать только с БД формата MySQL или MS SQL.',
 
@@ -181,16 +168,16 @@ $mod_strings = array(
     'LBL_AN_DUPLICATE_LABEL_FOR_SUBAREA' => 'Ошибка получения названия области анализа',
 	
 	//Added to allow for the UI of the pivot to be language agnostic
-    'LBL_RENDERERS_TABLE' =>'Таблица', /// for PR #1868
-    'LBL_RENDERERS_TABLE_BARCHART' =>'Таблица с гистограммами', /// for PR #1868
-    'LBL_RENDERERS_HEATMAP' =>'Теплокарта', /// for PR #1868
-    'LBL_RENDERERS_ROW_HEATMAP' =>'Теплокарта по строке', /// for PR #1868
-    'LBL_RENDERERS_COL_HEATMAP' =>'Теплокарта по столбцу', /// for PR #1868
-    'LBL_RENDERERS_LINE_CHART' =>'График', /// for PR #1868
-    'LBL_RENDERERS_BAR_CHART' =>'Гистограмма', /// for PR #1868
-    'LBL_RENDERERS_STACKED_BAR_CHART' =>'Гистограмма с накоплением', /// for PR #1868
-    'LBL_RENDERERS_AREA_CHART' =>'Диаграмма с областями', /// for PR #1868
-    'LBL_RENDERERS_SCATTER_CHART' =>'Точечная диаграмма', /// for PR #1868
+    'LBL_RENDERERS_TABLE' => 'Таблица', /// for PR #1868
+    'LBL_RENDERERS_TABLE_BARCHART' => 'Таблица с гистограммами', /// for PR #1868
+    'LBL_RENDERERS_HEATMAP' => 'Теплокарта', /// for PR #1868
+    'LBL_RENDERERS_ROW_HEATMAP' => 'Теплокарта по строке', /// for PR #1868
+    'LBL_RENDERERS_COL_HEATMAP' => 'Теплокарта по столбцу', /// for PR #1868
+    'LBL_RENDERERS_LINE_CHART' => 'График', /// for PR #1868
+    'LBL_RENDERERS_BAR_CHART' => 'Гистограмма', /// for PR #1868
+    'LBL_RENDERERS_STACKED_BAR_CHART' => 'Гистограмма с накоплением', /// for PR #1868
+    'LBL_RENDERERS_AREA_CHART' => 'Диаграмма с областями', /// for PR #1868
+    'LBL_RENDERERS_SCATTER_CHART' => 'Точечная диаграмма', /// for PR #1868
     'LBL_AGGREGATORS_COUNT' => 'Количество', /// for PR #1868
     'LBL_AGGREGATORS_COUNT_UNIQUE_VALUES' => 'Количество уникальных значений', /// for PR #1868
     'LBL_AGGREGATORS_LIST_UNIQUE_VALUES' => 'Список уникальных значений', /// for PR #1868
@@ -221,7 +208,7 @@ $mod_strings = array(
     'LBL_LOCALE_STRINGS_OK' => 'OK', /// for PR #1868
 	
 	
-    'LBL_ACTIVITIES_CALL'=>'Call', /// for PR #1868
-    'LBL_ACTIVITIES_MEETING'=>'Meeting', /// for PR #1868
-    'LBL_ACTIVITIES_TASK'=>'Task', /// for PR #1868
+    'LBL_ACTIVITIES_CALL' => 'Call', /// for PR #1868
+    'LBL_ACTIVITIES_MEETING' => 'Meeting', /// for PR #1868
+    'LBL_ACTIVITIES_TASK' => 'Task', /// for PR #1868
 );

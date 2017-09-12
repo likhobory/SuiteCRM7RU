@@ -29,7 +29,7 @@
  // Replaced by RAPIRA <--
 
 
-$mod_strings = array (
+$mod_strings = array(
   'LBL_ID' => 'ID',
   'LBL_DATE_ENTERED' => 'Дата создания',
   'LBL_DATE_MODIFIED' => 'Дата изменения',
@@ -53,7 +53,7 @@ $mod_strings = array (
   'LBL_MODIFYRECORD' => 'Изменить запись',
   'LBL_SELECT_ACTION' => 'Выберите действие',
   'LBL_CREATE_EMAIL_TEMPLATE' => 'Создать',
-  'LBL_RECORD_TYPE' =>  'Тип записи',
+  'LBL_RECORD_TYPE' => 'Тип записи',
   'LBL_ADD_FIELD' => 'Добавить поле',
   'LBL_ADD_RELATIONSHIP' => 'Добавить связь',
   'LBL_EDIT_EMAIL_TEMPLATE' => 'Изменить',

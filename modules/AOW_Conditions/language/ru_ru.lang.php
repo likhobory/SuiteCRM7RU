@@ -29,17 +29,15 @@
  // Replaced by RAPIRA <--
 
 
-$mod_strings = array (
+$mod_strings = array(
   'LBL_ID' => 'ID',
   'LBL_DATE_ENTERED' => 'Дата создания',
   'LBL_DATE_MODIFIED' => 'Дата изменения',
   'LBL_MODIFIED' => 'Изменено',
-  'LBL_MODIFIED_ID' => 'Изменено(ID)',
   'LBL_MODIFIED_NAME' => 'Изменено (Имя)',
    'LBL_CREATED_USER' => 'Создано',
   'LBL_MODIFIED_USER' => 'Изменено',
   'LBL_CREATED' => 'Создано',
-  'LBL_CREATED_ID' => 'Создано(ID)',
   'LBL_DESCRIPTION' => 'Описание',
   'LBL_DELETED' => 'Удалён',
   'LBL_NAME' => 'Условие',
@@ -51,7 +49,6 @@ $mod_strings = array (
   'LBL_VALUE_TYPE' => 'Тип',
   'LBL_VALUE' => 'Значение',
   'LBL_ORDER' => 'Сортировка',
-  'LBL_CONDITION_OPERATOR' => 'Оператор сравнения',
   'LBL_AOW_WORKFLOW_ID' => 'WorkFlow Id',
 );
 

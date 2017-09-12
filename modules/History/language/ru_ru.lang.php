@@ -29,7 +29,7 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
   *********************************************************************************/
  // Replaced by RAPIRA <--
  
-$mod_strings = array (
+$mod_strings = array(
 'LBL_MODULE_NAME' => 'История' ,
 'LBL_MODULE_TITLE' => 'История: ГЛАВНАЯ' ,
 'LBL_SEARCH_FORM_TITLE' => 'История - поиск' ,
@@ -38,7 +38,6 @@ $mod_strings = array (
 'LBL_LIST_CONTACT' => 'Контакт' ,
 'LBL_LIST_RELATED_TO' => 'Относится к' ,
 'LBL_LIST_DATE' => 'Дата' ,
-'LBL_LIST_TIME' => 'Время начала' , ////
 'LBL_LIST_CLOSE' => 'Закрыть' ,
 'LBL_SUBJECT' => 'Тема:' ,
 'LBL_STATUS' => 'Статус:' ,
@@ -49,11 +48,7 @@ $mod_strings = array (
 'LBL_DURATION' => 'Продолжительность:' ,
 'LBL_HOURS_MINS' => '(часов:минут)' ,
 'LBL_CONTACT_NAME' => 'Контактное лицо: ' ,
-'LBL_MEETING' => 'Встреча:' ,
-'LBL_DESCRIPTION_INFORMATION' => 'Описание' ,
 'LBL_DESCRIPTION' => 'Описание:' ,
-'LBL_COLON' => ':' , ////
-'LBL_DEFAULT_STATUS' => 'Запланировано' ,
 'LNK_NEW_CALL' => 'Назначить звонок' ,
 'LNK_NEW_MEETING' => 'Назначить встречу' ,
 'LNK_NEW_TASK' => 'Создать задачу' ,
@@ -63,9 +58,7 @@ $mod_strings = array (
 'LNK_MEETING_LIST' => 'Встречи' ,
 'LNK_TASK_LIST' => 'Задачи' ,
 'LNK_NOTE_LIST' => 'Заметки' ,
-'LNK_EMAIL_LIST' => 'E-mail' ,
 'ERR_DELETE_RECORD' => 'Перед удалением должен быть указан номер записи.' ,
-'NTC_REMOVE_INVITEE' => 'Вы уверены, что хотите удалить это приглашение из данной встречи?' ,
 'LBL_INVITEE' => 'Приглашённые' ,
 'LBL_LIST_DIRECTION' => 'Направление' ,
 'LBL_DIRECTION' => 'Направление' ,
@@ -77,7 +70,6 @@ $mod_strings = array (
 'LBL_NEW_TASK_BUTTON_LABEL' => 'Создать задачу' ,
 'LBL_SCHEDULE_MEETING_BUTTON_TITLE' => 'Запланировать встречу' ,
 'LBL_SCHEDULE_MEETING_BUTTON_LABEL' => 'Назначить встречу' ,
-'LBL_SCHEDULE_CALL_BUTTON_TITLE' => 'Запланировать звонок' ,
 'LBL_SCHEDULE_CALL_BUTTON_LABEL' => 'Назначить звонок' ,
 'LBL_NEW_NOTE_BUTTON_TITLE' => 'Создать заметку или вложение' ,
 'LBL_NEW_NOTE_BUTTON_LABEL' => 'Создать заметку или вложение' ,
@@ -86,17 +78,8 @@ $mod_strings = array (
 'LBL_LIST_STATUS' => 'Статус' ,
 'LBL_LIST_DUE_DATE' => 'Дата завершения' ,
 'LBL_LIST_LAST_MODIFIED' => 'Последнее изменение' ,
-'appointment_filter_dom' => array(
-'today' => 'сегодня' ,
-,'tomorrow' => 'завтра' ,
-,'this Saturday' => 'на этой неделе' ,
-,'next Saturday' => 'следующая неделя' ,
-,'last this_month' => 'этот месяц' ,
-,'last next_month' => 'следующий месяц' ,
-),
-'LNK_IMPORT_NOTES'=> 'Импортировать заметки' ,
-'NTC_NONE'=> 'Нет' ,
-'LBL_ACCEPT_THIS'=> 'Принято?' ,
+'LNK_IMPORT_NOTES' => 'Импортировать заметки' ,
+'LBL_ACCEPT_THIS' => 'Принято?' ,
 'LBL_DEFAULT_SUBPANEL_TITLE' => 'История' ,
 
 'LBL_CATEGORY' => 'Категория',

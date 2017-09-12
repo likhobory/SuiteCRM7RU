@@ -29,9 +29,9 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
   *********************************************************************************/
  // Replaced by RAPIRA <--
  
-$mod_strings = array (
+$mod_strings = array(
 'LBL_MODULE_NAME' => 'Список адресатов' ,
-'LBL_MODULE_ID'   => 'Списки адресатов',
+'LBL_MODULE_ID' => 'Списки адресатов',
 'LBL_MODULE_TITLE' => 'Адресаты - ГЛАВНАЯ' ,
 'LBL_SEARCH_FORM_TITLE' => 'Поиск списка адресатов' ,
 'LBL_LIST_FORM_TITLE' => 'Список адресатов' ,
@@ -56,26 +56,24 @@ $mod_strings = array (
 'LNK_PROSPECT_LIST_LIST' => 'Списки адресатов' ,
 'LBL_MODIFIED_BY' => 'Кем исправлено' ,
 'LBL_CREATED_BY' => 'Кем создано' ,
-'LBL_DATE_CREATED' => 'Дата создания' ,
-'LBL_DATE_LAST_MODIFIED' => 'Дата изменения' ,
 'LNK_NEW_PROSPECT' => 'Создать адресата' ,
 'LNK_PROSPECT_LIST' => 'Адресаты' ,
 
 'LBL_CONTACTS_SUBPANEL_TITLE' => 'Контакты' ,
 'LBL_LEADS_SUBPANEL_TITLE' => 'Предварительные контакты' ,
-'LBL_PROSPECTS_SUBPANEL_TITLE'=> 'Адресаты' ,
+'LBL_PROSPECTS_SUBPANEL_TITLE' => 'Адресаты' ,
 'LBL_ACCOUNTS_SUBPANEL_TITLE' => 'Контрагенты',
 'LBL_COPY_PREFIX' => 'Копия для' ,
 'LBL_USERS_SUBPANEL_TITLE' => 'Пользователи' ,
 'LBL_TYPE' => 'Тип' ,
 'LBL_LIST_TYPE' => 'Тип:' ,
-'LBL_LIST_TYPE_LIST_NAME'=> 'Тип' ,
-'LBL_NEW_FORM_TITLE'=> 'Новый список адресатов' ,
-'LBL_MARKETING_NAME'=> 'Название маркетинговой кампании',
-'LBL_DOMAIN_NAME'=> 'Имя домена' ,
-'LBL_DOMAIN'=> 'Нет писем в домене:'  ,
-'LBL_LIST_PROSPECTLIST_NAME'=> 'Название',
-'LBL_EMAIL_MARKETING'=>'Рассылки E-mail',
+'LBL_LIST_TYPE_LIST_NAME' => 'Тип' ,
+'LBL_NEW_FORM_TITLE' => 'Новый список адресатов' ,
+'LBL_MARKETING_NAME' => 'Название маркетинговой кампании',
+'LBL_DOMAIN_NAME' => 'Имя домена' ,
+'LBL_DOMAIN' => 'Нет писем в домене:'  ,
+'LBL_LIST_PROSPECTLIST_NAME' => 'Название',
+'LBL_EMAIL_MARKETING' => 'Рассылки E-mail',
 );
 
 

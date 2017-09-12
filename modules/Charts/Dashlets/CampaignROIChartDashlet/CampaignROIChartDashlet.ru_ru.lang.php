@@ -29,7 +29,8 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
   *********************************************************************************/
  // Replaced by RAPIRA <--
  
-$dashletStrings['CampaignROIChartDashlet'] = array('LBL_TITLE'       => 'Диаграмма рентабельности инвестиций',
-                                                     'LBL_DESCRIPTION' => 'Рентабельность инвестиций',
-                                                     'LBL_REFRESH'     => 'Обновить диаграмму');
+$dashletStrings['CampaignROIChartDashlet'] = array(
+'LBL_TITLE' => 'Диаграмма рентабельности инвестиций',
+'LBL_DESCRIPTION' => 'Рентабельность инвестиций',
+'LBL_REFRESH' => 'Обновить диаграмму');
 ?> 

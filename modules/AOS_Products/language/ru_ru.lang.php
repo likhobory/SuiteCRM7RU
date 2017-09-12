@@ -28,17 +28,15 @@
   *********************************************************************************/
  // Replaced by RAPIRA <--
 
-$mod_strings = array (
+$mod_strings = array(
   'LBL_ASSIGNED_TO_ID' => 'Ответственный(ая)',
   'LBL_ASSIGNED_TO_NAME' => 'Ответственный(ая)',
   'LBL_ID' => 'ID',
   'LBL_DATE_ENTERED' => 'Дата создания',
   'LBL_DATE_MODIFIED' => 'Дата изменения',
   'LBL_MODIFIED' => 'Изменено',
-  'LBL_MODIFIED_ID' => 'Изменено(ID)',
   'LBL_MODIFIED_NAME' => 'Изменено (Имя)',
   'LBL_CREATED' => 'Создано',
-  'LBL_CREATED_ID' => 'Создано(ID)',
   'LBL_DESCRIPTION' => 'Описание',
   'LBL_DELETED' => 'Удалён',
   'LBL_NAME' => 'Название товара',
@@ -53,7 +51,6 @@ $mod_strings = array (
   'LBL_SEARCH_FORM_TITLE' => 'Поиск товара',
   'LBL_HISTORY_SUBPANEL_TITLE' => 'Просмотр истории',
   'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Мероприятия',
-  'LBL_AOS_PRODUCTS_SUBPANEL_TITLE' => 'Товары',
   'LBL_NEW_FORM_TITLE' => 'Новые товары',
   'LBL_MAINCODE' => 'Код товара',
   'VALUE' => 'Название товара',

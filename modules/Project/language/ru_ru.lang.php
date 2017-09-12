@@ -29,7 +29,7 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
   *********************************************************************************/
  // Replaced by RAPIRA <--
  
-$mod_strings = array (
+$mod_strings = array(
 'LBL_MODULE_NAME' => 'Проект' ,
 'LBL_MODULE_TITLE' => 'Проекты - ГЛАВНАЯ' ,
 'LBL_SEARCH_FORM_TITLE' => 'Поиск проекта' ,
@@ -51,14 +51,9 @@ $mod_strings = array (
 'LBL_DATE_END' => 'Дата окончания:',
 'LBL_PRIORITY' => 'Приоритет',
 'LBL_STATUS' => 'Статус',
-'LBL_MY_PROJECTS' => 'Мои проекты',
-'LBL_MY_PROJECT_TASKS' => 'Мои проектные задачи',
 
-'LBL_TOTAL_ESTIMATED_EFFORT' => 'Предварительная оценка общих усилий (час.):' ,
-'LBL_TOTAL_ACTUAL_EFFORT' => 'Реальные общие усилия (час.):' ,
 
 'LBL_LIST_NAME' => 'Название' ,
-'LBL_LIST_DAYS' => 'дней',
 'LBL_LIST_ASSIGNED_USER_ID' => 'Менеджер проекта' ,
 'LBL_LIST_TOTAL_ESTIMATED_EFFORT' => 'Предварительная оценка общих усилий (час.)' ,
 'LBL_LIST_TOTAL_ACTUAL_EFFORT' => 'Реальные общие усилия (час.)' ,
@@ -67,8 +62,6 @@ $mod_strings = array (
 
 'LBL_PROJECT_SUBPANEL_TITLE' => 'Проекты' ,
 'LBL_PROJECT_TASK_SUBPANEL_TITLE' => 'Проектные задачи' ,
-'LBL_CONTACT_SUBPANEL_TITLE' => 'Контакты' ,
-'LBL_ACCOUNT_SUBPANEL_TITLE' => 'Контрагенты' ,
 'LBL_OPPORTUNITY_SUBPANEL_TITLE' => 'Сделки' ,
 'LBL_PROJECT_PREDECESSOR_NONE' => '--не выбрано--',
 'LBL_ALL_PROJECTS' => 'Все проекты',
@@ -79,16 +72,14 @@ $mod_strings = array (
 'LBL_NEW_FORM_TITLE' => 'Новый проект',
 
 
-'LNK_NEW_PROJECT'=> 'Создать проект' ,
-'LNK_PROJECT_LIST'=> 'Проекты' ,
-'LNK_NEW_PROJECT_TASK'=> 'Создать задачу проекта' ,
-'LNK_PROJECT_TASK_LIST'=> 'Проектные задачи' ,
+'LNK_NEW_PROJECT' => 'Создать проект' ,
+'LNK_PROJECT_LIST' => 'Проекты' ,
+'LNK_NEW_PROJECT_TASK' => 'Создать задачу проекта' ,
+'LNK_PROJECT_TASK_LIST' => 'Проектные задачи' ,
 
 'LBL_DEFAULT_SUBPANEL_TITLE' => 'Проекты' ,
-'LBL_ACTIVITIES_TITLE'=> 'Мероприятия' ,
-'LBL_ACTIVITIES_SUBPANEL_TITLE'=> 'Мероприятия' ,
-'LBL_HISTORY_SUBPANEL_TITLE'=> 'История' ,
-'LBL_QUICK_NEW_PROJECT'=> 'Создать проект' ,
+'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Мероприятия' ,
+'LBL_HISTORY_SUBPANEL_TITLE' => 'История' ,
 
 'LBL_PROJECT_TASKS_SUBPANEL_TITLE' => 'Проектные задачи' ,
 'LBL_CONTACTS_SUBPANEL_TITLE' => 'Контакты' ,
@@ -96,7 +87,6 @@ $mod_strings = array (
 'LBL_OPPORTUNITIES_SUBPANEL_TITLE' => 'Сделки',
 'LBL_CASES_SUBPANEL_TITLE' => 'Обращения',
 'LBL_BUGS_SUBPANEL_TITLE' => 'Ошибки',
-'LBL_PRODUCTS_SUBPANEL_TITLE' => 'Товары',
 
 
 'LBL_TASK_ID' => 'ID',
@@ -107,7 +97,7 @@ $mod_strings = array (
 'LBL_FINISH' => 'Окончание',
 
 
-'LBL_MORE'  => 'Больше...',
+'LBL_MORE' => 'Больше...',
 
 
 'LBL_OPPORTUNITIES' => 'Сделки',
@@ -124,7 +114,6 @@ $mod_strings = array (
   'LBL_ASSIGNED_USER_NAME' => 'Менеджер проекта',
 
   'LBL_TASK_TITLE' => 'Редактировать',
-  'LBL_PREDECESSOR_TITLE' => 'Редактировать',
   'LBL_DURATION_TITLE' => 'Продолжительность',
   'LBL_DESCRIPTION' => 'Описание',
   'LBL_LAG' => 'Задержка',
@@ -139,9 +128,6 @@ $mod_strings = array (
   'LBL_PARENT_TASK_ID' => 'Предшествующая задача(ID)',
   'LBL_PERCENT_COMPLETE' => 'Процент выполнения',
   'LBL_RESOURCE_CHART' => 'Диаграмма ресурсов',
-  'LBL_RESOURCE_CHART_START' => 'Дата начала:',
-  'LBL_RESOURCE_CHART_END' => 'Дата окончания:',
-  'LBL_RESOURCES' => 'Выбор участников:',
   'LBL_RELATIONSHIP_TYPE' => 'Тип связи',
   'LBL_TASK_NAME' => 'Проектная задача',
   'LBL_PREDECESSORS' => 'Предшественник',
@@ -168,11 +154,11 @@ $mod_strings = array (
   
   'LBL_EMAIL' => 'E-mail',
   'LBL_PHONE' => 'Тел. (раб.):',
-  'LBL_ADD_BUTTON'=> 'Добавить',
+  'LBL_ADD_BUTTON' => 'Добавить',
   'LBL_ADD_INVITEE' => 'Добавить участника',
   'LBL_FIRST_NAME' => 'Имя',
   'LBL_LAST_NAME' => 'Фамилия',
-  'LBL_SEARCH_BUTTON'=> 'Найти',
+  'LBL_SEARCH_BUTTON' => 'Найти',
   'LBL_EMPTY_SEARCH_RESULT' => 'По указанным критериям ничего не обнаружено.',
   'LBL_CREATE_INVITEE' => 'Добавить участника',
   'LBL_CREATE_CONTACT' => 'Создав новый контакт',
@@ -197,7 +183,6 @@ $mod_strings = array (
 
   'LBL_RESOURCE_CHART_MONTH' => 'Месяц',
   'LBL_RESOURCE_CHART_QUARTER' => 'Квартал',
-  'LBL_ALL_RESOURCES' => 'Все участники',
   'LBL_AM_PROJECTTEMPLATES_PROJECT_1_FROM_PROJECT_TITLE' => 'Шаблоны проекта',
   'LBL_AOS_QUOTES_PROJECT' => 'Проекты-Предложения',
 );

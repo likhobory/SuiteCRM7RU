@@ -28,7 +28,7 @@
   *********************************************************************************/
  // Replaced by RAPIRA <--
 
-$mod_strings = array (
+$mod_strings = array(
  'LBL_DESCRIPTION' => 'Содержание',
   'LBL_NAME' => 'Название',
  'LBL_LIST_NAME' => 'Название',

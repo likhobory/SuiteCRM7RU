@@ -30,10 +30,10 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
  // Replaced by RAPIRA <--
 
 $dashletStrings['CalendarDashlet'] = array(
-					'LBL_TITLE'            => 'Мой календарь',
-                         'LBL_DESCRIPTION'      => 'Календарь',
-                         'LBL_CONFIGURE_TITLE'  => 'Заголовок',
-                         'LBL_CONFIGURE_VIEW'  => 'Отображать',
+					'LBL_TITLE' => 'Мой календарь',
+                         'LBL_DESCRIPTION' => 'Календарь',
+                         'LBL_CONFIGURE_TITLE' => 'Заголовок',
+                         'LBL_CONFIGURE_VIEW' => 'Отображать',
                          'LBL_SAVE_BUTTON_LABEL' => 'Сохранить',
                          
                          'LBL_VIEW_DAY' => 'День',

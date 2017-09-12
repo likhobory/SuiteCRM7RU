@@ -29,7 +29,7 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
   *********************************************************************************/
  // Replaced by RAPIRA <--
  
-$mod_strings = array (
+$mod_strings = array(
 'LBL_REPLY_ADDR' => 'Ответить (адрес): ',
 'LBL_REPLY_NAME' => 'Ответить (имя): ',
 
@@ -42,15 +42,14 @@ $mod_strings = array (
 'LBL_LIST_DATE_START' => 'Дата начала' ,
 'LBL_LIST_TEMPLATE_NAME' => 'Шаблон E-mail' ,
 'LBL_LIST_STATUS' => 'Статус' ,
-'LBL_STATUS'=> 'Статус' ,
-'LBL_STATUS_TEXT'=> 'Статус:' ,
-'LBL_TEMPLATE_NAME'=> 'Название шаблона',
+'LBL_STATUS' => 'Статус' ,
+'LBL_STATUS_TEXT' => 'Статус:' ,
+'LBL_TEMPLATE_NAME' => 'Название шаблона',
 'LBL_DATE_ENTERED' => 'Дата ввода' ,
 'LBL_DATE_MODIFIED' => 'Дата изменения' ,
 'LBL_MODIFIED' => 'Исправлено: ' ,
 'LBL_CREATED' => 'Создано: ' ,
-'LBL_MESSAGE_FOR'=> 'Отправить это сообщение:' ,
-'LBL_MESSAGE_FOR_ID'=> 'Сообщение для' ,
+'LBL_MESSAGE_FOR' => 'Отправить это сообщение:' ,
 
 'LBL_FROM_NAME' => 'От - имя: ' ,
 'LBL_FROM_ADDR' => 'От - адрес E-mail: ' ,
@@ -61,8 +60,6 @@ $mod_strings = array (
 
 'LBL_MODIFIED_BY' => 'Кем исправлено: ' ,
 'LBL_CREATED_BY' => 'Кем создано: ' ,
-'LBL_DATE_CREATED' => 'Дата создания: ' ,
-'LBL_DATE_LAST_MODIFIED' => 'Дата изменения: ' ,
 
 'LNK_NEW_CAMPAIGN' => 'Создать маркет. кампанию' ,
 'LNK_CAMPAIGN_LIST' => 'Маркетинговые кампании' ,
@@ -70,18 +67,16 @@ $mod_strings = array (
 'LNK_PROSPECT_LIST_LIST' => 'Списки адресатов' ,
 'LNK_NEW_PROSPECT' => 'Создать адресата' ,
 'LNK_PROSPECT_LIST' => 'Адресаты' ,
-'LBL_DEFAULT_SUBPANEL_TITLE'=> 'Рассылки E-mail' ,
-'LBL_CREATE_EMAIL_TEMPLATE'=> 'Создать' ,
-'LBL_EDIT_EMAIL_TEMPLATE'=> 'Править' ,
-'LBL_FROM_MAILBOX'=> 'Почтовый ящик для возвращаемых писем' ,
-'LBL_FROM_MAILBOX_NAME'=> 'Почтовый ящик для возвращаемых писем:' ,
+'LBL_DEFAULT_SUBPANEL_TITLE' => 'Рассылки E-mail' ,
+'LBL_CREATE_EMAIL_TEMPLATE' => 'Создать' ,
+'LBL_EDIT_EMAIL_TEMPLATE' => 'Править' ,
+'LBL_FROM_MAILBOX' => 'Почтовый ящик для возвращаемых писем' ,
+'LBL_FROM_MAILBOX_NAME' => 'Почтовый ящик для возвращаемых писем:' ,
 'LBL_OUTBOUND_EMAIL_ACCOUNT_NAME' => 'Учётная запись для исходящей почты:',
-'LBL_PROSPECT_LIST_SUBPANEL_TITLE'=> 'Адресаты' ,
-'LBL_ALL_PROSPECT_LISTS'=> 'ВСЕМ спискам адресатов маркетинговой кампании' ,
-'LBL_RELATED_PROSPECT_LISTS'=> 'ВЫБРАННЫМ спискам адресатов маркетинговой кампании.' ,
-'LBL_PROSPECT_LIST_NAME'=> 'Имя:' ,
-//    'LBL_OUTBOUND_EMAIL_ACCOUNT_DEFAULT' => 'Use System Default',
-//    'LBL_OUTBOUND_EMAIL_ACCOUNT_VIEW' => 'View Outbound Email Accounts',
+'LBL_PROSPECT_LIST_SUBPANEL_TITLE' => 'Адресаты' ,
+'LBL_ALL_PROSPECT_LISTS' => 'ВСЕМ спискам адресатов маркетинговой кампании' ,
+'LBL_RELATED_PROSPECT_LISTS' => 'ВЫБРАННЫМ спискам адресатов маркетинговой кампании.' ,
+'LBL_PROSPECT_LIST_NAME' => 'Имя:' ,
 
 'LBL_CAMPAIGN_ID' => 'Маркет. кампания (ID)',
 'LBL_OUTBOUND_EMAIL_ACOUNT_ID' => 'ID учётной записи исходящей почты',

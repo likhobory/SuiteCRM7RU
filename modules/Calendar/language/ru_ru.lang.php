@@ -29,13 +29,13 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
   *********************************************************************************/
  // Replaced by RAPIRA <--
  
-$mod_strings = array (
+$mod_strings = array(
 
 'LBL_SHAREDWEEK' => 'Сводная неделя',
 'LBL_SHAREDMONTH' => 'Сводный месяц',
 
-'LBL_MODULE_NAME'=> 'Календарь' ,
-'LBL_MODULE_TITLE'=> 'Календарь' ,
+'LBL_MODULE_NAME' => 'Календарь' ,
+'LBL_MODULE_TITLE' => 'Календарь' ,
 'LNK_NEW_CALL' => 'Назначить звонок' ,
 'LNK_NEW_MEETING' => 'Назначить встречу' ,
 'LNK_NEW_TASK' => 'Создать задачу' ,
@@ -47,9 +47,9 @@ $mod_strings = array (
 'LNK_EVENT' => 'Событие',
 'LNK_EVENT_VIEW' => 'Просмотр события',
 'LNK_VIEW_CALENDAR' => 'Сегодня' ,
-'LNK_IMPORT_CALLS'=> 'Импорт звонков',
-'LNK_IMPORT_MEETINGS'=> 'Импорт встреч',
-'LNK_IMPORT_TASKS'=> 'Импорт задач',
+'LNK_IMPORT_CALLS' => 'Импорт звонков',
+'LNK_IMPORT_MEETINGS' => 'Импорт встреч',
+'LNK_IMPORT_TASKS' => 'Импорт задач',
 'LBL_MONTH' => 'Месяц' ,
 'LBL_AGENDADAY' => 'День',
 'LBL_YEAR' => 'Год' ,
@@ -111,8 +111,8 @@ $mod_strings = array (
 
 'LBL_SETTINGS_TITLE' => 'Настройка календаря',
 'LBL_SETTINGS_DISPLAY_TIMESLOTS' => 'Разделять сутки на временные интервалы:',
-'LBL_SETTINGS_TIME_STARTS'=>'Время начала:',
-'LBL_SETTINGS_TIME_ENDS'=>'Время завершения:',
+'LBL_SETTINGS_TIME_STARTS' => 'Время начала:',
+'LBL_SETTINGS_TIME_ENDS' => 'Время завершения:',
 'LBL_SETTINGS_CALLS_SHOW' => 'Отображать звонки:',
 'LBL_SETTINGS_TASKS_SHOW' => 'Отображать задачи:',
 'LBL_SETTINGS_COMPLETED_SHOW' => 'Отображать завершённые мероприятия:',
@@ -126,7 +126,7 @@ $mod_strings = array (
 'LBL_CLOSE_BUTTON' => 'Закрыть',
 
 'LBL_GENERAL_TAB' => 'Основное',
-'LBL_PARTICIPANTS_TAB' =>'Участники',
+'LBL_PARTICIPANTS_TAB' => 'Участники',
 'LBL_REPEAT_TAB' => 'Повторы',
 	
 'LBL_REPEAT_TYPE' => 'Повторять',
@@ -204,9 +204,9 @@ array(
 '7' => 'Июль',
 '8' => 'Август',
 '9' => 'Сентябрь',
-'10' =>'Октябрь',
-'11' =>'Ноябрь',
-'12' =>'Декабрь',
+'10' => 'Октябрь',
+'11' => 'Ноябрь',
+'12' => 'Декабрь',
 ),
 );
 ?>

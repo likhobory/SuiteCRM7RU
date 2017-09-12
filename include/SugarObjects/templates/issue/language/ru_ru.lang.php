@@ -29,7 +29,7 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
   *********************************************************************************/
  // Replaced by RAPIRA <--
  
-$mod_strings = array (
+$mod_strings = array(
 
 'LBL_NAME' => 'Имя:' ,
 'LBL_NUMBER' => 'Номер:' ,
@@ -42,13 +42,11 @@ $mod_strings = array (
 'LBL_ASSIGNED_TO_NAME' => 'Пользователь: ',
 'LBL_WORK_LOG' => 'Журнал',
 'LBL_CREATED_BY' => 'Кем создано:',
-'LBL_DATE_CREATED' => 'Дата создания:',
 'LBL_DATE_ENTERED' => 'Дата ввода:' ,
-'LBL_DATE_MODIFIED'=> 'Дата изменения:' ,
+'LBL_DATE_MODIFIED' => 'Дата изменения:' ,
 'LBL_MODIFIED_BY' => 'Кем изменено:',
 'LBL_ASSIGNED_USER' => 'Ответственный(ая):',
-'LBL_SYSTEM_ID' => 'System ID' , ///
-'LBL_TYPE'=> 'Тип',
+'LBL_TYPE' => 'Тип',
 'LBL_SUBJECT' => 'Тема:',
 
 'LBL_EDIT_BUTTON' => 'Править',

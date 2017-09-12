@@ -28,15 +28,13 @@
   *********************************************************************************/
  // Replaced by RAPIRA <--
 
-$mod_strings = array (
+$mod_strings = array(
     'LBL_ID' => 'ID',
     'LBL_DATE_ENTERED' => 'Дата создания',
     'LBL_DATE_MODIFIED' => 'Дата изменения',
     'LBL_MODIFIED' => 'Изменено',
-    'LBL_MODIFIED_ID' => 'Изменено(ID)',
     'LBL_MODIFIED_NAME' => 'Изменено (Имя)',
     'LBL_CREATED' => 'Создано',
-    'LBL_CREATED_ID' => 'Создано(ID)',
     'LBL_DESCRIPTION' => 'Описание',
     'LBL_DELETED' => 'Удалено',
     'LBL_NAME' => 'Отчёт',
@@ -53,7 +51,6 @@ $mod_strings = array (
     'LBL_HOMEPAGE_TITLE' => 'Мои поля',
     'LNK_NEW_RECORD' => 'Создать поля',
     'LNK_LIST' => 'Поля',
-    'LNK_IMPORT_AOR_FIELDS' => 'Импорт полей',
     'LBL_SEARCH_FORM_TITLE' => 'Поиск полей',
   'LBL_HISTORY_SUBPANEL_TITLE' => 'История',
   'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Мероприятия',

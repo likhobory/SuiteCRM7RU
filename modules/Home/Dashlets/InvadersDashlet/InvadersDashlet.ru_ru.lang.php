@@ -30,11 +30,11 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
  // Replaced by RAPIRA <--
  
 $dashletStrings['InvadersDashlet'] = array(
-'LBL_TITLE'         => 'Invaders!',
-'LBL_DESCRIPTION'   => 'Для тех, кому не жалко своего времени',
+'LBL_TITLE' => 'Invaders!',
+'LBL_DESCRIPTION' => 'Для тех, кому не жалко своего времени',
 'LBL_DBLCLICK_HELP' => 'A - влево, D - вправо, S - огонь.',
-'LBL_START'         => 'Начать игру',
-'LBL_GAME_OVER'     => 'Игра окончена<br>(Попробовать ещё раз)',
+'LBL_START' => 'Начать игру',
+'LBL_GAME_OVER' => 'Игра окончена<br>(Попробовать ещё раз)',
 
 );
 ?>

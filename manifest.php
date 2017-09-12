@@ -11,21 +11,21 @@ $manifest = array(
 	'type' => 'langpack',
 	'is_uninstallable' => 'Yes',
 	'acceptable_sugar_versions' =>
-		  array (),
+		  array(),
 	'acceptable_sugar_flavors' =>
 		  array('CE'),
 	'author' => 'likhobory',
-    'version' => '7.9.3',
-	'published_date' => '2017/07/19',
+    'version' => '7.9.5',
+	'published_date' => '2017/09/11',
       );
 
 $installdefs = array(
-	'id'=> 'ru_ru',
+	'id' => 'ru_ru',
 	'copy' => array(
-	array('from'=> '<basepath>/include','to'=>'include',),
-	array('from'=> '<basepath>/modules','to'=>'modules'),
-	array('from'=> '<basepath>/install','to'=>'install'),
+	array('from' => '<basepath>/include','to' => 'include',),
+	array('from' => '<basepath>/modules','to' => 'modules'),
+	array('from' => '<basepath>/install','to' => 'install'),
 
-                        )
+                    )
  );
 ?>

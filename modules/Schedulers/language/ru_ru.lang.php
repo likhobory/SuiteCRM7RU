@@ -31,19 +31,19 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
  
 global $sugar_config;
 
-$mod_strings = array (
+$mod_strings = array(
 // OOTB Scheduler Job Names:
-'LBL_OOTB_WORKFLOW'=> 'Выполнять настроенные процессы' ,
-'LBL_OOTB_REPORTS'=> 'Создавать отчёты по расписанию' ,
-'LBL_OOTB_IE'=> 'Проверять входящие письма' ,
-'LBL_OOTB_BOUNCE'=> 'Запускать ночью проверку почтовых ящиков для возвращаемых писем' ,
-'LBL_OOTB_CAMPAIGN'=> 'Запускать ночью массовую рассылку писем' ,
-'LBL_OOTB_PRUNE'=> 'Очищать базу данных первого числа каждого месяца',
-'LBL_OOTB_TRACKER'=> 'Очищать таблицы трекера',
+'LBL_OOTB_WORKFLOW' => 'Выполнять настроенные процессы' ,
+'LBL_OOTB_REPORTS' => 'Создавать отчёты по расписанию' ,
+'LBL_OOTB_IE' => 'Проверять входящие письма' ,
+'LBL_OOTB_BOUNCE' => 'Запускать ночью проверку почтовых ящиков для возвращаемых писем' ,
+'LBL_OOTB_CAMPAIGN' => 'Запускать ночью массовую рассылку писем' ,
+'LBL_OOTB_PRUNE' => 'Очищать базу данных первого числа каждого месяца',
+'LBL_OOTB_TRACKER' => 'Очищать таблицы трекера',
 'LBL_OOTB_SUGARFEEDS' => 'Очищать ленту событий',
 'LBL_OOTB_LUCENE_INDEX' => 'Индексировать неиндексированные документы',
 'LBL_OOTB_OPTIMISE_INDEX' => 'Оптимизировать индекс полнотекстового поиска',
-'LBL_OOTB_SEND_EMAIL_REMINDERS'	=> 'Отправлять напоминания о мероприятиях по E-mail',
+'LBL_OOTB_SEND_EMAIL_REMINDERS' => 'Отправлять напоминания о мероприятиях по E-mail',
 'LBL_OOTB_CLEANUP_QUEUE' => 'Очищать очередь заданий',
 'LBL_OOTB_REMOVE_DOCUMENTS_FROM_FS' => 'Удалять неиспользуемые файлы из системы',
 
@@ -52,34 +52,27 @@ $mod_strings = array (
 'LBL_LIST_LIST_ORDER' => 'Задания:' ,
 'LBL_LIST_NAME' => 'Задания:' ,
 'LBL_LIST_RANGE' => 'Порядок:' ,
-'LBL_LIST_REMOVE' => 'Удаление:' ,
 'LBL_LIST_STATUS' => 'Статус:' ,
 'LBL_LIST_TITLE' => 'Список заданий' ,
-'LBL_LIST_EXECUTE_TIME' => 'Будет запущено в:' ,
 // human readable:
-'LBL_SUN'=> 'Воскресенье' ,
-'LBL_MON'=> 'Понедельник' ,
-'LBL_TUE'=> 'Вторник' ,
-'LBL_WED'=> 'Среда' ,
-'LBL_THU'=> 'Четверг' ,
-'LBL_FRI'=> 'Пятница' ,
-'LBL_SAT'=> 'Суббота' ,
-'LBL_ALL'=> 'Каждый день' ,
-'LBL_EVERY_DAY'=> 'Каждый день' ,
-'LBL_AT_THE'=> 'В ' ,
-'LBL_EVERY'=> 'Каждые ' ,
-'LBL_FROM'=> 'с ' ,
-'LBL_ON_THE'=> 'Раз в ' ,
-'LBL_RANGE'=> ' до ' ,
-'LBL_AT' => 'в ' ,
-'LBL_IN'=> 'В ' ,
-'LBL_AND'=> 'и ' ,
-'LBL_MINUTES'=> ' минут(ы) ' ,
-'LBL_HOUR'=> ' час.' ,
-'LBL_HOUR_SING'=> ' час' ,
-'LBL_MONTH'=> ' месяц' ,
-'LBL_OFTEN'=> 'Постоянно' ,
-'LBL_MIN_MARK'=> ' минуту' ,
+'LBL_SUN' => 'Воскресенье' ,
+'LBL_MON' => 'Понедельник' ,
+'LBL_TUE' => 'Вторник' ,
+'LBL_WED' => 'Среда' ,
+'LBL_THU' => 'Четверг' ,
+'LBL_FRI' => 'Пятница' ,
+'LBL_SAT' => 'Суббота' ,
+'LBL_ALL' => 'Каждый день' ,
+'LBL_EVERY' => 'Каждые ' ,
+'LBL_FROM' => 'с ' ,
+'LBL_ON_THE' => 'Раз в ' ,
+'LBL_RANGE' => ' до ' ,
+'LBL_AND' => 'и ' ,
+'LBL_MINUTES' => ' минут(ы) ' ,
+'LBL_HOUR' => ' час.' ,
+'LBL_HOUR_SING' => ' час' ,
+'LBL_OFTEN' => 'Постоянно' ,
+'LBL_MIN_MARK' => ' минуту' ,
 
 
 // crontabs
@@ -114,13 +107,12 @@ $mod_strings = array (
 'LBL_WARN_CURL' => 'Предупреждение:' ,
 'LBL_WARN_NO_CURL' => 'Эта система не имеет cURL-библиотеку, доступную/откомпилированную в PHP-модуле (--with-curl=/path/to/curl_library). Пожалуйста, свяжитесь с Вашим администратором, чтобы решить этот вопрос. Без cURL-функциональности, планировщик не может выполнить необходимые действия.' ,
 'LBL_BASIC_OPTIONS' => 'Основные параметры' ,
-'LBL_ADV_OPTIONS'=> 'Дополнительные параметры' ,
+'LBL_ADV_OPTIONS' => 'Дополнительные параметры' ,
 'LBL_TOGGLE_ADV' => 'Показать дополнительные параметры' ,
 'LBL_TOGGLE_BASIC' => 'Показать основные параметры' ,
 // Links
 'LNK_LIST_SCHEDULER' => 'Список заданий' ,
 'LNK_NEW_SCHEDULER' => 'Создать задание' ,
-'LNK_LIST_SCHEDULED' => 'Запланированные задания' ,
 // Messages
 'ERR_CRON_SYNTAX' => 'Неверный cron-синтакс',
 'NTC_LIST_ORDER' => 'Установка последовательности, в которой задания появятся в списке' ,
@@ -132,8 +124,8 @@ $mod_strings = array (
 'LBL_CRON_WINDOWS_DESC' => 'Для запуска планировщика SuiteCRM создайте пакетный файл и ежеминутно выполняйте его при помощи планировщика Windows. Пакетный файл должен содержать следующие команды: ',
 
 // Subpanels
-'LBL_JOBS_SUBPANEL_TITLE'=> 'Журнал заданий' ,
-'LBL_EXECUTE_TIME'=> 'Время выполнения' ,
+'LBL_JOBS_SUBPANEL_TITLE' => 'Журнал заданий' ,
+'LBL_EXECUTE_TIME' => 'Время выполнения' ,
 
 //jobstrings
 

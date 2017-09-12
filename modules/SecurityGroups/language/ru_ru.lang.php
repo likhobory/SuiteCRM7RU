@@ -99,8 +99,8 @@ $mod_strings = array(
     'LBL_SECURITYGROUP_NAME' => 'Имя Группы пользователя',
 
     'LBL_HOMEPAGE_TITLE' => 'Групповые сообщения',
-'LBL_TITLE'=> 'Заголовок:',
-'LBL_ROWS'=> 'Количество строк:',
+'LBL_TITLE' => 'Заголовок:',
+'LBL_ROWS' => 'Количество строк:',
 
     'LBL_POST' => 'Отправить',
 	'LBL_SELECT_GROUP_ERROR' => 'Не выбрано ни одной группы.',

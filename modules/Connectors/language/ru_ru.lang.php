@@ -29,15 +29,12 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
   *********************************************************************************/
  // Replaced by RAPIRA <--
  
-$mod_strings = array (
+$mod_strings = array(
 
-'LBL_ADMINISTRATION' => 'Администрирование подключения',
 'LBL_ADMINISTRATION_MAIN' => 'Параметры подключения',
 'LBL_AVAILABLE' => 'Доступно',
 'LBL_BACK' => '< Назад',
-'LBL_COMPANY_ID' => 'Контрагент (ID)',
 'LBL_CONFIRM_CONTINUE_SAVE' => 'Некоторые поля, требующие обязательного заполнения, оставлены пустыми. Продолжить сохранение?',
-'LBL_CONNECTOR' => 'Подключение',
 'LBL_CONNECTOR_FIELDS' => 'Поля подключения',
 'LBL_DATA' => 'Данные',
 'LBL_DEFAULT' => 'По умолчанию',
@@ -48,42 +45,30 @@ $mod_strings = array (
 'LBL_MERGE' => 'Объединить',
 'LBL_MODIFY_DISPLAY_TITLE' => 'Выбор модулей',
 'LBL_MODIFY_DISPLAY_DESC' => 'Выбор модулей, связанных с указанным подключением.',
-'LBL_MODIFY_DISPLAY_PAGE_TITLE' => 'Параметры подключения: Выбор модулей',
 'LBL_MODULE_FIELDS' => 'Поля модуля',
 'LBL_MODIFY_MAPPING_TITLE' => 'Настройка полей',
 'LBL_MODIFY_MAPPING_DESC' => 'Настройка соответствия полей подключения полям модулей. Данные полей подключения будут объединены с данными полей модулей.',
-'LBL_MODIFY_MAPPING_PAGE_TITLE' => 'Параметры подключения: Настройка полей',
 'LBL_MODIFY_PROPERTIES_TITLE' => 'Настройка URL подключения',
 'LBL_MODIFY_PROPERTIES_DESC' => 'Настройка параметров подключения.',
-'LBL_MODIFY_PROPERTIES_PAGE_TITLE' => 'Параметры подключения: Настройка URL подключения',
 'LBL_MODIFY_SEARCH_TITLE' => 'Управление поиском данных в подключении',
 'LBL_MODIFY_SEARCH' => 'Поиск',
 'LBL_MODIFY_SEARCH_DESC' => 'Выбор полей подключения для поиска необходимых данных.',
-'LBL_MODIFY_SEARCH_PAGE_TITLE' => 'Параметры подключения: Управление поиском',
 'LBL_MODULE_NAME' => 'Подключения',
 'LBL_NO_PROPERTIES' => 'Для данного подключения нет настраиваемых параметров.',
-'LBL_PREVIOUS' => '< Назад',
 'LBL_SAVE' => 'Сохранить',
 'LBL_SUMMARY' => 'Резюме',
 'LBL_STEP1' => 'Поиск и просмотр данных',
 'LBL_STEP2' => 'Объединение записей с',
 'LBL_TEST_SOURCE' => 'Тестирование подключения',
 'LBL_TEST_SOURCE_FAILED' => 'Тест не пройден',
-'LBL_TEST_SOURCE_RUNNING' => 'Выполнение тестового подключения...',
 'LBL_TEST_SOURCE_SUCCESS' => 'Тест успешно пройден',
 'LBL_TITLE' => 'Объединение данных',
 
 'ERROR_NO_ADDITIONAL_DETAIL' => 'Ошибка: Для данной записи не обнаружено дополнительной информации.',
 'ERROR_NO_SEARCHDEFS_DEFINED' => 'Для данного подключения не указан ни один модуль. Укажите модуль на странице выбора модулей.',
 'ERROR_NO_SEARCHDEFS_MAPPED' => 'Ошибка: Нет подключений с настроенными для поиска полями.',
-'ERROR_NO_SOURCEDEFS_FILE' => 'Ошибка: Файл sourcedefs.php не найден.', ///
-'ERROR_NO_SOURCEDEFS_SPECIFIED' => 'Ошибка: Не указан источник получения данных.', ///
-'ERROR_NO_CONNECTOR_DISPLAY_CONFIG_FILE' => 'Ошибка: С данным модулем не связано ни одного подключения.', ///
 'ERROR_NO_SEARCHDEFS_MAPPING' => 'Ошибка: Не определены поля поиска для модуля и подключения. Для решения проблемы свяжитесь с системным администратором.',
-'ERROR_NO_FIELDS_MAPPED' => 'Ошибка: Для каждого модуля вы должны указать как минимум одно поле подключения.', ///
 'ERROR_NO_DISPLAYABLE_MAPPED_FIELDS' => 'Ошибка: Не указано ни одного поля модуля для отображения в результирующих данных. Обратитесь к системному администратору.',
-'LBL_TWITTER_USER' => 'Учётная запись в Twitter', ///
-'LBL_FACEBOOK_USER' => 'Учётная запись в Facebook', ///
 'LBL_INFO_INLINE' => 'Info' /*for 508 compliance fix*/,
 'LBL_CLOSE' => 'Закрыть' /*for 508 compliance fix*/,
 );

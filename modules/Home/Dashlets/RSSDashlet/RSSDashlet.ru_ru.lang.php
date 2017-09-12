@@ -29,16 +29,15 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
   *********************************************************************************/
  // Replaced by RAPIRA <--
  
-$dashletStrings['RSSDashlet'] = array('LBL_TITLE'            => 'Лента новостей',
-'LBL_DESCRIPTION'      => 'Лента новостей',
-'LBL_SAVING'           => 'Анализ ...',
-'LBL_SAVED'            => 'Готово',
-'LBL_AUTO_SCROLL'      => 'Автопрокрутка',
-'LBL_SCROLL_SPEED'      => 'Скорость автопрокрутки (%)',
-'LBL_CONFIGURE_TITLE'  => 'Заголовок',
+$dashletStrings['RSSDashlet'] = array(
+'LBL_TITLE' => 'Лента новостей',
+'LBL_DESCRIPTION' => 'Лента новостей',
+'LBL_SAVING' => 'Анализ ...',
+'LBL_SAVED' => 'Готово',
+'LBL_CONFIGURE_TITLE' => 'Заголовок',
 'LBL_CONFIGURE_HEIGHT' => 'Высота (1 - 300)',
 'LBL_CONFIGURE_RSSURL' => 'Url',
-'LBL_DBLCLICK_HELP'    => '',
-'ERR_LOADING_FEED'     => 'Ошибка загрузки',
+'LBL_DBLCLICK_HELP' => '',
+'ERR_LOADING_FEED' => 'Ошибка загрузки',
 );
 ?>

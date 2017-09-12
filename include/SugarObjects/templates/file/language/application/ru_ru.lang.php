@@ -29,9 +29,9 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
   *********************************************************************************/
  // Replaced by RAPIRA <--
  
-$app_list_strings = array (
+$app_list_strings = array(
 strtolower($object_name).'_category_dom' =>
-array (
+array(
 '' => '',
 'Marketing' => 'Маркетинг' ,
 'Knowledege Base' => 'База знаний' ,
@@ -39,7 +39,7 @@ array (
 ),
 
 strtolower($object_name).'_subcategory_dom' =>
-array (
+array(
 '' => '',
 'Marketing Collateral' => 'Маркетинг' ,
 'Product Brochures' => 'Брошюры товаров' ,
@@ -47,7 +47,7 @@ array (
 ),
 
 strtolower($object_name).'_status_dom' =>
-array (
+array(
 'Active' => 'Активен' ,
 'Draft' => 'Черновик',
 'FAQ' => 'ЧаВо' ,

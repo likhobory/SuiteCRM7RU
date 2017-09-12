@@ -29,7 +29,7 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
   *********************************************************************************/
  // Replaced by RAPIRA <--
  
-$mod_strings = array (
+$mod_strings = array(
 'LBL_MODULE_NAME' => 'Контрагенты' ,
 'LBL_MODULE_TITLE' => 'Контрагенты - ГЛАВНАЯ' ,
 'LBL_SEARCH_FORM_TITLE' => 'Поиск контрагентов' ,

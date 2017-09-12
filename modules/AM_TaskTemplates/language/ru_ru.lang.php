@@ -28,7 +28,7 @@
   *********************************************************************************/
  // Replaced by RAPIRA <--
 
-$mod_strings = array (
+$mod_strings = array(
  'LBL_ASSIGNED_TO_ID' => 'Ответственный(ая)-ID',
  'LBL_ASSIGNED_TO_NAME' => 'Ответственный(ая)',
  'LBL_ID' => 'ID',

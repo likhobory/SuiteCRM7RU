@@ -28,7 +28,7 @@
   *********************************************************************************/
  // Replaced by RAPIRA <--
 
-$mod_strings = array (
+$mod_strings = array(
     'LBL_ASSIGNED_TO_NAME' => 'Ответственный(ая)',
     'LBL_CONTRACT_ACCOUNT' => 'Контрагент',
     'LBL_OPPORTUNITY' => 'Сделка',
@@ -36,10 +36,8 @@ $mod_strings = array (
     'LBL_DATE_ENTERED' => 'Дата создания',
     'LBL_DATE_MODIFIED' => 'Дата изменения',
     'LBL_MODIFIED' => 'Изменено',
-    'LBL_MODIFIED_ID' => 'Изменено(ID)',
     'LBL_MODIFIED_NAME' => 'Изменено (Имя)',
     'LBL_CREATED' => 'Создано',
-    'LBL_CREATED_ID' => 'Создано(ID)',
     'LBL_DESCRIPTION' => 'Описание',
     'LBL_DELETED' => 'Удалён',
     'LBL_NAME' => 'Договор',
@@ -52,11 +50,9 @@ $mod_strings = array (
     'LBL_HOMEPAGE_TITLE' => 'Мои договоры',
     'LNK_NEW_RECORD' => 'Создать договор',
     'LNK_LIST' => 'Договоры',
-    'LNK_IMPORT_AOS_CONTRACTS' => 'Импорт договоров',
     'LBL_SEARCH_FORM_TITLE' => 'Поиск договоров',
     'LBL_HISTORY_SUBPANEL_TITLE' => 'История',
     'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Мероприятия',
-    'LBL_AOS_CONTRACTS_SUBPANEL_TITLE' => 'Договоры',
     'LBL_NEW_FORM_TITLE' => 'Новый договор',
     'LBL_CONTRACT_NAME' => 'Название договора',
     'LBL_REFERENCE_CODE ' => '№ договора ',
@@ -82,7 +78,6 @@ $mod_strings = array (
   'LBL_PRODUCT_NOTE' => 'Заметка',
   'LBL_PRODUCT_DESCRIPTION' => 'Описание',
   'LBL_LIST_PRICE' => 'Цена по прайсу',
-  'LBL_DISCOUNT_TYPE' => 'Тип скидки',
   'LBL_DISCOUNT_AMT' => 'Скидка',
   'LBL_UNIT_PRICE' => 'Цена за единицу',
   'LBL_TOTAL_PRICE' => 'Итого без НДС',
@@ -117,7 +112,6 @@ $mod_strings = array (
   'LBL_TAX_AMOUNT_USDOLLAR' => 'Всего НДС (основная валюта)',
   'LBL_SHIPPING_AMOUNT_USDOLLAR' => 'Доставка (основная валюта)',
   'LBL_TOTAL_AMT_USDOLLAR' => 'Итого без скидки (основная валюта)',
-  'LBL_SHIPPING_TAX_USDOLLAR' => 'НДС доставки (основная валюта)',
   'LBL_SHIPPING_TAX_AMT_USDOLLAR' => 'НДС доставки (основная валюта)',
   'LBL_GRAND_TOTAL_USDOLLAR' => 'ВСЕГО К ОПЛАТЕ (основная валюта)',
   

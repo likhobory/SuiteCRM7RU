@@ -28,15 +28,13 @@
   *********************************************************************************/
  // Replaced by RAPIRA <--
 
-$mod_strings = array (
+$mod_strings = array(
     'LBL_ID' => 'ID',
     'LBL_DATE_ENTERED' => 'Дата создания',
     'LBL_DATE_MODIFIED' => 'Дата изменения',
     'LBL_MODIFIED' => 'Изменено',
-    'LBL_MODIFIED_ID' => 'Изменено(ID)',
     'LBL_MODIFIED_NAME' => 'Изменено (Имя)',
     'LBL_CREATED' => 'Создано',
-    'LBL_CREATED_ID' => 'Создано(ID)',
     'LBL_DESCRIPTION' => 'Содержимое шаблона',
     'LBL_DELETED' => 'Удалено',
     'LBL_NAME' => 'Отчёт',
@@ -53,7 +51,6 @@ $mod_strings = array (
   'LBL_HOMEPAGE_TITLE' => 'Мои условия',
   'LNK_NEW_RECORD' => 'Создать условия',
   'LNK_LIST' => 'Условия',
-  'LNK_IMPORT_AOR_CONDITIONS' => 'Импорт условий',
   'LBL_SEARCH_FORM_TITLE' => 'Поиск условий',
   'LBL_HISTORY_SUBPANEL_TITLE' => 'История',
   'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Мероприятия',
@@ -65,7 +62,6 @@ $mod_strings = array (
   'LBL_VALUE_TYPE' => 'Тип',
   'LBL_VALUE' => 'Значение',
   'LBL_ORDER' => 'Сортировка',
-  'LBL_CONDITION_OPERATOR' => 'Оператор сравнения',
   'LBL_AOR_REPORT_ID' => 'ID Отчёта',
   'LBL_PARAMETER' => 'Изменяемый параметр',///'Параметр',////
 );

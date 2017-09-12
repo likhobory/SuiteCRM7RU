@@ -29,16 +29,16 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
   *********************************************************************************/
  // Replaced by RAPIRA <--
  
-$mod_strings = array (
-'LBL_MODULE_NAME'=> 'Группы' ,
-'LBL_GROUP_NAME'=> 'Название группы:' ,
-'LBL_DESCRIPTION'=> 'Описание:' ,
-'LBL_TEAM'=> 'Группа:' ,
+$mod_strings = array(
+'LBL_MODULE_NAME' => 'Группы' ,
+'LBL_GROUP_NAME' => 'Название группы:' ,
+'LBL_DESCRIPTION' => 'Описание:' ,
+'LBL_TEAM' => 'Группа:' ,
 // ListView
-'LBL_LIST_TITLE'=> 'Группы' ,
+'LBL_LIST_TITLE' => 'Группы' ,
 // Links
-'LNK_ALL_GROUPS'=> 'Все группы' ,
-'LNK_NEW_GROUP'=> 'Создать группу' ,
-'LNK_CONVERT_USER'=> 'Преобразовать пользователя в группу' ,
+'LNK_ALL_GROUPS' => 'Все группы' ,
+'LNK_NEW_GROUP' => 'Создать группу' ,
+'LNK_CONVERT_USER' => 'Преобразовать пользователя в группу' ,
 );
 ?>

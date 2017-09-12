@@ -29,7 +29,7 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
   *********************************************************************************/
  // Replaced by RAPIRA <--
  
-$mod_strings = array (
+$mod_strings = array(
 'LBL_ROLE' => 'Роль: ' ,
 'LBL_LANGUAGE' => 'Язык: ' ,
 'LBL_MODULE_NAME' => 'Роли' ,
@@ -44,9 +44,9 @@ $mod_strings = array (
 'LBL_DISALLOWED_MODULES' => 'Неразрешённые модули: ' ,
 'LBL_ASSIGN_MODULES' => 'Править модули: ' ,
 'LBL_DEFAULT_SUBPANEL_TITLE' => 'Роли' ,
-'LBL_USERS'=> 'Пользователи' ,
+'LBL_USERS' => 'Пользователи' ,
 
 'LBL_USERS_SUBPANEL_TITLE' => 'Пользователи'  ,
-'LBL_MODULES'=>'Модули',
+'LBL_MODULES' => 'Модули',
 );
 ?>

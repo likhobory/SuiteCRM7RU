@@ -37,17 +37,15 @@
  * display the words  "Powered by SugarCRM" and "Supercharged by SuiteCRM".
  ********************************************************************************/
 
-$mod_strings = array (
+$mod_strings = array(
   'LBL_ASSIGNED_TO_ID' => 'Ответственный(ая)',
   'LBL_ASSIGNED_TO_NAME' => 'Ответственный(ая)',
   'LBL_ID' => 'ID',
   'LBL_DATE_ENTERED' => 'Дата создания',
   'LBL_DATE_MODIFIED' => 'Дата изменения',
   'LBL_MODIFIED' => 'Изменено',
-  'LBL_MODIFIED_ID' => 'Изменено(ID)',
   'LBL_MODIFIED_NAME' => 'Изменено (Имя)',
   'LBL_CREATED' => 'Создано',
-  'LBL_CREATED_ID' => 'Создано(ID)',
   'LBL_DESCRIPTION' => 'Описание',
   'LBL_DELETED' => 'Удалён',
   'LBL_NAME' => 'Отчёт по расписанию',
@@ -61,9 +59,6 @@ $mod_strings = array (
   'LBL_ASSIGNED_TO' => 'Ответственный(ая):',
   'LBL_ASSIGNED_USER' => 'Ответственный(ая):',
   'LBL_EMAIL_RECIPIENTS' => 'Получатели:',
-  'LBL_USERS_ASSIGNED_LINK' => 'Ответственные пользователи',
-  'LBL_USERS_CREATED_LINK' => 'Создано пользователями',
-  'LBL_USERS_MODIFIED_LINK' => 'Изменённые пользователи',
   'NTC_DELETE_CONFIRMATION' => 'Вы действительно хотите удалить эту запись?',
   'LBL_LIST_FORM_TITLE' => 'Отчёты по расписанию',
   'LBL_MODULE_NAME' => 'Отчёты по расписанию',
@@ -71,10 +66,8 @@ $mod_strings = array (
   'LBL_HOMEPAGE_TITLE' => 'Мои отчёты по расписанию',
   'LNK_NEW_RECORD' => 'Создать отчёт по расписанию',
   'LNK_LIST' => 'Отчёты по расписанию',
-  'LNK_IMPORT_AOR_SCHEDULED_REPORTS' => 'Импорт отчётов по расписанию',
   'LBL_SEARCH_FORM_TITLE' => 'Поиск отчётов по расписанию',
   'LBL_HISTORY_SUBPANEL_TITLE' => 'История',
-  'LBL_AOR_SCHEDULED_REPORTS_SUBPANEL_TITLE' => 'Отчёты по расписанию',
   'LBL_NEW_FORM_TITLE' => 'Новый отчёт по расписанию',
   'LBL_SCHEDULE' => 'Расписание',
   'LBL_AOR_REPORT_NAME' => 'Отчёт',

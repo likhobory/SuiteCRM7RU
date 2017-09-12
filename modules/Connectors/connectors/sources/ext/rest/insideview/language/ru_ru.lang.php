@@ -29,9 +29,8 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
   *********************************************************************************/
  // Replaced by RAPIRA <--
 
-$connector_strings = array (
+$connector_strings = array(
     'LBL_GET_STARTED' => 'Get Started!',
-    'LBL_TOS0' => 'I agree to InsideView\'s  ',
     'LBL_TOS1' => 'Terms of Use',
     'LBL_TOS3' => 'Privacy Policy',
     'iv_description0' => 'By clicking "Get Started" you agree to InsideView\'s',

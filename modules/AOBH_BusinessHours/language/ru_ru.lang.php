@@ -28,17 +28,15 @@
   *********************************************************************************/
  // Replaced by RAPIRA <--
 
-$mod_strings = array (
+$mod_strings = array(
   'LBL_ASSIGNED_TO_ID' => 'Ответственный(ая)-ID',
   'LBL_ASSIGNED_TO_NAME' => 'Ответственный(ая)',
   'LBL_ID' => 'ID',
   'LBL_DATE_ENTERED' => 'Дата создания:' ,
   'LBL_DATE_MODIFIED' => 'Дата изменения:' ,
   'LBL_MODIFIED' => 'Изменено',
-  'LBL_MODIFIED_ID' => 'Изменено(ID)',
   'LBL_MODIFIED_NAME' => 'Изменено',
   'LBL_CREATED' => 'Создано',
-  'LBL_CREATED_ID' => 'Создано(ID)',
   'LBL_DESCRIPTION' => 'Описание',
   'LBL_DELETED' => 'Удалён',
   'LBL_NAME' => 'Название',
@@ -53,11 +51,9 @@ $mod_strings = array (
   'LBL_HOMEPAGE_TITLE' => 'Мои часы работы',
   'LNK_NEW_RECORD' => 'Указать часы работы',
   'LNK_LIST' => 'Часы работы',
-  'LNK_IMPORT_AOBH_BUSINESSHOURS' => 'Импорт часов работы',
   'LBL_SEARCH_FORM_TITLE' => 'Поиск часов работы',
   'LBL_HISTORY_SUBPANEL_TITLE' => 'История',
   'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Мероприятия',
-  'LBL_AOBH_BUSINESSHOURS_SUBPANEL_TITLE' => 'Часы работы',
   'LBL_NEW_FORM_TITLE' => 'Новые часы работы',
   'LBL_OPENING_HOURS' => 'Время открытия',
   'LBL_CLOSING_HOURS' => 'Время закрытия',

@@ -29,7 +29,7 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
   *********************************************************************************/
  // Replaced by RAPIRA <--
  
-$mod_strings = array (
+$mod_strings = array(
 'LBL_MODULE_NAME' => 'Валюта',
 'LBL_LIST_FORM_TITLE' => 'Валюта' ,
 'LBL_CURRENCY' => 'Валюта' ,
@@ -58,7 +58,7 @@ $mod_strings = array (
 'NTC_DELETE_CONFIRMATION' => 'Вы действительно хотите удалить эту запись? При доступе к любой записи, использующей эту валюту, произойдёт её конвертация в валюту по умолчанию. Лучше всего поставить статус "Не активна".' ,
 'LBL_BELOW_MIN' => 'Курс обмена должен быть больше 0',
 'currency_status_dom' =>
-array (
+array(
 'Active' => 'Активна' ,
 'Inactive' => 'Не активна'    ,
 ),

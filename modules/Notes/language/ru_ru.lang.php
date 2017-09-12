@@ -29,7 +29,7 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
   *********************************************************************************/
  // Replaced by RAPIRA <--
  
-$mod_strings = array (
+$mod_strings = array(
 'ERR_DELETE_RECORD' => 'Вы должны указать конкретную запись перед удалением.' ,
 'LBL_ACCOUNT_ID' => 'ID контрагента:' ,
 'LBL_CASE_ID' => 'ID обращения:' ,
@@ -77,14 +77,11 @@ $mod_strings = array (
 
 'LBL_MEMBER_OF' => 'Состоит в:'  ,
 'LBL_LIST_ASSIGNED_TO_NAME' => 'Ответственный(ая)',
-'LBL_REMOVING_ATTACHMENT'=> 'Удаление вложения...',
-'ERR_REMOVING_ATTACHMENT'=> 'Не удалось удалить вложение...',
-'LBL_CREATED_BY'=> 'Создано',
-'LBL_MODIFIED_BY'=> 'Изменено',
-'LBL_SEND_ANYWAYS'=> 'Не указана тема письма. Все равно отправить/сохранить?',
-'LBL_LIST_EDIT_BUTTON' => 'Редактировать', ///
-'LBL_ACTIVITIES_REPORTS' => 'Отчёт по мероприятиям', ///
-'LBL_PANEL_DETAILS' => 'Подробности', ///
+'LBL_REMOVING_ATTACHMENT' => 'Удаление вложения...',
+'ERR_REMOVING_ATTACHMENT' => 'Не удалось удалить вложение...',
+'LBL_CREATED_BY' => 'Создано',
+'LBL_MODIFIED_BY' => 'Изменено',
+'LBL_SEND_ANYWAYS' => 'Не указана тема письма. Все равно отправить/сохранить?',
 'LBL_NOTE_INFORMATION' => 'Основная информация',
 'LBL_MY_NOTES_DASHLETNAME' => 'Мои заметки',
 'LBL_EDITLAYOUT' => 'Изменить макет' /*for 508 compliance fix*/,

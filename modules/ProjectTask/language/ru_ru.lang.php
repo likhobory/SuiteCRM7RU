@@ -29,7 +29,7 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
   *********************************************************************************/
  // Replaced by RAPIRA <--
  
-$mod_strings = array (
+$mod_strings = array(
 'LBL_MODULE_NAME' => 'Проектные задачи' ,
 'LBL_MODULE_TITLE' => 'Проектные задачи' ,
 
@@ -45,7 +45,6 @@ $mod_strings = array (
 'LBL_STATUS' => 'Статус:' ,
 'LBL_DATE_DUE' => 'Дата окончания:' ,
 'LBL_TIME_DUE' => 'Время окончания:' ,
-'LBL_RESOURCE' => 'Запас:',
 'LBL_PREDECESSORS' => 'Предшественник:',
 'LBL_DATE_START' => 'Дата начала:' ,
 'LBL_DATE_FINISH' => 'Дата окончания:',
@@ -62,40 +61,34 @@ $mod_strings = array (
 'LBL_ORDER_NUMBER' => 'Порядковый номер в проекте:' ,
 'LBL_TASK_NUMBER' => 'Номер задачи:' ,
 'LBL_TASK_ID' => 'ID задачи:',
-'LBL_DEPENDS_ON_ID' => 'Зависит от:' ,
 'LBL_MILESTONE_FLAG' => 'Контрольная точка:' ,
 'LBL_ESTIMATED_EFFORT' => 'Оценка усилий (час.):' ,
 'LBL_ACTUAL_EFFORT' => 'Реальные усилия (час.):' ,
 'LBL_UTILIZATION' => 'Расход ресурсов (%):' ,
 'LBL_DELETED' => 'Удалено:' ,
 
-'LBL_LIST_ORDER_NUMBER' => 'Заказ' ,
 'LBL_LIST_NAME' => 'Название' ,
-'LBL_LIST_DAYS' => 'дней',
 'LBL_LIST_PARENT_NAME' => 'Проект' ,
 'LBL_LIST_PERCENT_COMPLETE' => '% выполнения' ,
 'LBL_LIST_STATUS' => 'Статус' ,
-'LBL_LIST_DURATION' => 'Продолжительность',
-'LBL_LIST_ACTUAL_DURATION' => 'Фактическая продолжительность',
 'LBL_LIST_ASSIGNED_USER_ID' => 'Ответственный(ая) ' ,
 'LBL_LIST_DATE_DUE' => 'Дата окончания' ,
 'LBL_LIST_PRIORITY' => 'Приоритет' ,
 'LBL_LIST_CLOSE' => 'Закрыть' ,
 'LBL_PROJECT_NAME' => 'Название проекта' ,
 
-'LNK_NEW_PROJECT'=> 'Создать проект' ,
-'LNK_PROJECT_LIST'=> 'Проекты' ,
-'LNK_NEW_PROJECT_TASK'=> 'Создать проектную задачу' ,
-'LNK_PROJECT_TASK_LIST'=> 'Проектные задачи' ,
+'LNK_NEW_PROJECT' => 'Создать проект' ,
+'LNK_PROJECT_LIST' => 'Проекты' ,
+'LNK_NEW_PROJECT_TASK' => 'Создать проектную задачу' ,
+'LNK_PROJECT_TASK_LIST' => 'Проектные задачи' ,
 
 'LBL_LIST_MY_PROJECT_TASKS' => 'Мои открытые проектные задачи' ,
 'LBL_DEFAULT_SUBPANEL_TITLE' => 'Проектные задачи' ,
 'LBL_NEW_FORM_TITLE' => 'Новая проектная задача' ,
 
-'LBL_ACTIVITIES_TITLE'=> 'Мероприятия' ,
-'LBL_HISTORY_TITLE'=> 'История' ,
-'LBL_ACTIVITIES_SUBPANEL_TITLE'=> 'Мероприятия' ,
-'LBL_HISTORY_SUBPANEL_TITLE'=> 'История' ,
+'LBL_HISTORY_TITLE' => 'История' ,
+'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Мероприятия' ,
+'LBL_HISTORY_SUBPANEL_TITLE' => 'История' ,
 
 'LBL_ASSIGNED_USER_NAME' => 'Ответственный(ая)',
 'LBL_PARENT_NAME' => 'Название проекта',

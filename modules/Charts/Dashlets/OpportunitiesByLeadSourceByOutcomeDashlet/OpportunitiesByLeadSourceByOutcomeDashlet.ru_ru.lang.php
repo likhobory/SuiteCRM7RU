@@ -29,7 +29,8 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
   *********************************************************************************/
  // Replaced by RAPIRA <--
  
-$dashletStrings['OpportunitiesByLeadSourceByOutcomeDashlet'] = array('LBL_TITLE' => 'Стадии продаж по источникам предварительных контактов',
-																		'LBL_DESCRIPTION' => 'Стадии продаж по источникам предварительных контактов',
-																		'LBL_REFRESH' => 'Обновить диаграмму');
+$dashletStrings['OpportunitiesByLeadSourceByOutcomeDashlet'] = array(
+'LBL_TITLE' => 'Стадии продаж по источникам предварительных контактов',
+'LBL_DESCRIPTION' => 'Стадии продаж по источникам предварительных контактов',
+'LBL_REFRESH' => 'Обновить диаграмму');
 ?> 

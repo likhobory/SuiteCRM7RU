@@ -29,27 +29,20 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
   *********************************************************************************/
  // Replaced by RAPIRA <--
  
-$mod_strings = array (
+$mod_strings = array(
 'LBL_MODULE_NAME' => 'Сделки' ,
 'LBL_MODULE_TITLE' => 'Сделки - ГЛАВНАЯ' ,
 'LBL_SEARCH_FORM_TITLE' => 'Поиск сделки' ,
-'LBL_VIEW_FORM_TITLE' => 'Обзор сделки',
 'LBL_LIST_FORM_TITLE' => 'Сделки' ,
-'LBL_SALE_NAME' => 'Название сделки:' ,
-'LBL_SALE' => 'Сделка:' ,
 'LBL_NAME' => 'Название сделки' ,
 'LBL_LIST_SALE_NAME' => 'Название' ,
 'LBL_LIST_ACCOUNT_NAME' => 'Контрагент' ,
 'LBL_LIST_AMOUNT' => 'Сумма' ,
 'LBL_LIST_DATE_CLOSED' => 'Закрытие' ,
 'LBL_LIST_SALE_STAGE' => 'Стадия продаж' ,
-'LBL_ACCOUNT_ID'=> 'ID контрагента' ,
-'LBL_CURRENCY_ID'=> 'ID валюты',
+'LBL_ACCOUNT_ID' => 'ID контрагента' ,
 //DON'T CONVERT THESE THEY ARE MAPPINGS
-'db_sales_stage' => 'LBL_LIST_SALES_STAGE',
 'db_name' => 'LBL_NAME',
-'db_amount' => 'LBL_LIST_AMOUNT',
-'db_date_closed' => 'LBL_LIST_DATE_CLOSED',
 //END DON'T CONVERT
 'LBL_ACCOUNT_NAME' => 'Контрагент:' ,
 'LBL_AMOUNT' => 'Сумма:' ,
@@ -68,32 +61,21 @@ $mod_strings = array (
 'LBL_DUPLICATE' => 'Возможно дублирующаяся сделка' ,
 'MSG_DUPLICATE' => 'Создаваемая вами сделка возможно дублирует уже имеющуюся сделку. Сделки, имеющие схожие названия показаны ниже. Нажмите кнопку "Сохранить" для продолжения создания новой сделки или кнопку "Отказаться" для возврата в модуль.' ,
 'LBL_NEW_FORM_TITLE' => 'Создать сделку' ,
-'LNK_NEW_SALE' => 'Создать сделку' ,
-'LNK_SALE_LIST' => 'Сделки' ,
 'ERR_DELETE_RECORD' => 'Перед удалением сделки должен быть определен номер записи.' ,
-'LBL_TOP_SALES' => 'Мои основные открытые сделки' ,
-'NTC_REMOVE_OPP_CONFIRMATION' => 'Вы действительно хотите удалить этот контакт из сделки?' , ///
-'SALE_REMOVE_PROJECT_CONFIRM' => 'Вы действительно хотите удалить данную сделку из проекта?' ,
 'LBL_DEFAULT_SUBPANEL_TITLE' => 'Сделки' ,
-'LBL_ACTIVITIES_SUBPANEL_TITLE'=> 'Мероприятия' ,
-'LBL_HISTORY_SUBPANEL_TITLE'=> 'История' ,
-'LBL_RAW_AMOUNT'=> 'Сырой объем' , ///
+'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Мероприятия' ,
+'LBL_HISTORY_SUBPANEL_TITLE' => 'История' ,
 
 
 'LBL_CONTACTS_SUBPANEL_TITLE' => 'Контакты' ,
 'LBL_ASSIGNED_TO_NAME' => 'Пользователь5: ' ,
 'LBL_LIST_ASSIGNED_TO_NAME' => 'Ответственный(ая)',
-'LBL_MY_CLOSED_SALES' => 'Мои закрытые сделки',
-'LBL_TOTAL_SALES' => 'Всего',
-'LBL_CLOSED_WON_SALES' => 'Успешно закрытые сделки',
 'LBL_ASSIGNED_TO_ID' => 'Ответственный(ая)-ID',
-'LBL_CREATED_ID' => 'Создано(ID)',
-'LBL_MODIFIED_ID' => 'Изменено(ID)',
-'LBL_MODIFIED_NAME'=> 'Изменено',
-'LBL_SALE_INFORMATION'=> 'Информация о сделке',
+'LBL_MODIFIED_NAME' => 'Изменено',
+'LBL_SALE_INFORMATION' => 'Информация о сделке',
 
-'LBL_CURRENCY_NAME'=> 'Название валюты',
-'LBL_CURRENCY_SYMBOL'=> 'Символ валюты',
+'LBL_CURRENCY_NAME' => 'Название валюты',
+'LBL_CURRENCY_SYMBOL' => 'Символ валюты',
 'LBL_EDIT_BUTTON' => 'Править',
 'LBL_REMOVE' => 'Удалить',
 

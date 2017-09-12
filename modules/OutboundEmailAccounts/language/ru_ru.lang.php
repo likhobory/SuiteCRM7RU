@@ -28,17 +28,15 @@
   *********************************************************************************/
  // Replaced by RAPIRA <--
 
-$mod_strings = array (
+$mod_strings = array(
  'LBL_ASSIGNED_TO_ID' => 'Ответственный(ая)-ID',
  'LBL_ASSIGNED_TO_NAME' => 'Ответственный(ая)',
  'LBL_ID' => 'ID',
  'LBL_DATE_ENTERED' => 'Дата создания',
  'LBL_DATE_MODIFIED' => 'Дата изменения',
  'LBL_MODIFIED' => 'Изменено',
- 'LBL_MODIFIED_ID' => 'Изменено(ID)',
  'LBL_MODIFIED_NAME' => 'Изменено (Имя)',
  'LBL_CREATED' => 'Создано',
- 'LBL_CREATED_ID' => 'Создано(ID)',
  'LBL_DESCRIPTION' => 'Описание',
  'LBL_DELETED' => 'Удалено',
   'LBL_NAME' => 'Учётная запись для исходящей почты',
@@ -69,23 +67,21 @@ $mod_strings = array (
   'LBL_SEND_TEST_EMAIL' => 'Тестирование',
 
     // for outbound email dialog
-    'LBL_SMTP_SERVER_HELP' => 'SMTP-сервер может быть использован для отправки исходящей почты. В параметрах учётной записи укажите соответствующие логин и пароль.', ///
     'LBL_MISSING_DEFAULT_OUTBOUND_SMTP_SETTINGS' => 'Невозможно отправить тестовое письмо: почтовый сервер для отправки исходящей почты не настроен.',
-    'LBL_MAIL_SMTPAUTH_REQ'				=> 'Использовать SMTP-аутентификацию?',
-    'LBL_MAIL_SMTPPASS'					=> 'Пароль:',
-    'LBL_MAIL_SMTPPORT'					=> 'Порт:',
-    'LBL_MAIL_SMTPSERVER'				=> 'SMTP-сервер:',
-    'LBL_MAIL_SMTPUSER'					=> 'Логин:',
-    'LBL_MAIL_SMTPTYPE'                 => 'Тип сервера:',
-    'LBL_MAIL_SMTP_SETTINGS'            => 'Параметры SMTP-сервера',
-    'LBL_YAHOOMAIL_SMTPPASS'			=> 'Пароль:',
-    'LBL_YAHOOMAIL_SMTPUSER'			=> 'Mail ID:',
-    'LBL_GMAIL_SMTPPASS'					=> 'Пароль:',
-    'LBL_GMAIL_SMTPUSER'					=> 'Логин:',
-    'LBL_EXCHANGE_SMTPPASS'					=> 'Пароль:',
-    'LBL_EXCHANGE_SMTPUSER'					=> 'Логин:',
-    'LBL_EXCHANGE_SMTPPORT'					=> 'Порт:',
-    'LBL_EXCHANGE_SMTPSERVER'				=> 'SMTP-сервер:',
+    'LBL_MAIL_SMTPAUTH_REQ' => 'Использовать SMTP-аутентификацию?',
+    'LBL_MAIL_SMTPPASS' => 'Пароль:',
+    'LBL_MAIL_SMTPPORT' => 'Порт:',
+    'LBL_MAIL_SMTPSERVER' => 'SMTP-сервер:',
+    'LBL_MAIL_SMTPUSER' => 'Логин:',
+    'LBL_MAIL_SMTP_SETTINGS' => 'Параметры SMTP-сервера',
+    'LBL_YAHOOMAIL_SMTPPASS' => 'Пароль:',
+    'LBL_YAHOOMAIL_SMTPUSER' => 'Mail ID:',
+    'LBL_GMAIL_SMTPPASS' => 'Пароль:',
+    'LBL_GMAIL_SMTPUSER' => 'Логин:',
+    'LBL_EXCHANGE_SMTPPASS' => 'Пароль:',
+    'LBL_EXCHANGE_SMTPUSER' => 'Логин:',
+    'LBL_EXCHANGE_SMTPPORT' => 'Порт:',
+    'LBL_EXCHANGE_SMTPSERVER' => 'SMTP-сервер:',
 	
 	'LBL_TYPE' => 'Почтовый сервер:',
     'LBL_MAIL_SENDTYPE' => 'Отправка почты с помощью:',

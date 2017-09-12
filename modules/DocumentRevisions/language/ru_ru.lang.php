@@ -29,12 +29,12 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
   *********************************************************************************/
  // Replaced by RAPIRA <--
  
-$mod_strings = array (
+$mod_strings = array(
 //module
 'LBL_MODULE_NAME' => 'Версии документа' ,
 
 'LNK_NEW_DOCUMENT' => 'Создать документ' ,
-'LNK_DOCUMENT_LIST'=> 'Документы' ,
+'LNK_DOCUMENT_LIST' => 'Документы' ,
 
 //vardef labels
 'LBL_REVISION_NAME' => 'Номер версии' ,
@@ -43,12 +43,10 @@ $mod_strings = array (
 'LBL_REVISION' => 'Версия' ,
 'LBL_DOCUMENT' => 'Связанные документы' ,
 'LBL_LATEST_REVISION' => 'Последняя версия' ,
-'LBL_CHANGE_LOG'=> 'Журнал изменений:'  ,
-'LBL_ACTIVE_DATE'=> 'Дата публикации' ,
+'LBL_CHANGE_LOG' => 'Журнал изменений:'  ,
+'LBL_ACTIVE_DATE' => 'Дата публикации' ,
 'LBL_EXPIRATION_DATE' => 'Дата окончания' ,
-'LBL_FILE_EXTENSION'  => 'Расширение файла' ,
-'LBL_DET_CREATED_BY' => 'Кем создано:' ,
-'LBL_DET_DATE_CREATED' => 'Дата создания:' ,
+'LBL_FILE_EXTENSION' => 'Расширение файла' ,
 
 'LBL_DOC_NAME' => 'Название документа:' ,
 'LBL_DOC_VERSION' => 'Версия:' ,
@@ -58,18 +56,18 @@ $mod_strings = array (
 'LBL_REV_LIST_REVISION' => 'Версия' ,
 'LBL_REV_LIST_ENTERED' => 'Дата создания' ,
 'LBL_REV_LIST_CREATED' => 'Создано' ,
-'LBL_REV_LIST_LOG'=> 'Журнал изменений:' ,
+'LBL_REV_LIST_LOG' => 'Журнал изменений:' ,
 'LBL_REV_LIST_FILENAME' => 'Файл' ,
 
-'LBL_CURRENT_DOC_VERSION'=> 'Последняя версия:' ,
-'LBL_SEARCH_FORM_TITLE'=> 'Поиск документа' ,
+'LBL_CURRENT_DOC_VERSION' => 'Последняя версия:' ,
+'LBL_SEARCH_FORM_TITLE' => 'Поиск документа' ,
 'LBL_REVISIONS' => 'Версии',
 
 //error messages
-'ERR_FILENAME'=> 'Имя файла' ,
-'ERR_DOC_VERSION'=> 'Версия документа' ,
-'ERR_DELETE_CONFIRM'=> 'Вы хотите удалить эту версию документа?' ,
-'ERR_DELETE_LATEST_VERSION'=> 'Вы не имеете права удалять последнюю версию документа.'  ,
+'ERR_FILENAME' => 'Имя файла' ,
+'ERR_DOC_VERSION' => 'Версия документа' ,
+'ERR_DELETE_CONFIRM' => 'Вы хотите удалить эту версию документа?' ,
+'ERR_DELETE_LATEST_VERSION' => 'Вы не имеете права удалять последнюю версию документа.'  ,
 'LNK_NEW_MAIL_MERGE' => 'Слияние',
 'LBL_DOC_ID' => 'Источник документа(ID)',
 'LBL_DOC_TYPE' => 'Источник',

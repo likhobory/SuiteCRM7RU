@@ -29,7 +29,7 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
   *********************************************************************************/
  // Replaced by RAPIRA <--
  
-$mod_strings = array (
+$mod_strings = array(
 'LBL_MODULE_NAME' => 'Объединение записей',
 'LBL_MODULE_TITLE' => 'Объединение записей-Главная',
 'LBL_SEARCH_FORM_TITLE' => 'Поиск объединений',
@@ -38,8 +38,6 @@ $mod_strings = array (
 'LBL_LBL_MERGE_RECORDS_STEP_1' => 'Поиск записей для объединения',
 'LBL_AVAIL_FIELDS' => 'Доступные поля',
 'LBL_FILTER_COND' => 'Условие фильтра',
-'LBL_SELECTED_FIELDS' => 'Выбранные поля',
-'LBL_MERGE_RECORDS_WITH' => 'Объединить записи с',
 'LBL_MERGE_VALUE_OVER' => 'Перезаписать значением',
 
 'LBL_NEXT_STEP_TITLE' => 'Следующий шаг',
@@ -53,15 +51,13 @@ $mod_strings = array (
 'LBL_SAVE_MERGED_RECORD_BUTTON_LABEL' => 'Сохранить объединение',
 
 'LBL_STEP2_FORM_TITLE' => 'Найденные записи для объединения с',
-'LBL_SELECT_ERROR'=> 'Вы должны сделать выбор перед тем как продолжить.',
-'LBL_SELECT_PRIMARY'=> 'Выберите основную запись для объединения.',
-'LBL_CHANGE_PARENT'=> 'Сделать основной',
-'LBL_REMOVE_FROM_MERGE'=> 'Удалить',
-'LBL_DIFF_COL_VALUES'=> 'Колонки, значения которых отличаются в основной и дополнительных записях:',
-'LBL_SAME_COL_VALUES'=> 'Колонки, значения которых совпадают по всем записям:',
-'ERR_EXCEEDS_MAX'=> 'Вы можете объединить одновременно до 5 записей. Остальные записи будут проигнорированы.',
-'LBL_DELETE_MESSAGE'=> 'В результате будут удалены следующие записи:',
-'LBL_PROCEED'=> 'Выполнить объединение?',
+'LBL_SELECT_ERROR' => 'Вы должны сделать выбор перед тем как продолжить.',
+'LBL_CHANGE_PARENT' => 'Сделать основной',
+'LBL_REMOVE_FROM_MERGE' => 'Удалить',
+'LBL_DIFF_COL_VALUES' => 'Колонки, значения которых отличаются в основной и дополнительных записях:',
+'LBL_SAME_COL_VALUES' => 'Колонки, значения которых совпадают по всем записям:',
+'LBL_DELETE_MESSAGE' => 'В результате будут удалены следующие записи:',
+'LBL_PROCEED' => 'Выполнить объединение?',
 'LBL_STEP1_DIRECTIONS' => 'Поиск дублирующихся записей. Если будут найдены дубликаты, вы можете указать записи, объединяемые с текущей записью.',
 );
 

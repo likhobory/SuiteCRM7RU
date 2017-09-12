@@ -26,17 +26,15 @@
   * Description : Defines the Russian language pack for the SuiteCRM application.
   *********************************************************************************/
 
-$mod_strings = array (
+$mod_strings = array(
   'LBL_ASSIGNED_TO_ID' => 'Ответственный(ая)',
   'LBL_ASSIGNED_TO_NAME' => 'Ответственный(ая)',
   'LBL_ID' => 'ID',
   'LBL_DATE_ENTERED' => 'Дата создания',
   'LBL_DATE_MODIFIED' => 'Дата изменения',
   'LBL_MODIFIED' => 'Изменено',
-  'LBL_MODIFIED_ID' => 'Изменено(ID)',
   'LBL_MODIFIED_NAME' => 'Изменено',
   'LBL_CREATED' => 'Создано',
-  'LBL_CREATED_ID' => 'Создано(ID)',
   'LBL_DESCRIPTION' => 'Описание',
   'LBL_DELETED' => 'Удалено',
   'LBL_NAME' => 'Название',
@@ -51,11 +49,9 @@ $mod_strings = array (
   'LBL_HOMEPAGE_TITLE' => 'Мои Уведомления',
   'LNK_NEW_RECORD' => 'Создать уведомление',
   'LNK_LIST' => 'Уведомления',
-  'LNK_IMPORT_Alert' => 'Импорт уведомлений',
   'LBL_SEARCH_FORM_TITLE' => 'Поиск уведомлений',
   'LBL_HISTORY_SUBPANEL_TITLE' => 'История',
   'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Мероприятия',
-  'LBL_Alert_SUBPANEL_TITLE' => 'Уведомления',
   'LBL_NEW_FORM_TITLE' => 'Новое уведомление',
   'LBL_IS_READ' => 'прочитано',
   

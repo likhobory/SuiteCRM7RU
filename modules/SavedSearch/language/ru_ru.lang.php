@@ -29,7 +29,7 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
   *********************************************************************************/
  // Replaced by RAPIRA <--
  
-$mod_strings = array (
+$mod_strings = array(
 'LBL_MODULE_TITLE' => 'Мои сохранённые фильтры',
 
 'LBL_SEARCH_FORM_TITLE' => 'Мои сохранённые фильтры : Фильтр',
@@ -44,7 +44,7 @@ $mod_strings = array (
 'LBL_SAVE_SEARCH_AS' => 'Сохранить фильтр как:',
 'LBL_ASCENDING' => 'Восходящая',
 'LBL_DESCENDING' => 'Нисходящая',
-'LBL_MODIFY_CURRENT_FILTER'=> 'Выбранный фильтр',
+'LBL_MODIFY_CURRENT_FILTER' => 'Выбранный фильтр',
 
 'LBL_CREATED_BY' => 'Кем создано',
 
