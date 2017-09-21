@@ -187,7 +187,7 @@ $mod_strings = array(
 
 'LBL_START_UPGRADE_IN_PROGRESS' => 'Выполняется начальный этап обновления',
 'LBL_SYSTEM_CHECKS_IN_PROGRESS' => 'Выполняется проверка системы',
-
+'LBL_LICENSE_CHECK_IN_PROGRESS' => 'License Check in progress', ///
 'LBL_PREFLIGHT_CHECK_IN_PROGRESS' => 'Выполняется предварительная проверка',
 'LBL_PREFLIGHT_FILE_COPYING_PROGRESS' => 'Выполняется копирование файлов',
 'LBL_COMMIT_UPGRADE_IN_PROGRESS' => 'Выполняется основной этап обновления',
