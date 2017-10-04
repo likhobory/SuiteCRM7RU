@@ -124,10 +124,10 @@ $mod_strings = array(
 'LBL_LDAP_SERVER_HOSTNAME' => 'Сервер:',
 'LBL_LDAP_SERVER_PORT' => 'Порт:',
 'LBL_LDAP_ADMIN_USER' => 'Имя пользователя:',
-'LBL_LDAP_ADMIN_USER_DESC' => 'Поиск пользователя SuiteCRM. В случае отсутствия параметра будет выполнен анонимный вход.',
+'LBL_LDAP_ADMIN_USER_DESC'=> 'Поиск пользователя LDAP.',
 'LBL_LDAP_ADMIN_PASSWORD' => 'Пароль:',
 'LBL_LDAP_AUTHENTICATION' => 'Аутентификация:',
-'LBL_LDAP_AUTHENTICATION_DESC' => 'Аутентификация на сервере LDAP, используя данные пользователя',
+'LBL_LDAP_AUTHENTICATION_DESC'=> 'Аутентификация на сервере LDAP, используя данные пользователя. В случае отсутствия параметра будет выполнен анонимный вход.',
 'LBL_LDAP_AUTO_CREATE_USERS' => 'Автоматическое создание пользователей:',
 'LBL_LDAP_USER_DN' => 'DN пользователя:',
 'LBL_LDAP_GROUP_DN' => 'DN группы:',
@@ -139,11 +139,11 @@ $mod_strings = array(
 'LBL_LDAP_GROUP_USER_ATTR_DESC' => 'Уникальный идентификатор пользователя, используемый для проверки принадлежности пользователя к определённой группе, например: <em>uid</em>',
 'LBL_LDAP_GROUP_ATTR_DESC' => 'Уникальный Атрибут группы, например: <em>memberUid</em>',
 'LBL_LDAP_GROUP_ATTR' => 'Атрибут группы:',
-'LBL_LDAP_USER_FILTER_DESC' => 'Любые дополнительные параметры, применяемые в процессе аутентификации пользователей, например: <em>is_sugar_user=1 или (is_sugar_user=1)(is_sales=1)</em>',
+'LBL_LDAP_USER_FILTER_DESC' => 'Любые дополнительные параметры, применяемые в процессе аутентификации пользователей, например: nis_suitecrm_user=1 или (is_suitecrm_user=1)(is_sales=1)',
 'LBL_LDAP_LOGIN_ATTRIBUTE' => 'Login-атрибут:',
 'LBL_LDAP_BIND_ATTRIBUTE' => 'Bind-атрибут:',
-'LBL_LDAP_BIND_ATTRIBUTE_DESC' => 'Аутентификация пользователя LDAP, например:[<b>AD:</b>&nbsp;userPrincipalName] [<b>openLDAP:</b>&nbsp;userPrincipalName] [<b>Mac&nbsp;OS&nbsp;X:</b>&nbsp;uid] ',
-'LBL_LDAP_LOGIN_ATTRIBUTE_DESC' => 'Поиск пользователя LDAP, например:[<b>AD:</b>&nbsp;userPrincipalName] [<b>openLDAP:</b>&nbsp;dn] [<b>Mac&nbsp;OS&nbsp;X:</b>&nbsp;dn] ',
+'LBL_LDAP_BIND_ATTRIBUTE_DESC' => 'Аутентификация пользователя LDAP, например:[<b>AD:</b>&nbsp;userPrincipalName] [<b>openLDAP:</b>&nbsp;dn] [<b>Mac&nbsp;OS&nbsp;X:</b>&nbsp;uid] ',
+'LBL_LDAP_LOGIN_ATTRIBUTE_DESC' => 'Поиск пользователя LDAP, например:[<b>AD:</b>&nbsp;userPrincipalName] [<b>openLDAP:</b>&nbsp;cn] [<b>Mac&nbsp;OS&nbsp;X:</b>&nbsp;dn] ',
 'LBL_LDAP_SERVER_HOSTNAME_DESC' => 'Пример: ldap.example.com или ldaps://ldap.example.com при включении SSL',
 'LBL_LDAP_SERVER_PORT_DESC' => 'Пример: 389 или 636 при включении SSL',
 'LBL_LDAP_GROUP_NAME' => 'Название группы:',
@@ -154,6 +154,9 @@ $mod_strings = array(
 'DEVELOPER_MODE' => 'Режим разработчика',
 
 'SHOW_DOWNLOADS_TAB' => 'Отображать закладку загрузок',
+'SHOW_DOWNLOADS_TAB_HELP' => 'Отображение закладки загрузок в настройках пользователя, обеспечивая доступ пользователя к плагинам и другим файлам SuiteCRM', ///
+
+
 'LBL_LDAP_ENC_KEY_DESC' => 'Для SOAP-аутентификации при использовании LDAP.',
 'LDAP_ENC_KEY_NO_FUNC_DESC' => 'Расширение php_mcrypt должно быть включено в файле php.ini или же php должен быть скомпилирован с указанием соответствующего ключа.',
 'LBL_ALL' => 'Показать все',
@@ -326,22 +329,7 @@ $mod_strings = array(
 'LBL_PDF_METRIC_FILE_INFO' => '.afm or .ufm file',
 'LBL_ADD_FONT_BUTTON' => 'Add',
 'JS_ALERT_PDF_WRONG_EXTENSION' => 'This file do not have a good file extension.',
-Fonts supported by SugarPDF :
-<ul>
-<li>TrueTypeUnicode (UTF-8 Unicode)</li>
-<li>OpenTypeUnicode</li>
-<li>TrueType</li>
-<li>OpenType</li>
-<li>Type1</li>
-<li>CID-0</li>
-</ul>
-<br>
-If you choose to not embed your font in the PDF, the generated PDF file will be lighter but a substitution will be use if the font is not available in the system of your reader.
-<br><br>
-Adding a PDF font to SugarCRM requires to follow steps 1 and 2 of the TCPDF Fonts documentation available in the "DOCS" section of the <a href="http://www.tcpdf.org" target="_blank">TCPDF website</a>.
-<br><br>The pfm2afm and ttf2ufm utils are available in fonts/utils in the TCPDF package that you can download on the "DOWNLOAD" section of the <a href="http://www.tcpdf.org" target="_blank">TCPDF website</a>.
-<br><br>Load the metric file generated in step 2 and your font file below.
-BSOFR',
+
 
 'ERR_MISSING_CIDINFO' => 'The field CID Information cannot be empty.',
 'LBL_ADDFONTRESULT_TITLE' => 'Result of the add font process',
@@ -367,7 +355,6 @@ BSOFR',
 'LBL_WIZARD_SKIP_BUTTON' => 'Пропустить',
 'LBL_WIZARD_CONTINUE_BUTTON' => 'Продолжить',
 'LBL_WIZARD_FINISH_TITLE' => 'Настройка основных параметров системы завершена',
-To configure additional system settings, click <a href="index.php?module=Administration&action=index" target="_blank">here</a>.', ///
 'LBL_WIZARD_SYSTEM_TITLE' => 'Настройка логотипа',
 'LBL_WIZARD_SYSTEM_DESC' => 'Укажите название вашей организации и выберите логотип.',
 

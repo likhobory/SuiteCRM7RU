@@ -567,6 +567,14 @@ You can re-order the modules by dragging their rows in the table.<br/><br/>
 'LBL_EC_EXPORTBTN' => 'Экспорт',
 'LBL_MODULE_DEPLOYED' => 'Модуль был успешно установлен.',
 'LBL_UNDEFINED' => 'не определено',
+'LBL_EC_VIEWS' => 'Пользовательские формы',
+'LBL_EC_SUGARFEEDS' => 'Пользовательская лента событий',
+'LBL_EC_DASHLETS' => 'Пользовательские дашлеты',
+'LBL_EC_CSS' => 'Пользовательские файлы css',
+'LBL_EC_TPLS' => 'Пользовательские файлы tpls',
+'LBL_EC_IMAGES' => 'Пользовательские картинки',
+'LBL_EC_JS' => 'Пользовательские файлы js',
+'LBL_EC_QTIP' => 'Пользовательские подсказки',
 
 //AJAX STATUS
 'LBL_AJAX_FAILED_DATA' => 'Невозможно получить данные',

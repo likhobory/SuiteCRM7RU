@@ -3357,7 +3357,7 @@ $app_list_strings['aow_run_on_list']['New_Records'] = 'Создаваемых з
 $app_list_strings['aow_run_on_list']['Modified_Records'] = 'Изменяемых записей';
 $app_list_strings['aow_run_when_list']['Always'] = 'Всегда';
 $app_list_strings['aow_run_when_list']['On_Save'] = 'Только при сохранении записи';
-$app_list_strings['aow_run_when_list']['In_Scheduler'] = 'Только по расписанию в Планировщике';
+$app_list_strings['aow_run_when_list']['In_Scheduler'] = 'Только в рабочее время';
 
 //gant
 $app_list_strings['moduleList']['AM_ProjectTemplates'] = 'Шаблоны проектов';
