@@ -34,5 +34,3 @@ $mod_strings = array(
 'LBL_KEY' => 'Ключ:' ,
 'LBL_VALUE' => 'Значение:' ,
 );
-
-?>

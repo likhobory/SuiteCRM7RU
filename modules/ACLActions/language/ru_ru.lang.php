@@ -57,5 +57,4 @@ $mod_strings = array(
 'LBL_ACTION_ACCESS' => 'Доступ к модулю',
 'LBL_ACTION_ADMIN' => 'Тип доступа',
 'LBL_ACCESS_DEFAULT' => 'Не установлено',
-)
-?>
+);

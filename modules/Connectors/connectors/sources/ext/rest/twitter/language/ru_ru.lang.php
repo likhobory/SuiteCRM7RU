@@ -38,6 +38,3 @@
         'consumer_key' => 'Consumer Key',
         'consumer_secret' => 'Consumer Secret',
     );
-
-
-?>

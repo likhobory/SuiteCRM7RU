@@ -3777,6 +3777,3 @@ $app_list_strings['pdf_page_size_dom']['Letter'] = 'Letter	(21,59х27,94 см)';
 $app_list_strings['pdf_page_size_dom']['Legal'] = 'Legal (21,59х35,56 см)';
 $app_list_strings['pdf_orientation_dom']['Portrait'] = 'Книжная';
 $app_list_strings['pdf_orientation_dom']['Landscape'] = 'Альбомная';
-
-?>
-

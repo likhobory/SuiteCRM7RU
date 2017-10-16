@@ -86,4 +86,3 @@ $mod_strings = array(
 'LBL_MARKETING_ID' => 'Маркетинг (ID)',
 'LBL_RELATED_NAME' => 'Связанное название',
 );
-?>

@@ -123,5 +123,3 @@ $mod_strings = array(
 'LBL_HELP' => 'Справка' /*for 508 compliance fix*/,
 'LBL_OUTBOUND_EMAIL_ACCOUNT_VIEW' => 'Перечень учётных записей исходящей почты',
 );
-
-?>

@@ -49,5 +49,4 @@ $mod_strings = array(
 'LBL_DUPLICATE_OF' => 'Дублирует ',
 
 'LBL_SECURITYGROUPS' => 'Группы пользователей',
-)
-?>
+);

@@ -33,4 +33,3 @@ $dashletStrings['ChartsDashlet'] = array(
 'LBL_TITLE' => 'Диаграммы',
 'LBL_DESCRIPTION' => 'Дашлет, отображающий диаграммы',
 'LBL_CONFIGURE_TITLE' => 'Заголовок', );
-?>

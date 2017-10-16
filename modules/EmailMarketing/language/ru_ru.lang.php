@@ -84,4 +84,3 @@ $mod_strings = array(
 'LBL_PROSPECT_LISTS' => 'Списки адресатов',
 
 );
-?>

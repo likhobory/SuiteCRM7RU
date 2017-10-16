@@ -211,5 +211,3 @@ $mod_strings = array(
 'LBL_AOS_QUOTES' => 'Предложения',
 
 );
-
-?>

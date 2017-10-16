@@ -149,6 +149,3 @@ $mod_strings = array(
    
 	
 );
-
-
-?>

@@ -155,4 +155,3 @@ $mod_strings = array(
     'LBL_REMINDERS_ADD_REMINDER' => 'Добавить напоминание',
 	
 );
-?>

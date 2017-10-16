@@ -28,4 +28,3 @@ $installdefs = array(
 
                     )
  );
-?>

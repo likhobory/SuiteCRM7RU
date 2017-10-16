@@ -102,6 +102,3 @@ $mod_strings = array(
 'LBL_LIST_ASSIGNED_TO_NAME' => 'Ответственный(ая)',
 'LBL_ACCEPT' => 'Принять' /*for 508 compliance fix*/,
 );
-
-
-?>

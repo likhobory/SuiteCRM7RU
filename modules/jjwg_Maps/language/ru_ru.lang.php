@@ -169,6 +169,3 @@ $mod_strings['LBL_JJWP_PARTNERS'] = 'Партнёры JJWP';
 $mod_strings['LBL_GET_GOOGLE_API_KEY'] = 'Получить ключ API';
 $mod_strings['LBL_GOOGLE_API_KEY'] = 'Ключ Google Maps API';
 $mod_strings['LBL_ERROR_NO_GOOGLE_API_KEY'] = 'Ключ не обнаружен. Перейдите в панель Администрирования и укажите ключ API в настройках параметров карт Google.';
-
-
-?>

@@ -41,4 +41,3 @@ $mod_strings = array(
 'LNK_NEW_GROUP' => 'Создать группу' ,
 'LNK_CONVERT_USER' => 'Преобразовать пользователя в группу' ,
 );
-?>

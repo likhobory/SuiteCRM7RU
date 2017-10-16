@@ -87,4 +87,3 @@ $mod_strings = array(
 'LBL_TYPE' => 'Тип шаблона:',
 'LBL_WIDTH' => 'Ширина страницы:',
 );
-?>

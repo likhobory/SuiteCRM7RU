@@ -60,5 +60,3 @@ $mod_strings = array(
   'LBL_DAY' => 'День',
   'LBL_OPEN' => 'Открыто',
   );
-
-?>

@@ -65,6 +65,3 @@ array(
 'LBL_CREATED_BY' => 'Кем создано',
 'LBL_EDIT_LAYOUT' => 'Изменить макет' /*for 508 compliance fix*/,
 );
-
-
-?>

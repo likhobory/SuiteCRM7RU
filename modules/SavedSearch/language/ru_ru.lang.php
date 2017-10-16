@@ -49,6 +49,3 @@ $mod_strings = array(
 'LBL_CREATED_BY' => 'Кем создано',
 
 );
-
-
-?>

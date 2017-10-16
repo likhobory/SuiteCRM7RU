@@ -140,6 +140,3 @@ $mod_strings = array(
 'LBL_SECURITYGROUPS' => 'Группы пользователей',
 
 );
-
-
-?>

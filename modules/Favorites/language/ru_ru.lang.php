@@ -58,4 +58,3 @@ $mod_strings = array(
   'LBL_NEW_FORM_TITLE' => 'Новое избранное',
   
 );
-?>

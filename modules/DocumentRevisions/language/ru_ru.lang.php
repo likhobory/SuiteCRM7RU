@@ -73,6 +73,3 @@ $mod_strings = array(
 'LBL_DOC_TYPE' => 'Источник',
 'LBL_DOC_URL' => 'Источник документа (URL)',
 );
-
-
-?>
