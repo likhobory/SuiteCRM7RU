@@ -57,5 +57,3 @@ $mod_strings = array(
 'LNK_CAMPAIGN_LIST' => 'Маркетинговые кампании' ,
 'LBL_EDIT_LAYOUT' => 'Изменить макет' /*for 508 compliance fix*/,
 );
-
-?>

@@ -89,4 +89,3 @@ $mod_strings = array(
 
   'LBL_PRODUCT_ID' => 'ID товара'
 );
-?>

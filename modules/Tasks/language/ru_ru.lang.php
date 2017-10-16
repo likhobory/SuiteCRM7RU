@@ -83,6 +83,3 @@ $mod_strings = array(
 'LBL_DATE_DUE' => 'Дата выполнения',
 'LBL_RELATED_TO' => 'Относится к:',
 );
-
-
-?>

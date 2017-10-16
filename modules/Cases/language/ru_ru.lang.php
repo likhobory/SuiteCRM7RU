@@ -122,5 +122,3 @@ $mod_strings = array(
 'LBL_CASE_UPDATE_FORM' => 'Добавить вложение',
 
 );
-
-?>

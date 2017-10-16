@@ -133,5 +133,3 @@ $mod_strings = array(
 
 'LBL_SCHEDULER_TIMES' => 'Расписание планировщика',
 );
-
-?>

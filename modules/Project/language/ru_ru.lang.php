@@ -186,5 +186,3 @@ $mod_strings = array(
   'LBL_AM_PROJECTTEMPLATES_PROJECT_1_FROM_PROJECT_TITLE' => 'Шаблоны проекта',
   'LBL_AOS_QUOTES_PROJECT' => 'Проекты-Предложения',
 );
-?>
-

@@ -85,5 +85,3 @@ $mod_strings = array(
 'LBL_CATEGORY' => 'Категория',
 'LBL_LIST_CATEGORY' => 'Категория',
 );
-
-?>

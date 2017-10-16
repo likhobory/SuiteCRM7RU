@@ -102,5 +102,3 @@ $mod_strings = array(
 'LBL_RELATIONSHIP_TYPE' => 'Тип связи',
 
 );
-
-?>

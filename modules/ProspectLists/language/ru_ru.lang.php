@@ -75,6 +75,3 @@ $mod_strings = array(
 'LBL_LIST_PROSPECTLIST_NAME' => 'Название',
 'LBL_EMAIL_MARKETING' => 'Рассылки E-mail',
 );
-
-
-?>

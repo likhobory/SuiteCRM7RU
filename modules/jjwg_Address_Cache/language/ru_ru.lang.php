@@ -56,5 +56,3 @@ $mod_strings['LBL_LAT'] = 'Широта';
 $mod_strings['LBL_LNG'] = 'Долгота';
 $mod_strings['LBL_CURRENT_USER_FILTER'] = 'Мои записи';
 $mod_strings['LBL_ASSIGNED_TO'] = 'Ответственный(ая) ';
-
-?>

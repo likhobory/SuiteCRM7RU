@@ -39,5 +39,3 @@
         'appid' => 'Facebook App ID ',
         'secret' => 'Facebook App Secret ',
     );
-
-?>

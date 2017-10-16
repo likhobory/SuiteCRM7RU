@@ -42,5 +42,4 @@ $mod_strings = array(
 'LBL_REDIRECT_TO_HOME' => 'Перенаправление на ГЛАВНУЮ страницу через',
 'LBL_SECONDS' => 'секунд',
 'LBL_ADDING' => 'Добавлено для ',
-)
-?>
+);

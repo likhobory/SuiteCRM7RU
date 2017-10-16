@@ -157,6 +157,3 @@ $mod_strings = array(
 'LBL_BUGS_SUBPANEL_TITLE' => 'Ошибки',
 'LBL_AOS_CONTRACTS' => 'Договоры',
 );
-
-
-?>

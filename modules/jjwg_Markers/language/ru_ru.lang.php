@@ -66,5 +66,3 @@ $mod_strings['LBL_MARKER_CLOSEST_MATCHING_ADDRESS'] = 'Наиболее точн
 $mod_strings['LBL_MARKER_MARKER_STATUS'] = 'Состояние метки';
 $mod_strings['LBL_MARKER_EDIT_DESCRIPTION'] = 'Метка готова к перемещению.';
 $mod_strings['LBL_JJWG_MAPS_JJWG_MARKERS_FROM_JJWG_MAPS_TITLE'] = 'Карты';
-
-?>

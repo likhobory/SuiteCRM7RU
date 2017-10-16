@@ -99,5 +99,3 @@ $mod_strings = array(
 'LBL_AOS_CONTRACTS' => 'Договоры',
 'LBL_AOS_QUOTES' => 'Предложения',
 );
-
-?>

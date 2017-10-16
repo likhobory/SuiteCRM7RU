@@ -47,5 +47,3 @@ $mod_strings = array(
 'LBL_REVERSE' => 'Обратить' ,
 'LBL_DELETED' => 'Удалено' ,
 );
-
-?>

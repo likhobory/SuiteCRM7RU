@@ -55,5 +55,3 @@ $mod_strings = array(
 'ERR_TIMEOUT' => 'Истёк тайм-аут',
 'ERR_JOB_FAILED_VERBOSE' => 'Не удалось выполнить задание %1$s (%2$s), указанное в CRON',
 );
-
-?>

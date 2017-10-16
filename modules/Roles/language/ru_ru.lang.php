@@ -49,4 +49,3 @@ $mod_strings = array(
 'LBL_USERS_SUBPANEL_TITLE' => 'Пользователи'  ,
 'LBL_MODULES' => 'Модули',
 );
-?>

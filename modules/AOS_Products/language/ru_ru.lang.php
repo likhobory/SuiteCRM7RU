@@ -76,4 +76,3 @@ $mod_strings = array(
   'LBL_AOS_QUOTE_NAME' => 'Предложение',
   'LBL_ACCOUNT_NAME' => 'Контрагент',
 );
-?>

@@ -64,5 +64,3 @@ $mod_strings = array(
   'LBL_EDITVIEW_PANEL1' => 'Адресные данные',
   'LBL_FP_EVENT_LOCATIONS_FP_EVENTS_1_FROM_FP_EVENTS_TITLE' => 'События',
 );
-
-?>

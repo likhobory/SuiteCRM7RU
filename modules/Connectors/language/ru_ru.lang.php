@@ -72,5 +72,3 @@ $mod_strings = array(
 'LBL_INFO_INLINE' => 'Info' /*for 508 compliance fix*/,
 'LBL_CLOSE' => 'Закрыть' /*for 508 compliance fix*/,
 );
-
-?>

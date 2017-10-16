@@ -246,5 +246,3 @@ $mod_strings = array(
 
 
 );
-
-?>

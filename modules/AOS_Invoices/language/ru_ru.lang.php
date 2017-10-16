@@ -193,4 +193,3 @@ $mod_strings = array(
     'LBL_AOS_PRODUCT_QUOTES' => 'Предложение-Товары',
     'LBL_AOS_QUOTES_AOS_INVOICES' => 'Предложения : Счета',
 );
-?>

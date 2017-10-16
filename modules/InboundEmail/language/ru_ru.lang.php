@@ -150,5 +150,3 @@ $mod_strings = array(
 'LBL_STORED_OPTIONS' => 'Сохранённые параметры',
 'LBL_GROUP_ID' => 'ID группы',
 );
-
-?>

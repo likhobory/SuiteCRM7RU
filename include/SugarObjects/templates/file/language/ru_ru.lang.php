@@ -102,6 +102,3 @@ $mod_strings = array(
 'LBL_REMOVE' => 'Удалить',
 
 );
-
-
-?>

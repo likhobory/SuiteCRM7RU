@@ -456,6 +456,3 @@ $mod_strings = array(
 
 
 );
-
-
-?>

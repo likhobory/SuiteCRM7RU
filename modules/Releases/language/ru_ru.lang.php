@@ -54,6 +54,3 @@ array(
 ),
 'LBL_EDITLAYOUT' => 'Изменить макет' /*for 508 compliance fix*/,
 );
-
-
-?>

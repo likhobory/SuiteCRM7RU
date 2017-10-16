@@ -89,6 +89,3 @@ $mod_strings = array(
 'LBL_CHART_MY_MODULES_USED_30_DAYS' => 'My Modules Used (Last 30 Days)', ///
 
 );
-
-
-?>

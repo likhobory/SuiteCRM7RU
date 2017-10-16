@@ -702,5 +702,3 @@ $mod_strings = array(
 
    
 ); // END STRINGS DEFS
-
-?>

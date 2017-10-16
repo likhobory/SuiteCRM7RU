@@ -92,5 +92,3 @@ $mod_strings = array(
 'LBL_DATE_MODIFIED' => 'Дата изменения',
 'LBL_DELETED' => 'Удалено',
 );
-
-?>

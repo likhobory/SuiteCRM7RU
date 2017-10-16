@@ -40,4 +40,3 @@ $dashletStrings['JotPadDashlet'] = array(
 'LBL_DBLCLICK_HELP' => 'Для редактирования текста кликните на нём дважды.',
 'LBL_DEFAULT_TEXT'     => $defaultText,
 );
-?>

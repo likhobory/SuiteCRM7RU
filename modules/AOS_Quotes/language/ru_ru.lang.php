@@ -192,4 +192,3 @@ $mod_strings = array(
   'LBL_AOS_QUOTES_PROJECT' => 'Предложение-Проекты',
   'LBL_SUBTOTAL_TAX_AMOUNT_USDOLLAR' => 'Итого с учётом скидки и НДС (основная валюта)',
 );
-?>

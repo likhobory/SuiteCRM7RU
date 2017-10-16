@@ -664,7 +664,3 @@ You can re-order the modules by dragging their rows in the table.<br/><br/>
 'LBL_ALL_MODULES' => 'Все модули',
 'LBL_RELATED_FIELD_ID_NAME_LABEL' => '{0} (связано с ID модуля {1})',
 );
-
-
-
-?>

@@ -33,5 +33,3 @@ $dashletStrings['MyPipelineBySalesStageDashlet'] = array(
 'LBL_TITLE' => 'Диаграмма стадий моих продаж',
 'LBL_DESCRIPTION' => 'Диаграмма стадий моих продаж',
 'LBL_REFRESH' => 'Обновить диаграмму');
-
-?>

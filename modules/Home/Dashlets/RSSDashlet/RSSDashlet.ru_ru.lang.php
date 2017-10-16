@@ -40,4 +40,3 @@ $dashletStrings['RSSDashlet'] = array(
 'LBL_DBLCLICK_HELP' => '',
 'ERR_LOADING_FEED' => 'Ошибка загрузки',
 );
-?>
