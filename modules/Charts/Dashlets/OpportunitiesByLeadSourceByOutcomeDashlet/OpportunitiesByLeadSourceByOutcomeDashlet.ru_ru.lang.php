@@ -32,5 +32,5 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
 $dashletStrings['OpportunitiesByLeadSourceByOutcomeDashlet'] = array(
 'LBL_TITLE' => 'Стадии продаж по источникам предварительных контактов',
 'LBL_DESCRIPTION' => 'Стадии продаж по источникам предварительных контактов',
-'LBL_REFRESH' => 'Обновить диаграмму');
-?> 
+'LBL_REFRESH' => 'Обновить диаграмму'
+);

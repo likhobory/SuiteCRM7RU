@@ -32,5 +32,5 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
 $dashletStrings['CampaignROIChartDashlet'] = array(
 'LBL_TITLE' => 'Диаграмма рентабельности инвестиций',
 'LBL_DESCRIPTION' => 'Рентабельность инвестиций',
-'LBL_REFRESH' => 'Обновить диаграмму');
-?> 
+'LBL_REFRESH' => 'Обновить диаграмму'
+);

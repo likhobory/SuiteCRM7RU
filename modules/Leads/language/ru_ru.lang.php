@@ -30,6 +30,15 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
  // Replaced by RAPIRA <--
  
 $mod_strings = array(
+//DON'T CONVERT THESE THEY ARE MAPPINGS
+'db_last_name' => 'LBL_LIST_LAST_NAME',
+'db_first_name' => 'LBL_LIST_FIRST_NAME',
+'db_title' => 'LBL_LIST_TITLE',
+'db_email1' => 'LBL_LIST_EMAIL_ADDRESS',
+'db_account_name' => 'LBL_LIST_ACCOUNT_NAME',
+'db_email2' => 'LBL_LIST_EMAIL_ADDRESS',
+//END DON'T CONVERT
+	
 'ERR_DELETE_RECORD' => 'Перед удалением предварительного контакта должен быть определён номер записи.' ,
 'LBL_ACCOUNT_DESCRIPTION' => 'Описание контрагента' ,
 'LBL_ACCOUNT_ID' => 'ID контрагента' ,
@@ -166,6 +175,7 @@ $mod_strings = array(
 'LNK_NEW_MEETING' => 'Назначить встречу',
 'LNK_NEW_OPPORTUNITY' => 'Создать сделку' ,
 'LNK_SELECT_ACCOUNTS' => ' <b>ИЛИ</b> выбрать существующего контрагента',
+'LNK_SELECT_CONTACTS' => ' <b>ИЛИ</b> выбрать существующий контакт',
 'NTC_DELETE_CONFIRMATION' => 'Вы уверены, что хотите удалить эту запись?' ,
 'NTC_REMOVE_CONFIRMATION' => 'Вы уверены, что хотите удалить этот предварительный контакт из данного обращения?' ,
 'LBL_CAMPAIGN_LIST_SUBPANEL_TITLE' => 'Маркетинговые кампании' ,

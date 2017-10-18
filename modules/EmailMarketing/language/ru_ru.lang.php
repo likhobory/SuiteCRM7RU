@@ -78,6 +78,15 @@ $mod_strings = array(
 'LBL_RELATED_PROSPECT_LISTS' => 'ВЫБРАННЫМ спискам адресатов маркетинговой кампании.' ,
 'LBL_PROSPECT_LIST_NAME' => 'Имя:' ,
 
+'LBL_LIST_PROSPECT_LIST_NAME'=> 'Список адресатов' ,
+'LBL_MODULE_SEND_TEST'=> 'Рассылка: проверка отправки' ,
+'LBL_MODULE_SEND_EMAILS'=> 'Рассылка: отправить E-mail' ,
+'LBL_SCHEDULE_MESSAGE_TEST'=> 'Пожалуйста, выберите рассылки, которые вы хотите протестировать' ,
+'LBL_SCHEDULE_MESSAGE_EMAILS'=> 'Пожалуйста, выберите рассылки, которые вы хотите запланировать к отправке в определённое время:' ,
+'LBL_SCHEDULE_BUTTON_TITLE'=> 'Отправить' ,
+'LBL_SCHEDULE_BUTTON_LABEL'=> 'Отправить' ,
+'LBL_ERROR_ON_MARKETING' => 'Обязательные поля не заполнены',
+
 'LBL_CAMPAIGN_ID' => 'Маркет. кампания (ID)',
 'LBL_OUTBOUND_EMAIL_ACOUNT_ID' => 'ID учётной записи исходящей почты',
 'LBL_EMAIL_TEMPLATE' => 'Шаблон E-mail',

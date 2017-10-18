@@ -854,7 +854,7 @@ $mod_strings = array(
 'LBL_AOP_JOOMLA_ACCOUNT_CREATION_EMAIL_TEMPLATE' => 'Шаблон письма при создании учётной записи Joomla',
 
 'LBL_AOP_BUSINESS_HOURS_SETTINGS' => 'Рабочие часы',
-'LBL_AOP_BUSINESS_HOURS_DESC' => 'Настройте график вашей работы организации, если при запуске Процессов используется параметр \'Только в рабочее время\'.',
+'LBL_AOP_BUSINESS_HOURS_DESC' => 'Настройте график работы вашей организации, если при запуске Процессов используется параметр \'Только в рабочее время\'.',
 'LBL_SUPPORT_FROM_ADDRESS' => 'В качестве адреса отправителя указывать',
 'LBL_SUPPORT_FROM_NAME' => 'В качестве имени отправителя указывать',
 'LBL_CREATE_EMAIL_TEMPLATE' => 'Создать',

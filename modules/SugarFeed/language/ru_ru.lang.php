@@ -91,6 +91,9 @@ $mod_strings = array(
 'WON_OPPORTUNITY' => ' <b>ЗАКРЫЛ(а) С УСПЕХОМ</b> сделку',
 'WITH' => 'с',
 
+'LBL_LINK_TYPE_Link' => 'Ссылка',
+'LBL_LINK_TYPE_Image' => 'Изображение',
+'LBL_LINK_TYPE_YouTube' => 'YouTube&#153;',
 
 'LBL_SELECT' => 'Выбрать',
 'LBL_POST' => 'Опубликовать',

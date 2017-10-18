@@ -58,7 +58,8 @@ $mod_strings = array(
 'LBL_ALT_ADDRESS_STATE' => 'Другой адрес - область:' ,
 'LBL_ALT_ADDRESS_POSTALCODE' => 'Другой адрес - индекс:' ,
 'LBL_ALT_ADDRESS_COUNTRY' => 'Другой адрес - страна:' ,
-
+'LBL_PRIMARY_STREET'=>'Адрес',
+'LBL_ALT_STREET'=>'Другой адрес',
 'LBL_STREET' => 'Другой адрес',
 'LBL_CITY' => 'Город:' ,
 'LBL_STATE' => 'Область:' ,

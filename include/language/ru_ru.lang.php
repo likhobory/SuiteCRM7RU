@@ -828,7 +828,7 @@ $app_list_strings = array(
 	),
 
     'dom_editor_type' => array(
-		'tinymce' => 'Tiny MCE',
+		'tinymce' => 'TinyMCE',
 		'mozaik' => 'Mozaik',
 		'none' => 'Прямое редактирование HTML'
 	),

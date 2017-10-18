@@ -32,5 +32,5 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
 $dashletStrings['OutcomeByMonthDashlet'] = array(
 'LBL_TITLE' => 'Стадии продаж по месяцам',
 'LBL_DESCRIPTION' => 'Диаграмма стадий продаж по месяцам',
-'LBL_REFRESH' => 'Обновить диаграмму');
-?> 
+'LBL_REFRESH' => 'Обновить диаграмму'
+);

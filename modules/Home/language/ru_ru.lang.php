@@ -183,10 +183,8 @@ $mod_strings = array(
 'LBL_FEATURING' => 'AOS, AOW, AOR, AOP, AOE and Reschedule modules by SalesAgility.',
 
 'LBL_CONTRIBUTOR_SUITECRM' => 'Бесплатная альтернатива SugarCRM Professional Edition с открытым исходным кодом    <br>
-        <hr><h5>
-        <ul id="about_menu">
-			<li><a href="https://github.com/likhobory/SuiteCRM7RU/blob/master/DOCS/Russian_Rapira_Application_Guide_for_SuiteCRM.pdf?raw=true" target="_blank">Скачать русифицированное Руководство пользователя и администратора SuiteCRM</a></li>
-        </ul></h5>',
+        <hr><h2>
+        <a href="https://github.com/likhobory/SuiteCRM7RU/blob/master/DOCS/Russian_Rapira_Application_Guide_for_SuiteCRM.pdf?raw=true" target="_blank">Скачать русифицированное Руководство пользователя и администратора SuiteCRM</a></h2>',
 'LBL_CONTRIBUTOR_SECURITY_SUITE' => 'SecuritySuite by Jason Eggers',
 'LBL_CONTRIBUTOR_JJW_GMAPS' => 'JJWDesign Google Maps by Jeffrey J. Walters',
 'LBL_CONTRIBUTOR_CONSCIOUS' => 'SuiteCRM LOGO Provided by Conscious Solutions',

@@ -311,7 +311,7 @@ $mod_strings = array(
 
 'LBL_SYSTEM_CREDS' => 'Параметры доступа',
 'LBL_SYSTEM_ENV' => 'Системное окружение',
-'LBL_START' => 'Пуск' ,
+
 'LBL_SHOW_PASS' => 'Показать пароли',
 'LBL_HIDE_PASS' => 'Спрятать пароли',
 'LBL_HIDDEN' => '<i>(скрыт)</i>',
