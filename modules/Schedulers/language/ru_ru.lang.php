@@ -129,7 +129,24 @@ $mod_strings = array(
 
 //jobstrings
 
+'LBL_REFRESHJOBS' => 'Обновить задания', 
+'LBL_POLLMONITOREDINBOXES' => 'Проверять почтовые ящики для входящей почты', 
+'LBL_PERFORMFULLFTSINDEX' => 'Full-text Search Index System', ///
 
+'LBL_RUNMASSEMAILCAMPAIGN' => 'Запускать ночью массовую рассылку писем',
+'LBL_POLLMONITOREDINBOXESFORBOUNCEDCAMPAIGNEMAILS' => 'Запускать ночью проверку почтовых ящиков для возвращаемых писем',
+'LBL_PRUNEDATABASE' => 'Очищать БД первого числа каждого месяца',
+'LBL_TRIMTRACKER' => 'Очищать таблицы трекера',
+'LBL_TRIMSUGARFEEDS'   => 'Очищать ленту событий',
+'LBL_SENDEMAILREMINDERS'=> 'Отправлять по E-mail напоминания о мероприятиях',
+'LBL_CLEANJOBQUEUE' => 'Очищать очередь заданий',
+'LBL_REMOVEDOCUMENTSFROMFS' => 'Удалять неиспользуемые файлы из системы',
+
+'LBL_AODOPTIMISEINDEX' => 'Оптимизировать индекс полнотекстового поиска',
+'LBL_AODINDEXUNINDEXED' => 'Индексировать неиндексированные документы',
+'LBL_POLLMONITOREDINBOXESAOP' => 'Портал - проверять почтовые ящики для входящей почты',
+'LBL_AORRUNSCHEDULEDREPORTS' => 'Создавать отчёты по расписанию',
+'LBL_PROCESSAOW_WORKFLOW' => 'Выполнять настроенные процессы', 
 
 'LBL_SCHEDULER_TIMES' => 'Расписание планировщика',
 );
