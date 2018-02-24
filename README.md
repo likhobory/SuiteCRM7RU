@@ -51,7 +51,7 @@ Russian RAPIRA language pack and manual for SuiteCRM
 [man]: https://github.com/likhobory/SuiteCRM7RU/blob/ver.7.8/DOCS/Russian_Rapira_Application_Guide_for_SuiteCRM.pdf?raw=true
 
 [suitecrm]: https://github.com/salesagility/SuiteCRM
-[forum]: https://suitecrm.com/forum/international-language-support/59
+[forum]: https://suitecrm.com/suitecrm/forum/suitecrm-forum-russian-general-discussion
 [sugar]: https://ru.wikipedia.org/wiki/SugarCRM
 [history]: https://github.com/likhobory/SuiteCRM7RU/blob/master/HISTORY.TXT
 
