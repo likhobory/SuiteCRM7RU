@@ -131,6 +131,9 @@ $mod_strings = array(
 'LBL_DATE_ENTERED' => 'Дата создания',
 'LBL_DELETED' => 'Удалено',
 
+'LBL_BUTTON_SELECT' => 'Выбрать', 
+'LBL_BUTTON_CLEAR' => 'Очистить', 
+	
 'LBL_CONTACTS_SYNC' => 'Контакты',
 'LBL_OAUTH_TOKENS' => 'OAuth-токены',
 'LBL_PROJECT_USERS_1_FROM_PROJECT_TITLE' => 'Пользователи',

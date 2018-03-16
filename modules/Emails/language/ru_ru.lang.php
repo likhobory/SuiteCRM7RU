@@ -74,6 +74,7 @@ $mod_strings = array(
 'LBL_DESCRIPTION' => 'Описание' ,
 'LBL_EDIT_ALT_TEXT' => 'Правка альтернативного текста' ,
 'LBL_SEND_IN_PLAIN_TEXT' => 'Отправить в виде неформатир. текста',
+'LBL_SEND_CONFIRM_OPT_IN' => 'Отправить письмо для подтверждения подписки',
 'LBL_EMAIL_ATTACHMENT' => 'Вложение E-mail' ,
 'LBL_EMAIL_SELECTOR_SELECT' => 'Выбрать',
 'LBL_EMAIL_SELECTOR_CLEAR' => 'Очистить',
@@ -361,5 +362,11 @@ $mod_strings = array(
 'LBL_MARK_READ' => 'Пометить как прочитанное',
 'LBL_MARK_FLAGGED' => 'Пометить как ВАЖНОЕ',
 'LBL_MARK_UNFLAGGED' => 'Пометить как ОБЫЧНОЕ',
+'LBL_CONFIRM_OPT_IN_SENT_DATE' => 'Дата отправки письма для подтверждения подписки',
+'LBL_CONFIRM_OPT_IN_FAIL_DATE' => 'Дата неудачной попытки отправки письма для подтверждения подписки',
 
+'ERR_NO_RETURN_ID' => 'Вложение не обнаружено.',
+
+'LBL_LIST_DATE_MODIFIED' => 'Дата изменения',
+'LNK_IMPORT_CAMPAIGNS' => 'Импорт маркет. кампании',
 );

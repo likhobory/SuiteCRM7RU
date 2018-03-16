@@ -33,7 +33,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 $dashletStrings['SpotsDashlet'] = array(
     'LBL_TITLE' => 'Сводки',
     'LBL_DESCRIPTION' => 'Сводный отчёт',
-    'LBL_SAVING' => 'Сохранение сводок ...',
+    'LBL_SAVING' => 'Сохранение сводок...',
     'LBL_SAVED' => 'Сохранено',
     'LBL_CONFIGURE_TITLE' => 'Заголовок:',
     'LBL_SPOTS_TO_LOAD' => 'Сводка:',

@@ -32,11 +32,11 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
 $dashletStrings['RSSDashlet'] = array(
 'LBL_TITLE' => 'Лента новостей',
 'LBL_DESCRIPTION' => 'Лента новостей',
-'LBL_SAVING' => 'Анализ ...',
-'LBL_SAVED' => 'Готово',
+'LBL_SAVING' => 'Анализ...',
+'LBL_SAVED' => 'Готово', 
 'LBL_CONFIGURE_TITLE' => 'Заголовок',
 'LBL_CONFIGURE_HEIGHT' => 'Высота (1 - 300)',
 'LBL_CONFIGURE_RSSURL' => 'Url',
-'LBL_DBLCLICK_HELP' => '',
+
 'ERR_LOADING_FEED' => 'Ошибка загрузки',
 );

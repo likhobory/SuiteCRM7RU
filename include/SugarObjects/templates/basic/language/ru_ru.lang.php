@@ -43,6 +43,13 @@ $mod_strings = array(
 'LBL_LIST_NAME' => 'Название',
 'LBL_EDIT_BUTTON' => 'Править',
 'LBL_REMOVE' => 'Удалить',
+'LBL_ASCENDING' => 'Восходящая',
+'LBL_DESCENDING' => 'Нисходящая',
 
-
+// Emails
+'LBL_OPT_IN' => 'Подтвердить подписку',
+'LBL_OPT_IN_PENDING_EMAIL_NOT_SENT' => 'Ожидание подтверждения подписки, письмо с запросом на подтверждение НЕ отправлено.',
+'LBL_OPT_IN_PENDING_EMAIL_SENT' => 'Ожидание подтверждения подписки, отправлено письмо с запросом на подтверждение.',
+'LBL_OPT_IN_CONFIRMED' => 'Двойное подтверждение подписки.',
+	
 );

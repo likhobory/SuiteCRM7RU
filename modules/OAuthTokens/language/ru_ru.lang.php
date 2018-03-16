@@ -43,7 +43,7 @@ $mod_strings = array(
 	
 	'LBL_TOKEN_TS' => 'Токен',
     'LBL_CALLBACK_URL' => 'Callback-URL',
-	'LBL_SECRET' => 'Secret',
+	'LBL_SECRET' => 'Секретный ключ',
     'LBL_TSTATE' => 'TState',
     'LBL_VERIFY' => 'Проверить',
 );

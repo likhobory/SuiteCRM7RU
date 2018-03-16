@@ -30,6 +30,9 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
  // Replaced by RAPIRA <--
  
 $mod_strings = array(
+'ERR_NO_2FACTOR_EMAIL_TMPL' => 'Не выбран шаблон письма, содержащий данные для двухфакторной аутентификации. Выбрать необходимый шаблон вы можете в разделе управления паролями панели администрирования.',
+'ERR_NO_2FACTOR_EMAIL_TMPL_CODE' => 'Шаблон письма, содержащий данные для двухфакторной аутентификации, не содержит переменную $code',
+
 'LBL_DELETE_USER_CONFIRM' => 'При удалении данных Пользователя будет удалена и соответствующая запись из списка Сотрудников.<br/><br/>Нажмите кнопку "OK" для удаления данных Пользователя.',
 'LBL_DELETE_GROUP_CONFIRM' => 'Вы действительно хотите удалить данного группового пользователя? Нажмите на кнопку <b>ОК</b> для удаления пользователя из системы<br/>После удаления у вас будет возможность переназначить ответственных для записей, принадлежащих удалённому групповому пользователю.',
 
@@ -48,7 +51,7 @@ $mod_strings = array(
 'ERR_LAST_ADMIN_2' => '\" последний пользователь с правами администратора. По меньшей мере один пользователь должен быть администратором.' ,
 'ERR_PASSWORD_CHANGE_FAILED_1' => 'Изменение пароля пользователя прошло неудачно для ' ,
 'ERR_PASSWORD_CHANGE_FAILED_2' => ' неудачно. Должен быть установлен новый пароль.' ,
-'ERR_PASSWORD_INCORRECT_OLD_1' => 'Неверный текущий пароль' ,
+'ERR_PASSWORD_INCORRECT_OLD_1' => 'Неверный текущий пароль для ' ,
 'ERR_PASSWORD_INCORRECT_OLD_2' => '. Повторите ввод паролей' ,
 'ERR_PASSWORD_MISMATCH' => 'Пароли не совпадают' ,
 'ERR_REENTER_PASSWORDS' => 'Новый пароль и подтверждение пароля не совпадают.' ,
@@ -58,6 +61,12 @@ $mod_strings = array(
 'ERR_USER_NAME_EXISTS_2' => ' уже существует. Дублирование имён пользователей не допускается. Измените имя пользователя на уникальное.' ,
 'ERR_USER_IS_LOCKED_OUT' => 'Данный пользователь заблокирован и не может войти в систему, используя существующий пароль.',
 
+'ERR_PASSWORD_MINPWDLENGTH' => 'Пароль должен содержать не менее %d символов.',
+'ERR_PASSWORD_ONEUPPER' => 'Пароль должен содержать символы в верхнем регистре.',
+'ERR_PASSWORD_ONELOWER' => 'Пароль должен содержать символы в нижнем регистре.',
+'ERR_PASSWORD_ONENUMBER' => 'Пароль должен содержать цифры.',
+'ERR_PASSWORD_SPECCHARS' => 'Пароль должен содержать специальные символы.',
+	
 'LBL_PASSWORD_SENT' => 'Обновление пароля',
 'LBL_CANNOT_SEND_PASSWORD' => 'Ошибка отправки пароля',
 'ERR_EMAIL_NOT_SENT_ADMIN' => 'Система не в состоянии выполнить ваш запрос. Пожалуйста, проверьте:',
@@ -150,7 +159,7 @@ $mod_strings = array(
 'LBL_FIRST_NAME' => 'Имя' ,
 'LBL_SYSTEM_GENERATED_PASSWORD' => 'Автоматически сгенерированный пароль',
 'LBL_GENERATE_PASSWORD_BUTTON_LABEL' => 'Сменить пароль',
-'LBL_GENERATE_PASSWORD_BUTTON_TITLE' => 'Сменить пароль',
+
 'LBL_GROUP_DESC' => 'Используется только для назначения пользователей в указанную группу (например, для входящих писем) и не может авторизоваться через веб-интерфейс SuiteCRM.' ,
 'LBL_GROUP_USER' => 'Групповой пользователь' ,
 'LBL_HIDE_TABS' => 'Скрытые закладки' ,
@@ -160,6 +169,12 @@ $mod_strings = array(
 'LBL_LANGUAGE' => 'Язык:' ,
 'LBL_LAST_NAME' => 'Фамилия' ,
 'LBL_LAYOUT_OPTIONS' => 'Параметры макета',
+'LBL_SUBTHEMES' => 'Стиль',
+'LBL_SUBTHEME_OPTIONS_DAWN' => 'Рассвет',
+'LBL_SUBTHEME_OPTIONS_DAY' => 'День',
+'LBL_SUBTHEME_OPTIONS_DUSK' => 'Сумерки',
+'LBL_SUBTHEME_OPTIONS_NIGHT' => 'Ночь',
+'LBL_SUBTHEME' => 'Стиль',
 'LBL_LDAP' => 'LDAP',
 'LBL_LDAP_AUTHENTICATION' => 'LDAP-аутентификация',
 'LBL_LIST_ACCEPT_STATUS' => 'Статус' ,
@@ -377,8 +392,32 @@ $mod_strings = array(
 'LBL_WIZARD_FINISH_BUTTON' => 'Готово',
 'LBL_WIZARD_FINISH_TITLE' => 'Система готова к использованию!',
 
+'LBL_WIZARD_FINISH' => 'Нажмите на кнопку <b>Готово</b> для сохранения настроек и перехода к работе с системой. За дополнительной информацией вы можете обратиться к следующим ресурсам:<br /><br />
+<table cellpadding=0 cellspacing=0>
+<tr><td><!--not_in_theme!-->Visit www.suitecrm.com <img src=include/images/suitecrm_login.png style="margin-right: 5px;"></td><td><a href="http://www.suitecrm.com/" target="_blank"><b>SuiteCRM</b></a></td></tr>
+<tr><td colspan=2><hr style="margin: 5px 0px;"></td></tr>
+</table>',
 
-
+'LBL_WIZARD_FINISH1' => 'С чего начнём?',
+'LBL_WIZARD_FINISH2' => 'Начало работы в системе',
+'LBL_WIZARD_FINISH3' => 'Импортирование данных',
+'LBL_WIZARD_FINISH4' => 'Импортирование данных из внешних источников',
+'LBL_WIZARD_FINISH5' => 'Создание пользователей',
+'LBL_WIZARD_FINISH6' => 'Создание в системе новых учётных записей',
+'LBL_WIZARD_FINISH7' => 'Просмотр и настройка параметров системы',
+'LBL_WIZARD_FINISH8' => 'Управление стандартными и дополнительными параметрами системы',
+'LBL_WIZARD_FINISH9' => 'Настройка внешнего вида системы',
+'LBL_WIZARD_FINISH10' => 'Настройка макетов страниц, полей, меток и комбобоксов при помощи Студии',
+'LBL_WIZARD_FINISH11' => 'Поддержка и документация',
+'LBL_WIZARD_FINISH12' => 'Доступ к англоязычному форуму.<br> Для русскоязычных пользователей доступно подробное <a href="https://github.com/likhobory/SuiteCRM7RU" target="_blank">Руководство пользователя и администратора SuiteCRM</a>.',
+'LBL_WIZARD_FINISH14' => 'Wiki',
+'LBL_WIZARD_FINISH15' => 'Англоязычное руководство пользователя и примечания к текущему релизу.',
+'LBL_WIZARD_FINISH16' => 'Просмотр базы знаний', ///
+'LBL_WIZARD_FINISH17' => 'Советы от службы технической поддержки', ///
+'LBL_WIZARD_FINISH18' => 'Форум',
+'LBL_WIZARD_FINISH19' => 'Англоязычный форум. Русскоязычные пользователи могут задать вопрос в <a href="https://suitecrm.com/forum/international-language-support/59" target="_blank">этой</a> теме.',
+'LBL_WIZARD_FINISH2DESC' => 'Переход на ГЛАВНУЮ страницу системы.',
+'LBL_WIZARD_PERSONALINFO' => 'Информация о сотруднике',
 'LBL_WIZARD_LOCALE' => 'Региональные стандарты',
 
 //Wizard Scenarios
@@ -407,15 +446,8 @@ $mod_strings = array(
 'LBL_DELETED' => 'Удалено',
 'LBL_HIDEOPTIONS' => 'Скрыть параметры',
 'LBL_SHOWOPTIONS' => 'Показать параметры',
-
-
-'LBL_SUITE_SUPERCHARGED' => 'Supercharged by SuiteCRM',
-'LBL_SUITE_POWERED_BY' => 'Powered By SugarCRM',
-'LBL_SUITE_TOP' => 'Наверх',
 'LBL_SUITE_PRINT' => 'Печать',
-'LBL_SUITE_DESC1' => 'SuiteCRM has been written and assembled by <a href="https://salesagility.com">SalesAgility</a>.  The Program is provided AS IS, without warranty.  Licensed under AGPLv3.',
-'LBL_SUITE_DESC2' => 'This program is free software; you can redistribute it and/or modify it under the terms of the GNU Affero General Public License version 3 as published by the Free Software Foundation, including the additional permission set forth in the source code header.',
-'LBL_SUITE_DESC3' => 'SuiteCRM is a trademark of SalesAgility Ltd. All other company and product names may be trademarks of the respective companies with which they are associated.',
+
 'LBL_QUICK_ACCOUNT' => 'Создать контрагента',
 'LBL_QUICK_CONTACT' => 'Создать контакт',
 'LBL_QUICK_OPPORTUNITY' => 'Создать сделку',
@@ -700,5 +732,10 @@ $mod_strings = array(
 'LBL_ROLES' => 'Роли',
 'LBL_SECURITYGROUPS' => 'Группы пользователей',
 
+'LBL_FACTOR_AUTH' => 'Двухфакторная аутентификация:',
+'LBL_FACTOR_AUTH_INTERFACE' => 'Интерфейс двухфакторной аутентификации:',
+'ERR_USER_FACTOR_SMTP_REQUIRED' => 'Прежде всего необходимо настроить параметры SMTP-сервера.',
+'ERR_USER_FACTOR_CHANGE_DISABLED' => 'Текущий пользователь не может менять настройки двухфакторной аутентификации.',
+'LNK_IMPORT_CAMPAIGNS' => 'Импорт маркет. кампании',
    
 ); // END STRINGS DEFS
