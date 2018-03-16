@@ -86,4 +86,5 @@ $mod_strings = array(
 'LBL_ID_FF_CLEAR' => 'Очистить' /*for 508 compliance fix*/,
 'LBL_TYPE' => 'Тип шаблона:',
 'LBL_WIDTH' => 'Ширина страницы:',
+'LNK_IMPORT_CAMPAIGNS' => 'Импорт маркет. кампании',
 );

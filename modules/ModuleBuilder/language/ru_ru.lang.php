@@ -369,7 +369,7 @@ You can re-order the modules by dragging their rows in the table.<br/><br/>
 'LBL_NEW_PANEL' => 'Новая панель',
 'LBL_NEW_ROW' => 'Новая строка',
 'LBL_PACKAGE_DELETED' => 'Пакет удалён',
-'LBL_PUBLISHING' => 'Публикация ...',
+'LBL_PUBLISHING' => 'Публикация...',
 'LBL_PUBLISHED' => 'Опубликовано',
 'LBL_SELECT_FILE' => 'Выбрать файл',
 'LBL_SUBPANELS' => 'Субпанели',

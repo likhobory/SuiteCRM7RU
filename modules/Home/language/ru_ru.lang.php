@@ -94,10 +94,10 @@ $mod_strings = array(
 'Charts' => 'Графики',
 'Tools' => 'Сервис',
 'Miscellaneous' => 'Разное') ,
-'LBL_ADDING_DASHLET' => 'Добавление дашлета ...',
+'LBL_ADDING_DASHLET' => 'Добавление дашлета...',
 'LBL_ADDED_DASHLET' => 'Дашлет добавлен',
 'LBL_REMOVE_DASHLET_CONFIRM' => 'Вы действительно хотите удалить этот дашлет?',
-'LBL_REMOVING_DASHLET' => 'Удаление дашлета ...',
+'LBL_REMOVING_DASHLET' => 'Удаление дашлета...',
 'LBL_REMOVED_DASHLET' => 'Дашлет удалён',
 'LBL_DASHLET_CONFIGURE_GENERAL' => 'Основные настройки',
 'LBL_DASHLET_CONFIGURE_FILTERS' => 'Фильтры',
@@ -200,5 +200,31 @@ $mod_strings = array(
 'LBL_ABOUT_SUITE_5' => 'Поддержка SuiteCRM осуществляется как на бесплатной, так и на платной основе',
 
 'LBL_SUITE_PARTNERS' => 'С полным списком наших партнёров, активно поддерживающих проекты с открытым исходным кодом, вы можете ознакомиться на нашем сайте',
+
+'LBL_SAVE_BUTTON' => 'Сохранить',
+'LBL_DELETE_BUTTON' => 'Удалить',
+'LBL_APPLY_BUTTON' => 'Применить',
+'LBL_SEND_INVITES' => 'Сохранить и отправить приглашения',
+'LBL_CANCEL_BUTTON' => 'Отказаться',
+'LBL_CLOSE_BUTTON' => 'Закрыть',
+
+'LBL_CREATE_NEW_RECORD' => 'Назначить мероприятие',
+'LBL_CREATE_CALL' => 'Назначить звонок',
+'LBL_CREATE_MEETING' => 'Назначить встречу',
+
+'LBL_GENERAL_TAB' => 'Основное',
+'LBL_PARTICIPANTS_TAB' => 'Участники',
+'LBL_REPEAT_TAB' => 'Повторы',
+	
+'LBL_REPEAT_TYPE' => 'Повторять',
+'LBL_REPEAT_INTERVAL' => 'Каждые',
+'LBL_REPEAT_END' => 'Прекратить',
+'LBL_REPEAT_END_AFTER' => 'после',
+'LBL_REPEAT_OCCURRENCES' => 'повторов',
+'LBL_REPEAT_END_BY' => '',
+'LBL_REPEAT_DOW' => 'Дни повторов',
+'LBL_REPEAT_UNTIL' => 'Повторять до',
+'LBL_REPEAT_COUNT' => 'Число повторов',
+'LBL_REPEAT_LIMIT_ERROR' => 'Вы пытаетесь создать более $limit встреч.',
 
 );

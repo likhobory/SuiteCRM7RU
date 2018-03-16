@@ -40,11 +40,7 @@ $mod_strings = array(
 'DEFAULT_SYSTEM_SETTINGS' => 'Пользовательский интерфейс' ,
 'DEFAULT_THEME' => 'Стандартная тема' ,
 'DEFAULT_TIME_FORMAT' => 'Формат времени по умолчанию' ,
-/*'DISABLE_EXPORT' => 'Disable export',*/
 'DISPLAY_RESPONSE_TIME' => 'Отображать время ответа сервера' ,
-/*'EXPORT' => 'Export',
-'EXPORT_CHARSET' => 'Кодировка по умолчанию',
-'EXPORT_DELIMITER' => 'Export Delimiter',*/
 'IMAGES' => 'Логотип' ,
 'LBL_ALLOW_USER_TABS' => 'Разрешить пользователям скрывать закладки',
 'LBL_CONFIGURE_SETTINGS_TITLE' => 'Настройка конфигурации' ,
@@ -149,7 +145,7 @@ $mod_strings = array(
 'LBL_LDAP_GROUP_NAME' => 'Название группы:',
 'LBL_LDAP_GROUP_NAME_DESC' => 'Пример: <em>cn=suitecrm</em>',
 'LBL_LDAP_USER_DN_DESC' => 'Пример: <em>ou=people,dc=example,dc=com</eM>',
-'LBL_LDAP_AUTO_CREATE_USERS_DESC' => 'Если аутентифицированный пользователь не существует в базе SuiteCRM, то он будет создан.',
+'LBL_LDAP_AUTO_CREATE_USERS_DESC' => 'Если прошедший аутентификацию пользователь не существует в базе SuiteCRM, то он будет создан.',
 'LBL_LDAP_ENC_KEY' => 'Ключ шифрования:',
 'DEVELOPER_MODE' => 'Режим разработчика',
 
@@ -159,6 +155,7 @@ $mod_strings = array(
 
 'LBL_LDAP_ENC_KEY_DESC' => 'Для SOAP-аутентификации при использовании LDAP.',
 'LDAP_ENC_KEY_NO_FUNC_DESC' => 'Расширение php_mcrypt должно быть включено в файле php.ini или же php должен быть скомпилирован с указанием соответствующего ключа.',
+'LDAP_ENC_KEY_NO_FUNC_OPENSSL_DESC' => 'Расширение openssl должно быть включено в файле php.ini.',
 'LBL_ALL' => 'Показать все',
 'LBL_MARK_POINT' => 'Установить контрольную точку',
 'LBL_NEXT_' => 'Далее>>',

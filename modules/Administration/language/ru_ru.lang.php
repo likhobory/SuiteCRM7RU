@@ -107,7 +107,6 @@ $mod_strings = array(
 'ERR_UW_REMOVE_FAILED' => 'Невозможно удалить файл',
 'ERR_UW_UPDATE_CONFIG' => 'Ошибка при добавлении в файл config.php информации о новой версии.',
 'ERR_UW_UPLOAD_ERROR' => 'Ошибка загрузки файла, пожалуйста, попробуйте ещё раз!<br>\n',
-'ERROR_FLAVOR_INCOMPATIBLE' => 'Загруженный файл не совместим с установленной версией SuiteCRM: ' ,
 
 'ERROR_MANIFEST_TYPE' => 'В файле манифеста должен быть указан тип пакета.' ,
 'ERROR_PACKAGE_TYPE' => 'В файле манифеста указан неизвестный тип пакета' ,
@@ -317,7 +316,7 @@ $mod_strings = array(
 'LBL_LOCALE_NAME_FORMAT_DESC' => '"s" Приветствие<br>"f" Имя<br>"l" Фамилия',
 'LBL_LOCALE_TITLE' => 'Управление региональными настройками',
 'LBL_LOCALE' => 'Установка региональных настроек',
-'LBL_MAILBOX_DESC' => 'Настройка учётных записей для обработки поступающих обращений' ,
+'LBL_MAILBOX_DESC' => 'Настройка учётных записей для обработки входящей почты' ,
 'LBL_MAILBOX_OUTBOUND_DESC' => 'Настройка учётных записей исходящей почты',
 'LBL_MANAGE_CURRENCIES' => 'Валюта' ,
 'LBL_MANAGE_LANGUAGES' => 'Языковые пакеты',
@@ -334,7 +333,7 @@ $mod_strings = array(
 'LBL_MANAGE_USERS_TITLE' => 'Управление пользователями' ,
 'LBL_MANAGE_USERS' => 'Управление пользователями (настройки и пароли)' ,
 
-'LBL_MASS_EMAIL_CONFIG_DESC' => 'Настройка параметров электронной почты' ,
+'LBL_MASS_EMAIL_CONFIG_DESC' => 'Настройка основных параметров электронной почты' ,
 'LBL_MASS_EMAIL_CONFIG_TITLE' => 'Настройка E-mail' ,
 'LBL_MASS_EMAIL_MANAGER_DESC' => 'Управление очерёдностью рассылки исходящей почты' ,
 'LBL_MASS_EMAIL_MANAGER_TITLE' => 'Управление очередью E-mail' ,
@@ -390,6 +389,7 @@ $mod_strings = array(
 'LBL_PASSWORD_EDIT_TEMPLATE' => 'Изменить',
 'LBL_PASSWORD_GENERATE_TEMPLATE_MSG' => 'Шаблон письма, содержащий автоматически сгенерированный пароль',
 'LBL_PASSWORD_LOST_TEMPLATE_MSG' => 'Шаблон письма, содержащий автоматически сгенерированную ссылку сброса пароля',
+'LBL_TWO_FACTOR_AUTH_EMAIL_TPL' => 'Шаблон письма, содержащий код для двухфакторной аутентификации',
 'LBL_PASSWORD_SYST_GENERATED_PWD_ON' => 'Включить автоматическое создание паролей',
 'LBL_PASSWORD_SYST_GENERATED_PWD_HELP' => 'Когда данная опция включена, пользователям будет высылаться письмо, содержащее автоматически сгенерированную ссылку. Открыв данную ссылку пользователь попадёт на страницу, где сможет ввести новое значение пароля. Для работы этой опции необходимо следующее: 1) В настройках E-mail должен быть корректно настроен сервер исходящей почты.<br>2) Учётные записи пользователей должны содержать корректную информацию об их электронных адресах.',
 'LBL_PASSWORD_EXP_AFTER' => 'Пароль недействителен после',
@@ -516,8 +516,6 @@ $mod_strings = array(
 'LBL_SUGAR_SCHEDULER_TITLE' => 'Планировщик' ,
 'LBL_SUGAR_SCHEDULER' => 'Настройка плановых заданий' ,
 'LBL_SUGAR_UPDATE_TITLE' => 'Обновление SuiteCRM' ,
-'LBL_SUGARCRM_HELP' => 'Справка по SuiteCRM ',
-'LBL_SUPPORT_TITLE' => 'SuiteCRM  - портал технической поддержки' ,
 'LBL_SYSTEM_NAME' => 'Название системы',
 'LBL_TERMS_AND_CONDITIONS' => 'Условия соглашения',
 'LBL_THEME_SETTINGS' => 'Темы',
@@ -618,7 +616,7 @@ $mod_strings = array(
 'LBL_QUICK_REPAIR_AND_REBUILD_DESC' => 'Синхронизация таблиц с Vardefs, очистка кэша, восстановление таблиц аудита, расширений, дашлетов' ,
 'LBL_ALL_MODULES' => 'Все модули',
 'LBL_CAMPAIGN_CONFIG_TITLE' => 'Параметры рассылки E-mail',
-'LBL_CAMPAIGN_CONFIG_DESC' => 'Настройка параметров рассылки E-mail.',
+'LBL_CAMPAIGN_CONFIG_DESC' => 'Настройка параметров почтовых рассылок',
 'LBL_REPAIR_ORACLE_FULLTEXT' => 'Rebuild fulltext indices', ///
 'LBL_REPAIR_ORACLE_FULLTEXT_DESC' => 'Triggers a rebuild of fulltext indices. Oracle 9i owners should run this frequently.', ///
 'LBL_REPAIR' => 'Восстановить',
@@ -771,6 +769,8 @@ $mod_strings = array(
 // OAuth
 'LBL_OAUTH_TITLE' => 'Ключи OAuth',
 'LBL_OAUTH' => 'Управление ключами OAuth',
+'LBL_OAUTH2_CLIENTS_TITLE' => 'OAuth2-клиенты и токены',
+'LBL_OAUTH2_CLIENTS' => 'Управление клиентскими приложениями, осуществляющими авторизацию через OAuth2-сервер; просмотр журнала сессии, отзыв активных сессий',
 
 
     //Sprites Support
@@ -894,25 +894,38 @@ $mod_strings = array(
 'LBL_CONFIG_SECURITYGROUPS_TITLE' => 'Управление Группами пользователей',
 'LBL_CONFIG_SECURITYGROUPS' => 'Настройка Групп пользователей',
 
-'LBL_BUSINESS_HOURS' => 'Настройка графика работы огранизации',
+'LBL_BUSINESS_HOURS' => 'Настройка графика работы организации',
 'LBL_BUSINESS_HOURS_DESC' => 'Настройка графика работы организации',
 'LBL_BUSINESS_HOURS_FROM' => 'с',
 'LBL_BUSINESS_HOURS_TO' => 'до',
-'LBL_BUSINESS_HOURS_OPEN' => "Открыто",
+'LBL_BUSINESS_HOURS_OPEN' => 'Открыто',
 
 'LBL_LIST_SYMBOL' => 'Символ валюты',
 'LBL_LIST_RATE' => 'Курс обмена',
 
-'LBL_SYNC_MESSAGE' => "Идёт синхронизация учётной записи входящей почты. Процесс может занять несколько минут. Переход на другую страницу не остановит процесс синхронизации, поэтому вы можете либо покинуть данную страницу, либо дождаться сообщения об окончании процесса синхронизации...",
+'LBL_SYNC_MESSAGE' => 'Идёт синхронизация учётной записи входящей почты. Процесс может занять несколько минут. Переход на другую страницу не остановит процесс синхронизации, поэтому вы можете либо покинуть данную страницу, либо дождаться сообщения об окончании процесса синхронизации...',
 'LBL_SYNC_PROCESSING' => "Обработка учётной записи: '%s'...",
-'LBL_SYNC_ERROR_CONN' => "Нет соединения с почтовым сервером",
+'LBL_SYNC_ERROR_CONN' => 'Нет соединения с почтовым сервером',
 'LBL_SYNC_UPDATED' => "Обновлено записей: %d",
-'LBL_SYNC_DONE' => "Обработка учётных записей входящей почты завершена.",
-'LBL_SYNC_ERROR_FOUND' => "IMAP: обнаружены ошибки. Подробности см. в файле suitecrm.log",
-'LBL_SYNC_ALERT_FOUND' => "IMAP: обнаружены предупреждения. Подробности см. в файле suitecrm.log",
-'LBL_SYNC_NO_EMAIL' => "Нет импортированных писем, связанных с учётной записью входящей почты",
-'LBL_PROCESS_OUTPUT_CLEANUP_ERROR' => "Ошибка очистки файла, проверьте права доступа.",
-'LBL_PROCESS_OUTPUT_WRITE_ERROR' => "Ошибка записи в файл, проверьте права доступа.",
-'LBL_IE_NOT_FOUND' => "Ошибка: Неверная учётная запись входящей почты",
+'LBL_SYNC_DONE' => 'Обработка учётных записей входящей почты завершена.',
+'LBL_SYNC_ERROR_FOUND' => 'IMAP: обнаружены ошибки. Подробности см. в файле suitecrm.log',
+'LBL_SYNC_ALERT_FOUND' => 'IMAP: обнаружены предупреждения. Подробности см. в файле suitecrm.log',
+'LBL_SYNC_NO_EMAIL' => 'Нет импортированных писем, связанных с учётной записью входящей почты',
+'LBL_PROCESS_OUTPUT_CLEANUP_ERROR' => 'Ошибка очистки файла, проверьте права доступа.',
+'LBL_PROCESS_OUTPUT_WRITE_ERROR' => 'Ошибка записи в файл, проверьте права доступа.',
+'LBL_IE_NOT_FOUND' => 'Ошибка: Неверная учётная запись входящей почты',
 
+'LBL_PWDSEC_SETS' => 'Параметры безопасности пароля',
+'LBL_PWDSEC_MIN_LENGTH' => 'Минимальная длина пароля',
+'LBL_PWDSEC_MIN_LENGTH_DESC' => 'Минимальное количество символов, из которых должен состоять пароль',
+'LBL_PWDSEC_UPPERCASE' => 'Пароль должен содержать символы в верхнем регистре',
+'LBL_PWDSEC_UPPERCASE_DESC' => 'Пароль должен содержать символы в верхнем регистре',
+'LBL_PWDSEC_LOWERCASE' => 'Пароль должен содержать символы в нижнем регистре',
+'LBL_PWDSEC_LOWERCASE_DESC' => 'Пароль должен содержать символы в нижнем регистре',
+'LBL_PWDSEC_NUMBERS' => 'Пароль должен содержать цифры',
+'LBL_PWDSEC_NUMBERS_DESC' => 'Пароль должен содержать цифры',
+'LBL_PWDSEC_SPECCHAR' => 'Пароль должен содержать специальные символы',
+'LBL_PWDSEC_SPECCHAR_DESC' => 'Пароль должен содержать специальные символы',
+'LBL_PWDSEC_CHARS' => 'символов',
+	
 );

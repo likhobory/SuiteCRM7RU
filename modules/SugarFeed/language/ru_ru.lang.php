@@ -79,6 +79,7 @@ $mod_strings = array(
 'LBL_TIME_MINUTE' => 'минуту',
 'LBL_TIME_SECONDS' => 'сек.',
 'LBL_TIME_SECOND' => 'секунду',
+'LBL_TIME_AND' => 'и',
 'LBL_TIME_AGO' => 'назад',
 
 'CREATED_CONTACT' => 'создал(а) <b>НОВЫЙ</b> контакт',
