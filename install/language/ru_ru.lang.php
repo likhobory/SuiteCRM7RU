@@ -418,7 +418,7 @@ $mod_strings = array(
 $config_site_url
 
 После входа в систему рекомендуется сменить указанный пароль на новый.',
-'name' => 'System-generated password email1',
+'name' => 'System-generated password email',
 ),
 'advanced_password_forgot_password_email' => array(
 'subject' => 'SuiteCRM - сброс пароля пользователя',
