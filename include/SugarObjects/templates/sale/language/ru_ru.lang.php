@@ -68,7 +68,7 @@ $mod_strings = array(
 
 
 'LBL_CONTACTS_SUBPANEL_TITLE' => 'Контакты' ,
-'LBL_ASSIGNED_TO_NAME' => 'Пользователь5: ' ,
+'LBL_ASSIGNED_TO_NAME' => 'Пользователь: ' ,
 'LBL_LIST_ASSIGNED_TO_NAME' => 'Ответственный(ая)',
 'LBL_ASSIGNED_TO_ID' => 'Ответственный(ая)-ID',
 'LBL_MODIFIED_NAME' => 'Изменено',

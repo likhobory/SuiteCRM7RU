@@ -71,6 +71,7 @@ $mod_strings = array(
 'LBL_CATEGORIES' => 'Контролируемые модули:',
 'LBL_TIME_LAST_WEEK' => 'на прошлой неделе',
 'LBL_TIME_WEEKS' => 'нед.',
+'LBL_TIME_DAY' => 'день',
 'LBL_TIME_DAYS' => 'дн.',
 'LBL_TIME_YESTERDAY' => 'вчера',
 'LBL_TIME_HOURS' => 'час.',

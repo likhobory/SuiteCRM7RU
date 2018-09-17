@@ -62,6 +62,9 @@ $mod_strings = array(
   'LBL_VALUE_TYPE' => 'Тип',
   'LBL_VALUE' => 'Значение',
   'LBL_ORDER' => 'Сортировка',
+  'LBL_CONDITION_OPERATOR' => 'Условный оператор',
   'LBL_AOR_REPORT_ID' => 'ID Отчёта',
   'LBL_PARAMETER' => 'Изменяемый параметр',///'Параметр',////
+  'LBL_CONDITION_AND' => 'И',
+  'LBL_CONDITION_OR' => 'ИЛИ',
 );

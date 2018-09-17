@@ -376,6 +376,8 @@ You can re-order the modules by dragging their rows in the table.<br/><br/>
 'LBL_SUBPANEL' => 'Субпанель',
 'LBL_SUBPANEL_TITLE' => 'Надпись:',
 'LBL_SEARCH_FORMS' => 'Фильтры',
+'LBL_SEARCH' => 'Найти',
+'LBL_SEARCH_BUTTON' => 'Найти',
 'LBL_FILTER' => 'Фильтры',
 'LBL_TOOLBOX' => 'ИНСТРУМЕНТАРИЙ',
 'LBL_QUICKCREATE' => 'Форма быстрого ввода',

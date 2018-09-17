@@ -1,4 +1,4 @@
-<?php
+LBL_LDAP_USER_DN_DESC<?php
 /*********************************************************************************
 
 * This program is free software; you can redistribute it and/or modify it under
@@ -144,7 +144,7 @@ $mod_strings = array(
 'LBL_LDAP_SERVER_PORT_DESC' => 'Пример: 389 или 636 при включении SSL',
 'LBL_LDAP_GROUP_NAME' => 'Название группы:',
 'LBL_LDAP_GROUP_NAME_DESC' => 'Пример: <em>cn=suitecrm</em>',
-'LBL_LDAP_USER_DN_DESC' => 'Пример: <em>ou=people,dc=example,dc=com</eM>',
+'LBL_LDAP_USER_DN_DESC' => 'Пример: <em>ou=people,dc=example,dc=com</em>',
 'LBL_LDAP_AUTO_CREATE_USERS_DESC' => 'Если прошедший аутентификацию пользователь не существует в базе SuiteCRM, то он будет создан.',
 'LBL_LDAP_ENC_KEY' => 'Ключ шифрования:',
 'DEVELOPER_MODE' => 'Режим разработчика',

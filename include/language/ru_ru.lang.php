@@ -1239,6 +1239,8 @@ $app_strings = array(
 	'LBL_EMAIL_REMOVE_SMTP_WARNING' => 'Внимание! Удаляемые настройки сервера исходящей почты связаны с существующей учётной записью. Все равно продолжить?',
 	'LBL_EMAIL_ADDRESSES' => 'Адреса E-mail',
     'LBL_EMAIL_ADDRESS_PRIMARY' => 'Адрес Email',
+	'LBL_EMAIL_ADDRESS_OPT_IN' => 'Следующий E-mail успешно подтверждён: ',
+    'LBL_EMAIL_ADDRESS_OPT_IN_ERR' => 'Невозможно подтвердить E-mail',
 	'LBL_EMAIL_ARCHIVE_TO_SUGAR' => 'Импорт в SuiteCRM',
     'LBL_EMAIL_ASSIGNMENT' => 'Назначение',
     'LBL_EMAIL_ATTACH_FILE_TO_EMAIL' => 'Добавить вложение',
@@ -1319,8 +1321,23 @@ $app_strings = array(
     'LBL_EMAIL_ERROR_VIEW_RAW_SOURCE' => 'Информация недоступна',
     'LBL_EMAIL_ERROR_NO_OUTBOUND' => 'Не указан сервер исходящей почты.',
     'LBL_EMAIL_ERROR_SENDING' => 'Ошибка при отправке письма. Свяжитесь с администратором системы.',
-	'LBL_EMAIL_FOLDERS' => SugarThemeRegistry::current()->getImage('icon_email_folder', 'align=absmiddle border=0', null, null, '.gif', '').' Папки',
-    'LBL_EMAIL_FOLDERS_SHORT' => SugarThemeRegistry::current()->getImage('icon_email_folder', 'align=absmiddle border=0', null, null, '.gif', ''),
+	
+    'LBL_EMAIL_FOLDERS' => SugarThemeRegistry::current()->getImage(
+        'icon_email_folder',
+        'align=absmiddle border=0',
+        null,
+        null,
+        '.gif',
+        ''
+        ) . 'Папки',
+    'LBL_EMAIL_FOLDERS_SHORT' => SugarThemeRegistry::current()->getImage(
+        'icon_email_folder',
+        'align=absmiddle border=0',
+        null,
+        null,
+        '.gif',
+        ''
+    ),
 
 	'LBL_EMAIL_FOLDERS_ADD' => 'Добавить',
 	'LBL_EMAIL_FOLDERS_ADD_DIALOG_TITLE' => 'Добавить новую папку',
@@ -1400,12 +1417,12 @@ $app_strings = array(
 	'LBL_EMAIL_PRIMARY' => 'Основной ',
 	'LBL_EMAIL_PRINT' => 'Печать',
 
-	'LBL_EMAIL_QC_BUGS' => 'Ошибка',
+	'LBL_EMAIL_QC_BUGS' => 'Ошибку',
 	'LBL_EMAIL_QC_CASES' => 'Обращение',
 	'LBL_EMAIL_QC_LEADS' => 'Предв. контакт',
 	'LBL_EMAIL_QC_CONTACTS' => 'Контакт',
-	'LBL_EMAIL_QC_TASKS' => 'Задача',
-    'LBL_EMAIL_QC_OPPORTUNITIES' => 'Сделка',
+	'LBL_EMAIL_QC_TASKS' => 'Задачу',
+    'LBL_EMAIL_QC_OPPORTUNITIES' => 'Сделку',
 	'LBL_EMAIL_QUICK_CREATE' => 'Быстрое создание',
 
 	'LBL_EMAIL_REBUILDING_FOLDERS' => 'Перестройка дерева папок',
@@ -1430,8 +1447,22 @@ $app_strings = array(
     'LBL_EMAIL_DRAFT_SAVED' => 'Сообщение сохранено в папке с черновиками.',
 	
 
-	'LBL_EMAIL_SEARCH' => SugarThemeRegistry::current()->getImage('Search', 'align=absmiddle border=0', null, null, '.gif', '').' Поиск',
-    'LBL_EMAIL_SEARCH_SHORT' => SugarThemeRegistry::current()->getImage('Search', 'align=absmiddle border=0', null, null, '.gif', ''),
+    'LBL_EMAIL_SEARCH' => SugarThemeRegistry::current()->getImage(
+        'Search',
+        'align=absmiddle border=0',
+        null,
+        null,
+        '.gif',
+        ''
+    ),
+    'LBL_EMAIL_SEARCH_SHORT' => SugarThemeRegistry::current()->getImage(
+        'Search',
+        'align=absmiddle border=0',
+        null,
+        null,
+        '.gif',
+        ''
+    ),
 
 	'LBL_EMAIL_SEARCH_DATE_FROM' => 'Дата С',
 	'LBL_EMAIL_SEARCH_DATE_UNTIL' => 'Дата По',
@@ -1573,6 +1604,7 @@ $app_strings = array(
     'LBL_ASSIGNED_TO' => 'Ответственный(ая): ' ,
     'LBL_BACK' => 'Назад' ,
     'LBL_BILLING_ADDRESS' => 'Расчётный адрес',
+	'LBL_QUICK_CREATE' => 'Создать: ',
     'LBL_BROWSER_TITLE' => 'SuiteCRM' ,
     'LBL_BUGS' => 'Ошибки' ,
     'LBL_BY' => 'для' ,
@@ -2104,10 +2136,10 @@ $app_strings = array(
 
 
     //jc:#12287 - For javascript validation messages
-    'MSG_IS_NOT_BEFORE' => 'is not before',
-	'MSG_IS_MORE_THAN' => 'is more than',
-	'MSG_SHOULD_BE' => 'should be',
-	'MSG_OR_GREATER' => 'or greater',
+    'MSG_IS_NOT_BEFORE' => 'больше даты окончания:',
+	'MSG_IS_MORE_THAN' => 'больше чем',
+	'MSG_SHOULD_BE' => 'должно быть равно',
+	'MSG_OR_GREATER' => 'или более',
 
     'LBL_LIST' => 'List',
 
@@ -2310,6 +2342,7 @@ $app_strings = array(
     'LBL_CONFIRM_OPT_IN_DATE' => 'Дата подтверждения подписки',
     'LBL_CONFIRM_OPT_IN_SENT_DATE' => 'Дата отправки письма для подтверждения подписки',
 	'LBL_CONFIRM_OPT_IN_FAIL_DATE' => 'Дата неудачной попытки отправки письма для подтверждения подписки',
+	'LBL_CONFIRM_OPT_IN_TOKEN' => 'Токен подтверждения подписки',
     'ERR_OPT_IN_TPL_NOT_SET' => 'Не указан шаблон письма для подтверждения подписки. Выберите необходимый шаблон в параметрах E-mail панели администрирования.',
     'ERR_OPT_IN_RELATION_INCORRECT' => 'Для осуществления подписки должен быть указан E-mail, связанный с соответствующим Контрагентом/Контактом/Предварительным контактом/Адресатом',
 	
@@ -2318,6 +2351,8 @@ $app_strings = array(
 	
 	'LBL_CONFIRM_DISREGARD_DRAFT_TITLE' => 'Удаление сообщения',
 	'LBL_CONFIRM_DISREGARD_DRAFT_BODY' => 'Сообщение будет удалено, продолжить?',
+    'LBL_CONFIRM_DISREGARD_EMAIL_TITLE' => 'Закрытие сообщения',
+    'LBL_CONFIRM_DISREGARD_EMAIL_BODY' => 'После закрытия сообщения вся введённая в него информация будет утеряна, продолжить?',
 	'LBL_CONFIRM_APPLY_EMAIL_TEMPLATE_TITLE' => 'Применение шаблона',
 	'LBL_CONFIRM_APPLY_EMAIL_TEMPLATE_BODY' => 'Тема и содержимое письма будут заменены данными из шаблона. Продолжить?',
 	
@@ -2347,6 +2382,29 @@ $app_list_strings['project_priority_options'] = array(
     'Low' => 'Низкий',
 );
 
+//GDPR lawful basis options
+$app_list_strings['lawful_basis_dom'] = array(
+    '' => '',
+    'consent' => 'Согласие',
+    'contract' => 'Договор',
+    'legal_obligation' => 'Юр. обязательство',
+    'protection_of_interest' => 'Защита интересов',
+    'public_interest' => 'Общественный интерес',
+    'legitimate_interest' => 'Законный интерес',
+    'withdrawn' => 'Отсутствует',
+);
+//End GDPR lawful basis options
+
+//GDPR lawful basis source options
+$app_list_strings['lawful_basis_source_dom'] = array(
+    '' => '',
+    'website' => 'Веб-сайт',
+    'phone' => 'Телефонный звонок',
+    'given_to_user' => 'Указывается пользователем',
+    'email' => 'E-mail',
+    'third_party' => 'Третья сторона',
+);
+//End GDPR lawful basis source options
 
 $app_list_strings['countries_dom'] = array(
 		'' => '' ,
@@ -3690,23 +3748,6 @@ $app_list_strings['marker_image_list']['highway'] = 'Шоссе';
 $app_list_strings['marker_image_list']['power_substation'] = 'Электрическая подстанция';
 $app_list_strings['marker_image_list']['power_plant'] = 'Электростанция';
 $app_list_strings['marker_image_list']['justice'] = 'Юстиция';
-$app_list_strings['marker_image_list']['days_dim'] = 'Dim(Вс)';
-$app_list_strings['marker_image_list']['days_dom'] = 'Dom(Вс)';
-$app_list_strings['marker_image_list']['days_jeu'] = 'Jeu(Чт)';
-$app_list_strings['marker_image_list']['days_jue'] = 'Jue(Чт)';
-$app_list_strings['marker_image_list']['days_lun'] = 'Lun(Пн)';
-$app_list_strings['marker_image_list']['days_mar'] = 'Mar(Вт)';
-$app_list_strings['marker_image_list']['days_mer'] = 'Mer(Ср)';
-$app_list_strings['marker_image_list']['days_mie'] = 'Mie(Ср)';
-$app_list_strings['marker_image_list']['days_qua'] = 'Qua(Ср)';
-$app_list_strings['marker_image_list']['days_qui'] = 'Qui(Чт)';
-$app_list_strings['marker_image_list']['days_sab'] = 'Sab(Сб)';
-$app_list_strings['marker_image_list']['days_sam'] = 'Sam(Сб)';
-$app_list_strings['marker_image_list']['days_seg'] = 'Seg(Пн)';
-$app_list_strings['marker_image_list']['days_sex'] = 'Sex(Пт)';
-$app_list_strings['marker_image_list']['days_ter'] = 'Ter(Вт)';
-$app_list_strings['marker_image_list']['days_ven'] = 'Ven(Пт)';
-$app_list_strings['marker_image_list']['days_vie'] = 'Vie(Пт)';
 $app_list_strings['marker_image_list']['wifi'] = 'Wi-Fi';
 
 //Reschedule
@@ -3738,13 +3779,6 @@ $app_strings['LBL_PANEL_SOCIAL_FEED'] = 'Подробности';
 
 $app_strings['LBL_SUBPANEL_FILTER_LABEL'] = 'Фильтр';
 
-$app_strings['LBL_QUICK_ACCOUNT'] = 'Создать контрагента';
-$app_strings['LBL_QUICK_CONTACT'] = 'Создать контакт';
-$app_strings['LBL_QUICK_OPPORTUNITY'] = 'Создать сделку';
-$app_strings['LBL_QUICK_LEAD'] = 'Создать предварит. контакт';
-$app_strings['LBL_QUICK_DOCUMENT'] = 'Создать документ';
-$app_strings['LBL_QUICK_CALL'] = 'Назначить звонок';
-$app_strings['LBL_QUICK_TASK'] = 'Создать задачу';
 $app_strings['LBL_COLLECTION_TYPE'] = 'Модуль';
 
 $app_strings['LBL_ADD_TAB'] = 'Добавить страницу';
@@ -3895,3 +3929,20 @@ $app_list_strings['oauth2_duration_units'] = [
     'week' => 'нед.',
     'month' => 'мес.',
 ];
+
+
+
+$app_strings['LBL_DEFAULT_API_ERROR_TITLE'] = 'JSON API Error'; ////--> сообщения API не переводим
+$app_strings['LBL_DEFAULT_API_ERROR_DETAIL'] = 'JSON API Error occured.';
+$app_strings['LBL_API_EXCEPTION_DETAIL'] = 'Api Version: 8';
+$app_strings['LBL_BAD_REQUEST_EXCEPTION_DETAIL'] = 'Please ensure you fill in the fields required';
+$app_strings['LBL_EMPTY_BODY_EXCEPTION_DETAIL'] = 'Json API expects body of the request to be JSON';
+$app_strings['LBL_INVALID_JSON_API_REQUEST_EXCEPTION_DETAIL'] = 'Unable to validate the Json Api Payload Request';
+$app_strings['LBL_INVALID_JSON_API_RESPONSE_EXCEPTION_DETAIL'] = 'Unable to validate the Json Api Payload Response';
+$app_strings['LBL_MODULE_NOT_FOUND_EXCEPTION_DETAIL'] = 'Json API cannot find resource';
+$app_strings['LBL_NOT_ACCEPTABLE_EXCEPTION_DETAIL'] = 'Json API expects the "Accept" header to be application/vnd.api+json';
+$app_strings['LBL_UNSUPPORTED_MEDIA_TYPE_EXCEPTION_DETAIL'] = 'Json API expects the "Content-Type" header to be application/vnd.api+json'; ////<--
+
+$app_strings['MSG_BROWSER_NOTIFICATIONS_ENABLED'] = 'Уведомления ВКЛЮЧЕНЫ для данного браузера.';
+$app_strings['MSG_BROWSER_NOTIFICATIONS_DISABLED'] = 'Уведомления ОТКЛЮЧЕНЫ для данного браузера. Используйте настройки браузера для их включения.';
+$app_strings['MSG_BROWSER_NOTIFICATIONS_UNSUPPORTED'] = 'Данный браузер не поддерживает всплывающие уведомления.';

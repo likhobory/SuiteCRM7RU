@@ -168,7 +168,7 @@ $mod_strings = array(
   'LBL_SCHEDULING_FORM_TITLE' => 'Участники',
   'LBL_REMOVE' => 'удал.',
   'LBL_VIEW_DETAIL' => 'Детали проекта',
-  'LBL_OVERRIDE_BUSINESS_HOURS' => 'Учитывать все рабочие дни',
+  'LBL_OVERRIDE_BUSINESS_HOURS' => 'Учитывать график работы',
 
   'LBL_PROJECTS_SEARCH' => 'Проекты',
   'LBL_USERS_SEARCH' => 'Пользователи',

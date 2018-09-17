@@ -243,6 +243,7 @@ $mod_strings = array(
 'LBL_ASSIGNED_TO' => 'Ответственный(ая): ' ,
 'LBL_MEMBER_OF' => 'Родитель' ,
 'LBL_QUICK_CREATE' => 'Быстрое создание' ,
+'LBL_CREATE' => 'Создать',
 'LBL_STATUS' => 'Статус письма:' ,
 'LBL_EMAIL_FLAGGED' => 'Помеченные:',
 'LBL_EMAIL_REPLY_TO_STATUS' => 'Статус ответа:',
@@ -347,6 +348,10 @@ $mod_strings = array(
 'LBL_EMAIL_DRAFT_DELETED' => 'Сообщение удалено',
 'LBL_EMAIL_DRAFT_ERROR_DELETING' => 'В процессе удаления сообщения произошла ошибка.',
 
+'LBL_QUICK_CREATE_SUCCESS1' => 'Новая запись успешно создана.',
+'LBL_QUICK_CREATE_SUCCESS2' => 'Нажмите на кнопку <b>OK</b> для просмотра созданной записи.',
+'LBL_QUICK_CREATE_SUCCESS3' => 'Нажмите на кнопку <b>Отказаться</b> для возврата к письму.',
+
 'LBL_CONFIRM_APPLY_EMAIL_TEMPLATE_TITLE' => 'Применение шаблона',
 'LBL_CONFIRM_APPLY_EMAIL_TEMPLATE_BODY' => 'Тема и содержимое письма будут заменены данными из шаблона. Продолжить?',
 
@@ -364,7 +369,8 @@ $mod_strings = array(
 'LBL_MARK_UNFLAGGED' => 'Пометить как ОБЫЧНОЕ',
 'LBL_CONFIRM_OPT_IN_SENT_DATE' => 'Дата отправки письма для подтверждения подписки',
 'LBL_CONFIRM_OPT_IN_FAIL_DATE' => 'Дата неудачной попытки отправки письма для подтверждения подписки',
-
+'LBL_CONFIRM_OPT_IN_TOKEN' => 'Токен подтверждения подписки',
+	
 'ERR_NO_RETURN_ID' => 'Вложение не обнаружено.',
 
 'LBL_LIST_DATE_MODIFIED' => 'Дата изменения',

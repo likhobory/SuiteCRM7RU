@@ -80,4 +80,11 @@ $mod_strings = array(
 
 'LBL_EDIT_BUTTON' => 'Править',
 'LBL_REMOVE' => 'Удалить',
+
+    //Lawful Basis labels
+    'LBL_LAWFUL_BASIS' => 'Правовое основание для обработки данных',
+    'LBL_DATE_REVIEWED' => 'Дата подтверждения правового основания',
+    'LBL_LAWFUL_BASIS_SOURCE' => 'Источник правового основания',
+    'LBL_CONSENT' => 'Согласие',
+    //End Lawful Basis labels
 );

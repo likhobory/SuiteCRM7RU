@@ -108,7 +108,7 @@ $mod_strings = array(
 
 'LBL_EDIT_TASK_PROPERTIES' => 'Настройка параметров',
 
-'LBL_OVERRIDE_BUSINESS_HOURS' => 'Учитывать все рабочие дни',
+'LBL_OVERRIDE_BUSINESS_HOURS' => 'Учитывать график работы',
 'LBL_COPY_ALL_TASKS' => 'Копировать все проектные задачи',
 'LBL_COPY_SEL_TASKS' => 'Копировать выбранные проектные задачи',
 'LBL_TOOLTIP_TITLE' => 'Подсказка',

@@ -184,7 +184,7 @@ $mod_strings = array(
 
 'LBL_CONTRIBUTOR_SUITECRM' => 'Бесплатная альтернатива SugarCRM Professional Edition с открытым исходным кодом    <br>
         <hr><h2>
-        <a href="https://github.com/likhobory/SuiteCRM7RU/blob/master/DOCS/Russian_Rapira_Application_Guide_for_SuiteCRM.pdf?raw=true" target="_blank">Скачать русифицированное Руководство пользователя и администратора SuiteCRM</a></h2>',
+        <a href="https://suitecrm.com/suitecrm/forum/suitecrm-forum-russian-general-discussion/17907-suitecrm#60470" target="_blank">Русифицированное Руководство пользователя и администратора SuiteCRM</a></h2>',
 'LBL_CONTRIBUTOR_SECURITY_SUITE' => 'SecuritySuite by Jason Eggers',
 'LBL_CONTRIBUTOR_JJW_GMAPS' => 'JJWDesign Google Maps by Jeffrey J. Walters',
 'LBL_CONTRIBUTOR_CONSCIOUS' => 'SuiteCRM LOGO Provided by Conscious Solutions',
@@ -227,4 +227,17 @@ $mod_strings = array(
 'LBL_REPEAT_COUNT' => 'Число повторов',
 'LBL_REPEAT_LIMIT_ERROR' => 'Вы пытаетесь создать более $limit встреч.',
 
+//Events
+'LNK_EVENT' => 'Событие',
+'LNK_EVENT_VIEW' => 'Просмотр события',
+'LBL_DATE' => 'Начальные дата и время: ',
+'LBL_DURATION' => 'Продолжительность: ',
+'LBL_NAME' => 'Название: ',
+'LBL_HOUR_ABBREV' => 'час.',
+'LBL_HOURS_ABBREV' => 'час.',
+'LBL_MINSS_ABBREV' => 'мин.',
+'LBL_LOCATION' => 'Место: ',
+'LBL_STATUS' => 'Статус: ',
+'LBL_DESCRIPTION' => 'Описание: ',
+//End Events
 );

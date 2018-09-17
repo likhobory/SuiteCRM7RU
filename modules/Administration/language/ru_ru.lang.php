@@ -67,7 +67,7 @@ $mod_strings = array(
 'LBL_MONDAY' => 'Понедельник',
 'LBL_TUESDAY' => 'Вторник',
 'LBL_WEDNESDAY' => 'Среда',
-'LBL_THURSDAY' => 'Черверг',
+'LBL_THURSDAY' => 'Четверг',
 'LBL_FRIDAY' => 'Пятница',
 'LBL_SATURDAY' => 'Суббота',
 'LBL_SUNDAY' => 'Воскресенье',
@@ -210,7 +210,8 @@ $mod_strings = array(
 'LBL_DIAGNOSTIC_MYSQLDUMPS' => 'Дамп таблиц с данными о конфигурации системы',
 'LBL_DIAGNOSTIC_MYSQLINFO' => 'Основная информация',
 'LBL_DIAGNOSTIC_MYSQLSCHEMA' => 'Структура таблиц',
-'LBL_DIAGNOSTIC_PHPINFO' => 'phpinfo()',
+'LBL_DIAGNOSTIC_NO_MYSQL' => 'БД MySQL не установлена.',
+'LBL_DIAGNOSTIC_PHPINFO' => 'Результат выполнения phpinfo()',
 'LBL_DIAGNOSTIC_SUGARLOG' => 'Получение содержимого файла журнала',
 'LBL_DIAGNOSTIC_TITLE' => 'Диагностика' ,
 'LBL_DIAGNOSTIC_VARDEFS' => 'Структура таблиц на основе VARDEFS',
@@ -492,7 +493,7 @@ $mod_strings = array(
 'LBL_REPAIR_INDEX_ALTERING' => '<BR>Изменение ограничений/индексов.',
 'LBL_REPAIR_INDEX_ALTER' => '<BR><BR>Изменить ограничения/индексы.',
 'LBL_REPAIR_INDEX_SYNC' => '<BR><BR><BR> Индексы восстановлены.',
-'LBL_REPAIR_ROLES_DESC' => 'Восстановление ролей путём добавления новых модулей, поддерживающих контроль доступа, а так же путём добавления контроля доступа к уже существующим модулям',
+'LBL_REPAIR_ROLES_DESC' => 'Добавление контроля доступа как к новым, так и к уже существующим модулям',
 'LBL_REPAIR_ROLES' => 'Восстановление ролей',
 'LBL_REPAIR_XSS' => 'Удаление XSS',
 'LBL_REPAIR_ACTIVITIES_DESC' => 'Восстановление мероприятий (звонков, встреч) и дат',
@@ -834,7 +835,7 @@ $mod_strings = array(
 'LBL_SUGGESTION_POPUP_FROM' => 'Варианты решений обращения, градиент, цвет 1:',
 'LBL_SUGGESTION_POPUP_TO' => 'Варианты решений обращения, градиент, цвет 2:',
 
-'LBL_SALESAGILITY_ADMIN' => 'OpenAdmin',
+'LBL_SALESAGILITY_ADMIN' => 'Разное',
 'LBL_AOP_ADMIN_MANAGE_AOP' => 'Настройки портала',
 'LBL_AOP_ENABLE_AOP' => 'Включить настройки портала',
 'LBL_AOP_ENABLE_PORTAL' => 'Включить внешний портал',
@@ -927,5 +928,5 @@ $mod_strings = array(
 'LBL_PWDSEC_SPECCHAR' => 'Пароль должен содержать специальные символы',
 'LBL_PWDSEC_SPECCHAR_DESC' => 'Пароль должен содержать специальные символы',
 'LBL_PWDSEC_CHARS' => 'символов',
-	
+
 );
