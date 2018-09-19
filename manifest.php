@@ -16,7 +16,7 @@ $manifest = array(
 		  array('CE'),
 	'author' => 'likhobory',
     'version' => '7.10.8',
-	'published_date' => '2017/09/17',
+	'published_date' => '2018/09/17',
       );
 
 $installdefs = array(
