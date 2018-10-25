@@ -71,7 +71,7 @@ Russian RAPIRA language pack and manual for SuiteCRM
 [Описание пользовательского интерфейса][ui], знакомящий с основными настройками системы. В описании присутствует масса перекрёстных ссылок, позволяющих быстро перейти к подробному описанию рассматриваемого функционала.
 
             
-[langpack]: https://github.com/likhobory/SuiteCRM7RU/blob/ver.7.10/rapira-suite_pack_russian-7.10.zip?raw=true
+[langpack]: https://github.com/likhobory/SuiteCRM7RU/blob/ver.7.10.10/rapira-suite_pack_russian-7.10.zip?raw=true
 [man-adoc]: https://github.com/likhobory/SuiteDocs/blob/master/README.ru.adoc
 [man-ru]: https://docs.suitecrm.com/ru
 [getting-started]: https://docs.suitecrm.com/ru/user/introduction/getting-started
