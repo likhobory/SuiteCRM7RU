@@ -94,7 +94,7 @@ $mod_strings = array(
 'ERR_DELETE_RECORD' => 'Перед удалением вы должны указать запись.',
 'LBL_LIST_EMPLOYEE_STATUS' => 'Статус сотрудника',
 
-'LBL_SUGAR_LOGIN' => 'Пользователь системы',
+'LBL_SUITE_LOGIN' => 'Пользователь системы',
 'LBL_RECEIVE_NOTIFICATIONS' => 'Уведомлять при назначении',
 'LBL_IS_ADMIN' => 'Администратор',
 'LBL_GROUP' => 'Групповой пользователь',

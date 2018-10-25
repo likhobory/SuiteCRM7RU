@@ -221,6 +221,7 @@ $mod_strings = array(
 'LBL_MODULE_TITLE' => 'Сотрудники - ГЛАВНАЯ' ,
 'LBL_NAME' => 'Полное имя' ,
 'LBL_SIGNATURE_NAME' => 'Название',
+'LBL_NAVIGATION_PARADIGM_DESCRIPTION' => 'Группировать модули на основной панели согласно предустановленным настройкам. Группы настраиваются Администратором системы.',
 'LBL_USE_GROUP_TABS' => 'Сгруппированные модули',
 'LBL_NEW_FORM_TITLE' => 'Новый пользователь' ,
 'LBL_NEW_PASSWORD' => 'Новый пароль:' ,
@@ -306,7 +307,7 @@ $mod_strings = array(
 'LBL_SORT_MODULES_DESCRIPTION' => 'Отображать отсортированный перечень модулей в выпадающем меню.',
 'LBL_COUNT_COLLAPSED_SUBPANELS' => 'Выделять свёрнутые субпанели, если они содержат записи',
 'LBL_COUNT_COLLAPSED_SUBPANELS_DESCRIPTION' => 'Свёрнутые субпанели будут выделяться различным цветом и индикатором в зависимости от того, содержат они записи или нет.',
-'LBL_SUGAR_LOGIN' => 'Пользователь SuiteCRM',
+'LBL_SUITE_LOGIN' => 'Пользователь SuiteCRM',
 'LBL_THEME' => 'Темы' ,
 'LBL_TIME_FORMAT_TEXT' => 'Установите формат отображения времени' ,
 'LBL_TIME_FORMAT' => 'Формат времени' ,
@@ -419,7 +420,7 @@ $mod_strings = array(
 'LBL_WIZARD_FINISH16' => 'Просмотр базы знаний', ///
 'LBL_WIZARD_FINISH17' => 'Советы от службы технической поддержки', ///
 'LBL_WIZARD_FINISH18' => 'Форум',
-'LBL_WIZARD_FINISH19' => 'Англоязычный форум. Русскоязычные пользователи могут задать вопрос в <a href="https://suitecrm.com/suitecrm/forum/suitecrm-forum-russian-general-discussion" target="_blank">этой</a> теме.',
+'LBL_WIZARD_FINISH19' => 'Англоязычный форум. Русскоязычные пользователи могут задать вопрос в <a href="https://suitecrm.com/suitecrm/forum/suitecrm-forum-russian-general-discussion" target="_blank">этом</a> разделе.',
 'LBL_WIZARD_FINISH2DESC' => 'Переход на ГЛАВНУЮ страницу системы.',
 'LBL_WIZARD_PERSONALINFO' => 'Информация о сотруднике',
 'LBL_WIZARD_LOCALE' => 'Региональные стандарты',

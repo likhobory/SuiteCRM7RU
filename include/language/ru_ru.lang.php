@@ -1206,7 +1206,7 @@ $app_strings = array(
 
 	'LBL_ROUTING_TO' => 'to',   ///
 	'LBL_ROUTING_TO_ADDRESS' => 'to address',  ///
-	'LBL_ROUTING_WITH_TEMPLATE' => 'with template',  /// <-
+	'LBL_ROUTING_WITH_TEMPLATE' => 'with template',  ///
 
     'NTC_OVERWRITE_ADDRESS_PHONE_CONFIRM' => 'Поля с адресными и телефонными данными текущего контрагента уже содержат значения. Для перезаписи существующих данных данными выбранного контрагента нажмите кнопку "OK". Для сохранения текущих значений нажмите кнопку "Отмена".',
 
@@ -1241,7 +1241,7 @@ $app_strings = array(
     'LBL_EMAIL_ADDRESS_PRIMARY' => 'Адрес Email',
 	'LBL_EMAIL_ADDRESS_OPT_IN' => 'Следующий E-mail успешно подтверждён: ',
     'LBL_EMAIL_ADDRESS_OPT_IN_ERR' => 'Невозможно подтвердить E-mail',
-	'LBL_EMAIL_ARCHIVE_TO_SUGAR' => 'Импорт в SuiteCRM',
+	'LBL_EMAIL_ARCHIVE_TO_SUITE' => 'Импорт в SuiteCRM',
     'LBL_EMAIL_ASSIGNMENT' => 'Назначение',
     'LBL_EMAIL_ATTACH_FILE_TO_EMAIL' => 'Добавить вложение',
 	'LBL_EMAIL_ATTACHMENT' => 'Вложения',
@@ -1273,8 +1273,8 @@ $app_strings = array(
 	'LBL_EMAIL_SENT_SUCCESS' => 'Письмо отправлено',
     
 	'LBL_EMAIL_CREATE_NEW' => '--Create On Save--',    ///
-    'LBL_EMAIL_MULT_GROUP_FOLDER_ACCOUNTS' => 'Multiple',
-    'LBL_EMAIL_MULT_GROUP_FOLDER_ACCOUNTS_EMPTY' => 'Empty',
+    'LBL_EMAIL_MULT_GROUP_FOLDER_ACCOUNTS' => 'Мультивыбор',
+    'LBL_EMAIL_MULT_GROUP_FOLDER_ACCOUNTS_EMPTY' => 'Пусто',
 	'LBL_EMAIL_DATE_SENT_BY_SENDER' => 'Отправлено',
     'LBL_EMAIL_DATE_TODAY' => 'Сегодня',
 	'LBL_EMAIL_DELETE' => 'Удалить',
@@ -1517,7 +1517,7 @@ $app_strings = array(
 	'LBL_EMAIL_SPACER_LOCAL_FOLDER' => '[ Папки SuiteCRM ]',
 	'LBL_EMAIL_SUBJECT' => 'Тема',
 	'LBL_EMAIL_SUCCESS' => 'Готово',
-	'LBL_EMAIL_SUGAR_FOLDER' => 'Папка SuiteCRM',
+	'LBL_EMAIL_SUITE_FOLDER' => 'Папка SuiteCRM',
 
 
     'LBL_EMAIL_TEMPLATE_EDIT_PLAIN_TEXT' => 'Шаблон письма пуст',
@@ -1979,7 +1979,7 @@ $app_strings = array(
 	'LBL_SAVED_VIEWS' => 'Сохранённые условия',
     'LBL_PROCESSING_REQUEST' => 'Выполняется...',
     'LBL_REQUEST_PROCESSED' => 'Готово',
-    'LBL_AJAX_FAILURE' => 'Ajax failure',
+    'LBL_AJAX_FAILURE' => 'Ошибка Ajax',
 
     'LBL_MERGE_DUPLICATES' => 'Объединить',
     'LBL_SAVED_FILTER_SHORTCUT' => 'Мои фильтры',
@@ -2141,9 +2141,9 @@ $app_strings = array(
 	'MSG_SHOULD_BE' => 'должно быть равно',
 	'MSG_OR_GREATER' => 'или более',
 
-    'LBL_LIST' => 'List',
+    'LBL_LIST' => '',
 
-    'LBL_CREATE_BUG' => 'Create Bug',
+    'LBL_CREATE_BUG' => 'Новая ошибка',
     
 
 
@@ -2160,7 +2160,7 @@ $app_strings = array(
 
 
     //jchi #	20776
-    'LBL_DROPDOWN_LIST_ALL' => 'All',
+    'LBL_DROPDOWN_LIST_ALL' => 'Все',
     
 
 	//Connector
@@ -2173,9 +2173,9 @@ $app_strings = array(
     
   
     //Collection Field
-	'LBL_COLLECTION_NAME' => 'Name', ///
-	'LBL_COLLECTION_PRIMARY' => 'Primary', ///
-	'ERROR_MISSING_COLLECTION_SELECTION' => 'Empty required field', ///
+	'LBL_COLLECTION_NAME' => 'Название',
+	'LBL_COLLECTION_PRIMARY' => 'Основное',
+	'ERROR_MISSING_COLLECTION_SELECTION' => 'Обязательное поле не заполнено',
 	
 
   //MB -Fixed Bug #32812 -Max
@@ -2346,7 +2346,7 @@ $app_strings = array(
     'ERR_OPT_IN_TPL_NOT_SET' => 'Не указан шаблон письма для подтверждения подписки. Выберите необходимый шаблон в параметрах E-mail панели администрирования.',
     'ERR_OPT_IN_RELATION_INCORRECT' => 'Для осуществления подписки должен быть указан E-mail, связанный с соответствующим Контрагентом/Контактом/Предварительным контактом/Адресатом',
 	
-	'LBL_SECURITYGROUP_NONINHERITABLE' => 'Не наследуемая группа',
+	'LBL_SECURITYGROUP_NONINHERITABLE' => 'Ненаследуемая группа',
     'LBL_PRIMARY_GROUP' => 'Основная группа',
 	
 	'LBL_CONFIRM_DISREGARD_DRAFT_TITLE' => 'Удаление сообщения',

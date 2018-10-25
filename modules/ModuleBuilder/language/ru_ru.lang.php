@@ -329,7 +329,7 @@ You can re-order the modules by dragging their rows in the table.<br/><br/>
 'LBL_STUDIO' => 'Студия',
 'LBL_DROPDOWNEDITOR' => 'Редактор комбобоксов',
 'LBL_DEVELOPER_TOOLS' => 'Инструментарий разработчика',
-'LBL_SUGARPORTAL' => 'Редактор портала', ///
+'LBL_SUITEPORTAL' => 'Редактор портала', ///
 'LBL_PACKAGE_LIST' => 'Список пакетов',
 'LBL_HOME' => 'SuiteCRM',
 'LBL_NONE' => '-Нет-',
@@ -576,7 +576,7 @@ You can re-order the modules by dragging their rows in the table.<br/><br/>
 'LBL_MODULE_DEPLOYED' => 'Модуль был успешно установлен.',
 'LBL_UNDEFINED' => 'не определено',
 'LBL_EC_VIEWS' => 'Пользовательские формы',
-'LBL_EC_SUGARFEEDS' => 'Пользовательская лента событий',
+'LBL_EC_SUITEFEEDS' => 'Пользовательская лента событий',
 'LBL_EC_DASHLETS' => 'Пользовательские дашлеты',
 'LBL_EC_CSS' => 'Пользовательские файлы css',
 'LBL_EC_TPLS' => 'Пользовательские файлы tpls',

@@ -190,9 +190,9 @@ $mod_strings = array(
 'LBL_IMPORT_MAX_RECORDS_HELP' => 'Укажите максимально допустимое количество строк в импортируемом файле.<br>Если количество импортируемых строк будет превышать указанное здесь значение, то будет выдано соответствующее предупреждение.<br>Если значение оставить пустым, то разрешается импорт неограниченного количества строк.',
 'vCAL_HELP' => 'Используйте этот параметр для указания количества месяцев, в течение которых возможна публикация данных о занятости (звонки и встречи) из календаря.<BR>При включённой публикации допустимы значения от 1 до 12 месяцев. Для выключения возможности публикации введите "0".',
 'LBL_PDFMODULE_NAME' => 'PDF Settings', ///->
-'SUGARPDF_BASIC_SETTINGS' => 'Document Properties',
-'SUGARPDF_ADVANCED_SETTINGS' => 'Advanced Settings',
-'SUGARPDF_LOGO_SETTINGS' => 'Images',
+'SUITEPDF_BASIC_SETTINGS' => 'Document Properties',
+'SUITEPDF_ADVANCED_SETTINGS' => 'Advanced Settings',
+'SUITEPDF_LOGO_SETTINGS' => 'Images',
 
 
 'PDF_AUTHOR' => 'Author',

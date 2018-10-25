@@ -57,7 +57,7 @@ $mod_strings = array(
 'LBL_SEARCH_FORM_TITLE' => 'Поиск шаблонов E-mail' ,
 'LBL_SHOW_ALT_TEXT' => 'Показ альтернативного текста' ,
 'LBL_SUBJECT' => 'Тема:' ,
-'LBL_SUGAR_DOCUMENT' => 'Документ',
+'LBL_SUITE_DOCUMENT' => 'Документ',
 'LBL_TEXT_BODY' => 'Текст' ,
 'LBL_USERS' => 'Пользователи',
 
