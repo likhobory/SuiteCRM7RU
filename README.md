@@ -22,6 +22,7 @@ Russian RAPIRA language pack and manual for SuiteCRM
 Добавлена возможность отображать функционал указанной субпанели в виде отдельных кнопок.
 
 Ссылки на описание нововведений доступны на [официальном форуме](https://suitecrm.com/suitecrm/forum/suitecrm-forum-russian-general-discussion/17973-suitecrm#60692)
+
 ------------------------------------------------
 
 <b>Русский язык в SuiteCRM: установка языкового пакета</b>
