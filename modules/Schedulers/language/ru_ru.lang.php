@@ -46,6 +46,7 @@ $mod_strings = array(
 'LBL_OOTB_SEND_EMAIL_REMINDERS' => 'Отправлять напоминания о мероприятиях по E-mail',
 'LBL_OOTB_CLEANUP_QUEUE' => 'Очищать очередь заданий',
 'LBL_OOTB_REMOVE_DOCUMENTS_FROM_FS' => 'Удалять неиспользуемые файлы из системы',
+'LBL_OOTB_GOOGLE_CAL_SYNC' => 'Синхронизировать с календарём Google',
 
 // List Labels
 'LBL_LIST_JOB_INTERVAL' => 'Периодичность:' ,
@@ -105,7 +106,7 @@ $mod_strings = array(
 'LBL_TIME_TO' => 'Задание активно до' ,
 'LBL_WARN_CURL_TITLE' => 'cURL предупреждение:' ,
 'LBL_WARN_CURL' => 'Предупреждение:' ,
-'LBL_WARN_NO_CURL' => 'Эта система не имеет cURL-библиотеку, доступную/откомпилированную в PHP-модуле (--with-curl=/path/to/curl_library). Пожалуйста, свяжитесь с Вашим администратором, чтобы решить этот вопрос. Без cURL-функциональности, планировщик не может выполнить необходимые действия.' ,
+'LBL_WARN_NO_CURL' => 'Эта система не имеет cURL-библиотеку, доступную/скомпилированную в PHP-модуле (--with-curl=/path/to/curl_library). Пожалуйста, свяжитесь с вашим администратором, чтобы решить этот вопрос. Без cURL-функциональности, планировщик не может выполнить необходимые действия.' ,
 'LBL_BASIC_OPTIONS' => 'Основные параметры' ,
 'LBL_ADV_OPTIONS' => 'Дополнительные параметры' ,
 'LBL_TOGGLE_ADV' => 'Показать дополнительные параметры' ,
@@ -148,5 +149,9 @@ $mod_strings = array(
 'LBL_AORRUNSCHEDULEDREPORTS' => 'Создавать отчёты по расписанию',
 'LBL_PROCESSAOW_WORKFLOW' => 'Выполнять настроенные процессы', 
 
+'LBL_RUNELASTICSEARCHINDEXERSCHEDULER' => 'Elasticsearch-индексация',
+
 'LBL_SCHEDULER_TIMES' => 'Расписание планировщика',
+'LBL_SYNCGOOGLECALENDAR' => 'Синхронизировать с календарём Google',
+
 );

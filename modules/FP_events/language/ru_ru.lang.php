@@ -115,4 +115,8 @@ $mod_strings = array(
      
 	'LBL_ACTIVITY_STATUS' => 'Статус активности',
 	'LBL_FP_EVENT_LOCATIONS_FP_EVENTS_1_FROM_FP_EVENTS_TITLE' => 'Места',
+	// Email links
+    'LBL_ACCEPT_LINK' => 'Принять',
+    'LBL_DECLINE_LINK' => 'Отклонить',
+	
   );

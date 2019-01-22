@@ -68,7 +68,7 @@ $mod_strings = array(
 'LBL_CONTACT_NAME' => 'Контакт:' ,
 'LBL_CONTACTS_SUBPANEL_TITLE' => 'Контакты' ,
 'LBL_CREATED_BY' => 'Кем создано:' ,
-'LBL_DATE_SENT' => 'Дата отправки:' ,
+'LBL_DATE_SENT_RECEIVED' => 'Дата отправки/получения:' ,
 'LBL_DATE' => 'Дата отправки:' ,
 'LBL_DELETE_FROM_SERVER' => 'Удалить сообщение с сервера',
 'LBL_DESCRIPTION' => 'Описание' ,
@@ -150,8 +150,8 @@ $mod_strings = array(
 
 'LBL_LIST_ASSIGNED' => 'Назначено' ,
 'LBL_LIST_CONTACT_NAME' => 'Контактное лицо' ,
-'LBL_LIST_DATE_SENT' => 'Дата отправки' ,
 'LBL_LIST_DATE' => 'Дата отправки' ,
+'LBL_LIST_DATE_SENT_RECEIVED' => 'Дата отправки/получения' ,
 'LBL_LIST_FORM_DRAFTS_TITLE' => 'Набросок' ,
 'LBL_LIST_FORM_SENT_TITLE' => 'Отправленные E-mail' ,
 'LBL_LIST_FORM_TITLE' => 'Список E-mail' ,
@@ -375,4 +375,29 @@ $mod_strings = array(
 
 'LBL_LIST_DATE_MODIFIED' => 'Дата изменения',
 'LNK_IMPORT_CAMPAIGNS' => 'Импорт маркет. кампании',
+
+// Email Validation Error messages. Typicaly for Email Validation:
+'ERR_FIELD_FROM_IS_NOT_SET' => 'Не заполнено поле отправителя.',
+'ERR_FIELD_FROM_IS_EMPTY' => 'Пустое поле отправителя.',
+'ERR_FIELD_FROM_IS_INVALID' => 'Неверно заполненное поле отправителя.',
+'ERR_FIELD_FROM_ADDR_IS_NOT_SET' => 'Не указан адрес отправителя.',
+'ERR_FIELD_FROM_ADDR_IS_EMPTY' => 'Пустой адрес отправителя.',
+'ERR_FIELD_FROM_ADDR_IS_INVALID' => 'Неверный адрес отправителя.',
+'ERR_FIELD_FROMNAME_IS_NOT_SET' => 'Не указан адрес отправителя.',
+'ERR_FIELD_FROMNAME_IS_EMPTY' => 'Пустой адрес отправителя.',
+'ERR_FIELD_FROMNAME_IS_INVALID' => 'Неверный адрес отправителя.',
+'ERR_FIELD_FROM_NAME_IS_NOT_SET' => 'Не указан адрес отправителя.',
+'ERR_FIELD_FROM_NAME_IS_EMPTY' => 'Пустой адрес отправителя.',
+'ERR_FIELD_FROM_NAME_IS_INVALID' => 'Неверный адрес отправителя.',
+'ERR_FIELD_FROM_ADDR_NAME_IS_NOT_SET' => 'Не указана пара имя/адрес отправителя.',
+'ERR_FIELD_FROM_ADDR_NAME_IS_EMPTY' => 'Пустая пара имя/адрес отправителя.',
+'ERR_FIELD_FROM_ADDR_NAME_IS_INVALID' => 'Неверная пара имя/адрес отправителя.',
+'ERR_FIELD_FROM_ADDR_NAME_DOESNT_MATCH_REGEX' => 'Пара имя/адрес отправителя указана в неверном формате, используйте следующий формат: "ПочтовыйЯщикОтправителя@ДоменноеИмяПочтовогоСервера <Имя отправителя>".',
+'ERR_FIELD_FROM_ADDR_NAME_INVALID_NAME_PART' => 'Неверное имя в паре имя/адрес отправителя.',
+'ERR_FIELD_FROM_ADDR_NAME_INVALID_EMAIL_PART' => 'Неверный адрес в паре имя/адрес отправителя.',
+'ERR_FIELD_FROM_ADDR_NAME_INVALID_EMAIL_PART_TO_FIELD_FROM' => 'Пара имя/адрес отправителя не соответствуют имени или адресу отправителя.',
+'ERR_FIELD_FROM_ADDR_NAME_INVALID_EMAIL_PART_TO_FIELD_FROM_ADDR' => 'Пара имя/адрес отправителя не соответствуют адресу отправителя.',
+'ERR_FIELD_FROM_ADDR_NAME_INVALID_EMAIL_PART_TO_FIELD_FROMNAME' => 'Пара имя/адрес отправителя не соответствуют имени отправителя.',
+'ERR_FIELD_FROM_ADDR_NAME_INVALID_EMAIL_PART_TO_FIELD_FROM_NAME' => 'Пара имя/адрес отправителя не соответствуют имени отправителя.',
+
 );

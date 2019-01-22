@@ -65,6 +65,14 @@ $mod_strings['LBL_MAP_LAST_STATUS'] = 'Статус геокодирования
 $mod_strings['LBL_GEOCODED_COUNTS'] = 'Результаты геокодирования';
 $mod_strings['LBL_CRON_URL'] = 'Cron URL:';
 $mod_strings['LBL_MODULE_HEADING'] = 'Модуль';
+
+$mod_strings['LBL_N/A'] = 'Не доступно';
+$mod_strings['LBL_ZERO_RESULTS'] = 'Нулевой результат';
+$mod_strings['LBL_OK'] = 'Ok';
+$mod_strings['LBL_INVALID_REQUEST'] = 'Неверный запрос';
+$mod_strings['LBL_APPROXIMATE'] = 'Приблизительный результат';
+$mod_strings['LBL_EMPTY'] = 'Пустой результат';
+
 $mod_strings['LBL_MODULE_TOTAL_HEADING'] = 'Всего';
 $mod_strings['LBL_MODULE_RESET_HEADING'] = 'Сбросить';
 $mod_strings['LBL_GEOCODED_COUNTS_DESCRIPTION'] = 'В приведённой таблице показано количество геокодированных записей по модулям, сгруппированных в зависимости от полученных результатов. Помните, что Карты Google накладывают ограничение на определение количества координат, равное 2500 запросам в сутки для одного ip-адреса. Данный модуль кэширует результаты геокодирования для уменьшения количества необходимых запросов.';

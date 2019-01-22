@@ -1163,6 +1163,10 @@ $app_list_strings = array(
 );
 
 $app_strings = array(
+  'LBL_SEARCH_REAULTS_TITLE' => 'Результаты поиска',
+  'ERR_SEARCH_INVALID_QUERY' => 'В процессе выполнения поиска произошла ошибка. Проверьте синтаксис поискового запроса.',
+  'ERR_SEARCH_NO_RESULTS' => 'Не обнаружены результаты, удовлетворяющие критериям поиска.',
+  'LBL_SEARCH_PERFORMED_IN' => 'Поиск выполнен за',
   'LBL_EMAIL_CODE' => 'Код подтверждения:',
   'LBL_SEND' => 'ОТПРАВИТЬ' ,
   'LBL_TOUR_NEXT' => 'Далее',
@@ -2015,7 +2019,7 @@ $app_strings = array(
 	'MSG_LIST_VIEW_CHANGE_SEARCH' => 'либо изменить параметры поиска.',
 	'MSG_EMPTY_LIST_VIEW_NO_RESULTS' => 'Записи не обнаружены. Вы можете либо <item2> новую запись, либо выполнить <item3> записей.',
 
-    'LBL_CLICK_HERE' => 'Нажмите здесь',
+    
 	// contextMenu strings
     'LBL_ADD_TO_FAVORITES' => 'Добавить в Избранное',
     'LBL_CREATE_CONTACT' => 'Создать контакт',
@@ -3322,8 +3326,9 @@ $app_list_strings['approval_status_dom']['Approved'] = 'Утверждено';
 $app_list_strings['approval_status_dom']['Not Approved'] = 'Не утверждено';
 $app_list_strings['approval_status_dom'][''] = '';
 
-$app_list_strings['vat_list']['18.0'] = '18.0%'; //PR #0000
+$app_list_strings['vat_list']['20.0'] = '20.0%';
 $app_list_strings['vat_list']['0.0'] = '0.0%';
+$app_list_strings['vat_list']['18.0'] = '18.0%'; //PR #0000
 $app_list_strings['vat_list']['10.0'] = '10.0%'; //PR #0000
 
 
@@ -3930,7 +3935,10 @@ $app_list_strings['oauth2_duration_units'] = [
     'month' => 'мес.',
 ];
 
-
+$app_list_strings['search_controllers'] = [
+    'Search' => 'Расширенный поиск',
+    'UnifiedSearch' => 'Стандартный поиск'
+];
 
 $app_strings['LBL_DEFAULT_API_ERROR_TITLE'] = 'JSON API Error'; ////--> сообщения API не переводим
 $app_strings['LBL_DEFAULT_API_ERROR_DETAIL'] = 'JSON API Error occured.';
@@ -3946,3 +3954,29 @@ $app_strings['LBL_UNSUPPORTED_MEDIA_TYPE_EXCEPTION_DETAIL'] = 'Json API expects 
 $app_strings['MSG_BROWSER_NOTIFICATIONS_ENABLED'] = 'Уведомления ВКЛЮЧЕНЫ для данного браузера.';
 $app_strings['MSG_BROWSER_NOTIFICATIONS_DISABLED'] = 'Уведомления ОТКЛЮЧЕНЫ для данного браузера. Используйте настройки браузера для их включения.';
 $app_strings['MSG_BROWSER_NOTIFICATIONS_UNSUPPORTED'] = 'Данный браузер не поддерживает всплывающие уведомления.';
+
+$app_strings['LBL_GOOGLE_SYNC_ERR'] = 'Ошибка синхронизации с календарём Google';
+$app_strings['LBL_THERE_WAS_AN_ERR'] = 'Произошла ошибка: ';
+$app_strings['LBL_CLICK_HERE'] = 'Нажмите здесь';
+$app_strings['LBL_TO_CONTINUE'] = ' для продолжения.';
+
+$app_strings['IMAP_HANDLER_ERROR'] = 'ОШИБКА: {error}; использован ключ: "{key}".';
+$app_strings['IMAP_HANDLER_SUCCESS'] = 'OK: тестовые параметры изменены на "{key}".';
+$app_strings['IMAP_HANDLER_ERROR_INVALID_REQUEST'] = 'Неверный запрос, используйте значение "{var}".';
+$app_strings['IMAP_HANDLER_ERROR_UNKNOWN_BY_KEY'] = 'Неизвестная ошибка, ключ "{key}" не сохранён.';
+$app_strings['IMAP_HANDLER_ERROR_NO_TEST_SET'] = 'Не указаны тестовые параметры.';
+$app_strings['IMAP_HANDLER_ERROR_NO_KEY'] = 'Ключ не обнаружен.';
+$app_strings['IMAP_HANDLER_ERROR_KEY_SAVE'] = 'Ошибка сохранения ключа.';
+$app_strings['IMAP_HANDLER_ERROR_UNKNOWN'] = 'Неизвестная ошибка';
+$app_strings['LBL_SEARCH_TITLE']                   = 'Поиск';
+$app_strings['LBL_SEARCH_TEXT_FIELD_TITLE_ATTR']   = 'Введите критерий поиска';
+$app_strings['LBL_SEARCH_SUBMIT_FIELD_TITLE_ATTR'] = 'Найти записи, соответствующие критерию поиска';
+$app_strings['LBL_SEARCH_SUBMIT_FIELD_VALUE']      = 'Найти';
+$app_strings['LBL_SEARCH_QUERY']                   = 'Поисковый запрос: ';
+$app_strings['LBL_SEARCH_RESULTS_PER_PAGE']        = 'Результатов на странице: ';
+$app_strings['LBL_SEARCH_ENGINE']                  = 'Движок: ';
+$app_strings['LBL_SEARCH_TOTAL'] = 'Всего результатов: ';
+$app_strings['LBL_SEARCH_PREV'] = 'Назад';
+$app_strings['LBL_SEARCH_NEXT'] = 'Далее';
+$app_strings['LBL_SEARCH_PAGE'] = 'Страница ';
+$app_strings['LBL_SEARCH_OF'] = ' из ';

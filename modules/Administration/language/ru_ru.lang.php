@@ -756,7 +756,6 @@ $mod_strings = array(
 'LBL_SAML_LOGIN_URL_DESC' => 'Укажите URL для единого входа в приложения',
 'LBL_SAML_LOGOUT_URL_DESC' => 'Укажите URL для единого выхода из приложений',
 
-'LBL_GLOBAL_SEARCH_SETTINGS_TITLE' => 'Выберите модули, в которых будет осуществляться глобальный поиск.',
 'LBL_SELECT_MODULES' => 'Дополнительно',
 'LBL_SELECT_MODULES_TITLE' => 'В модулях, перемещённых в левую колонку, будет осуществлён глобальный поиск. В этой же колонке вы можете сортировать модули для отображения результатов поиска в необходимой вам последовательности.',
 	'LBL_LANGUAGE_PACKS' => 'Языковые пакеты' /*for 508 compliance fix*/,
@@ -793,8 +792,9 @@ $mod_strings = array(
 
 //Suite***************
 
-'LBL_JJWG_MAPS_ADMIN_HEADER' => 'Карты Google',
-'LBL_JJWG_MAPS_ADMIN_DESC' => 'Управление геокодированием, тестирование геокодирования, просмотр результатов геокодирования, настройка параметров карт',
+'LBL_GOOGLE_SUITE_ADMIN_HEADER'               => 'Сервисы Google',
+'LBL_GOOGLE_SUITE_ADMIN_DESC'                 => 'Настройка интеграции с картами Google и с Google Календарь.',
+
 'LBL_JJWG_MAPS_ADMIN_CONFIG_TITLE' => 'Настройка карт Google',
 'LBL_JJWG_MAPS_ADMIN_CONFIG_DESC' => 'Настройка параметров карт Google',
 'LBL_JJWG_MAPS_ADMIN_GEOCODED_COUNTS_TITLE' => 'Результаты геокодирования',
@@ -804,7 +804,14 @@ $mod_strings = array(
 'LBL_JJWG_MAPS_ADMIN_GEOCODING_TEST_TITLE' => 'Тестирование геокодирования',
 'LBL_JJWG_MAPS_ADMIN_GEOCODING_TEST_DESC' => 'Запуск геокодирования введённого адреса с детальным просмотром результатов',
 'LBL_JJWG_MAPS_ADMIN_ADDRESS_CACHE_TITLE' => 'Кэш адресов',
-'LBL_JJWG_MAPS_ADMIN_ADDRESS_CACHE_DESC' => 'Доступ к кэшу геокодированных адресов.',
+'LBL_JJWG_MAPS_ADMIN_ADDRESS_CACHE_DESC' => 'Доступ к кэшу геокодированных адресов',
+
+// Google Calendar
+'LBL_GOOGLE_CALENDAR_SETTINGS_TITLE' => 'Настройка Google Календарь',
+'LBL_GOOGLE_CALENDAR_SETTINGS_DESC' => 'Настройка интеграции с Google Календарь',
+'LBL_GOOGLE_CALENDAR_SETTINGS_JSON' => 'Загрузить файл с учётными данными',
+'LBL_GOOGLE_CALENDAR_SETTINGS_JSON_HELP' => 'Загрузка JSON-файла с учётными данными.',
+'LBL_GOOGLE_CALENDAR_GET_API_KEY' => 'Получить учётные данные',
 
 'LBL_DISPLAY_SIDEBAR' => 'Отображать боковое меню',
 'LBL_COLOUR_ADMIN_PAGEHEADER' => 'Цвет заголовков на странице: ',
@@ -853,7 +860,7 @@ $mod_strings = array(
 'LBL_AOP_JOOMLA_ACCOUNT_CREATION_EMAIL_TEMPLATE' => 'Шаблон письма при создании учётной записи Joomla',
 
 'LBL_AOP_BUSINESS_HOURS_SETTINGS' => 'Рабочие часы',
-'LBL_AOP_BUSINESS_HOURS_DESC' => 'Настройте график работы вашей организации, если при запуске Процессов используется параметр \'Только в рабочее время\'.',
+'LBL_AOP_BUSINESS_HOURS_DESC' => 'Настройте график работы вашей организации, если при запуске Процессов используется параметр \'Только в рабочее время\'',
 'LBL_SUPPORT_FROM_ADDRESS' => 'В качестве адреса отправителя указывать',
 'LBL_SUPPORT_FROM_NAME' => 'В качестве имени отправителя указывать',
 'LBL_CREATE_EMAIL_TEMPLATE' => 'Создать',
@@ -927,4 +934,58 @@ $mod_strings = array(
 'LBL_PWDSEC_SPECCHAR_DESC' => 'Пароль должен содержать специальные символы',
 'LBL_PWDSEC_CHARS' => 'символов',
 
+// SearchWrapper
+'LBL_SEARCH_HEADER' => 'Параметры поиска',
+'LBL_SEARCH_HEADER_DESC' => 'Управление параметрами поиска.',
+'LBL_SEARCH_WRAPPER' => 'Выбор поискового движка',
+'LBL_SEARCH_WRAPPER_DESC' => 'Выбор поисковых систем, при помощи которых будет осуществляться поиск',
+
+// Elasticsearch Settings
+'LBL_ELASTIC_SEARCH' => 'Elasticsearch',
+'LBL_ELASTIC_SEARCH_SETTINGS' => 'Настройка Elasticsearch',
+'LBL_ELASTIC_SEARCH_SETTINGS_DESC' => 'Настройка параметров Elasticsearch',
+'LBL_ELASTIC_SEARCH_SETTINGS_HELP' => 'Для работы Elasticsearch требуется настроенный сервер. Более подробная информация указана в <a href="https://docs.suitecrm.com/ru/admin/administration-panel/search/elasticsearch/set-up-elasticsearch/">документации</a>.',
+'LBL_ELASTIC_SEARCH_GENERAL' => 'Основные настройки',
+'LBL_ELASTIC_SEARCH_ENABLE' => 'Включить Elasticsearch',
+'LBL_ELASTIC_SEARCH_TEST_CONNECTION' => 'Проверить подключение к поисковому серверу',
+'LBL_ELASTIC_SEARCH_TEST_CONNECTION_SUCCESS' => 'Подключение успешно установлено.',
+'LBL_ELASTIC_SEARCH_TEST_CONNECTION_FAIL' => 'Не удалось выполнить подключение.',
+'LBL_ELASTIC_SEARCH_TEST_CONNECTION_ERROR' => 'Не удалось пропинговать сервер.',
+'LBL_ELASTIC_SEARCH_SERVER' => 'Настройки поискового сервера',
+'LBL_ELASTIC_SEARCH_HOST' => 'Адрес',
+'LBL_ELASTIC_SEARCH_USER' => 'Имя пользователя системы',
+'LBL_ELASTIC_SEARCH_PASS' => 'Пароль для входа в систему',
+'LBL_ELASTIC_SEARCH_SCHEDULERS' => 'Задания планировщика, связанные с расширенным поиском (Elasticsearch)',
+'LBL_ELASTIC_SEARCH_SCHEDULERS_HELP' => 'Обнаружены следующие задания:',
+'LBL_ELASTIC_SEARCH_SCHEDULERS_LAST_RUN' => 'последний запуск:',
+'LBL_ELASTIC_SEARCH_SCHEDULERS_NEVER_RUN' => 'Задание ещё не выполнялось',
+'LBL_ELASTIC_SEARCH_SCHEDULERS_NOT_FOUND' => 'Задания не обнаружены. Необходимо создать хотя бы одно задание для выполнения расширенного поиска.',
+'LBL_ELASTIC_SEARCH_SCHEDULERS_DESC' => 'В процессе выполнения задания происходит синхронизация поискового индекса с базой данных.',
+'LBL_ELASTIC_SEARCH_INDEX' => 'Индексация',
+'LBL_ELASTIC_SEARCH_INDEX_SCHEDULE_HELP' => 'Запланировать индексацию:',
+'LBL_ELASTIC_SEARCH_INDEX_SCHEDULE_FULL' => 'Полную',
+'LBL_ELASTIC_SEARCH_INDEX_SCHEDULE_PART' => 'Частичную',
+'LBL_ELASTIC_SEARCH_INDEX_SCHEDULE_FULL_SUCCESS' => 'Запланирована полная индексация, которая начнётся в течение 60 секунд. Результаты поиска могут быть неполными, пока не закончится процесс индексации.',
+'LBL_ELASTIC_SEARCH_INDEX_SCHEDULE_FULL_FAIL' => 'Не удалось запустить полную индексацию.',
+'LBL_ELASTIC_SEARCH_INDEX_SCHEDULE_PART_SUCCESS' => 'Запланирована частичная индексация, которая начнётся в течение 60 секунд.',
+'LBL_ELASTIC_SEARCH_INDEX_SCHEDULE_PART_FAIL' => 'Не удалось запустить частичную индексацию.',
+
+// SearchWrapper Settings
+'LBL_SEARCH_ENGINE' => 'Поисковый движок',
+'LBL_SEARCH_ENGINE_HELP' => 'Выберите поисковый движок, используемый по умолчанию.',
+'LBL_SEARCH_ENGINE_TOOLTIP' => 'Выберите поисковый движок, который будет использоваться в глобальном поиске.',
+
+'LBL_SEARCH_MODULES' => 'Выбор модулей',
+'LBL_SEARCH_MODULES_HELP' => 'Выбор модулей, в которых будет осуществляться поиск',
+
+// Search Engines Translations
+'LBL_LEGACY_SEARCH_ENGINES' => 'Стандартный поисковый движок',
+'LBL_SEARCH_WRAPPER_ENGINES' => 'Обновлённый поисковый движок',
+'LBL_BASIC_SEARCH_ENGINE' => 'Стандартный поиск',
+'LBL_BASIC_AND_AOD_ENGINE' => 'Стандартный поиск + полнотекстовый поиск',
+'LBL_ELASTIC_SEARCH_ENGINE' => 'Расширенный поиск с использованием Elasticsearch',
+'LBL_SIMPLE_SQL_SEARCH_ENGINE' => 'Стандартный поиск',
+
+// Ajax Submit
+'LBL_AJAX_SUBMIT_FAIL' => 'В процессе сохранения настроек произошла ошибка.',
 );

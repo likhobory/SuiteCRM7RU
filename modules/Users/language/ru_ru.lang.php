@@ -742,5 +742,12 @@ $mod_strings = array(
 'ERR_USER_FACTOR_SMTP_REQUIRED' => 'Прежде всего необходимо настроить параметры SMTP-сервера.',
 'ERR_USER_FACTOR_CHANGE_DISABLED' => 'Текущий пользователь не может менять настройки двухфакторной аутентификации.',
 'LNK_IMPORT_CAMPAIGNS' => 'Импорт маркет. кампании',
-   
+// for Google Token/Synchronization settings
+'LBL_GOOGLE_API_SETTINGS' => 'Синхронизация с календарём Google',
+'LBL_GOOGLE_API_TOKEN' => 'Google API-токен',
+'LBL_GOOGLE_API_TOKEN_HELP' => "Настройка доступа SuiteCRM к данным календаря Google. Для синхронизации данных после получения токена отметьте параметр 'Включить синхронизацию с календарём Google'.",
+'LBL_GOOGLE_API_TOKEN_BTN' => 'Получить токен',
+'LBL_GSYNC_CAL' => 'Включить синхронизацию с календарём Google',
+// END Google Token/Synchronization settings
+	
 ); // END STRINGS DEFS

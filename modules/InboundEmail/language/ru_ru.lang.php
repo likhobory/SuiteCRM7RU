@@ -117,7 +117,7 @@ $mod_strings = array(
 'LBL_TEST_WAIT_MESSAGE' => 'Пожалуйста, подождите...' ,
 'LBL_WARN_IMAP_TITLE' => 'IMAP-предупреждение' ,
 'LBL_WARN_IMAP' => 'Предупреждения:' ,
-'LBL_WARN_NO_IMAP' => 'Эта система не имеет IMAP-клиента, откомпилированного в PHP-модуле (--with-imap=/path/to/imap_c-client_library). Пожалуйста, свяжитесь с Вашим администратором для решений этой проблемы.' ,
+'LBL_WARN_NO_IMAP' => 'Эта система не имеет IMAP-клиента, скомпилированного в PHP-модуле (--with-imap=/path/to/imap_c-client_library). Пожалуйста, свяжитесь с вашим администратором для решений этой проблемы.' ,
 
 'LNK_LIST_CREATE_NEW_GROUP' => 'Создать групповую учётную запись',
 'LNK_LIST_CREATE_NEW_BOUNCE' => 'Создать учётную запись для обработки возвращаемой почты',

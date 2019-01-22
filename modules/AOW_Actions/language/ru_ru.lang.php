@@ -75,6 +75,7 @@ $mod_strings = array(
   'LBL_COMPUTEFIELD_ADD_FORMULA' => 'Добавить формулу',
   'LBL_COMPUTEFIELD_VALUE_TYPE' => 'Ключ / Видимое значение',
   'LBL_COMPUTEFIELD_RAW_VALUE' => 'Ключ',
-  'LBL_COMPUTEFIELD_FORMATTED_VALUE' => 'Видимое значение'
+  'LBL_COMPUTEFIELD_FORMATTED_VALUE' => 'Видимое значение',
+  'LBL_COPY_EMAIL_ADDRESSES_WORKFLOW' => 'Копировать Email из контролируемого модуля'
 
 );

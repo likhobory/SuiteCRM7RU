@@ -152,6 +152,10 @@ $mod_strings = array(
     'LBL_REMINDERS_WHEN' => 'Когда:',
     'LBL_REMINDERS_REMOVE_REMINDER' => 'Удалить напоминание',
     'LBL_REMINDERS_ADD_ALL_INVITEES' => 'Добавить ВСЕХ приглашённых',
-    'LBL_REMINDERS_ADD_REMINDER' => 'Добавить напоминание',
+    'LBL_REMINDERS_ADD_REMINDER' => 'Добавить напоминание',   
+    
+     // for google sync
+    'LBL_GSYNC_ID' => 'ID Google-события',
+    'LBL_GSYNC_LASTSYNC' => 'Время последней синхронизации с Google',
 	
 );

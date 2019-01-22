@@ -453,7 +453,6 @@ $mod_strings = array(
 'LBL_CAMPAIGN_CHECKLIST' => 'Проверка параметров маркетинговой кампании',
 
 'LBL_EMAIL_MARKETING' => 'Рассылки E-mail',
-'LBL_EMAIL_SUCCESS' => 'Операция успешно завершена',
 'LBL_QUEUE_ITEMS' => 'Элементы очереди',
 'LBL_PROSPECT_LISTS' => 'Списки адресатов',
 'LBL_SURVEYRESPONSES_CAMPAIGNS_FROM_SURVEYRESPONSES_TITLE' => 'Результаты опроса',

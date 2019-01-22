@@ -36,7 +36,7 @@ $mod_strings = array(
   'LBL_DATE_ENTERED' => 'Дата создания',
   'LBL_DATE_MODIFIED' => 'Дата изменения',
   'LBL_MODIFIED' => 'Изменено',
-  'LBL_MODIFIED_NAME' => 'Изменено (Имя)',
+  'LBL_MODIFIED_NAME' => 'Изменено',
   'LBL_CREATED' => 'Создано',
   'LBL_DESCRIPTION' => 'Описание',
   'LBL_DELETED' => 'Удалён',
@@ -62,8 +62,8 @@ $mod_strings = array(
   'LNK_SPOT_CREATE' => 'Создать сводку',
 
     //Analytics
-    'LBL_AN_CONFIGURATION' => 'Конфигурация',
 
+	'LBL_AN_CONFIGURATION' => 'Конфигурация',
     'LBL_AN_UNSUPPORTED_DB' => 'В данный момент Сводки могут работать только с БД формата MySQL или MS SQL.',
 
     //Analytics labels for accounts pivot
