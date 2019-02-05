@@ -239,5 +239,13 @@ $mod_strings = array(
 'LBL_LOCATION' => 'Место: ',
 'LBL_STATUS' => 'Статус: ',
 'LBL_DESCRIPTION' => 'Описание: ',
+
+'LBL_ELASTIC_SEARCH_EXCEPTION_SEARCH_INVALID_REQUEST' => 'В процессе поиска произошла ошибка. Проверьте синтаксис поискового запроса.',
+'LBL_ELASTIC_SEARCH_EXCEPTION_SEARCH_ENGINE_NOT_FOUND' => 'Поисковый движок не обнаружен. Попробуйте выполнить поиск ещё раз.',
+'LBL_ELASTIC_SEARCH_EXCEPTION_NO_NODES_AVAILABLE' => 'Невозможно подключиться к серверу Elasticsearch.',
+'LBL_ELASTIC_SEARCH_EXCEPTION_SEARCH' => 'В процессе поиска произошла ошибка.',
+'LBL_ELASTIC_SEARCH_EXCEPTION_DEFAULT' => 'В процессе поиска произошла неизвестная ошибка.',
+'LBL_ELASTIC_SEARCH_EXCEPTION_END_MESSAGE' => 'Обратитесь к системному администратору, если не удалось решить проблему. Детальная информация сохранена в логах.'
+
 //End Events
 );

@@ -596,8 +596,8 @@ $mod_strings = array(
 'MSG_CONFIG_FILE_REBUILD_SUCCESS' => 'Файл config.php успешно перестроен.' ,
 'MSG_INCREASE_UPLOAD_MAX_FILESIZE' => 'Предупреждение: Ваша PHP-конфигурация должна быть изменена таким образом, чтобы была возможность загрузки файлов размером не менее 6МБ. Пожалуйста, исправьте значение переменной upload_max_filesize в файле php.ini находящемся в:' ,
 'MSG_MAKE_CONFIG_FILE_WRITABLE' => 'Пожалуйста, сделайте файл config.php доступным для записи и попробуйте ещё раз.' ,
-'MSG_REBUILD_EXTENSIONS' => 'Пожалуйста, перейдите по ссылке "Восстановление" в панели администратора и кликните на ссылке "Восстановление расширений".' ,
-'MSG_REBUILD_RELATIONSHIPS' => 'Пожалуйста, перейдите по ссылке "Восстановление" в панели администратора и кликните на ссылке "Восстановление связей".' ,
+'MSG_REBUILD_EXTENSIONS' => 'Пожалуйста, перейдите по ссылке <a href="index.php?module=Administration&action=Upgrade">Восстановление</a> в панели администратора и кликните на ссылке "Перестройка расширений".' ,
+'MSG_REBUILD_RELATIONSHIPS' => 'Пожалуйста, перейдите по ссылке <a href="index.php?module=Administration&action=Upgrade">Восстановление</a> в панели администратора и кликните на ссылке "Перестройка связей".' ,
 'REMOVE_QUESTION' => 'Вы действительно хотите удалить выбранные пакеты?',
 'WARN_POSSIBLE_JS_OVERWRITE' => 'Осторожно, это приведёт к перезаписи всех изменений, которые вы могли сделать в файлах javascript. Продолжить?',
 'WARN_INSTALLER_LOCKED' => 'Предупреждение: Для сохранения ваших данных инсталлятор должен быть заблокирован. В файле config.php установите переменную  installer_locked в значение "true".' ,
@@ -812,6 +812,7 @@ $mod_strings = array(
 'LBL_GOOGLE_CALENDAR_SETTINGS_JSON' => 'Загрузить файл с учётными данными',
 'LBL_GOOGLE_CALENDAR_SETTINGS_JSON_HELP' => 'Загрузка JSON-файла с учётными данными.',
 'LBL_GOOGLE_CALENDAR_GET_API_KEY' => 'Получить учётные данные',
+'LBL_GOOGLE_CALENDAR_JSON_TEXT' => 'JSON-файл:',
 
 'LBL_DISPLAY_SIDEBAR' => 'Отображать боковое меню',
 'LBL_COLOUR_ADMIN_PAGEHEADER' => 'Цвет заголовков на странице: ',
@@ -971,6 +972,7 @@ $mod_strings = array(
 'LBL_ELASTIC_SEARCH_INDEX_SCHEDULE_PART_FAIL' => 'Не удалось запустить частичную индексацию.',
 
 // SearchWrapper Settings
+'LBL_SEARCH_INTERFACE' => 'Поисковый интерфейс',
 'LBL_SEARCH_ENGINE' => 'Поисковый движок',
 'LBL_SEARCH_ENGINE_HELP' => 'Выберите поисковый движок, используемый по умолчанию.',
 'LBL_SEARCH_ENGINE_TOOLTIP' => 'Выберите поисковый движок, который будет использоваться в глобальном поиске.',

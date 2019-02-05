@@ -745,8 +745,16 @@ $mod_strings = array(
 // for Google Token/Synchronization settings
 'LBL_GOOGLE_API_SETTINGS' => 'Синхронизация с календарём Google',
 'LBL_GOOGLE_API_TOKEN' => 'Google API-токен',
+'LBL_GOOGLE_API_TOKEN_UNCONFIGURED' => 'НЕ НАСТРОЕН',
+'LBL_GOOGLE_API_TOKEN_CONFIGURED' => 'НАСТРОЕН',
+'LBL_GOOGLE_API_TOKEN_DISABLED' => 'ОТКЛЮЧЁН',
+'LBL_GOOGLE_API_TOKEN_INVALID' => 'НЕВЕРНЫЙ КЛЮЧ АВТОРИЗАЦИИ',
 'LBL_GOOGLE_API_TOKEN_HELP' => "Настройка доступа SuiteCRM к данным календаря Google. Для синхронизации данных после получения токена отметьте параметр 'Включить синхронизацию с календарём Google'.",
 'LBL_GOOGLE_API_TOKEN_BTN' => 'Получить токен',
+'LBL_GOOGLE_API_TOKEN_BTN_DISABLED' => 'Отключён',
+'LBL_GOOGLE_API_TOKEN_BTN_REAUTHORIZE' => 'Повторная авторизация',
+'LBL_GOOGLE_API_TOKEN_BTN_AUTHORIZE' => 'Авторизация',
+'LBL_GOOGLE_API_TOKEN_TEXT' => 'Токен доступа',
 'LBL_GSYNC_CAL' => 'Включить синхронизацию с календарём Google',
 // END Google Token/Synchronization settings
 	

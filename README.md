@@ -21,7 +21,7 @@ Russian RAPIRA language pack and manual for SuiteCRM
 	- Добавлен новый функционал в действия: копирование электронных адресов из контролируемого модуля  
 Добавлена возможность отображать функционал указанной субпанели в виде отдельных кнопок.
 
-Ссылки на описание нововведений доступны на [официальном форуме](https://suitecrm.com/suitecrm/forum/suitecrm-forum-russian-general-discussion/17973-suitecrm#60692)
+Ссылки на описание нововведений доступны на [официальном форуме](https://suitecrm.com/suitecrm/forum/suitecrm-forum-russian-general-discussion/17973-suitecrm#60692).
 
 ------------------------------------------------
 
