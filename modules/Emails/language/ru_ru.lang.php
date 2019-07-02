@@ -42,7 +42,7 @@ $mod_strings = array(
 'LBL_IMPORT' => 'Импорт',
 'LBL_LOADING' => 'Загрузка',
 'LBL_MARKING' => 'Установка меток',
-
+'LBL_DELETING' => 'Удаление',
 
 'LBL_CONFIRM_DELETE_EMAIL' => 'Вы действительно хотите удалить это письмо?',
 'LBL_ENTER_FOLDER_NAME' => 'Укажите название папки',
@@ -173,6 +173,7 @@ $mod_strings = array(
 'LBL_BUTTON_FORWARD' => 'Переслать' ,
 'LBL_BUTTON_REPLY_TITLE' => 'Ответить' ,
 'LBL_BUTTON_REPLY_ALL' => 'Ответить всем',
+'LBL_BUTTON_DELETE_IMAP' => 'Удалить с сервера',
 'LBL_CASES_SUBPANEL_TITLE' => 'Обращения' ,
 'LBL_INBOUND_TITLE' => 'Входящие E-mail' ,
 'LBL_INTENT' => 'Цель' ,

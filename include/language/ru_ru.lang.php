@@ -3196,9 +3196,16 @@ $app_list_strings['aor_operator_list']['Ends_With'] = 'Оканчивается 
 
 $app_list_strings['aor_format_options'][''] = '';
 $app_list_strings['aor_format_options']['Y-m-d'] = 'Г-м-д';
+$app_list_strings['aor_format_options']['m-d-Y'] = 'м-д-Г';
+$app_list_strings['aor_format_options']['d-m-Y'] = 'д-м-Г';
+$app_list_strings['aor_format_options']['Y/m/d'] = 'Г/м/д';
+$app_list_strings['aor_format_options']['m/d/Y'] = 'м/д/Г';
+$app_list_strings['aor_format_options']['d/m/Y'] = 'д/м/Г';
+$app_list_strings['aor_format_options']['Y.m.d'] = 'Г.м.д';
+$app_list_strings['aor_format_options']['m.d.Y'] = 'м.д.Г';
+$app_list_strings['aor_format_options']['d.m.Y'] = 'д.м.Г';
 $app_list_strings['aor_format_options']['Ymd'] = 'Гмд';
 $app_list_strings['aor_format_options']['Y-m'] = 'Г-м';
-$app_list_strings['aor_format_options']['d/m/Y'] = 'д/м/Г';
 $app_list_strings['aor_format_options']['Y'] = 'Г';
 
 $app_list_strings['aor_condition_operator_list']['And'] = 'И';
