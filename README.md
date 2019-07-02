@@ -15,7 +15,7 @@ Russian RAPIRA language pack and manual for SuiteCRM
 
 <b>Что нового в SuiteCRM 7.11</b>    (полная история изменений содержится в файле [HISTORY.TXT][history])
 
-Алгоритм хеширования паролей заменён на более [надёжный](https://github.com/salesagility/SuiteCRM/pull/7439).
+Алгоритм хеширования паролей заменён на более [надёжный](https://github.com/salesagility/SuiteCRM/pull/7439).  
 Добавлен новый тип поля 'WYSIWYG', позволяющий использовать встроенный HTML-редактор в любом модуле системы.
 Добавлена возможность обновления системы из командной строки (т.н. Silent Upgrade).
 Добавлена возможность синхронизации Встреч с календарём Google.  
