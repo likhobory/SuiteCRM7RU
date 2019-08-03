@@ -506,6 +506,12 @@ $app_list_strings = array(
     'Prospects' => 'Адресат' ,
     'ProjectTask' => 'Проектная задача' ,
     'Tasks' => 'Задача' ,
+	
+	'AOS_Contracts' => 'Договоры',
+	'AOS_Invoices' => 'Счета',
+	'AOS_Quotes' => 'Предложения',
+    'AOS_Products' => 'Товары',
+    
     
   ),
 
@@ -527,6 +533,11 @@ $app_list_strings = array(
     
 	'Meetings' => 'Встречи' ,
     'Calls' => 'Звонки' ,
+	
+	'AOS_Contracts' => 'Договоры',
+	'AOS_Invoices' => 'Счета',
+	'AOS_Quotes' => 'Предложения',
+    'AOS_Products' => 'Товары',
   ),
 
   'parent_type_display' =>
@@ -544,6 +555,11 @@ $app_list_strings = array(
     'Project' => 'Проекты' ,
     'ProjectTask' => 'Проектные задачи' ,
     'Prospects' => 'Адресаты' ,
+	
+	'AOS_Contracts' => 'Договоры',
+	'AOS_Invoices' => 'Счета',
+	'AOS_Quotes' => 'Предложения',
+    'AOS_Products' => 'Товары',
 
   ),
   'parent_line_items' => array(
