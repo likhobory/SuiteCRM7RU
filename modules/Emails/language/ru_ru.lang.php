@@ -362,7 +362,7 @@ $mod_strings = array(
 'LBL_ORPHANED' => 'Удалено с сервера',
 'LBL_IMAP_KEYWORDS' => 'Ключевые слова',
 'LBL_ERROR_NO_FOLDERS' => 'Ошибка: Папки недоступны. Проверьте параметры E-mail.',
-'LBL_ORIGINAL_MESSAGE_SEPERATOR' => '-----',
+'LBL_ORIGINAL_MESSAGE_SEPARATOR' => '-----',
 
 'LBL_MARK_UNREAD' => 'Пометить как непрочитанное',
 'LBL_MARK_READ' => 'Пометить как прочитанное',

@@ -51,7 +51,6 @@ $mod_strings = array(
 'LNK_NEW_MEETING' => 'Назначить встречу' ,
 'LNK_NEW_TASK' => 'Создать задачу' ,
 'LNK_NEW_BUG' => 'Новая ошибка' ,
-'LBL_ADD_BUSINESSCARD' => 'Ввести визитку' ,
 'LBL_SEARCH_RESULTS' => 'Результат поиска',
 'LNK_NEW_SEND_EMAIL' => 'Формирование E-mail' ,
 'LBL_NO_ACCESS' => 'Доступ к разделу закрыт. Свяжитесь с администратором системы для получения соответствующих прав.',

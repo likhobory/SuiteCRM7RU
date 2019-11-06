@@ -43,6 +43,7 @@ $mod_strings = array(
 
 
 'LBL_EMAIL_DEFAULT_DELETE_ATTACHMENTS' => 'Удалять связанные с удалёнными письмами примечания и вложения',
+'LBL_EMAIL_WARNING_NOTIFICATIONS' => 'Отображать предупреждающие сообщения',
 'LBL_EMAIL_ENABLE_CONFIRM_OPT_IN' => 'Подтверждение подписки',
 'LBL_EMAIL_ENABLE_SEND_OPT_IN' => 'Автоматически отправлять письма при двойном подтверждении подписки',
 'LBL_EMAIL_CONFIRM_OPT_IN_TEMPLATE_ID' => 'Шаблон письма для подтверждения подписки',

@@ -3104,6 +3104,7 @@ $app_list_strings['eapm_list_documents']= array(
     '' => '' ,
     'campaign' => 'Маркетинг' ,
     'email' => 'E-mail',
+	'event' => 'Событие',
   );
 
 $app_list_strings ['emailTemplates_type_list_campaigns'] = array(
@@ -3115,6 +3116,7 @@ $app_list_strings ['emailTemplates_type_list_no_workflow'] = array(
     '' => '' ,
     'campaign' => 'Маркетинг' ,
     'email' => 'E-mail',
+	'event' => 'Событие',
 	'system' => 'Системный',
   );
 

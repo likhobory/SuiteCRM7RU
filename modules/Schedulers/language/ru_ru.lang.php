@@ -138,7 +138,6 @@ $mod_strings = array(
 'LBL_POLLMONITOREDINBOXESFORBOUNCEDCAMPAIGNEMAILS' => 'Запускать ночью проверку почтовых ящиков для возвращаемых писем',
 'LBL_PRUNEDATABASE' => 'Очищать БД первого числа каждого месяца',
 'LBL_TRIMTRACKER' => 'Очищать таблицы трекера',
-'LBL_TRIMSUGARFEEDS'   => 'Очищать ленту событий',
 'LBL_SENDEMAILREMINDERS'=> 'Отправлять по E-mail напоминания о мероприятиях',
 'LBL_CLEANJOBQUEUE' => 'Очищать очередь заданий',
 'LBL_REMOVEDOCUMENTSFROMFS' => 'Удалять неиспользуемые файлы из системы',
