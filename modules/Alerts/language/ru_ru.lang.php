@@ -53,7 +53,7 @@ $mod_strings = array(
   'LBL_HISTORY_SUBPANEL_TITLE' => 'История',
   'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Мероприятия',
   'LBL_NEW_FORM_TITLE' => 'Новое уведомление',
-  'LBL_IS_READ' => 'прочитано',
+  'LBL_IS_READ' => 'Прочитано',
   
   'LBL_TYPE' => 'Тип',
 );
