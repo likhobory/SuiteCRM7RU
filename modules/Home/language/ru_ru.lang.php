@@ -183,7 +183,7 @@ $mod_strings = array(
 
 'LBL_CONTRIBUTOR_SUITECRM' => 'Бесплатная альтернатива SugarCRM Professional Edition с открытым исходным кодом    <br>
         <hr><h2>
-        <a href="https://suitecrm.com/suitecrm/forum/suitecrm-forum-russian-general-discussion/17907-suitecrm#60470" target="_blank">Русифицированное Руководство пользователя и администратора SuiteCRM</a></h2>',
+        <a href="https://community.suitecrm.com/t/suitecrm/54668" target="_blank">Русифицированное Руководство пользователя и администратора SuiteCRM</a></h2>',
 'LBL_CONTRIBUTOR_SECURITY_SUITE' => 'SecuritySuite by Jason Eggers',
 'LBL_CONTRIBUTOR_JJW_GMAPS' => 'JJWDesign Google Maps by Jeffrey J. Walters',
 'LBL_CONTRIBUTOR_CONSCIOUS' => 'SuiteCRM LOGO Provided by Conscious Solutions',

@@ -414,13 +414,13 @@ $mod_strings = array(
 'LBL_WIZARD_FINISH9' => 'Настройка внешнего вида системы',
 'LBL_WIZARD_FINISH10' => 'Настройка макетов страниц, полей, меток и комбобоксов при помощи Студии',
 'LBL_WIZARD_FINISH11' => 'Поддержка и документация',
-'LBL_WIZARD_FINISH12' => 'Доступ к англоязычному форуму.<br> Для русскоязычных пользователей доступен  <a href="https://suitecrm.com/suitecrm/forum/suitecrm-forum-russian-general-discussion" target="_blank">русскоязычный раздел форума</a>.',
+'LBL_WIZARD_FINISH12' => 'Доступ к англоязычному форуму.<br> Для русскоязычных пользователей доступен  <a href="https://community.suitecrm.com/c/suitecrm-forum/36-category" target="_blank">русскоязычный раздел форума</a>.',
 'LBL_WIZARD_FINISH14' => 'Wiki',
 'LBL_WIZARD_FINISH15' => 'Англоязычное руководство пользователя и примечания к текущему релизу.',
 'LBL_WIZARD_FINISH16' => 'Просмотр базы знаний', ///
 'LBL_WIZARD_FINISH17' => 'Советы от службы технической поддержки', ///
 'LBL_WIZARD_FINISH18' => 'Форум',
-'LBL_WIZARD_FINISH19' => 'Англоязычный форум. Русскоязычные пользователи могут задать вопрос в <a href="https://suitecrm.com/suitecrm/forum/suitecrm-forum-russian-general-discussion" target="_blank">этом</a> разделе.',
+'LBL_WIZARD_FINISH19' => 'Англоязычный форум. Русскоязычные пользователи могут задать вопрос в <a href="https://community.suitecrm.com/c/suitecrm-forum/36-category" target="_blank">этом</a> разделе.',
 'LBL_WIZARD_FINISH2DESC' => 'Переход на ГЛАВНУЮ страницу системы.',
 'LBL_WIZARD_PERSONALINFO' => 'Информация о сотруднике',
 'LBL_WIZARD_LOCALE' => 'Региональные стандарты',
