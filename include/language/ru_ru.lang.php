@@ -355,10 +355,10 @@ $app_list_strings = array(
     'Pending Input' => 'Ожидание решения' ,
     'Deferred' => 'Отложена'    ,
   ),
-  'meeting_status_default' => 'Запланирована' ,
+  'meeting_status_default' => 'Planned' ,
   'meeting_status_dom' =>
   array(
-    'Planned' => 'Запланирована' ,
+    'Planned' => 'В планах' ,
     'Held' => 'Состоялась' ,
     'Not Held' => 'Не состоялась'    ,
   ),
@@ -371,10 +371,10 @@ $app_list_strings = array(
       'Other' => 'Другое',
       'Sugar' => 'SuiteCRM',
    ),
-  'call_status_default' => 'Запланирован' ,
+  'call_status_default' => 'Planned' ,
   'call_status_dom' =>
   array(
-    'Planned' => 'Запланирован' ,
+    'Planned' => 'В планах' ,
     'Held' => 'Состоялся' ,
     'Not Held' => 'Не состоялся'    ,
   ),
