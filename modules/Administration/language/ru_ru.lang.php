@@ -812,7 +812,6 @@ $mod_strings = array(
 'LBL_GOOGLE_CALENDAR_SETTINGS_JSON' => 'Загрузить файл с учётными данными',
 'LBL_GOOGLE_CALENDAR_SETTINGS_JSON_HELP' => 'Загрузка JSON-файла с учётными данными.',
 'LBL_GOOGLE_CALENDAR_GET_API_KEY' => 'Получить учётные данные',
-'LBL_GOOGLE_CALENDAR_JSON_TEXT' => 'JSON-файл:',
 
 'LBL_DISPLAY_SIDEBAR' => 'Отображать боковое меню',
 'LBL_COLOUR_ADMIN_PAGEHEADER' => 'Цвет заголовков на странице: ',

@@ -227,7 +227,6 @@ $mod_strings = array(
 'LBL_LICENSE_CHKDB_HEADER' => 'Проверка прав доступа к БД',
 'LBL_LICENSE_CHECK_PASSED' => 'Проверка совместимости успешно пройдена',
 'LBL_CREATE_CACHE' => 'Подготовка к установке...',
-'LBL_CREATE_DEFAULT_ENC_KEY' => 'Создание OAuth2-ключа...',
 'LBL_LICENSE_REDIRECT' => 'Перенаправление через ',
 
 'LBL_LICENSE_I_ACCEPT' => 'Я принимаю лицензионное соглашение' ,
