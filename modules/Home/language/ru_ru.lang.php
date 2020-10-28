@@ -238,6 +238,7 @@ $mod_strings = array(
 'LBL_LOCATION' => 'Место: ',
 'LBL_STATUS' => 'Статус: ',
 'LBL_DESCRIPTION' => 'Описание: ',
+//End Events
 
 'LBL_ELASTIC_SEARCH_EXCEPTION_SEARCH_INVALID_REQUEST' => 'В процессе поиска произошла ошибка. Проверьте синтаксис поискового запроса.',
 'LBL_ELASTIC_SEARCH_EXCEPTION_SEARCH_ENGINE_NOT_FOUND' => 'Поисковый движок не обнаружен. Попробуйте выполнить поиск ещё раз.',
@@ -246,5 +247,5 @@ $mod_strings = array(
 'LBL_ELASTIC_SEARCH_EXCEPTION_DEFAULT' => 'В процессе поиска произошла неизвестная ошибка.',
 'LBL_ELASTIC_SEARCH_EXCEPTION_END_MESSAGE' => 'Обратитесь к системному администратору, если не удалось решить проблему. Детальная информация сохранена в логах.'
 
-//End Events
+'LBL_ELASTIC_SEARCH_DEFAULT' => 'Ничего не найдено. Попробуйте расширить критерии поиска.'
 );
