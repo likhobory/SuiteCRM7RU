@@ -44,7 +44,7 @@ $mod_strings = array(
 
 
 'ERR_CHECKSYS' => 'В процессе проверки совместимости были обнаружены ошибки. Для того, чтобы ваша система функционировала правильно, пожалуйста, выполните необходимые действия над пунктами, указанными ниже и повторите проверку или начните установку заново.',
-'ERR_CHECKSYS_CALL_TIME' => 'Allow Call Time Pass Reference выключена (включите эту опцию в php.ini)',
+'ERR_CHECKSYS_CALL_TIME' => 'Используется устаревшая директива allow_call_time_pass_reference. Отключите её в php.ini (allow_call_time_pass_reference = Off)',
 'ERR_CHECKSYS_CURL' => 'Не найдено: планировщик будет работать с ограниченной функциональностью' ,
 'ERR_CHECKSYS_FASTCGI_LOGGING' => 'Для оптимального использования IIS / FastCGI SAPI, установите параметр fastcgi.logging в файле php.ini равным 0.',
 'ERR_CHECKSYS_IMAP' => 'Не найдено: для нормальной работы входящей почты и кампаний необходимо наличие IMAP-библиотек' ,
