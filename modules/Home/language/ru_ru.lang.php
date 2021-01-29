@@ -245,7 +245,7 @@ $mod_strings = array(
 'LBL_ELASTIC_SEARCH_EXCEPTION_NO_NODES_AVAILABLE' => 'Невозможно подключиться к серверу Elasticsearch.',
 'LBL_ELASTIC_SEARCH_EXCEPTION_SEARCH' => 'В процессе поиска произошла ошибка.',
 'LBL_ELASTIC_SEARCH_EXCEPTION_DEFAULT' => 'В процессе поиска произошла неизвестная ошибка.',
-'LBL_ELASTIC_SEARCH_EXCEPTION_END_MESSAGE' => 'Обратитесь к системному администратору, если не удалось решить проблему. Детальная информация сохранена в логах.'
+'LBL_ELASTIC_SEARCH_EXCEPTION_END_MESSAGE' => 'Обратитесь к системному администратору, если не удалось решить проблему. Детальная информация сохранена в логах.',
 
-'LBL_ELASTIC_SEARCH_DEFAULT' => 'Ничего не найдено. Попробуйте расширить критерии поиска.'
+'LBL_ELASTIC_SEARCH_DEFAULT' => 'Ничего не найдено. Попробуйте расширить критерии поиска.',
 );
