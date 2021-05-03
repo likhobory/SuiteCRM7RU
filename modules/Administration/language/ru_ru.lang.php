@@ -807,6 +807,7 @@ $mod_strings = array(
 'LBL_JJWG_MAPS_ADMIN_ADDRESS_CACHE_DESC' => 'Доступ к кэшу геокодированных адресов',
 
 // Google Calendar
+'LBL_GOOGLE_AUTH_TITLE' => 'Google - настройка синхронизации',
 'LBL_GOOGLE_CALENDAR_SETTINGS_TITLE' => 'Настройка Google Календарь',
 'LBL_GOOGLE_CALENDAR_SETTINGS_DESC' => 'Настройка интеграции с Google Календарь',
 'LBL_GOOGLE_CALENDAR_SETTINGS_JSON' => 'Загрузить файл с учётными данными',

@@ -73,6 +73,7 @@ $mod_strings = array(
 'LBL_LIST_EMAIL_ADDRESS' => 'Адрес E-mail' ,
 'LBL_LIST_PHONE' => 'Тел.' ,
 'LBL_LIST_STATE' => 'Область' ,
+'LBL_LIST_WEBSITE' => 'Сайт' ,
 'LBL_MEMBER_OF' => 'Состоит в:' ,
 'LBL_MEMBER_ORG_SUBPANEL_TITLE' => 'Членские организации' ,
 'LBL_NAME' => 'Название:' ,

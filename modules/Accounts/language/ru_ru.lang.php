@@ -92,6 +92,7 @@ $mod_strings = array(
 'LBL_LIST_FORM_TITLE' => 'Список контрагентов' ,
 'LBL_LIST_PHONE' => 'Тел.' ,
 'LBL_LIST_STATE' => 'Область' ,
+'LBL_LIST_WEBSITE' => 'Сайт' ,
 'LBL_MEMBER_OF' => 'Состоит в:' ,
 'LBL_MEMBER_ORG_SUBPANEL_TITLE' => 'Членские организации' ,
 'LBL_MODULE_NAME' => 'Контрагенты' ,
