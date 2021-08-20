@@ -174,6 +174,7 @@ $mod_strings = array(
 'LBL_LOGGER_FILENAME' => 'Имя файла журнала:',
 'LBL_LOGGER_FILE_EXTENSION' => 'Расширение:',
 'LBL_LOGGER_MAX_LOG_SIZE' => 'Максимальный размер файла журнала:',
+'LBL_STACK_TRACE' => 'Включить трассировку стека',
 'LBL_LOGGER_DEFAULT_DATE_FORMAT' => 'Формат даты по умолчанию:',
 'LBL_LOGGER_LOG_LEVEL' => 'Уровень детализации:',
 'LBL_LEAD_CONV_OPTION' => 'Мероприятия при преобразовании предварит. контакта',

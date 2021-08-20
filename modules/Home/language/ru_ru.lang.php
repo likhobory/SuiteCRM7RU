@@ -180,6 +180,9 @@ $mod_strings = array(
 'LBL_ABOUT_SUITE' => 'О проекте SuiteCRM',
 'LBL_PARTNERS' => 'Партнёры',
 'LBL_FEATURING' => 'AOS, AOW, AOR, AOP, AOE and Reschedule modules by SalesAgility.',
+'LBL_EDIT_ALL_RECURRENCES' => 'Править, включая повторы',
+'LBL_REMOVE_ALL_RECURRENCES' => 'Удалить, включая повторы',
+'LBL_CONFIRM_REMOVE' => 'Вы действительно хотите удалить эту запись?',
 
 'LBL_CONTRIBUTOR_SUITECRM' => 'Бесплатная альтернатива SugarCRM Professional Edition с открытым исходным кодом    <br>
         <hr><h2>
@@ -248,4 +251,7 @@ $mod_strings = array(
 'LBL_ELASTIC_SEARCH_EXCEPTION_END_MESSAGE' => 'Обратитесь к системному администратору, если не удалось решить проблему. Детальная информация сохранена в логах.',
 
 'LBL_ELASTIC_SEARCH_DEFAULT' => 'Ничего не найдено. Попробуйте расширить критерии поиска.',
+
+'LNK_TASK_VIEW' => 'Просмотр задачи',
+
 );

@@ -147,7 +147,8 @@ $mod_strings = array(
     'LBL_SAVE' => 'Сохранить',
 	
 	'LBL_CALLS_RESCHEDULE' => 'Отложенные звонки',
-	'LBL_LIST_STATUS'=>'Статус',
-    'LBL_LIST_DATE_MODIFIED'=>'Дата изменения',
-    'LBL_LIST_DUE_DATE'=>'Дата завершения',
+	'LBL_LIST_STATUS' => 'Статус',
+    'LBL_LIST_DATE_MODIFIED' => 'Дата изменения',
+    'LBL_LIST_DUE_DATE' => 'Дата завершения',
+	'LBL_RESCHEDULED_BY' => 'Кто&#160отложил:',
 );

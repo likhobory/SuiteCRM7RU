@@ -170,6 +170,8 @@ $mod_strings = array(
   'LBL_VIEW_DETAIL' => 'Детали проекта',
   'LBL_OVERRIDE_BUSINESS_HOURS' => 'Учитывать график работы',
 
+   'LBL_IMPORT_PROJECTS' => 'Импорт проектов',
+  
   'LBL_PROJECTS_SEARCH' => 'Проекты',
   'LBL_USERS_SEARCH' => 'Пользователи',
   'LBL_CONTACTS_SEARCH' => 'Контакты',

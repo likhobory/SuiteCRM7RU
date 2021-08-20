@@ -703,6 +703,7 @@ $app_list_strings = array(
         'Radio' => 'Радио' ,
         'Television' => 'Телевидение'    ,
         'NewsLetter' => 'Информ. бюллетень',
+		'Survey' => 'Опрос',
         ),
 
   'newsletter_frequency_dom' =>
