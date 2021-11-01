@@ -93,6 +93,7 @@ $mod_strings = array(
 'LBL_TRACKED_URLS_SUBPANEL_TITLE' => 'Список трекеров' ,
 'LBL_CAMPAIGN_ACCOUNTS_SUBPANEL_TITLE' => 'Контрагенты',
 'LBL_PROSPECT_LIST_SUBPANEL_TITLE' => 'Список адресатов' ,
+'LBL_HISTORY_SUBPANEL_TITLE' => 'История' ,
 'LBL_EMAIL_MARKETING_SUBPANEL_TITLE' => 'Рассылки E-mail' ,
 'LNK_NEW_EMAIL_TEMPLATE' => 'Создать шаблон E-mail' ,
 'LNK_EMAIL_TEMPLATE_LIST' => 'Шаблоны E-mail' ,

@@ -520,6 +520,7 @@ $app_list_strings = array(
     'Accounts' => 'Контрагенты' ,
     'Contacts' => 'Контакты' ,
     'Opportunities' => 'Сделки' ,
+	'Campaigns' => 'Маркет. кампании' ,
 	'Tasks' => 'Задачи' ,
 	'Emails' => 'E-mail' ,
     
@@ -2352,12 +2353,8 @@ $app_strings = array(
     'LBL_SUBTHEME_OPTIONS_DAY' => 'День',
     'LBL_SUBTHEME_OPTIONS_DUSK' => 'Сумерки',
     'LBL_SUBTHEME_OPTIONS_NIGHT' => 'Ночь',
+	'LBL_SUBTHEME_OPTIONS_NOON' => 'Полдень',
 	
-	
-	
-	
-	
-
 	'LBL_CONFIRM_OPT_IN_TITLE' => 'Подтверждённая подписка',
 	'LBL_OPT_IN_TITLE' => 'Подписаться на рассылку',
     'LBL_CONFIRM_OPT_IN_DATE' => 'Дата подтверждения подписки',
@@ -4006,3 +4003,5 @@ $app_strings['LBL_SEARCH_PREV'] = 'Назад';
 $app_strings['LBL_SEARCH_NEXT'] = 'Далее';
 $app_strings['LBL_SEARCH_PAGE'] = 'Страница ';
 $app_strings['LBL_SEARCH_OF'] = ' из ';
+$app_strings['LBL_USE_ADVANCED_SEARCH'] = 'Использовать расширенный поиск'; //// unused?
+$app_strings['LBL_USE_BASIC_SEARCH'] = 'Использовать стандартный поиск'; //// unused?

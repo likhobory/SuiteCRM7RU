@@ -42,7 +42,7 @@ $mod_strings = array(
 'EXPORT' => 'Параметры экспорта',
 'EXPORT_CHARSET' => 'Стандартная кодировка при импорте и экспорте данных',
 'DISABLE_EXPORT' => 'Отключить экспорт',
-'DESC_DROPDOWN_EDITOR' => 'Создание, удаление или изменение комбобоксов' ,
+'DESC_DROPDOWN_EDITOR' => 'Создание, удаление, изменение комбобоксов' ,
 'DESC_FILES_INSTALLED' => 'Следующие обновления установлены:' ,
 'DESC_FILES_QUEUED' => 'Следующие Обновления локально поставлены в очередь для установки:' ,
 'DESC_IFRAME' => 'Добавление закладок, которые могут показывать любой сайт' ,
@@ -534,7 +534,7 @@ $mod_strings = array(
 'LBL_UPTODATE' => 'У вас установлена самая последняя версия' ,
 'LBL_USER_NAME' => 'Имя пользователя:',
 'LBL_USERNAME' => 'Логин',
-'LBL_USERS_TITLE' => 'Пользователи' ,
+'LBL_USERS_TITLE' => 'Пользователи / Аутентификация' ,
 'LBL_HISTORY_CONTACTS_EMAILS' => 'Настройка субпанели "История"',
 'LBL_HISTORY_CONTACTS_EMAILS_DESC' => 'Настройка отображения писем контактов в субпанели истории',
 
@@ -841,7 +841,8 @@ $mod_strings = array(
 'LBL_SUGGESTION_POPUP_FROM' => 'Варианты решений обращения, градиент, цвет 1:',
 'LBL_SUGGESTION_POPUP_TO' => 'Варианты решений обращения, градиент, цвет 2:',
 
-'LBL_SALESAGILITY_ADMIN' => 'Разное',
+'LBL_MODULE_ADMIN' => 'Настройка модулей',
+'LBL_MODULE_ADMIN_HEADER_DESC' => 'Детальная настройка различных модулей.',
 'LBL_AOP_ADMIN_MANAGE_AOP' => 'Настройки портала',
 'LBL_AOP_ENABLE_AOP' => 'Включить настройки портала',
 'LBL_AOP_ENABLE_PORTAL' => 'Включить внешний портал',
@@ -861,7 +862,7 @@ $mod_strings = array(
 'LBL_AOP_JOOMLA_ACCOUNT_CREATION_EMAIL_TEMPLATE' => 'Шаблон письма при создании учётной записи Joomla',
 
 'LBL_AOP_BUSINESS_HOURS_SETTINGS' => 'Рабочие часы',
-'LBL_AOP_BUSINESS_HOURS_DESC' => 'Настройте график работы вашей организации, если при запуске Процессов используется параметр \'Только в рабочее время\'',
+'LBL_AOP_BUSINESS_HOURS_DESC' => 'Возможность запуска Процессов и работы с порталом только в рабочее время',
 'LBL_SUPPORT_FROM_ADDRESS' => 'В качестве адреса отправителя указывать',
 'LBL_SUPPORT_FROM_NAME' => 'В качестве имени отправителя указывать',
 'LBL_CREATE_EMAIL_TEMPLATE' => 'Создать',
@@ -874,14 +875,9 @@ $mod_strings = array(
 'LBL_AOP_ADD_STATUS' => 'Добавить',
 'LBL_AOP_REMOVE_STATUS' => 'Удалить',
 
-'LBL_AOD_ADMIN_MANAGE_AOD' => 'Настройка полнотекстового поиска',
-'LBL_AOD_ENABLE' => 'Включить полнотекстовый поиск',
-'LBL_AOD_SETTINGS' => 'Настройка полнотекстового поиска',
-
-
 'LBL_AOS_ADMIN_CONTRACT_SETTINGS' => 'Параметры договоров',
 'LBL_AOS_ADMIN_CONTRACT_RENEWAL_REMINDER' => 'Уведомление об окончании действия за',
-'LBL_AOS_ADMIN_MANAGE_AOS' => 'Параметры модулей продаж',
+'LBL_AOS_ADMIN_MANAGE_AOS' => 'Настройка модулей продаж',
 'LBL_AOS_ADMIN_INVOICE_SETTINGS' => 'Параметры счетов',
 'LBL_AOS_ADMIN_INITIAL_INVOICE_NUMBER' => 'Начинать нумерацию с',
 'LBL_AOS_ADMIN_QUOTE_SETTINGS' => 'Параметры предложений',
@@ -976,18 +972,36 @@ $mod_strings = array(
 'LBL_SEARCH_ENGINE' => 'Поисковый движок',
 'LBL_SEARCH_ENGINE_HELP' => 'Выберите поисковый движок, используемый по умолчанию.',
 'LBL_SEARCH_ENGINE_TOOLTIP' => 'Выберите поисковый движок, который будет использоваться в глобальном поиске.',
+'LBL_SEARCH_GENERAL' => 'General',
 
 'LBL_SEARCH_MODULES' => 'Выбор модулей',
 'LBL_SEARCH_MODULES_HELP' => 'Выбор модулей, в которых будет осуществляться поиск',
 
 // Search Engines Translations
-'LBL_LEGACY_SEARCH_ENGINES' => 'Стандартный поисковый движок',
-'LBL_SEARCH_WRAPPER_ENGINES' => 'Обновлённый поисковый движок',
+'LBL_SEARCH_WRAPPER_ENGINES' => 'Поисковые движки',
 'LBL_BASIC_SEARCH_ENGINE' => 'Стандартный поиск',
 'LBL_BASIC_AND_AOD_ENGINE' => 'Стандартный поиск + полнотекстовый поиск',
 'LBL_ELASTIC_SEARCH_ENGINE' => 'Расширенный поиск с использованием Elasticsearch',
 'LBL_SIMPLE_SQL_SEARCH_ENGINE' => 'Стандартный поиск',
 
+// SearchWrapper Settings
+'LBL_PDF_HEADER' => 'Настройки PDF',
+'LBL_CHANGE_PDF_SETTINGS' => 'Изменение настроек PDF',
+'LBL_PDF_HEADER_DESC' => 'Управление настройками PDF',
+'LBL_PDF_OPTIONS' => 'PDF-движок',
+'LBL_PDF_OPTIONS_HELP' => 'Выберите используемый PDF-движок.',
+'LBL_PDF_INTERFACE' => 'PDF-интерфейс',
+
+// PDF Engines Translations
+'LBL_PDF_WRAPPER_ENGINES' => 'PDF',
+'LBL_MPDF_ENGINE' => 'MPDF',
+
 // Ajax Submit
 'LBL_AJAX_SUBMIT_FAIL' => 'В процессе сохранения настроек произошла ошибка.',
+
+'LBL_ADMIN_TOOLS_TITLE' => 'Инструменты администратора',
+'LBL_ADMIN_TOOLS_HEADER_DESC' => 'Восстановление, обновление и диагностика системы.',
+'LBL_WORKFLOW_MANAGER' => 'Управление Процессами',
+'LBL_WORKFLOW_MANAGER_DESC' => 'Создание, удаление, изменение Процессов',
+
 );
