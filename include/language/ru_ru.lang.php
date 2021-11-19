@@ -4005,3 +4005,13 @@ $app_strings['LBL_SEARCH_PAGE'] = 'Страница ';
 $app_strings['LBL_SEARCH_OF'] = ' из ';
 $app_strings['LBL_USE_ADVANCED_SEARCH'] = 'Использовать расширенный поиск'; //// unused?
 $app_strings['LBL_USE_BASIC_SEARCH'] = 'Использовать стандартный поиск'; //// unused?
+
+// PDF Engines
+$app_strings['LBL_LEGACY_MPDF_ENGINE'] = 'Движок MPDF (устаревший)';
+$app_strings['LBL_TCPDF_ENGINE'] = 'Движок TCPDF';
+
+
+$app_strings['ERR_INVALID_FILE_NAME'] = 'Недопустимое имя файла:';
+$app_strings['LBL_LOGGER_VALID_FILENAME_CHARACTERS'] = 'Имя может содержать буквы, цифры и символы точки, тире и подчёркивания';
+$app_strings['LBL_LOGGER_INVALID_FILENAME'] = 'Недопустимое имя файла импорта';
+
