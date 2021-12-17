@@ -64,5 +64,6 @@ $mod_strings = array(
   'LBL_ACTION_LINES' => 'Выполняемые действия',
   'LBL_ADD_ACTION' => 'Добавить действие',
   'LBL_MULTIPLE_RUNS' => 'Многократный запуск',
-  'LBL_RUN_WHEN' => 'Запускать'
+  'LBL_RUN_WHEN' => 'Запускать',
+  'LBL_RUN_ON_IMPORT' => 'Запускать при импорте'
 );
