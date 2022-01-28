@@ -66,6 +66,7 @@ $mod_strings = array(
 'LBL_ACTUAL_EFFORT' => 'Реальные усилия (час.):' ,
 'LBL_UTILIZATION' => 'Расход ресурсов (%):' ,
 'LBL_DELETED' => 'Удалено:' ,
+'LBL_IMPORT_PROJECT_TASKS' => 'Импорт проектных задач',
 
 'LBL_LIST_NAME' => 'Название' ,
 'LBL_LIST_PARENT_NAME' => 'Проект' ,

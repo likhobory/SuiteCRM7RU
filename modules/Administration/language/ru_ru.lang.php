@@ -1032,7 +1032,7 @@ $mod_strings = array(
 'LBL_REPAIRED' => 'Выполнено',
 'LBL_SYNCHRONOUS' => 'Синхронный',
 'LBL_ASYNCHRONOUS' => 'Асинхронный',
-'LBL_OUTPUT' => 'РЕЗУЛЬТАТ',
+'LBL_OUTPUT' => 'Ход выполнения',
 'LBL_RESULT' => 'Результат'
 
 );
