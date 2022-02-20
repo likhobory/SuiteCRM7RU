@@ -49,6 +49,6 @@ $mod_strings = array(
   'LBL_VALUE_TYPE' => 'Тип',
   'LBL_VALUE' => 'Значение',
   'LBL_ORDER' => 'Сортировка',
-  'LBL_AOW_WORKFLOW_ID' => 'WorkFlow Id',
+  'LBL_AOW_WORKFLOW_ID' => 'ID Процесса',
 );
 

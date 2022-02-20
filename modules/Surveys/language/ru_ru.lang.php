@@ -23,7 +23,7 @@
   ***********************************************************************likhobory*/
 
   /*********************************************************************************
-  * Description : Defines the Russian language pack for the SuiteCRM application.
+  * Description : Defines the Russian language pack for the base application.
   *********************************************************************************/
 
 $mod_strings = array(

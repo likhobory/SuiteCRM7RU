@@ -57,7 +57,7 @@ $mod_strings['LBL_STATE'] = 'Область';
 $mod_strings['LBL_COUNTRY'] = 'Страна';
 $mod_strings['LBL_COORDINATES'] = 'Координаты';
 $mod_strings['LBL_LIST_ASSIGNED_USER'] = 'Ответственный(ая)';
-$mod_strings['LBL_AREA_MAP'] = 'Area Map';
+$mod_strings['LBL_AREA_MAP'] = 'Участок карты';
 
 $mod_strings['LBL_AREA_EDIT_TITLE'] = 'Обозначение границ участка:';
 $mod_strings['LBL_AREA_EDIT_DESC_1'] = 'Укажите метки, обозначающие границу участка карты.';

@@ -43,7 +43,7 @@ array(
 'Customer' => 'Клиент' ,
 'Integrator' => 'Интегратор' ,
 'Investor' => 'Инвестор' ,
-'Partner' => 'Партнер' ,
+'Partner' => 'Партнёр' ,
 'Press' => 'Пресса' ,
 'Prospect' => 'Адресат' ,
 'Reseller' => 'Реселлер' ,
