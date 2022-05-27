@@ -58,6 +58,7 @@ $mod_strings = array(
 'LBL_SHOW_ALT_TEXT' => 'Показ альтернативного текста' ,
 'LBL_SUBJECT' => 'Тема:' ,
 'LBL_SUITE_DOCUMENT' => 'Документ',
+'LBL_UPLOAD_FILE' => 'Загрузить файл',
 'LBL_TEXT_BODY' => 'Текст' ,
 'LBL_USERS' => 'Пользователи',
 
