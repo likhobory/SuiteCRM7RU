@@ -88,5 +88,5 @@ $mod_strings = array(
 'LBL_HELP' => 'Справка' /*for 508 compliance fix*/,
 'COLUMN_TITLE_INLINE_EDIT_TEXT' => 'Быстрая правка',
 'COLUMN_TITLE_PARENT_ENUM' => 'Родительский комбобокс',
-
+'LBL_INSERT_FIELD' => 'Вставить поле',
 );

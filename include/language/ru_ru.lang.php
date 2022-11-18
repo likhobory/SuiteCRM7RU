@@ -1315,7 +1315,7 @@ $app_strings = array(
 
 	'LBL_EMAIL_EMPTYING_TRASH' => 'Очистка корзины',
 	'LBL_EMAIL_DELETING_OUTBOUND' => 'Удаление сервера исходящей почты',
-	'LBL_EMAIL_CLEARING_CACHE_FILES' => 'Очистка почтового кэша',
+	'LBL_EMAIL_CLEARING_CACHE_FILES' => 'Очистка почтового кеша',
     'LBL_EMAIL_EMPTY_MSG'                           => 'Нет писем для отображения.',
     'LBL_EMAIL_EMPTY_ADDR_MSG'                      => 'Нет адресов для отображения.',
 	
@@ -1409,7 +1409,7 @@ $app_strings = array(
 	'LBL_EMAIL_MENU_DELETE_FOLDER' => 'Удалить папку',
 	'LBL_EMAIL_MENU_EMPTY_TRASH' => 'Очистить корзину',
 	'LBL_EMAIL_MENU_SYNCHRONIZE' => 'Синхронизировать',
-	'LBL_EMAIL_MENU_CLEAR_CACHE' => 'Очистить кэш',
+	'LBL_EMAIL_MENU_CLEAR_CACHE' => 'Очистить кеш',
 	'LBL_EMAIL_MENU_REMOVE' => 'Удалить',
 	'LBL_EMAIL_MENU_RENAME_FOLDER' => 'Переименовать папку',
 	'LBL_EMAIL_MENU_RENAMING_FOLDER' => 'Переименование папки',
@@ -3467,6 +3467,7 @@ $app_list_strings['aow_date_type_list']['hour'] = 'часов';
 $app_list_strings['aow_date_type_list']['day'] = 'дней';
 $app_list_strings['aow_date_type_list']['week'] = 'недель';
 $app_list_strings['aow_date_type_list']['month'] = 'месяцев';
+$app_list_strings['aow_date_type_list']['year'] = 'лет';
 $app_list_strings['aow_date_type_list']['business_hours'] = 'рабочих часов';
 
 $app_list_strings['aow_date_options']['now'] = 'Сейчас';
@@ -3525,7 +3526,7 @@ $app_strings['LBL_JJWG_MAPS_ADDRESS'] = 'Адрес';
 $app_list_strings['moduleList']['jjwg_Maps'] = 'Карты';
 $app_list_strings['moduleList']['jjwg_Markers'] = 'Метки';
 $app_list_strings['moduleList']['jjwg_Areas'] = 'Участки карт';
-$app_list_strings['moduleList']['jjwg_Address_Cache'] = 'Кэш адресов';
+$app_list_strings['moduleList']['jjwg_Address_Cache'] = 'Кеш адресов';
 
 $app_list_strings['moduleList']['jjwp_Partners'] = 'Партнёры JJWP';
 

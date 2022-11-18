@@ -40,6 +40,7 @@ $mod_strings = array(
   'LBL_CREATED' => 'Создано',
   'LBL_CREATED_ID' => 'Created By Id', ///
   'LBL_DESCRIPTION' => 'Описание',
+  'LBL_SORT_ORDER' => 'Сортировка',
   'LBL_DELETED' => 'Удалено',
   'LBL_NAME' => 'Название',
   'LBL_CREATED_USER' => 'Создано',
