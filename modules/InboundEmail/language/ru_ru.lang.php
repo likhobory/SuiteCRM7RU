@@ -65,8 +65,10 @@ $mod_strings = array(
 'LBL_LIST_NAME' => 'Учётная запись' ,
 'LBL_LIST_GLOBAL_PERSONAL' => 'Тип',
 'LBL_LIST_SERVER_URL' => 'Почтовый сервер' ,
+'LBL_SERVER_ADDRESS' => 'Адрес сервера',
 'LBL_LIST_STATUS' => 'Статус' ,
 'LBL_LOGIN' => 'Логин' ,
+'LBL_USERNAME' => 'Логин',
 'LBL_MAILBOX_DEFAULT' => 'ВХОДЯЩИЕ' ,
 'LBL_MAILBOX_SSL' => 'Использовать SSL' ,
 'LBL_MAILBOX_TYPE' => 'Возможные действия' ,
@@ -88,11 +90,12 @@ $mod_strings = array(
 'LBL_MODULE_NAME' => 'Групповая учётная запись E-mail' ,
 'LBL_BOUNCE_MODULE_NAME' => 'Учётная запись для обработки возвращаемых E-mail',
 'LBL_MODULE_TITLE' => 'Входящие E-mail' ,
-'LBL_NAME' => 'Имя' ,
+'LBL_NAME' => 'Название' ,
 'LBL_NONE' => '--не выбрано--',
 'LBL_ONLY_SINCE_NO' => 'Нет. Проверьте соответствующие письма на почтовом сервере.' ,
 'LBL_ONLY_SINCE_YES' => 'Да.' ,
 'LBL_PASSWORD' => 'Пароль' ,
+'LBL_EMAIL_PASSWORD' => 'Пароль',
 'LBL_POP3_SUCCESS' => 'Тест POP3 успешно пройден.' ,
 'LBL_POPUP_TITLE' => 'Тестирование настроек...' ,
 'LBL_SELECT_SUBSCRIBED_FOLDERS' => 'Выбрать папку/папки',
@@ -105,6 +108,7 @@ $mod_strings = array(
 'LBL_SAME_AS_ABOVE' => 'Использовать Имя/Адрес',
 'LBL_SERVER_OPTIONS' => 'Опции почтового сервера' ,
 'LBL_SERVER_TYPE' => 'Протокол почтового сервера' ,
+'LBL_SERVER_PORT' => 'Порт почтового сервера',
 'LBL_SERVER_URL' => 'Сервер входящей почты' ,
 'LBL_SSL_DESC' => 'Если ваш почтовый сервер поддерживает SSL-соединения, то включение данной опции приведёт к автоматическому созданию SSL-соединения при импорте сообщений.' ,
 'LBL_ASSIGN_TO_TEAM_DESC' => 'The selected team has access to the mail account.', ///
@@ -113,15 +117,19 @@ $mod_strings = array(
 'LBL_SYSTEM_DEFAULT' => 'По умолчанию' ,
 'LBL_TEST_BUTTON_TITLE' => 'Тестирование' ,
 'LBL_TEST_SETTINGS' => 'Тест настроек' ,
+'LBL_TEST_CONNECTION_SETTINGS' => 'Тест настроек подключения',
 'LBL_TEST_SUCCESSFUL' => 'Соединение успешно установлено.' ,
 'LBL_TEST_WAIT_MESSAGE' => 'Пожалуйста, подождите...' ,
 'LBL_WARN_IMAP_TITLE' => 'IMAP-предупреждение' ,
 'LBL_WARN_IMAP' => 'Предупреждения:' ,
 'LBL_WARN_NO_IMAP' => 'Эта система не имеет IMAP-клиента, скомпилированного в PHP-модуле (--with-imap=/path/to/imap_c-client_library). Пожалуйста, свяжитесь с вашим администратором для решений этой проблемы.' ,
 
+'LNK_LIST_CREATE_NEW_PERSONAL' => 'Создать персональную учётную запись входящей почты',
 'LNK_LIST_CREATE_NEW_GROUP' => 'Создать групповую учётную запись',
+'LNK_LIST_CREATE_NEW_CASES_TYPE' => 'Создать учётную запись для обработки Обращений',
 'LNK_LIST_CREATE_NEW_BOUNCE' => 'Создать учётную запись для обработки возвращаемой почты',
-'LNK_LIST_MAILBOXES' => 'Все учётные записи' ,
+'LNK_LIST_MAILBOXES' => 'Учётные записи входящей почты',
+'LNK_LIST_OUTBOUND_EMAILS' => 'Учётные записи исходящей почты',
 'LNK_LIST_SCHEDULER' => 'Планировщик' ,
 'LNK_SEED_QUEUES' => 'Создать очередь из групп' ,
 'LBL_GROUPFOLDER_ID' => 'Групповая папка(ID)',
@@ -149,4 +157,50 @@ $mod_strings = array(
 'LBL_SERVICE' => 'Сервис',
 'LBL_STORED_OPTIONS' => 'Сохранённые параметры',
 'LBL_GROUP_ID' => 'ID группы',
+
+'LBL_OUTBOUND_CONFIGURATION' => 'Настройки исходящей почты',
+'LBL_CONNECTION_CONFIGURATION' => 'Настройки сервера',
+'LBL_AUTO_REPLY_CONFIGURATION' => 'Настройки автоответа',
+'LBL_CASE_CONFIGURATION' => 'Настройки Обращения',
+'LBL_GROUP_CONFIGURATION' => 'Настройки группы',
+
+'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Группы пользователей',
+
+
+'LBL_OUTBOUND_EMAIL_ACCOUNT' => 'Учётная запись исходящей почты',
+'LBL_OUTBOUND_EMAIL_ACCOUNT_ID' => 'ID учётной записи исходящей почты',
+'LBL_OUTBOUND_EMAIL_ACCOUNT_NAME' => 'Учётная запись исходящей почты',
+
+'LBL_AUTOREPLY_EMAIL_TEMPLATE' => 'Шаблон для автооответа',
+'LBL_AUTOREPLY_EMAIL_TEMPLATE_ID' => 'ID шаблона для автоответа',
+'LBL_AUTOREPLY_EMAIL_TEMPLATE_NAME' => 'Шаблон для автооответа',
+
+'LBL_CASE_EMAIL_TEMPLATE' => 'Шаблон для Обращения',
+'LBL_CASE_EMAIL_TEMPLATE_ID' => 'ID шаблона для Обращения',
+'LBL_CASE_EMAIL_TEMPLATE_NAME' => 'Шаблон для Обращения',
+
+'LBL_PROTOCOL' => 'Протокол',
+'LBL_CONNECTION_STRING' => 'Строка подключения',
+'LBL_DISTRIB_METHOD' => 'Метод назначения',
+'LBL_DISTRIB_OPTIONS' => 'Параметры назначения',
+
+'LBL_DISTRIBUTION_USER' => 'Назначенный пользователь',
+'LBL_DISTRIBUTION_USER_ID' => 'ID назначенного пользователя',
+'LBL_DISTRIBUTION_USER_NAME' => 'Назначенный пользователь',
+
+'LBL_EXTERNAL_OAUTH_CONNECTION' => 'Внешнее OAuth-подключение',
+'LBL_EXTERNAL_OAUTH_CONNECTION_ID' => 'ID внешнего OAuth-подключения',
+'LBL_EXTERNAL_OAUTH_CONNECTION_NAME' => 'Внешнее OAuth-подключение',
+'LNK_EXTERNAL_OAUTH_CONNECTIONS' => 'Внешние OAuth-подключения',
+
+'LBL_TYPE' => 'Тип',
+'LBL_AUTH_TYPE' => 'Тип авторизации',
+'LBL_IS_DEFAULT' => 'По умолчанию',
+'LBL_SIGNATURE' => 'Подпись',
+
+'LBL_OWNER_NAME' => 'Владелец',
+
+'LBL_SET_AS_DEFAULT_BUTTON' => 'Установить по умолчанию',
+
+'LBL_MOVE_MESSAGES_TO_TRASH_AFTER_IMPORT' => 'Перемещать сообщения в Корзину после импорта',
 );

@@ -108,7 +108,7 @@ $mod_strings = array(
   'MSG_SHOW_DUPLICATES' => 'Создаваемый вами контрагент возможно дублирует уже имеющуюся запись. Похожие контрагенты показаны ниже. Нажмите кнопку "Сохранить" для продолжения создания нового контрагента или кнопку "Отказаться" для возврата в модуль.' ,
   'NTC_DELETE_CONFIRMATION' => 'Вы действительно хотите удалить эту запись?' ,
 
-  'LBL_LIST_FORM_TITLE' => 'Список счетов',
+  'LBL_LIST_FORM_TITLE' => 'Счета',
   'LBL_MODULE_NAME' => 'Счета',
   'LBL_MODULE_TITLE' => 'Счета',
   'LBL_HOMEPAGE_TITLE' => 'Мои счета',
@@ -116,7 +116,7 @@ $mod_strings = array(
   'LNK_LIST' => 'Счета',
   'LBL_SEARCH_FORM_TITLE' => 'Поиск счетов',
   'LBL_HISTORY_SUBPANEL_TITLE' => 'История',
-  'LBL_NEW_FORM_TITLE' => 'Новый счёт',
+  'LBL_NEW_FORM_TITLE' => 'Создать счёт',
   'LBL_TERMS_C' => 'Условия',
   'LBL_APPROVAL_ISSUE' => 'Детали утверждения',
   'LBL_APPROVAL_STATUS' => 'Статус утверждения',

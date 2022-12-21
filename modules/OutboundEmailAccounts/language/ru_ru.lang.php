@@ -39,7 +39,7 @@ $mod_strings = array(
  'LBL_CREATED' => 'Создано',
  'LBL_DESCRIPTION' => 'Описание',
  'LBL_DELETED' => 'Удалено',
-  'LBL_NAME' => 'Учётная запись для исходящей почты',
+  'LBL_NAME' => 'Название',
  'LBL_CREATED_USER' => 'Создано',
  'LBL_MODIFIED_USER' => 'Изменено',
  'LBL_LIST_NAME' => 'Имя',
@@ -50,7 +50,13 @@ $mod_strings = array(
   'LBL_MODULE_TITLE' => 'Серверы исходящей почты (SMTP)',
   'LBL_HOMEPAGE_TITLE' => 'Мои серверы исходящей почты',
   'LNK_NEW_RECORD' => 'Добавить сервер исходящей почты',
+  
+  'LNK_LIST_CREATE_NEW_PERSONAL' => 'Создать персональную учётную запись исходящей почты',
+  'LNK_LIST_CREATE_NEW_GROUP' => 'Создать системную учётную запись исходящей почты',
+      'LNK_LIST_CREATE_SYSTEM_OVERRIDE_GROUP' => 'New System Override Outbound Email Account', ///
+	
   'LNK_LIST' => 'Перечень серверов исходящей почты',
+  'LNK_LIST_INBOUND_EMAIL_ACCOUNTS' => 'Учётные записи входящей почты',
   'LBL_SEARCH_FORM_TITLE' => 'Поиск серверов исходящей почты',
   'LBL_HISTORY_SUBPANEL_TITLE' => 'История',
   'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Мероприятия',
@@ -62,8 +68,9 @@ $mod_strings = array(
   'LBL_SMTP_PORT' => 'Порт',
   'LBL_SMTP_PROTOCOL' => 'Протокол',
   'LBL_EDITVIEW_PANEL1' => 'Параметры SMTP-сервера',
+  'LBL_OUTBOUND_CONFIGURATION' => 'Настройки исходящей почты',
+  'LBL_CONNECTION_CONFIGURATION' => 'Настройки сервера',
   'LBL_CHANGE_PASSWORD' => 'Изменить пароль',
-  'LBL_CHOOSE_EMAIL_PROVIDER' => 'Укажите провайдера электронной почты',
   'LBL_SEND_TEST_EMAIL' => 'Тестирование',
 
     // for outbound email dialog
@@ -71,10 +78,11 @@ $mod_strings = array(
     'LBL_MAIL_SMTPAUTH_REQ' => 'Использовать SMTP-аутентификацию?',
     'LBL_MAIL_SMTPPASS' => 'Пароль:',
     'LBL_MAIL_SMTPPORT' => 'Порт:',
-    'LBL_MAIL_SMTPSERVER' => 'SMTP-сервер:',
+    'LBL_MAIL_SMTPSERVER' => 'Сервер:',
     'LBL_MAIL_SMTPUSER' => 'Логин:',
     'LBL_MAIL_SMTP_SETTINGS' => 'Параметры SMTP-сервера',
-    'LBL_YAHOOMAIL_SMTPPASS' => 'Пароль:',
+    'LBL_CHOOSE_EMAIL_PROVIDER' => 'Укажите провайдера электронной почты',
+	'LBL_YAHOOMAIL_SMTPPASS' => 'Пароль:',
     'LBL_YAHOOMAIL_SMTPUSER' => 'Mail ID:',
     'LBL_GMAIL_SMTPPASS' => 'Пароль:',
     'LBL_GMAIL_SMTPUSER' => 'Логин:',
@@ -83,9 +91,16 @@ $mod_strings = array(
     'LBL_EXCHANGE_SMTPPORT' => 'Порт:',
     'LBL_EXCHANGE_SMTPSERVER' => 'SMTP-сервер:',
 	
-	'LBL_TYPE' => 'Почтовый сервер:',
+	'LBL_TYPE' => 'Тип учётной записи:',
     'LBL_MAIL_SENDTYPE' => 'Отправка почты с помощью:',
     'LBL_MAIL_SMTPSSL' => 'Параметры SMTP/SSL:',
 	'LBL_SMTP_FROM_NAME' => 'Имя отправителя',
     'LBL_SMTP_FROM_ADDR' => 'Адрес отправителя',
+	
+	'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Группы пользователей',
+
+    'LBL_OWNER' => 'Владелец',
+    'LBL_OWNER_NAME' => 'Владелец',
+
+    'LNK_EXTERNAL_OAUTH_CONNECTIONS' => 'Внешние OAuth-подключения'
 );

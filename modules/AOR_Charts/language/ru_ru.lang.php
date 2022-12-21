@@ -55,5 +55,5 @@ $mod_strings = array(
   'LBL_HISTORY_SUBPANEL_TITLE' => 'История',
   'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Мероприятия',
   'LBL_AOR_CHARTS_SUBPANEL_TITLE' => 'Диаграммы',
-  'LBL_NEW_FORM_TITLE' => 'Новые диаграммы',
+  'LBL_NEW_FORM_TITLE' => 'Создать диаграмму',
 );

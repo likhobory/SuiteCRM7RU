@@ -33,7 +33,7 @@ $mod_strings = array(
 'LBL_MODULE_TITLE' => 'Мои сохранённые фильтры',
 
 'LBL_SEARCH_FORM_TITLE' => 'Мои сохранённые фильтры : Фильтр',
-'LBL_LIST_FORM_TITLE' => 'Список фильтров',
+'LBL_LIST_FORM_TITLE' => 'Фильтры',
 'LBL_DELETE_CONFIRM' => 'Вы действительно хотите удалить выбранный фильтр?',
 'LBL_DELETE_BUTTON_TITLE' => 'Удалить эти условия фильтрации',
 'LBL_SAVE_BUTTON_TITLE' => 'Сохранить текущий фильтр',

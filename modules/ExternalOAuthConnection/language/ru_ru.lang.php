@@ -1,4 +1,5 @@
 <?php
+if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
 /*********************************************************************************
 
 * This program is free software; you can redistribute it and/or modify it under
@@ -28,7 +29,8 @@
   *********************************************************************************/
  // Replaced by RAPIRA <--
 
-$mod_strings = array(
+$mod_strings = [
+
  'LBL_ASSIGNED_TO_ID' => 'Ответственный(ая)-ID',
  'LBL_ASSIGNED_TO_NAME' => 'Ответственный(ая)',
  'LBL_ID' => 'ID',
@@ -45,36 +47,40 @@ $mod_strings = array(
  'LBL_LIST_NAME' => 'Имя',
  'LBL_EDIT_BUTTON' => 'Править',
  'LBL_REMOVE' => 'Удалить',
-  'LBL_LIST_FORM_TITLE' => 'Индексы',
-  'LBL_MODULE_NAME' => 'Индекс',
-  'LBL_MODULE_TITLE' => 'Индекс',
-  'LBL_HOMEPAGE_TITLE' => 'Мои индексы',
-  'LNK_NEW_RECORD' => 'Создать индекс',
-  'LNK_LIST' => 'Индексы',
-  'LBL_SEARCH_FORM_TITLE' => 'Поиск индексов',
-  'LBL_HISTORY_SUBPANEL_TITLE' => 'История',
-  'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Мероприятия',
-  'LBL_NEW_FORM_TITLE' => 'Создать индекс',
+ 'LBL_LIST_FORM_TITLE' => 'Внешние OAuth-подключения',
+ 'LBL_MODULE_NAME' => 'Внешние OAuth-подключения',
+ 'LBL_MODULE_TITLE' => 'Внешние OAuth-подключения',
+ 'LBL_HOMEPAGE_TITLE' => 'Мои внешние OAuth-подключения',
+ 'LNK_NEW_RECORD' => 'Создать внешнее OAuth-подключение',
 
-  'LBL_LOCATION' => 'Расположение',
-  'LBL_SEARCH_BUTTON' => 'Поиск',
-  'LBL_SEARCH_QUERY_PLACEHOLDER' => 'Ведите искомую фразу',
-  'LBL_INDEX_STATS' => 'Статистика индексирования',
-  'LBL_OPTIMISE_NOW' => 'Оптимизировать',
-  'LBL_TOTAL_RECORDS' => 'Всего записей:',
-  'LBL_INDEXED_RECORDS' => 'Всего проиндексировано записей:',
-  'LBL_UNINDEXED_RECORDS' => 'Непроиндексированных записей:',
-  'LBL_FAILED_RECORDS' => 'Не удалось проиндексировать:',
-  'LBL_LAST_OPTIMISED' => 'Время последней оптимизации:',
-  'LBL_INDEX_FILES' => 'Индексных файлов:',
-  'LBL_SEARCH_RESULT_SCORE' => 'Соответствие запросу(%)',
-  'LBL_SEARCH_RESULT_MODULE' => 'Модуль',
-  'LBL_SEARCH_RESULT_NAME' => 'Запись',
-  'LBL_SEARCH_RESULT_DATE_CREATED' => 'Дата создания',
-  'LBL_SEARCH_RESULT_DATE_MODIFIED' => 'Дата изменения',
-  'LBL_SEARCH_RESULT_EMPTY' => 'Ничего не обнаружено',
-  'LBL_SEARCH_RESULT_SUMMARY' => 'Краткая информация',
-  'LBL_NEVER_OPTIMISED' => 'Не оптимизировано',
-  'LBL_USE_AOD_SEARCH' => 'Использовать полнотекстовый поиск',
-  'LBL_USE_VANILLA_SEARCH' => 'Использовать стандартный поиск',
-);
+ 'LNK_LIST' => 'Внешние OAuth-подключения',
+ 'LBL_SEARCH_FORM_TITLE' => 'Поиск внешних OAuth-подключений',
+ 'LBL_HISTORY_SUBPANEL_TITLE' => 'История',
+ 'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Мероприятия',
+ 'LBL_NEW_FORM_TITLE' => 'Новое внешнее OAuth-подключение',
+
+ 'LBL_LIST_DELETE' => 'Удалить',
+ 'LBL_TYPE' => 'Тип подключения',
+
+ 'LBL_CLIENT_ID' => 'ID клиента',
+ 'LBL_CLIENT_SECRET' => 'Секретный ключ',
+ 'LBL_TOKEN_TYPE' => 'Тип токена',
+ 'LBL_EXPIRES_IN' => 'Действителен до',
+ 'LBL_ACCESS_TOKEN' => 'Токен доступа',
+ 'LBL_REFRESH_TOKEN' => 'Токен обновления',
+ 'LBL_PROVIDER' => 'Провайдер',
+
+ 'LBL_AUTHENTICATE' => 'Аутентификация',
+	
+'LBL_EXTERNAL_OAUTH_PROVIDER' => 'Провайдер',
+ 'LBL_EXTERNAL_OAUTH_PROVIDER_NAME' => 'Провайдер',
+ 'LBL_EXTERNAL_OAUTH_PROVIDER_ID' => 'ID Провайдера',
+
+ 'LNK_LIST_CREATE_NEW_PERSONAL' => 'Создать персональное OAuth-подключение',
+ 'LNK_LIST_CREATE_NEW_GROUP' => 'Создать групповое OAuth-подключение',
+ 'LNK_LIST_INBOUND_EMAILS' => 'Учётные записи входящей почты',
+ 'LNK_LIST_OUTBOUND_EMAILS' => 'Учётные записи исходящей почты',
+'LNK_LIST_EXTERNAL_OAUTH_PROVIDERS' => 'Внешние OAuth-провайдеры',
+
+ 'LBL_OWNER' => 'Владелец',
+];

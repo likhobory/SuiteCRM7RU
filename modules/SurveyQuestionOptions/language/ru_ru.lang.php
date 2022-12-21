@@ -59,6 +59,6 @@ $mod_strings = array(
   'LBL_HISTORY_SUBPANEL_TITLE' => 'История',
   'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Мероприятия',
   'LBL_SURVEYQUESTIONOPTIONS_SUBPANEL_TITLE' => 'Параметры вопроса',
-  'LBL_NEW_FORM_TITLE' => 'Новые параметры вопросов',
+  'LBL_NEW_FORM_TITLE' => 'Создать параметры вопросов',
   'LBL_SURVEYQUESTIONOPTIONS_SURVEYQUESTIONRESPONSES_FROM_SURVEYQUESTIONRESPONSES_TITLE' => 'Результаты опроса',
 );

@@ -54,7 +54,7 @@ $mod_strings = array(
   'LBL_HISTORY_SUBPANEL_TITLE' => 'История',
   'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Мероприятия',
 
-  'LBL_NEW_FORM_TITLE' => 'Новый процесс',
+  'LBL_NEW_FORM_TITLE' => 'Создать процесс',
   'LBL_FLOW_MODULE' => 'Контролируемый модуль',
   'LBL_STATUS' => 'Статус',
   'LBL_FLOW_RUN_ON' => 'Запускать для',

@@ -55,6 +55,6 @@ $mod_strings = array(
   'LBL_HISTORY_SUBPANEL_TITLE' => 'История',
   'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Мероприятия',
 
-  'LBL_NEW_FORM_TITLE' => 'Новое избранное',
+  'LBL_NEW_FORM_TITLE' => 'Создать избранное',
   
 );

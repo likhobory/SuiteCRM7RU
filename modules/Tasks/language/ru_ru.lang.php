@@ -33,7 +33,7 @@ $mod_strings = array(
 'LBL_MODULE_NAME' => 'Задачи' ,
 'LBL_MODULE_TITLE' => 'Задачи - ГЛАВНАЯ' ,
 'LBL_SEARCH_FORM_TITLE' => 'Поиск задачи' ,
-'LBL_LIST_FORM_TITLE' => 'Список задач' ,
+'LBL_LIST_FORM_TITLE' => 'Задачи' ,
 'LBL_NEW_FORM_TITLE' => 'Создать задачу' ,
 'LBL_LIST_CLOSE' => 'Закрыть' ,
 'LBL_LIST_SUBJECT' => 'Тема' ,
@@ -76,7 +76,7 @@ $mod_strings = array(
 'LBL_CONTACT_PHONE' => 'Телефон контакта:',
 'LBL_PARENT_TYPE' => 'Тип родителя:',
 'LBL_TASK_INFORMATION' => 'Основная информация',
-'LBL_HISTORY_SUBPANEL_TITLE' => 'Заметки',
+'LBL_HISTORY_SUBPANEL_TITLE' => 'История',
 'LBL_EDITLAYOUT' => 'Изменить макет' /*for 508 compliance fix*/,
 
 //For export labels ///

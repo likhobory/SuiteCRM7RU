@@ -38,7 +38,7 @@ $mod_strings = array(
 'LBL_MODULE_TITLE' => 'Маркетинговые кампании - ГЛАВНАЯ' ,
 
 'LBL_SEARCH_FORM_TITLE' => 'Поиск маркетинговых кампаний' ,
-'LBL_LIST_FORM_TITLE' => 'Список маркетинговых кампаний' ,
+'LBL_LIST_FORM_TITLE' => 'Маркетинговые кампании' ,
 'LBL_NEWSLETTER_LIST_FORM_TITLE' => 'Бюллетень',
 'LBL_CAMPAIGN_NAME' => 'Маркет. кампания:' ,
 'LBL_CAMPAIGN' => 'Маркетинговая кампания:' ,

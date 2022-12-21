@@ -31,7 +31,7 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
  
 $mod_strings = array(
 'LBL_MODULE_NAME' => 'SuiteCRM',
-'LBL_NEW_FORM_TITLE' => 'Новый контакт' ,
+'LBL_NEW_FORM_TITLE' => 'Создать контакт' ,
 'LBL_FIRST_NAME' => 'Имя:' ,
 'LBL_LAST_NAME' => 'Фамилия:' ,
 'LBL_LIST_LAST_NAME' => 'Фамилия' ,

@@ -77,7 +77,7 @@ $mod_strings = array(
   'LBL_HISTORY_SUBPANEL_TITLE' => 'История',
   'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Мероприятия',
   'LBL_AOK_KB_CATEGORIES_SUBPANEL_TITLE' => 'Категории базы знаний1',
-  'LBL_NEW_FORM_TITLE' => 'Новая категория',
+  'LBL_NEW_FORM_TITLE' => 'Создать категорию',
 );
 
 $mod_strings['LBL_AOK_KB_TITLE'] = 'Статьи базы знаний';

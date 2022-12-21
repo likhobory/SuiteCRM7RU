@@ -85,7 +85,7 @@ $mod_strings = array(
 
 'LBL_LIST_MY_PROJECT_TASKS' => 'Мои открытые проектные задачи' ,
 'LBL_DEFAULT_SUBPANEL_TITLE' => 'Проектные задачи' ,
-'LBL_NEW_FORM_TITLE' => 'Новая проектная задача' ,
+'LBL_NEW_FORM_TITLE' => 'Создать проектную задачу' ,
 
 'LBL_HISTORY_TITLE' => 'История' ,
 'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Мероприятия' ,

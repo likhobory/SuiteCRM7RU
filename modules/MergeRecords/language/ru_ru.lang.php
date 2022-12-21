@@ -33,7 +33,7 @@ $mod_strings = array(
 'LBL_MODULE_NAME' => 'Объединение записей',
 'LBL_MODULE_TITLE' => 'Объединение записей-Главная',
 'LBL_SEARCH_FORM_TITLE' => 'Поиск объединений',
-'LBL_LIST_FORM_TITLE' => 'Список записей, подлежащих объединению',
+'LBL_LIST_FORM_TITLE' => 'Записи, подлежащие объединению',
 
 'LBL_LBL_MERGE_RECORDS_STEP_1' => 'Поиск записей для объединения',
 'LBL_AVAIL_FIELDS' => 'Доступные поля',

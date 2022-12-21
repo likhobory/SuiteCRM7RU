@@ -52,7 +52,7 @@ $mod_strings = array(
   'LBL_SEARCH_FORM_TITLE' => 'Поиск уведомлений',
   'LBL_HISTORY_SUBPANEL_TITLE' => 'История',
   'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Мероприятия',
-  'LBL_NEW_FORM_TITLE' => 'Новое уведомление',
+  'LBL_NEW_FORM_TITLE' => 'Создать уведомление',
   'LBL_IS_READ' => 'Прочитано',
   
   'LBL_TYPE' => 'Тип',

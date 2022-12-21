@@ -319,6 +319,13 @@ $mod_strings = array(
 'LBL_LOCALE' => 'Установка региональных настроек',
 'LBL_MAILBOX_DESC' => 'Настройка учётных записей для обработки входящей почты' ,
 'LBL_MAILBOX_OUTBOUND_DESC' => 'Настройка учётных записей исходящей почты',
+
+'LBL_MANAGE_EXTERNAL_OAUTH_CONNECTIONS' => 'Внешние OAuth-подключения',
+'LBL_MANAGE_EXTERNAL_OAUTH_CONNECTIONS_DESC' => 'Настройка внешних OAuth-подключений',
+
+'LBL_MANAGE_EXTERNAL_OAUTH_PROVIDERS' => 'Внешние OAuth-провайдеры',
+'LBL_MANAGE_EXTERNAL_OAUTH_PROVIDERS_DESC' => 'Настройка внешних OAuth-провайдеров',
+	
 'LBL_MANAGE_CURRENCIES' => 'Валюта' ,
 'LBL_MANAGE_LANGUAGES' => 'Языковые пакеты',
 'LBL_MANAGE_LICENSE_TITLE' => 'License Management', ///
@@ -863,6 +870,10 @@ $mod_strings = array(
 'LBL_AOP_CASE_CLOSURE_EMAIL_TEMPLATE' => 'Шаблон письма при закрытии обращения',
 'LBL_AOP_JOOMLA_ACCOUNT_CREATION_EMAIL_TEMPLATE' => 'Шаблон письма при создании учётной записи Joomla',
 
+'LBL_CASE_MACRO' => 'Макрос для Обращений',
+'LBL_CASE_MACRO_DESC' => 'Укажите макрос, который будет проанализирован и использован для связи импортированного E-mail с Обращением, например: [CASE-%1].',
+'LBL_CASE_MACRO_DESC2' => 'Вы можете установить любое значение вместо <b>CASE</b>, но не меняйте значение <b>"%1"</b>.',
+	
 'LBL_AOP_BUSINESS_HOURS_SETTINGS' => 'Рабочие часы',
 'LBL_AOP_BUSINESS_HOURS_DESC' => 'Возможность запуска Процессов и работы с порталом только в рабочее время',
 'LBL_SUPPORT_FROM_ADDRESS' => 'В качестве адреса отправителя указывать',

@@ -54,6 +54,6 @@ $mod_strings = array(
   'LBL_SEARCH_FORM_TITLE' => 'Поиск событий обращения',
   'LBL_HISTORY_SUBPANEL_TITLE' => 'История',
   'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Мероприятия',
-  'LBL_NEW_FORM_TITLE' => 'Новые события обращения',
+  'LBL_NEW_FORM_TITLE' => 'Создать событие обращения',
   'LBL_CASE_NAME' => 'Обращение',
 );

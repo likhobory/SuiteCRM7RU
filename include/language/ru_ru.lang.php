@@ -788,7 +788,33 @@ $app_list_strings = array(
                  'PM' => 'PM'
     ),
 	
-    
+        'dom_inbound_email_account_types' => [
+        'personal' => 'Персональная',
+        'group' => 'Групповая',
+        'bounce' => 'Обработка возврата',
+    ],
+
+    'dom_inbound_email_auth_types' => [
+        'basic' => 'Базовая',
+        'oauth' => 'OAuth',
+    ],
+
+    'dom_external_oauth_connection_types' => [
+        'personal' => 'Персональное',
+        'group' => 'Групповое',
+    ],
+
+    'dom_outbound_email_account_types' => [
+        'user' => 'Персональная',
+        'group' => 'Групповая',
+        'system' => 'Системная',
+        'system-override' => 'Системная (переопределено)',
+    ],
+
+    'dom_inbound_email_account_status' => [
+        'Active' => 'Активна',
+        'Inactive' => 'Не активна',
+    ],
 	
     'dom_email_types' => array(
         'out' => 'Отправлено' ,
@@ -1030,6 +1056,7 @@ $app_list_strings = array(
     'lead' => 'Созданные предв. контакты' ,
     'contact' => 'Созданные контакты'    ,
     'blocked' => 'Заблокированные адресаты',
+	'Survey' => 'Опросы с полученными ответами',
   ),
 
   'campainglog_target_type_dom' =>
@@ -1248,6 +1275,7 @@ $app_strings = array(
 	'LBL_EMAIL_ACCOUNTS_SMTPUSER' => 'Имя пользователя',
 	'LBL_EMAIL_ACCOUNTS_SMTPDEFAULT' => 'Стандартная',
     'LBL_EMAIL_WARNING_MISSING_USER_CREDS' => 'Внимание: отсутствует логин и пароль для сервера исходящей почты.',
+	'LBL_EMAIL_WARNING_MISSING_CREDS' => 'Внимание: отсутствуют учётные данные',
 	'LBL_EMAIL_ACCOUNTS_SUBTITLE' => 'Настройте учётные записи электронной почты для просмотра входящих писем.',
 	'LBL_EMAIL_ACCOUNTS_OUTBOUND_SUBTITLE' => 'Укажите настройки SMTP-сервера, который будет использоваться для отправки исходящей почты.',
 
@@ -3804,8 +3832,11 @@ $app_strings['LBL_RESCHEDULE_COUNT'] = 'Попыток дозвона';
 //SecurityGroups
 $app_list_strings['moduleList']['SecurityGroups'] = 'Группы пользователей';
 $app_strings['LBL_SECURITYGROUP'] = 'Группы пользователей';
+$app_strings['LBL_ROLE'] = 'Роль';
 
 $app_list_strings['moduleList']['OutboundEmailAccounts'] = 'Учётные записи исходящей почты';
+$app_list_strings['moduleList']['ExternalOAuthConnection'] = 'Внешнее OAuth-подключение';
+$app_list_strings['moduleList']['ExternalOAuthProvider'] = 'Внешний OAuth-провайдер';
 
 //social
 $app_strings['FACEBOOK_USER_C'] = 'Facebook';
@@ -4022,3 +4053,13 @@ $app_strings['ERR_INVALID_FILE_NAME'] = 'Недопустимое имя фай�
 $app_strings['LBL_LOGGER_VALID_FILENAME_CHARACTERS'] = 'Имя может содержать буквы, цифры и символы точки, тире и подчёркивания';
 $app_strings['LBL_LOGGER_INVALID_FILENAME'] = 'Недопустимое имя файла импорта';
 
+$app_strings['LBL_PASSWORD_SET_NEW_VALUE_TO_RESET'] = 'Установлен. Для смены введите новое значение.';
+$app_strings['LBL_VALUE_SET_PLACEHOLDER'] = 'Значение введено. Для обновления введите новое значение.';
+
+$app_strings['ERR_IMAP_OAUTH_CONNECTION_ERROR'] = 'Невозможно подключиться к серверу исходящей почты с указанным логином авторизации. Подключение: ';
+$app_strings['WARN_OAUTH_TOKEN_SESSION_EXPIRED'] = 'IMAP-сессия закончилась, пройдите повторную авторизацию. Подключение: ';
+
+$app_strings['LBL_KEY'] = 'Ключ';
+$app_strings['LBL_VALUE'] = 'Значение';
+$app_strings['LBL_OPTIONAL'] = 'Optional'; ///
+$app_strings['LBL_OPTIONAL_CONNECTION_STRING'] = 'Необязательная строка подключения';

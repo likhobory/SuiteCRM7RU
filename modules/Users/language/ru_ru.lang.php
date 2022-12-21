@@ -223,7 +223,7 @@ $mod_strings = array(
 'LBL_SIGNATURE_NAME' => 'Название',
 'LBL_NAVIGATION_PARADIGM_DESCRIPTION' => 'Группировать модули на основной панели согласно предустановленным настройкам. Группы настраиваются Администратором системы.',
 'LBL_USE_GROUP_TABS' => 'Сгруппированные модули',
-'LBL_NEW_FORM_TITLE' => 'Новый пользователь' ,
+'LBL_NEW_FORM_TITLE' => 'Создать пользователя' ,
 'LBL_NEW_PASSWORD' => 'Новый пароль:' ,
 'LBL_NEW_PASSWORD2' => 'Подтверждение пароля' ,
 'LBL_NEW_USER_PASSWORD_2' => 'Письмо, содержащее автоматически сгенерированный пароль, было отправлено новому пользователю.',
@@ -749,5 +749,9 @@ $mod_strings = array(
 'LBL_GOOGLE_API_TOKEN_BTN' => 'Получить токен',
 'LBL_GSYNC_CAL' => 'Включить синхронизацию с календарём Google',
 // END Google Token/Synchronization settings
-	
+
+'LNK_LIST_OUTBOUND_EMAIL_ACCOUNTS' => 'Учётные записи исходящей почты',
+'LNK_LIST_INBOUND_EMAIL_ACCOUNTS' => 'Учётные записи входящей почты',
+'LNK_EXTERNAL_OAUTH_CONNECTIONS' => 'Внешние OAuth-подключения',
+		
 ); // END STRINGS DEFS

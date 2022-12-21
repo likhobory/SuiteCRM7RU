@@ -54,7 +54,7 @@ $mod_strings = array(
   'LBL_SEARCH_FORM_TITLE' => 'Поиск отложенных звонков',
   'LBL_HISTORY_SUBPANEL_TITLE' => 'История',
   'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Мероприятия',
-  'LBL_NEW_FORM_TITLE' => 'Новый отложенный звонок',
+  'LBL_NEW_FORM_TITLE' => 'Создать отложенный звонок',
   'LBL_REASON' => 'Причина',
   'LBL_CALLS' => 'Звонки',
 );

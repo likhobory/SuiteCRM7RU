@@ -69,7 +69,7 @@ $mod_strings = array(
 'LBL_CAT_OR_SUBCAT_UNSPEC' => 'Неопределённый' ,
 'LBL_HOMEPAGE_TITLE' => 'Мои документы',
 //quick search
-'LBL_NEW_FORM_TITLE' => 'Новый документ',
+'LBL_NEW_FORM_TITLE' => 'Создать документ',
 //document edit and detail view
 'LBL_DOC_NAME' => 'Название документа:' ,
 'LBL_FILENAME' => 'Имя файла:' ,
@@ -95,7 +95,7 @@ $mod_strings = array(
 'LBL_DOC_EXP_DATE' => 'Актуален до:' ,
 
 //document list view.
-'LBL_LIST_FORM_TITLE' => 'Список документов' ,
+'LBL_LIST_FORM_TITLE' => 'Документы' ,
 'LBL_LIST_DOCUMENT' => 'Документ' ,
 
 'LBL_LIST_SUBCATEGORY' => 'Подкатегория' ,
