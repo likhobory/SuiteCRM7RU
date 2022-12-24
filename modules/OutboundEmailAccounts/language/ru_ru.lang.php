@@ -52,10 +52,10 @@ $mod_strings = array(
   'LNK_NEW_RECORD' => 'Добавить сервер исходящей почты',
   
   'LNK_LIST_CREATE_NEW_PERSONAL' => 'Создать персональную учётную запись исходящей почты',
-  'LNK_LIST_CREATE_NEW_GROUP' => 'Создать системную учётную запись исходящей почты',
+  'LNK_LIST_CREATE_NEW_GROUP' => 'Создать групповую учётную запись исходящей почты',
       'LNK_LIST_CREATE_SYSTEM_OVERRIDE_GROUP' => 'New System Override Outbound Email Account', ///
 	
-  'LNK_LIST' => 'Перечень серверов исходящей почты',
+  'LNK_LIST' => 'Учётные записи исходящей почты',
   'LNK_LIST_INBOUND_EMAIL_ACCOUNTS' => 'Учётные записи входящей почты',
   'LBL_SEARCH_FORM_TITLE' => 'Поиск серверов исходящей почты',
   'LBL_HISTORY_SUBPANEL_TITLE' => 'История',

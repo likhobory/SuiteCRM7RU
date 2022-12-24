@@ -125,7 +125,7 @@ $mod_strings = array(
 'LBL_WARN_NO_IMAP' => 'Эта система не имеет IMAP-клиента, скомпилированного в PHP-модуле (--with-imap=/path/to/imap_c-client_library). Пожалуйста, свяжитесь с вашим администратором для решений этой проблемы.' ,
 
 'LNK_LIST_CREATE_NEW_PERSONAL' => 'Создать персональную учётную запись входящей почты',
-'LNK_LIST_CREATE_NEW_GROUP' => 'Создать групповую учётную запись',
+'LNK_LIST_CREATE_NEW_GROUP' => 'Создать групповую учётную запись входящей почты',
 'LNK_LIST_CREATE_NEW_CASES_TYPE' => 'Создать учётную запись для обработки Обращений',
 'LNK_LIST_CREATE_NEW_BOUNCE' => 'Создать учётную запись для обработки возвращаемой почты',
 'LNK_LIST_MAILBOXES' => 'Учётные записи входящей почты',
@@ -175,9 +175,9 @@ $mod_strings = array(
 'LBL_AUTOREPLY_EMAIL_TEMPLATE_ID' => 'ID шаблона для автоответа',
 'LBL_AUTOREPLY_EMAIL_TEMPLATE_NAME' => 'Шаблон для автооответа',
 
-'LBL_CASE_EMAIL_TEMPLATE' => 'Шаблон для Обращения',
-'LBL_CASE_EMAIL_TEMPLATE_ID' => 'ID шаблона для Обращения',
-'LBL_CASE_EMAIL_TEMPLATE_NAME' => 'Шаблон для Обращения',
+'LBL_CASE_EMAIL_TEMPLATE' => 'Шаблон автоответа при создании нового Обращения',
+'LBL_CASE_EMAIL_TEMPLATE_ID' => 'ID шаблона при создании нового Обращения',
+'LBL_CASE_EMAIL_TEMPLATE_NAME' => 'Шаблон автоответа при создании нового Обращения',
 
 'LBL_PROTOCOL' => 'Протокол',
 'LBL_CONNECTION_STRING' => 'Строка подключения',
