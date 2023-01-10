@@ -320,11 +320,11 @@ $mod_strings = array(
 'LBL_MAILBOX_DESC' => 'Настройка учётных записей для обработки входящей почты' ,
 'LBL_MAILBOX_OUTBOUND_DESC' => 'Настройка учётных записей исходящей почты',
 
-'LBL_MANAGE_EXTERNAL_OAUTH_CONNECTIONS' => 'Внешние OAuth-подключения',
-'LBL_MANAGE_EXTERNAL_OAUTH_CONNECTIONS_DESC' => 'Настройка внешних OAuth-подключений',
+'LBL_MANAGE_EXTERNAL_OAUTH_CONNECTIONS' => 'Внешние подключения OAuth',
+'LBL_MANAGE_EXTERNAL_OAUTH_CONNECTIONS_DESC' => 'Настройка внешних подключений OAuth',
 
-'LBL_MANAGE_EXTERNAL_OAUTH_PROVIDERS' => 'Внешние OAuth-провайдеры',
-'LBL_MANAGE_EXTERNAL_OAUTH_PROVIDERS_DESC' => 'Настройка внешних OAuth-провайдеров',
+'LBL_MANAGE_EXTERNAL_OAUTH_PROVIDERS' => 'Внешние провайдеры OAuth',
+'LBL_MANAGE_EXTERNAL_OAUTH_PROVIDERS_DESC' => 'Настройка внешних провайдеров OAuth',
 	
 'LBL_MANAGE_CURRENCIES' => 'Валюта' ,
 'LBL_MANAGE_LANGUAGES' => 'Языковые пакеты',
@@ -341,8 +341,8 @@ $mod_strings = array(
 'LBL_MANAGE_USERS_TITLE' => 'Управление пользователями' ,
 'LBL_MANAGE_USERS' => 'Управление пользователями (настройки и пароли)' ,
 
-'LBL_MASS_EMAIL_CONFIG_DESC' => 'Настройка основных параметров электронной почты' ,
-'LBL_MASS_EMAIL_CONFIG_TITLE' => 'Настройка E-mail' ,
+'LBL_MASS_EMAIL_CONFIG_DESC' => 'Настройка основных параметров электронной почты, включая параметры стандартного сервера исходящей почты' ,
+'LBL_MASS_EMAIL_CONFIG_TITLE' => 'Настройка основных параметров E-mail' ,
 'LBL_MASS_EMAIL_MANAGER_DESC' => 'Управление очерёдностью рассылки исходящей почты' ,
 'LBL_MASS_EMAIL_MANAGER_TITLE' => 'Управление очередью E-mail' ,
 
@@ -858,8 +858,8 @@ $mod_strings = array(
 'LBL_AOP_JOOMLA_SETTINGS' => 'Настройки портала',
 'LBL_AOP_JOOMLA_URL' => 'Joomla URL',
 'LBL_AOP_JOOMLA_ACCESS_KEY' => 'Ключ доступа к Joomla',
-'LBL_AOP_CASE_ASSIGNMENT' => 'Распределение обращений',
-'LBL_AOP_DISTRIBUTION_METHOD' => 'Метод распределения',
+'LBL_AOP_CASE_ASSIGNMENT' => 'Назначение обращений',
+'LBL_AOP_DISTRIBUTION_METHOD' => 'Метод назначения',
 'LBL_AOP_ASSIGNMENT_USER' => 'Пользователь',
 'LBL_AOP_ASSIGNMENT_OPTIONS' => 'Пользователи',
 

@@ -3835,8 +3835,8 @@ $app_strings['LBL_SECURITYGROUP'] = 'Группы пользователей';
 $app_strings['LBL_ROLE'] = 'Роль';
 
 $app_list_strings['moduleList']['OutboundEmailAccounts'] = 'Учётные записи исходящей почты';
-$app_list_strings['moduleList']['ExternalOAuthConnection'] = 'Внешнее OAuth-подключение';
-$app_list_strings['moduleList']['ExternalOAuthProvider'] = 'Внешний OAuth-провайдер';
+$app_list_strings['moduleList']['ExternalOAuthConnection'] = 'Внешнее подключение OAuth';
+$app_list_strings['moduleList']['ExternalOAuthProvider'] = 'Внешний провайдер OAuth';
 
 //social
 $app_strings['FACEBOOK_USER_C'] = 'Facebook';
@@ -3854,8 +3854,8 @@ $app_strings['LBL_ENTER_DASHBOARD_NAME'] = 'Название страницы:';
 $app_strings['LBL_NUMBER_OF_COLUMNS'] = 'Количество колонок на странице:';
 $app_strings['LBL_DELETE_DASHBOARD1'] = 'Вы действительно хотите удалить страницу';
 $app_strings['LBL_DELETE_DASHBOARD2'] = '?';
-$app_strings['LBL_ADD_DASHBOARD_PAGE'] = 'Добавление новой страницы на закладку';
-$app_strings['LBL_DELETE_DASHBOARD_PAGE'] = 'Удаление страницы с закладки';
+$app_strings['LBL_ADD_DASHBOARD_PAGE'] = 'Добавление новой страницы';
+$app_strings['LBL_DELETE_DASHBOARD_PAGE'] = 'Удаление страницы';
 $app_strings['LBL_RENAME_DASHBOARD_PAGE'] = 'Переименование страницы';
 $app_strings['LBL_SUITE_DASHBOARD_ACTIONS'] = 'Действия';
 

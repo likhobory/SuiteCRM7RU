@@ -752,6 +752,6 @@ $mod_strings = array(
 
 'LNK_LIST_OUTBOUND_EMAIL_ACCOUNTS' => 'Учётные записи исходящей почты',
 'LNK_LIST_INBOUND_EMAIL_ACCOUNTS' => 'Учётные записи входящей почты',
-'LNK_EXTERNAL_OAUTH_CONNECTIONS' => 'Внешние OAuth-подключения',
+'LNK_EXTERNAL_OAUTH_CONNECTIONS' => 'Внешние подключения OAuth',
 		
 ); // END STRINGS DEFS

@@ -160,7 +160,7 @@ $mod_strings = array(
 
 'LBL_OUTBOUND_CONFIGURATION' => 'Настройки исходящей почты',
 'LBL_CONNECTION_CONFIGURATION' => 'Настройки сервера',
-'LBL_AUTO_REPLY_CONFIGURATION' => 'Настройки автоответа',
+'LBL_AUTO_REPLY_CONFIGURATION' => 'Настройки стандартного автоответа',
 'LBL_CASE_CONFIGURATION' => 'Настройки Обращения',
 'LBL_GROUP_CONFIGURATION' => 'Настройки группы',
 
@@ -171,9 +171,9 @@ $mod_strings = array(
 'LBL_OUTBOUND_EMAIL_ACCOUNT_ID' => 'ID учётной записи исходящей почты',
 'LBL_OUTBOUND_EMAIL_ACCOUNT_NAME' => 'Учётная запись исходящей почты',
 
-'LBL_AUTOREPLY_EMAIL_TEMPLATE' => 'Шаблон для автооответа',
-'LBL_AUTOREPLY_EMAIL_TEMPLATE_ID' => 'ID шаблона для автоответа',
-'LBL_AUTOREPLY_EMAIL_TEMPLATE_NAME' => 'Шаблон для автооответа',
+'LBL_AUTOREPLY_EMAIL_TEMPLATE' => 'Шаблон стандартного автооответа',
+'LBL_AUTOREPLY_EMAIL_TEMPLATE_ID' => 'ID шаблона стандартного автоответа',
+'LBL_AUTOREPLY_EMAIL_TEMPLATE_NAME' => 'Шаблон стандартного автооответа',
 
 'LBL_CASE_EMAIL_TEMPLATE' => 'Шаблон автоответа при создании нового Обращения',
 'LBL_CASE_EMAIL_TEMPLATE_ID' => 'ID шаблона при создании нового Обращения',
@@ -188,10 +188,10 @@ $mod_strings = array(
 'LBL_DISTRIBUTION_USER_ID' => 'ID назначенного пользователя',
 'LBL_DISTRIBUTION_USER_NAME' => 'Назначенный пользователь',
 
-'LBL_EXTERNAL_OAUTH_CONNECTION' => 'Внешнее OAuth-подключение',
-'LBL_EXTERNAL_OAUTH_CONNECTION_ID' => 'ID внешнего OAuth-подключения',
-'LBL_EXTERNAL_OAUTH_CONNECTION_NAME' => 'Внешнее OAuth-подключение',
-'LNK_EXTERNAL_OAUTH_CONNECTIONS' => 'Внешние OAuth-подключения',
+'LBL_EXTERNAL_OAUTH_CONNECTION' => 'Внешнее подключение OAuth',
+'LBL_EXTERNAL_OAUTH_CONNECTION_ID' => 'ID внешнего подключения OAuth',
+'LBL_EXTERNAL_OAUTH_CONNECTION_NAME' => 'Внешнее подключение OAuth',
+'LNK_EXTERNAL_OAUTH_CONNECTIONS' => 'Внешние подключения OAuth',
 
 'LBL_TYPE' => 'Тип',
 'LBL_AUTH_TYPE' => 'Тип авторизации',

@@ -1,5 +1,9 @@
 <?php
-if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
+
+if (!defined('sugarEntry') || !sugarEntry) {
+    die('Not A Valid Entry Point');
+}
+
 /*********************************************************************************
 
 * This program is free software; you can redistribute it and/or modify it under
@@ -47,23 +51,23 @@ $mod_strings = [
  'LBL_LIST_NAME' => 'Имя',
  'LBL_EDIT_BUTTON' => 'Править',
  'LBL_REMOVE' => 'Удалить',
- 'LBL_LIST_FORM_TITLE' => 'Внешние OAuth-подключения',
- 'LBL_MODULE_NAME' => 'Внешние OAuth-подключения',
- 'LBL_MODULE_TITLE' => 'Внешние OAuth-подключения',
- 'LBL_HOMEPAGE_TITLE' => 'Мои внешние OAuth-подключения',
- 'LNK_NEW_RECORD' => 'Создать внешнее OAuth-подключение',
+ 'LBL_LIST_FORM_TITLE' => 'Внешние подключения OAuth',
+ 'LBL_MODULE_NAME' => 'Внешние подключения OAuth',
+ 'LBL_MODULE_TITLE' => 'Внешние подключения OAuth',
+ 'LBL_HOMEPAGE_TITLE' => 'Мои внешние подключения OAuth',
+ 'LNK_NEW_RECORD' => 'Создать внешнее подключение OAuth',
 
- 'LNK_LIST' => 'Внешние OAuth-подключения',
- 'LBL_SEARCH_FORM_TITLE' => 'Поиск внешних OAuth-подключений',
+ 'LNK_LIST' => 'Внешние подключения OAuth',
+ 'LBL_SEARCH_FORM_TITLE' => 'Поиск внешних подключений OAuth',
  'LBL_HISTORY_SUBPANEL_TITLE' => 'История',
  'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Мероприятия',
- 'LBL_NEW_FORM_TITLE' => 'Новое внешнее OAuth-подключение',
+ 'LBL_NEW_FORM_TITLE' => 'Новое внешнее подключение OAuth',
 
  'LBL_LIST_DELETE' => 'Удалить',
  'LBL_TYPE' => 'Тип подключения',
 
  'LBL_CLIENT_ID' => 'ID клиента',
- 'LBL_CLIENT_SECRET' => 'Секретный ключ',
+ 'LBL_CLIENT_SECRET' => 'Секрет клиента',
  'LBL_TOKEN_TYPE' => 'Тип токена',
  'LBL_EXPIRES_IN' => 'Действителен до',
  'LBL_ACCESS_TOKEN' => 'Токен доступа',
@@ -76,11 +80,11 @@ $mod_strings = [
  'LBL_EXTERNAL_OAUTH_PROVIDER_NAME' => 'Провайдер',
  'LBL_EXTERNAL_OAUTH_PROVIDER_ID' => 'ID Провайдера',
 
- 'LNK_LIST_CREATE_NEW_PERSONAL' => 'Создать персональное OAuth-подключение',
- 'LNK_LIST_CREATE_NEW_GROUP' => 'Создать групповое OAuth-подключение',
+ 'LNK_LIST_CREATE_NEW_PERSONAL' => 'Создать персональное подключение OAuth',
+ 'LNK_LIST_CREATE_NEW_GROUP' => 'Создать групповое подключение OAuth',
  'LNK_LIST_INBOUND_EMAILS' => 'Учётные записи входящей почты',
  'LNK_LIST_OUTBOUND_EMAILS' => 'Учётные записи исходящей почты',
-'LNK_LIST_EXTERNAL_OAUTH_PROVIDERS' => 'Внешние OAuth-провайдеры',
+'LNK_LIST_EXTERNAL_OAUTH_PROVIDERS' => 'Внешние провайдеры OAuth',
 
  'LBL_OWNER' => 'Владелец',
 ];

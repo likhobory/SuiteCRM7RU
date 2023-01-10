@@ -36,5 +36,5 @@
                                     <tr><td width="35%" class="dataLabel">Детальная информация о создании приложения находится  <a href=https://dev.twitter.com/>здесь</a>.</td></tr></table>',
         //Configuration labels
         'consumer_key' => 'Ключ пользователя',
-        'consumer_secret' => 'Секретный ключ',
+        'consumer_secret' => 'Секрет пользователя',
     );

@@ -78,7 +78,7 @@ $mod_strings = array(
     'LBL_MAIL_SMTPAUTH_REQ' => 'Использовать SMTP-аутентификацию?',
     'LBL_MAIL_SMTPPASS' => 'Пароль:',
     'LBL_MAIL_SMTPPORT' => 'Порт:',
-    'LBL_MAIL_SMTPSERVER' => 'Сервер:',
+    'LBL_MAIL_SMTPSERVER' => 'Сервер исходящей почты:',
     'LBL_MAIL_SMTPUSER' => 'Логин:',
     'LBL_MAIL_SMTP_SETTINGS' => 'Параметры SMTP-сервера',
     'LBL_CHOOSE_EMAIL_PROVIDER' => 'Укажите провайдера электронной почты',
@@ -102,5 +102,5 @@ $mod_strings = array(
     'LBL_OWNER' => 'Владелец',
     'LBL_OWNER_NAME' => 'Владелец',
 
-    'LNK_EXTERNAL_OAUTH_CONNECTIONS' => 'Внешние OAuth-подключения'
+    'LNK_EXTERNAL_OAUTH_CONNECTIONS' => 'Внешние подключения OAuth'
 );
