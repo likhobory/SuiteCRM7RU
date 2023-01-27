@@ -47,6 +47,7 @@ $mod_strings = array(
 'LBL_EMAIL_ENABLE_CONFIRM_OPT_IN' => 'Подтверждение подписки',
 'LBL_EMAIL_ENABLE_SEND_OPT_IN' => 'Автоматически отправлять письма при двойном подтверждении подписки',
 'LBL_EMAIL_CONFIRM_OPT_IN_TEMPLATE_ID' => 'Шаблон письма для подтверждения подписки',
+'LBL_LEGACY_EMAIL_COMPOSE_BEHAVIOR' => 'Добавлять в список адресов отправителей данные из учётных записей входящей почты (устаревший параметр)',
 'LBL_EMAIL_OUTBOUND_CONFIGURATION' => 'Параметры сервера исходящей почты',
 'LBL_EMAILS_PER_RUN' => 'Количество писем, отправляемых одномоментно при пакетной рассылке' ,
 'LBL_ID' => 'ID' ,

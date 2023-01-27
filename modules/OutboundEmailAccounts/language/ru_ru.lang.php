@@ -96,6 +96,8 @@ $mod_strings = array(
     'LBL_MAIL_SMTPSSL' => 'Параметры SMTP/SSL:',
 	'LBL_SMTP_FROM_NAME' => 'Имя отправителя',
     'LBL_SMTP_FROM_ADDR' => 'Адрес отправителя',
+	'LBL_REPLY_TO_NAME' => 'Ответить на имя',
+    'LBL_REPLY_TO_ADDR' => 'Ответить на адрес',
 	
 	'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Группы пользователей',
 
