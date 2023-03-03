@@ -67,5 +67,8 @@ $mod_strings = array(
   'LBL_SURVEYS_SURVEYRESPONSES_FROM_SURVEYS_TITLE' => 'Опрос',
   'LBL_QUESTION_RESPONSES_DISPLAY' => 'Результаты опроса',
   'LBL_SURVEYRESPONSES_CAMPAIGNS_FROM_CAMPAIGNS_TITLE' => 'Маркет. кампания',
+  'LBL_QUESTION' => 'Вопрос',
+  'LBL_RESPONSE' => 'Ответ'
+
 
 );
