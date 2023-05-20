@@ -73,7 +73,7 @@ $mod_strings = array(
 'LBL_LIST_CONTACT_NAME' => 'Контактное лицо' ,
 'LBL_LIST_ACCOUNT_NAME' => 'Контрагент' ,
 'LBL_LIST_PHONE' => 'Тел.' ,
-'NTC_DELETE_CONFIRMATION' => 'Вы уверены, что хотите удалить этот контакт из данной ошибки?' ,
+'NTC_DELETE_CONFIRMATION' => 'Вы действительно хотите удалить этот контакт из данной ошибки?' ,
 
 'LBL_DEFAULT_SUBPANEL_TITLE' => 'Ошибки' ,
 'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Мероприятия' ,

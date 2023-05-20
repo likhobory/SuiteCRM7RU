@@ -56,17 +56,26 @@ Russian RAPIRA language pack and manual for SuiteCRM
 
 <b>Документация к SuiteCRM</b>
 
-Детальная информация по установке, настройке и использованию системы описана в русскоязычной [документации к SuiteCRM][man-ru].
+[Официальная][man-ru] русскоязычная документация не обновляется с 2022 года, актуальная информация по установке,
+ настройке и использованию SuiteCRM сейчас располагается [здесь][man-ru-netlify].
+ 
+Разница между актуальной и официальной версией описана в [этом][pr-582] запросе на слияние.
 
-Пользователям, не знакомым с SuiteCRM, в первую очередь рекомендуются к прочтению раздел [Начало работы][getting-started], описывающий основные технические требования, необходимые для работы в системе, и раздел  
-[Описание пользовательского интерфейса][ui], знакомящий с основными настройками системы. В описании присутствует масса перекрёстных ссылок, позволяющих быстро перейти к подробному описанию рассматриваемого функционала.
+Пользователям, не знакомым с SuiteCRM, в первую очередь рекомендуются к прочтению раздел [Начало работы][getting-started], 
+описывающий основные технические требования, необходимые для работы в системе, и раздел  
+[Описание пользовательского интерфейса][ui], знакомящий с основными настройками системы. 
+В описании присутствует масса перекрёстных ссылок, позволяющих быстро перейти к подробному описанию рассматриваемого функционала.
 
             
 [langpack]: https://github.com/likhobory/SuiteCRM7RU/blob/ver.7.13/rapira-suite_pack_russian.zip?raw=true
 [man-adoc]: https://github.com/likhobory/SuiteDocs/blob/master/README.ru.adoc
 [man-ru]: https://docs.suitecrm.com/ru
-[getting-started]: https://docs.suitecrm.com/ru/user/introduction/getting-started
-[ui]: https://docs.suitecrm.com/ru/user/introduction/user-interface
+[man-ru-netlify]: https://russian-rapira-suitecrm-docs.netlify.app/ru   
+
+[pr-582]: https://github.com/salesagility/SuiteDocs/pull/582
+
+[getting-started]: https://russian-rapira-suitecrm-docs.netlify.app/ru/user/introduction/getting-started
+[ui]: https://russian-rapira-suitecrm-docs.netlify.app/ru/user/introduction/user-interface
 
 [suitecrm]: https://github.com/salesagility/SuiteCRM
 [forum]: https://community.suitecrm.com/t/topic/11657
