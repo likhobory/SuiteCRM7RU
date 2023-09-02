@@ -67,7 +67,7 @@ Russian RAPIRA language pack and manual for SuiteCRM
 В описании присутствует масса перекрёстных ссылок, позволяющих быстро перейти к подробному описанию рассматриваемого функционала.
 
             
-[langpack]: https://github.com/likhobory/SuiteCRM7RU/blob/ver.7.13/rapira-suite_pack_russian.zip?raw=true
+[langpack]: https://github.com/likhobory/SuiteCRM7RU/blob/ver.7.14/rapira-suite_pack_russian.zip?raw=true
 [man-adoc]: https://github.com/likhobory/SuiteDocs/blob/master/README.ru.adoc
 [man-ru]: https://docs.suitecrm.com/ru
 [man-ru-netlify]: https://russian-rapira-suitecrm-docs.netlify.app/ru   

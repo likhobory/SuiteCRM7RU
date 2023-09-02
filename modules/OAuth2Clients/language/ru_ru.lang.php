@@ -34,15 +34,16 @@ $mod_strings = array (
     'LBL_MODULE_NAME' => 'OAuth2-клиенты',
     'LBL_MODULE_TITLE' => 'OAuth2-клиенты',
     'LBL_MODULE_ID'=> 'OAuth2-клиенты',
-	'LBL_IS_CONFIDENTIAL'=> 'Конфиденциальный клиент',
+    'LBL_IS_CONFIDENTIAL'=> 'Конфиденциальный клиент',
     'LBL_SECRET'=> 'Секрет',
     'LBL_SECRET_HASHED'=> 'Изменить секрет',
     'LBL_LEAVE_BLANK'=> 'Оставьте это поле пустым, если не требуется изменить значение секрета',
     'LBL_REMEMBER_SECRET'=> 'Значение сохранённого секрета будет недоступно после сохранения. Храните значение секрета в надёжном месте.',
-	'LBL_REDIRECT_URL' => 'URI перенаправления на страницу авторизации',
-	'LBL_ALLOWED_GRANT_TYPE' => 'Вид гранта',
-    'LBL_DURATION_AMOUNT' => 'Продолжительность',
+    'LBL_REDIRECT_URL' => 'URI перенаправления на страницу авторизации',
+    'LBL_ALLOWED_GRANT_TYPE' => 'Вид гранта',
+    'LBL_DURATION_AMOUNT' => 'Коэф. продолжительности',
     'LBL_DURATION_UNIT' => 'Единицы измерения',
+    'LBL_DURATION_VALUE' => 'Продолжительность',
     'LBL_USER' => 'Пользователь',
 
     'LBL_OAUTHTOKENS_SUBPANEL_TITLE' => 'Активные OAuth2-токены',
@@ -53,9 +54,9 @@ $mod_strings = array (
 
     'LNK_OAUTH2_TOKEN_LIST'=> 'OAuth2-токены',
     'LNK_OAUTH2_CLIENT_LIST'=> 'OAuth2-клиенты',
-	
+
     'LNK_NEW_OAUTH2_CLIENT'=> 'Создать OAuth2-клиента',
-	'LNK_NEW_OAUTH2_PASSWORD_CLIENT' => 'Добавить доступ по паролю ',
+    'LNK_NEW_OAUTH2_PASSWORD_CLIENT' => 'Добавить доступ по паролю ',
     'LNK_NEW_OAUTH2_CREDENTIALS_CLIENT' => 'Добавить доступ через клиентские полномочия',
     'LNK_NEW_OAUTH2_IMPLICIT_CLIENT' => 'Добавить неявный доступ',
     'LNK_NEW_OAUTH2_AUTHORIZATION_CLIENT' => 'Добавить доступ через код подтверждения',

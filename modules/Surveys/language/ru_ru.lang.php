@@ -28,6 +28,7 @@
 
 $mod_strings = array(
   'LBL_ASSIGNED_TO_ID' => 'Ответственный(ая)',
+  'LBL_ADD_OPTION'     => 'Добавить параметр',
   'LBL_ASSIGNED_TO_NAME' => 'Ответственный(ая)',
   'LBL_SECURITYGROUPS' => 'Группы пользователей',
   'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Группы пользователей',
@@ -79,6 +80,7 @@ $mod_strings = array(
   'LBL_SURVEYS_SURVEYQUESTIONS_FROM_SURVEYQUESTIONS_TITLE' => 'Вопросы',
   'LBL_SURVEYS_SURVEYRESPONSES_FROM_SURVEYRESPONSES_TITLE' => 'Результаты опроса',
   'LBL_SHOW_RESPONSES' => 'Показать результаты',
+  'LBL_HIDE_RESPONSES' => 'Скрыть результаты',
   'LBL_SURVEY_QUESTION' => 'Вопрос',
   'LBL_SURVEY_TEXT' => 'Текст',
   'LBL_SURVEY_TYPE' => 'Тип',

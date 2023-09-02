@@ -804,6 +804,11 @@ $app_list_strings = array(
         'group' => 'Групповое',
     ],
 
+    'dom_external_oauth_provider_types' => [
+        'personal' => 'Персональный',
+        'group' => 'Групповой',
+    ],
+	
     'dom_outbound_email_account_types' => [
         'user' => 'Персональная',
         'group' => 'Групповая',

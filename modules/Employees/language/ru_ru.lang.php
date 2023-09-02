@@ -139,7 +139,9 @@ $mod_strings = array(
 'LBL_PROJECT_USERS_1_FROM_PROJECT_TITLE' => 'Пользователи',
 'LBL_PROJECT_CONTACTS_1_FROM_CONTACTS_TITLE' => 'Контакты',
 'LBL_ROLES' => 'Роли',
-'LBL_PROSPECT_LIST' => 'Список адресатов',
 'LBL_SECURITYGROUPS' => 'Группы пользователей',
+'LBL_PROSPECT_LIST' => 'Список адресатов',
 
+'LBL_FACTOR_AUTH_INTERFACE' => 'Интерфейс двухфакторной аутентификации:',
+'LBL_EDITOR_TYPE' => 'Редактор',
 );
