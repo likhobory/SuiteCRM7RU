@@ -92,4 +92,5 @@ $mod_strings = array(
   'LBL_DRAFT' => 'Черновик',
   'LBL_SUBMIT' => 'Отправить',
   'LBL_STARS' => 'Звёзды',
+  'LBL_SURVEY_CLOSE_RESPONSE' => 'Благодарим за проявленный интерес, но опрос уже окончен.',
 );

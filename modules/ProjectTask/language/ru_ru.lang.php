@@ -102,4 +102,6 @@ $mod_strings = array(
 'LBL_HOURS' => 'часов',
 'LBL_RELATIONSHIP_TYPE' => 'Тип связи',
 
+'LBL_ASCENDING' => 'Восходящая',
+'LBL_DESCENDING' => 'Нисходящая',
 );

@@ -187,4 +187,7 @@ $mod_strings = array(
   'LBL_RESOURCE_CHART_QUARTER' => 'Квартал',
   'LBL_AM_PROJECTTEMPLATES_PROJECT_1_FROM_PROJECT_TITLE' => 'Шаблоны проекта',
   'LBL_AOS_QUOTES_PROJECT' => 'Проекты-Предложения',
+  
+  'LBL_ASCENDING' => 'Восходящая',
+  'LBL_DESCENDING' => 'Нисходящая',
 );

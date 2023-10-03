@@ -74,4 +74,7 @@ $mod_strings = array(
 'LBL_DOMAIN' => 'Нет писем в домене:'  ,
 'LBL_LIST_PROSPECTLIST_NAME' => 'Название',
 'LBL_EMAIL_MARKETING' => 'Рассылки E-mail',
+
+'LBL_ASCENDING' => 'Восходящая',
+'LBL_DESCENDING' => 'Нисходящая',
 );

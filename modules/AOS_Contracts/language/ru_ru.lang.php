@@ -62,7 +62,8 @@ $mod_strings = array(
     'LBL_STATUS' => 'Статус',
     'LBL_CUSTOMER_SIGNED_DATE' => 'Дата подписания клиентом',
     'LBL_COMPANY_SIGNED_DATE' => 'Дата подписания контрагентом',
-    'LBL_RENEWAL_REMINDER_DATE' => 'Уведомление об окончании срока действия',
+    'LBL_RENEWAL_REMINDER' => ' Уведомление об окончании срока действия договора',
+	'LBL_RENEWAL_REMINDER_DATE' => 'Дата уведомления об окончании срока действия',
     'LBL_CONTRACT_TYPE' => 'Тип договора',
 	
     'LBL_CONTACT' => 'Контакт',

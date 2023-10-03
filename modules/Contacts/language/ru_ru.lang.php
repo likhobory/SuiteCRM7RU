@@ -178,7 +178,6 @@ $mod_strings = array(
 'LBL_CONTACTS_SUBPANEL_TITLE' => 'Контакты',
 'LBL_PROJECT_SUBPANEL_TITLE' => 'Проекты',
 'LNK_IMPORT_CONTACTS' => 'Импорт контактов',
-'LBL_PROJECT_CONTACTS_1_FROM_PROJECT_TITLE' => 'Контакты проекта',
 
 //For export labels ///
 
@@ -206,5 +205,8 @@ $mod_strings = array(
 'LBL_AOS_CONTRACTS' => 'Договоры',
 'LBL_AOS_INVOICES' => 'Счета',
 'LBL_AOS_QUOTES' => 'Предложения',
+'LBL_PROJECT_CONTACTS_1_FROM_PROJECT_TITLE' => 'Контакты проекта',
+
+'LBL_LIST_INVITE_STATUS' => 'Статус приглашения',
 
 );
