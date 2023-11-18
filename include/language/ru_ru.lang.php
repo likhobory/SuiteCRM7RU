@@ -821,6 +821,12 @@ $app_list_strings = array(
         'Inactive' => 'Не активна',
     ],
 	
+   'dom_email_body_filtering_option' => [
+        'multi' => 'По нескольким словам',
+        'single' => 'По одному слову',
+    ],
+
+	
     'dom_email_types' => array(
         'out' => 'Отправлено' ,
         'archived' => 'Архив' ,

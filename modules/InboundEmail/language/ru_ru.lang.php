@@ -38,6 +38,7 @@ $mod_strings = array(
 'ERR_NO_IMAP' => 'Не найдены библиотеки IMAP. Пожалуйста, решите эту проблему перед тем. как продолжить работу с входящей почтой' ,
 'ERR_NO_OPTS_SAVED' => 'Оптимальные настройки не были сохранены для входящих писем. Пожалуйста, проверьте соответствующие настройки' ,
 'ERR_TEST_MAILBOX' => 'Пожалуйста, проверьте ваши настройки и попробуйте ещё раз.' ,
+'ERR_INVALID_PORT' => 'Неверный порт',
 
 'LBL_ASSIGN_TO_USER' => 'Назначить пользователю' ,
 'LBL_AUTOREPLY' => 'Шаблон автоматического ответа' ,
@@ -114,6 +115,7 @@ $mod_strings = array(
 'LBL_ASSIGN_TO_TEAM_DESC' => 'The selected team has access to the mail account.', ///
 'LBL_SSL' => 'Использовать SSL' ,
 'LBL_STATUS' => 'Статус' ,
+'LBL_EMAIL_BODY_FILTERING' => 'Тип поиска в тексте Email',
 'LBL_SYSTEM_DEFAULT' => 'По умолчанию' ,
 'LBL_TEST_BUTTON_TITLE' => 'Тестирование' ,
 'LBL_TEST_SETTINGS' => 'Тест настроек' ,

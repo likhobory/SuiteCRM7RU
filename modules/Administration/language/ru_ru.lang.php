@@ -681,6 +681,7 @@ $mod_strings = array(
 'ML_SUITE_DZ' => 'Зона разработчика SuiteCRM',
 'ML_AVAIL_RESTRICTION' => 'Имеющиеся ограничения и исключения подробно изложены в',
 'ML_OVERRIDE_CORE_FILES' => 'Переопределение основных файлов SuiteCRM не допускается ',
+'ML_INVALID_PHP_FILE' => 'Неверный формат файла',
 'ML_PATH_MAY_NOT_CONTAIN' => 'Путь к файлу может не содержать',
 'ML_INVALID_ACTION_IN_MANIFEST' => 'Ошибка в файле манифеста:',
 'ML_NO_MANIFEST' => 'Установочный пакет не содержит файл манифеста',
