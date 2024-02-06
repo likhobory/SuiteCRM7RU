@@ -75,6 +75,7 @@ $mod_strings = array(
 'ERR_RECIPIENT_EMAIL' => 'E-mail получателя',
 'ERR_SERVER_STATUS' => 'Состояние вашего сервера',
 'ERR_SERVER_SMTP_EMPTY' => 'Система не в состоянии отправить письмо пользователю. Проверьте параметры сервера исходящей почты в <a href="index.php?module=EmailMan&action=config">Настройках E-mail</a>.',
+'ERR_DELETE_USER' => 'Не разрешается удалять пользователя, вошедшего в систему.',
 
 'LBL_ADDRESS_CITY' => 'Адрес - город:' ,
 'LBL_ADDRESS_COUNTRY' => 'Адрес - страна:' ,

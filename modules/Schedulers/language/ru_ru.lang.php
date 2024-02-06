@@ -47,6 +47,7 @@ $mod_strings = array(
 'LBL_OOTB_CLEANUP_QUEUE' => 'Очищать очередь заданий',
 'LBL_OOTB_REMOVE_DOCUMENTS_FROM_FS' => 'Удалять неиспользуемые файлы из системы',
 'LBL_OOTB_GOOGLE_CAL_SYNC' => 'Синхронизировать с календарём Google',
+'LBL_OOTB_ELASTIC_INDEX' => 'Выполнять Elasticsearch-индексацию',
 
 // List Labels
 'LBL_LIST_JOB_INTERVAL' => 'Периодичность:' ,
@@ -149,7 +150,7 @@ $mod_strings = array(
 'LBL_AORRUNSCHEDULEDREPORTS' => 'Создавать отчёты по расписанию',
 'LBL_PROCESSAOW_WORKFLOW' => 'Выполнять настроенные процессы', 
 
-'LBL_RUNELASTICSEARCHINDEXERSCHEDULER' => 'Elasticsearch-индексация',
+'LBL_RUNELASTICSEARCHINDEXERSCHEDULER' => 'Выполнять Elasticsearch-индексацию',
 
 'LBL_SCHEDULER_TIMES' => 'Расписание планировщика',
 'LBL_SYNCGOOGLECALENDAR' => 'Синхронизировать с календарём Google',

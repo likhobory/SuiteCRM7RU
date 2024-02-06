@@ -624,8 +624,8 @@ $mod_strings = array(
 'LBL_QUICK_REPAIR_TITLE' => 'Выберите модули для восстановления:',
 'LBL_QUICK_REPAIR_AND_REBUILD_DESC' => 'Синхронизация таблиц с Vardefs, очистка кеша, восстановление таблиц аудита, расширений, дашлетов' ,
 'LBL_ALL_MODULES' => 'Все модули',
-'LBL_REPAIR_ELASTICSEARCH_INDEX' => 'Восстановление индекса ElasticSearch',
-'LBL_REPAIR_ELASTICSEARCH_INDEX_DONE' => 'Индекс ElasticSearch успешно восстановлен',
+'LBL_REPAIR_ELASTICSEARCH_INDEX' => 'Восстановление индекса Elasticsearch',
+'LBL_REPAIR_ELASTICSEARCH_INDEX_DONE' => 'Индекс Elasticsearch успешно восстановлен',
 'LBL_CAMPAIGN_CONFIG_TITLE' => 'Параметры рассылки E-mail',
 'LBL_CAMPAIGN_CONFIG_DESC' => 'Настройка параметров почтовых рассылок',
 'LBL_REPAIR_ORACLE_FULLTEXT' => 'Rebuild fulltext indices', ///
@@ -791,6 +791,8 @@ $mod_strings = array(
     'LBL_SPRITES_ADDED' => 'Спрайтов добавлено {0}',
     'LBL_SPRITES_EXCLUDING_FILE' => 'Не обработано файлов: {0}',
 	
+	'LBL_CANNOT_DISABLE_CURRENT_LANGUAGE' => 'Используемый язык невозможно отключить. Для отключения текущего языка переключитесь на другой язык.',
+
 	    //FTS
 
     'LBL_DELETE_FTS_DATA' => 'Delete existing data when index is performed. Only data in the selected modules will be indexed.',
@@ -958,13 +960,13 @@ $mod_strings = array(
 'LBL_ELASTIC_SEARCH' => 'Elasticsearch',
 'LBL_ELASTIC_SEARCH_SETTINGS' => 'Настройка Elasticsearch',
 'LBL_ELASTIC_SEARCH_SETTINGS_DESC' => 'Настройка параметров Elasticsearch',
-'LBL_ELASTIC_SEARCH_SETTINGS_HELP' => 'Для работы Elasticsearch требуется настроенный сервер. Более подробная информация указана в <a href="https://docs.suitecrm.com/ru/admin/administration-panel/search/elasticsearch/set-up-elasticsearch/">документации</a>.',
+'LBL_ELASTIC_SEARCH_SETTINGS_HELP' => 'Для работы Elasticsearch требуется настроенный сервер. Более подробная информация указана в <a href="https://docs.suitecrm.com/ru/admin/administration-panel/search/Elasticsearch/set-up-Elasticsearch/">документации</a>.',
 'LBL_ELASTIC_SEARCH_GENERAL' => 'Основные настройки',
 'LBL_ELASTIC_SEARCH_ENABLE' => 'Включить Elasticsearch',
 'LBL_ELASTIC_SEARCH_TEST_CONNECTION' => 'Проверить подключение к поисковому серверу',
 'LBL_ELASTIC_SEARCH_TEST_CONNECTION_SUCCESS' => 'Подключение успешно установлено.',
 'LBL_ELASTIC_SEARCH_TEST_CONNECTION_FAIL' => 'Не удалось выполнить подключение.',
-'LBL_SETUP_ELASTICSEARCH' => 'Перед восстановлением индекса необходимо включить ElasticSearch',
+'LBL_SETUP_ELASTICSEARCH' => 'Перед восстановлением индекса необходимо включить Elasticsearch',
 'LBL_ELASTIC_SEARCH_TEST_CONNECTION_ERROR' => 'Не удалось пропинговать сервер.',
 'LBL_ELASTIC_SEARCH_SERVER' => 'Настройки поискового сервера',
 'LBL_ELASTIC_SEARCH_HOST' => 'Адрес',
@@ -982,8 +984,11 @@ $mod_strings = array(
 'LBL_ELASTIC_SEARCH_INDEX_SCHEDULE_PART' => 'Частичную',
 'LBL_ELASTIC_SEARCH_INDEX_SCHEDULE_FULL_SUCCESS' => 'Запланирована полная индексация, которая начнётся в течение 60 секунд. Результаты поиска могут быть неполными, пока не закончится процесс индексации.',
 'LBL_ELASTIC_SEARCH_INDEX_SCHEDULE_FULL_FAIL' => 'Не удалось запустить полную индексацию.',
+'LBL_ELASTIC_SEARCH_INDEX_SCHEDULE_FULL_FAIL_NO_SUCCESS' => 'Не удалось запланировать полную индексацию. Проверьте, не вышли ли вы из системы?',
+
 'LBL_ELASTIC_SEARCH_INDEX_SCHEDULE_PART_SUCCESS' => 'Запланирована частичная индексация, которая начнётся в течение 60 секунд.',
 'LBL_ELASTIC_SEARCH_INDEX_SCHEDULE_PART_FAIL' => 'Не удалось запустить частичную индексацию.',
+'LBL_ELASTIC_SEARCH_INDEX_SCHEDULE_PART_FAIL_NO_SUCCESS' => 'Не удалось запланировать частичную индексацию. Проверьте, не вышли ли вы из системы?',
 
 // SearchWrapper Settings
 'LBL_SEARCH_INTERFACE' => 'Поисковый интерфейс',
