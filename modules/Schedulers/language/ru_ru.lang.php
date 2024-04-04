@@ -53,7 +53,7 @@ $mod_strings = array(
 'LBL_LIST_JOB_INTERVAL' => 'Периодичность:' ,
 'LBL_LIST_LIST_ORDER' => 'Задания:' ,
 'LBL_LIST_NAME' => 'Задания:' ,
-'LBL_LIST_RANGE' => 'Порядок:' ,
+'LBL_LIST_RANGE' => 'Интервал:' ,
 'LBL_LIST_STATUS' => 'Статус:' ,
 'LBL_LIST_TITLE' => 'Список заданий' ,
 // human readable:
