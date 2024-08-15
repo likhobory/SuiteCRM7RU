@@ -144,7 +144,6 @@ $mod_strings = array(
 'LBL_ENABLE_AUTO_IMPORT' => 'Автоматически импортировать E-mail',
 'LBL_WARNING_CHANGING_AUTO_IMPORT' => 'Предупреждение: Вы изменяете параметр автоматического импорта, что может привести к потере данных.',
 'LBL_WARNING_CHANGING_AUTO_IMPORT_WITH_CREATE_CASE' => 'Предупреждение: При автоматическом создании Обращений автоиморт также должен быть включён.',
-'LBL_EDIT_LAYOUT' => 'Изменить макет' /*for 508 compliance fix*/,
 'LBL_LIST_TITLE_MY_DRAFTS' => 'Черновики',
 'LBL_LIST_TITLE_MY_INBOX' => 'Входящие',
 'LBL_LIST_TITLE_MY_SENT' => 'Отправленные',
@@ -154,6 +153,8 @@ $mod_strings = array(
 'LNK_VIEW_MY_INBOX' => 'Входящие',
 'LNK_QUICK_REPLY' => 'Ответить',
 'LNK_SENT_EMAIL_LIST' => 'Отправленные',
+'LBL_EDIT_LAYOUT' => 'Изменить макет' /*for 508 compliance fix*/,
+'LBL_TYPE_DIFFERENT' => 'Внешнее подключение OAuth должно быть того же типа, что и учётная запись входящей почты',
 	
 'LBL_MODIFIED_BY' => 'Изменено',
 'LBL_SERVICE' => 'Сервис',

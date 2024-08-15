@@ -124,6 +124,7 @@ $mod_strings = array(
 'LBL_NUMBER_GROUPING_SEP_TEXT' => 'Символ, используемый для разделения групп разрядов (1 000 000) ' ,
 'LBL_DECIMAL_SEP' => 'Десятичный разделитель' ,
 'LBL_DECIMAL_SEP_TEXT' => 'Символ, разделяющий целую и дробную части числа' ,
+ 'LBL_USER_LANGUAGE' => 'Язык интерфейса',
 'LBL_FDOW' => 'Первый день недели',
 'LBL_FDOW_TEXT' => 'Первый день недели, отображаемый в календаре',
 'LBL_DATE_FORMAT_TEXT' => 'Установите формат отображения даты' ,
@@ -416,13 +417,13 @@ $mod_strings = array(
 'LBL_WIZARD_FINISH9' => 'Настройка внешнего вида системы',
 'LBL_WIZARD_FINISH10' => 'Настройка макетов страниц, полей, меток и комбобоксов при помощи Студии',
 'LBL_WIZARD_FINISH11' => 'Поддержка и документация',
-'LBL_WIZARD_FINISH12' => 'Доступ к форуму.<br> Для русскоязычных пользователей доступен  <a href="https://community.suitecrm.com/c/suitecrm-forum/36-category" target="_blank">русскоязычный раздел форума</a>.',
+'LBL_WIZARD_FINISH12' => 'Доступ к форуму.<br> Для русскоязычных пользователей доступен  <a href="https://community.suitecrm.com/c/suitecrm-forum/8" target="_blank">русскоязычный раздел форума</a>.',
 'LBL_WIZARD_FINISH14' => 'Документация',
 'LBL_WIZARD_FINISH15' => 'Руководство пользователя и примечания к текущему релизу.',
 'LBL_WIZARD_FINISH16' => 'Просмотр базы знаний', ///
 'LBL_WIZARD_FINISH17' => 'Советы от службы технической поддержки', ///
 'LBL_WIZARD_FINISH18' => 'Форум',
-'LBL_WIZARD_FINISH19' => 'Форум сообщества. Русскоязычные пользователи могут задать вопрос в <a href="https://community.suitecrm.com/c/suitecrm-forum/36-category" target="_blank">этом</a> разделе.',
+'LBL_WIZARD_FINISH19' => 'Форум сообщества. Русскоязычные пользователи могут задать вопрос в <a href="https://community.suitecrm.com/c/suitecrm-forum/8" target="_blank">этом</a> разделе.',
 'LBL_WIZARD_FINISH2DESC' => 'Переход на ГЛАВНУЮ страницу системы.',
 'LBL_WIZARD_PERSONALINFO' => 'Информация о сотруднике',
 'LBL_WIZARD_LOCALE' => 'Региональные стандарты',

@@ -2135,6 +2135,8 @@ $app_strings = array(
 	'LBL_REMOVE_DASHLET_CONFIRM' => 'Вы действительно хотите удалить этот дашлет?',
 	'LBL_REMOVING_DASHLET' => 'Удаление дашлета...',
 	'LBL_REMOVED_DASHLET' => 'Дашлет удалён',
+	'LBL_MAX_DASHLET_COLUMNS' => "Может быть отображено не более %s колонок.",
+	'LBL_RETRIEVING_XML_DATA' => "Возникла проблема при извлечении XML-данных:\n",
 
 	// MySugar Menu Options
 
