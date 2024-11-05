@@ -156,7 +156,7 @@ $mod_strings = array(
 'LBL_LIST_FORM_SENT_TITLE' => 'Отправленные E-mail' ,
 'LBL_LIST_FORM_TITLE' => 'E-mail' ,
 'LBL_LIST_FROM_ADDR' => 'От' ,
-'LBL_LIST_RELATED_TO' => 'Тип получателя' ,
+'LBL_LIST_RELATED_TO' => 'Относится к' ,
 'LBL_LIST_SUBJECT' => 'Тема' ,
 'LBL_LIST_TO_ADDR' => 'Получатель' ,
 'LBL_LIST_TYPE' => 'Тип' ,
@@ -260,7 +260,6 @@ $mod_strings = array(
 'LBL_HAS_ATTACHMENT_INDICATOR' => 'Наличие вложений',
 'ERR_MISSING_REQUIRED_FIELDS' => 'Необходимые поля не заполнены',
 'ERR_INVALID_REQUIRED_FIELDS' => 'Необходимые поля неверно заполнены',
-'LBL_FILTER_BY_RELATED_BEAN' => 'Показать только связанных с записью получателей',
 'LBL_ADD_INBOUND_ACCOUNT' => 'Добавить',
 'LBL_ADD_OUTBOUND_ACCOUNT' => 'Добавить',
 'LBL_EMAIL_ACCOUNTS_INBOUND' => 'Параметры учётной записи',
@@ -283,9 +282,7 @@ $mod_strings = array(
 'LBL_MAILBOX_TYPE_PERSONAL' => 'Персональная',
 'LBL_MAILBOX_TYPE_GROUP' => 'Групповая',
 'LBL_MAILBOX_TYPE_GROUP_FOLDER' => 'Групповая-автоимпорт',
-'LBL_SEARCH_FOR' => 'Поиск',
 'LBL_EMAIL_INBOUND_TYPE_HELP' => '<b>Персональная</b>: Ваша учётная запись. Только вы можете работать с письмами этой учётной записи.<br><b>Групповая</b>: Групповая учётная запись. Все участники группы могут работать с письмами этой учётной записи.<br><b>Групповая-автоимпорт</b>: Групповая учётная запись. Письма данной учётной записи автоматически импортируются в систему.',
-'LBL_ADDRESS_BOOK_SEARCH_HELP' => 'Введите имя, фамилию, адрес электронной почты получателя, название контрагента или имя предварительного контакта.',
 'LBL_TEST_SETTINGS' => 'Тест настроек',
 'LBL_EMPTY_EMAIL_BODY' => '<p><span style="color: #888888;"><em> - Данные отсутствуют - </em></span></p>',
 'LBL_HAS_EMPTY_EMAIL_SUBJECT' => 'Необходимо указать тему письма.',
@@ -401,4 +398,8 @@ $mod_strings = array(
 'ERR_FIELD_FROM_ADDR_NAME_INVALID_EMAIL_PART_TO_FIELD_FROMNAME' => 'Пара имя/адрес отправителя не соответствуют имени отправителя.',
 'ERR_FIELD_FROM_ADDR_NAME_INVALID_EMAIL_PART_TO_FIELD_FROM_NAME' => 'Пара имя/адрес отправителя не соответствуют имени отправителя.',
 
+// Address book (not in current use)
+'LBL_ADDRESS_BOOK_SEARCH_HELP' => 'Введите имя, фамилию, адрес электронной почты получателя, название контрагента или имя предварительного контакта.',
+'LBL_SEARCH_FOR' => 'Поиск',
+'LBL_FILTER_BY_RELATED_BEAN' => 'Показать получателей, связанных с записью ',
 );
