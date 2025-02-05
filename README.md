@@ -1,7 +1,11 @@
-Russian RAPIRA language pack and manual for SuiteCRM
+Russian RAPIRA language pack and manual for SuiteCRM 7
 =========================================
 
-+ Здесь находится самая актуальная версия языковых файлов для [SuiteCRM][suitecrm] версии 7.x (форка безвременно почившего [SugarCRM CE][sugar]), с учётом последних дополнений и исправлений
+Перевод для SuiteCRM 8.x находится [здесь][core-ru].
+
+------------------------------------------------
+
++ В этом репозитории находится самая актуальная версия языковых файлов для [SuiteCRM][suitecrm] версии 7.x (форка безвременно почившего [SugarCRM CE][sugar]), с учётом последних дополнений и исправлений
 + Обновление языковых файлов проще всего сделать через установку языкового пакета ([ссылка на последний актуальный перевод для SuiteCRM][langpack]); процесс установки/обновления пакета русификации SuiteCRM описан ниже
 + Перевод Руководства пользователя и администратора SuiteCRM осуществляется [здесь][man-adoc]
 + Обсуждение русификации интерфейса и перевода документации по SuiteCRM доступно на [официальном форуме][forum]
@@ -74,7 +78,8 @@ Russian RAPIRA language pack and manual for SuiteCRM
 [langpack]: https://github.com/likhobory/SuiteCRM7RU/blob/ver.7.14/rapira-suite_pack_russian.zip?raw=true
 [man-adoc]: https://github.com/likhobory/SuiteDocs/blob/master/README.ru.adoc
 [man-ru]: https://docs.suitecrm.com/ru
-[man-ru-netlify]: https://russian-rapira-suitecrm-docs.netlify.app/ru   
+[man-ru-netlify]: https://russian-rapira-suitecrm-docs.netlify.app/ru
+[core-ru]: https://github.com/likhobory/SuiteCRM-CoreRU   
 
 [pr-582]: https://github.com/salesagility/SuiteDocs/pull/582
 
