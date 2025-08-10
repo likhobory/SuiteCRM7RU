@@ -93,4 +93,6 @@ $mod_strings = array(
   'LBL_SUBMIT' => 'Отправить',
   'LBL_STARS' => 'Звёзды',
   'LBL_SURVEY_CLOSE_RESPONSE' => 'Благодарим за проявленный интерес, но опрос уже окончен.',
+  'LBL_SURVEY_THANKS' => 'Благодарим за пройденный опрос.',
+
 );

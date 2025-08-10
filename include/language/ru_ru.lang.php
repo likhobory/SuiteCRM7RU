@@ -325,6 +325,12 @@ $app_list_strings = array(
 		'Miss' => 'Г-жа.',
         'Prof.' => 'проф.' ,
       ),
+	  
+	'redirect_uri_type_dom' => [
+        'pretty_url' => 'ЧПУ (/ep/)',
+        'query_string' => 'Строка запроса (index.php?entryPoint=)'
+    ],
+	
   //time is in seconds; the greater the time the longer it takes;
   'reminder_max_time'=>90000,
   'reminder_time_options' => array(  60=> 'за 1 минуту',
@@ -795,6 +801,12 @@ $app_list_strings = array(
     ],
 
     'dom_inbound_email_auth_types' => [
+        'basic' => 'Базовая',
+        'oauth' => 'OAuth',
+    ],
+	
+	'dom_outbound_email_auth_types' => [
+        'no_auth' => 'Не используется',
         'basic' => 'Базовая',
         'oauth' => 'OAuth',
     ],
@@ -1549,7 +1561,7 @@ $app_strings = array(
 	'LBL_EMAIL_SETTINGS_CHECK_INTERVAL' => 'Проверять почту',
 	'LBL_EMAIL_SETTINGS_FROM_ADDR' => 'Адрес отправителя',
 	'LBL_EMAIL_SETTINGS_FROM_TO_EMAIL_ADDR' => 'Адрес E-mail для тестового уведомления:',
- 
+    'LBL_EMAIL_SETTINGS_FROM_ADDR_NOT_SET' => 'Не указаны имя и/или адрес отправителя',
 	'LBL_EMAIL_SETTINGS_FROM_NAME' => 'Имя',
 	'LBL_EMAIL_SETTINGS_REPLY_TO_ADDR' => 'Также пересылать на адрес',
 	'LBL_EMAIL_SETTINGS_FULL_SYNC' => 'Синхронизировать все учётные записи',
@@ -4071,8 +4083,10 @@ $app_strings['LBL_LOGGER_INVALID_FILENAME'] = 'Недопустимое имя �
 $app_strings['LBL_PASSWORD_SET_NEW_VALUE_TO_RESET'] = 'Установлен. Для смены введите новое значение.';
 $app_strings['LBL_VALUE_SET_PLACEHOLDER'] = 'Значение введено. Для обновления введите новое значение.';
 
-$app_strings['ERR_IMAP_OAUTH_CONNECTION_ERROR'] = 'Невозможно подключиться к серверу исходящей почты с указанным логином авторизации. Подключение: ';
+$app_strings['ERR_IMAP_OAUTH_CONNECTION_ERROR'] = 'Невозможно подключиться к серверу исходящей почты с указанным OAuth-логином. Подключение: ';
 $app_strings['WARN_OAUTH_TOKEN_SESSION_EXPIRED'] = 'IMAP-сессия закончилась, пройдите повторную авторизацию. Подключение: ';
+
+$app_strings['ERR_OAUTH_CONNECTION_ERROR'] = 'Невозможно подключиться с указанным OAuth-логином. Подключение: ';
 
 $app_strings['LBL_KEY'] = 'Ключ';
 $app_strings['LBL_VALUE'] = 'Значение';

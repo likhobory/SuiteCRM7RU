@@ -62,7 +62,8 @@ $mod_strings = [
  'LBL_LIST_DELETE' => 'Удалить',
  'LBL_TYPE' => 'Тип провайдера',
  'LBL_CONNECTOR' => 'Подключение',
- 'LBL_REDIRECT_URI' => 'URI перенаправления',
+ 'LBL_REDIRECT_URI' => 'URI для перенаправления',
+ 'LBL_REDIRECT_URI_TYPE' => 'Тип URI для перенаправления',
 
  'LBL_CLIENT_ID' => 'ID клиента',
  'LBL_CLIENT_SECRET' => 'Секрет клиента',

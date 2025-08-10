@@ -104,5 +104,14 @@ $mod_strings = array(
     'LBL_OWNER' => 'Владелец',
     'LBL_OWNER_NAME' => 'Владелец',
 
-    'LNK_EXTERNAL_OAUTH_CONNECTIONS' => 'Внешние подключения OAuth'
+    'LBL_AUTH_TYPE' => 'Аутентификация',
+	
+	'LBL_EXTERNAL_OAUTH_CONNECTION' => 'Внешнее подключение OAuth',
+    'LBL_EXTERNAL_OAUTH_CONNECTION_ID' => 'ID внешнего подключения OAuth',
+    'LBL_EXTERNAL_OAUTH_CONNECTION_NAME' => 'Внешнее подключение OAuth',
+    'LNK_EXTERNAL_OAUTH_CONNECTIONS' => 'Внешние подключения OAuth',
+	
+	'LBL_ERROR_OUTBOUND_EMAIL_SYSTEM_EXISTS' => 'Системная учётная запись для исходящей почты уже существует. Перед созданием новой аналогичной записи её необходимо удалить.',
+    'LBL_ERROR_OUTBOUND_EMAIL_SYSTEM_IS_NOT_GROUP' => 'При настройке системной учётной записи для исходящей почты с использованием OAuth необходимо выбрать групповой тип внешнего подключения OAuth.',
+    'LBL_ERROR_OUTBOUND_EMAIL_CONNECTION_TYPE_MISMATCH' => 'При настройке учётной записи для исходящей почты с использованием OAuth необходимо выбрать тот же тип внешнего подключения OAuth.',
 );
