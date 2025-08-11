@@ -33,7 +33,6 @@ if (!defined('sugarEntry') || !sugarEntry) {
   *********************************************************************************/
  // Replaced by RAPIRA <--
  
-global $sugar_config;
 
 $mod_strings = array(
 // OOTB Scheduler Job Names:
@@ -50,6 +49,8 @@ $mod_strings = array(
 'LBL_OOTB_REMOVE_DOCUMENTS_FROM_FS' => 'Удалять неиспользуемые файлы из системы',
 'LBL_OOTB_GOOGLE_CAL_SYNC' => 'Синхронизировать с календарём Google',
 'LBL_OOTB_ELASTIC_INDEX' => 'Выполнять Elasticsearch-индексацию',
+'LBL_OOTB_SEND_EMAIL_TO_QUEUE' => 'Добавлять рассылку в очередь',
+'LBL_OOTB_SEND_EMAIL_FROM_QUEUE' => 'Запускать рассылку',
 
 // List Labels
 'LBL_LIST_JOB_INTERVAL' => 'Периодичность:' ,
@@ -151,8 +152,11 @@ $mod_strings = array(
 'LBL_PROCESSAOW_WORKFLOW' => 'Выполнять настроенные процессы', 
 
 'LBL_RUNELASTICSEARCHINDEXERSCHEDULER' => 'Elasticsearch-индексация',
+'LBL_SENDFROMQUEUE' => 'Отправлять E-mail из очереди рассылки', ///
+'LBL_EMAILTOQUEUE' => 'Помещать запланированные рассылки в очередь', ///
 
 'LBL_SCHEDULER_TIMES' => 'Расписание планировщика',
 'LBL_SYNCGOOGLECALENDAR' => 'Синхронизировать с календарём Google',
 
 );
+global $sugar_config;

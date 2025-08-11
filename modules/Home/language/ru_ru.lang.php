@@ -198,7 +198,7 @@ $mod_strings = array(
 'LBL_CONTRIBUTOR_GMBH' => 'Workflow Calculated Fields contributed by diligent technology & business consulting GmbH',
 
 'LBL_LANGUAGE_ABOUT' => 'О русификации проекта',
-'LBL_LANGUAGE_COMMUNITY_ABOUT' => 'Актуальная версия русификации в виде языкового пакета RAPIRA доступна на сайте GitHub (<a href="https://github.com/likhobory/SuiteCRM7RU" target="_blank">https://github.com/likhobory/SuiteCRM7RU</a>)',
+'LBL_LANGUAGE_COMMUNITY_ABOUT' => 'Актуальная версия русификации в виде языкового пакета RAPIRA доступна на сайте GitHub (<a href="https://github.com/likhobory/SuiteCRM-CoreRU" target="_blank">https://github.com/likhobory/SuiteCRM7RU</a>)',
 'LBL_LANGUAGE_COMMUNITY_PACKS' => 'Альтернативный перевод на русский язык, осуществляющийся всеми желающими на основе языковых файлов RAPIRA, доступен на сайте Crowdin',
 
 'LBL_ABOUT_SUITE_2' => 'SuiteCRM распространяется под лицензией GPL3',
