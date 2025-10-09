@@ -924,8 +924,8 @@ $app_list_strings = array(
     ),
 	
     'dom_int_bool_string' => array(
-        '1' => 'Yes',
-        '0' => 'No',
+		1 => 'Да',
+		0 => 'Нет',
     ),
 	
     'dom_switch_bool' => array(
@@ -1104,15 +1104,16 @@ $app_list_strings = array(
         'sent' => 'Завершена'
     ),
     'email_marketing_duplicate_dom' => [
-        'email' => 'Предотвращение отправки писем на дублирующиеся адреса электронной почты',
-        'record' => 'Предотвращение отправки писем дублирующимся получателям',
+        'email' => 'Не отправлять письма на дублирующиеся адреса электронной почты',
+        'record' => 'Не отправлять письма дублирующимся получателям',
     ],
     'email_marketing_queueing_status_dom' => array(
         'not_started' => 'Ещё не размещалась',
         'in_progress' => 'В процессе размещения',
         'finished' => 'Размещение завершено',
     ),
-    'email_marketing_type_dom' => array(
+    'email_marketing_type_dom' => array(   
+        'legacy' => 'Устаревший',
         'marketing' => 'Рассылка',
         'survey' => 'Опрос',
         'transactional' => 'Транзакционное письмо',
@@ -1703,7 +1704,7 @@ $app_strings = array(
     'ERR_INVALID_FILE_REFERENCE' => 'INVALID FILE REFERENCE.',
     'ERR_NO_HEADER_ID' => 'Данная возможность недоступна в этой теме.',
     'ERR_NOT_ADMIN' => 'У вас нет доступа к панели администратора.',
-    'ERR_UNAUTHORIZED_PAGE_ACCESS' => 'У вас недостаточно прав для просмотра этой страницы. Обратитесь к Администратору системы.',
+    'ERR_UNAUTHORIZED_PAGE_ACCESS' => 'У вас недостаточно прав для просмотра этой страницы. Обратитесь к администратору системы.',
     'ERR_UNAUTHORIZED_PAGE_ACCESS_TO_HOME_PAGE' => 'У вас недостаточно прав для просмотра этой страницы. Перенаправление на ГЛАВНУЮ страницу...',
     'ERR_MISSING_REQUIRED_FIELDS' => 'Пропущено обязательное поле:' ,
 
@@ -2145,7 +2146,7 @@ $app_strings = array(
     'NTC_TEMPLATES_IS_USED' => 'Данные шаблоны используются как минимум в одной рассылке. Вы действительно хотите их удалить?' . PHP_EOL,
 	'NTC_DELETE_CONFIRMATION' => 'Вы действительно хотите удалить эту запись?' ,
     'NTC_ABORT_CONFIRMATION' => 'Вы действительно хотите прервать рассылку?',
-    'NTC_SCHEDULE_CONFIRMATION' => "Процесс рассылки писем начнётся при наступлении запланированной даты рассылки.",
+    'NTC_SCHEDULE_CONFIRMATION' => 'Рассылка писем начнётся при наступлении запланированной даты рассылки.',
     'NTC_DELETE_TEST_ENTRIES' => 'При присвоении рассылке статуса "Запланирована" вся тестовая информация будет удалена.',
     'NTC_DELETE_TEST_ENTRIES_CONFIRMATION' => 'Вы действительно хотите удалить тестовые данные?',
     'NTC_PROCEED' => 'Продолжить?',
@@ -2618,7 +2619,7 @@ $app_strings = array(
 	'LBL_GENERATE_PASSWORD_BUTTON_TITLE' => 'Сменить пароль',
 	'LBL_SEND_CONFIRM_OPT_IN_EMAIL' => 'Отправить E-mail для подтверждения подписки',
 	'LBL_CONFIRM_OPT_IN_ONLY_FOR_PERSON' => 'Письма для подтверждения подписки могут быть отправлены только Контрагентам/Контактам/Предварительным контактам/Адресатам',
-    'LBL_CONFIRM_OPT_IN_IS_DISABLED' => 'Двойное подтверждение подписки отключено, включите эту функцию в системных почтовых параметрах или обратитесь к Администратору системы.',
+    'LBL_CONFIRM_OPT_IN_IS_DISABLED' => 'Двойное подтверждение подписки отключено, включите эту функцию в системных почтовых параметрах или обратитесь к администратору системы.',
     'LBL_CONTACT_HAS_NO_PRIMARY_EMAIL' => 'Двойное подтверждение подписки невозможно, поскольку у адресата не указан основной почтовый адрес.',
     'LBL_CONFIRM_EMAIL_SENDING_FAILED' => 'Не удалось отправить письмо для подтверждения подписки',
     'LBL_CONFIRM_EMAIL_SENT' => 'Письмо для подтверждения подписки успешно отправлено',
@@ -4288,7 +4289,7 @@ $app_strings['LBL_CONFIG_NO_CONFIG'] = 'Ошибка конфигурации: �
 $app_strings['LBL_CONFIG_NO_STATISTICS_KEY'] = 'Ошибка конфигурации: отсутствует ключ статистики';
 $app_strings['LBL_STATISTIC_ERROR'] = 'Ошибка загрузки статистики';
 $app_strings['LBL_STATISTIC_ERROR_DESC'] = 'Ошибка загрузки статистики';
-$app_strings['LBL_STATISTIC_ERROR_DESC_TOOLTIP'] = 'Ошибка загрузки статистики. Обратитесь к Администратору системы';
+$app_strings['LBL_STATISTIC_ERROR_DESC_TOOLTIP'] = 'Ошибка загрузки статистики. Обратитесь к администратору системы';
 $app_strings['LBL_AVERAGE_CLOSED_WON_PER_YEAR'] = 'Стоимость закрытых сделок за год';
 $app_strings['LBL_OPPORTUNITIES_TOTAL'] = 'Общая стоимость сделок';
 $app_strings['LBL_CASE_TOTAL_DAYS_OPEN'] = 'Открыто в течение';
@@ -4386,11 +4387,15 @@ $app_list_strings['sort_order']['desc'] = 'Нисходящая';
 
 // Labels used by subpanel unlink relationship process
 $app_strings['LBL_LINK'] = 'Связать';
+$app_strings['LBL_LINK_UNLINK'] = 'Связать / Удалить связь';
+$app_strings['LBL_SAVE'] = 'Сохранить';
 $app_strings['LBL_UNLINK_RECORD'] = 'Удалить связь';
 $app_strings['LBL_EDIT_RECORD'] = 'Править запись';
 $app_strings['LBL_UNLINK_RELATIONSHIP_CONFIRM'] = 'Вы действительно хотите удалить связь с этой записью? Будет удалена только связь с записью, сама запись удалена НЕ будет.';
 $app_strings['LBL_UNLINK_RELATIONSHIP_SUCCESS'] = 'Связь удалена.';
 $app_strings['LBL_UNLINK_RELATIONSHIP_FAILED'] = 'В процессе удаления связи произошла ошибка.';
+$app_strings['LBL_ALL_RECORDS_UNLINKED'] = 'Все связи успешно удалены';
+$app_strings['LBL_SOME_RECORDS_UNLINKED_FAILED'] = 'Часть связей не была удалена. Подробнее см. в файле журнала.';
 $app_strings['LBL_LINK_RELATIONSHIP_SUCCESS'] = 'Связь успешно  создана.';
 $app_strings['LBL_LINK_RELATIONSHIP_FAILED'] = 'В процессе создания связи произошла ошибка.';
 $app_strings['LBL_MODULE_NOT_FOUND'] = 'Модуль не обнаружен.';
@@ -4575,8 +4580,8 @@ $app_strings['LBL_TEST_ENTRIES_DELETED'] = 'Тестовые данные уда
 $app_strings['LBL_UNABLE_TO_GET_ID'] = 'Не удалось получить идентификатор рассылки';
 $app_strings['LBL_UNABLE_TO_DELETE_TEST_ENTRIES'] = 'Ошибка удаления тестовых данных. Подробнее см. в журналах';
 $app_strings['LBL_SECTION_KEY_NOT_DEFINED'] = 'Ключ раздела не определен';
-$app_strings['LBL_DOES_BOUNCE_EXIST'] = 'Есть ли возвращённые письма?';
-$app_strings['LBL_CAMPAIGN_SETTINGS'] = 'Настройки';
+$app_strings['LBL_DOES_BOUNCE_EXIST'] = 'Настроен ли почтовый ящик для возвращаемых писем?';
+$app_strings['LBL_CAMPAIGN_SETTINGS'] = 'Основные параметры рассылки';
 
 $app_strings['LBL_SEND_FROM_QUEUE_DYNAMIC_LABEL'] = '{{ fields.send-from-queue.value }}';
 $app_strings['LBL_EMAIL_TO_QUEUE_DYNAMIC_LABEL'] = '{{ fields.email-to-queue.value }}';
@@ -4584,7 +4589,8 @@ $app_strings['LBL_POLL_BOUNCED_CAMPAIGN_DYNAMIC_LABEL'] = '{{ fields.pollMonitor
 
 $app_strings['LBL_MARKETING_ITEMS_PER_RUN'] = 'Одновременно обрабатываемых рассылок';
 $app_strings['LBL_EMAILS_PER_RUN'] = 'Одновременно отправляемых писем в пакете';
-$app_strings['LBL_TRACKERS_ENABLED'] = 'Трекеры включены';
+$app_strings['LBL_TRACKERS_ENABLED'] = 'Трекеры включены'; ///
+$app_strings['LBL_TRACKER_LINKS_ENABLED'] = 'Трекеры включены';
 
 $app_strings['LBL_MARKETING_ITEMS_PER_RUN_DYNAMIC_LABEL'] = '{{ fields.campaign_marketing_items_per_run.value }}';
 $app_strings['LBL_EMAILS_PER_RUN_DYNAMIC_LABEL'] = '{{ fields.campaign_emails_per_run.value }}';
@@ -4592,4 +4598,17 @@ $app_strings['LBL_TRACKERS_ENABLED_DYNAMIC_LABEL'] = '{{ fields.trackers_enabled
 $app_strings['LBL_UNSUBSCRIBE'] = 'Отписаться';
 $app_strings['LBL_INACTIVE'] = 'Неактивно';
 $app_strings['LBL_DISPLAYING_TEST_EMAIL_MARKETING_DATA'] = 'Диаграммы и субпанели отображают данные, полученные из тестовых рассылок.';
-$app_strings['LBL_DASH_SYMBOL'] = '-';
+$app_strings['LBL_DASH_SYMBOL'] = '';
+$app_strings['LBL_FIELD_STORAGE_NOT_SET'] = 'Для поля не указан тип хранилища файлов. Невозможно загрузить файл.';
+$app_strings['LBL_FIELD_STORAGE_INVALID_TYPE'] = 'Для поля указан недопустимый тип хранилища файлов. Невозможно загрузить файл.';
+$app_strings['LBL_UPLOAD'] = 'Загрузить';
+$app_strings['LBL_UPLOAD_FAILED'] = 'Загрузка не удалась, повторите попытку позже';
+$app_strings['LBL_UPLOADING'] = 'Загрузка';
+$app_strings['LBL_FILE_FIELD_UPLOAD_BUTTON_DESCRIPTION'] = 'Нажмите или перетащите сюда файл для загрузки';
+$app_strings['LBL_ATTACHMENTS_FIELD_UPLOAD_BUTTON_DESCRIPTION'] = 'Перетащите сюда файл для загрузки';
+$app_strings['LBL_TEMPORARY'] = 'Temporary';
+$app_strings['LBL_MAX_FILE_SIZE_EXCEEDED'] = 'Размер файла превышает максимально допустимое значение.';
+$app_strings['LBL_UNSUPPORTED_IMAGE_TYPE'] = 'Данный тип изображений не поддерживается.';
+$app_strings['LBL_UNSUPPORTED_FILE_TYPE'] = 'Данный тип файлов не поддерживается.';
+$app_strings['LBL_DEFAULT_OUTBOUND_NOT_SET'] = 'Не обнаружена учётная запись исходящей почты';
+$app_strings['LBL_DEFAULT_OUTBOUND_NOT_CONFIGURED'] = 'Ошибка в настройках учётной записи исходящей почты.';

@@ -46,6 +46,7 @@ $mod_strings = array(
 'LBL_DELETED' => 'Удалено' ,
 'LBL_MODULE_NAME' => 'Журнал маркет. кампании' ,
 'LBL_LIST_RECIPIENT_EMAIL' => 'E-mail получателя' ,
+'LBL_LIST_TRACKER_URL' => 'URL трекера',
 'LBL_LIST_RECIPIENT_NAME' => 'Имя получателя' ,
 'LBL_ARCHIVED' => 'Архив' ,
 'LBL_HITS' => 'Хиты' ,

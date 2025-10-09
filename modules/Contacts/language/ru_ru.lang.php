@@ -205,7 +205,7 @@ $mod_strings = array(
 'LBL_PORTAL_USER_TYPE' => 'Пользователь портала:',
 'LBL_PORTAL_ACCOUNT_DISABLED' => 'Учётная запись портала отключена:',
 'LBL_JOOMLA_ACCOUNT_ID' => 'ID учётной записи Joomla',
-'LBL_AOP_DISABLED' => 'Настройки портала отключены, включите их в панели Администратора',
+'LBL_AOP_DISABLED' => 'Настройки портала отключены, включите их в панели администратора',
 
 'LBL_AOS_CONTRACTS' => 'Договоры',
 'LBL_AOS_INVOICES' => 'Счета',

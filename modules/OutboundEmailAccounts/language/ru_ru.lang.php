@@ -104,6 +104,10 @@ $mod_strings = array(
 	'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Группы пользователей',
     'LBL_OWNER' => 'Владелец',
     'LBL_OWNER_NAME' => 'Владелец',
+    'LBL_IS_DEFAULT' => 'По умолчанию',
+    'LBL_IS_PERSONAL' => 'Персональная',
+    'LBL_SET_AS_DEFAULT_BUTTON' => 'Установить по умолчанию',
+
 
     'LBL_AUTH_TYPE' => 'Аутентификация',
 	

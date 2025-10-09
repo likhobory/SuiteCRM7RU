@@ -31,13 +31,14 @@ Russian RAPIRA language pack and manual for SuiteCRM 8
 
 <b>Документация к SuiteCRM</b>
 
-Детальная информация по установке, настройке и использованию системы описана в русскоязычной [документации к SuiteCRM][man-ru].
+Русскоязычная документация на официальном сайте SuiteCRM давно не обновлялась и относится к версии 8.6.  
+Актуальная информация по установке, настройке и использованию системы описана в [отдельной русскоязычной документации к SuiteCRM][man-ru].
 
 Пользователям, не знакомым с SuiteCRM, в первую очередь рекомендуются к прочтению раздел [Начало работы][getting-started], описывающий основные технические требования, необходимые для работы в системе, и раздел  
 [Описание пользовательского интерфейса][ui], знакомящий с основными настройками системы. В описании присутствует масса перекрёстных ссылок, позволяющих быстро перейти к подробному описанию рассматриваемого функционала.
 
             
-[langpack]: https://github.com/likhobory/SuiteCRM-CoreRU/blob/8.8/rapira-suite_pack_russian.zip?raw=true
+[langpack]: https://github.com/likhobory/SuiteCRM-CoreRU/blob/8.9/rapira-suite_pack_russian.zip?raw=true
 [man-adoc]: https://github.com/likhobory/SuiteDocs/blob/master/README.ru.adoc
 [man-ru]:  https://russian-rapira-suitecrm-docs.netlify.app/ru
 [man7-ru]: https://github.com/likhobory/SuiteCRM7RU 

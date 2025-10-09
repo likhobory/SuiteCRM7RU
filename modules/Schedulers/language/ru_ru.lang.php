@@ -39,18 +39,19 @@ $mod_strings = array(
 'LBL_OOTB_WORKFLOW' => 'Выполнять настроенные процессы' ,
 'LBL_OOTB_REPORTS' => 'Создавать отчёты по расписанию' ,
 'LBL_OOTB_IE' => 'Проверять входящие письма' ,
-'LBL_OOTB_BOUNCE' => 'Запускать ночью проверку почтовых ящиков для возвращаемых писем' ,
+'LBL_OOTB_BOUNCE' => 'Проверять почтовые ящики для возвращаемых писем' ,
 'LBL_OOTB_CAMPAIGN' => 'Запускать ночью массовую рассылку писем' ,
 'LBL_OOTB_PRUNE' => 'Очищать базу данных первого числа каждого месяца',
 'LBL_OOTB_TRACKER' => 'Очищать таблицы трекера',
 'LBL_OOTB_SUITEFEEDS' => 'Очищать ленту событий',
 'LBL_OOTB_SEND_EMAIL_REMINDERS' => 'Отправлять напоминания о мероприятиях по E-mail',
 'LBL_OOTB_CLEANUP_QUEUE' => 'Очищать очередь заданий',
-'LBL_OOTB_REMOVE_DOCUMENTS_FROM_FS' => 'Удалять неиспользуемые файлы из системы',
+'LBL_OOTB_REMOVE_DOCUMENTS_FROM_FS' => 'Удалять неиспользуемые документы из системы',
 'LBL_OOTB_GOOGLE_CAL_SYNC' => 'Синхронизировать с календарём Google',
 'LBL_OOTB_ELASTIC_INDEX' => 'Выполнять Elasticsearch-индексацию',
 'LBL_OOTB_SEND_EMAIL_TO_QUEUE' => 'Добавлять рассылку в очередь',
 'LBL_OOTB_SEND_EMAIL_FROM_QUEUE' => 'Запускать рассылку',
+'LBL_OOTB_CLEAN_UP_TEMP_FILES' => 'Удалять временные файлы',
 
 // List Labels
 'LBL_LIST_JOB_INTERVAL' => 'Периодичность:' ,
@@ -126,6 +127,7 @@ $mod_strings = array(
 'LBL_CRON_LINUX_DESC1' => 'Для запуска планировщика SuiteCRM откройте файл crontab при помощи команды: ',
 'LBL_CRON_LINUX_DESC2' => '... и добавьте в него следующую строку: ',
 'LBL_CRON_LINUX_DESC3' => 'Изменения в файл crontab необходимо вносить только после завершения установки системы.',
+'LBL_CRON_LINUX_DESC4' => 'Либо следующую строку для указания переменных окружения:',
 'LBL_CRON_WINDOWS_DESC' => 'Для запуска планировщика SuiteCRM создайте пакетный файл и ежеминутно выполняйте его при помощи планировщика Windows. Пакетный файл должен содержать следующие команды: ',
 
 // Subpanels
@@ -139,11 +141,11 @@ $mod_strings = array(
 'LBL_PERFORMFULLFTSINDEX' => 'Full-text Search Index System', ///
 
 'LBL_RUNMASSEMAILCAMPAIGN' => 'Запускать ночью массовую рассылку писем',
-'LBL_POLLMONITOREDINBOXESFORBOUNCEDCAMPAIGNEMAILS' => 'Запускать ночью проверку почтовых ящиков для возвращаемых писем',
+'LBL_POLLMONITOREDINBOXESFORBOUNCEDCAMPAIGNEMAILS' => 'Проверять почтовые ящики для возвращаемых писем',
 'LBL_PRUNEDATABASE' => 'Очищать БД первого числа каждого месяца',
 'LBL_TRIMTRACKER' => 'Очищать таблицы трекера',
 'LBL_TRIMSUGARFEEDS' => 'Очищать ленту событий',
-'LBL_SENDEMAILREMINDERS'=> 'Отправлять по E-mail напоминания о мероприятиях',
+'LBL_SENDEMAILREMINDERS' => 'Отправлять по E-mail напоминания о мероприятиях',
 'LBL_CLEANJOBQUEUE' => 'Очищать очередь заданий',
 'LBL_REMOVEDOCUMENTSFROMFS' => 'Удалять неиспользуемые файлы из системы',
 
@@ -152,8 +154,9 @@ $mod_strings = array(
 'LBL_PROCESSAOW_WORKFLOW' => 'Выполнять настроенные процессы', 
 
 'LBL_RUNELASTICSEARCHINDEXERSCHEDULER' => 'Elasticsearch-индексация',
-'LBL_SENDFROMQUEUE' => 'Отправлять E-mail из очереди рассылки', ///
-'LBL_EMAILTOQUEUE' => 'Помещать запланированные рассылки в очередь', ///
+'LBL_SENDFROMQUEUE' => 'Запускать рассылку', 
+'LBL_CLEANUPTEMPORARYFILES' => 'Удалять временные файлы',
+'LBL_EMAILTOQUEUE' => 'Добавлять рассылку в очередь', 
 
 'LBL_SCHEDULER_TIMES' => 'Расписание планировщика',
 'LBL_SYNCGOOGLECALENDAR' => 'Синхронизировать с календарём Google',

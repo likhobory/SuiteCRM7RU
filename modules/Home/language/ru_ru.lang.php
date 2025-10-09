@@ -198,8 +198,8 @@ $mod_strings = array(
 'LBL_CONTRIBUTOR_GMBH' => 'Workflow Calculated Fields contributed by diligent technology & business consulting GmbH',
 
 'LBL_LANGUAGE_ABOUT' => 'О русификации проекта',
-'LBL_LANGUAGE_COMMUNITY_ABOUT' => 'Актуальная версия русификации в виде языкового пакета RAPIRA доступна на сайте GitHub (<a href="https://github.com/likhobory/SuiteCRM-CoreRU" target="_blank">https://github.com/likhobory/SuiteCRM7RU</a>)',
-'LBL_LANGUAGE_COMMUNITY_PACKS' => 'Альтернативный перевод на русский язык, осуществляющийся всеми желающими на основе языковых файлов RAPIRA, доступен на сайте Crowdin',
+'LBL_LANGUAGE_COMMUNITY_ABOUT' => 'Актуальная версия русификации в виде языкового пакета RAPIRA доступна на сайте GitHub (<a href="https://github.com/likhobory/SuiteCRM-CoreRU" target="_blank">https://github.com/likhobory/SuiteCRM-CoreRU</a>)',
+'LBL_LANGUAGE_COMMUNITY_PACKS' => '<a href="https://sourceforge.net/projects/suitecrmtranslations/files" target="_blank">Альтернативный перевод на русский язык</a>, осуществляющийся всеми желающими на основе языковых файлов RAPIRA, доступен на сайте Crowdin',
 
 'LBL_ABOUT_SUITE_2' => 'SuiteCRM распространяется под лицензией GPL3',
 'LBL_ABOUT_SUITE_4' => 'Весь исходный код проекта SuiteCRM является открытым и публикуется под лицензией GPL3',
@@ -253,12 +253,12 @@ $mod_strings = array(
 'LBL_ELASTIC_SEARCH_EXCEPTION_SEARCH' => 'В процессе поиска произошла ошибка.',
 'LBL_ELASTIC_SEARCH_EXCEPTION_DEFAULT' => 'В процессе поиска произошла неизвестная ошибка.',
 'LBL_ELASTIC_SEARCH_EXCEPTION_END_MESSAGE' => 'Обратитесь к системному администратору, если не удалось решить проблему. Детальная информация сохранена в логах.',
-'LBL_ELASTIC_SEARCH_EXCEPTION_MISSING_INDEX' => 'Не удалось найти поисковый индекс для одного или нескольких модулей. Убедитесь, что crontab настроен и запущен, в панели Администратора откройте настройки Elasticsearch, запланируйте полную индексацию, а также создайте задание планировщика «Выполнять Elasticsearch-индексацию», если оно не существует.',
+'LBL_ELASTIC_SEARCH_EXCEPTION_MISSING_INDEX' => 'Не удалось найти поисковый индекс для одного или нескольких модулей. Убедитесь, что crontab настроен и запущен, в панели администратора откройте настройки Elasticsearch, запланируйте полную индексацию, а также создайте задание планировщика «Выполнять Elasticsearch-индексацию», если оно не существует.',
 
 'LBL_ELASTIC_SEARCH_DEFAULT' => 'Ничего не найдено. Попробуйте расширить критерии поиска.',
 
 // Portal Labels
-'LBL_AOP_DISABLED' => 'Настройки портала отключены, включите их в панели Администратора',
+'LBL_AOP_DISABLED' => 'Настройки портала отключены, включите их в панели администратора',
 'LBL_CREATE_PORTAL_USER_FAILED' => 'Ошибка создания пользователя портала.',
 'LBL_ENABLE_PORTAL_USER_FAILED' => 'Ошибка включения пользователя портала.',
 'LBL_DISABLE_PORTAL_USER_FAILED' => 'Ошибка отключения пользователя портала.',
