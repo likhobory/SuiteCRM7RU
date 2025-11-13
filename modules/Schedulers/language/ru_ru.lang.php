@@ -119,16 +119,24 @@ $mod_strings = array(
 // Links
 'LNK_LIST_SCHEDULER' => 'Список заданий' ,
 'LNK_NEW_SCHEDULER' => 'Создать задание' ,
-// Messages
+// Cron
 'ERR_CRON_SYNTAX' => 'Неверный cron-синтакс',
+'LBL_CRON_SETUP' => 'Настройка Планировщика',
 'NTC_LIST_ORDER' => 'Установка последовательности, в которой задания появятся в списке' ,
 'LBL_CRON_INSTRUCTIONS_WINDOWS' => 'Настройка планировщика Windows' ,
 'LBL_CRON_INSTRUCTIONS_LINUX' => 'Настройка сrontab' ,
-'LBL_CRON_LINUX_DESC1' => 'Для запуска планировщика SuiteCRM откройте файл crontab при помощи команды: ',
-'LBL_CRON_LINUX_DESC2' => '... и добавьте в него следующую строку: ',
-'LBL_CRON_LINUX_DESC3' => 'Изменения в файл crontab необходимо вносить только после завершения установки системы.',
-'LBL_CRON_LINUX_DESC4' => 'Либо следующую строку для указания переменных окружения:',
-'LBL_CRON_WINDOWS_DESC' => 'Для запуска планировщика SuiteCRM создайте пакетный файл и ежеминутно выполняйте его при помощи планировщика Windows. Пакетный файл должен содержать следующие команды: ',
+
+'LBL_CRON_LINUX_DESC1' => 'Для запуска планировщика SuiteCRM',
+'LBL_CRON_LINUX_DESC2' => '1. Откройте файл crontab при помощи команды:',
+'LBL_CRON_LINUX_DESC3' => '2. Добавьте в него следующую строку',
+'LBL_CRON_LINUX_DESC4' => 'Изменения в файл crontab необходимо вносить только после завершения установки системы.',
+'LBL_CRON_LINUX_DESC5' => '2а. Для указания переменных окружения добавьте',
+'LBL_CRON_LINUX_DESC6' => 'Замените [path/to/php] и [path/to/suite/instance] на актуальные значения.',
+'LBL_CRON_WINDOWS_DESC' => 'Для запуска планировщика SuiteCRM',
+'LBL_CRON_WINDOWS_DESC2' => 'Создайте командный файл для его дальнейшего запуска в Планировщике Windows. Командный файл должен содержать следующие строки',
+'LBL_CRON_WINDOWS_DESC3' => 'Замените [path\to\php.exe] и [path\to\suite\instance] на актуальные значения.',
+'LBL_SCHEDULERS_INFO' => 'Выполнение заданий',
+'LBL_SCHEDULERS_NEVER_RUN' => 'Задания ещё не выполнялись.',
 
 // Subpanels
 'LBL_JOBS_SUBPANEL_TITLE' => 'Журнал заданий' ,

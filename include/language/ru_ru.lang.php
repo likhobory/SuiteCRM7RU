@@ -125,6 +125,7 @@ $app_list_strings = array(
     'Calendar' => 'Календарь' ,
     'Leads' => 'Предварит. контакт' ,
     'Activities' => 'Мероприятие' ,
+	'History' => 'История',
     'Bugs' => 'Ошибка' ,
 	'KBDocuments' => 'База знаний',
     'Feeds' => 'RSS-ленты' ,
@@ -4265,7 +4266,7 @@ $app_strings['LBL_SEARCH_TEXT_FIELD_TITLE_ATTR']   = 'Введите крите�
 $app_strings['LBL_SEARCH_SUBMIT_FIELD_TITLE_ATTR'] = 'Найти записи, соответствующие критерию поиска';
 $app_strings['LBL_SEARCH_SUBMIT_FIELD_VALUE']      = 'Найти';
 $app_strings['LBL_SEARCH_QUERY']                   = 'Поисковый запрос: ';
-$app_strings['LBL_SEARCH_RESULTS_PER_PAGE']        = 'Результатов на странице: ';
+$app_strings['LBL_SEARCH_RESULTS_PER_PAGE']        = 'Результатов в разделе модуля, не более: ';
 $app_strings['LBL_SEARCH_ENGINE']                  = 'Движок: ';
 $app_strings['LBL_SEARCH_TOTAL'] = 'Всего результатов: ';
 $app_strings['LBL_SEARCH_PREV'] = 'Назад';
@@ -4574,6 +4575,8 @@ $app_strings['LBL_OFTEN'] = 'Постоянно';
 $app_strings['LBL_MIN_MARK'] = 'минутная отметка';
 $app_strings['LBL_INBOUND_EMAIL'] = 'Входящая почта';///
 
+$app_strings['LBL_LEGEND'] = 'Условные обозначения';
+
 $app_strings['LBL_EMAIL_MARKETING_NOT_UNSCHEDULED'] = 'Рассылка в этом статусе не может быть запланирована';
 $app_strings['LBL_INCORRECT_RECORD_ID'] = 'Неверный идентификатор записи';
 $app_strings['LBL_TEST_ENTRIES_DELETED'] = 'Тестовые данные удалены.';
@@ -4587,6 +4590,27 @@ $app_strings['LBL_SEND_FROM_QUEUE_DYNAMIC_LABEL'] = '{{ fields.send-from-queue.v
 $app_strings['LBL_EMAIL_TO_QUEUE_DYNAMIC_LABEL'] = '{{ fields.email-to-queue.value }}';
 $app_strings['LBL_POLL_BOUNCED_CAMPAIGN_DYNAMIC_LABEL'] = '{{ fields.pollMonitoredInboxesForBouncedCampaignEmails.value }}';
 
+$app_strings['LBL_CRON_LINUX_DESC1_DYNAMIC'] = '{{ fields.desc1.value }}';
+$app_strings['LBL_CRON_LINUX_DESC2_DYNAMIC'] = '{{ fields.desc2.value }}';
+$app_strings['LBL_CRON_LINUX_DESC3_DYNAMIC'] = '{{ fields.desc3.value }}';
+$app_strings['LBL_CRON_LINUX_DESC4_DYNAMIC'] = '{{ fields.desc4.value }}';
+$app_strings['LBL_CRON_LINUX_DESC5_DYNAMIC'] = '{{ fields.desc5.value }}';
+$app_strings['LBL_CRON_LINUX_DESC6_DYNAMIC'] = '{{ fields.desc6.value }}';
+$app_strings['LBL_CRON_LINUX_DESC7_DYNAMIC'] = '{{ fields.desc7.value }}';
+$app_strings['LBL_CRON_LINUX_DESC8_DYNAMIC'] = '{{ fields.desc8.value }}';
+
+$app_strings['LBL_CRON_WIN_DESC1_DYNAMIC'] = '{{ fields.desc1.value }}';
+$app_strings['LBL_CRON_WIN_DESC2_DYNAMIC'] = '{{ fields.desc2.value }}';
+$app_strings['LBL_CRON_WIN_DESC3_DYNAMIC'] = '{{ fields.desc3.value }}';
+$app_strings['LBL_CRON_WIN_DESC4_DYNAMIC'] = '{{ fields.desc4.value }}';
+$app_strings['LBL_CRON_WIN_DESC5_DYNAMIC'] = '{{ fields.desc5.value }}';
+
+$app_strings['LBL_CRON_LAST_RUN'] = 'Последний успешный запуск';
+$app_strings['LBL_CRON_LAST_USER_TO_RUN'] = 'Последний пользователь, запустивший задания';
+$app_strings['LBL_LAST_RUN_VALUE'] = '{{ fields.lastRun.value }}';
+$app_strings['LBL_LAST_USER_RUN_VALUE'] = '{{ fields.user.value }}';
+$app_strings['LBL_RUN_USER_INVALID'] = 'Пользователь не указан в массиве `allowed_cron_users` файла `config.php`. Запуск заданий не был выполнен.';
+$app_strings['LBL_SCHEDULERS_NEVER_RUN'] = 'Задания ещё не выполнялись.';
 $app_strings['LBL_MARKETING_ITEMS_PER_RUN'] = 'Одновременно обрабатываемых рассылок';
 $app_strings['LBL_EMAILS_PER_RUN'] = 'Одновременно отправляемых писем в пакете';
 $app_strings['LBL_TRACKERS_ENABLED'] = 'Трекеры включены'; ///
@@ -4610,5 +4634,9 @@ $app_strings['LBL_TEMPORARY'] = 'Temporary';
 $app_strings['LBL_MAX_FILE_SIZE_EXCEEDED'] = 'Размер файла превышает максимально допустимое значение.';
 $app_strings['LBL_UNSUPPORTED_IMAGE_TYPE'] = 'Данный тип изображений не поддерживается.';
 $app_strings['LBL_UNSUPPORTED_FILE_TYPE'] = 'Данный тип файлов не поддерживается.';
+
 $app_strings['LBL_DEFAULT_OUTBOUND_NOT_SET'] = 'Не обнаружена учётная запись исходящей почты';
 $app_strings['LBL_DEFAULT_OUTBOUND_NOT_CONFIGURED'] = 'Ошибка в настройках учётной записи исходящей почты.';
+
+$app_strings['LBL_CRON_UNRECOMMENDED_USER'] = 'Вы работаете под пользователем root, что крайне НЕ РЕКОМЕНДУЕТСЯ, желаете продолжить (y,n)? ';
+$app_strings['LBL_UNKNOWN_USER'] = 'Неизвестный пользователь';
