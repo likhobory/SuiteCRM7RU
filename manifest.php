@@ -2,7 +2,7 @@
 /******************************************
  * Русификация языковых файлов SuiteCRM.
  * Последние обновления доступны по адресу:
- * https://github.com/likhobory/SuiteCRM7RU
+ * https://github.com/likhobory/SuiteCRM-CoreRU
  * @author likhobory <likhobory@mail.ru>
  ******************************************/
 $manifest = array( 
