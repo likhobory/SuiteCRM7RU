@@ -51,7 +51,6 @@ $mod_strings = array(
 'LNK_NEW_MEETING' => 'Назначить встречу' ,
 'LNK_NEW_TASK' => 'Создать задачу' ,
 'LNK_NEW_BUG' => 'Новая ошибка' ,
-'LBL_SEARCH_RESULTS' => 'Результат поиска',
 'LNK_NEW_SEND_EMAIL' => 'Формирование E-mail' ,
 'LBL_NO_ACCESS' => 'Доступ к разделу закрыт. Свяжитесь с администратором системы для получения соответствующих прав.',
 'LBL_NO_RESULTS_IN_MODULE' => '-- Нет результатов --',
@@ -62,7 +61,6 @@ $mod_strings = array(
 'LBL_WEBSITE_TITLE' => 'Веб-сайт',
 'LBL_RSS_TITLE' => 'Ленты новостей',
 'LBL_CLOSE_DASHLETS' => 'Закрыть',
-'LBL_CLOSE_SITEMAP' => 'Закрыть',
 'LBL_OPTIONS' => 'Параметры',
 // dashlet search fields
 'LBL_TODAY' => 'Сегодня',
@@ -84,7 +82,7 @@ $mod_strings = array(
 'LBL_CHARTS' => 'Диаграммы',
 'LBL_TOOLS' => 'Разное',
 'LBL_WEB' => 'Веб',
-
+'LBL_SEARCH_RESULTS' => 'Результат поиска',
 
 // Dashlet Categories
 'dashlet_categories_dom' => array(
@@ -112,7 +110,7 @@ $mod_strings = array(
 
 // Default out-of-box names for tabs
 'LBL_HOME_PAGE_1_NAME' => 'SuiteCRM', ///
-
+'LBL_CLOSE_SITEMAP' => 'Закрыть',
 
 'LBL_SEARCH' => 'Найти',
 'LBL_CLEAR' => 'Очистить',
@@ -179,18 +177,18 @@ $mod_strings = array(
 'LBL_CONTRIBUTORS' => 'Участники проекта',
 'LBL_ABOUT_SUITE' => 'О проекте SuiteCRM',
 'LBL_PARTNERS' => 'Партнёры',
-'LBL_FEATURING' => 'AOS, AOW, AOR, AOP, AOE and Reschedule modules by SalesAgility.',
 'LBL_EDIT_ALL_RECURRENCES' => 'Править, включая повторы',
 'LBL_REMOVE_ALL_RECURRENCES' => 'Удалить, включая повторы',
 'LBL_CONFIRM_REMOVE' => 'Вы действительно хотите удалить эту запись?',
 
+'LBL_MAINTAINER_SUITECRM' => 'SuiteCRM is written and maintained by SuiteCRM Ltd',
 'LBL_CONTRIBUTOR_SUITECRM' => 'Бесплатная альтернатива SugarCRM Professional Edition с открытым исходным кодом    <br>
         <hr><h2>
         <a href="https://community.suitecrm.com/t/suitecrm/54668" target="_blank">Русифицированное Руководство пользователя и администратора SuiteCRM</a></h2>',
 'LBL_CONTRIBUTOR_SECURITY_SUITE' => 'SecuritySuite by Jason Eggers',
 'LBL_CONTRIBUTOR_JJW_GMAPS' => 'JJWDesign Google Maps by Jeffrey J. Walters',
-'LBL_CONTRIBUTOR_CONSCIOUS' => 'SuiteCRM LOGO Provided by Conscious Solutions',
-'LBL_CONTRIBUTOR_RESPONSETAP' => 'Contribution to SuiteCRM 7.3 release by ResponseTap',
+    'LBL_CONTRIBUTOR_CONSCIOUS' => 'SuiteCRM Logo Design contributed by Conscious Solutions',
+    'LBL_CONTRIBUTOR_RESPONSETAP' => 'Contribution to SuiteCRM by ResponseTap',
 'LBL_CONTRIBUTOR_GMBH' => 'Workflow Calculated Fields contributed by diligent technology & business consulting GmbH',
 
 'LBL_LANGUAGE_ABOUT' => 'О русификации проекта',

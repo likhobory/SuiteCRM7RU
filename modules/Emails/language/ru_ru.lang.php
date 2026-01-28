@@ -297,15 +297,12 @@ $mod_strings = array(
 'LBL_TEST_EMAIL_BODY' => 'Это сообщение было отправлено с целью проверки настроек сервера исходящей почты SuiteCRM. Получение этого письма свидетельствует о корректных настройках сервера исходящей почты.',
 
 // for outbound email dialog
-'LBL_MAIL_SMTPUSER' => 'SMTP-пользователь:' ,
-'LBL_MAIL_SMTPPASS' => 'SMTP-пароль:' ,
-'LBL_MAIL_SMTPSERVER' => 'SMTP-сервер:' ,
 'LBL_MISSING_DEFAULT_OUTBOUND_SMTP_SETTINGS' => 'Администратор системы ещё не настроил стандартный сервер исходящей почты. Тестовое письмо не может быть отправлено.',
 'LBL_MAIL_SMTPAUTH_REQ' => 'Использовать SMTP-аутентификацию?',
-
+'LBL_MAIL_SMTPPASS' => 'SMTP-пароль:' ,
 'LBL_MAIL_SMTPPORT' => 'SMTP-порт:' ,
-
-
+'LBL_MAIL_SMTPSERVER' => 'SMTP-сервер:' ,
+'LBL_MAIL_SMTPUSER' => 'SMTP-пользователь:',
 'LBL_MAIL_SMTP_SETTINGS' => 'Настройка SMTP-сервера',
 'LBL_CHOOSE_EMAIL_PROVIDER' => 'Выберите почтовую службу:',
 'LBL_YAHOOMAIL_SMTPPASS' => 'Yahoo! - пароль:',

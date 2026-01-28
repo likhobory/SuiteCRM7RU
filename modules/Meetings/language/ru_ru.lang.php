@@ -101,6 +101,7 @@ $mod_strings = array(
 'LBL_SUBJECT' => 'Тема встречи:' ,
 'LBL_TIME' => 'Время начала:' ,
 'LBL_USERS_SUBPANEL_TITLE' => 'Пользователи' ,
+'LBL_CALENDAR_ACCOUNTS' => 'Учётные записи календаря',
 'LBL_PARENT_TYPE' => 'Тип родителя',
 'LBL_PARENT_ID' => 'ID родителя',
 'LNK_MEETING_LIST' => 'Встречи' ,

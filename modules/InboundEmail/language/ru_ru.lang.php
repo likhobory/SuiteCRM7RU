@@ -141,7 +141,7 @@ $mod_strings = array(
 'LBL_STATUS_INACTIVE' => 'Не активна',
 'LBL_IS_PERSONAL' => 'Персональная',
 'LBL_IS_GROUP' => 'Групповая',
-'LBL_ENABLE_AUTO_IMPORT' => 'Автоматически импортировать E-mail',
+'LBL_ENABLE_AUTO_IMPORT' => 'Импортировать автоматически',
 'LBL_WARNING_CHANGING_AUTO_IMPORT' => 'Предупреждение: Вы изменяете параметр автоматического импорта, что может привести к потере данных.',
 'LBL_WARNING_CHANGING_AUTO_IMPORT_WITH_CREATE_CASE' => 'Предупреждение: При автоматическом создании Обращений автоиморт также должен быть включён.',
 'LBL_LIST_TITLE_MY_DRAFTS' => 'Черновики',
@@ -165,7 +165,7 @@ $mod_strings = array(
 'LBL_CONNECTION_CONFIGURATION' => 'Настройки сервера',
 'LBL_AUTO_REPLY_CONFIGURATION' => 'Настройки стандартного автоответа',
 'LBL_CASE_CONFIGURATION' => 'Настройки Обращения',
-'LBL_GROUP_CONFIGURATION' => 'Настройки группы',
+'LBL_GROUP_CONFIGURATION' => 'Групповые настройки',
 
 'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Группы пользователей',
 
@@ -205,5 +205,10 @@ $mod_strings = array(
 
 'LBL_SET_AS_DEFAULT_BUTTON' => 'Установить по умолчанию',
 
-'LBL_MOVE_MESSAGES_TO_TRASH_AFTER_IMPORT' => 'Перемещать сообщения в Корзину после импорта',
+'LBL_MOVE_MESSAGES_TO_TRASH_AFTER_IMPORT' => 'Перемещать письма в Корзину после импорта',
+'LBL_LAST_IMPORT_RUN_DATETIME' => 'Дата/время последнего запуска импорта',
+'LBL_MAILBOX_LAST_IMPORTED_DAYS' => 'Дата последнего импортированного дня',
+'LBL_EMAIL_IMPORT_PER_RUN_THRESHOLD' => 'Количество импортируемых писем за один запуск задания планировщика',
+'LBL_EMAIL_IMPORT_TIMEFRAME_START' => 'Отправная точка для импорта писем из новых почтовых ящиков',
+'LBL_EMAIL_IMPORT_UNREAD_ONLY' => 'Импортировать только непрочитанные письма'
 );

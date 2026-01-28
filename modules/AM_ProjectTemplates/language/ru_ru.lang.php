@@ -1,4 +1,5 @@
 <?php
+if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
 /*********************************************************************************
 
 * This program is free software; you can redistribute it and/or modify it under
@@ -37,7 +38,6 @@ $mod_strings = array(
 'LBL_MODIFIED' => 'Изменено',
 'LBL_MODIFIED_NAME' => 'Изменено (Имя)',
 'LBL_CREATED' => 'Создано',
-'LBL_DESCRIPTION' => 'Описание',
 'LBL_DELETED' => 'Удалено',
 'LBL_NAME' => 'Шаблон проекта',
 'LBL_CREATED_USER' => 'Создано',
@@ -71,8 +71,6 @@ $mod_strings = array(
 
 'LBL_SUBTASK' => 'Задача',
 'LBL_MILESTONE_FLAG' => 'Контрольная точка',
-'LBL_TASK_NAME' => 'Проектная задача',
-'LBL_PREDECESSORS' => 'Предшественник',
 'LBL_RELATIONSHIP_TYPE' => 'Тип связи',
 'LBL_LAG' => 'Задержка',
 'LBL_DAYS' => 'дней',
@@ -84,28 +82,25 @@ $mod_strings = array(
 'LBL_VIEW_GANTT_DURATION' => 'Продолжительность',
 'LBL_TASK_TITLE' => 'Редактировать',
 'LBL_DURATION_TITLE' => 'Продолжительность',
-
+'LBL_DESCRIPTION' => 'Описание',
 'LBL_ASSIGNED_USER_ID' => 'Ответственный(ая):',
 
 'LBL_LIST_ASSIGNED_USER' => 'Ответственный(ая)',
 'LBL_UNASSIGNED' => 'Не назначен',
 'LBL_PROJECT_USERS_1_FROM_USERS_TITLE' => 'Участники',
-'LBL_PERCENT_COMPLETE' => 'Процент выполнения',
 'LBL_DELETE_TASK' => 'Удалить проектную задачу',
 'LBL_VIEW_DETAIL' => 'Детали проекта',
 'LBL_ADD_NEW_TASK' => 'Добавить проектную задачу',
-'LBL_START' => 'Начало',
-'LBL_FINISH' => 'Окончание',
 'LBL_ASSIGNED_USER_NAME' => 'Менеджер проекта:',
 
 'LBL_TASK_ID' => 'ID',
-
+'LBL_TASK_NAME' => 'Проектная задача',
 'LBL_DURATION' => 'Продолжительность',
 'LBL_ACTUAL_DURATION' => 'Фактическая продолжительность',
-
-
-
-
+'LBL_START' => 'Начало',
+'LBL_FINISH' => 'Окончание',
+'LBL_PREDECESSORS' => 'Предшественник',
+'LBL_PERCENT_COMPLETE' => 'Процент выполнения',
 'LBL_EDIT_TASK_PROPERTIES' => 'Настройка параметров',
 
 'LBL_OVERRIDE_BUSINESS_HOURS' => 'Учитывать график работы',
@@ -129,6 +124,7 @@ $mod_strings = array(
 'LBL_NO_ACCESS' => 'У вас нет прав на создание записи в модуле $module',
 'LBL_SCHEDULING_FORM_TITLE' => 'Участники',
 'LBL_NONE' => '--не выбрано--',
+'LBL_TASKS_NOT_FOUND' => 'Отсутствуют проектные задачи для построения диаграммы Ганта',
 
 'LBL_AM_PROJECTTEMPLATES_PROJECT_1_FROM_PROJECT_TITLE' => 'Шаблоны проекта',
 	

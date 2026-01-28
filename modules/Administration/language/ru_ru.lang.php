@@ -160,6 +160,137 @@ $mod_strings = array(
 'LBL_CONFIG_TABS_DESC' => 'Вы можете перемещать закладки или субпанели для настройки их видимости. Для контроля доступа используйте <a href="?module=ACLRoles&action=index">управление ролями.</a>',
 'LBL_CONFIG_LANGS_DESC' => 'Вы можете перемещать названия языковых пакетов в необходимую колонку для настройки их доступности.',
 'LBL_CONFIG_TABS_ALLOW_USERS_HIDE_TABS_HELP' => 'Установите данный параметр, если вы хотите, чтобы пользователи могли самостоятельно настраивать видимость модулей системы в настройках параметров пользователя.',
+'LBL_CALENDAR_SYNC_SETTINGS' => 'Настройка синхронизации календаря',
+
+'LBL_CALENDAR_SYNC_SETTINGS_DESC' => 'Настройка параметров автоматической синхронизации календаря и параметров производительности',
+
+'LBL_CALENDAR_SYNC_DESCRIPTION' => 'Управление автоматической двусторонней синхронизацией между SuiteCRM и внешними календарными системами (Google Calendar, Outlook и т. д.).',
+
+'LBL_CALENDAR_SYNC_ENABLE' => 'Включить автоматическую синхронизацию:',
+
+'LBL_CALENDAR_SYNC_ENABLE_DESC' => 'Автоматически синхронизировать события календаря для пользователей с активными подключениями к внешним календарям',
+
+'LBL_CALENDAR_SYNC_FREQUENCY' => 'Частота синхронизации:',
+
+'LBL_CALENDAR_SYNC_CURRENT_STATUS' => 'Статус задания планировщика:',
+
+'LBL_CALENDAR_SYNC_STATUS_INFO' => 'Информация о состоянии синхронизации',
+
+'LBL_CALENDAR_SYNC_SCHEDULER_STATUS' => 'Статус задания планировщика:',
+
+'LBL_CALENDAR_SYNC_LAST_SCHEDULED_RUN' => 'Последний запуск планировщика:',
+
+'LBL_CALENDAR_SYNC_LAST_MANUAL_RUN' => 'Последний запуск вручную:',
+
+'LBL_CALENDAR_SYNC_NEVER' => 'Никогда',
+
+'LBL_CALENDAR_SYNC_ACTIVE' => 'Включено',
+
+'LBL_CALENDAR_SYNC_INACTIVE' => 'Отключено',
+
+'LBL_CALENDAR_SYNC_STATUS_RUNNING' => 'Задание планировщика, выполняющее  синхронизацию календаря, в данный момент активно и обрабатывает задания синхронизации.',
+'LBL_CALENDAR_SYNC_STATUS_STOPPED' => 'Задание планировщика, выполняющее  синхронизацию календаря, в данный момент неактивно. Автоматическая синхронизация не выполняется.',
+
+'LBL_CALENDAR_SYNC_HOW_IT_WORKS' => 'Как работает синхронизация календаря:',
+
+'LBL_CALENDAR_SYNC_WHEN_ENABLED' => 'Автоматическая синхронизация:',
+
+'LBL_CALENDAR_SYNC_WHEN_ENABLED_DESC' => 'Система запускает задание планировщика с указанной периодичностью для обнаружения пользователей с активными подключениями к календарю и автоматически выполняет синхронизацию в порядке очереди.',
+
+'LBL_CALENDAR_SYNC_USER_SYNC' => 'Обработка на уровне пользователя:',
+
+'LBL_CALENDAR_SYNC_USER_SYNC_DESC' => 'Для каждого пользователя система сравнивает события между календарём SuiteCRM и внешним календарем (Google, Outlook и т. д.), определяя, что необходимо создать, обновить или удалить в обоих календарях.',
+
+'LBL_CALENDAR_SYNC_MEETING_SYNC' => 'Синхронизация на уровне событий:',
+
+'LBL_CALENDAR_SYNC_MEETING_SYNC_DESC' => 'Отдельные события календаря синхронизируются в обоих направлениях, гарантируя, что изменения, внесенные в календарь SuiteCRM или внешний календарь, отображаются в обеих системах с учётом установленных настроек разрешения конфликтов.',
+
+'LBL_CALENDAR_SYNC_ENABLED_SUCCESS' => 'Синхронизация календаря успешно включена.',
+
+'LBL_CALENDAR_SYNC_DISABLED_SUCCESS' => 'Синхронизация календаря успешно выключена.',
+
+'LBL_CALENDAR_SYNC_ENABLED_FAILED' => 'Не удалось включить синхронизацию календаря.',
+
+'LBL_CALENDAR_SYNC_DISABLED_FAILED' => 'Не удалось выключить синхронизацию календаря.',
+
+'LBL_CALENDAR_SYNC_INTERVAL_15MIN' => 'Каждые 15 минут',
+
+'LBL_CALENDAR_SYNC_INTERVAL_30MIN' => 'Каждые 30 минут',
+
+'LBL_CALENDAR_SYNC_INTERVAL_1HOUR' => 'Каждый час',
+
+'LBL_CALENDAR_SYNC_INTERVAL_2HOURS' => 'Каждые 2 часа',
+
+'LBL_CALENDAR_SYNC_INTERVAL_3TIMES' => '3 раза в день (6:00, 12:00, 18:00)',
+
+'LBL_CALENDAR_SYNC_SETTINGS_SAVED_SUCCESS' => 'Настройки синхронизации календаря успешно сохранены.',
+
+'LBL_CALENDAR_SYNC_SETTINGS_SAVED_FAILED' => 'Не удалось сохранить настройки синхронизации календаря.',
+
+'LBL_CALENDAR_SYNC_BATCH_CONTROL' => 'Ограничения синхронизации',
+
+'LBL_CALENDAR_SYNC_MAX_ACCOUNTS_PER_SYNC' => 'Количество учётных записей на синхронизацию:',
+
+'LBL_CALENDAR_SYNC_MAX_ACCOUNTS_PER_SYNC_DESC' => 'Максимальное количество учётных записей календаря для обработки за один запуск планировщика (управляет размером пакета)',
+
+'LBL_CALENDAR_SYNC_MAX_OPERATIONS_PER_ACCOUNT' => 'Операций на учётную запись:',
+
+'LBL_CALENDAR_SYNC_MAX_OPERATIONS_PER_ACCOUNT_DESC' => 'Максимальное количество событий (создание/обновление/удаление) для каждой учётной записи за один запуск синхронизации',
+'LBL_CALENDAR_SYNC_ADVANCED_SETTINGS' => 'Расширенные настройки',
+
+'LBL_CALENDAR_SYNC_WINDOW_PAST_DAYS' => 'Прошедшие дни:',
+
+'LBL_CALENDAR_SYNC_WINDOW_PAST_DAYS_DESC' => 'Количество прошедших дней для включения в синхронизацию (0 = только сегодня, рекомендуется: 30 для синхронизации событий за прошедший месяц)',
+
+'LBL_CALENDAR_SYNC_WINDOW_FUTURE_DAYS' => 'Будущие дни:',
+
+'LBL_CALENDAR_SYNC_WINDOW_FUTURE_DAYS_DESC' => 'Количество будущих дней  для включения в синхронизацию (1 = сегодня + завтра, рекомендуется: 90-365 для всестороннего планирования событий)',
+'LBL_CALENDAR_SYNC_CONFLICT_RESOLUTION' => 'Стратегия разрешения конфликтов:',
+
+'LBL_CALENDAR_SYNC_CONFLICT_RESOLUTION_DESC' => 'Как разрешить конфликты, если одно и то же событие было изменено в обеих системах',
+
+'LBL_CALENDAR_SYNC_CONFLICT_TIMESTAMP' => 'Побеждает последнее изменение (рекомендуется)',
+
+'LBL_CALENDAR_SYNC_CONFLICT_EXTERNAL_BASED' => 'Приоритет внешнего календаря (внешний календарь всегда побеждает)',
+
+'LBL_CALENDAR_SYNC_CONFLICT_INTERNAL_BASED' => 'Приоритет SuiteCRM (SuiteCRM всегда побеждает)',
+
+'LBL_CALENDAR_SYNC_CONFLICT_TIMESTAMP_TITLE_MATCH' => 'Требуется совпадение по недавним изменениям и названию',
+
+'LBL_CALENDAR_SYNC_MATCHING_CONFIDENCE' => 'Степень соответствия событий:',
+
+'LBL_CALENDAR_SYNC_MATCHING_CONFIDENCE_DESC' => 'Насколько строгим должен быть уровень соответствия похожих событий (0.1 = очень мягкий, 1.0 = требуется точное совпадение, рекомендуется: 0.8)',
+
+'LBL_CALENDAR_SYNC_ALLOW_INTERNAL_DELETION' => 'Автоматическое удаление событий SuiteCRM:',
+
+'LBL_CALENDAR_SYNC_ALLOW_INTERNAL_DELETION_DESC' => 'Автоматическое удаление событий SuiteCRM при удалении связанных с ними событий внешнего календаря (внимание: это приведёт к безвозвратному удалению данных)',
+
+'LBL_CALENDAR_SYNC_ALLOW_EXTERNAL_DELETION' => 'Автоматическое удаление внешних событий:',
+
+'LBL_CALENDAR_SYNC_ALLOW_EXTERNAL_DELETION_DESC' => 'Автоматическое удаление событий внешнего календаря при удалении связанных с ними событий SuiteCRM (внимание: это приведёт к удалению данных из внешнего календаря)',
+
+'LBL_CALENDAR_SYNC_MANUAL_TRIGGER_TITLE' => 'Немедленная синхронизация',
+
+'LBL_CALENDAR_SYNC_MANUAL_TRIGGER_DESC' => 'Принудительная синхронизация для всех пользователей с активными подключениями к календарям, вне зависимости от настроек планировщика.',
+
+'LBL_CALENDAR_SYNC_MANUAL_TRIGGER_BUTTON' => 'Синхронизировать всех пользователей',
+
+'LBL_CALENDAR_SYNC_MANUAL_TRIGGER_TOOLTIP' => 'Запустить немедленную синхронизацию для всех учётных записей календаря',
+
+'LBL_CALENDAR_SYNC_MANUAL_TRIGGER_CONFIRM' => 'Будет выполнена постановка в очередь заданий синхронизации для всех пользователей, что может повлиять на производительность системы. Продолжить?',
+
+'LBL_CALENDAR_SYNC_MANUAL_TRIGGER_SUCCESS' => 'Ручная синхронизация выполнена успешно.',
+
+'LBL_CALENDAR_SYNC_MANUAL_TRIGGER_FAILED' => 'Не удалось выполнить ручную синхронизацию. Проверьте системные журналы для получения подробной информации об ошибке.',
+
+'LBL_CALENDAR_SYNC_MANUAL_TRIGGER_WARNING' => 'Будет выполнена постановка в очередь заданий синхронизации для всех пользователей, что может повлиять на производительность системы.',
+
+'LBL_CALENDAR_SYNC_LAST_COMPLETED' => 'Последняя синхронизация',
+
+'LBL_CALENDAR_SYNC_LOGIC_HOOKS_CONTROL' => 'Управление логическими хуками',
+
+'LBL_CALENDAR_SYNC_ENABLE_LOGIC_HOOKS' => 'Включить логические хуки синхронизации календаря:',
+'LBL_CALENDAR_SYNC_ENABLE_LOGIC_HOOKS_DESC' => 'При включении будет автоматически запускаться синхронизация календаря при сохранении или удалении встреч. При отключении автоматическая синхронизация происходить не будет.',
 'LBL_CONFIGURE_GROUP_TABS_DESC' => 'Создание и редактирование сгруппированных модулей',
 'LBL_CONFIGURE_GROUP_TABS' => 'Настройка сгруппированных модулей',
 'LBL_CONFIGURE_SETTINGS_TITLE' => 'Настройка конфигурации' ,
@@ -821,14 +952,6 @@ $mod_strings = array(
 'LBL_JJWG_MAPS_ADMIN_ADDRESS_CACHE_TITLE' => 'Кеш адресов',
 'LBL_JJWG_MAPS_ADMIN_ADDRESS_CACHE_DESC' => 'Доступ к кешу геокодированных адресов',
 
-// Google Calendar
-'LBL_GOOGLE_AUTH_TITLE' => 'Google - настройка синхронизации',
-'LBL_GOOGLE_CALENDAR_SETTINGS_TITLE' => 'Настройка Google Календарь',
-'LBL_GOOGLE_CALENDAR_SETTINGS_DESC' => 'Настройка интеграции с Google Календарь',
-'LBL_GOOGLE_CALENDAR_SETTINGS_JSON' => 'Загрузить файл с учётными данными',
-'LBL_GOOGLE_CALENDAR_SETTINGS_JSON_HELP' => 'Загрузка JSON-файла с учётными данными.',
-'LBL_GOOGLE_CALENDAR_GET_API_KEY' => 'Получить учётные данные',
-
 'LBL_DISPLAY_SIDEBAR' => 'Отображать боковое меню',
 'LBL_COLOUR_ADMIN_PAGEHEADER' => 'Цвет заголовков на странице: ',
 'LBL_COLOUR_ADMIN_PAGELINK' => 'Цвет гиперссылок на странице: ',
@@ -905,7 +1028,6 @@ $mod_strings = array(
 'LBL_AOS_ADMIN_ENABLE_LINE_ITEM_GROUPS' => 'Возможность группировки позиций',
 'LBL_AOS_ADMIN_ENABLE_LINE_ITEM_TOTAL_TAX' => 'Включать НДС в сумму<br>(для каждой позиции)',
 'LBL_AOS_SETTINGS' => 'Настройка модулей продаж',
-'LBL_AOS_PRODUCTS' => 'Товары', ///
 'LBL_AOS_DAYS' => 'дней',
 'LBL_CHANGE_SETTINGS' => 'Настройка параметров договоров, счетов, предложений',
 'LBL_CHANGE_SETTINGS_AOD' => 'Настройка параметров полнотекстового поиска',

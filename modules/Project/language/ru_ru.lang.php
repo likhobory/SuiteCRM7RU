@@ -40,21 +40,19 @@ $mod_strings = array(
 'LBL_DATE_ENTERED' => 'Дата создания:' ,
 'LBL_DATE_MODIFIED' => 'Дата изменения:' ,
 'LBL_ASSIGNED_USER_ID' => 'Ответственный(ая): ' ,
-
+'LBL_ASSIGNED_USER_NAME' => 'Project Manager:',
 'LBL_MODIFIED_USER_ID' => 'Изменено(ID):' ,
 'LBL_CREATED_BY' => 'Кем создано:' ,
 'LBL_NAME' => 'Проект:' ,
-
+'LBL_DESCRIPTION' => 'Описание:',
 'LBL_DELETED' => 'Удалено:' ,
 'LBL_DATE' => 'Дата:',
 'LBL_DATE_START' => 'Дата начала:',
 'LBL_DATE_END' => 'Дата окончания:',
 'LBL_PRIORITY' => 'Приоритет',
-'LBL_STATUS' => 'Статус',
 
 
 'LBL_LIST_NAME' => 'Название' ,
-'LBL_LIST_ASSIGNED_USER_ID' => 'Менеджер проекта' ,
 'LBL_LIST_TOTAL_ESTIMATED_EFFORT' => 'Предварительная оценка общих усилий (час.)' ,
 'LBL_LIST_TOTAL_ACTUAL_EFFORT' => 'Реальные общие усилия (час.)' ,
 'LBL_LIST_END_DATE' => 'Дата окончания',
@@ -81,7 +79,6 @@ $mod_strings = array(
 'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Мероприятия' ,
 'LBL_HISTORY_SUBPANEL_TITLE' => 'История' ,
 
-'LBL_PROJECT_TASKS_SUBPANEL_TITLE' => 'Проектные задачи' ,
 'LBL_CONTACTS_SUBPANEL_TITLE' => 'Контакты' ,
 'LBL_ACCOUNTS_SUBPANEL_TITLE' => 'Контрагенты' ,
 'LBL_OPPORTUNITIES_SUBPANEL_TITLE' => 'Сделки',
@@ -90,13 +87,13 @@ $mod_strings = array(
 
 
 'LBL_TASK_ID' => 'ID',
-
+'LBL_TASK_NAME' => 'Проектная задача',
 'LBL_DURATION' => 'Продолжительность',
 'LBL_ACTUAL_DURATION' => 'Фактическая продолжительность',
 'LBL_START' => 'Начало',
 'LBL_FINISH' => 'Окончание',
-
-
+'LBL_PREDECESSORS' => 'Предшественник',
+'LBL_PERCENT_COMPLETE' => 'Процент выполнения',
 'LBL_MORE' => 'Больше...',
 
 
@@ -104,18 +101,16 @@ $mod_strings = array(
 'LBL_NEXT_WEEK' => 'Следующая',
 'LBL_PROJECT_INFORMATION' => 'Основная информация',
 'LBL_EDITLAYOUT' => 'Изменить макет' /*for 508 compliance fix*/,
-
+'LBL_PROJECT_TASKS_SUBPANEL_TITLE' => 'Проектные задачи',
 
 
 
 
   'LBL_VIEW_GANTT_TITLE' => 'Диаграмма Ганта',
   'LBL_VIEW_GANTT_DURATION' => 'Продолжительность',
-  'LBL_ASSIGNED_USER_NAME' => 'Менеджер проекта',
 
   'LBL_TASK_TITLE' => 'Редактировать',
   'LBL_DURATION_TITLE' => 'Продолжительность',
-  'LBL_DESCRIPTION' => 'Описание',
   'LBL_LAG' => 'Задержка',
   'LBL_DAYS' => 'дней',
   'LBL_HOURS' => 'часов',
@@ -126,15 +121,12 @@ $mod_strings = array(
   'LBL_DELETE_TASK' => 'Удалить проектную задачу',
   'LBL_EDIT_TASK_PROPERTIES' => 'Настройка параметров',
   'LBL_PARENT_TASK_ID' => 'Предшествующая задача(ID)',
-  'LBL_PERCENT_COMPLETE' => 'Процент выполнения',
   'LBL_RESOURCE_CHART' => 'Диаграмма ресурсов',
   'LBL_RELATIONSHIP_TYPE' => 'Тип связи',
-  'LBL_TASK_NAME' => 'Проектная задача',
-  'LBL_PREDECESSORS' => 'Предшественник',
   'LBL_ASSIGNED_TO' => 'Менеджер проекта',
   'LBL_AM_PROJECTTEMPLATES_PROJECT_1_FROM_AM_PROJECTTEMPLATES_TITLE' => 'Шаблон проекта',
-
-
+  'LBL_STATUS' => 'Статус:',
+  'LBL_LIST_ASSIGNED_USER_ID' => 'Менеджер проекта',
   'LBL_TOOLTIP_PROJECT_NAME' => 'Проект',
   'LBL_TOOLTIP_TASK_NAME' => 'Проектная задача',
   'LBL_TOOLTIP_TITLE' => 'Задачи на выбранный период',
@@ -175,7 +167,6 @@ $mod_strings = array(
   'LBL_PROJECTS_SEARCH' => 'Проекты',
   'LBL_USERS_SEARCH' => 'Пользователи',
   'LBL_CONTACTS_SEARCH' => 'Контакты',
-  'LBL_PROJECT_CONTACTS_1_FROM_CONTACTS_TITLE' => 'Контакты : Контакты',
   'LBL_RESOURCE_CHART_SEARCH_BUTTON' => 'Найти',
 	
   'LBL_CHART_TYPE' => 'Отображать данные по:',
@@ -185,8 +176,10 @@ $mod_strings = array(
 
   'LBL_RESOURCE_CHART_MONTH' => 'Месяц',
   'LBL_RESOURCE_CHART_QUARTER' => 'Квартал',
+    'LBL_PROJECT_CONTACTS_1_FROM_CONTACTS_TITLE' => 'Контакты : Контакты',
   'LBL_AM_PROJECTTEMPLATES_PROJECT_1_FROM_PROJECT_TITLE' => 'Шаблоны проекта',
   'LBL_AOS_QUOTES_PROJECT' => 'Проекты-Предложения',
+  'LBL_TASKS_NOT_FOUND' => 'Отсутствуют проектные задачи для построения диаграммы Ганта',
   
   'LBL_ASCENDING' => 'Восходящая',
   'LBL_DESCENDING' => 'Нисходящая',

@@ -1,4 +1,5 @@
 <?php
+if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
 /*********************************************************************************
  *
  * This program is free software; you can redistribute it and/or modify it under
@@ -26,11 +27,7 @@
   * Description : Defines the Russian language pack for the SuiteCRM application.
   *********************************************************************************/
 
-if (!defined('sugarEntry') || !sugarEntry) {
-    die('Not A Valid Entry Point');
-}
-
-$mod_strings = array (
+$mod_strings = [
     'LBL_MODULE_NAME' => 'OAuth2-клиенты',
     'LBL_MODULE_TITLE' => 'OAuth2-клиенты',
     'LBL_MODULE_ID'=> 'OAuth2-клиенты',
@@ -54,10 +51,11 @@ $mod_strings = array (
 
     'LNK_OAUTH2_TOKEN_LIST'=> 'OAuth2-токены',
     'LNK_OAUTH2_CLIENT_LIST'=> 'OAuth2-клиенты',
+    'LNK_OAUTH2_AUTHCODE_LIST' => 'Коды OAuth2-авторизации',
 
     'LNK_NEW_OAUTH2_CLIENT'=> 'Создать OAuth2-клиента',
     'LNK_NEW_OAUTH2_PASSWORD_CLIENT' => 'Добавить доступ по паролю ',
     'LNK_NEW_OAUTH2_CREDENTIALS_CLIENT' => 'Добавить доступ через клиентские полномочия',
     'LNK_NEW_OAUTH2_IMPLICIT_CLIENT' => 'Добавить неявный доступ',
     'LNK_NEW_OAUTH2_AUTHORIZATION_CLIENT' => 'Добавить доступ через код подтверждения',
-);
+];

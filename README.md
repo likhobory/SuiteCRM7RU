@@ -16,7 +16,12 @@ Russian RAPIRA language pack and manual for SuiteCRM 7
 Если вы используете предыдущие версии SuiteCRM - загружайте [соответствующие](https://github.com/likhobory/SuiteCRM7RU/releases) языковые пакеты.**
 
 ------------------------------------------------
-<b>Что нового в SuiteCRM 7.14</b>    (история всех основных изменений содержится в файле [HISTORY.TXT][history])
+<b>Что нового в SuiteCRM 7.15</b>      (история всех основных изменений содержится в файле [HISTORY.TXT][history])    
+
+Расширен функционал при импортировании писем в систему.  
+Расширен функционал при синхронизации встреч с событиями во внешних календарях  
+
+<b>Что нового в SuiteCRM 7.14</b>    
 
 Добавлена возможность настройки учётных записей исходящей почты, использующих OAuth.  
 Добавлена возможность индивидуального выбора языка интерфейса для пользователей.  
@@ -70,21 +75,17 @@ Russian RAPIRA language pack and manual for SuiteCRM 7
 [Официальная][man-ru] русскоязычная документация не обновляется с 2022 года, актуальная информация по установке,
  настройке и использованию SuiteCRM сейчас располагается [здесь][man-ru-netlify].
  
-Разница между актуальной и официальной версией описана в [этом][pr-582] запросе на слияние.
-
 Пользователям, не знакомым с SuiteCRM, в первую очередь рекомендуются к прочтению раздел [Начало работы][getting-started], 
 описывающий основные технические требования, необходимые для работы в системе, и раздел  
 [Описание пользовательского интерфейса][ui], знакомящий с основными настройками системы. 
 В описании присутствует масса перекрёстных ссылок, позволяющих быстро перейти к подробному описанию рассматриваемого функционала.
 
             
-[langpack]: https://github.com/likhobory/SuiteCRM7RU/blob/ver.7.14/rapira-suite_pack_russian.zip?raw=true
+[langpack]: https://github.com/likhobory/SuiteCRM7RU/blob/ver.7.15/rapira-suite_pack_russian.zip?raw=true
 [man-adoc]: https://github.com/likhobory/SuiteDocs/blob/master/README.ru.adoc
 [man-ru]: https://docs.suitecrm.com/ru
 [man-ru-netlify]: https://russian-rapira-suitecrm-docs.netlify.app/ru
 [core-ru]: https://github.com/likhobory/SuiteCRM-CoreRU   
-
-[pr-582]: https://github.com/salesagility/SuiteDocs/pull/582
 
 [getting-started]: https://russian-rapira-suitecrm-docs.netlify.app/ru/user/introduction/getting-started
 [ui]: https://russian-rapira-suitecrm-docs.netlify.app/ru/user/introduction/user-interface

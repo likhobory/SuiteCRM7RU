@@ -70,6 +70,7 @@ $mod_strings = array(
 
 'LBL_LIST_NAME' => 'Название' ,
 'LBL_LIST_PARENT_NAME' => 'Проект' ,
+'LBL_SEARCH_FORM_TITLE' => 'Поиск проектных задач',
 'LBL_LIST_PERCENT_COMPLETE' => '% выполнения' ,
 'LBL_LIST_STATUS' => 'Статус' ,
 'LBL_LIST_ASSIGNED_USER_ID' => 'Ответственный(ая) ' ,
@@ -77,6 +78,7 @@ $mod_strings = array(
 'LBL_LIST_PRIORITY' => 'Приоритет' ,
 'LBL_LIST_CLOSE' => 'Закрыть' ,
 'LBL_PROJECT_NAME' => 'Название проекта' ,
+'LBL_LIST_FORM_TITLE' => 'Проектные задачи',
 
 'LNK_NEW_PROJECT' => 'Создать проект' ,
 'LNK_PROJECT_LIST' => 'Проекты' ,

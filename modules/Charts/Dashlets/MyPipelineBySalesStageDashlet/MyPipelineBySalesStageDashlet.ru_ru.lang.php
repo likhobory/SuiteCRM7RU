@@ -32,4 +32,5 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
 $dashletStrings['MyPipelineBySalesStageDashlet'] = array(
 'LBL_TITLE' => 'Диаграмма стадий моих продаж',
 'LBL_DESCRIPTION' => 'Диаграмма стадий моих продаж',
-'LBL_REFRESH' => 'Обновить диаграмму');
+'LBL_REFRESH' => 'Обновить диаграмму'
+);

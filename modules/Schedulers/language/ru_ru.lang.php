@@ -29,7 +29,7 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
   *********************************************************************************/
  // Replaced by RAPIRA <--
  
-global $sugar_config;
+
 
 $mod_strings = array(
 // OOTB Scheduler Job Names:
@@ -48,6 +48,7 @@ $mod_strings = array(
 'LBL_OOTB_REMOVE_DOCUMENTS_FROM_FS' => 'Удалять неиспользуемые файлы из системы',
 'LBL_OOTB_GOOGLE_CAL_SYNC' => 'Синхронизировать с календарём Google',
 'LBL_OOTB_ELASTIC_INDEX' => 'Выполнять Elasticsearch-индексацию',
+'LBL_OOTB_CAL_ACC_SYNC' => 'Синхронизировать учётные записи календаря',
 
 // List Labels
 'LBL_LIST_JOB_INTERVAL' => 'Периодичность:' ,
@@ -151,8 +152,10 @@ $mod_strings = array(
 'LBL_PROCESSAOW_WORKFLOW' => 'Выполнять настроенные процессы', 
 
 'LBL_RUNELASTICSEARCHINDEXERSCHEDULER' => 'Выполнять Elasticsearch-индексацию',
+'LBL_CALENDARSYNCJOB' => 'Синхронизировать учётные записи календаря',
 
 'LBL_SCHEDULER_TIMES' => 'Расписание планировщика',
 'LBL_SYNCGOOGLECALENDAR' => 'Синхронизировать с календарём Google',
 
 );
+global $sugar_config;
