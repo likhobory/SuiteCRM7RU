@@ -20,7 +20,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 * Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
 * 02110-1301 USA.
 
- // Replaced by RAPIRA -->
+ // Replaced by RAPIRA ->
  ********************************************************************************/
   /*********************************************************************************
   *
@@ -29,9 +29,9 @@ if (!defined('sugarEntry') || !sugarEntry) {
   ***********************************************************************likhobory*/
 
   /*********************************************************************************
-  * Description : Defines the Russian language pack for the base application.
+  * Description : Defines the Russian language pack for the SuiteCRM application.
   *********************************************************************************/
- // Replaced by RAPIRA <--
+ // Replaced by RAPIRA <-
  
 $mod_strings = array(
 'LBL_MODULE_NAME' => 'SuiteCRM',
@@ -183,11 +183,11 @@ $mod_strings = array(
 'LBL_CONTRIBUTORS' => 'Участники проекта',
 'LBL_ABOUT_SUITE' => 'О проекте SuiteCRM',
 'LBL_PARTNERS' => 'Партнёры',
-'LBL_FEATURING' => 'AOS, AOW, AOR, AOP, AOE and Reschedule modules by SalesAgility.',
 'LBL_EDIT_ALL_RECURRENCES' => 'Править, включая повторы',
 'LBL_REMOVE_ALL_RECURRENCES' => 'Удалить, включая повторы',
 'LBL_CONFIRM_REMOVE' => 'Вы действительно хотите удалить эту запись?',
 
+'LBL_MAINTAINER_SUITECRM' => 'SuiteCRM is written and maintained by SuiteCRM Ltd',
 'LBL_CONTRIBUTOR_SUITECRM' => 'Бесплатная альтернатива SugarCRM Professional Edition с открытым исходным кодом    <br>
         <hr><h2>
         <a href="https://community.suitecrm.com/t/suitecrm/54668" target="_blank">Русифицированное Руководство пользователя и администратора SuiteCRM</a></h2>',

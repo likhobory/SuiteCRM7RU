@@ -1,9 +1,5 @@
 <?php
-
-if (!defined('sugarEntry') || !sugarEntry) {
-    die('Not A Valid Entry Point');
-}
-
+if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
 /*********************************************************************************
 
 * This program is free software; you can redistribute it and/or modify it under
@@ -20,7 +16,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 * Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
 * 02110-1301 USA.
 
- // Replaced by RAPIRA -->
+ // Replaced by RAPIRA ->
  ********************************************************************************/
   /*********************************************************************************
   *
@@ -29,9 +25,9 @@ if (!defined('sugarEntry') || !sugarEntry) {
   ***********************************************************************likhobory*/
 
   /*********************************************************************************
-  * Description : Defines the Russian language pack for the base application.
+  * Description : Defines the Russian language pack for the SuiteCRM application.
   *********************************************************************************/
- // Replaced by RAPIRA <--
+ // Replaced by RAPIRA <-
  
 $mod_strings = array(
 
@@ -45,7 +41,7 @@ $mod_strings = array(
 'LBL_ASSIGNED_TO_ID' => 'Ответственный(ая)',
 'LBL_ASSIGNED_TO_NAME' => 'Пользователь: ',
 'LBL_WORK_LOG' => 'Журнал',
-'LBL_CREATED_BY' => 'Кем создано:',
+'LBL_CREATED_BY' => 'Создано',
 'LBL_DATE_ENTERED' => 'Дата ввода:' ,
 'LBL_DATE_MODIFIED' => 'Дата изменения:' ,
 'LBL_MODIFIED_BY' => 'Кем изменено:',

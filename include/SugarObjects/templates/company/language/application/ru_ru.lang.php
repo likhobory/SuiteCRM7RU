@@ -1,9 +1,5 @@
 <?php
-
-if (!defined('sugarEntry') || !sugarEntry) {
-    die('Not A Valid Entry Point');
-}
-
+if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
 /*********************************************************************************
 
 * This program is free software; you can redistribute it and/or modify it under
@@ -20,7 +16,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 * Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
 * 02110-1301 USA.
 
- // Replaced by RAPIRA -->
+ // Replaced by RAPIRA ->
  ********************************************************************************/
   /*********************************************************************************
   *
@@ -29,29 +25,28 @@ if (!defined('sugarEntry') || !sugarEntry) {
   ***********************************************************************likhobory*/
 
   /*********************************************************************************
-  * Description : Defines the Russian language pack for the base application.
+  * Description : Defines the Russian language pack for the SuiteCRM application.
   *********************************************************************************/
- // Replaced by RAPIRA <--
+ // Replaced by RAPIRA <-
  
 $app_list_strings = array(
 
-strtolower($object_name).'_type_dom' =>
-array(
-// Added by RAPIRA -->
-'Provider' => 'Поставщик' ,
-'Delivery service' => 'Служба доставки' ,
-// Added by RAPIRA <--
-'' => '',
-'Analyst' => 'Аналитик' ,
-'Competitor' => 'Конкурент' ,
-'Customer' => 'Клиент' ,
-'Integrator' => 'Интегратор' ,
-'Investor' => 'Инвестор' ,
-'Partner' => 'Партнёр' ,
-'Press' => 'Пресса' ,
-'Prospect' => 'Адресат' ,
-'Reseller' => 'Реселлер' ,
-'Other' => 'Другое'    ,
-),
+    strtolower($object_name) . '_type_dom' => array(
+    '' => '',
+   // Added by RAPIRA ->
+    'Provider' => 'Поставщик' ,
+    'Delivery service' => 'Служба доставки' ,
+   // Added by RAPIRA <-
+        'Analyst' => 'Аналитик' ,
+        'Competitor' => 'Конкурент' ,
+        'Customer' => 'Клиент' ,
+        'Integrator' => 'Интегратор' ,
+        'Investor' => 'Инвестор' ,
+        'Partner' => 'Партнёр' ,
+        'Press' => 'Пресса' ,
+        'Prospect' => 'Адресат' ,
+        'Reseller' => 'Реселлер' ,
+        'Other' => 'Другое'    ,
+    ),
 
 );

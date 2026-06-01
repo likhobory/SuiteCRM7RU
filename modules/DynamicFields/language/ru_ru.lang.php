@@ -20,7 +20,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 * Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
 * 02110-1301 USA.
 
- // Replaced by RAPIRA -->
+ // Replaced by RAPIRA ->
  ********************************************************************************/
   /*********************************************************************************
   *
@@ -29,9 +29,9 @@ if (!defined('sugarEntry') || !sugarEntry) {
   ***********************************************************************likhobory*/
 
   /*********************************************************************************
-  * Description : Defines the Russian language pack for the base application.
+  * Description : Defines the Russian language pack for the SuiteCRM application.
   *********************************************************************************/
- // Replaced by RAPIRA <--
+ // Replaced by RAPIRA <-
  
 $mod_strings = array(
 'LNK_NEW_CALL' => 'Назначить звонок' ,
@@ -93,4 +93,13 @@ $mod_strings = array(
 'COLUMN_TITLE_INLINE_EDIT_TEXT' => 'Быстрая правка',
 'COLUMN_TITLE_PARENT_ENUM' => 'Родительский комбобокс',
 'LBL_INSERT_FIELD' => 'Вставить поле',
+'LBL_UPLOAD_MAXSIZE' => 'Максимальный размер (в байтах)',
+'LBL_STORAGE_TYPE' => 'Тип хранилища',
+'LBL_METADATA' => 'Метаданные',
+'LBL_ALLOW_PREVIEW' => 'Разрешить предварительный просмотр',
+'LBL_CREATE_THUMBNAIL' => 'Создать миниатюру',
+'LBL_SHOW_THUMBNAIL' => 'Показать миниатюру',
+'LBL_THUMBNAIL_WIDTH' => 'Ширина миниатюры',
+'LBL_THUMBNAIL_HEIGHT' => 'Высота миниатюры',
+'LBL_THUMBNAIL_CONFIG' => 'Параметры миниатюры',
 );

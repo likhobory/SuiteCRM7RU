@@ -20,7 +20,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 * Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
 * 02110-1301 USA.
 
- // Replaced by RAPIRA -->
+ // Replaced by RAPIRA ->
  ********************************************************************************/
   /*********************************************************************************
   *
@@ -29,9 +29,9 @@ if (!defined('sugarEntry') || !sugarEntry) {
   ***********************************************************************likhobory*/
 
   /*********************************************************************************
-  * Description : Defines the Russian language pack for the base application.
+  * Description : Defines the Russian language pack for the SuiteCRM application.
   *********************************************************************************/
- // Replaced by RAPIRA <--
+ // Replaced by RAPIRA <-
  
 
 $mod_strings = array(
@@ -49,6 +49,7 @@ $mod_strings = array(
 'LBL_OOTB_REMOVE_DOCUMENTS_FROM_FS' => 'Удалять неиспользуемые документы из системы',
 'LBL_OOTB_GOOGLE_CAL_SYNC' => 'Синхронизировать с календарём Google',
 'LBL_OOTB_ELASTIC_INDEX' => 'Выполнять Elasticsearch-индексацию',
+'LBL_OOTB_CAL_ACC_SYNC' => 'Синхронизировать учётные записи календаря',
 'LBL_OOTB_SEND_EMAIL_TO_QUEUE' => 'Добавлять рассылку в очередь',
 'LBL_OOTB_SEND_EMAIL_FROM_QUEUE' => 'Запускать рассылку',
 'LBL_OOTB_CLEAN_UP_TEMP_FILES' => 'Удалять временные файлы',
@@ -162,6 +163,7 @@ $mod_strings = array(
 'LBL_PROCESSAOW_WORKFLOW' => 'Выполнять настроенные процессы', 
 
 'LBL_RUNELASTICSEARCHINDEXERSCHEDULER' => 'Elasticsearch-индексация',
+'LBL_CALENDARSYNCJOB' => 'Синхронизировать учётные записи календаря',
 'LBL_SENDFROMQUEUE' => 'Запускать рассылку', 
 'LBL_CLEANUPTEMPORARYFILES' => 'Удалять временные файлы',
 'LBL_EMAILTOQUEUE' => 'Добавлять рассылку в очередь', 

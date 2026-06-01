@@ -20,7 +20,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 * Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
 * 02110-1301 USA.
 
- // Replaced by RAPIRA -->
+ // Replaced by RAPIRA ->
  ********************************************************************************/
   /*********************************************************************************
   *
@@ -29,9 +29,9 @@ if (!defined('sugarEntry') || !sugarEntry) {
   ***********************************************************************likhobory*/
 
   /*********************************************************************************
-  * Description : Defines the Russian language pack for the base application.
+  * Description : Defines the Russian language pack for the SuiteCRM application.
   *********************************************************************************/
- // Replaced by RAPIRA <--
+ // Replaced by RAPIRA <-
 $mod_strings = array(
 'LBL_LOADING' => 'Загрузка' /*for 508 compliance fix*/,
 'LBL_HIDEOPTIONS' => 'Скрыть параметры' /*for 508 compliance fix*/,
@@ -556,6 +556,7 @@ You can re-order the modules by dragging their rows in the table.<br/><br/>
 'LBL_TYPE_BASIC'=> 'Базовый',
 'LBL_TYPE_COMPANY'=> 'Компания',
 'LBL_TYPE_PERSON'=> 'Персона',
+'LBL_TYPE_ASYNCTASK' => 'Асинхронное задание',
 'LBL_TYPE_ISSUE'=> 'Описание',
 'LBL_TYPE_SALE'=> 'Сделка',
 'LBL_TYPE_FILE'=> 'Документ',
@@ -654,6 +655,7 @@ You can re-order the modules by dragging their rows in the table.<br/><br/>
 'date' => 'Date',
 'phone' => 'Phone',
 'currency' => 'Currency',
+'file' => 'File',
 'html' => 'HTML (устарело, используйте TextBlock)',
 'radioenum' => 'Radio',
 'relate' => 'Relate',

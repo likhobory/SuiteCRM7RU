@@ -20,7 +20,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 * Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
 * 02110-1301 USA.
 
- // Replaced by RAPIRA -->
+ // Replaced by RAPIRA ->
  ********************************************************************************/
   /*********************************************************************************
   *
@@ -29,17 +29,20 @@ if (!defined('sugarEntry') || !sugarEntry) {
   ***********************************************************************likhobory*/
 
   /*********************************************************************************
-  * Description : Defines the Russian language pack for the base application.
+  * Description : Defines the Russian language pack for the SuiteCRM application.
   *********************************************************************************/
- // Replaced by RAPIRA <--
+ // Replaced by RAPIRA <-
  
 $mod_strings = array(
 //module
 'LBL_MODULE_NAME' => 'Версии документа' ,
+'LBL_NEW_REVISION' => 'Добавить версию',
 
 'LNK_NEW_DOCUMENT' => 'Создать документ' ,
 'LNK_DOCUMENT_LIST' => 'Документы' ,
 
+    'LBL_OVERVIEW' => 'Обзор',
+    'LBL_OTHER' => 'Другое',
 //vardef labels
 'LBL_REVISION_NAME' => 'Номер версии' ,
 'LBL_FILENAME' => 'Файл:' ,

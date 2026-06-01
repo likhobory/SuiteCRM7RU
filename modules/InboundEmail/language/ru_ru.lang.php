@@ -20,7 +20,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 * Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
 * 02110-1301 USA.
 
- // Replaced by RAPIRA -->
+ // Replaced by RAPIRA ->
  ********************************************************************************/
   /*********************************************************************************
   *
@@ -29,9 +29,9 @@ if (!defined('sugarEntry') || !sugarEntry) {
   ***********************************************************************likhobory*/
 
   /*********************************************************************************
-  * Description : Defines the Russian language pack for the base application.
+  * Description : Defines the Russian language pack for the SuiteCRM application.
   *********************************************************************************/
- // Replaced by RAPIRA <--
+ // Replaced by RAPIRA <-
 $mod_strings = array(
 
 
@@ -198,4 +198,9 @@ $mod_strings = array(
 'LBL_OWNER_NAME' => 'Владелец',
 'LBL_SET_AS_DEFAULT_BUTTON' => 'Установить по умолчанию',
 'LBL_MOVE_MESSAGES_TO_TRASH_AFTER_IMPORT' => 'Перемещать сообщения в Корзину после импорта',
+'LBL_LAST_IMPORT_RUN_DATETIME' => 'Дата/время последнего запуска импорта',
+'LBL_MAILBOX_LAST_IMPORTED_DAYS' => 'Дата последнего импортированного дня',
+'LBL_EMAIL_IMPORT_PER_RUN_THRESHOLD' => 'Количество импортируемых писем за один запуск задания планировщика',
+'LBL_EMAIL_IMPORT_TIMEFRAME_START' => 'Отправная точка для импорта писем из новых почтовых ящиков',
+'LBL_EMAIL_IMPORT_UNREAD_ONLY' => 'Импортировать только непрочитанные письма'
 );

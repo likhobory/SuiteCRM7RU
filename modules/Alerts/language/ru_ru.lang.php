@@ -28,7 +28,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
   ***********************************************************************likhobory*/
 
   /*********************************************************************************
-  * Description : Defines the Russian language pack for the base application.
+  * Description : Defines the Russian language pack for the SuiteCRM application.
   *********************************************************************************/
 
 $mod_strings = array(
@@ -62,4 +62,5 @@ $mod_strings = array(
   'LBL_DATE_START' => 'Дата начала',
   
   'LBL_TYPE' => 'Тип',
+  'LBL_STATUS' => 'Статус',
 );

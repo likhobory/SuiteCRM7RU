@@ -28,18 +28,18 @@ if (!defined('sugarEntry') || !sugarEntry) {
   ***********************************************************************likhobory*/
 
   /*********************************************************************************
-  * Description : Defines the Russian language pack for the base application.
+  * Description : Defines the Russian language pack for the SuiteCRM application.
   *********************************************************************************/
 
-$mod_strings = array (
+$mod_strings = [
     'LBL_MODULE_NAME' => 'OAuth2-клиенты',
     'LBL_MODULE_TITLE' => 'OAuth2-клиенты',
-    'LBL_MODULE_ID'=> 'OAuth2-клиенты',
-	'LBL_IS_CONFIDENTIAL'=> 'Конфиденциальный клиент',
-    'LBL_SECRET'=> 'Секрет',
-    'LBL_SECRET_HASHED'=> 'Изменить секрет',
-    'LBL_LEAVE_BLANK'=> 'Оставьте это поле пустым, если не требуется изменить значение секрета',
-    'LBL_REMEMBER_SECRET'=> 'Значение сохранённого секрета будет недоступно после сохранения. Храните значение секрета в надёжном месте.',
+    'LBL_MODULE_ID' => 'OAuth2-клиенты',
+	'LBL_IS_CONFIDENTIAL' => 'Конфиденциальный клиент',
+    'LBL_SECRET' => 'Секрет',
+    'LBL_SECRET_HASHED' => 'Изменить секрет',
+    'LBL_LEAVE_BLANK' => 'Оставьте это поле пустым, если не требуется изменить значение секрета',
+    'LBL_REMEMBER_SECRET' => 'Значение сохранённого секрета будет недоступно после сохранения. Храните значение секрета в надёжном месте.',
 	  'LBL_REDIRECT_URL' => 'URI перенаправления на страницу авторизации',
 	  'LBL_ALLOWED_GRANT_TYPE' => 'Вид гранта',
     'LBL_DURATION_AMOUNT' => 'Коэф. продолжительности',
@@ -53,12 +53,13 @@ $mod_strings = array (
     'LBL_ACCESS_TOKEN_EXPIRES' => 'Токен доступа действителен до:',
     'LBL_REFRESH_TOKEN_EXPIRES' => 'Токен обновления действителен до',
 
-    'LNK_OAUTH2_TOKEN_LIST'=> 'OAuth2-токены',
-    'LNK_OAUTH2_CLIENT_LIST'=> 'OAuth2-клиенты',
+    'LNK_OAUTH2_TOKEN_LIST' => 'OAuth2-токены',
+    'LNK_OAUTH2_CLIENT_LIST' => 'OAuth2-клиенты',
+    'LNK_OAUTH2_AUTHCODE_LIST' => 'Коды OAuth2-авторизации',
 	
-    'LNK_NEW_OAUTH2_CLIENT'=> 'Создать OAuth2-клиента',
+    'LNK_NEW_OAUTH2_CLIENT' => 'Создать OAuth2-клиента',
 	'LNK_NEW_OAUTH2_PASSWORD_CLIENT' => 'Добавить доступ по паролю ',
     'LNK_NEW_OAUTH2_CREDENTIALS_CLIENT' => 'Добавить доступ через клиентские полномочия',
     'LNK_NEW_OAUTH2_IMPLICIT_CLIENT' => 'Добавить неявный доступ',
     'LNK_NEW_OAUTH2_AUTHORIZATION_CLIENT' => 'Добавить доступ через код подтверждения',
-);
+];

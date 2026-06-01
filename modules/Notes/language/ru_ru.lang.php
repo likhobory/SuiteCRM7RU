@@ -20,7 +20,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 * Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
 * 02110-1301 USA.
 
- // Replaced by RAPIRA -->
+ // Replaced by RAPIRA ->
  ********************************************************************************/
   /*********************************************************************************
   *
@@ -29,9 +29,9 @@ if (!defined('sugarEntry') || !sugarEntry) {
   ***********************************************************************likhobory*/
 
   /*********************************************************************************
-  * Description : Defines the Russian language pack for the base application.
+  * Description : Defines the Russian language pack for the SuiteCRM application.
   *********************************************************************************/
- // Replaced by RAPIRA <--
+ // Replaced by RAPIRA <-
  
 $mod_strings = array(
 'ERR_DELETE_RECORD' => 'Вы должны указать конкретную запись перед удалением.' ,
@@ -50,7 +50,8 @@ $mod_strings = array(
 'LBL_LEAD_ID' => 'ID предварительного контакта:' ,
 'LBL_LIST_CONTACT_NAME' => 'Контакт' ,
 'LBL_LIST_DATE_MODIFIED' => 'Дата последнего изменения' ,
-'LBL_LIST_FILENAME' => 'Вложение' ,
+'LBL_LIST_FILENAME' => 'Файл' ,
+'LBL_LIST_FILE' => 'Файл',
 'LBL_LIST_FORM_TITLE' => 'Заметки' ,
 'LBL_LIST_RELATED_TO' => 'Относится к' ,
 'LBL_LIST_SUBJECT' => 'Тема' ,

@@ -20,7 +20,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 * Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
 * 02110-1301 USA.
 
- // Replaced by RAPIRA -->
+ // Replaced by RAPIRA ->
  ********************************************************************************/
   /*********************************************************************************
   *
@@ -29,9 +29,9 @@ if (!defined('sugarEntry') || !sugarEntry) {
   ***********************************************************************likhobory*/
 
   /*********************************************************************************
-  * Description : Defines the Russian language pack for the base application.
+  * Description : Defines the Russian language pack for the SuiteCRM application.
   *********************************************************************************/
- // Replaced by RAPIRA <--
+ // Replaced by RAPIRA <-
  
 $mod_strings = array(
 'LBL_RECOVER_PASSWORD_SUCCESS' => 'Если указанные имя пользователя и адрес верны, то вы получите электронное письмо с инструкциями по восстановлению пароля',
@@ -755,16 +755,13 @@ $mod_strings = array(
 'ERR_USER_FACTOR_SMTP_REQUIRED' => 'Прежде всего необходимо настроить параметры SMTP-сервера.',
 'ERR_USER_FACTOR_CHANGE_DISABLED' => 'Текущий пользователь не может менять настройки двухэтапной аутентификации.',
 'LNK_IMPORT_CAMPAIGNS' => 'Импорт маркет. кампании',
-// for Google Token/Synchronization settings
-'LBL_GOOGLE_API_SETTINGS' => 'Синхронизация с календарём Google',
-'LBL_GOOGLE_API_TOKEN' => 'Google API-токен',
-'LBL_GOOGLE_API_TOKEN_HELP' => "Настройка доступа SuiteCRM к данным календаря Google. Для синхронизации данных после получения токена отметьте параметр 'Включить синхронизацию с календарём Google'.",
-'LBL_GOOGLE_API_TOKEN_BTN' => 'Получить токен',
-'LBL_GSYNC_CAL' => 'Включить синхронизацию с календарём Google',
-// END Google Token/Synchronization settings
+
+'LNK_ACCESS_TOKENS' => 'Токены доступа к API',
 'LNK_LIST_OUTBOUND_EMAIL_ACCOUNTS' => 'Учётные записи исходящей почты',
 'LNK_LIST_INBOUND_EMAIL_ACCOUNTS' => 'Учётные записи входящей почты',
 'LNK_EXTERNAL_OAUTH_CONNECTIONS' => 'Внешние подключения OAuth',
+
+'LNK_LIST_CALENDAR_ACCOUNTS' => 'Учётные записи календаря',
 
 // 2FA
 'LBL_FACTOR_AUTH' => 'Двухэтапная аутентификация',

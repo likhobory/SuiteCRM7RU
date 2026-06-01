@@ -20,7 +20,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 * Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
 * 02110-1301 USA.
 
- // Replaced by RAPIRA -->
+ // Replaced by RAPIRA ->
  ********************************************************************************/
   /*********************************************************************************
   *
@@ -29,9 +29,9 @@ if (!defined('sugarEntry') || !sugarEntry) {
   ***********************************************************************likhobory*/
 
   /*********************************************************************************
-  * Description : Defines the Russian language pack for the base application.
+  * Description : Defines the Russian language pack for the SuiteCRM application.
   *********************************************************************************/
- // Replaced by RAPIRA <--
+ // Replaced by RAPIRA <-
  
 $mod_strings = array(
 
@@ -105,6 +105,7 @@ $mod_strings = array(
 'LBL_SUBJECT' => 'Тема встречи:' ,
 'LBL_TIME' => 'Время начала:' ,
 'LBL_USERS_SUBPANEL_TITLE' => 'Пользователи' ,
+'LBL_CALENDAR_ACCOUNTS' => 'Учётные записи календаря',
 'LBL_PARENT_TYPE' => 'Тип родителя',
 'LBL_PARENT_ID' => 'ID родителя',
 'LNK_MEETING_LIST' => 'Встречи' ,
