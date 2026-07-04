@@ -104,8 +104,8 @@ $mod_strings = array(
 'LBL_FP_EVENTS_PROSPECTS_1_FROM_PROSPECTS_TITLE' => 'Адресаты',
 'LBL_FP_EVENTS_FP_EVENT_DELEGATES_1_FROM_FP_EVENT_DELEGATES_TITLE' => 'Участники',
 
-'LBL_HOURS_ABBREV' => 'час.' ,
-'LBL_MINSS_ABBREV' => 'мин.' ,
+'LBL_HOURS_ABBREV' => 'час.',
+'LBL_MINSS_ABBREV' => 'мин.',
 
 	// Attendance report
 	'LBL_CONTACT_NAME' => 'Имя',

@@ -31,24 +31,24 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
 $app_list_strings = array(
     strtolower($object_name) . '_category_dom' => array(
         '' => '',
-        'Marketing' => 'Маркетинг' ,
-        'Knowledege Base' => 'База знаний' ,
-        'Sales' => 'Продажи'    ,
+        'Marketing' => 'Маркетинг',
+        'Knowledege Base' => 'База знаний',
+        'Sales' => 'Продажи',
     ),
 
     strtolower($object_name) . '_subcategory_dom' => array(
         '' => '',
-        'Marketing Collateral' => 'Маркетинг' ,
-        'Product Brochures' => 'Брошюры товаров' ,
-        'FAQ' => 'ЧаВо' ,
+        'Marketing Collateral' => 'Маркетинг',
+        'Product Brochures' => 'Брошюры товаров',
+        'FAQ' => 'ЧаВо',
     ),
 
     strtolower($object_name) . '_status_dom' => array(
-        'Active' => 'Активен' ,
+        'Active' => 'Активен',
         'Draft' => 'Черновик',
-        'FAQ' => 'ЧаВо' ,
-        'Expired' => 'Просрочен' ,
-        'Under Review' => 'Рассматривается' ,
-        'Pending' => 'Ожидание решения' ,
+        'FAQ' => 'ЧаВо',
+        'Expired' => 'Просрочен',
+        'Under Review' => 'Рассматривается',
+        'Pending' => 'Ожидание решения',
     ),
 );

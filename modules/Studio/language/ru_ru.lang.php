@@ -34,12 +34,12 @@ if (!defined('sugarEntry') || !sugarEntry) {
  // Replaced by RAPIRA <-
  
 $mod_strings = array(
-'LBL_EDIT_LAYOUT' => 'Правка расположения' ,
-'LBL_EDIT_FIELDS' => 'Правка пользовательских полей' ,
-'LBL_SELECT_FILE' => 'Выбор файла' ,
+'LBL_EDIT_LAYOUT' => 'Правка расположения',
+'LBL_EDIT_FIELDS' => 'Правка пользовательских полей',
+'LBL_SELECT_FILE' => 'Выбор файла',
 'LBL_MODULE_TITLE' => 'Студия',
-'LBL_TOOLBOX' => 'Инструментарий' ,
-'LBL_SUITE_FIELDS_STAGE' => 'Элементы <br> (выберите категорию из списка для отображения соответствующих элементов)' ,
+'LBL_TOOLBOX' => 'Инструментарий',
+'LBL_SUITE_FIELDS_STAGE' => 'Элементы <br> (выберите категорию из списка для отображения соответствующих элементов)',
 'LBL_VIEW_SUITE_FIELDS' => 'Просмотр элементов',
 'LBL_FAILED_TO_SAVE' => 'Сохранение невозможно',
 'LBL_CONFIRM_UNSAVE' => 'Изменения не будут сохранены. Вы действительно хотите продолжить?',

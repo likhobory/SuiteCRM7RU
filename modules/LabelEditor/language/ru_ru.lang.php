@@ -34,7 +34,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
  // Replaced by RAPIRA <-
  
 $mod_strings = array(
-'LBL_MODULE_NAME' => 'Редактор меток' ,
-'LBL_KEY' => 'Ключ:' ,
-'LBL_VALUE' => 'Значение:' ,
+'LBL_MODULE_NAME' => 'Редактор меток',
+'LBL_KEY' => 'Ключ:',
+'LBL_VALUE' => 'Значение:',
 );

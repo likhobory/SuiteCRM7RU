@@ -32,8 +32,8 @@ $app_list_strings = array(
 
     strtolower($object_name) . '_type_dom' => array(
         '' => '',
-        'Existing Business' => 'Существующий бизнес' ,
-        'New Business' => 'Новый бизнес'    ,
+        'Existing Business' => 'Существующий бизнес',
+        'New Business' => 'Новый бизнес',
     ),
 
 );

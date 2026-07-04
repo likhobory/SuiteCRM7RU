@@ -34,19 +34,19 @@ $app_list_strings = array(
     strtolower($object_name) . '_type_dom' => array(
     '' => '',
    // Added by RAPIRA ->
-    'Provider' => 'Поставщик' ,
-    'Delivery service' => 'Служба доставки' ,
+    'Provider' => 'Поставщик',
+    'Delivery service' => 'Служба доставки',
    // Added by RAPIRA <-
-        'Analyst' => 'Аналитик' ,
-        'Competitor' => 'Конкурент' ,
-        'Customer' => 'Клиент' ,
-        'Integrator' => 'Интегратор' ,
-        'Investor' => 'Инвестор' ,
-        'Partner' => 'Партнёр' ,
-        'Press' => 'Пресса' ,
-        'Prospect' => 'Адресат' ,
-        'Reseller' => 'Реселлер' ,
-        'Other' => 'Другое'    ,
+        'Analyst' => 'Аналитик',
+        'Competitor' => 'Конкурент',
+        'Customer' => 'Клиент',
+        'Integrator' => 'Интегратор',
+        'Investor' => 'Инвестор',
+        'Partner' => 'Партнёр',
+        'Press' => 'Пресса',
+        'Prospect' => 'Адресат',
+        'Reseller' => 'Реселлер',
+        'Other' => 'Другое',
     ),
 
 );

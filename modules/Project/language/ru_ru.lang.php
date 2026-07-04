@@ -34,22 +34,22 @@ if (!defined('sugarEntry') || !sugarEntry) {
  // Replaced by RAPIRA <-
  
 $mod_strings = array(
-'LBL_MODULE_NAME' => 'Проект' ,
-'LBL_MODULE_TITLE' => 'Проекты - ГЛАВНАЯ' ,
-'LBL_SEARCH_FORM_TITLE' => 'Поиск проекта' ,
-'LBL_LIST_FORM_TITLE' => 'Проекты' ,
-'LBL_HISTORY_TITLE' => 'История' ,
+'LBL_MODULE_NAME' => 'Проект',
+'LBL_MODULE_TITLE' => 'Проекты - ГЛАВНАЯ',
+'LBL_SEARCH_FORM_TITLE' => 'Поиск проекта',
+'LBL_LIST_FORM_TITLE' => 'Проекты',
+'LBL_HISTORY_TITLE' => 'История',
 
-'LBL_ID' => 'ID:' ,
-'LBL_DATE_ENTERED' => 'Дата создания:' ,
-'LBL_DATE_MODIFIED' => 'Дата изменения:' ,
-'LBL_ASSIGNED_USER_ID' => 'Ответственный(ая): ' ,
+'LBL_ID' => 'ID:',
+'LBL_DATE_ENTERED' => 'Дата создания:',
+'LBL_DATE_MODIFIED' => 'Дата изменения:',
+'LBL_ASSIGNED_USER_ID' => 'Ответственный(ая): ',
 
-'LBL_MODIFIED_USER_ID' => 'Изменено(ID):' ,
-'LBL_CREATED_BY' => 'Кем создано:' ,
-'LBL_NAME' => 'Проект:' ,
+'LBL_MODIFIED_USER_ID' => 'Изменено(ID):',
+'LBL_CREATED_BY' => 'Кем создано:',
+'LBL_NAME' => 'Проект:',
 
-'LBL_DELETED' => 'Удалено:' ,
+'LBL_DELETED' => 'Удалено:',
 'LBL_DATE' => 'Дата:',
 'LBL_DATE_START' => 'Дата начала:',
 'LBL_DATE_END' => 'Дата окончания:',
@@ -57,16 +57,16 @@ $mod_strings = array(
 'LBL_STATUS' => 'Статус',
 
 
-'LBL_LIST_NAME' => 'Название' ,
-'LBL_LIST_ASSIGNED_USER_ID' => 'Менеджер проекта' ,
-'LBL_LIST_TOTAL_ESTIMATED_EFFORT' => 'Предварительная оценка общих усилий (час.)' ,
-'LBL_LIST_TOTAL_ACTUAL_EFFORT' => 'Реальные общие усилия (час.)' ,
+'LBL_LIST_NAME' => 'Название',
+'LBL_LIST_ASSIGNED_USER_ID' => 'Менеджер проекта',
+'LBL_LIST_TOTAL_ESTIMATED_EFFORT' => 'Предварительная оценка общих усилий (час.)',
+'LBL_LIST_TOTAL_ACTUAL_EFFORT' => 'Реальные общие усилия (час.)',
 'LBL_LIST_END_DATE' => 'Дата окончания',
 
 
-'LBL_PROJECT_SUBPANEL_TITLE' => 'Проекты' ,
-'LBL_PROJECT_TASK_SUBPANEL_TITLE' => 'Проектные задачи' ,
-'LBL_OPPORTUNITY_SUBPANEL_TITLE' => 'Сделки' ,
+'LBL_PROJECT_SUBPANEL_TITLE' => 'Проекты',
+'LBL_PROJECT_TASK_SUBPANEL_TITLE' => 'Проектные задачи',
+'LBL_OPPORTUNITY_SUBPANEL_TITLE' => 'Сделки',
 'LBL_PROJECT_PREDECESSOR_NONE' => '--не выбрано--',
 'LBL_ALL_PROJECTS' => 'Все проекты',
 'LBL_ALL_USERS' => 'Все пользователи',
@@ -76,18 +76,18 @@ $mod_strings = array(
 'LBL_NEW_FORM_TITLE' => 'Новый проект',
 
 
-'LNK_NEW_PROJECT' => 'Создать проект' ,
-'LNK_PROJECT_LIST' => 'Проекты' ,
-'LNK_NEW_PROJECT_TASK' => 'Создать задачу проекта' ,
-'LNK_PROJECT_TASK_LIST' => 'Проектные задачи' ,
+'LNK_NEW_PROJECT' => 'Создать проект',
+'LNK_PROJECT_LIST' => 'Проекты',
+'LNK_NEW_PROJECT_TASK' => 'Создать задачу проекта',
+'LNK_PROJECT_TASK_LIST' => 'Проектные задачи',
 
-'LBL_DEFAULT_SUBPANEL_TITLE' => 'Проекты' ,
-'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Мероприятия' ,
-'LBL_HISTORY_SUBPANEL_TITLE' => 'История' ,
+'LBL_DEFAULT_SUBPANEL_TITLE' => 'Проекты',
+'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Мероприятия',
+'LBL_HISTORY_SUBPANEL_TITLE' => 'История',
 
-'LBL_PROJECT_TASKS_SUBPANEL_TITLE' => 'Проектные задачи' ,
-'LBL_CONTACTS_SUBPANEL_TITLE' => 'Контакты' ,
-'LBL_ACCOUNTS_SUBPANEL_TITLE' => 'Контрагенты' ,
+'LBL_PROJECT_TASKS_SUBPANEL_TITLE' => 'Проектные задачи',
+'LBL_CONTACTS_SUBPANEL_TITLE' => 'Контакты',
+'LBL_ACCOUNTS_SUBPANEL_TITLE' => 'Контрагенты',
 'LBL_OPPORTUNITIES_SUBPANEL_TITLE' => 'Сделки',
 'LBL_CASES_SUBPANEL_TITLE' => 'Обращения',
 'LBL_BUGS_SUBPANEL_TITLE' => 'Ошибки',
