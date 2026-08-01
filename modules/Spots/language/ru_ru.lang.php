@@ -1,4 +1,5 @@
 <?php
+if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
 /*********************************************************************************
 
 * This program is free software; you can redistribute it and/or modify it under
@@ -166,49 +167,4 @@ $mod_strings = array(
 
     //Error message when there are multiple values for the label
     'LBL_AN_DUPLICATE_LABEL_FOR_SUBAREA' => 'Ошибка получения названия области анализа',
-	
-	//Added to allow for the UI of the pivot to be language agnostic
-    'LBL_RENDERERS_TABLE' => 'Таблица', /// for PR #1868
-    'LBL_RENDERERS_TABLE_BARCHART' => 'Таблица с гистограммами', /// for PR #1868
-    'LBL_RENDERERS_HEATMAP' => 'Теплокарта', /// for PR #1868
-    'LBL_RENDERERS_ROW_HEATMAP' => 'Теплокарта по строке', /// for PR #1868
-    'LBL_RENDERERS_COL_HEATMAP' => 'Теплокарта по столбцу', /// for PR #1868
-    'LBL_RENDERERS_LINE_CHART' => 'График', /// for PR #1868
-    'LBL_RENDERERS_BAR_CHART' => 'Гистограмма', /// for PR #1868
-    'LBL_RENDERERS_STACKED_BAR_CHART' => 'Гистограмма с накоплением', /// for PR #1868
-    'LBL_RENDERERS_AREA_CHART' => 'Диаграмма с областями', /// for PR #1868
-    'LBL_RENDERERS_SCATTER_CHART' => 'Точечная диаграмма', /// for PR #1868
-    'LBL_AGGREGATORS_COUNT' => 'Количество', /// for PR #1868
-    'LBL_AGGREGATORS_COUNT_UNIQUE_VALUES' => 'Количество уникальных значений', /// for PR #1868
-    'LBL_AGGREGATORS_LIST_UNIQUE_VALUES' => 'Список уникальных значений', /// for PR #1868
-    'LBL_AGGREGATORS_SUM' => 'Сумма', /// for PR #1868
-    'LBL_AGGREGATORS_INTEGER_SUM' => 'Сумма целых значений', /// for PR #1868
-    'LBL_AGGREGATORS_AVERAGE' => 'Среднее', /// for PR #1868
-    'LBL_AGGREGATORS_MINIMUM' => 'Минимум', /// for PR #1868
-    'LBL_AGGREGATORS_MAXIMUM' => 'Максимум', /// for PR #1868
-    'LBL_AGGREGATORS_SUM_OVER_SUM' => 'Сумма вдоль подпространства', /// for PR #1868
-    'LBL_AGGREGATORS_80%_UPPER_BOUND' => '80% верхнего предела', /// for PR #1868
-    'LBL_AGGREGATORS_80%_LOWER_BOUND' => '80% нижнего предела', /// for PR #1868
-    'LBL_AGGREGATORS_SUM_AS_FRACTION_OF_TOTAL' => '% от общей суммы', /// for PR #1868
-    'LBL_AGGREGATORS_SUM_AS_FRACTION_OF_ROWS' => '% от суммы по строке', /// for PR #1868
-    'LBL_AGGREGATORS_SUM_AS_FRACTION_OF_COLUMNS' => '% от суммы по столбцу', /// for PR #1868
-    'LBL_AGGREGATORS_COUNT_AS_FRACTION_OF_TOTAL' => '% от общего количества', /// for PR #1868
-    'LBL_AGGREGATORS_COUNT_AS_FRACTION_OF_ROWS' => '% от количества по строке', /// for PR #1868
-    'LBL_AGGREGATORS_COUNT_AS_FRACTION_OF_COLUMNS' => '% от количества по столбцу', /// for PR #1868
-    'LBL_LOCALE_STRINGS_RENDER_ERROR' => 'Ошибка при отображении результатов.', /// for PR #1868
-    'LBL_LOCALE_STRINGS_COMPUTING_ERROR' => 'Ошибка при расчёте результатов.', /// for PR #1868
-    'LBL_LOCALE_STRINGS_UI_RENDER_ERROR' => 'Ошибка при отображении сводной таблицы.', /// for PR #1868
-    'LBL_LOCALE_STRINGS_SELECT_ALL' => 'Выбрать все', /// for PR #1868
-    'LBL_LOCALE_STRINGS_SELECT_NONE' => 'Снять выделение', /// for PR #1868
-    'LBL_LOCALE_STRINGS_TOO_MANY' => '(слишком много значений)', /// for PR #1868
-    'LBL_LOCALE_STRINGS_FILTER_RESULTS' => 'Фильтр', /// for PR #1868
-    'LBL_LOCALE_STRINGS_TOTALS' => 'Всего', /// for PR #1868
-    'LBL_LOCALE_STRINGS_VS' => '. Распределение по полю', /// for PR #1868
-    'LBL_LOCALE_STRINGS_BY' => '; подсчёт по полю', /// for PR #1868
-    'LBL_LOCALE_STRINGS_OK' => 'OK', /// for PR #1868
-	
-	
-    'LBL_ACTIVITIES_CALL' => 'Call', /// for PR #1868
-    'LBL_ACTIVITIES_MEETING' => 'Meeting', /// for PR #1868
-    'LBL_ACTIVITIES_TASK' => 'Task', /// for PR #1868
 );

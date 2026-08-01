@@ -90,7 +90,8 @@ $mod_strings = array(
 'Portal' => 'Портал',
 'Charts' => 'Графики',
 'Tools' => 'Сервис',
-'Miscellaneous' => 'Разное') ,
+'Miscellaneous' => 'Разное'
+),
 'LBL_ADDING_DASHLET' => 'Добавление дашлета...',
 'LBL_ADDED_DASHLET' => 'Дашлет добавлен',
 'LBL_REMOVE_DASHLET_CONFIRM' => 'Вы действительно хотите удалить этот дашлет?',

@@ -15,7 +15,7 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
  * this program; if not, see http://www.gnu.org/licenses or write to the Free
  * Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
  * 02110-1301 USA.
-     // Replaced by RAPIRA -->
+     // Replaced by RAPIRA ->
 
  ********************************************************************************/
   /*********************************************************************************
@@ -27,7 +27,7 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
   /*********************************************************************************
   * Description : Defines the Russian language pack for the base application.
   *********************************************************************************/
- // Replaced by RAPIRA <--
+ // Replaced by RAPIRA <-
 //the left value is the key stored in the db and the right value is ie display value
 //to translate, only modify the right value in each key/value pair
 $app_list_strings = array(
@@ -145,10 +145,10 @@ $app_list_strings = array(
   'account_type_dom' =>
   array(  
     '' => '',
-    // Added by RAPIRA -->
+    // Added by RAPIRA ->
     'Provider' => 'Поставщик' ,
     'Delivery service' => 'Служба доставки' ,
-     // Added by RAPIRA <--
+     // Added by RAPIRA <-
     'Analyst' => 'Аналитик' ,
     'Competitor' => 'Конкурент' ,
     'Customer' => 'Клиент' ,
@@ -263,7 +263,7 @@ $app_list_strings = array(
   'sales_stage_default_key' => 'Prospecting' ,
   'sales_stage_dom' =>
   array( 
-     // Added by RAPIRA -->
+     // Added by RAPIRA ->
      'Account is liquidated' => 'Счёт оплачен' ,
      'Assembling' => 'Сборка заказа /Счёт оплачен' ,
      'Assembling1' => 'Сборка заказа /Счёт частично оплачен' ,
@@ -272,7 +272,7 @@ $app_list_strings = array(
      'Shipping' => 'Готовность к отгрузке' ,
      'Shipping1' => 'Заказ отгружен /Счёт частично оплачен' ,
      'Shipping2' => 'Заказ отгружен /Счёт не оплачен' ,
-     // Added by RAPIRA <--  
+     // Added by RAPIRA <-  
     'Prospecting' => 'Разведка' ,
     'Qualification' => 'Оценка' ,
     'Needs Analysis' => 'Анализ потребностей' ,
@@ -287,13 +287,13 @@ $app_list_strings = array(
   
   'sales_probability_dom' => // keys must be the same as sales_stage_dom
   array(
-   // Added by RAPIRA -->
+   // Added by RAPIRA ->
 'Account is liquidated' => '85' ,
 'Assembling' => '90' ,
 'Assembling1' => '90' ,
 'Assembling2' => '90' ,
 'Shipping' => '95' ,
-// Added by RAPIRA <--
+// Added by RAPIRA <-
 'Prospecting' => '10' ,
 'Qualification' => '20' ,
 'Needs Analysis' => '25' ,
@@ -431,7 +431,7 @@ $app_list_strings = array(
   'messenger_type_dom' =>
   array(
     '' => '' ,
-    // Added by RAPIRA -->
+    // Added by RAPIRA ->
 	'Skype' => 'Skype' ,
 	'Viber' => 'Viber' ,
 	'Mail.ru-Agent' => 'Mail.ru Agent' ,
@@ -440,7 +440,7 @@ $app_list_strings = array(
 	'QIP' => 'QIP' ,
 	'Jabber' => 'XMPP/Jabber' ,
 	'GTalk' => 'Gtalk' ,
-     // Added by RAPIRA <--
+     // Added by RAPIRA <-
     'MSN' => 'MSN' ,
     'Yahoo!' => 'Yahoo!' ,
     'AOL' => 'AOL'    ,
@@ -2301,31 +2301,27 @@ $app_strings = array(
     'LBL_SEARCH_EXTERNAL_API' => 'Поиск на внешнем носителе', ///
     'LBL_EXTERNAL_SECURITY_LEVEL' => 'Безопасность', ///
 
-	    //IMPORT SAMPLE TEXT
-		// Replaced by RAPIRA -->
-    'LBL_IMPORT_SAMPLE_FILE_TEXT' => ' 
+//IMPORT SAMPLE TEXT
+    'LBL_IMPORT_SAMPLE_FILE_TEXT' => '
+"Это пример файла, содержащего подготовленные к импорту данные."
+"Файл представляет собой текст, содержащий запятые в качестве обычного разделителя и двойные кавычки в качестве ограничителя полей."
 
-Это пример файла, содержащего подготовленные к импорту данные.
-Файл представляет собой текст, содержащий запятые в качестве обычного разделителя и двойные кавычки в качестве ограничителя полей.
+"Самая верхняя строка содержит названия полей, которые будут отображены в системе."
+"Названия полей будут использоваться для корректного отображения содержимого файла в соответствующих полях системы."
 
-Самая верхняя строка содержит названия полей, которые будут отображены в системе.
-Названия полей будут использоваться для корректного отображения содержимого файла в соответствующих полях системы.
-
-Примечание:
-Названия полей, содержащихся в БД, также могут быть использованы в строке заголовка. Это может быть полезно, когда используются средства администрирования СУБД, например, PhpMyAdmin или любой другой соответствующий инструментарий для экспорта данных, предназначенных для последующего импорта.
-Порядок расположения столбцов в файле не имеет решающего значения, поскольку данные будут импортироваться в систему в соответствии с порядком следования полей в строке заголовка.
+"Примечание: Названия полей, содержащихся в БД, также могут быть использованы в строке заголовка. Это может быть полезно, когда используются средства администрирования СУБД, например, PhpMyAdmin или любой другой соответствующий инструментарий для экспорта данных, предназначенных для последующего импорта."
+"Порядок расположения столбцов в файле не имеет решающего значения, поскольку данные будут импортироваться в систему в соответствии с порядком следования полей в строке заголовка."
 	
 
-Для использования данного файла в качестве шаблона, выполните следующие действия:
-1. Удалите строки с демонстрационными данными
-2. Удалите текст справки, который вы сейчас читаете
-3. Заполните файл необходимыми рабочими данными
-4. Сохраните данный файл в определенной папке
-5. Из меню модуля запустите процесс импорта и выберите только что сохранённый файл в качестве источника данных для загрузки
-
+"Для использования данного файла в качестве шаблона, выполните следующие действия:"
+"1. Удалите строки с демонстрационными данными"
+"2. Удалите текст справки, который вы сейчас читаете"
+"3. Заполните файл необходимыми рабочими данными"
+"4. Сохраните данный файл в определенной папке"
+"5. Из меню модуля запустите процесс импорта и выберите только что сохранённый файл в качестве источника данных для загрузки"
    ',
-  // Replaced by RAPIRA <--
     //define labels to be used for overriding local values during import/export
+
 
 	
 	'LBL_NOTIFICATIONS_NONE' => 'Уведомления отсутствуют',
@@ -3376,11 +3372,10 @@ $app_list_strings['moduleList']['AOS_Line_Item_Groups'] = 'Группа пози
 $app_list_strings['moduleList']['AOS_Quotes'] = 'Предложения';
 
 $app_list_strings['aos_quotes_type_dom'][''] = '';
-// Added by RAPIRA -->
+// Added by RAPIRA ->
 $app_list_strings['aos_quotes_type_dom']['Provider'] = 'Поставщик'; //PR #0000
 $app_list_strings['aos_quotes_type_dom']['Delivery Service'] = 'Служба доставки'; //PR #0000
-// Added by RAPIRA <--
-$app_list_strings['aos_quotes_type_dom'][''] = '';
+// Added by RAPIRA <-
 $app_list_strings['aos_quotes_type_dom']['Analyst'] = 'Аналитик';
 $app_list_strings['aos_quotes_type_dom']['Competitor'] = 'Конкурент';
 $app_list_strings['aos_quotes_type_dom']['Customer'] = 'Клиент';
@@ -3410,11 +3405,13 @@ $app_list_strings['approval_status_dom']['Approved'] = 'Утверждено';
 $app_list_strings['approval_status_dom']['Not Approved'] = 'Не утверждено';
 $app_list_strings['approval_status_dom'][''] = '';
 
+// Replaced by RAPIRA ->
 $app_list_strings['vat_list']['22.0'] = '22.0%';
 $app_list_strings['vat_list']['20.0'] = '20.0%';
 $app_list_strings['vat_list']['0.0'] = '0.0%';
-$app_list_strings['vat_list']['18.0'] = '18.0%'; //PR #0000
-$app_list_strings['vat_list']['10.0'] = '10.0%'; //PR #0000
+$app_list_strings['vat_list']['18.0'] = '18.0%'; 
+$app_list_strings['vat_list']['10.0'] = '10.0%'; 
+// Replaced by RAPIRA <-
 
 
 $app_list_strings['discount_list']['Percentage'] = 'Процент';

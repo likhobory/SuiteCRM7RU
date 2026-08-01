@@ -16,7 +16,7 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
 * Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
 * 02110-1301 USA.
 
- // Replaced by RAPIRA -->
+ // Replaced by RAPIRA ->
  ********************************************************************************/
   /*********************************************************************************
   *
@@ -27,7 +27,7 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
   /*********************************************************************************
   * Description : Defines the Russian language pack for the base application.
   *********************************************************************************/
- // Replaced by RAPIRA <--
+ // Replaced by RAPIRA <-
  
 $mod_strings = array(
 'LBL_CAPTCHA_HELP_TEXT' => 'CAPTCHA (от англ. "Completely Automated Public Turing test to tell Computers and Humans Apart" - полностью автоматизированный публичный тест Тьюринга для различения компьютеров и людей.) Это тест с запросом к отправителю, с целью убедиться, что ответ не был сгенерирован компьютером автоматически. Для работы этой опции необходимо получить открытый и закрытый ключи с сайта reCAPTCHA: http://recaptcha.net/.',

@@ -16,7 +16,7 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
 * Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
 * 02110-1301 USA.
 
- // Replaced by RAPIRA -->
+ // Replaced by RAPIRA ->
  ********************************************************************************/
   /*********************************************************************************
   *
@@ -27,7 +27,7 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
   /*********************************************************************************
   * Description : Defines the Russian language pack for the base application.
   *********************************************************************************/
- // Replaced by RAPIRA <--
+ // Replaced by RAPIRA <-
  
 $mod_strings = array(
 'ERR_DELETE_RECORD' => 'Вы должны указать номер записи перед удалением.' ,
@@ -73,7 +73,6 @@ $mod_strings = array(
 'LBL_LIST_EMAIL_ADDRESS' => 'Адрес E-mail' ,
 'LBL_LIST_PHONE' => 'Тел.' ,
 'LBL_LIST_STATE' => 'Область' ,
-'LBL_LIST_WEBSITE' => 'Сайт' ,
 'LBL_MEMBER_OF' => 'Состоит в:' ,
 'LBL_MEMBER_ORG_SUBPANEL_TITLE' => 'Членские организации' ,
 'LBL_NAME' => 'Название:' ,

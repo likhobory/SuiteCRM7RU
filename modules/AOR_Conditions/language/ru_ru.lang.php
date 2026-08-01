@@ -15,7 +15,7 @@
 * Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
 * 02110-1301 USA.
 
- // Replaced by RAPIRA -->
+ // Replaced by RAPIRA ->
  ********************************************************************************/
   /*********************************************************************************
   *
@@ -26,7 +26,7 @@
   /*********************************************************************************
   * Description : Defines the Russian language pack for the base application.
   *********************************************************************************/
- // Replaced by RAPIRA <--
+ // Replaced by RAPIRA <-
 
 $mod_strings = array(
     'LBL_ID' => 'ID',

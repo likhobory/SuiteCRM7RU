@@ -14,7 +14,7 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
 * this program; if not, see http://www.gnu.org/licenses or write to the Free
 * Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
 * 02110-1301 USA.
- // Replaced by RAPIRA -->
+ // Replaced by RAPIRA ->
  ********************************************************************************/
   /*********************************************************************************
   *
@@ -24,7 +24,7 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
   /*********************************************************************************
   * Description : Defines the Russian language pack for the base application.
   *********************************************************************************/
- // Replaced by RAPIRA <--
+ // Replaced by RAPIRA <-
 $mod_strings = [
 'LBL_MODULE_NAME' => 'Коды авторизации OAuth2',
 'LBL_MODULE_TITLE' => 'Коды авторизации OAuth2',

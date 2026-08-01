@@ -32,7 +32,7 @@
 * SugarCRM" logo. If the display of the logo is not reasonably feasible for
 * technical reasons, the Appropriate Legal Notices must display the words
 * "Powered by SugarCRM".
-     // Replaced by RAPIRA -->
+     // Replaced by RAPIRA ->
  ********************************************************************************/
   /*********************************************************************************
   *
@@ -45,7 +45,7 @@
   * Portions created by SugarCRM are Copyright (C) SugarCRM, Inc. All Rights Reserved.
   * Contributor(s):
   *********************************************************************************/
- // Replaced by RAPIRA <--
+ // Replaced by RAPIRA <-
 
 $mod_strings = array(
   'LBL_ASSIGNED_TO_ID' => 'Ответственный(ая):',

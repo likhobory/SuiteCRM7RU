@@ -65,5 +65,6 @@ $mod_strings = array(
   'LBL_ADD_ACTION' => 'Добавить действие',
   'LBL_MULTIPLE_RUNS' => 'Многократный запуск',
   'LBL_RUN_WHEN' => 'Запускать',
-  'LBL_RUN_ON_IMPORT' => 'Запускать при импорте'
+  'LBL_RUN_ON_IMPORT' => 'Запускать при импорте',
+  'LBL_ACTION_NAME_NOT_ALLOWED' => 'Недопустимое название действия.',
 );

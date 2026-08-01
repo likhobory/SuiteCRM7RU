@@ -29,7 +29,6 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
   *********************************************************************************/
  // Replaced by RAPIRA <--
  
-global $timedate;
 
 $mod_strings = array(
 
@@ -242,7 +241,6 @@ $mod_strings = array(
 
     'LBL_EXTERNAL_ASSIGNED_TOOLTIP' => 'To assign the new records to a user other than yourself, use the Default Value column to select a different user.', ///
     'LBL_EXTERNAL_TEAM_TOOLTIP' => 'To assign the new records to teams other than your default team(s), use the Default Value column to select different teams.', ///
-
-
-
 );
+
+global $timedate;
